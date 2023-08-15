@@ -36,9 +36,30 @@ filepath:
 under_code:
 State s;
  
-----------結果0件ヒットしました--------------------------
+
+ーーーーーーーーSearch the target string3ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //HIVE-17328:notsurethisiscorrect...Idon'tthinkisgetswrappedinUDFToInteger....
+ 
+predict_string:
+ //HIVE-17328:notsurethisiscorrect...Idon'tthinkisgetswrappedinUDFToInteger.... 
+
+line_no || similarity 
+
+209 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/ql/src/java/org/apache/hadoop/hive/ql/optimizer/SortedDynPartitionOptimizer.java 
+
+under_code:
+bucketColumns.add(new ExprNodeColumnDesc(ci));
+ 
+----------結果3件ヒットしました--------------------------
 
 ans_lists1: private static boolean areMergeable(ParseContext pctx, SharedWorkOptimizerCache optimizerCache, 
 
 ans_lists2: State s; 
+
+ans_lists3: bucketColumns.add(new ExprNodeColumnDesc(ci)); 
 

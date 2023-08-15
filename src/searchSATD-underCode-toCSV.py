@@ -25,6 +25,7 @@ def process_file(filepath, search_string, sim):
 
                 for sub_line in lines[line_no:]:
                     if sub_line.strip():
+                        local_count += 1
                         result_dict = {
                             "count": local_count,
                             "result": sub_line.strip(),
@@ -33,7 +34,7 @@ def process_file(filepath, search_string, sim):
                             "filepath": filepath
                         }
 
-                        local_count += 1
+                        
                         print("predict_string:\n", line, "\n")
                         print("line_no || similarity \n")
                         print(line_no, "||", similarity, "\n")
@@ -57,6 +58,8 @@ def process_file(filepath, search_string, sim):
 
 
                     if sub_line.strip() and not(sub_line in search_string):
+
+                        local_count += 1
                         result_dict = {
                             "count": local_count,
                             "result": origin_sub_line,
@@ -65,7 +68,7 @@ def process_file(filepath, search_string, sim):
                             "filepath": filepath
                         }
                         
-                        local_count += 1
+                        
                         print("predict_string:\n", line, "\n")
                         print("line_no || similarity \n")
                         print(line_no, "||", similarity, "\n")
@@ -110,7 +113,7 @@ if __name__ == '__main__':
             search_string = search_string.replace(" ", "")
             count += 1
 
-            if count == 3:
+            if count == 4:
                 break
 
             print(f"\nーーーーーーーーSearch the target string{count}ーーーーーーーーーーーーーーー\n ")
