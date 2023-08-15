@@ -1,3 +1,5 @@
 dataset 
 clone
 result 
+.DS_Store
+.vscode/

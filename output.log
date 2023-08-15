@@ -1,0 +1,44 @@
+
+ーーーーーーーーSearch the target string1ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //FIXME:probablythisshouldalsobeintegratedwithisSame()logics
+ 
+predict_string:
+ //FIXME:probablythisshouldalsobeintegratedwithisSame()logics 
+
+line_no || similarity 
+
+655 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/ql/src/java/org/apache/hadoop/hive/ql/optimizer/SharedWorkOptimizer.java 
+
+under_code:
+private static boolean areMergeable(ParseContext pctx, SharedWorkOptimizerCache optimizerCache,
+ 
+
+ーーーーーーーーSearch the target string2ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //Waitfort1toblock,justbesure.Notideal...
+ 
+predict_string:
+ //Waitfort1toblock,justbesure.Notideal... 
+
+line_no || similarity 
+
+575 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestWorkloadManager.java 
+
+under_code:
+State s;
+ 
+----------結果0件ヒットしました--------------------------
+
+ans_lists1: private static boolean areMergeable(ParseContext pctx, SharedWorkOptimizerCache optimizerCache, 
+
+ans_lists2: State s; 
+

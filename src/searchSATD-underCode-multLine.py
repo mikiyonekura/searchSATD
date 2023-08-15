@@ -16,8 +16,9 @@ def process_file(filepath, search_string, sim):
         for line_no, line in enumerate(lines, 1):
             line = line.strip()
             line = line.replace(" ", "")
+            #print(line,search_string)
             similarity = difflib.SequenceMatcher(None, search_string, line).ratio()
-            if similarity > sim: # or searsh_string in line: or line in searsh_string:
+            if search_string == line or search_string in line:
                 for sub_line in lines[line_no:]:
                     if sub_line.strip():
                         print("predict_string:\n  ", line, "\n")
@@ -26,6 +27,17 @@ def process_file(filepath, search_string, sim):
                         print(line_no, "||", similarity, "\n")
                         local_count += 1
                         return local_count, sub_line.strip()
+            elif (line in search_string) and len(line) > 10:
+                for sub_line in lines[line_no:]:
+                    #空白の行でなく　かつ　検索文字列に含まれていない場合
+                    if sub_line.strip() and not(sub_line in search_string):
+                        print("predict_string:\n  ", line, "\n")
+                        print("filepath:\n  ", filepath, "\n")
+                        print("line_no || similarity \n")
+                        print(line_no, "||", similarity, "\n")
+                        local_count += 1
+                        return local_count, sub_line.strip()
+                    
     return local_count, None
 
 def search_files(search_string,sim):
@@ -62,7 +74,7 @@ if __name__ == '__main__':
             search_string = search_string.replace(" ", "")
             count += 1
 
-            if count == 501:
+            if count == 31:
                 break
 
             print(f"\nーーーーーーーーSearch the target string{count}ーーーーーーーーーーーーーーー\n ")
@@ -84,7 +96,7 @@ if __name__ == '__main__':
             global_count += count_increment
 
     print(f"----------結果{global_count}件ヒットしました--------------------------\n")
-    with open('/Users/yonekuramiki/Desktop/resarch/ReviewSATD_RP/src/mygitpython/under--Hive.txt', 'w') as a:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/under--Hive.txt', 'w') as a:
         for idx, item in enumerate(ans):
             print(f"ans_lists{idx+1}:", item, "\n")
             a.write(str(item) + "\n")
