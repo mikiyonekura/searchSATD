@@ -1,3 +1,0 @@
-Iterator it = getPathItemFigs().iterator();
-if (settings == null) {
-return new SelectionRerouteEdge(this);

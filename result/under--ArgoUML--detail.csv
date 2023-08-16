@@ -1,4 +1,0 @@
-search_string,predict_under_code,line_no,similarity,filepath
-"/* TODO: MVW: Why is this not done in GEF? */","Iterator it = getPathItemFigs().iterator();",1084,1.0,/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/ui/FigEdgeModelElement.java
-"// TODO: This is a temporary crutch to use until all Figs are updated // to use the constructor that accepts a DiagramSettings object","if (settings == null) {",240,0.6746987951807228,/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/ui/ArgoFigText.java
-"// TODO: There is a cyclic dependency between SelectionRerouteEdge // and FigEdgeModelElement","return new SelectionRerouteEdge(this);",558,0.8285714285714286,/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/ui/FigEdgeModelElement.java
