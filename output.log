@@ -2,64 +2,622 @@
 ーーーーーーーーSearch the target string1ーーーーーーーーーーーーーーー
  
 search_string:
- //FIXME:probablythisshouldalsobeintegratedwithisSame()logics
+ /*TODO:MVW:WhyisthisnotdoneinGEF?*/
  
 predict_string:
- //FIXME:probablythisshouldalsobeintegratedwithisSame()logics 
+ /*TODO:MVW:WhyisthisnotdoneinGEF?*/ 
 
 line_no || similarity 
 
-655 || 1.0 
+1084 || 1.0 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/ql/src/java/org/apache/hadoop/hive/ql/optimizer/SharedWorkOptimizer.java 
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/ui/FigEdgeModelElement.java 
 
 under_code:
-private static boolean areMergeable(ParseContext pctx, SharedWorkOptimizerCache optimizerCache,
+Iterator it = getPathItemFigs().iterator();
  
 
 ーーーーーーーーSearch the target string2ーーーーーーーーーーーーーーー
  
 search_string:
- //Waitfort1toblock,justbesure.Notideal...
+ //TODO:ThisisatemporarycrutchtouseuntilallFigsareupdated//tousetheconstructorthatacceptsaDiagramSettingsobject
  
+sub_line:
+ //tousetheconstructorthatacceptsaDiagramSettingsobject 
+
+frontremoved_sub_line:
+ usetheconstructorthatacceptsaDiagramSettingsobject 
+
+sub_line:
+ if(settings==null){ 
+
+frontremoved_sub_line:
+ ettings==null){ 
+
 predict_string:
- //Waitfort1toblock,justbesure.Notideal... 
+ //TODO:ThisisatemporarycrutchtouseuntilallFigsareupdated 
 
 line_no || similarity 
 
-575 || 1.0 
+240 || 0.6746987951807228 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/ql/src/test/org/apache/hadoop/hive/ql/exec/tez/TestWorkloadManager.java 
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/ui/ArgoFigText.java 
 
 under_code:
-State s;
+if (settings == null) {
  
 
 ーーーーーーーーSearch the target string3ーーーーーーーーーーーーーーー
  
 search_string:
- //HIVE-17328:notsurethisiscorrect...Idon'tthinkisgetswrappedinUDFToInteger....
+ //TODO:ThereisacyclicdependencybetweenSelectionRerouteEdge//andFigEdgeModelElement
  
+sub_line:
+ //andFigEdgeModelElement 
+
+frontremoved_sub_line:
+ dFigEdgeModelElement 
+
+sub_line:
+ returnnewSelectionRerouteEdge(this); 
+
+frontremoved_sub_line:
+ rnnewSelectionRerouteEdge(this); 
+
 predict_string:
- //HIVE-17328:notsurethisiscorrect...Idon'tthinkisgetswrappedinUDFToInteger.... 
+ //TODO:ThereisacyclicdependencybetweenSelectionRerouteEdge 
 
 line_no || similarity 
 
-209 || 1.0 
+558 || 0.8285714285714286 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/ql/src/java/org/apache/hadoop/hive/ql/optimizer/SortedDynPartitionOptimizer.java 
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/ui/FigEdgeModelElement.java 
 
 under_code:
-bucketColumns.add(new ExprNodeColumnDesc(ci));
+return new SelectionRerouteEdge(this);
  
-----------結果3件ヒットしました--------------------------
 
-ans_lists1: private static boolean areMergeable(ParseContext pctx, SharedWorkOptimizerCache optimizerCache, 
+ーーーーーーーーSearch the target string4ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:Weneedtorethrowthisassomeotherexception//typebutthatistoomuchchangeforthemoment.
+ 
+sub_line:
+ //typebutthatistoomuchchangeforthemoment. 
 
-ans_lists2: State s; 
+frontremoved_sub_line:
+ pebutthatistoomuchchangeforthemoment. 
 
-ans_lists3: bucketColumns.add(new ExprNodeColumnDesc(ci)); 
+sub_line:
+ LOG.error("Exception",e); 
 
+frontremoved_sub_line:
+ error("Exception",e); 
+
+predict_string:
+ //TODO:Weneedtorethrowthisassomeotherexception 
+
+line_no || similarity 
+
+68 || 0.6917293233082706 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-core-umlpropertypanels/src/org/argouml/core/propertypanels/ui/UMLComponentInstanceClassifierComboBoxModel.java 
+
+under_code:
+LOG.error("Exception", e);
+ 
+
+ーーーーーーーーSearch the target string5ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:It'sprobablyworthwhiletoabstractandfactor//thischooseranddirectorystuff.Morefilehandlingis//coming,I'msure.
+ 
+sub_line:
+ //thischooseranddirectorystuff.Morefilehandlingis 
+
+frontremoved_sub_line:
+ ischooseranddirectorystuff.Morefilehandlingis 
+
+sub_line:
+ //coming,I'msure. 
+
+frontremoved_sub_line:
+ ming,I'msure. 
+
+sub_line:
+ try{ 
+
+frontremoved_sub_line:
+  
+
+sub_line:
+ FiletheFile=newFile(saveDir,defaultName+"." 
+
+frontremoved_sub_line:
+ theFile=newFile(saveDir,defaultName+"." 
+
+predict_string:
+ //TODO:It'sprobablyworthwhiletoabstractandfactor 
+
+line_no || similarity 
+
+153 || 0.5925925925925926 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/ui/ActionSaveAllGraphics.java 
+
+under_code:
+File theFile = new File(saveDir, defaultName + "."
+ 
+
+ーーーーーーーーSearch the target string6ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:completethisimplementation-tfm
+ 
+predict_string:
+ //TODO:completethisimplementation-tfm 
+
+line_no || similarity 
+
+2419 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-core-model-euml/src/org/argouml/model/euml/FacadeEUMLImpl.java 
+
+under_code:
+return handle instanceof Component
+ 
+
+ーーーーーーーーSearch the target string7ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:ThiswillvarybasedonthetypeoftheTagDefinition
+ 
+predict_string:
+ //TODO:ThiswillvarybasedonthetypeoftheTagDefinition 
+
+line_no || similarity 
+
+143 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/ui/TabTaggedValuesModel.java 
+
+under_code:
+return String.class;
+ 
+
+ーーーーーーーーSearch the target string8ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //setFontFamily("dialog");/*TODO:Isthisneeded?*/
+ 
+sub_line:
+ //forceRepaintShadow(); 
+
+frontremoved_sub_line:
+ rceRepaintShadow(); 
+
+predict_string:
+ /*TODO:Isthisneeded?*/ 
+
+line_no || similarity 
+
+651 || 0.6285714285714286 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/ui/FigCompartmentBox.java 
+
+under_code:
+// forceRepaintShadow();
+ 
+
+ーーーーーーーーSearch the target string9ーーーーーーーーーーーーーーー
+ 
+search_string:
+ "/***TODO:Movethisintothetoolbarproject.*/"
+ 
+sub_line:
+ */ 
+
+frontremoved_sub_line:
+  
+
+sub_line:
+ privatestaticPopupToolBoxButtonbuildPopupToolBoxButton(Object[]actions, 
+
+frontremoved_sub_line:
+ atestaticPopupToolBoxButtonbuildPopupToolBoxButton(Object[]actions, 
+
+predict_string:
+ *TODO:Movethisintothetoolbarproject. 
+
+line_no || similarity 
+
+175 || 0.9113924050632911 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/util/ToolBarUtility.java 
+
+under_code:
+private static PopupToolBoxButton buildPopupToolBoxButton(Object[] actions,
+ 
+
+ーーーーーーーーSearch the target string10ーーーーーーーーーーーーーーー
+ 
+search_string:
+ "/**TODO:Thisisatemporarymethodofmakingsurethemodelisupdated*onlossoffocusofacombobox.Inthelongtermweshouldattemptto*updatethemodeloneachkeypress.**@seejava.awt.event.FocusListener#focusLost(java.awt.event.FocusEvent)*/"
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string11ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //ThesemethodsarebasedontheGraphEvents.Theseneedreplacingby//morespecicmeaningfulrequestsofthediagraminterfacemodel
+ 
+sub_line:
+ //morespecicmeaningfulrequestsofthediagraminterfacemodel 
+
+frontremoved_sub_line:
+ respecicmeaningfulrequestsofthediagraminterfacemodel 
+
+sub_line:
+ voidnodeAdded(Objectsource,Objectarg); 
+
+frontremoved_sub_line:
+ nodeAdded(Objectsource,Objectarg); 
+
+predict_string:
+ //ThesemethodsarebasedontheGraphEvents.Theseneedreplacingby 
+
+line_no || similarity 
+
+58 || 0.6781609195402298 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-core-model/src/org/argouml/model/DiagramInterchangeModel.java 
+
+under_code:
+void nodeAdded(Object source, Object arg);
+ 
+
+ーーーーーーーーSearch the target string12ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:AllsuperconstrcutorsshouldtakeaGraphModel
+ 
+predict_string:
+ //TODO:AllsuperconstrcutorsshouldtakeaGraphModel 
+
+line_no || similarity 
+
+125 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/collaboration/ui/UMLCollaborationDiagram.java 
+
+under_code:
+setGraphModel(createGraphModel());
+ 
+
+ーーーーーーーーSearch the target string13ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //workaroundformissingabilitytoparse"*"
+ 
+predict_string:
+ //workaroundformissingabilitytoparse"*" 
+
+line_no || similarity 
+
+1825 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-core-model-euml/src/org/argouml/model/euml/FacadeEUMLImpl.java 
+
+under_code:
+if (value instanceof Collection) {
+ 
+
+ーーーーーーーーSearch the target string14ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:Needstobetidiedupafterstablerelease.Graphmodel//shouldbecreatedinconstructor
+ 
+sub_line:
+ //shouldbecreatedinconstructor 
+
+frontremoved_sub_line:
+ ouldbecreatedinconstructor 
+
+sub_line:
+ privateCollabDiagramGraphModelcreateGraphModel(){ 
+
+frontremoved_sub_line:
+ ateCollabDiagramGraphModelcreateGraphModel(){ 
+
+predict_string:
+ //TODO:Needstobetidiedupafterstablerelease.Graphmodel 
+
+line_no || similarity 
+
+194 || 0.7794117647058824 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/collaboration/ui/UMLCollaborationDiagram.java 
+
+under_code:
+private CollabDiagramGraphModel createGraphModel() {
+ 
+
+ーーーーーーーーSearch the target string15ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //thisiswronglycalledwithanullhandle,//asaworkaroundwereturnanemptycollection
+ 
+sub_line:
+ //asaworkaroundwereturnanemptycollection 
+
+frontremoved_sub_line:
+ aworkaroundwereturnanemptycollection 
+
+sub_line:
+ returnCollections.emptyList(); 
+
+frontremoved_sub_line:
+ rnCollections.emptyList(); 
+
+predict_string:
+ //thisiswronglycalledwithanullhandle, 
+
+line_no || similarity 
+
+510 || 0.6491228070175439 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-core-model-euml/src/org/argouml/model/euml/FacadeEUMLImpl.java 
+
+under_code:
+return Collections.emptyList();
+ 
+
+ーーーーーーーーSearch the target string16ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:notnavigablethisdirection?-tfm
+ 
+predict_string:
+ //TODO:notnavigablethisdirection?-tfm 
+
+line_no || similarity 
+
+1561 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-core-model-euml/src/org/argouml/model/euml/FacadeEUMLImpl.java 
+
+under_code:
+return Collections.EMPTY_SET;
+ 
+
+ーーーーーーーーSearch the target string17ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:thisdoesn'tlookright-review-tfm
+ 
+predict_string:
+ //TODO:thisdoesn'tlookright-review-tfm 
+
+line_no || similarity 
+
+156 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-core-model-mdr/src/org/argouml/model/mdr/ExtensionMechanismsFactoryMDRImpl.java 
+
+under_code:
+Stereotype stereo2 = (Stereotype) extensionHelper.getStereotype(ns,
+ 
+
+ーーーーーーーーSearch the target string18ーーーーーーーーーーーーーーー
+ 
+search_string:
+ "/***@returnthestatemachine**TODO:IfthismethodiscalledbyanyoftheFigs,itwillintroduce*adependencycycle.Itwouldbemuchbetteriftheycouldjust*use{@linkorg.argouml.uml.diagram.ArgoDiagram#getOwner()}whichdoes*thesamething.*/"
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string19ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:NeedtocleanupobjectToId//(canwedoitbasedonmodelelementdelete//notifications?)
+ 
+sub_line:
+ //(canwedoitbasedonmodelelementdelete 
+
+frontremoved_sub_line:
+ anwedoitbasedonmodelelementdelete 
+
+sub_line:
+ //notifications?) 
+
+frontremoved_sub_line:
+ tifications?) 
+
+sub_line:
+ extent.refDelete(); 
+
+frontremoved_sub_line:
+ nt.refDelete(); 
+
+predict_string:
+ //TODO:NeedtocleanupobjectToId 
+
+line_no || similarity 
+
+342 || 0.5263157894736842 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-core-model-mdr/src/org/argouml/model/mdr/MDRModelImplementation.java 
+
+under_code:
+extent.refDelete();
+ 
+
+ーーーーーーーーSearch the target string20ーーーーーーーーーーーーーーー
+ 
+search_string:
+ "/***Theconstructor.*TODO:Whydoesthismethodnothandleallsettings*(KEY_DEFAULT_SHADOW_WIDTHismissing)?*/"
+ 
+sub_line:
+ */ 
+
+frontremoved_sub_line:
+  
+
+sub_line:
+ publicTargetManagerPanel(){ 
+
+frontremoved_sub_line:
+ icTargetManagerPanel(){ 
+
+predict_string:
+ *Theconstructor. 
+
+line_no || similarity 
+
+89 || 0.2689075630252101 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/modules/dev/src/org/argouml/dev/TargetManagerPanel.java 
+
+under_code:
+public TargetManagerPanel() {
+ 
+
+ーーーーーーーーSearch the target string21ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:Performancecriticalmethod
+ 
+predict_string:
+ //TODO:Performancecriticalmethod 
+
+line_no || similarity 
+
+187 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-core-model-mdr/src/org/argouml/model/mdr/ModelManagementHelperMDRImpl.java 
+
+under_code:
+long startTime = System.currentTimeMillis();
+ 
+
+ーーーーーーーーSearch the target string22ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:Needswork.MustdeterminewhichFigsenclosed//inthepoolarewithintheboundsofthisFig//andtranslatethose.
+ 
+sub_line:
+ //inthepoolarewithintheboundsofthisFig 
+
+frontremoved_sub_line:
+ thepoolarewithintheboundsofthisFig 
+
+sub_line:
+ //andtranslatethose. 
+
+frontremoved_sub_line:
+ dtranslatethose. 
+
+sub_line:
+ privatevoidtranslateWithContents(intdx){ 
+
+frontremoved_sub_line:
+ atevoidtranslateWithContents(intdx){ 
+
+predict_string:
+ //TODO:Needswork.MustdeterminewhichFigsenclosed 
+
+line_no || similarity 
+
+349 || 0.618421052631579 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/activity/ui/FigPartition.java 
+
+under_code:
+private void translateWithContents(int dx) {
+ 
+
+ーーーーーーーーSearch the target string23ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:Optimizeforrootmodelcase?-tfm
+ 
+predict_string:
+ //TODO:Optimizeforrootmodelcase?-tfm 
+
+line_no || similarity 
+
+227 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-core-model-mdr/src/org/argouml/model/mdr/ModelManagementHelperMDRImpl.java 
+
+under_code:
+if (contained(nsa, me)) {
+ 
+
+ーーーーーーーーSearch the target string24ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:Dowereallyneedtodothis?Carriedoverfromoldbehavior
+ 
+predict_string:
+ //TODO:Dowereallyneedtodothis?Carriedoverfromoldbehavior 
+
+line_no || similarity 
+
+170 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/uml/diagram/ArgoDiagramImpl.java 
+
+under_code:
+try {
+ 
+
+ーーーーーーーーSearch the target string25ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODOElementOwnershipisnotinModelSubsys!!
+ 
+predict_string:
+ //TODOElementOwnershipisnotinModelSubsys!! 
+
+line_no || similarity 
+
+379 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/argouml-app/src/org/argouml/profile/internal/ocl/uml14/ModelAccessModelInterpreter.java 
+
+under_code:
+/* 4.5.2.18 ElementOwnership */
+ 
+
+ーーーーーーーーSearch the target string26ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:Thisseemslikeabruteforceworkaround(andavery//indirectoneatthat).Itappearstobeneededthoughuntil//wefixtheproblemproperly.-tfm20070904
+ 

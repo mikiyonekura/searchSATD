@@ -7,7 +7,7 @@ import concurrent.futures
 
 
 clone_dir = '/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone'
-repo_url = 'https://github.com/apache/hive.git'
+repo_url = 'https://github.com/argouml-tigris-org/argouml.git'
 
 global_count = 0
 binary_extensions = [".java"]
@@ -100,11 +100,11 @@ if __name__ == '__main__':
         git.Repo.clone_from(repo_url, clone_dir)
 
     repo = git.Repo(clone_dir)
-    repo.git.checkout('release-3.1.2-rc0')
+    repo.git.checkout('VERSION_0_34')
 
     ans = []
 
-    with open('/Users/yonekuramiki/Desktop/resarch/ReviewSATD_RP/src/mygitpython/data--Hive.txt', 'r') as f:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/dataset/data--ArgoUML.txt', 'r') as f:
         count = 0
 
         for line in f:
@@ -113,7 +113,10 @@ if __name__ == '__main__':
             search_string = search_string.replace(" ", "")
             count += 1
 
-            if count == 4:
+            # if count <= 1000:
+            #     continue
+
+            if count > 2000:
                 break
 
             print(f"\nーーーーーーーーSearch the target string{count}ーーーーーーーーーーーーーーー\n ")
@@ -139,12 +142,12 @@ if __name__ == '__main__':
 
     print(f"----------結果{global_count}件ヒットしました--------------------------\n")
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/under--Hive.txt', 'w') as a:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/under--ArgoUML.txt', 'w') as a:
         for idx, (origin_search_string, item, line_no, similarity, filepath) in enumerate(ans):
             print(f"ans_lists{idx+1}:", item, "\n")
             a.write(str(item) + "\n")
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/under--Hive--detail.csv', 'w') as b:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/under--ArgoUML--detail.csv', 'w') as b:
         b.write("search_string,predict_under_code,line_no,similarity,filepath\n")
         for idx, (origin_search_string, item, line_no, similarity, filepath) in enumerate(ans):
             #ダブルクォートで囲む
