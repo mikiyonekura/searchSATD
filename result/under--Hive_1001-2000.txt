@@ -1,0 +1,1000 @@
+//BaseSemanticAnalyzer sem = SemanticAnalyzerFactory.get(new QueryState(queryState.getConf()), input);
+return lowLevelCache.getFileData(fileKey, range, baseOffset, factory, null, gotAllData);
+// partition without column info. This should be investigated later.
+Map<ASTNode, ExprNodeDesc> map = TypeCheckProcFactory
+LOG.error("Fatal error: scheduler thread has failed and will now exit", t);
+// BitSet::wordsInUse is transient, so force dumping into a lower form
+}
+public class HiveMetaStore extends ThriftHiveMetastore {
+Logger.info("Table " + tbl.getTableName() + " is ACID table. Skip StatsOptimizer.");
+too long.
+try (Statement stmt = conn.createStatement()) {
+if (rel instanceof SemiJoin) {
+Deadline.resetTimeout(MetastoreConf.convertTimeStr(changeEvent.getNewValue(), TimeUnit.SECONDS,
+too long.
+@Test
+boolean isLlapOn = HiveConf.getBoolVar(conf, ConfVars.LLAP_IO_ENABLED, llapMode);
+//now make sure delete deltas are present
+too long.
+if (tbl.isNonNative()) {
+boolean orderFound;
+return new Text(getHiveChar().getStrippedValue());
+too long.
+cmd.append(getOpts().getDelimiter());
+too long.
+Object result = nodeOutput.get(node);
+None
+return new PartInfo(schema, storageHandler, sd.getLocation(),
+cboCtx.nodeOfInterest = (ASTNode) subq.getChild(0);
+WmFragmentCounters wmCounters = new WmFragmentCounters();
+parentTab = Hive.get().getTable(parentDatabaseName, parentTableName);
+private final IndexCache indexCache;
+(desiredLock.txnId == 0 &&  desiredLock.extLockId == existingLock.extLockId);
+too long.
+TGetInfoReq req = new TGetInfoReq(sessionHandle.toTSessionHandle(), infoType.toTGetInfoType());
+static final int DEFAULT_RETRY_COUNT = 2; // test is executed 3 times in worst case 1 original + 2 retries
+xmx = options.getXmx();
+too long.
+}
+* @param addPrimaryKeyEvent add primary key event
+if (te.getType() != TApplicationException.UNKNOWN_METHOD
+public Builder storageHandler(String storageHandler) throws HCatException {
+}
+discardableInputOps.addAll(gatherDPPBranchOps(pctx, optimizerCache, discardableOps));
+return HiveJoin.getJoin(left.getCluster(), left, right, condition, joinType);
+if (current.resourcePlanToApply != null) {
+checkAcidConstraints(qb, table_desc, dest_tab);
+conf.setBoolVar(ConfVars.HIVE_SUPPORT_CONCURRENCY, false);
+// Can be converted to a Tez event, if this is sufficient to decide on pre-emption
+AvroGenericRecordWritable agrw2 = new AvroGenericRecordWritable();
+DataBag pigBag = (DataBag) pigObj;
+HttpClient httpClient = mock(HttpClient.class);
+TableHandler tableHandler = new TableHandler();
+}
+// by position in the row schema of the filesink operator.
+JoinUtil.JoinResult joinResult;
+boolean allKeyInputColumnsRepeating;
+throw new SQLFeatureNotSupportedException("Method not supported");
+log("Failed to log lineage graph, query is not affected\n"
+throw new RuntimeException(e);
+List<Operator<? extends OperatorDesc>> originalChilren = op
+opHandle = executeStatementInternal(cmd_trimed, null, false, 0);
+// jobConf will hold all the configuration for hadoop, tez, and hive
+private void generateColumnUnaryFunc(String[] tdesc) throws Exception {
+lastInputPath = currentInputPath;
+return predPresent ? whereClause.append(groupByClause) : groupByClause;
+return SORT_COLS;
+oldCall.isDistinct(),
+fs = new MockFileSystem(conf,
+public void setTypeName(String typeName) {
+for (int i = 0; i < methodParameterTypes.length; i++) {
+private Thread separateRowGenerator;
+assertEquals(HiveIntervalDayTime.valueOf("1 10:11:0"),
+assertEquals(1, splits.length);
+int toWrite = Math.min(toRead, wbSize - writePos.offset);
+too long.
+/// if COUNT returns true since COUNT produces 0 on empty result set
+int numRowsReceived;
+if (HiveConf.getBoolVar(hiveConf, HiveConf.ConfVars.LLAP_IO_ENABLED, false)) {
+// the metadata system.
+if (scSize == 2) {
+try {
+boolean partKeysPartiallyEqual = checkPartialPartKeysEqual(oldt.getPartitionKeys(),
+sparkConf.put("spark.hadoop." + propertyName, value);
+Table table = null;
+// sparse map.
+throw new MetaException("Duplicate partitions in the list: " + part);
+key = key ^ (key >>> 14);
+removeBlockFromFreeList(freeList, bHeaderIx, freeListIx);
+PrimitiveCategory primitiveCategory = ((PrimitiveObjectInspector) arguments[i])
+}
+prot.readFieldBegin();
+//       Project-B (may reference coVar)
+None
+break;
+//---------------------------------------------------
+if (pactx.getJoinOps() != null) {
+} finally {
+sb.append(state == null ? "N" : state);
+LOG.info("Response to queryId=" + queryId + " " + res);
+if (ref != null && ref.getToken().getType() == HiveParser.Number) {
+@Override
+LoadTableDesc loadTableWork = new LoadTableDesc(moveTaskSrc, Utilities.getTableDesc(table),
+private TableDesc scriptInputInfo;
+throw new NumberFormatException("Invalid string:"
+Assert.assertEquals(HADOOP_CREDSTORE_PASSWORD_ENVVAR_VAL, getValueFromJobConf(
+for (int i = numOfServicesStarted; i >= 0; i--) {
+TableFunctionEvaluator tEval = def.getTFunction();
+updateJobStatePercentAndChildId(conf, context.getJobID().toString(), null, childJobIdString);
+return array[index].getKey();
+// we also need to delete partdate=2008-01-01 to make it consistent.
+Assert.assertEquals(oldDec.toString(), dec.toString());
+boolean convert = canConvertMapJoinToBucketMapJoin(
+key.startsWith("druid."))) {
+too long.
+sb.append(randomizePattern(control, chunk));
+List<WriteEntity> toRemove = new ArrayList<>();
+TSocket tSSLSocket = TSSLTransportFactory.getClientSocket(host, port, loginTimeout);
+List<ExprNodeDesc> keyDesc = desc.getKeys().get(posBigTable);
+Deadline.startTimer("getAggrPartitionColumnStatistics");
+if (moveTaskToLink.getDependentTasks() != null) {
+if (taskWrapper == null) return null;
+private void createNewGroupingKey(List<ExprNodeDesc> groupByKeys,
+runStatementOnDriver("load data local inpath '" + getWarehouseDir() + "/1/data' into table T partition(p=0)");
+if (dynPart && dpCtx != null && dpCtx.getNumDPCols() > 0) {
+GenericUDFToUnixTimeStamp udf2 = new GenericUDFToUnixTimeStamp();
+RelNode newProject = HiveProject.create(newInput, Pair.left(projects), Pair.right(projects));
+File file = new File("./sales.txt");
+public void example() throws Exception {
+// Original bucket files and delta directory should stay until Cleaner kicks in.
+this.negative = this.negative ^ right.negative;
+if (inputOI.preferWritable()) {
+Calendar cal = Calendar.getInstance();
+SessionState ss = DriverUtils.setUpSessionState(conf, user, false);
+for (Path dir : dirs) {
+s = sqlGenerator.addLimitClause(10 * TIMED_OUT_TXN_ABORT_BATCH_SIZE, s);
+conf.setVar(HiveConf.ConfVars.HIVE_TXN_RETRYABLE_SQLEX_REGEX, "^Deadlock detected, roll back,.*08177.*,.*08178.*");
+// So, no need to attempt to merge the files again.
+LOG.error("Unable to add settable data to UDF " + genericUDF.getClass());
+final ValidReadTxnList validTxnList =
+outputs.add(new WriteEntity(partn, WriteEntity.WriteType.DDL_NO_LOCK));
+tablename = "tab1";
+}
+stopMiniHS2();
+"eq(last_name, Binary{\"smith\"})"    /* 'smith' = last_name  */
+if (fb.skipNulls && s.valueChain.size() == 0) {
+assertEquals("Query should be finished",  OperationState.FINISHED, state);
+replicas,
+public static class OracleCommandParser extends AbstractCommandParser {
+if (level == (input.size() - 1)) {
+writeResources.release();
+public void dump(String prefix) {
+// compute statistics for columns viewtime
+public class HBaseLazyObjectFactory {
+return 0;
+this.timer = new ScheduledThreadPoolExecutor(1);
+DbTxnManager txnMgr2 = (DbTxnManager) TxnManagerFactory.getTxnManagerFactory().getTxnManager(conf);
+private static void buildJSONString(StringBuilder sb, Object o, ObjectInspector oi) throws IOException {
+too long.
+Object result = FunctionRegistry.invoke(udfMethod, udf, conversionHelper
+return harLocn;
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+start = processBoundary(type, (ASTNode) node.getChild(0));
+List<ExprNodeDesc> parentPCs = pRS.getConf().getPartitionCols();
+updateAvgVariableSize(batch);
+while (true) {
+{"{\"writeid\":10000001,\"bucketid\":536936448,\"rowid\":0}\t60\t88", "warehouse/t/delta_10000001_10000001_0000/bucket_00001"},
+rowCnt = getRowCnt(pctx, tsOp, tbl);
+cal = Calendar.getInstance();
+try {
+minFinalFnOIs.add(rsValueCols.get(0).getWritableObjectInspector());
+if (skewed == false) {
+private HashSet<Class<? extends Node>> nodeTypes = new HashSet<Class<? extends Node>>();
+conf.unset(ValidTxnList.VALID_TXNS_KEY);
+if (hiveConf.getBoolVar(HiveConf.ConfVars.HIVE_VECTORIZATION_ENABLED) ||
+tsWrapper.allocateTask(task4, hostsH1, priority1, clientCookie4);
+Path subDir = fileStatus.getPath();
+listNewFilesRecursively(destFs, fileStatus.getPath(), newFiles);
+orgHiveLoader = conf.getClassLoader();
+if (join.getJoinType() != JoinRelType.INNER) {
+if (isOnDisk(partitionId)) {
+cpr = driver.compileAndRespond("select a from T6", true);
+ctx.addViewTokenRewriteStream(viewFullyQualifiedName, tokens);
+fastSerializationScale = -1;
+ReduceSinkDesc rsDescFinal = PlanUtils.getReduceSinkDesc(
+// e1 * e2
+// TODO For now, this affects non broadcast unsorted cases as well. Make use of the edge
+fs.mkdirs(tezDir);
+if (isSchemaVerified.get()) {
+ASTNode child = (ASTNode) exprList.getChild(i);
+// fields
+Map<ReadEntity, ReadEntity> readEntityMap =
+if (registry != null && registry.getVisited(this).contains(node)) {
+if (oldSplit == null) {
+// bad files don't pollute the filesystem
+closeSession(ss);
+FileStatus[] files = fs.listStatus(dir, isRawFormat ? AcidUtils.originalBucketFilter
+return OPERATION_ID;
+assertEquals(0,aggrStatsEmpty.getPartsFound());
+dbRead = cachedStore.getDatabase(DEFAULT_CATALOG_NAME, dbName2);
+// None.
+int bucketCount = p.getBucketCount();
+for (Operator<? extends OperatorDesc> parentOp : parentOps) {
+public boolean allFile;
+CacheWriter cacheWriter = currentFileRead.getCacheWriter();
+if (cnt > 0) {
+if (reduceKeys.size() == 0) {
+private final String disableMessage;
+private void initReplLoad(ASTNode ast) throws SemanticException {
+fastScaleUp(
+try {
+optCluster.invalidateMetadataQuery();
+final Configuration conf1 = new Configuration();
+LOG.info(ex.getLocalizedMessage());
+private Operator<?> fileSink;
+}
+private static long makeIntPair(int first, int second) {
+nullIndicatorPos =
+None
+String defaultValueText  = tokenStream.toOriginalString(defaultValueAST.getTokenStartIndex(),
+if (random.nextBoolean() || verifyTable.getCount() == 0) {
+pushedPredicate =
+continue;
+// specified
+ArrayList<ColumnInfo> signature = inputRS.getSignature();
+too long.
+byte[] input;
+}
+"ETLSplitStrategy", /* 256 files x 1000 size for 9 splits */
+public synchronized RootAllocator getOrCreateRootAllocator(long arrowAllocatorLimit) {
+// does it need an additional MR job
+writeId = txnMgr.getTableWriteId("default", "tab1");
+private static byte[] writeToBytesColumnVector(int rowIdx, BytesColumnVector col, int writeSize, byte val) {
+too long.
+isPartitionOrderBy = true;
+checkException(oomeStr, stackTraces.get(0));
+Map<Integer, Integer> mapNewInputToProjOutputs = new HashMap<>();
+for (Map.Entry<Integer, Byte> entry : hsr.getSparseMap().entrySet()) {
+maxProbeSize = Math.max(maxProbeSize, wbSize);
+queryText = "select \"SD_ID\", \"SKEWED_COL_NAME\" from " + SKEWED_COL_NAMES + ""
+key = key ^ (key >>> 28);
+for (int i = 0; i < this.columns.size(); i++) {
+DriverManager.registerDriver(new FakeDerby());
+String dagName = utils.createDagName(conf, queryPlan);
+index = Hashing.consistentHash(hash1 + iter * hash2, locations.size());
+return null;
+int hashCode = (int)writeBuffers.unsafeReadNByteLong(Ref.getOffset(oldRef)
+transient Set<String> blackListedConfEntries = null;
+if (limit <= parentStats.getNumRows()) {
+return new Text("Unvectorized");
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+List listData = (List) datum;
+for (AggregateCall oldCall : oldCalls) {
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+Deadline.startTimer("getAggrPartitionColumnStatistics");
+if (factoryClassName == null){
+List<String> partitionCols = new ArrayList<>(referencedColumns.size());
+// map priv being granted to required privileges
+for(ASTNode nodeFilter : node.getFiltersForPushing().get(0) ) {
+Set<CacheEntry> entriesToRemove = new HashSet<CacheEntry>();
+return true;
+return
+LOG.warn("" + unmatchedRows + " unmatched rows are found: " + rowText);
+DruidWritable writable = (DruidWritable) serDe.serialize(rowObject, inspector);
+return (int)(hashPart & (1 << (position - 1)));
+if(wantManyQuantiles) {
+StorageDescriptor sd = new StorageDescriptor();
+return FIELD_SCHEMAS;
+String outputAsString = FileUtils.readFileToString(outFile);
+if (null != indexDef) {
+}
+@Override
+private DummyInputSplit() {
+results = objectStore.getSchemaVersionsByColumns("gamma", null, null);
+// an error in creation, and we want to delete it anyway.
+for (ExprNodeDesc cn : en.getChildren()) {
+throw new UnsupportedOperationException("Undefined descriptor");
+args.add("-libjars");
+srcOp = insertSelectForSemijoin(fields, srcOp);
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+stmt1.execute("alter table t1 change column c1 c1 int");
+testLazyBinaryMap(r);
+System.setProperty(MetastoreConf.ConfVars.EXECUTE_SET_UGI.toString(), "true");
+LOG.warn("Unable to clean direct buffers using Cleaner.");
+None
+too long.
+objectStore.addNotificationEvent(event);
+}
+if (!taskInfo.isPendingUpdate) {
+private String getBaseFileName(String string) {
+// column pruner
+sessionConf="hive.server2.enable.doAs=true";
+if (dbName != null) {
+TableSpec tablepart = new TableSpec(this.db, conf, root);
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+CommandProcessorResponse cpr = driver.run(sql);
+ALTERTABLE_ADDPARTS("ALTERTABLE_ADDPARTS", null, new Privilege[]{Privilege.CREATE}),
+ArrayList<Object[]> result = new ArrayList<Object[]>();
+assertNotNull(reader2.getError());
+return PROGRESSED_PERCENTAGE;
+if (isVectorDeserializeEligable) {
+if (opCtx.op instanceof TableScanOperator) {
+public static boolean isSame(ExprNodeDesc desc1, ExprNodeDesc desc2) {
+if (FileUtils.isPathWithinSubtree(path,hdfsTmpDir) || FileUtils.isPathWithinSubtree(path,localTmpDir)) {
+server.start();
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+final ConcurrentMap<String, RelOptMaterialization> prevCq = materializedViews.putIfAbsent(
+a = b = c = (0x00000000deadbeefL + length + initval) & INT_MASK;
+List<String> columnNames = Arrays.asList(columnNameProperty.split(columnNameDelimiter));
+return false;
+// if the ast has 3 children, the second *has to* be partition spec
+// so it doesn't matter if we wait for all inputs or any input to be ready.
+// destf
+}
+JSONArray array = vertexObject.getJSONArray(key);
+return IS_SET_SCHEDULING_POLICY;
+totalSize += computeOnlineDataSize(bigInputStat);
+verifyHighPrecisionMultiplySingle(a2, b2);
+return IS_SET_QUERY_PARALLELISM;
+UserGroupInformation endUserUgi = UserGroupInformation.createRemoteUser(endUser);
+resp = driver.run("alter table t1 set owner role r1");
+patialS.set(0, new BytesRefWritable("NULL".getBytes("UTF-8")));
+tblNameOrPattern = PlanUtils.stripQuotes(ast.getChild(currNode).getChild(0).getText());
+updateStats(stats, cardinality, true, gop, false);
+for (Map.Entry<String, ArrayList<CombineFileSplit>> entry: aliasToSplitList.entrySet()) {
+LOG.debug("Removing AppMasterEventOperator " + eventOp + " and TableScan " + ts);
+@Test
+HIVE_SERVER2_GLOBAL_INIT_FILE_LOCATION("hive.server2.global.init.file.location", "${env:HIVE_CONF_DIR}",
+too long.
+ArrayList<Task<? extends Serializable>> rootTasks =
+bucketField = recIdInspector.getAllStructFieldRefs().get(1);
+// these are from ColumnPrunerSelectProc
+if (sd.getCols() != null) {
+QB blankQb = new QB(null, null, false);
+op2Priv.put(HiveOperationType.ALTERTABLE_ADDPARTS, PrivRequirement.newIOPrivRequirement
+batch = getBatchThreeBooleanCols();
+int valueLength = (int) hashMap.writeBuffers.readVLong(readPos);
+writeBufferSize = writeBufferSize < minWbSize ? minWbSize : Math.min(maxWbSize / numPartitions, writeBufferSize);
+return String.valueOf(number);
+ImmutableBitSet.Builder builder = ImmutableBitSet.builder();
+MoveWork mw = new MoveWork(null, null, null, null, false);
+addIfService(amReporter);
+MapJoinProcessor.genLocalWorkForMapJoin(newWork, newMapJoinOp, bigTablePosition);
+private static Set<AbstractMetaStoreService> metaStoreServices = null;
+input[i++] =
+protected static RowResolver createSelectListRR(MatchPath evaluator,
+} catch (Throwable th) {
+DataOutputStream outStream = getOutputStream(showCreateTbl.getResFile());
+if (ref != null && ref.getToken().getType() == HiveParser.Number) {
+ArrayList<String> columnNames = new ArrayList<String>(columns);
+PcrExprProcCtx pprCtx = new PcrExprProcCtx(tabAlias, parts, vcs);
+for (ColumnInfo cinfo : curr.getSchema().getSignature()) {
+str = BaseSemanticAnalyzer.unescapeIdentifier(expr.getText().toLowerCase());
+sessionManagerHS2.shutdown();
+if (rowIds.isEmpty()) {
+String endUserName = Utils.getUGI().getShortUserName();
+if (e.getValue() == null || e.getValue().length == 0) {
+OptimizeTezProcContext procCtx = new OptimizeTezProcContext(conf, pCtx, inputs, outputs);
+String columnTypeProperty = tbl.getProperty(serdeConstants.LIST_COLUMN_TYPES);
+JoinOperator joinOp = getJoinOp(currTask);
+None
+continue;
+if (createTask instanceof DDLTask) {
+memoryManager.reserveMemory(dest.length << allocLog2);
+assert mergerOptions.isCompacting() : "Expected to be called as part of compaction";
+parent.replaceChild(child, fileSinkOp);
+int numThreads = 5;        // set to 1 for single threading
+SSLTestUtils.setBinaryConfOverlay(confOverlay);
+AcidUtils.Directory dir = AcidUtils.getAcidState(location, conf, txns);
+} else if (params.length == 1) {
+too long.
+too long.
+if(node instanceof RexCall) {
+oneRowWithConstant.add(oneRow.get(cselOpTocgbyOp.get(pos) - cgbyOp.getConf().getKeys().size()));
+HiveDecimalV1 oldSubtractDec;
+System.arraycopy(inputIsNull, 0, outputIsNull, 0, n);
+this.maxRetries = maxRetries;
+try {
+if (forwardOp.getDone()) {
+if (!isValueLengthSmall) {
+if (AvroSerdeUtils.isNullableType(recordSchema)) {
+assertEquals(1l, theMap.get("one"));
+if(isEXISTS) {
+public static String kerberosChallenge(String server) throws AuthenticationException
+appName = appName.substring(1);
+// * implies all properties needs to be inherited
+defaultHiveConf.set("hive.dummyparam.test.server.specific.config.override",
+float waves =
+@Metric
+initializeTables();
+LOG.info("Hash table number " + idx + " is empty");
+referenceArguments = argumentsAccepted;
+ColStatistics.Range combinedRange = StatsUtils.combineRange(selColStat.getRange(), tsColStat.getRange());
+// tablescan and join operators.
+ResultSet res = dbmd.getProcedureColumns(null, null, null, null);
+sessionState.resetThreadName();
+String colTypeStr = table.getPartitionKeys().get(partColIndex).getType();
+// nanosecond interval in 2 primitives) produces a type timestamp (TimestampColumnVector).
+Token<? extends TokenIdentifier> accumuloToken = getHadoopToken(token);
+static int checkAggOrWindowing(ASTNode expressionTree) throws SemanticException {
+TxnStatus actualTxnStatus = findTxnState(txnid, stmt);
+newTbl1.setOwner("role1");
+if (SessionState.get().getATSDomainId() == null) {
+baseFileNameMapping.put(getBaseFileName(inputPath), bucketBaseFileNames);
+StringBuilder sb = new StringBuilder(testTable.getDataLocation().toString());
+String queryText =
+DynamicSerDeExtends jjtn000 = new DynamicSerDeExtends(JJTEXTENDS);
+if (union.getInputs().size() != 2) {
+// expressions for project operator
+public abstract class VectorMapJoinFastBytesHashSet
+private byte[] internalScratchBuffer;
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+return;
+int batchSize = conf.getIntVar(ConfVars.HIVE_MSCK_REPAIR_BATCH_SIZE);
+String[] pathExpr = pathExprCache.get(pathString);
+}
+if (useRowDeserialize) {
+int digitCount = 0;
+String fakeFile0 = TEST_WAREHOUSE_DIR + "/" + (Table.NONACIDORCTBL).toString().toLowerCase() +
+colAlias = unescapeIdentifier(selExpr.getChild(1).getText().toLowerCase());
+if (event.getDbName().equalsIgnoreCase(dbName) && event.getEventType().equalsIgnoreCase("INSERT")) {
+private static final String INSERT_OVERWRITE_COMMAND_FORMAT =
+byte[] keyBytes = currentKey.getBytes();
+ResultSetMetaData rsmd = rs.getMetaData();
+Map<String, List<MyTestInnerStruct>> myMap;
+if( backupChildrenTasks!= null) {
+transport = authBridge.createClientTransport(null, store.getHost(),
+client.updateTableColumnStatistics(colStats);
+return 0.0f;
+too long.
+PARQUET_MEMORY_POOL_RATIO("parquet.memory.pool.ratio", 0.5f,
+addDef(args, "user.name", runAs);
+// for current query.
+return HivePrivilegeObjectType.PARTITION;
+if (b == 0) {
+return;
+}
+// If the view is Inside another view, it should have at least one parent
+// Only for incremental load, need to validate if event is newer than the database.
+int noMatchCount = subtractFromInputSelected(
+HiveMetaStore.HMSHandler.createDefaultCatalog(objectStore, new Warehouse(conf));
+getIntegerProperty(table, Constants.DRUID_KAFKA_INGESTION_PROPERTY_PREFIX + "maxPendingPersists"),
+List<BucketCol> bucketCols = extractBucketCols(rop, outputValues);
+return connStack.pop();
+too long.
+break;
+RecordWriter writer = storageFormatTest.getRecordWriter(readPath);
+private long timeout;
+slotPairs[pairIndex] = valueStore.addFirst(valueBytes, 0, valueLength);
+// Note that for temp tables there is no need to rename directories
+for (Entry<ErrorHeuristic, HeuristicStats> ent : heuristics.entrySet()) {
+while ((significand & 1) == 0) { // i.e., significand is even
+None
+sb.append(customPath.substring(previousEndIndex, matcher.start()));
+parameters.remove(statType);
+if (statusServiceDriver != null) {
+/**
+map.testPutRow(key);
+}
+public final PartitionState partitionState;
+too long.
+// We don't want that.
+int i = childOp.getParentOperators().indexOf(parentOp);
+if (posToVertex.containsKey(key)) {
+List<Operator<? extends OperatorDesc>> children =
+int depthDiff = realPartitionPath.depth() - tmpPath.depth();
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+LockComponent comp = new LockComponent(LockType.EXCLUSIVE, LockLevel.DB, "mydb");
+if ((isMmTableWrite || isFullAcidTable) && loadPath.equals(newPartPath)) {
+Converter varcharConverter = ObjectInspectorConverters.getConverter(
+return dbVersion;
+destinationBatch.cols[inclBatchIx++] = sourceBatch.cols[columnId];
+private Tree fromTree, tableTree;
+filterRel = genFilterLogicalPlan(qb, srcRel, aliasToRel, outerNameToPosMap, outerRR, false);
+parentDir.deleteOnExit();
+signum = (firstByte < 0) ? (byte) -1 : (byte) 1;
+assertTrue(r.isNull[2]);
+for(String f : files) {
+if (c1.equals(Category.LIST)) {
+context.currentUnionOperators.clear();
+int headerIx = pos >>> minAllocLog2;
+ObjectInspector foi = structField.getFieldObjectInspector();
+RelDataType aggFnRetType = TypeConverter.convert(agg.m_returnType,
+/*
+assertTrue(ti1.isGuaranteed());
+LazyBinaryUtils.readVInt(bytes, offset, vInt);
+List<String> originalColumnNames =
+public GenericUDAFMkCollectionEvaluator() {
+if (cmdLine.contains("=")) {
+too long.
+final RelNode newInput = frame.r;
+schema.setProperty(org.apache.hadoop.hive.metastore.api.hive_metastoreConstants.BUCKET_COUNT,
+MetastoreConf.setLongVar(conf, ConfVars.DIRECT_SQL_MAX_QUERY_LENGTH, 1);
+public Boolean myBool;
+too long.
+Assert.assertEquals("closed file size mismatch", bucket0File.getLen(),
+return (actualState.sent == actualState.target);
+for (int idx = 0; idx < oldInvalidIds.length; ++idx) {
+public class ParseError {
+storeToken(token, ugi);
+LOG.debug("SMB Join can't be performed due to bucketing version mismatch");
+List<String> addedFamilies = new ArrayList<String>();
+IntegerStringMapHolder o1 = new IntegerStringMapHolder();
+HttpClient httpClient = mock(HttpClient.class);
+BloomKFilter.mergeBloomFilterBytes(
+"ETLSplitStrategy", /* 1 files x 100 size for 111 splits */
+if (partitions.isEmpty()) {
+NoFile,
+if (arg2ColVector.isRepeating) {
+ParseContext tempParseContext = getParseContext(pCtx, rootTasks);
+m2 = new HashMap<>(2);
+if (++nusedbins > nbins) {
+too long.
+if (leastConversionCost == 0) {
+lastUncompressed = copyAndReplaceCandidateToNonCached(
+printUsage();
+validateWindowFrame(wdwSpec);
+// create a table with multiple partitions
+private final Object CACHE_TEARDOWN_LOCK = new Object();
+for (FileSystem.Statistics statistics : FileSystem.getAllStatistics()) {
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+// so we don't create an extra SD in the metastore db that has no references.
+None
+if (scaleUp < HIGHWORD_DECIMAL_DIGITS) {
+* @throws Exception
+session1.returnToSessionManager();
+Map<String, ColumnStatistics> newStatsMap = new HashMap<>();
+cpuCost += cardinality * cpuCost;
+Long prevOffset = cache.floorKey(absOffset);
+HashSet<String> poolsToRedistribute = new HashSet<>();
+//the Group By args are passed to cardinality_violation to add the violating value to the error msg
+int floor = 1 << 30;
+int len = 0;
+originalPredicate);
+/**
+if(klass.indexOf("vector") != -1 || klass.indexOf("Operator") != -1) {
+vrg.projectionSize = originalProjectionSize;
+b.cols[1] = r = new DecimalColumnVector(hiveDecimalValues.length, 5, 2);
+assertFalse(ObjectInspectorUtils.compareSupported(uoi1));
+HCatTable targetTable = targetMetaStore().deserializeTable(sourceMetaStore().serializeTable(sourceTable));
+too long.
+Double timestampDouble = TimestampUtils.getDouble(timestamp);
+None
+return NAME_TO_TYPE_PTR;
+if (checkExpressions((SelectOperator)child)) {
+} else if(rowIndex < batchSize) {
+final List<RexNode> newVCLst = new ArrayList<RexNode>();
+if (colStatObj == null) {
+ArrayList<Object> acc = new ArrayList<Object>();
+ExprNodeDesc column2 = new ExprNodeColumnDesc(TypeInfoFactory.stringTypeInfo, "rid", null,
+processPositionAlias(ast);
+LazyPrimitive<? extends ObjectInspector,? extends Writable> key = LazyFactory
+VectorTaskColumnInfo vectorTaskColumnInfo = new VectorTaskColumnInfo();
+aggrStatsCache.add(catName, dbName, tableName, colName, partsFound, colStatsAggr, bloomFilter);
+private int findMSB(int n) {
+if (bigTableValueExpressions != null) {
+assertEquals(true, res.getBoolean(1));
+t = pt.getRawType();
+Set<Operator<?>> set = new HashSet<Operator<?>>();
+private void removed(int index) {
+throw new RuntimeException("Unsupported window Spec");
+if (doUseFreeListDiscard && freeListIx > 0) {
+clonedParentWork.setName(clonedParentWork.getName().replaceAll("^([a-zA-Z]+)(\\s+)(\\d+)",
+too long.
+assert (children.size() == 2);
+public void exportCounters(AbstractMap<String, Long> counters) {
+constantDesc = new ExprNodeConstantDesc(100);
+return returnDecimalType;
+// This method is used to validate check expression since check expression isn't allowed to have subquery
+throw new IOException("Could not find status of job:" + rj.getID());
+runStatementOnDriver("alter table "+ TableExtended.MMTBL + " compact 'MAJOR'");
+too long.
+Context ctx = new Context(newJob);
+RexNode leftRef = rexBuilder.makeInputRef(
+// Implicit -- use batchIndex.
+diffScale = leftScale - rightScale;
+String kerberosName = SecurityUtil
+DiskRangeList current = findExactPosition(start, cOffset);
+Writable[] convertTargetWritables;
+for (Stage candidate : this.stages.values()) {
+if (testDesc.bigTableKeyTypeInfos.length == 1) {
+Collection<Token<? extends TokenIdentifier>> tokens = ugi.getTokens();
+ArrayList<Object> struct = new ArrayList<Object>(3);
+TransactionBatch txnBatch =  connection.fetchTransactionBatch(10, writer);
+tsWrapper.deallocateTask(task1, true, null);
+batchIndexToResult[evictedBatchIndex] = EXCLUDE;
+FunctionRegistry.registerTemporaryUDF("tmp_concat", GenericUDFConcat.class, emptyResources);
+for (String funcName : allFunctions) {
+fs.mkdirs(partPath); // Attempt to make the path in case it does not exist before we check
+String tbl_temp = "";
+String qualifierName = colMap.qualifierName;
+final int THREAD_COUNT = 2, ITER_COUNT = 1000, ATTEMPT_COUNT = 3;
+PrincipalPrivilegeSet thrifPrivs = null;
+dir.mkdirs();
+too long.
+try {
+LOG.warn("Unexpected exception while adding " +ADMIN+" roles" , e);
+return COLUMN_NAME;
+if (e.dumpStateFuture != null) {
+too long.
+while (miniHS2_1.getOpenSessionsCount() != 0) {
+currentDataColumnCount = currentVectorPartContext.getReaderDataColumnCount();
+return FOREIGN_KEY_COLS;
+value = new byte[random.nextInt(MAX_VALUE_LENGTH)];
+Assert.assertEquals(bigInteger, deserializedBigInteger);
+return null;
+// and check HDFS before and after.
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+final long startToEnd;
+return FKTABLE_NAME;
+functions = client.getFunctions(DEFAULT_DATABASE, "*_to_find_*|*_hidden_*");
+Class<List<HivePrivilegeObject>> class_listPrivObjects = (Class) List.class;
+if (!isUserAdmin()) {
+/**
+}
+HIVE_SERVER2_THRIFT_RESULTSET_MAX_FETCH_SIZE("hive.server2.thrift.resultset.max.fetch.size",
+// HiveChar.toString() returns getPaddedValue()
+RowSchema rowSchema = parentRS.getParentOperators().get(0).getSchema();
+}
+if (gbInfo.containsDistinctAggr) {
+for (int i = 0; i < outputKeyLength; i++) {
+if (isCandidate && chAlias != null) {
+TemporalAccessor accessor = FORMATTER.parse(s);
+Map<String, List<String>> cookieMap = cookieManager.get(uri, Collections.<String, List<String>>emptyMap());
+result[pos] = vector.traverse(pos);
+too long.
+public interface FileListProvider {
+int am1Port = 123;
+private String diagnostics;
+if (inputObject.has("cboInfo")) {
+too long.
+/* 1. is defined with skewed columns and skewed values in metadata */
+for (Operator<?> op : sr.discardableOps) {
+null, // comment passed as table params
+// LinkedHashMap to provide the same iteration order when selecting a random host.
+String kerberosName;
+DruidWritable writable = (DruidWritable) serDe.serialize(rowObject, inspector);
+if (m == Mode.PARTIAL1 || m == Mode.COMPLETE) {
+return INCLUDE_BITSET;
+typeAffinity("typeaffinity1", TypeInfoFactory.dateTypeInfo, 1, DateWritableV2.class);
+public static void initUnionPlan(GenMRProcContext opProcCtx, UnionOperator currUnionOp,
+return IS_SET_DEFAULT_POOL_PATH;
+String modifier = " with (updlock)";
+List<ObjectInspector> unionOI =  new ArrayList<ObjectInspector>();
+gather = false;
+// we can bail out
+while (ti.task.getParentTasks() != null && ti.task.getParentTasks().size() == 1) {
+RexNode calciteJoinCond = null;
+ArrayList<String> values = new ArrayList<String>(partColumnNames.size());
+// Note: we could use RW lock to allow concurrent calls for different sessions, however all
+protected static class DirectKeyValueWriter implements KeyValueHelper {
+StdAgg myagg = (StdAgg) agg;
+private Map<String, List<TableDesc>> eventSourceTableDescMap =
+expr.setOutputTypeInfo(TypeInfoFactory.longTypeInfo);
+}
+"ETLSplitStrategy", /* 100 files x 1000 size for 99 splits */
+ServiceUtils.cleanup(LOG, parentSession.getSessionState().out, parentSession.getSessionState().err);
+this.nodeBlacklistConf = new NodeBlacklistConf(
+ArrayList<ColumnInfo> outputCols = new ArrayList<ColumnInfo>();
+"-9999999999999999",
+private int index = -1;
+int initialCapacity = shuffleInputs.size();
+for (Entry<String, String> entry : modifiedConf.entrySet()) {
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+Assert.assertEquals(4, status.length);
+private boolean isVectorizationGroupByComplexTypesEnabled;
+while (true) {
+return OWNER_TYPE;
+if (!LlapDaemonInfo.INSTANCE.isLlap()) {
+None
+if (sz >= 100000) {
+if (condn.getChildCount() == 1) {
+{"ColumnDivideScalar", "Divide", "long", "double", "/"},
+String[] terms = internalName.split("\\.");
+jlpi = new JoinLeafPredicateInfo(pe.getKind(), joinExprs,
+bigDecimal = BigDecimal.ZERO;
+String owner = SecurityUtils.getUser();
+boolean allKeyInputColumnsRepeating;
+int contextSize = Integer.parseInt( partial.get(partial.size()-1).toString() );
+for (int stripeIxMod = 0; stripeIxMod < stripeRgs.length; ++stripeIxMod) {
+reloadFolder = new File(hiveReloadPath);
+if (useVectorizedInputFileFormat) {
+too long.
+ReaderPairAcid deltaPair = new ReaderPairAcid(key, deltaReader, minKey, maxKey, deltaEventOptions, conf);
+batch = makeStringBatchForColColCompare();
+// column stats for a group by column
+// the set of dynamic partitions
+}
+// a copy is required to allow incremental replication to work correctly.
+COMMIT_READY,
+oldDec = oldDec.abs();
+private static final ThreadLocal<TimeZone> LOCAL_TIMEZONE = new ThreadLocal<TimeZone>() {
+Map<String, SessionTriggerProvider> allSessionProviders = wm.getAllSessionTriggerProviders();
+for (int i = 0; i < writables.length; i += 1) {
+HiveProject replacementProjectRel = HiveProject.create(obChild.getInput(), obChild
+replicas,
+// Move all the partition columns at the end of table columns.
+private static class TestFSDataInputStream extends FSDataInputStream {
+continue;
+while (true) {
+"-1000000000000000",
+RexNode fetchRN = sort.getCluster().getRexBuilder()
+/**
+if (restrictedConfig != null) {
+executeStatementOnDriver("INSERT INTO " + tblName + "(a,b) VALUES(2, 'bar')", driver);
+checkRemainingPartitions(sourceTable, destTable,
+// has the permissions on the table dir
+// byte.
+if (qb.isInsideView() && parentInput == null) {
+Database dbRead = cachedStore.getDatabase(DEFAULT_CATALOG_NAME, dbName);
+if (!ctx.getExplainLogical()) {
+if (dest_type.intValue() == QBMetaData.DEST_TABLE
+testAllocation(10, 1.0f,
+return rawStore.getPartition(catName, dbName, tblName, part_vals);
+// appended once all the session list are added to the url
+// plans.
+private transient Object[] result;
+return USER_NAME;
+boolean getResults(List res) throws IOException;
+// need to do the work to detangle this
+client.dropPartition(dbName, tblName, Arrays.asList("20160102"));
+batch = getBatchThreeBooleanCols();
+Map<Node, Object> outputMap = PrunerUtils.walkExprTree(pred, pprCtx, getColumnProcessor(),
+ExprNodeGenericFuncDesc expr = null;
+if (replicationSpec.isInReplicationScope()){
+testIntCaseWithFail((String) testCase[0], trim);
+ShimLoader.getHadoopShims().getMergedCredentials(jobConf);
+* org.apache.hadoop.hive.ql.security.authorization.HiveAuthorizationProvider
+if (numBuckets < 0) {
+if (!isRoundPortionAllZeroes) {
+// is not expected further down the pipeline. see jira for more details
+assertEquals(20, meta.getColumnDisplaySize(18));
+config.setConnectionTimeout(connectionTimeout);
+try {
+List<ResourceUri> transformedUris = ImmutableList.copyOf(
+vecExpr.transientInit();
+private transient HashMap<String, VectorPartitionContext> fileToPartitionContextMap;
+results = objectStore.getSchemaVersionsByColumns(null, "namespace=x", null);
+private static final String TOPN_QUERY =
+None
+// (Otherwise, sub-directories produced by Hive UNION operations won't be readable.)
+static Map<Integer, Integer> identityMap(int count) {
+private AnalyzeRewriteContext analyzeRewrite;
+partSpecs.add(new DropTableDesc.PartSpec(expr, partSpecKey));
+None
+abstract class FileRecordWriterContainer extends RecordWriterContainer {
+public final Set<Operator<?>> clonedPruningTableScanSet;
+super(vectorSMBJoinDesc, false);
+colExprMap.put(field, grpByExprNode);
+int i = numAliases - 1;
+CommonCliOptions.splitAndSetLogger(propKey, confProps);
+/**
+public class LlapArrowBatchRecordReader extends LlapBaseRecordReader<ArrowWrapperWritable> {
+AccumuloConnectionParameters cnxnParams = new AccumuloConnectionParameters(null);
+// we will bail out; we do not want to end up with limits all over the tree
+continue;
+None
+for (String columnName : columns) {
+return new RegexFilterSet()
+final DecimalTypeInfo decimalTypeInfo = (DecimalTypeInfo) field.typeInfo;
+factor *= columnFactor > 1d ? 1d : columnFactor;
+if (UserGroupInformation.isSecurityEnabled()) {
+if (primary.nextRecord() == null ||
+* c. Rebuilt the QueryDef.
+None
+case 3:
+if (ReduceSinkDeDuplicationUtils.merge(cRS, pRS, dedupCtx.minReducer())) {
+for (Entry<Object, Object> entry : storer.getProperties().entrySet()) {
+}
+rc = jobRef.monitorJob();
+if (type.equals("miniMR")) {
+StringBuilder pseudoPartName = new StringBuilder();
+if (HiveConf.getBoolVar(conf, HiveConf.ConfVars.HIVE_IN_TEST) &&
+txnHandler.cleanTxnToWriteIdTable();
+return numRows / 2;
+outputIsNull[i] = false;
+maybeRegisterForVertexUpdates(src);
+// clean request
+if (null == root) {
+too long.
+throw new IOException(e);
+for (ColumnStatisticsObj obj : csOld.getStatsObj()) {
+// After this the KeyWrappers are properly set and hash code is computed
+final RelBuilder relBuilder = ruleCall.builder();
+writer.addRowBatch(batch);
+protected long fastSerialize64(int scale) {
+if (first) {
+char separator = ':';
+/**
+if (fri1.getNumSelfAndUpstreamTasks() > fri2.getNumSelfAndUpstreamTasks()) {
+if (!lastWasMasked) {
+done = !needsPostEvaluation;
+job.setNumReduceTasks(0);
+if ((pti.getPrimitiveCategory() != PrimitiveCategory.DECIMAL)
+too long.
+return STARTED_TIME;
+public static SparkPartitionPruningSinkOperator findReusableDPPSink(
+case HiveParser.TOK_ALTERVIEW_DROPPARTS:
+replica.load(replicatedDbName, tuple.dumpLocation);
+incrementalLoadAndVerify(dbName, bootstrapDump.lastReplId, replDbName);
+/**
+openSession();
+for(t = peek(); (t == null) || !t.text.equals(")"); t = expect(",",")")) {
+parts = msdb.getPartitions(catName, dbname, name, -1);
+for (int i = 1; i <= 5; i++) {
+private String statsTmpDir;
+LOG.warn("Using full partition scan :" + Arrays.toString(part.getPath()) + ".", e);
+assertTrue(e.getMessage().contains("Invalid number of arguments"));
+stmt.execute("create table " + partitionedTableName
+// if the Hive configs are received from WITH clause in REPL LOAD or REPL STATUS commands.
+return DEFAULT_CONSTRAINT_COLS;
+final AtomicReference<WmTezSession> session3 = new AtomicReference<>(),
+long repeatedOriginalWriteId = (originalWriteId != null) ? -1
+public class TestLazyHBaseObject extends TestCase {
+Partition resultPart = client.getPartition(destTable.getDbName(), destTable.getTableName(),
+private OrcStruct extraValue;
+//table or partition's statistics and table or partition's column statistics are accurate or not.
+return TBL_PATTERNS;
+None
+runStatementOnDriver("alter table "+ Table.ACIDTBL + " compact 'MAJOR'");
+fields.add(new FieldSchema("PaRT1", serdeConstants.STRING_TYPE_NAME, ""));
+List<ResourceUri> resources = getResourceList(ast);
+public abstract T execute() throws Exception;
+ImmutableMap<String, Integer> hiveColNameCalcitePosMap = buildHiveToCalciteColumnMap(
+FastBitSet bitset = GroupByOperator.groupingSet2BitSet(groupingSet, groupingSetsPosition);
+// And, their types.
+writeId = txnMgr2.getTableWriteId("default", "target");
+if (i == maxBatchesRG - 1) {
+AuthenticationToken token = ConfiguratorBase.getAuthenticationToken(
+do {} while (!isClosed && !isInterrupted && !queue.offer(o, 100, TimeUnit.MILLISECONDS));
+t2.join(6000);
+isDeleteRecordAvailable = deleteRecords.next(deleteRecordKey, deleteRecordValue);
+"not(lteq(id, 13))",                  /* 13 < id or */
+None
+if (options.getTableProperties() != null) {
+private Map<String, PoolState> pools;
+return SERDE_TYPE;
+public final void startAbortChecks() {
+return false;
+String columnValue = partKVs.get(columnName);
+private Token<JobTokenIdentifier> token;
+double decimalmin= 0;
+out.write(TEST_BYTE_ARRAY);
+private static final String TIMESERIES_QUERY =
+ArrayList<ExprNodeDesc> newValExprs = new ArrayList<ExprNodeDesc>();
+too long.
+server = new HiveServer2();
+MapWork bigMapWork = null;
+/**
+checkNoScan(tree);
+LOG.error("Could not stop tez dags: ", e);
+neededVirtualColumnSet = new HashSet<VirtualColumn>();
+result.schema(rowSchema);
+Mockito.when(helper.hasKerberosCredentials(ugi)).thenReturn(false);
+None
+return FOREIGN_DB_NAME;
+return getTypeInfoForPrimitiveCategory((PrimitiveTypeInfo)a, (PrimitiveTypeInfo)b, pcA);
+String HADOOP_PROXY_USER = "HADOOP_PROXY_USER";
+verifyMapping(wm, conf, mappingInput("u0", groups("g0")), "u0");
+None
+// 2. If the outputOI has all fields settable, return it
+return Character.isDigit(buf[offset]);
+ColumnInfo col = new ColumnInfo(sf.getFieldName(),
+return VALIDATE_CSTR;
+if (this.fitsInt32() && o.fitsInt32()
+String colType = indexDef.getColType(cf, cq);
+// Since we are creating with scale 0, no fraction digits to zero trim.
+VectorizedRowBatch batch = getBatch1Long3BytesVectors();
+// TODO This should be passed in the TaskAttemptContext instead
+if (objectInspector.getPrimitiveCategory() != PrimitiveCategory.STRING && ColumnEncoding.BINARY == encoding) {
+byteSizeStart = byteStream.getLength();
+expr = new StringSubstrColStart(0, -6, 1);
+EximUtil.doCheckCompatibility(
+String[] unptn_data = new String[]{ "eleven" };
+System.err.println("Warning in pre-upgrade script " + preUpgradeScript + ": "
+// System.out.println(v1);
+RemoveSessionResult rr = checkAndRemoveSessionFromItsPool(
+CommandProcessorResponse cpr = runStatementOnDriverNegative(
+partValues[i] = null;
+runStatementOnDriver("insert into " + TableExtended.MMTBL + "(a,b) values(1,2)");
+DiskRangeList prev = cc.prev;
+helper.updateOutputFormatConfWithAccumuloToken(jobConf, ugi, cnxnParams);
+if (cnt > 1) {
+String addedJars = Utilities.getResourceFiles(conf, SessionState.ResourceType.JAR);
+too long.
+Dispatcher disp = new DefaultRuleDispatcher(BucketingSortingOpProcFactory.getDefaultProc(),
+MockFileSystem fs = new MockFileSystem(conf,
+newDistinctKeyLists.remove(i);
+}
+taskListInConditionalTask = ((ConditionalTask) nd).getListTasks();
+int b1 = arg1[i + start1] & 0xff;
+String query = "select * from " + tableName;
+}
+if ( wExprsInDest != null &&
+private transient StandardListObjectInspector loi;
+public AtomicInteger getUsers() {
+func.apply(entry.getValue(), fields);
+lcv3.isRepeating = true;
+assertFalse(mm.reserveMemory(1, false));
+}
+if (inputFileChangeSenstive) {
+None
+// So, min(txn_id) would be a non-zero txnid.
+rqst.setReplPolicy(replPolicy);
+LazyBinaryUtils.readVInt(bytes, offset, tempVInt);
+too long.
+MergeJoinWork mergeJoinWork = null;
+HiveConf conf = queryState.getConf();
+// returns whether a record was forwarded
+jobConf = new JobConf(jobContext.getConfiguration());
+for (int i = 0; i < fieldSchemas.size(); i++) {
+ExprNodeDesc column = new ExprNodeColumnDesc(TypeInfoFactory.intTypeInfo, "key", null, false);
+try {
+path = new Path(path,"_dummy");
+when(mockedAuthorizer.filterListCmdObjects(any(List.class),
+for(String file : extraFiles) {
+if (result.getTaskError() instanceof HiveException) {
+DruidWritable writable = (DruidWritable) serDe.serialize(rowObject, inspector);
+None
+TransactionBatch txnBatch1 =  connection.fetchTransactionBatch(10, writer);
+SELECT, INSERT, UPDATE, DELETE;
+public boolean[] isNull;
+CacheChunk replacedChunk = toDecompress.get(i);
+int idx = line.indexOf(' ');
+HttpClient httpClient = mock(HttpClient.class);
+batchSize = 0;
+@VisibleForTesting
+}
+* @see org.apache.hive.service.cli.CLIServiceTest#setUp()
+LOG.trace("Verbose estimation for collection {} from {}", fieldObj.getClass().getName(),
+currentPartDeserializer = null;
+options.addOption(OptionBuilder
+too long.
+for (Partition p : partitionsAdded) {
+private static final String REPL_EVENTS_MISSING_IN_METASTORE = "Notification events are missing in the meta store.";
+return MAPPINGS;
+if (MetaStoreUtils.isFastStatsSame(oldTmpPart, tmpPart)) {
+INITIALIZED,
+tblRead = objectStore.getTable(DEFAULT_CATALOG_NAME, dbName, tblName1);
+"there should be " + String.valueOf(expectedNumOCleanedFiles) + " deleted files in cm root",
+try {
+this.unscaledValue.addDestructiveScaleTen(right.unscaledValue,
+boolean isTxnTable = conf.getBoolean(hive_metastoreConstants.TABLE_IS_TRANSACTIONAL, false);
+files.addAll(otherFiles);
+PrunedPartitionList prevTsOpPPList = pctx.getPrunedPartitions(tsOp1);
+fastResult.fastSignum = -1;
+/**
+runStatementOnDriver("alter table "+ TableExtended.MMTBL + " compact 'MINOR'");
+@SuppressWarnings("unused")
+KeyBuffer keyBuffer;
+ColumnMapping columnMapping = ColumnMappingFactory.get(columnMappingStr, defaultEncoding,
+clusterSpecificConfiguration
+try {
+too long.
+}
+assertEquals("Expected empty set of partitions.",
+// Request task2 (task1 already started at previously set time)
+// metastore and so some partitions may have no data based on other filters.
+if (forwardOp.getDone()) {
+for (BaseWork child : children) {
+GenericUDAFResolver udaf =
+HiveRulesRegistry registry = call.getPlanner().
+List<String> cachedCatalogs = cachedStore.getCatalogs();
+mr.setupConfiguration(getHiveConf());
+r.enforceMaxLength(getCharacterMaxLength(type));
+String confVarPatternStr = Joiner.on("|").join(convertVarsToRegex(sqlStdAuthSafeVarNames));
+long col3NumTrues = 100;
+ret[i] = ((ConstantObjectInspector) oi).getWritableConstantValue();
+projsJoinKeysInJoinSchema.add(projsJoinKeysInChildSchema.get(0));
+}
+/**
+private ArrayWritable valueObj = null;
+return POOL_PATH;
+for (Map.Entry<String, ExprNodeDesc> mapEntry : reduceSinkOp.getColumnExprMap().entrySet()) {
+server.stop();
+addDependentMoveTasks(mvTask, hconf, task, dependencyTask);
+MapJoinDesc mapJoinDesc = MapJoinTestConfig.createMapJoinDesc(testDesc);
+@Override
+* @see org.apache.hive.service.cli.CLIServiceTest#setUp()
+None
+return;
+STATIC_LOG.debug("Table " + tabIdName + " is not found in walkASTMarkTABREF.");
+result = new CheckResult();
+if (!outputColNames && !outputColSchemas) {
+public Node peekNode() {
+private static JobRequestExecutor<List<JobItemBean>> jobRequest =
+long col2MaxColLen = 100;
+client.createTable(table);
+float hashtableMemoryUsage;
+for (Long lockId : expiredLocks) {
+queryText = "select \"PART_ID\", \"PARAM_KEY\", \"PARAM_VALUE\" from " + PARTITION_PARAMS + ""
+}
+// while and should be done when we start up.
+tblRead = cachedStore.getTable(DEFAULT_CATALOG_NAME, dbName, tblName1);
+if (!(nd instanceof ExprNodeGenericFuncDesc)) {
+continue;
+List<Long> fileIds = determineFileIdsToQuery(files, result, posMap);
+if (numColumns < readColIds.size())
+if (wrappedIf != null) {
+try {
+hll.merge(hll5);
