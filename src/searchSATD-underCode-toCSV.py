@@ -7,7 +7,7 @@ import concurrent.futures
 
 
 clone_dir = '/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone'
-repo_url = 'https://github.com/argouml-tigris-org/argouml.git'
+repo_url = 'https://github.com/hibernate/hibernate-orm.git'
 
 global_count = 0
 binary_extensions = [".java"]
@@ -100,11 +100,11 @@ if __name__ == '__main__':
         git.Repo.clone_from(repo_url, clone_dir)
 
     repo = git.Repo(clone_dir)
-    repo.git.checkout('VERSION_0_34')
+    repo.git.checkout('4.2.0.Final')
 
     ans = []
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/dataset/data--ArgoUML.txt', 'r') as f:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/dataset/data--Hibernate.txt', 'r') as f:
         count = 0
 
         for line in f:
@@ -116,7 +116,7 @@ if __name__ == '__main__':
             # if count <= 1000:
             #     continue
 
-            if count > 2000:
+            if count > 810:
                 break
 
             print(f"\nーーーーーーーーSearch the target string{count}ーーーーーーーーーーーーーーー\n ")
@@ -127,7 +127,7 @@ if __name__ == '__main__':
                 result = "too long."
                 ans.append((origin_search_string, result, 0, 0, 0))
                 print(f"under_code:\n{result}\n ")
-
+                res_dict = {"count": 0}
             else:
                 sim = 0.85
                 res_dict = search_files(search_string, sim)
@@ -142,12 +142,12 @@ if __name__ == '__main__':
 
     print(f"----------結果{global_count}件ヒットしました--------------------------\n")
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/under--ArgoUML.txt', 'w') as a:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/under--Hibernate.txt', 'w') as a:
         for idx, (origin_search_string, item, line_no, similarity, filepath) in enumerate(ans):
             print(f"ans_lists{idx+1}:", item, "\n")
             a.write(str(item) + "\n")
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/under--ArgoUML--detail.csv', 'w') as b:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/under--Hibernate--detail.csv', 'w') as b:
         b.write("search_string,predict_under_code,line_no,similarity,filepath\n")
         for idx, (origin_search_string, item, line_no, similarity, filepath) in enumerate(ans):
             #ダブルクォートで囲む
