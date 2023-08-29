@@ -826,3 +826,1505 @@ under_code:
 search_string:
  //TODO:thisisverysuboptimalforsomesubclasses(namelycomponents),//sinceitdoesnottakeadvantageoftwo-phase-load
  
+sub_line:
+ //sinceitdoesnottakeadvantageoftwo-phase-load 
+
+frontremoved_sub_line:
+ nceitdoesnottakeadvantageoftwo-phase-load 
+
+sub_line:
+ returnnullSafeGet(rs,names,session,owner); 
+
+frontremoved_sub_line:
+ rnnullSafeGet(rs,names,session,owner); 
+
+predict_string:
+ //TODO:thisisverysuboptimalforsomesubclasses(namelycomponents), 
+
+line_no || similarity 
+
+104 || 0.7368421052631579 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/type/AbstractType.java 
+
+under_code:
+return nullSafeGet(rs, names, session, owner);
+ 
+
+ーーーーーーーーSearch the target string46ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:shouldthisbeSession.instantiate(Persister,...)?
+ 
+predict_string:
+ //TODO:shouldthisbeSession.instantiate(Persister,...)? 
+
+line_no || similarity 
+
+317 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/type/EntityType.java 
+
+under_code:
+copyCache.put( original, copy );
+ 
+
+ーーーーーーーーSearch the target string47ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:suckthisintoinitLaziness!
+ 
+predict_string:
+ //TODO:suckthisintoinitLaziness! 
+
+line_no || similarity 
+
+1451 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/cfg/HbmBinder.java 
+
+under_code:
+if ( "extra".equals( node.attributeValue("lazy") ) ) {
+ 
+
+ーーーーーーーーSearch the target string48ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //'hibernate.temp.use_jdbc_metadata_defaults'isatemporarymagicvalue.//Theneedforitisintendedtobealleviatedwithfuturedevelopement,thusitis//notdefinedasanEnvironmentconstant...////itisusedtocontrolwhetherweshouldconsulttheJDBCmetadatatodetermine//certainSettingsdefaultvalues;itisusefulto*not*dothiswhenthedatabase//maynotbeavailable(mainlyintoolsusage).
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string49ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:isthisright??
+ 
+predict_string:
+ thrownewUnsupportedOperationException();//TODO:isthisright?? 
+
+line_no || similarity 
+
+209 || 0.5 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/type/AnyType.java 
+
+under_code:
+}
+ 
+
+ーーーーーーーーSearch the target string50ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //ie.thesubquery!yuck!
+ 
+predict_string:
+ returngetTableName();//ie.thesubquery!yuck! 
+
+line_no || similarity 
+
+366 || 0.676923076923077 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/persister/entity/UnionSubclassEntityPersister.java 
+
+under_code:
+}
+ 
+
+ーーーーーーーーSearch the target string51ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //useofastringbuffertoworkaroundaJDKbug
+ 
+predict_string:
+ //useofastringbuffertoworkaroundaJDKbug 
+
+line_no || similarity 
+
+59 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/test/java/org/hibernate/test/annotations/AlternativeNamingStrategy.java 
+
+under_code:
+return new StringBuffer( ownerEntityTable ).append( "_" )
+ 
+
+ーーーーーーーーSearch the target string52ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:copy/pastefromrecreate()
+ 
+predict_string:
+ //TODO:copy/pastefromrecreate() 
+
+line_no || similarity 
+
+1463 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/persister/collection/AbstractCollectionPersister.java 
+
+under_code:
+offset = writeKey( st, id, offset, session );
+ 
+
+ーーーーーーーーSearch the target string53ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //workaround,forbackwardcompatibilityofsetswithno//not-nullcolumns,assumeallcolumnsareusedinthe//rowlocatorSQL
+ 
+sub_line:
+ //not-nullcolumns,assumeallcolumnsareusedinthe 
+
+frontremoved_sub_line:
+ t-nullcolumns,assumeallcolumnsareusedinthe 
+
+sub_line:
+ //rowlocatorSQL 
+
+frontremoved_sub_line:
+ wlocatorSQL 
+
+sub_line:
+ if(!hasNotNullableColumns){ 
+
+frontremoved_sub_line:
+ hasNotNullableColumns){ 
+
+predict_string:
+ //workaround,forbackwardcompatibilityofsetswithno 
+
+line_no || similarity 
+
+372 || 0.6163522012578616 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/persister/collection/AbstractCollectionPersister.java 
+
+under_code:
+if ( !hasNotNullableColumns ) {
+ 
+
+ーーーーーーーーSearch the target string54ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:thiseventuallyneedstoberemoved
+ 
+predict_string:
+ //todo:thiseventuallyneedstoberemoved 
+
+line_no || similarity 
+
+152 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/property/PropertyAccessorFactory.java 
+
+under_code:
+public static PropertyAccessor getPropertyAccessor(Class optionalClass, String type) throws MappingException {
+ 
+
+ーーーーーーーーSearch the target string55ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:remove
+ 
+predict_string:
+ //todo:remove 
+
+line_no || similarity 
+
+319 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/mapping/Property.java 
+
+under_code:
+public Getter getGetter(Class clazz) throws PropertyNotFoundException, MappingException {
+ 
+
+ーーーーーーーーSearch the target string56ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //justtohelpoutduringtheload(ugly,iknow)
+ 
+predict_string:
+ //justtohelpoutduringtheload(ugly,iknow) 
+
+line_no || similarity 
+
+55 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/collection/internal/PersistentArrayHolder.java 
+
+under_code:
+private transient Class elementClass;
+ 
+
+ーーーーーーーーSearch the target string57ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //hack/workaroundassqlqueryimpldependonhavingakey.
+ 
+predict_string:
+ alias="alias_"+elementCount;//hack/workaroundassqlqueryimpldependonhavingakey. 
+
+line_no || similarity 
+
+106 || 0.78125 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/cfg/ResultSetMappingBinder.java 
+
+under_code:
+}
+ 
+
+ーーーーーーーーSearch the target string58ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:handlethecaseofaforeignkeytosomethingotherthanthepk
+ 
+predict_string:
+ //TODO:handlethecaseofaforeignkeytosomethingotherthanthepk 
+
+line_no || similarity 
+
+95 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/mapping/OneToOne.java 
+
+under_code:
+createForeignKeyOfEntity( ( (EntityType) getType() ).getAssociatedEntityName() );
+ 
+
+ーーーーーーーーSearch the target string59ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:assumesallcollectionsdisassembletoanarray!
+ 
+predict_string:
+ //TODO:assumesallcollectionsdisassembletoanarray! 
+
+line_no || similarity 
+
+40 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/cache/spi/entry/CollectionCacheEntry.java 
+
+under_code:
+return (Serializable[]) state;
+ 
+
+ーーーーーーーーSearch the target string60ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:wouldlovetohavethisworkonanotificationbasis//wherethesuccessfulbindingofanentity/subclasswould//emitanotificationwhichtheextendsQueueentriescould//reactto...
+ 
+under_code:
+None
+ 
+
+ーーーーーーーーSearch the target string61ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:isitreallyneceassrytoprovideConfigurationtoCollectionPersisters?Shoulditnotbeenoughwithassociatedclass?//orwhydoesEntityPersister'snotgetaccesstoconfiguration?////TheonlyreasonIcouldseethatConfigurationgetspassedtocollectionpersisters//issothattheycanlookupthedom4jnodenameoftheentityelementincase//noexplicitnodenamewasappliedatthecollectionelementlevel.Areyoukiddingme?//Trivialtofixthen.Juststoreandexposethenodenameontheentitypersister//(whichthecollectionpersisterlooksupanywayviaothermeans...).
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string62ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:deprecated,removeeventually
+ 
+predict_string:
+ Dialect.QUOTE.indexOf(name.charAt(0))>-1//TODO:deprecated,removeeventually 
+
+line_no || similarity 
+
+88 || 0.6296296296296297 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/mapping/Column.java 
+
+under_code:
+) {
+ 
+
+ーーーーーーーーSearch the target string63ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODOpossiblyrelaxthat
+ 
+predict_string:
+ //TODOpossiblyrelaxthat 
+
+line_no || similarity 
+
+2840 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java 
+
+under_code:
+throw new DuplicateMappingException(
+ 
+
+ーーーーーーーーSearch the target string64ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:thisisabitdodgy,comeupwithabetterwaytocheckthis(plusseeabovecomment)
+ 
+predict_string:
+ //TODO:thisisabitdodgy,comeupwithabetterwaytocheckthis(plusseeabovecomment) 
+
+line_no || similarity 
+
+512 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/hql/internal/ast/QueryTranslatorImpl.java 
+
+under_code:
+String [] idColNames = owner.getQueryable().getIdentifierColumnNames();
+ 
+
+ーーーーーーーーSearch the target string65ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //useadegeneratedstrategyforbackwardcompatibility
+ 
+predict_string:
+ //useadegeneratedstrategyforbackwardcompatibility 
+
+line_no || similarity 
+
+75 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/cfg/DefaultNamingStrategy.java 
+
+under_code:
+return StringHelper.unqualify(propertyName);
+ 
+
+ーーーーーーーーSearch the target string66ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:thisistemporaryinthattheendresultwillprobablynottakeaPropertyreferenceper-se.
+ 
+predict_string:
+ //TODO:thisistemporaryinthattheendresultwillprobablynottakeaPropertyreferenceper-se. 
+
+line_no || similarity 
+
+72 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/property/PropertyAccessorFactory.java 
+
+under_code:
+if ( null == mode || EntityMode.POJO.equals( mode ) ) {
+ 
+
+ーーーーーーーーSearch the target string67ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:bettertohandledynamicfiltersthroughimplicitDynamicFilterParameterSpecification//seethediscussionthereinDynamicFilterParameterSpecification'sjavadocsastowhy//itiscurrentlynotdonethatway.
+ 
+sub_line:
+ //seethediscussionthereinDynamicFilterParameterSpecification'sjavadocsastowhy 
+
+frontremoved_sub_line:
+ ethediscussionthereinDynamicFilterParameterSpecification'sjavadocsastowhy 
+
+sub_line:
+ //itiscurrentlynotdonethatway. 
+
+frontremoved_sub_line:
+ iscurrentlynotdonethatway. 
+
+sub_line:
+ intfilteredParamCount=queryParameters.getFilteredPositionalParameterTypes()==null 
+
+frontremoved_sub_line:
+ ilteredParamCount=queryParameters.getFilteredPositionalParameterTypes()==null 
+
+predict_string:
+ //todo:bettertohandledynamicfiltersthroughimplicitDynamicFilterParameterSpecification 
+
+line_no || similarity 
+
+618 || 0.6137184115523465 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/loader/hql/QueryLoader.java 
+
+under_code:
+int filteredParamCount = queryParameters.getFilteredPositionalParameterTypes() == null
+ 
+
+ーーーーーーーーSearch the target string68ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //gettherightobjectfromthelist...woulditbeeasiertojustcallgetEntity()??
+ 
+under_code:
+None
+ 
+
+ーーーーーーーーSearch the target string69ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:should"record"howmanypropertieswehaverefferedto-andifwe//don'tget'em'allwethrowanexception!Waybetterthantrialanderror;)
+ 
+sub_line:
+ //don'tget'em'allwethrowanexception!Waybetterthantrialanderror;) 
+
+frontremoved_sub_line:
+ n'tget'em'allwethrowanexception!Waybetterthantrialanderror;) 
+
+sub_line:
+ privateStringsubstituteBrackets(StringsqlQuery)throwsQueryException{ 
+
+frontremoved_sub_line:
+ ateStringsubstituteBrackets(StringsqlQuery)throwsQueryException{ 
+
+predict_string:
+ //TODO:should"record"howmanypropertieswehaverefferedto-andifwe 
+
+line_no || similarity 
+
+86 || 0.6595744680851063 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/loader/custom/sql/SQLQueryParser.java 
+
+under_code:
+private String substituteBrackets(String sqlQuery) throws QueryException {
+ 
+
+ーーーーーーーーSearch the target string70ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:thisdependencyiskindaBad
+ 
+predict_string:
+ //TODO:thisdependencyiskindaBad 
+
+line_no || similarity 
+
+50 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/internal/util/ReflectHelper.java 
+
+under_code:
+private static final PropertyAccessor BASIC_PROPERTY_ACCESSOR = new BasicPropertyAccessor();
+ 
+
+ーーーーーーーーSearch the target string71ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:getSQLrenderingoutofthispackage!
+ 
+predict_string:
+ //TODO:getSQLrenderingoutofthispackage! 
+
+line_no || similarity 
+
+55 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/criterion/NullExpression.java 
+
+under_code:
+}
+ 
+
+ーーーーーーーーSearch the target string72ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //whydoesthismatter?
+ 
+predict_string:
+ if(oj.getJoinType()==JoinType.LEFT_OUTER_JOIN){//whydoesthismatter? 
+
+line_no || similarity 
+
+934 || 0.45977011494252873 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/loader/JoinWalker.java 
+
+under_code:
+if ( oj.getJoinable().isCollection() ) {
+ 
+
+ーーーーーーーーSearch the target string73ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //important,toaccountfornewlysavedentitiesinquery//todo:somekindofcheckfornewstatus...
+ 
+sub_line:
+ //todo:somekindofcheckfornewstatus... 
+
+frontremoved_sub_line:
+ do:somekindofcheckfornewstatus... 
+
+sub_line:
+ LOG.trace("Owningentityalreadyloaded;ignoring"); 
+
+frontremoved_sub_line:
+ trace("Owningentityalreadyloaded;ignoring"); 
+
+predict_string:
+ //important,toaccountfornewlysavedentitiesinquery 
+
+line_no || similarity 
+
+132 || 0.725925925925926 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/engine/loading/internal/CollectionLoadContext.java 
+
+under_code:
+LOG.trace( "Owning entity already loaded; ignoring" );
+ 
+
+ーーーーーーーーSearch the target string74ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:canwe*always*usethe"nullproperty"approachforeverything?
+ 
+predict_string:
+ //TODO:canwe*always*usethe"nullproperty"approachforeverything? 
+
+line_no || similarity 
+
+1237 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/loader/Loader.java 
+
+under_code:
+/*if ( isPrimaryKey && !isSpecialOneToOne ) {
+ 
+
+ーーーーーーーーSearch the target string75ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //doesthisneedholdlockalso?:returntableName+"with(updlock,rowlock,holdlock)";
+ 
+under_code:
+None
+ 
+
+ーーーーーーーーSearch the target string76ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //forsets,weshouldendthecollectionloadafterresolving//theentities,sincewemightcallhashCode()ontheelements//TODO:orwecoulddothispolymorphically,andhavetwo//differentoperationsimplementeddifferentlyforarrays
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string77ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:removethisandjusthavesubclassesuseIsolater/IsolatedWorkdirectly...
+ 
+sub_line:
+ publicGettergetGetter(Classclazz)throwsPropertyNotFoundException,MappingException{ 
+
+frontremoved_sub_line:
+ icGettergetGetter(Classclazz)throwsPropertyNotFoundException,MappingException{ 
+
+predict_string:
+ //todo:remove 
+
+line_no || similarity 
+
+319 || 0.3023255813953488 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/mapping/Property.java 
+
+under_code:
+public Getter getGetter(Class clazz) throws PropertyNotFoundException, MappingException {
+ 
+
+ーーーーーーーーSearch the target string78ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //sql-server,atleastneededthisdroppedafteruse;strange!
+ 
+predict_string:
+ returntrue;//sql-server,atleastneededthisdroppedafteruse;strange! 
+
+line_no || similarity 
+
+237 || 0.907563025210084 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/dialect/AbstractTransactSQLDialect.java 
+
+under_code:
+}
+ 
+
+ーーーーーーーーSearch the target string79ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //isitnecessarytoregister%exactsinceitcanonlyappearinawhereclause?
+ 
+predict_string:
+ //isitnecessarytoregister%exactsinceitcanonlyappearinawhereclause? 
+
+line_no || similarity 
+
+297 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/dialect/Cache71Dialect.java 
+
+under_code:
+registerFunction( "%exact", new StandardSQLFunction( "%exact", StandardBasicTypes.STRING ) );
+ 
+
+ーーーーーーーーSearch the target string80ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //forarrays,weshouldendthecollectionloadbeforeresolving//theentities,sincetheactualarrayinstancesarenotinstantiated//duringloading//TODO:orwecoulddothispolymorphically,andhavetwo//differentoperationsimplementeddifferentlyforarrays
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string81ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //DoesthisdialectsupporttheALTERTABLEsyntax?
+ 
+predict_string:
+ //DoesthisdialectsupporttheALTERTABLEsyntax? 
+
+line_no || similarity 
+
+395 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/dialect/Cache71Dialect.java 
+
+under_code:
+return true;
+ 
+
+ーーーーーーーーSearch the target string82ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //Thisnextbitistoallowforbothunsaved-value="negative"//andfor"older"behaviorwhereversionnumberdidnotget//seededifitwasalreadysetintheobject//TODO:shiftitintounsaved-valuestrategy
+ 
+sub_line:
+ //andfor"older"behaviorwhereversionnumberdidnotget 
+
+frontremoved_sub_line:
+ dfor"older"behaviorwhereversionnumberdidnotget 
+
+sub_line:
+ //seededifitwasalreadysetintheobject 
+
+frontremoved_sub_line:
+ ededifitwasalreadysetintheobject 
+
+sub_line:
+ //TODO:shiftitintounsaved-valuestrategy 
+
+frontremoved_sub_line:
+ DO:shiftitintounsaved-valuestrategy 
+
+sub_line:
+ ((initialVersioninstanceofNumber)&&((Number)initialVersion).longValue()<0) 
+
+frontremoved_sub_line:
+ itialVersioninstanceofNumber)&&((Number)initialVersion).longValue()<0) 
+
+predict_string:
+ //Thisnextbitistoallowforbothunsaved-value="negative" 
+
+line_no || similarity 
+
+106 || 0.4588744588744589 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/engine/internal/Versioning.java 
+
+under_code:
+( (initialVersion instanceof Number) && ( (Number) initialVersion ).longValue()<0 )
+ 
+
+ーーーーーーーーSearch the target string83ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:reenableifwealsofixtheabovetodo
+ 
+predict_string:
+ //TODO:reenableifwealsofixtheabovetodo 
+
+line_no || similarity 
+
+124 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/action/internal/EntityIdentityInsertAction.java 
+
+under_code:
+/*EntityPersister persister = getEntityPersister();
+ 
+
+ーーーーーーーーSearch the target string84ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //orphansshouldnotbedeletedduringcopy??
+ 
+under_code:
+None
+ 
+
+ーーーーーーーーSearch the target string85ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //orphansshouldnotbedeletedduringmerge??
+ 
+predict_string:
+ //orphansshouldnotbedeletedduringmerge?? 
+
+line_no || similarity 
+
+298 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/engine/spi/CascadingAction.java 
+
+under_code:
+return false;
+ 
+
+ーーーーーーーーSearch the target string86ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:suckthislogicintothecollection!
+ 
+predict_string:
+ //TODO:suckthislogicintothecollection! 
+
+line_no || similarity 
+
+457 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/engine/internal/Cascade.java 
+
+under_code:
+final Collection orphans;
+ 
+
+ーーーーーーーーSearch the target string87ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:wecanactuallyjustdeterminethisfromtheincomingEntityEntry-s
+ 
+predict_string:
+ //todo:wecanactuallyjustdeterminethisfromtheincomingEntityEntry-s 
+
+line_no || similarity 
+
+1667 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/engine/internal/StatefulPersistenceContext.java 
+
+under_code:
+rtn.hasNonReadOnlyEntities = ois.readBoolean();
+ 
+
+ーーーーーーーーSearch the target string88ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:thisbitactuallyhastobecalledafterallcascades!//butsinceidentityinsertiscalled*synchronously*,//insteadofasynchronouslyasotheractions,itisn't
+ 
+sub_line:
+ //butsinceidentityinsertiscalled*synchronously*, 
+
+frontremoved_sub_line:
+ tsinceidentityinsertiscalled*synchronously*, 
+
+sub_line:
+ //insteadofasynchronouslyasotheractions,itisn't 
+
+frontremoved_sub_line:
+ steadofasynchronouslyasotheractions,itisn't 
+
+sub_line:
+ /*if(persister.hasCache()&&!persister.isCacheInvalidationRequired()){ 
+
+frontremoved_sub_line:
+ (persister.hasCache()&&!persister.isCacheInvalidationRequired()){ 
+
+predict_string:
+ //TODO:thisbitactuallyhastobecalledafterallcascades! 
+
+line_no || similarity 
+
+94 || 0.5226130653266332 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/action/internal/EntityIdentityInsertAction.java 
+
+under_code:
+/*if ( persister.hasCache() && !persister.isCacheInvalidationRequired() ) {
+ 
+
+ーーーーーーーーSearch the target string89ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //thisclasshasnoproxies(sodoashortcut)
+ 
+predict_string:
+ //thisclasshasnoproxies(sodoashortcut) 
+
+line_no || similarity 
+
+244 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultLoadEventListener.java 
+
+under_code:
+if (!persister.hasProxy()) {
+ 
+
+ーーーーーーーーSearch the target string90ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:ShouldthisbeanInitializeEntityEventListener???(watchoutforperformance!)
+ 
+under_code:
+None
+ 
+
+ーーーーーーーーSearch the target string91ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:needmap?theprobisaproperkey,right?
+ 
+predict_string:
+ privatefinalListhydratingEntities=newArrayList(20);//todo:needmap?theprobisaproperkey,right? 
+
+line_no || similarity 
+
+44 || 0.6165413533834586 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/engine/loading/internal/EntityLoadContext.java 
+
+under_code:
+public EntityLoadContext(LoadContexts loadContexts, ResultSet resultSet) {
+ 
+
+ーーーーーーーーSearch the target string92ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:bettertopasstheidinasanargument?
+ 
+predict_string:
+ ce.setCurrentKey(type.getKeyOfOwner(entity,session));//TODO:bettertopasstheidinasanargument? 
+
+line_no || similarity 
+
+187 || 0.5954198473282443 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/engine/internal/Collections.java 
+
+under_code:
+if (LOG.isDebugEnabled()) {
+ 
+
+ーーーーーーーーSearch the target string93ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //doweevenreallyneedthis?theupdatewillfailanyway....
+ 
+predict_string:
+ //doweevenreallyneedthis?theupdatewillfailanyway.... 
+
+line_no || similarity 
+
+653 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultFlushEntityEventListener.java 
+
+under_code:
+if ( session.getFactory().getStatistics().isStatisticsEnabled() ) {
+ 
+
+ーーーーーーーーSearch the target string94ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:woulditbebettertodoarefreshfromdb?
+ 
+predict_string:
+ //TODO:woulditbebettertodoarefreshfromdb? 
+
+line_no || similarity 
+
+125 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultReplicateEventListener.java 
+
+under_code:
+}
+ 
+
+ーーーーーーーーSearch the target string95ーーーーーーーーーーーーーーー
+ 
+search_string:
+ "/**	*Thisformusedfromannotations(?).Essentiallythesameastheaboveusinga	*resultset-mappingreference,butwithoutcacheMode,readOnly,andcomment.	*	*FIXME:annotationsdonotuseit,soitcanberemovefrommyPOV	*@deprecated	*	*	*@paramqueryThesqlquerystring	*@paramresultSetRefTheresult-set-mappingname	*@paramquerySpacesAnyspecifiedqueryspaces(usedforauto-flushing)	*@paramcacheableWhetherthequeryresultsarecacheable	*@paramcacheRegionIfcacheable,theregionintowhichtostoretheresults	*@paramtimeoutAJDBC-leveltimeouttobeapplied	*@paramfetchSizeAJDBC-levelfetch-sizetobeapplied	*@paramflushModeTheflushmodetouseforthisquery	*@paramparameterTypesparametertypemap	*@paramcallableDoesthequerystringrepresentacallableobject(i.e.,proc)	*/"
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string96ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:uglyhere:
+ 
+predict_string:
+ //TODO:uglyhere: 
+
+line_no || similarity 
+
+58 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/engine/spi/SubselectFetch.java 
+
+under_code:
+final String queryString = queryParameters.getFilteredSQL();
+ 
+
+ーーーーーーーーSearch the target string97ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:notquitesureaboutthefullimplicationsofthis!
+ 
+predict_string:
+ if(includeExtraJoins){//TODO:notquitesureaboutthefullimplicationsofthis! 
+
+line_no || similarity 
+
+171 || 0.819672131147541 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/engine/internal/JoinSequence.java 
+
+under_code:
+addExtraJoins( joinFragment, rootAlias, rootJoinable, true );
+ 
+
+ーーーーーーーーSearch the target string98ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //thisonlyworksbecausecollectionentriesarekeptinasequenced//mapbypersistencecontext(maybeweshoulddolikeentitiesand//keepaseparatesequencesset...)//TODO:callingentrySetonanIdentityMapisSLOW!!
+ 
+under_code:
+None
+ 
+
+ーーーーーーーーSearch the target string99ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:i'dmuchratherhavethisdonefrom#endLoadingCollection(CollectionPersister,LoadingCollectionEntry)...
+ 
+predict_string:
+ //todo:i'dmuchratherhavethisdonefrom#endLoadingCollection(CollectionPersister,LoadingCollectionEntry)... 
+
+line_no || similarity 
+
+203 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/engine/loading/internal/CollectionLoadContext.java 
+
+under_code:
+loadContexts.unregisterLoadingCollectionXRef( collectionKey );
+ 
+
+ーーーーーーーーSearch the target string100ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:hack!!!//NOTE:herewecleanuptheloadcontextwhenwehavenomorelocal//LCEentries.This"works"forthetimebeingbecausereally//onlythecollectionloadcontextsareimplemented.Longterm,//thiscleanupshouldbecomepartofthe"closeresultset"//processingfromthe(sandbox/jdbc)jdbc-containercode.
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string101ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:addthenotionofenabledfilterstotheCacheKeytodifferentiatefilteredcollectionsfromnon-filtered;//butCacheKeyiscurrentlyusedforbothcollectionsandentities;wouldideallyneedtodefinetwoseperateones;//currentlythisworksinconjuctionwiththecheckon//DefaultInitializeCollectionEventHandler.initializeCollectionFromCache()(whichmakessuretonotreadfrom//cachewithenabledfilters).//EARLYEXIT!!!!!
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string102ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //PostLoadisneededforEJB3//TODO:reusethePostLoadEvent...
+ 
+sub_line:
+ PostLoadEventpostLoadEvent=newPostLoadEvent(session) 
+
+frontremoved_sub_line:
+ LoadEventpostLoadEvent=newPostLoadEvent(session) 
+
+predict_string:
+ //PostLoadisneededforEJB3 
+
+line_no || similarity 
+
+685 || 0.6172839506172839 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultLoadEventListener.java 
+
+under_code:
+PostLoadEvent postLoadEvent = new PostLoadEvent( session )
+ 
+
+ーーーーーーーーSearch the target string103ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:shouldwecheckthecurrentisolationmodeexplicitly?
+ 
+predict_string:
+ //todo:shouldwecheckthecurrentisolationmodeexplicitly? 
+
+line_no || similarity 
+
+92 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/event/internal/AbstractLockUpgradeEventListener.java 
+
+under_code:
+Object nextVersion = persister.forceVersionIncrement(
+ 
+
+ーーーーーーーーSearch the target string104ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //brandnewcollection//TODO:oranarray!!wecan'tlockobjectswitharraysnow??
+ 
+sub_line:
+ //TODO:oranarray!!wecan'tlockobjectswitharraysnow?? 
+
+frontremoved_sub_line:
+ DO:oranarray!!wecan'tlockobjectswitharraysnow?? 
+
+sub_line:
+ thrownewHibernateException("reassociatedobjecthasdirtycollectionreference(oranarray)"); 
+
+frontremoved_sub_line:
+ wnewHibernateException("reassociatedobjecthasdirtycollectionreference(oranarray)"); 
+
+predict_string:
+ //brandnewcollection 
+
+line_no || similarity 
+
+81 || 0.43956043956043955 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/event/internal/OnLockVisitor.java 
+
+under_code:
+throw new HibernateException( "reassociated object has dirty collection reference (or an array)" );
+ 
+
+ーーーーーーーーSearch the target string105ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:iterativelygettransiententitiesandretrymergeuntiloneofthefollowingconditions://1)transientCopyCache.size()==0//2)transientCopyCache.size()isnotdecreasingandcopyCache.size()isnotincreasing//TODO:findoutifretryingcanaddentitiestocopyCache(don'tthinkitcan...)//Fornow,justretryonce;throwTransientObjectExceptioniftherearestillanytransiententities
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string106ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //nullorbrandnewcollection//thiswillalso(inefficiently)handlearrays,whichhave//nosnapshot,sowecan'tdoanybetter
+ 
+sub_line:
+ //thiswillalso(inefficiently)handlearrays,whichhave 
+
+frontremoved_sub_line:
+ iswillalso(inefficiently)handlearrays,whichhave 
+
+sub_line:
+ //nosnapshot,sowecan'tdoanybetter 
+
+frontremoved_sub_line:
+ snapshot,sowecan'tdoanybetter 
+
+sub_line:
+ removeCollection(persister,collectionKey,session); 
+
+frontremoved_sub_line:
+ veCollection(persister,collectionKey,session); 
+
+predict_string:
+ //nullorbrandnewcollection 
+
+line_no || similarity 
+
+82 || 0.38235294117647056 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/event/internal/OnUpdateVisitor.java 
+
+under_code:
+removeCollection(persister, collectionKey, session);
+ 
+
+ーーーーーーーーSearch the target string107ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:perhapsweshouldadditionallyrequirethattheincomingentity//versionbeequivalenttothedefinedunsaved-value?
+ 
+sub_line:
+ //versionbeequivalenttothedefinedunsaved-value? 
+
+frontremoved_sub_line:
+ rsionbeequivalenttothedefinedunsaved-value? 
+
+sub_line:
+ returnchanged&&existsInDatabase(target,source,persister); 
+
+frontremoved_sub_line:
+ rnchanged&&existsInDatabase(target,source,persister); 
+
+predict_string:
+ //TODO:perhapsweshouldadditionallyrequirethattheincomingentity 
+
+line_no || similarity 
+
+347 || 0.7251461988304093 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultMergeEventListener.java 
+
+under_code:
+return changed && existsInDatabase( target, source, persister );
+ 
+
+ーーーーーーーーSearch the target string108ーーーーーーーーーーーーーーー
+ 
+search_string:
+ "/***Providesquerysplittingmethods,whichwereoriginallyinQueryTranslator.*<br>*TODO:Thiswillneedtoberefactoredatsomepoint.**@authorjosh*/"
+ 
+sub_line:
+ */ 
+
+frontremoved_sub_line:
+  
+
+sub_line:
+ publicfinalclassNameGenerator{ 
+
+frontremoved_sub_line:
+ icfinalclassNameGenerator{ 
+
+predict_string:
+ *@authorjosh 
+
+line_no || similarity 
+
+33 || 0.1610738255033557 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/hql/internal/NameGenerator.java 
+
+under_code:
+public final class NameGenerator {
+ 
+
+ーーーーーーーーSearch the target string109ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:mostofbelowwastakenverbatimfromDotNode;shouldeitherdelegatethislogicorsuper-typeit
+ 
+predict_string:
+ //TODO:mostofbelowwastakenverbatimfromDotNode;shouldeitherdelegatethislogicorsuper-typeit 
+
+line_no || similarity 
+
+76 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/hql/internal/ast/tree/IdentNode.java 
+
+under_code:
+CollectionType type = (CollectionType) getDataType();
+ 
+
+ーーーーーーーーSearch the target string110ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //todo:currentlyexpectsthattheindividualwithexpressionsapplytothesamesqltablejoin.//Thismaynotbethecaseforjoined-subclasswherethepropertyvalues//mightbecomingfromdifferenttablesinthejoinedhierarchy.Atsome//pointweshouldexpandthistosupportthatcapability.However,thathas//somedifficulties://1)thebiggestishowtohandleORswhentheindividualcomparisonsare//linkedtodifferentsqljoins.//2)herewewouldneedtotrackeachcomparisonindividually,alongwith//thejoinaliastowhichitappliesandthenpassthatinformation//backtotheFromElementsoitcanpassitalongtotheJoinSequence
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string111ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //Noexplicitselectexpression;rendertheidandproperties//projectionlistsforeverypersisterinthefromclauseinto//asingle'tokennode'.//TODO:theonlyreasonweneedthisstuffnowiscollectionfilters,//weshouldgetridofderivedselectclausecompletely!
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string112ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:betterway?!?
+ 
+predict_string:
+ //TODO:betterway?!? 
+
+line_no || similarity 
+
+613 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/hql/internal/ast/HqlSqlWalker.java 
+
+under_code:
+( ( DotNode ) dot ).setPropertyPath( ( ( FromReferenceNode ) property ).getPath() );
+ 
+
+ーーーーーーーーSearch the target string113ーーーーーーーーーーーーーーー
+ 
+search_string:
+ /////////////////////////////////////////////////////////////////////////HACKALERT!!!!!!!!!!!!!!!!!!!!!!!!!!!!//Attempttoworkaround"ghost"ImpliedFromElementsthatoccasionally//showupbetweentheactualthingsbeingjoined.Thisconsistently//occursfromindexnodes(atleastagainstmany-to-many).Notsure//ifthereareotherconditions////Essentially,look-aheadtothenextFromElementthatactually//writessomethingtotheSQL
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string114ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //Notpossibletosimplyre-usetheversionPropertyNodehereasitcauses//OOMerrorsduetocircularity:(
+ 
+sub_line:
+ //OOMerrorsduetocircularity:( 
+
+frontremoved_sub_line:
+ Merrorsduetocircularity:( 
+
+sub_line:
+ versionIncrementNode=getASTFactory().create(HqlSqlTokenTypes.PLUS,"+"); 
+
+frontremoved_sub_line:
+ ionIncrementNode=getASTFactory().create(HqlSqlTokenTypes.PLUS,"+"); 
+
+predict_string:
+ //Notpossibletosimplyre-usetheversionPropertyNodehereasitcauses 
+
+line_no || similarity 
+
+1190 || 0.8129032258064516 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/hql/internal/ast/HqlSqlWalker.java 
+
+under_code:
+versionIncrementNode = getASTFactory().create( HqlSqlTokenTypes.PLUS, "+" );
+ 
+
+ーーーーーーーーSearch the target string115ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //thisfunctionhasatemplate->restoreoutput,applythetemplateandwritetheresultout//TODO:Downcasttoavoidusinganinterface?Yuck.
+ 
+under_code:
+None
+ 
+
+ーーーーーーーーSearch the target string116ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //atsomepointthegeneratephaseneedstobemovedoutofhere,//becauseasingleobject-levelDMLmightspawnmultipleSQLDML//commandexecutions.////Possibletojustmovethesqlgenerationfordmlstuff,butfor//consistency-sakeprobablybesttojustmoveresponsiblityfor//thegenerationphasecompletelyintothedelegates//(QueryLoader/StatementExecutor)themselves.Also,notsurewhy//QueryLoadercurrentlyevenhasadependencyonthisatall;does//itneedit?Ideallyliketoseethewalkeritselfgiventothedelegatesdirectly...
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string117ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:thisisonlyneededduringcompilation..canweeliminatetheinstvar?
+ 
+predict_string:
+ privateMapenabledFilters;//TODO:thisisonlyneededduringcompilation..canweeliminatetheinstvar? 
+
+line_no || similarity 
+
+90 || 0.8427672955974843 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/hql/internal/ast/QueryTranslatorImpl.java 
+
+under_code:
+private boolean compiled;
+ 
+
+ーーーーーーーーSearch the target string118ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:absolutelynousagesofthisconstructorform;canitgoaway?
+ 
+under_code:
+None
+ 
+
+ーーーーーーーーSearch the target string119ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:isthisabitugly?
+ 
+predict_string:
+ //TODO:isthisabitugly? 
+
+line_no || similarity 
+
+427 || 1.0 
+
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/hql/internal/ast/tree/SelectClause.java 
+
+under_code:
+expr.setText( text );
+ 
+
+ーーーーーーーーSearch the target string120ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //evenhere,ifonlypropertiesmappedtothe"basetable"arereferenced//inthesetandwhereclauses,thiscouldbehandledbytheBasicDelegate.//TODO:decideifitisbetterperformance-wisetoperformthatcheck,ortosimplyusetheMultiTableUpdateDelegate
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string121ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:removetheselasttwoasbatcherisnolongermanagingconnections
+ 
+under_code:
+None
+ 
+
+ーーーーーーーーSearch the target string122ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //VERYIMPORTANT!!!!-Thisclassneedstobefreeofanystaticreferences//toanyCGLIBorJavassistclasses.Otherwise,userswillalwaysneedboth//ontheirclasspathsnomatterwhich(ifeither)theyuse.////AnotheroptionherewouldbetoremovetheHibernate.isPropertyInitialized()//methodandhavetheusersgothroughtheSessionFactorytogetthisinformation.
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string123ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:wereallyneedtobeabletodealwithcomponentpathsherealso;//thisisdifficultbecausethehql-sqlgrammarexpectsallthosenodetypes//tobeFromReferenceNodes.Onepotentialfixherewouldbetoconvertthe//IntoClausetojustuseaFromClause/FromElementcombo(asachildofthe//InsertStatement)andmoveallthislogicintotheInsertStatement.That's//probablytheeasiestapproach(read:leastamountofchangestothegrammar//andcode),butjustdoesn'tfeelrightasthenaninsertwouldcontain//2from-clauses
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string124ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:anoptimizationherewouldbetoconsidercascadedeletesandnotgenthosedeletestatements;//thedifficultyistheorderingofthetablesherevsthecascadeattributesonthepersisters->//thetableinfogottenhereshouldreallybeself-contained(i.e.,aclassrepresentation//definingalltheneededattributes),thenwecouldthengetanarrayofthose
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string125ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //TODO:switchstatementsarealwaysevil!Wealreadyhadbugsbecause//offorgottentokentypes.Usepolymorphismforthis!
+ 
+sub_line:
+ //offorgottentokentypes.Usepolymorphismforthis! 
+
+frontremoved_sub_line:
+ forgottentokentypes.Usepolymorphismforthis! 
+
+sub_line:
+ switch(x.getType()){ 
+
+frontremoved_sub_line:
+ ch(x.getType()){ 
+
+predict_string:
+ //TODO:switchstatementsarealwaysevil!Wealreadyhadbugsbecause 
+
+line_no || similarity 
+
+164 || 0.718562874251497 
+
+filepath:
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/hibernate-core/src/main/java/org/hibernate/hql/internal/ast/HqlParser.java 
+
+under_code:
+switch ( x.getType() ) {
+ 
+
+ーーーーーーーーSearch the target string126ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //reallytherearetwosituationswhereitshouldbeoktoallowtheinsertion//intopropertiesdefinedonasuperclass://1)union-subclasswithanabstractrootentity//2)discrim-subclass////#1ishandledalreadybecauseofthefactthat//UnionSubclassPersisteralreayalwaysreturns0//forthiscall...////wemaywanttodisallowitfordiscrim-subclassjustfor//consistency-sake(currentlydoesnotworkanyway)...
+ 
+under_code:
+too long.
+ 
+
+ーーーーーーーーSearch the target string127ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //implicitjoinsarealways(?)oktoreuse
+ 
