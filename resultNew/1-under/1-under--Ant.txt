@@ -1,0 +1,3052 @@
+for (int i = 0; i < attrs.getLength(); i++) {
+String name = test.toString();
+throw new SAXParseException("Unexpected attribute \"" + attrs.getQName(i) + "\"", context.locator);
+private String getFileString(String filename) throws IOException {
+String antFileProp = "ant.file." + context.getCurrentProjectName();
+propertyValue =
+if (ANT_TYPE.equals(name)
+Class procVersion = Class.forName(procVersionClassName);
+private static boolean[] gNeedEscaping = new boolean[128];
+parent.appendChild(copy);
+ze.setCrc (EMPTY_CRC);
+protected String str_encoding = "JPEG";
+private long granularity = FILE_UTILS.getFileTimestampGranularity();
+Class elementClass = o.getClass();
+res.setSystemId(JAXPUtils.getSystemId(outfile));
+* Creates the default build logger for sending build events to the ant
+if( name.startsWith( "toString:" )) {
+return defineClass(classname, classData, 0, classData.length,
+String []args = cmd.getJavaCommand().getArguments();
+jspFile = new File(files[i]);
+if (!readingFiles) {
+// TODO: do we need to delegate ?
+result.append('\\');
+/** EXPERIMENTAL WILL_CHANGE
+// delegate to next, it's for backward compat only.
+addTaskDefinition(ANT_PROPERTY_TASK,
+// We can't do it ourselves as jCVS is GPLed, a third party task
+throw new BuildException("IO error scanning directory "
+public void setLoaderRef(Reference r) {
+if ("execon".equals(getTaskName())) {
+return false;
+return new ArchiveState(true, initialResources);
+String[] sP = getSourcespath().list();
+args[j++] = "-d";
+public void setGranularity(long granularity) {
+parseStandardOutput(reader);
+// TODO:
+src.setSystemId(resourceToURI(resource));
+if (javadoc4 && sourceFileName.indexOf(" ") > -1) {
+return null;
+private boolean spawn = false;
+if (!Character.isLetterOrDigit(c)
+return;
+throw e;
+* Jikes has the nice feature to print error
+if (obj != null && !(obj instanceof AntClassLoader)) {
+throw new BuildException("RuleBasedCollator not yet supported.");
+path = path.replace('\\', '/');
+StringBuffer modifiedClassName = new StringBuffer(className.length());
+String[] target = new String[] {name + ".tmp." + RAND.nextLong()};
+// Change the item to be checked out to a StarTeam File.
+return
+for (Enumeration e = setRefs.elements(); e.hasMoreElements();) {
+FileSet msZipFiles = new FileSet();
+result.addExisting(p, true);
+None
+result.addExisting(p, true);
+Throwable cause = null;
+Object[] tokens = StringUtils.split(normalizedPath, '/').toArray();
+fmap[j] = v;
+int[] rNums = {
+private static class AntRefTable extends Hashtable {
+s = Commandline.translateCommandline("\"\" a");
+fail("process interrupted in thread");
+public String resolveFile(String file) {
+public void assertEqualContent(File expect, File result)
+if (propertyFile != null) {
+}
+}
+// ------------------------------------------------------
+throw new IllegalStateException("Could not convert URI to path: "
+fs.setPrefix("META-INF/");
+/**
+if (this.assemLen > 0) {
+String[] cP = getClassespath().list();
+File file = getProject().resolveFile(new File(dir, filename).getPath());
+Folder f = v.getRootFolder();
+args[j++] =  "-compilerclass";
+String filename = (String) filesToDo.elementAt(i);
+super.zipFile(service.getAsStream(), zOut,
+if (jarfile.exists()) {
+project.registerThreadTask(thread, currentThreadTask);
+}
+String[] sP = getSourcespath().list();
+this.getOwningTarget().replaceChild(this, (Task)realThing);
+if (appendReader != null) {
+if (error != null) {
+sel.setClassLoader(this.getClass().getClassLoader());
+final Constructor[] cons = theClass.getDeclaredConstructors();
+return singleton;
+boolean useParentFirst = parentFirst;
+String msg = "Exception while calling " + VERIFY + " Details: "
+* Performs a ClearCase Unlock command.
+public boolean hasFilesets() {
+} else {
+None
+private String  displayName;
+* possible, to force <tt>CBZip2InputStream</tt> to release the
+}
+if (parent == null) {
+if (pos > 0) {
+} catch (Exception ex) {
+public void testFailed() throws Exception {
+}
+watchdog.start(process);
+setUsername(uri.substring(0, indexOfColon));
+public void messageLogged(BuildEvent event) {
+boolean trackProgress = getVerbose() && filesize > 102400;
+if (text.length() == 0) {
+long filesize = localFile.length();
+if (getReserved()) {
+sendMTFValues3(nGroups, alphaSize);
+cmd.createArgument().setValue(FLAG_RESERVED);
+/* offset of start of central      */
+Path p = getBootClassPath();
+source.setInputSource(new InputSource(uri));
+cmd.createArgument().setValue(FLAG_UNRESERVED);
+ctor = newclass.getConstructor(new Class[0]);
+getOutCommand(cmd);
+if (b == -1) {
+String msg = project.getElementName(element)
+}
+cmd.createArgument().setValue(FLAG_NODATA);
+ByteArrayOutputStream stream = new ByteArrayOutputStream();
+cmd.createArgument().setValue(FLAG_VERSION);
+|| OS_NAME.indexOf("ce") >= 0);
+cmd.createArgument().setValue(FLAG_NOWARN);
+} else if (this.isUsingRevisionLabel()) {
+} else if (java.lang.Class.class.equals(reflectedArg)) {
+/* the central dir on this disk    */ + 2
+++eolcount;
+catalogResolver = new ExternalResolver(clazz, obj);
+String filename = line.substring(0, index);
+String msg = "Ant's Main method is being handed "
+return false;
+} else if (java.lang.Character.class.equals(reflectedArg)) {
+}
+if (classname == null) {
+for (Iterator dirs = byDir.keySet().iterator(); dirs.hasNext();) {
+while (searchParents && parent != null && parent.exists()) {
+writeOut(ZipShort.getBytes(20));
+private final static class TestRunner extends JUnitTestRunner {
+/** The base directory to be scanned. */
+c = reflectedArg.getConstructor(new Class[] {Project.class, String.class});
+if (matchingEntry.getBase() != null) {
+if (l != null) {
+/* total number of entries in      */
+private static final int GET_FILE = 1;
+String comm = ze.getComment();
+status = GET_FILE;
+boolean sameDate;
+c.setValue("crlf");
+//   Helper methods
+} else if (EnumeratedAttribute.class.isAssignableFrom(reflectedArg)) {
+FileSelector[] s = syncTarget.getSelectors(getProject());
+validate();
+ze.setTime(dir.lastModified() + (roundUp ? 1999 : 0));
+cmdl.createArgument().setValue(getViewPath());
+private boolean hasScript(String test) {
+Commandline commandLine = new Commandline();
+if (!filesets.isEmpty()) {
+private static final String PASS_TEST = "testNoCrash";
+if (this.name.length() + this.address.length() > len) {
+// if this class belongs to a package which has been
+String enc = encoding == null ? "default" : encoding;
+private final static class ResultFormatter implements JUnitResultFormatter {
+loader.findClass("fubar");
+} else if (java.io.File.class.equals(reflectedArg)) {
+fileset.setFile(file);
+getTypeValueCommand(cmd);
+writeOut(ZipShort.getBytes(8));
+assertMapped(mangler, "0.jsp", "_0_jsp");
+private ZipScanner zs;
+public void setLoaderRef(Reference r) {
+String filename = line.substring(0, index);
+String driveSpec = "C:";
+srcDir = file.getParentFile();
+assertEqualsIgnoreDriveCase(driveSpec + "\\",
+getCommentFileCommand(cmd);
+boolean isConfigured = false;
+private class AddNestedCreator extends NestedCreator {
+log("destFile exists", Project.MSG_DEBUG);
+if (!autoFound && ((user != null) || (password != null))
+public void test10() {
+if (from == null || from.getAddress() == null) {
+public void testSearchInPathNotThere() {
+if (charset != null) {
+return 2;
+reachedEof = true;
+if (argList.size() == args.length) {
+String oldValue = (String) props.get(key);
+thread.join(TIME_OUT/2);
+if (value.charAt(pos + 1) == '$') {
+return null;
+f.setSrc(new File("example.zip"));
+try {
+MSVSSHISTORY vssHistory = new MSVSSHISTORY();
+cmd.createArgument().setValue(FLAG_PRESERVETIME);
+EjbInfo[] ejbs = getEjbs(); // Returns list of EJBs for processing
+assertTrue("No index.html present. Not generated?", reportFile.exists() );
+public EmailAddress(String email) {
+if (vPath.equalsIgnoreCase("META-INF/application.xml"))  {
+if (eolcount == 0) {
+fail("extra args");
+cmd.createArgument().setValue(FLAG_KEEPCOPY);
+}
+cmd.createArgument().setValue(FLAG_IDENTICAL);
+URL reportUrl = new URL( FileUtils.getFileUtils().toURI(reportFile.getAbsolutePath()) );
+eofStr.append(line.toString().substring(i + 1));
+if (getTypeName() == null) {
+}
+/**
+// the format is:
+/**
+String results = selectionString(s);
+cmd.createArgument().setValue(FLAG_REPLACE);
+cal.set(2002, 2, 27);
+AddNestedCreator(Method m, Constructor c, int behavior) {
+None
+private static final long EMPTY_CRC = new CRC32 ().getValue ();
+cmd.createArgument().setValue(FLAG_RECURSE);
+File renamedFile = null;
+if (testMailClient.isFailed()) {
+watchdog.stop();
+AttributeSetter(Method m) {
+for (int i = 0; i < groupfilesets.size(); i++) {
+ArchiveState state = getResourcesToAdd(fss, zipFile, false);
+if (targetDescription == null) {
+if (!state.isOutOfDate()) {
+String charset = parseCharSetFromMimeType(message.getMimeType());
+charset = message.getCharset();
+None
+if (srcDir.equals(destDir) && extension == null && mapper == null) {
+}
+/** The base directory to be scanned. */
+throw new BuildException(ERROR_NO_XSD_SUPPORT);
+setFeature(XmlConstants.FEATURE_NAMESPACES, true);
+hasCR = true;
+assertTrue("should have at least one resident file",
+thread.join();
+return new ArchiveState(true, initialResources);
+} else {
+line = linebuf.toString();
+// the format is:
+private boolean binary;
+throw new BuildException(ie);
+copyFilesToDestination();
+} else if (java.lang.Boolean.class.equals(reflectedArg)) {
+String[] compileOptionsArray = getCompileOptionsAsArray();
+if (getNoCheckout() && getCheckin()) {
+cmd.createArgument().setValue(FLAG_NOCHECKOUT);
+Class theClass = findLoadedClass(classname);
+if (!nextToken.equals(File.pathSeparator)) {
+log(l, Project.MSG_ERR);
+context.getImplicitTarget().execute();
+String currentClassPath = System.getProperty("java.class.path");
+switch (thisChar) {
+checkOptions(commandLine);
+return (count == 0 && c == -1) ? -1 : count;
+/** The base directory to be scanned. */
+boolean nullIncludes = (includes == null);
+if ((!doUpdate || renamedFile != null) && !zipFile.delete()) {
+if (parent == null) {
+Enumeration/*<URL>*/ mine = new ResourceEnumeration(name);
+if (getObjSelect() != null) {
+* Set the parent for this class loader. This is the class loader to which
+log("Note: creating empty " + archiveType + " archive " + zipFile,
+lastScannedResource = thisresource;
+Commandline commandLine = new Commandline();
+}
+byte[] empty = new byte[22];
+}
+cmd.createArgument().setValue(FLAG_MASTER);
+globalFilterSet.setProject(this);
+* Check if the attributes and nested elements are correct.
+// getConstructor finds public constructors only.
+BFT bft = new BFT("", "core/duplicate-target2.xml");
+executeTarget(secondTarget);
+private static final String[] RMIC_CLASSNAMES = new String[] {
+os.write(empty);
+for (Enumeration iter = sortedTargets.elements();
+getEltypeCommand(cmd);
+tsort(cur, targetTable, state, visiting, ret);
+LogOutputStream outLog = new LogOutputStream(this, Project.MSG_VERBOSE);
+if (!zipFile.exists())  {
+if (r.attributeMap != null) {
+String buildfile = "";
+} catch (IllegalAccessException e) {
+assertEquals(0, process.exitValue());
+"**/.DS_Store"
+}
+}
+if (!zipFile.exists()) {
+if (fast && hasBeenScanned(vpath)) {
+npe.printStackTrace();
+}
+//  Predefined tokenizers
+if (value != null && defaultValue == null) {
+// A project helper may process multiple files. We'll keep track
+// previously existed in the property file, the property
+Vector vfss = new Vector();
+String saxParserName = saxParser.getClass().getName();
+as = getNonFileSetResourcesToAdd(rc, zipFile, true);
+return new ArchiveState(needsUpdate, initialResources);
+try {
+File toDir = hasDestDir ? destDir : fr.getBaseDir();
+break;
+/** No destdir attribute */
+boolean isAntlib = componentName.indexOf(MagicNames.ANTLIB_PREFIX) == 0;
+assertEquals(antfile + " OUTPUT???" + antfile + " ERROR!!!", getLog());
+if (destfiles == null) {
+src = new StreamSource(is);
+/* internal file attributes        */ + 2
+cmd.createArgument().setValue(FLAG_RMALL);
+byte[] buffer1 = new byte[BUF_SIZE];
+OutputStream stream = outStream;
+quotes ("). This breaks clearcase.
+Throwable t = event.getException();
+String path = (basedir == null)
+// the format is:
+if (oldsm != null) {
+ClassLoader oldLoader = other.getClassLoader();
+org.w3c.dom.Comment s = doc.createComment("stack=" + threadStack);
+int offset = off;
+return;
+/**
+"expecting file " + name + " to contain " + contains +
+InputStream xslStream = null;
+for (int i = 0; i < ejbs.length; i++) {
+containingPath.setPath(attributeValue);
+}
+cmd.createArgument().setValue(getTypeSpecifier());
+cmd.createArgument().setValue(FLAG_IGNORE);
+testListener.addFailure(test, (AssertionFailedError) t);
+Project p = getProject();
+}
+typeSpec = tkind + ":" + tname;
+bsPutUByte(0x17);
+bufferInfo.buffer.write(cc);
+cmd.createArgument().setValue(FLAG_FULL);
+List sorted = new ArrayList(props.size());
+Document doc = getDocumentBuilder().newDocument();
+cmd.createArgument().setValue(FLAG_INCREMENTAL);
+processBuffer(bufferInfo.buffer);
+cmd.createArgument().setValue(FLAG_NLABEL);
+/**
+cmd.createArgument().setValue(getBaselineRootName());
+bufferInfo.buffer.write(cc);
+if (!getNotco() && lsCheckout()) {
+None
+public void doTarget(String target) {
+b.append(beginToken);
+assertEquals("java.exe", j);
+SOSGet sosGet = new SOSGet();
+m.setTo("foo*");
+int blockLength = offset - blockStartOffset;
+for (int i = 256; --i >= 0;) {
+/**
+/**
+public void testHashvalueAlgorithm() {
+projectPath = vssPath.substring(5);
+pos[v] = pos[v - 1];
+if (adapterClass != null && (adaptToClass == null
+createHuffmanDecodingTables(alphaSize, nGroups);
+}
+patIdxStart++;
+Commandline commandLine = new Commandline();
+Commandline commandLine = new Commandline();
+* Set the name of StarTeamServer;
+Object o = ctor.newInstance(
+* Set the name of StarTeamServer;
+localrootfolder = starteamrootfolder.getPathFragment();
+for (Iterator kitr = lnks.keySet().iterator(); kitr.hasNext();) {
+public void write(int b) {
+failOnError = false;
+cmd.createArgument().setValue(FLAG_ORDINARY);
+getProject().log(commandLine.toString(), Project.MSG_DEBUG);
+project.setProjectReference(o);
+getLogCommand(cmd);
+if (local.isDirectory()) {
+if (!shouldProcess(filename)) {
+cmd.createArgument().setValue(FLAG_GRAPHICAL);
+cmd.createArgument().setValue(FLAG_OVERWRITE);
+/* compressed size                 */ + 4
+SOSCheckin sosCheckin = new SOSCheckin();
+if (prependReader != null) {
+private int msgOutputLevel = Project.MSG_INFO;
+log("duplicate file " + vPath
+if (!permOK && origSm != null) {
+cmd.createArgument().setValue(FLAG_GLOBAL);
+cmd.createArgument().setValue(FLAG_RENAME);
+setExtra();
+cmd.createArgument().setValue(FLAG_OBSOLETE);
+case OnError.REPORT:
+cmd.createArgument().setValue(FLAG_NOVERWRITE);
+return getResourceContainer(sourceLocation, sourcePath.list());
+/** Stream to use for logging. */
+* @since 1.1
+getProject().copyUserProperties(newProject);
+newProject.setSystemProperties();
+cmd.createArgument().setValue(FLAG_CURRENTTIME);
+if (verbosity == Project.MSG_VERBOSE) {
+/**
+int exitCode = 1;
+addAlmostAll(getProject().getProperties());
+Iterator it = clause.assertionList.iterator();
+cmd.createArgument().setValue(FLAG_PBRANCH);
+command.append("...");
+String[] filesInDir = directory.list();
+String compiler = rmicType.toLowerCase(Locale.ENGLISH);
+newProject.setInheritedProperty(MagicNames.PROJECT_BASEDIR,
+if (osname.startsWith("windows")) {
+cmd.createArgument().setValue(FLAG_SHARED);
+return true;
+HashMap launchCommands = new HashMap();
+Object o = r.getReferencedObject(getProject());
+newProject = null;
+if (m != null) {
+FileInputStream inFileStream
+Set set = new HashSet();
+SOSCheckout sosCheckout = new SOSCheckout();
+}
+SOSCheckout sosCheckout = new SOSCheckout();
+}
+for (int i = 0; i < args.length; i++) {
+File dir3 = project.resolveFile("subant");
+if (inheritRefs) {
+}
+private static final int SECURITY_MARGIN = 2000;
+projectHelp = true;
+private boolean supportsSymlinks = Os.isFamily("unix");
+continue;
+if (shareclassloader == null
+if (newProject.getProperty(key) == null) {
+public final static String NULL_DRIVER = NullDriver.class.getName();
+if (dir == null) {
+if (i < args.length - 1) {
+private static final String PREFIX = "\u001b[";
+newProject.setNewProperty(key, value);
+if (!spawn) {
+public void test4() {
+public void assertOutputContaining(String substring) {
+"nested.ab", "Should have got ambiguous", "ambiguous");
+ClassFile javaClass = new ClassFile();
+if (enumStack.empty()) {
+if (buildFile == null) {
+//        if (dir.getCanonicalPath().equals(dir.getAbsolutePath())) {
+s = Commandline.translateCommandline("1 2\\ 3 4");
+Enumeration depsEnum = dependencyVisitor.getDependencies();
+Enumeration depsEnum = analyzedDeps.elements();
+final boolean hasJar = jar != null;
+/* int minorVersion = */ classStream.readUnsignedShort();
+/* int majorVersion = */ classStream.readUnsignedShort();
+if (searchForThis != null) {
+that depends on the order in which "set" methods have
+if (!hasDestDir && hasMapper) {
+// read the constant pool in and resolve it
+int classIndex = data.readUnsignedShort();
+*   {"-Dname", "value"}
+if (hasJar && hasSignedJar) {
+if (cache != null) {
+DependencyAnalyzer analyzer = new AntAnalyzer();
+Mailer mailer = null;
+if (!buildFile.exists()) {
+if (passedTokens.size() > 0) {
+signOneJar(jar, signedjar);
+* Parses a string containing <code>${xxx}</code> style property
+Enumeration depEnum = dependencyList.elements();
+private static final String PASS_TEST_TARGET = "captureToSummary";
+classpathDependencies = new Hashtable();
+int ch = -1;
+return;
+if (uriClazz != null && uri.startsWith("file:/")) {
+if (cache != null && cacheDirty) {
+//  Predefined tokenizers
+String topLevelClassName
+fs.setPrefix("META-INF/");
+MSVSSGET vssGet = new MSVSSGET();
+None
+FileNameMapper destMapper;
+if (getViewPath() == null) {
+if (classpathDependencies == null) {
+// ATTRIBUTES
+destMapper = new IdentityMapper();
+Object addedPath = null;
+String[] classLocationsList = classLocations.list();
+return (addedPath != null ? addedPath : id);
+for (int i = 0; i < srcPathList.length; ++i) {
+String attributeName = getAttributeName(attributeNode);
+ClassFile javaClass = new ClassFile();
+String cmpElem =
+/**
+logVerbose("In directory " + executable.getWorkingDirectory());
+targetWindows = !targetOS.equals("unix") && !targetOS.equals("tandem");
+executable.setCommandline(commands);
+String myos = System.getProperty("os.name");
+String buildTestcases = System.getProperty("build.tests");
+if ((value != null) && (property != null)) {
+MSVSSLABEL vssLabel = new MSVSSLABEL();
+* Collect the resources that are newer than the corresponding
+String[] destFilenames = destMapper.mapFileName(fr.getName());
+try {
+EjbInfo[] ejbs = getEjbs(); // Returns list of EJBs for processing
+return;
+throw new BuildException(ERROR_BAD_MAP + fr.getFile());
+if (isInUpdateMode()) {
+addTimestampAuthorityCommands(cmd);
+Enumeration e = sourceFileSets.elements();
+commandLine.createArgument().setValue(getLocalpath());
+if (Os.isFamily("openvms")) {
+addValue(cmd, jarSource.getPath());
+PatternSet ps = syncTarget.mergePatterns(getProject());
+entries.addElement(null);
+boolean noRemovalNecessary = !toDir.exists() || toDir.list().length < 1;
+for (int i = 1; i < commands.length; ++i) {
+addValue(cmd, alias);
+private SyncTarget syncTarget;
+for (int i = 0; i < dependencies.length; i++) {
+compiler.applyExtraArgs(command);
+// There have been reports that 300 files could be compiled
+return stripTrailingSeparator(urls, count);
+if (preserveLastModified) {
+} else  if (getElementTag() == null) {
+File destFile = signedjarFile;
+protected Vector filesets = new Vector(); // contains AbstractFileSet
+//-- make sure destination directory exists...
+boolean rebuild = true;
+exe.setStreamHandler(redirector.createHandler());
+if (destFile.exists()) {
+if (var != null) {
+path = wsdl.evaluate();
+if (var == null) {
+destFile = jarFile;
+if (Os.isFamily("openvms")) {
+File f = wsdl.getFile();
+System.out.println("Execing Draws");
+Iterator it = schemas.iterator();
+}
+if (jarFile.equals(destFile)) {
+Reader r = null;
+rebuild |= isRebuildNeeded(schema, destLastModified);
+// Ant javadoc task rules for group attribute:
+if (rebuild) {
+File parent = destFile.getParentFile();
+Tstamp tstamp = new Tstamp();
+if (sourcePath != null) {
+return isSigned(jarFile);
+if (filename.toLowerCase().endsWith(".nrx")) {
+/** SAX1 not supported */
+private boolean hasScript(String test) {
+if (notEmpty(references)) {
+if (defaultSetDefined || defaultSet.getDir(getProject()) == null) {
+return FILE_UTILS.isUpToDate(jarFile, destFile);
+Path sourcepath = null;
+if (referenceFiles == null) {
+if (!keepformat) {
+if (notEmpty(references)) {
+File dirF = f.getParentFile();
+for (int propertyFileIndex = 0;
+int result = next.read(cbuf, off, len);
+log(e.toString(), Project.MSG_VERBOSE);
+HashMap filesByBasedir = new HashMap();
+DotnetDefine define = (DotnetDefine) defEnum.nextElement();
+if (!finished) {
+command.setAutomaticResponseFileThreshold(AUTOMATIC_RESPONSE_FILE_THRESHOLD);
+log("Not modified - so not downloaded", logLevel);
+private static final FileUtils FILE_UTILS = FileUtils.getFileUtils();
+}
+boolean forceBuild = referencesOutOfDate > 0;
+Attribute firstAttribute = new Attribute(line);
+String attributeKey = attribute.getKey();
+SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss z");
+String[] list = src.list();
+Enumeration propertyNames = props.propertyNames();
+private FileNameMapper mapper;
+if (Commandline.toString(args).length() > 4096
+command.addArgument(sourceFile.getAbsolutePath());
+Apt apt = getApt();
+// start initial batch of threads
+LogOutputStream logstr = new LogOutputStream(getRmic(),
+Exception x = sxe;
+destroyProcessThread.start();
+if (destFile.exists()) {
+if (encoding != null) {
+throw e;
+classpath.setLocation(attributes.getBase());
+while (!file.exists()) {
+//containing the arguments and classpath for the java command.
+throw new BuildException(pce);
+/** Line separator */
+throw new BuildException("Failed to load " + src, ioe);
+MSVSSCHECKIN vssCheckin = new MSVSSCHECKIN();
+String nodePrefix = prefix;
+Path bcp = calculateBootclasspath(true);
+Object nodeObject = processNode(node, nodePrefix, container);
+parent = getParentFile(parent);
+int endOfDateIndex = line.indexOf(';');
+if (node.hasChildNodes()) {
+} else {
+/** Line separator */
+None
+getBranchCommand(cmd);
+public void test15() {
+file = new File(parent, suffix);
+/**
+PrintWriter out
+String id = null;
+String toBeRemoved = FILE_STRING + mypackage + "/";
+protected int stroke_width = 0;
+MSVSSCHECKOUT vssCheckout = new MSVSSCHECKOUT();
+if (!hasFile && !hasURL) {
+if (threadPriority != null) {
+* @ant.attribute ignore="true"
+Node idNode = nodeAttributes.getNamedItem(ID);
+private String file;
+for (int i = 0; i < nodeAttributes.getLength(); i++) {
+// UnknownElement.maybeConfigure if the problem persists.
+* This software consists of voluntary contributions made by many
+project.log("A security manager refused to set the -nice value");
+* is somehow "special" (i.e., it has known
+File execDir = resourceDir;
+if (getSrcDir() == null) {
+continue;
+// the format is:
+setSrcDir(getProject().resolveFile("."));
+if (warn) {
+DirectoryScanner scanner = getDirectoryScanner(getSrcDir());
+if (value == null && defaultValue != null && oldValue != null) {
+MSVSSADD vssAdd = new MSVSSADD();
+if (fis != null) {
+Enumeration e = definedProps.keys();
+containingPath.setPath(attributeValue);
+for (int i = 0; i < filesets.size(); i++) {
+addFilesToCommand(filesToBuild, command);
+* slash for "absolute" resources and will strip it before
+return command;
+ProxySetup proxySetup = new ProxySetup(project);
+DirectoryScanner ds = fs.getDirectoryScanner(p);
+private static final String ENTITY_BEAN       = "entity";
+private String      classpath;
+private boolean     retainSource = false;
+assertTrue("log file not existing", !logFile.exists());
+MSVSSCP vssCp = new MSVSSCP();
+int cnt = 0;
+if (targets.size() == 0) {
+public void test20() {
+private File        iasHomeDir;
+private SAXParser   parser;
+if (classpath == null) {
+if (getVsspath() == null) {
+SAXParserFactory parserFactory = SAXParserFactory.newInstance();
+project.addBuildListener(createLogger());
+System.out.println("An exception was generated while trying to ");
+IPlanetEjbc ejbc = new IPlanetEjbc(
+if (container != null) {
+try {
+if (matchingEntry.getBase() != null) {
+int maxLength = 0;
+nodeText = getAttributeValue(node);
+int locLength  = currentLoc.length();
+if (semanticAttributes && id == null
+StringBuffer args = new StringBuffer();
+String command;
+// the format is:
+Vector topNames = new Vector();
+if (attributeName.equals(REF_ID)) {
+if (debugOutput) {
+if (ejb.getBeantype().equals(STATELESS_SESSION)) {
+} else if (!isSemanticAttribute(attributeName)
+arguments.add("-classpath");
+return (String[]) arguments.toArray(new String[arguments.size()]);
+}
+project.log("Default target: " + defaultTarget);
+if (outputDirectory == null) {
+/**
+/**
+/**
+File f = getFile();
+None
+String location = (String) resourceDtds.get(publicId);
+String lSep = System.getProperty("line.separator");
+if (getURI() == null) {
+currentText = "";
+} else {
+Commandline commandLine = new Commandline();
+// the format is:
+cmd.createArgument().setValue(getTypeSpecifier());
+Hashtable dependencies = new Hashtable();
+ze.setMethod(ZipShort.getValue(cfh, off));
+ClassCPInfo classInfo
+if (cacheFileExists
+dependencyList = (Vector) dependencyMap.get(info.className);
+String uri1 = getURI();
+/**
+File jarFile = (File) classpathFileObject;
+if (home == null) {
+Process p = Runtime.getRuntime().exec(command + args);
+try {
+String spaces = "    ";
+resource = path.substring("//".length());
+if (!remote.getClassFile(buildDir).exists()) {
+if (isRmiStub(affectedClass, className)) {
+if (info != null) {
+outOfDateClasses.put(className, className);
+resource = resource + ANTLIB_XML;
+/** Text appearing within the element. */
+resource = path.replace('.', '/') + ANTLIB_XML;
+switch (onError) {
+for (int j = 0; j < numSlots - 1; ++j) {
+for (Iterator i = filesList.iterator(); i.hasNext();) {
+if (!logFile.exists()) {
+myBuild.setTimeToWait(TIME_TO_WAIT);
+private Map       resourceDtds = new HashMap();
+XMLCatalog catalog1 = newCatalog();
+if (automaticResponseFileThreshold > 0
+ZipFile zipFile = (ZipFile) zipFiles.get(file);
+if (affectedClass.indexOf("$") == -1) {
+//bail on no references listed
+log(message, Project.MSG_VERBOSE);
+constantPool = new ConstantPool();
+FileOutputStream fos = null;
+if (filesOutOfDate > 0) {
+if (!firstDefinition) {
+lookahead = nextToken;
+* utility (both "source" class files as well as stubs and skeletons). The
+break;
+private File        destDirectory;
+return basedir == null || basedir.exists();
+ResourceLocation dtd = new ResourceLocation();
+None
+if (sources.size() > 0 && targets.size() > 0 && !uptodate(sources, targets)) {
+private void validate() {
+remoteFile = remote.getClassFile(buildDir);
+return false;
+homeFile = home.getClassFile(buildDir);
+execTask.createArg().setValue("-single");
+/**
+if (this.securityPolicy != null && !securityPolicyFile.exists()) {
+if (primaryKey != null) {
+String jonasDN; // JOnAS-specific DD
+if (filesToBuild.size() == 0) {
+Enumeration files = filesToBuild.elements();
+String msg = "Exception while calling generateclient Details: " + e.toString();
+None
+if (additionalargs != null) {
+execTask.createArg().setValue(ejbjarfile.getAbsolutePath());
+None
+genicClass = getGenicClassName(classpath);
+for (int i = 0; i < classnames.length; i++) {
+String replace = null;
+ejbFiles.put(pathToClass, classFile);
+}
+if (isReference()) {
+if (config.flatDestDir && baseName.length() != 0) {
+destClassesModified = Math.min(destClassesModified, fileMod);
+for (int i = 0; i < headersKeys.size(); i++) {
+/**
+if (genericJar != null) {
+/** The base directory to be scanned. */
+Class interf = attributes.getRemoteInterface(c);
+private File        stdDescriptor;
+if (replaceEntries.containsKey(je.getName())) {
+while (!buildFinished) {
+String fileNameWithMETA = currentText;
+File ejbDescriptor = (File) ejbFiles.get(META_DIR + EJB_DD);
+/**
+final DeweyDecimal requiredSpecificationVersion
+/**
+String beanClassBase = dd.getEnterpriseBeanClassName().replace('.', '/');
+}
+private String      displayName;
+* results in the "classpathElements" instance variable.
+* from the parent "ejbjar" task) and the iAS-specific EJB descriptor
+ctor = newclass.getConstructor(new Class[] {Project.class});
+final String nameKey = prefix + EXTENSION_NAME;
+if (destDirectory == null) {
+final DeweyDecimal requiredImplementationVersion
+f = (ZipFileSet)getInstance();
+parser.parse(stdDescriptor, handler);
+Server s = new Server(getServerName(), getServerPort());
+if (iasDescriptor) {
+TestCase t = new VmExitErrorTest(message, test, testCase);
+String msg = "Unknown argument: " + arg;
+* Execute inside VM.
+targets.addElement(arg);
+String classname = filename.substring(0, filename.lastIndexOf(".class"));
+private static final String OUTPUT_FILE       = "OUTPUT_FILE";
+ClassLoader parent = new ParentLoader();
+f = (ZipFileSet)getInstance();
+}
+}
+}
+public void setHome(String home) {
+/**
+commandLine.createArgument().setValue(SOSCmd.FLAG_FILE);
+Class c = null;
+String clientname = ejbjarname.substring(0, ejbjarname.lastIndexOf("."));
+if (!f.exists()) {
+}
+String name = t.toString();
+None
+None
+if (textBuffer != null) {
+suite = (Test) suiteMethod.invoke(null, new Class[0]);
+} catch (Exception e) {
+}
+if (buildFile.isDirectory()) {
+for (int i = dsfiles.length - 1; i >= 0; i--) {
+SecurityManager oldsm = null;
+if (parent.util.match("/^error:/", line)
+vmsJavaOptionFile.deleteOnExit();
+return cmpElem.startsWith(cmpFrom)
+if (fileStatus == Status.MERGE || fileStatus == Status.UNKNOWN) {
+// for NetWare and OS/2, piggy-back on Windows, since in the
+if (haveClasspath()) {
+if (getFilename() != null) {
+StringBuffer header = new StringBuffer("                Item");
+String defaultPath = v.getDefaultPath();
+/* ------------- */
+final StringBuffer result = new StringBuffer();
+String strFolder = f.getFolderHierarchy();
+None
+} catch (Throwable ioe) {
+if (getSosHome() == null) {
+/* ------------- */
+/**
+if (getUsername() == null) {
+// Currently, we deal with only two path formats: Unix and Windows
+/* -------------------- */
+//System.exit(0);
+if (source.exists()) {
+String[] elems = path.list();
+None
+jonasDescriptorName = getJonasDescriptorName();
+// Now convert the path and file separator characters from the
+UnmatchedFileMap ufm =
+if (i != 0) {
+if (allowInput) {
+long initFilesize = filesize;
+if (now.getTime().getTime() - startwait.getTime().getTime() > MAX_BUILD_TIME) {
+if (executeJar) {
+public void test1() {
+None
+// UnmatchedFileMap because that creates a bunch of NEW
+if (newElem != elem) {
+// GET/SET methods.
+None
+// we know we can add it.
+genicTask.createArg().setValue(genericJarFile.getPath());
+void setFromHeader() {
+if (setonempty || rslt.length() > 0) {
+Commandline commandLine = new Commandline();
+}
+return null;
+endOfBaseName = descriptorName.lastIndexOf('.') - 1;
+clazz = Class.forName(APACHE_RESOLVER, true, baseResolverLoader);
+HP: while (--hp >= 0) {
+String dsep = File.separator;
+psep = pathSep;
+dsep = dirSep;
+public void setParameters(Parameter[] parameters) {
+if (cons != null) {
+if (currentElement.equals(EJB_NAME)) {
+}
+for (Iterator i = cacheCollection().iterator(); i.hasNext();) {
+/* -------------------- */
+ArrayList al = (ArrayList) nsURIByElement.get(element);
+/* ------------- */
+for (Iterator i = attributes.iterator(); i.hasNext();) {
+Restrict r = new Restrict();
+log("Deleting temp output directory '" + outputdir + "'.", Project.MSG_VERBOSE);
+File genericJarFile = super.getVendorOutputJarFile(baseName);
+observers.addElement(to);
+return Character.isLetterOrDigit(c) || c == '.' || c == '-';
+}
+addGenICGeneratedFiles(genericJarFile, ejbFiles);
+case 14:
+super.writeJar(baseName, getVendorOutputJarFile(baseName), ejbFiles, publicId);
+return command;
+public void test2() {
+if (match == null) {
+/** The name of the file associated with this recorder entry.  */
+this.destDir = destDir;
+path = descriptorName.substring(0, startOfFileName + 1);
+return false;
+public void testNoTestCase(){
+path = "";
+for (int i = next; i < ca.length; i++) {
+private File    ejbdescriptor;
+if ((start > 0x40) && (start < 0x5B)) {
+ZipEntry zipEntry = new ZipEntry(logicalFilename.replace('\\', '/'));
+bsPutUByte(0x31);
+FileUtils fu = FileUtils.getFileUtils();
+* extension aren't found.  These will ensure "jonas-" appears at the
+bsLiveShadow++;
+endOfBaseName = descriptorName.length() - 1;
+// ATTRIBUTES
+"Couldn't rename resource when attempting to delete "
+if (descriptorFileName.indexOf(getConfig().baseNameTerminator) == -1) {
+//  333408 byte
+baseName = super.getJarBaseName(descriptorFileName);
+JDBCTask.getLoaderMap().clear();
+if (token == null) {
+for (int j = 0; j <= 255; j++) {
+genicTask.createJvmarg().setValue("-Dinstall.root=" + jonasroot);
+for (int j = 0; j <= 255; j++) {
+className = className.replace('.', File.separatorChar);
+for (int i = 256; --i >= 0;) {
+Hashtable ejbFiles = parseEjbFiles(descriptorFileName, saxParser);
+String jonasConfigDir = jonasroot + File.separator + "config";
+f = (ZipFileSet)getInstance();
+AntTypeTable typeTable = helper.antTypeTable;
+if (propertyFile == null) {
+try {
+if (srcfile.exists() != destfile.exists()) {
+String key;
+if (properties == null
+for (int i = patIdxStart; i <= patIdxEnd; i++) {
+if (haveClasspath()) {
+assertTrue("(1) zip package included", haveZipPackage);
+if (needToRebuild(ejbFiles, jarFile)) {
+cacheLoaded = true;
+descriptorStream
+public Path(Project p, String path) {
+if (orb != null) {
+if (getAssertions() != null) {
+outputBuffer.append(inputBuffer.toString());
+if (dynselector == null) {
+if (keepgenerated) {
+while (patIdxStart != patIdxEnd && strIdxStart <= strIdxEnd) {
+if (nocompil) {
+* Get the cache type to use.
+}
+/**
+if (novalidation) {
+for (Iterator itSpecial = specialParameter.iterator(); itSpecial.hasNext();) {
+if (javac != null) {
+if ("propertyfile".equals(cacheName.getValue())) {
+p.fireBuildFinished(null);
+String cachedValue = String.valueOf(cache.get(f.getAbsolutePath()));
+ClassLoader acl = new AntClassLoader(parent, p, path, true);
+if (r1.isDirectory() || r2.isDirectory()) {
+public void test3() {
+/**
+public void test6() {
+public String getValue(File file) {
+Path p = new Path(project, "sys:\\test");
+logTo.log(sr.getName()
+} catch (Exception e) {
+source = new SAXSource();
+if (javacopts != null && !javacopts.equals("")) {
+javaVersion = JAVA_1_0;
+if (rmicopts != null && !rmicopts.equals("")) {
+if(!Character.isDigit(humanSize.charAt(humanSize.length()-1))) {
+for (Enumeration e = nestedManifest.getWarnings();
+return getJreExecutable(command);
+public void testInvalidTestCase(){
+try {
+addFormatter(formatter);
+}
+if (secpropag) {
+Iterator iter = sources.iterator();
+if (suppressMethodArgumentNotUsed
+if (!zOut.isSeekable() && !doCompress) {
+throw new BuildException("Cannot load regular expression matcher",
+InputStream stream = null;
+e.printStackTrace();
+log("Calling " + genicClass + " for " + getConfig().descriptorDir
+if (!isAbsolutePath(path)) {
+File weblogicCMPDD = new File(getConfig().descriptorDir, ddPrefix + WL_CMP_DD);
+if (getProject().getProperty(REUSE_LOADER_REF) != null) {
+String buildCompiler
+byte[] extra = ze.getLocalFileDataExtra();
+f = (TarFileSet)getInstance();
+if (filesetURL.length() > 0) {
+replaceEntries.put(filepath, genericEntry);
+if (!path.startsWith("/")) {
+is = wlJar.getInputStream(je);
+commandLine.setExecutable(getSSCommand());
+if (getVsspath() == null) {
+URL url = null;
+if (zipMethod == DEFLATED && raf == null) {
+String shortLabel = getShortLabel();
+commandLine.createArgument().setValue(getVersion());
+File dir = getProject().resolveFile(localPath);
+p = new Path(project, "sys:/test;dev:/temp");
+getProject().executeTarget("cleanup");
+Enumeration e = pathComponents.elements();
+javaCommand.addCommandToList(listIterator);
+None
+Path bcp = calculateBootclasspath(true);
+CatalogManager.getStaticManager().setIgnoreMissingProperties(true);
+if (nextSym <= 16) {
+} else  if (getElementTag() == null) {
+long classModificationTime = ejbImplentationClass.lastModified();
+* written in the completed JAR file as "ias-ejb-jar.xml".  This is the
+Resource[] outofdate =
+if (ignoreBase) {
+enumStack.push(currentEnum);
+addAllFiles(outputdir, "", ejbFiles);
+sb.append(File.separatorChar);
+if (orb != null && !orb.equals(RMI_ORB) && !orb.equals(JEREMIE_ORB)
+return getPath(pathStack, '/');
+for (; same < minLength; same++) {
+/* ----------------------------------------------------------------------------------- */
+return true;
+* extension aren't found.  These will ensure "jonas-" appears at the
+addClass(classname);
+PatternSet p1 = new PatternSet();
+for (int i = 0; i < files.length; i++) {
+public void setParameters(Parameter[] parameters) {
+StringBuffer val = new StringBuffer(value.getText());
+return getName().hashCode();
+SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
+final byte[] block;                                                     //  900021 byte
+for (int index = 0; index < files.length; ++index) {
+/* uncompressed size               */ + 4
+for (Iterator i = deploymentTools.iterator(); i.hasNext();) {
+/**
+}
+FileInputStream fis = null;
+/* last mod file date              */ + 2
+/* relative offset of local header */ + 4;
+fileDTD = owningTask.getProject().resolveFile(location);
+/* start of the central directory  */ + 2
+File classFile = null;
+if (line == null || line.length == 0) {
+protected int errors;
+}
+// Setup a naming standard here?.
+File toplinkDD = new File(getConfig().descriptorDir, ddPrefix + toplinkDescriptor);
+Resource thisresource = new Resource(src.getName(),
+public void test7() {
+p = new Path(project, "sys:/test");
+result =
+ArrayList union = new ArrayList(rc.size() * 2);
+// have thrown an exception.
+DirectoryScanner ds = super.getDirectoryScanner(descriptorDirectory);
+owner.log("Security Exception when " + message);
+if (!securityPolicyFile.exists()) {
+if ((ttShadow == null) || (ttShadow.length < length)) {
+project.addTaskDefinition( "systemPath" , c );
+process.exitValue();
+if (numBytes == -1) {
+propertiesFile = getProject().resolveFile(weblogicPropertiesFile);
+if (!serFile.exists() || serFile.lastModified() < descriptorFile.lastModified()
+this.bsBuff <<= 8;
+this.computedCombinedCRC
+base = parent.getResources(name);
+while (bsLiveShadow >= 8) {
+if (watch) {
+Project p = getProject();
+String[] newArgs = {"-d", generatedFilesDirectory.getPath(),
+algorithm = defaultAlgorithm;
+// ATTRIBUTES
+None
+ScriptRunnerBase ret = null;
+base = new CollectionUtils.EmptyEnumeration();
+RecorderEntry recorder = getRecorder(filename, getProject());
+Thread thread = new Thread(){
+log("Non class file " + genericEntry.getName()
+File genericJarFile = super.getVendorOutputJarFile(baseName);
+getActualVMCommand().addCommandToList(listIterator);
+ClassLoader genericLoader = getClassLoaderFromJar(genericJarFile);
+setXMLCatalog =
+ResourceLocation entryCopy = matchingEntry;
+return COMPATIBLE;
+Commandline commandLine = new Commandline();
+addedfiles.add(logicalFilename);
+if ((getTargetFolder().endsWith("/")
+recorder.setMessageOutputLevel(loglevel);
+Server s = getServer();
+this.nextResource = url;
+final NodeList children = child.getChildNodes();
+// XXX find the classpath - add the optional jars.
+locale = Locale.getDefault();
+"Caused by: java.lang.AssertionError",
+return CollectionUtils.append(base, mine);
+}
+// ATTRIBUTES
+String mess = ex.getMessage();
+if (!className.startsWith("java.")
+String name = inputEntry.getName();
+entry = new RecorderEntry(name);
+return true;
+if (alwaysRebuild || isRebuildRequired(genericJarFile, jarFile)) {
+if (!loaded && checkLoaded) {
+* This method returns a list of EJB files found when the specified EJB
+int endIndex = line.indexOf(
+Path classpath = getCombinedClasspath();
+byte[] byteBuffer = new byte[2 * DEFAULT_BUFFER_SIZE];
+implFile = implementation.getClassFile(buildDir);
+public void test8() {
+return CollectionUtils.append(mine, base);
+String checksum = readChecksum(checksumFile);
+if (iStream != null) {
+for (Iterator i = getConfig().dtdLocations.iterator(); i.hasNext();) {
+String path = (String) relativeFilePaths.get(file);
+}
+try {
+return new StringBuffer(1024)
+// ATTRIBUTES
+FileSet sourceJar = new FileSet();
+addSupportClasses(ejbFiles);
+if (input != null && input.length > 0) {
+return;
+}
+private String queuedLine = null;
+String baseName = getJarBaseName(descriptorFileName);
+String antHome = project.getProperty(MagicNames.ANT_HOME);
+// XXX - shouldn't this always return false in isolated mode?
+* Ensure we have a consistent and legal set of attributes, and set
+Enumeration iter = optionalAttrs.keys();
+File commandDir = workingDir;
+ejbFiles.put(META_DIR + EJB_DD,
+if (r instanceof ArchiveResource) {
+}
+Object destination = includeFileMap.get(src);
+if (tarFileSet != null && tarFileSet.hasFileModeBeenSet()) {
+addVendorFiles(ejbFiles, ddPrefix);
+directory.mkdirs();
+checkAndAddDependants(ejbFiles);
+Set keys = allDigests.keySet();
+Enumeration e = zf.entries();
+Manifest manifest = getJarManifest(container);
+/**
+checksumMatches = false;
+log("building "
+if (success) {
+/** the file to process */
+private AddAsisRemove newInstance() {
+boolean fatal = result.timedOut || result.crashed;
+} catch (NoSuchMethodException e) {
+String publicId = getPublicId();
+if (msgLevel <= Project.MSG_INFO) {
+dir = dir.replace('\\', '/');
+Vector newListeners = getBuildListeners();
+log(jarFile.toString() + " is up to date.",
+* Adds a package root to the list of packages which must be loaded on the
+Project project = task.getProject();
+public Exception getException() {
+if (config.namingScheme.getValue().equals(EjbJar.NamingScheme.BASEJARNAME)) {
+}
+} else {
+continue;
+if (addedfiles == null) {
+String absBase = basedir.getAbsolutePath();
+jarStream = new JarOutputStream(new FileOutputStream(jarfile), manifest);
+if (block[i1 + 1] == block[i2 + 1]) {
+public void test9() {
+// (which holds patterns "include" and "exclude")
+int entryIndex = entryName.lastIndexOf(entryFile.getName()) - 1;
+for (int i = 0; i < NUM_OVERSHOOT_BYTES; i++) {
+InnerClassFilenameFilter flt = new InnerClassFilenameFilter(entryFile.getName());
+for (Iterator entryIterator = files.keySet().iterator(); entryIterator.hasNext();) {
+if (getAssertions() != null) {
+final int ge = Math.min(gs + G_SIZE - 1, nMTFShadow - 1);
+entryFile = new File(config.srcDir, entryName);
+public int executeAsForked(CommandlineJava commandline,
+for (int t = 0; t < nGroups; t++) {
+// (which holds patterns "include" and "exclude")
+}
+private static Properties[] defaultDefinitions = new Properties[2];
+commandline.createArgument().setValue("-file");
+private void mergeZipJarContents(ZipOutputStream output, File f) throws IOException {
+for (Iterator i = helper.checkedNamespaces.iterator(); i.hasNext();) {
+args[j++] = "-classpath";
+private boolean compile = true;
+String fileName
+Commandline commandLine = new Commandline();
+public void test12() {
+private int workDone;
+try {
+/**
+if (combinedClasspath == null) {
+public void testDriverCaching(){
+handler.registerDTD(PUBLICID_EJB11, DEFAULT_WL51_EJB11_DTD_LOCATION);
+Arrays.sort(keyArray);
+if (PUBLICID_EJB11.equals(publicId)) {
+String inputEntryName = inputEntry.getName();
+m.undeclareBean(key);
+InputStream input = null;
+File genericJarFile = super.getVendorOutputJarFile(baseName);
+messageDigest.reset();
+writeOut((byte[]) offsets.get(ze));
+if (genericJarFile.exists() && genericJarFile.isFile()
+genericJar = new JarFile(genericJarFile);
+MSVSSCREATE vssCreate = new MSVSSCREATE();
+p1 = new PatternSet();
+bsPutUByte('h');
+byte[] digest = (byte[]) allDigests.get(src);
+for (Enumeration e = genericJar.entries(); e.hasMoreElements();) {
+project.addReference("catalog", catalog);
+for (Enumeration e = wlJar.entries(); e.hasMoreElements();) {
+String fileName = (String) relativeFilePaths.get(src);
+genericLoader = getClassLoaderFromJar(genericJarFile);
+// Check files see if same
+JarEntry genericEntry = (JarEntry) genericEntries.get(filepath);
+private void addToOutputStream(ZipOutputStream output, InputStream input,
+String classname
+log("Interface " + genclass.getName()
+if (!genericEntry.getName().equals("META-INF/MANIFEST.MF")) {
+public void test1() {
+f = (TarFileSet)getInstance();
+manifest = getManifest(manifestFile);
+ByteArrayOutputStream baos = new ByteArrayOutputStream();
+log("File " + filepath + " not present in weblogic jar",
+for (Enumeration e = wlEntries.elements(); e.hasMoreElements();) {
+je = (JarEntry) replaceEntries.get(je.getName());
+PrintWriter writer = new PrintWriter(new OutputStreamWriter(baos,
+writer.println("JarIndex-Version: 1.0");
+if (!ejbImplentationClass.exists()
+private ZipEntry processEntry(ZipFile zip, ZipEntry inputEntry) {
+return true;
+}
+writer.println(zipFile.getName());
+String[] args = getCommandLine(false, descriptorFile);
+return sameValidity && (!defValid || def.sameDefinition(old, project));
+log("Found manifest to merge in file " + file,
+//int logLevel = filesetManifestConfig == null ?
+if (zipFile.exists()) {
+public void test13() {
+public void test13b() {
+} finally {
+originalManifest = getManifestFromJar(zipFile);
+probablyIDE = true;
+try {
+needsUpdate = true;
+String[] newArgs = getCommandLine(true, descriptorFile);
+}
+if (!doubleFilePass || (doubleFilePass && !skipWriting)) {
+String[] cmpDescriptors = ejbc.getCmpDescriptors();
+if (iasDescriptorName != null) {
+if (mustSearchPath) {
+None
+int startOfFileName = descriptorName.lastIndexOf(File.separatorChar);
+if (buildException == null) {
+if (prev < value.length()) {
+if (descriptorName.substring(startOfFileName + 1).equals(EJB_DD)) {
+if (!(version == BES || version == BAS)) {
+execTask.createArg().setValue(ejbjarfile.getAbsolutePath());
+if (java2iiopdebug) {
+commandline.createArgument().setValue("-VBJclasspath");
+}
+return;
+commandline.createArgument().setValue("-list_files");
+commandline.createArgument().setValue("-no_tie");
+commandline.createArgument().setValue("-root_dir");
+commandline.createArgument().setValue("-compile");
+while (ithomes.hasNext()) {
+Vector homes = new Vector();
+String home = toClass(clazz);
+files.putAll(genfiles);
+assertEquals("with classpath", "-Djava.compiler=NONE", s[1]);
+File websphereEXT = new File(getConfig().descriptorDir, ddPrefix + WAS_EXT);
+Java helperTask = new Java(this);
+try {
+File websphereMAP = new File(getConfig().descriptorDir,
+for (int i = 0; i < root.length; i++) {
+task.setTaskName(taskType);
+} catch (Exception e) {
+StringBuffer options = new StringBuffer();
+javaTask.createJvmarg().setValue("-Xms64m");
+Environment.Variable var = new Environment.Variable();
+//    public void test14() {
+for (int i = 0; i < 3; i++) {
+}
+if (compileList.size() > 0) {
+String pathURL = pathsToURL();
+/** Default implementation of setProperty. Will be called from Project.
+}
+File originalFile =
+if (webApp != null) {
+public void test16() {
+}
+String[] list = src.list();
+modifiedClassName.append('_');
+writer.println(dir);
+throw new BuildException(className + " caused an interesting "
+FileNameMapper mapper2 = new FlatFileNameMapper();
+definer.setTaskName(uri);
+public int compare(Object o1, Object o2) {
+handler.registerDTD(PUBLICID_EJB11, ejb11DTD);
+if (!name.startsWith("META-INF/")) {
+javaTask.setDir(websphereHome);
+javaTask.setTaskName("ejbdeploy");
+sql = createTask(getProperties(NULL));
+public void test18() {
+Mapper mapperCX = new Mapper(project);
+definer.setResource(Definer.makeResourceFromURI(uri));
+dirSet.add(name.substring(0,
+super.writeJar(baseName, jarFile, files, publicId);
+if (genericJarFile.exists() && genericJarFile.isFile()
+boolean closeWhenExhausted) {
+for (Enumeration e = wasJar.entries(); e.hasMoreElements();) {
+JarEntry genericEntry = (JarEntry) genericEntries.get(filepath);
+definer.setOnError(new Typedef.OnError(Typedef.OnError.POLICY_IGNORE));
+if (targetFile != null && !targetFile.exists()) {
+log("File " + filepath + " not present in websphere jar",
+for (Enumeration e = wasEntries.elements(); e.hasMoreElements();) {
+if (systemOutput != null && systemOutput.length() > 0) {
+/** Default parsing method. It is here only to support backward compat
+if (sourceFile != null && !sourceFile.exists()) {
+is = wasJar.getInputStream(je);
+if (!specificationTitle.equals(other.getSpecificationTitle())) {
+boolean lowlevel = false;
+private int logLevel = Project.MSG_WARN;
+final String requiredImplementationVendorID
+private Vector resourceCollections = new Vector();
+AntTypeDefinition def = getDefinition(componentName);
+TarFileSet mainFileSet = new TarFileSet(fileset);
+sections.clear();
+setClassname(PLAIN_FORMATTER_CLASS_NAME);
+if (!extensionName.equals(required.getExtensionName())) {
+boolean upToDate = true;
+final ArrayList depends = toExtensions(dependencies);
+this.children = other.children;
+public void test19() {
+final String classname = def.getClassName();
+tOut.setLongFileMode(TarOutputStream.LONGFILE_GNU);
+private Vector importStack = new Vector();
+if (l != null) {
+final Element propsElement = doc.createElement(PROPERTIES);
+if (prefix.length() > 0 && !prefix.endsWith("/")) {
+Class clazz = null;
+return;
+final ArrayList option = toExtensions(optionals);
+attributes.put(extensionKey, sb.toString());
+if (clazz != null) {
+}
+private File getDest() {
+if (line.trim().length() > 1 && '#' != line.charAt(0) && '!' != line.charAt(0)) {
+out.println("The component could be instantiated.");
+int sepIndex = line.indexOf('=');
+if (-1 != sepIndex) {
+while (value.endsWith("\\")) {
+if (resourceMap.get(key) == null) {
+String resultStr = new URL(((SAXSource)result).getInputSource().getSystemId()).getFile();
+assertTrue(JDBCTask.getLoaderMap().containsKey(NULL_DRIVER));
+public void test20() {
+FileNameMapper mapperAB = new GlobPatternMapper();
+/** Records the latest task to be executed on a thread group. */
+try {
+boolean needsWork = forceOverwrite
+value = ph.replaceProperties(null, value, p.getProperties());
+int startIndex = line.indexOf(startToken);
+String token = line.substring(
+= Collections.synchronizedMap(new WeakHashMap());
+boolean validToken = true;
+if (resourceMap.containsKey(token)) {
+line = line.substring(0, startIndex)
+protected synchronized Class loadClass(String classname, boolean resolve)
+TestResultHolder result = null;
+startIndex += replace.length();
+if (listeners.contains(listener)) {
+if (tarFileSet.hasUserNameBeenSet()) {
+startIndex = line.indexOf(startToken, startIndex);
+if (srcDir != null) {
+for (int i = 0; i < filesets.size(); i++) {
+ArrayList filesToRemove = new ArrayList();
+return globalFilterSet.getFilterHash();
+Iterator iter = rc.iterator();
+if ((getPassword() == null)) {
+if ((action.equals(ACTION_DEPLOY) || action.equals(ACTION_UPDATE))
+if ((action.equals(ACTION_DEPLOY) || action.equals(ACTION_UPDATE))
+if ((action.equals(ACTION_DELETE) || action.equals(ACTION_UNDEPLOY))
+public void test22() {
+// file, stuff result into property: val1
+if (JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_0)
+}
+public void testConstructorUnixStyle() {
+long size = r.getSize();
+try {
+logFlush();
+// ATTRIBUTES
+dateTimeConfigured = true;
+// ATTRIBUTES
+}
+Iterator iter = resources.iterator();
+cmdl.createArgument().setValue("-OUTPUT_DIRECTORY:"
+for (int i = 0; i < filesets.size(); i++) {
+private File outputDirectory = null;
+if (target == null) {
+touch(((FileResource) r).getFile(), defaultTimestamp);
+if (daemons != null) {
+String path = findResourcePath(props.getProperty(DRIVER));
+public void test24() {
+public void testEntityNoCatalog() {
+throw makeCircularException(cur, visiting);
+for (int i = 0; i < maxRunning; ++i) {
+};
+if (targetFile == null || !targetFile.isFile()) {
+Thread timeoutThread = new Thread() {
+final File javaFile = getOutputJavaFile(outputDirectory, targetFile);
+int startBasename = path.lastIndexOf(File.separator);
+* Execute inside VM.
+classLoader.addSystemPackageRoot("org.apache.tools.ant");
+outer:
+int startExtn = path.lastIndexOf('.');
+if (outputdir != null) {
+continue outer;
+return new SunJavah();
+c = Class.forName("com.sun.tools.javah.oldjavah.Main");
+assertTrue(getProject().getProperty("manifest")
+semaphore.wait();
+c = Class.forName("com.sun.tools.javah.Main");
+private File outputDirectory = null;
+outer2:
+private File outputFile;
+}
+exceptionMessage = new StringBuffer();
+// Transform an XML file that refers to the entity into a text
+return 0;
+ProjectHelper2 parser = new ProjectHelper2();
+if (JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_0)
+if (!(ue.getTag().equals(TAG))) {
+private String inputString;
+public static interface A {}
+executeSortedTargets(topoSort(targetName, targets, false));
+File executableFile = getProject().resolveFile(exec);
+if (dir != null) {
+if( !context.ignoreProjectTag ) {
+return;
+String[] patterns = defaultPatterns.getExcludePatterns(getProject());
+createClasspath();
+String[] cP = getClassespath().list();
+URL urlFromPath = new URL(
+List l = new ArrayList();
+assertTrue(file3a.lastModified()==file3.lastModified());
+public void testDoubleBasedir() {
+ret = resolveIdReference(key, this);
+for (int i = 1; i < count; i++) {
+int cookie = data.readInt();
+// read the constant pool.
+ConstantPool constants = new ConstantPool(data);
+if (fs.getProject() == null) {
+IntrospectionHelper.clearCache();
+/* int accessFlags = */ data.readUnsignedShort();
+p = new Path(project, "sys:\\test;dev:\\temp");
+if (outfile == null) {
+mergeZipJarContents(output, f);
+Method suiteMethod = null;
+// In that case first C.fN will fail with CNFE and we
+addAddFile(path);
+Hashtable p = System.getProperties();
+configureProject("src/etc/testcases/taskdefs/optional/depend/depend.xml");
+registerThreadTask(Thread.currentThread(), task);
+if (args.length < 2) {
+for (int i = 1; i < args.length; i++) {
+if (!f.exists()) {
+s = (DependSelector)getInstance();
+try {
+assertEquals("abc".getBytes().length, readin);
+public void testSearchParents() {
+None
+* The common superclass for all SAX event handlers used to parse
+return exec;
+if (!isValidOs()) {
+private long calcChecksum(File f) throws IOException {
+// --------------------  Hook management  --------------------
+if (osFamily != null && !Os.isOs(osFamily, null, null, null)) {
+continue;
+log("This OS, " + myos
+private void addDirContents(ZipOutputStream output, File dir, String prefix,
+private String getEntryName(File file, String prefix) {
+/** Package of the CacheSelector classes. */
+public void setProject(Project p ) {
+long elapsed = myBuild.getTimeElapsed();
+private void addFile(ZipOutputStream output, File file, String prefix,
+if (exe.killedProcess()) {
+if (!file.exists()) {
+input.close();
+/**
+log(cmdl.describeCommand(), Project.MSG_VERBOSE);
+} else {
+String msg = t.getMessage();
+if (compileClasspath == null) {
+getProject().setNewProperty(DEFAULT_PROPERTY_NAME,
+/** root of compiled files tree */
+if(JavaEnvUtils.getJavaVersionNumber()>=15) {
+public void testSearchParentsNot() {
+if( subst ) {
+/**
+private String pathToPackage = "";
+DirectoryScanner ds = super.getDirectoryScanner(sourceDirectory);
+myCopy = new MyCopy();
+if( keys!=null ) {
+/**
+Enumeration e = transformers.elements();
+scandir(basedir, "", true);
+File toDir = myCopy.getToDir();
+assertTrue("Cache file is not created.", cachefile.exists());
+if (null != userProperties.get(name)) {
+Set allFiles = myCopy.nonOrphans;
+log("PASS#1: Copying files to " + toDir, Project.MSG_DEBUG);
+/**
+}
+log("PASS#2: Removing orphan files from " + toDir, Project.MSG_DEBUG);
+public void test1() {
+while ((pos = value.indexOf("$", prev)) >= 0) {
+if (!myCopy.getIncludeEmptyDirs()) {
+if (file.isDirectory()) {
+for (int i = 0; i < includes.length; i++) {
+FTPFile[] theFiles = listFiles(parentPath, false);
+if (pos == (value.length() - 1)) {
+private boolean inheritAll = true;
+private boolean inheritRefs = false;
+adapter.setJavac(this);
+if (!adapter.execute()) {
+if (!ftp.changeWorkingDirectory(dir.getName())) {
+fragments.addElement(value.substring(pos + 1, pos + 2));
+/**
+if (webApp == null) {
+p = new Path(project,
+if (buildException != null) {
+if (destDir == null) {
+JspCompilerAdapter compiler =
+public void setTarget(String target) {
+if (src == null) {
+if (compiler.implementsOwnDependencyChecking()) {
+None
+JspMangler mangler = compiler.createMangler();
+return new File(dest, javaFileName);
+public void test2() {
+public ModifiedSelectorTest(String name) {
+/**
+}
+for (int i = 0; i < keywords.length; ++i) {
+if (action == SEND_FILES) {
+char firstChar = className.charAt(0);
+for (int i = 1; i < className.length(); i++) {
+java.setFork(true);
+return new JasperC(new JspNameMangler());
+return new JasperC(new Jasper41Mangler());
+super.setUp();
+xsltTask.setIn(((XMLResultAggregator) task).getDestinationFile());
+if (toDir == null) {
+if (this.initialSiteCommand != null) {
+private Project taskProject;
+"**/CVS/**",
+Project prj = getProject();
+URLResource stylesheet = new URLResource();
+FileResource stylesheet = new FileResource();
+if (classNameImpl.equals(APAC + "processor.TransformerFactoryImpl")
+/** Test right use of cache names. */
+if (classNameImpl.equals(APAC
+if (classNameImpl
+try {
+public void test5() {
+}
+private Properties props = null;
+final String timestamp = DateUtils.format(new Date(),
+perm.setActions("read, write");
+}
+bft.doTarget("modifiedselectortest-customClasses");
+fragments.addElement("$");
+rootElement.setAttribute(HOSTNAME, getHostname());
+perm = new Permissions.Permission();
+currentTest.setAttribute(ATTR_CLASSNAME,
+private boolean outputToFormatters = true;
+fragments.addElement(value.substring(pos, pos + 2));
+if (r.attributeMap != null) {
+int endName = value.indexOf('}', pos);
+* Sets the destination directory.
+final StringBuffer sb = (StringBuffer)
+try {
+if ("".equals(token) || ",".equals(token)) {
+return redirector.handleInput(buffer, offset, length);
+String myos = System.getProperty("os.name");
+if (test.getTodir() == null) {
+"expecting file " + name + " to contain " + contains +
+Process proc = Runtime.getRuntime().exec(command);
+File casesFile = createTempPropertiesFile("junittestcases");
+/** The base directory to be scanned. */
+StreamPumper inputPumper =
+classLoader.addSystemPackageRoot("junit");
+UnknownElement ue = (UnknownElement) o;
+inputPumper.start();
+classLoader.addSystemPackageRoot("org.junit");
+command = "-s " + command;
+/**
+proc.waitFor();
+return new ByteArrayOutputStream();
+if (task != null) {
+/** EXPERIMENTAL WILL_CHANGE
+err = proc.exitValue();
+}
+fileout = new FileOutputStream(tempFile);
+throw new IllegalStateException("Invalid node type: " + child.getNodeType());
+private static final int BUFFER_SIZE = 8192;
+try {
+public void test2() {
+try {
+assertLogContaining("unimplemented.class");
+/**
+ProjectHelper helper = null;
+if (r.attributeMap != null) {
+if (r.attributeMap != null) {
+/**
+sanitizeText();
+String helperClass = System.getProperty(HELPER_PROPERTY);
+if (binary) {
+if (destfiles.length != 1 || destfiles[0] == null) {
+/**
+if (helper == null) {
+}
+if (wri.checkError()) {
+DocumentBuilder builder = getDocumentBuilder();
+os = new LogOutputStream(this, Project.MSG_WARN);
+File[] files = getFiles();
+if (TESTSUITE.equals(elem.getNodeName())) {
+InputStreamReader isr;
+}
+if (!file.exists()) {
+log("the file " + file
+log("The file " + file + WARNING_IS_POSSIBLY_CORRUPTED, Project.MSG_WARN);
+String pkgName = (pos == -1) ? "" : fullclassname.substring(0, pos);
+copy.setAttribute(ATTR_NAME, classname);
+"junit.swingui.TestRunner",
+"org.junit.",
+if (proxy instanceof Task) {
+Method suiteMethod = clazz.getMethod(SUITE_METHODNAME, new Class[0]);
+if (suiteMethod != null) {
+/**
+Class.forName("java.lang.annotation.Annotation");
+}
+suite =
+if (!parent.util.match("/label in sync/", line)
+// try to extract a test suite automatically this
+if (!name.equals("id")) {
+// this will generate warnings if the class is no suitable Test
+for (int i = 0; i < formatters.size(); i++) {
+TaskContainer container = (TaskContainer) parent;
+tokenizer = new StringTokenizer(path, ":;", false);
+}
+None
+int index = f.lastIndexOf(File.separator);
+Method initCause = Throwable.class.getMethod(
+java.io.File dirExist = new java.io.File(getTargetFolder());
+return project.replaceProperties(value);
+/** Specifies if a predefined definition has been done */
+ZipFileSet fs = new ZipFileSet();
+if (t instanceof AssertionFailedError) {
+None
+throw ex;
+for (int i = filters.size() - 1; i >= 0; i--) {
+} else {
+if (basedir != null
+"gnu.java.rmi.rmic.RMIC",
+s.logOn(getUsername(), getPassword());
+textBuffer = new StringBuffer(text.length());
+if (textBuffer != null) {
+this.autoflush = autoflush;
+boolean addFile = true;
+Iterator it = newroots.entrySet().iterator();
+if(file3.length()==0) {
+throw new BuildException(e);
+addFile = false;
+return true;
+includes = new String[1];
+if (!FILE_UTILS.fileNameEquals(addedWebXmlFile, file)) {
+addedWebXmlFile = file;
+forceRemoteSensitivityCheck();
+if (newroots.containsKey("")) {
+path = myfile.getFastRelativePath();
+if (!result) {
+deploymentDescriptor = file;
+relPath = relPath + currentElement;
+System.err.println(msg);
+getRelativePath();
+for (int i = 0; i < fss.length; i++) {
+final boolean hasJar = jar != null;
+if (fs.getSelectors(getProject()).length != 0) {
+BufferedWriter bw = null;
+public void testOrderOfIncludePatternsIrrelevant() {
+final int size = (int) len;
+is = src.getInputStream();
+for (int i = 0; i < filesets.size(); i++) {
+int i = parents.size() - 1;
+log("creating remote directory "
+FILE_UTILS.createNewFile(tempFile);
+throw new RuntimeException("Impossible IOException caught: " + e);
+if (chmod != null) {
+final Method executeM = taskClass.getMethod("execute", (Class[]) null);
+return (redirectorElement == null)
+* The common superclass for all SAX event handlers used to parse
+System.arraycopy(orig, 0, result, 0, srcIndex);
+System.arraycopy(orig, srcIndex, result,
+System.arraycopy(targetFiles, 0, result,
+for (int i = 0; i < includes.length; i++) {
+System.arraycopy(orig, targetIndex, result,
+String fsFullValue = bft.getProperty("fs.full.value");
+Delete mydelete = new Delete();
+if (files == null || files.length == 0) {
+System.arraycopy(orig, 0, result, 0, targetIndex);
+int rc = ftp.getReplyCode();
+if (umask != null) {
+if (action == MK_DIR) {
+timeDiffMillis = getTimeDiff(ftp);
+if (socksProxyHost != null) {
+sysprops.put(ProxySetup.SOCKS_PROXY_USERNAME, proxyUser);
+rexec.rexec(userid, password, command);
+handleMultipleTasks(rexec);
+editsBlocked = (state == IN_CHAR_CONST || state == IN_STR_CONST);
+public void test2() {
+assertTrue("'fs.mod.value' must be empty.", "".equals(fsModValue));
+private Union resources = null;
+String newLabel =
+public void test11() {
+/*
+public void test17() {
+public void test23() {
+public void test3() {
+} finally {
+System.arraycopy(orig, targetIndex, result,
+System.arraycopy(orig, srcIndex, result,
+String[] kinds = {"task", "target", "build"};
+// 0 --> srcIndex
+for (int i = 0; i < srcFiles.length; i++) {
+if (lookAhead2 == -1 && lookAhead == CTRLZ) {
+throw new BuildException("No change specified (no support for default change yet....");
+String[] command = getCommandline(s, b);
+line = util.substitute("s/[^0-9]//g", line);
+if (newPriority != null && priority != newPriority.intValue()) {
+if (util.match("/renamed/", line)) {
+return;
+MockProject project = new MockProject();
+log("Unable to set new priority -a security manager is in the way",
+description = backslash(description);
+None
+None
+/** The base directory to be scanned. */
+String p4cmd = "-s revert";
+FileOutputStream output = null;
+if (stylesheet.exists()) {
+assertExtMethod(extensions.get(adders - 2),
+ModifiedSelector sel = new ModifiedSelector();
+if (inFile != null && outFile != null) {
+checkDest();
+dirs = scanner.getIncludedDirectories();
+if (resources.size() == 0) {
+MockCache cache = (MockCache)sel.getCache();
+classname = proc;
+massagePCLI(tmp, tmp2);
+handler = new P4HandlerAdapter() {
+/**
+line = parent.util.substitute("s/^[^:]*: //", line);
+line = parent.util.substitute("s/^[^:]*: //", line);
+/**
+/** Perforce Server Port (eg KM01:1666) */
+/** Keep going or fail on error - defaults to fail. */
+/** Perforce 'global' opts.
+/**
+assertEquals(message + " : string array length match", expected.length, actual.length);
+assertFalse("Cache must not be saved before 1st selection.", cache.saved);
+String tmpprop;
+inError = false;
+if (P4Port != null && P4Port.length() != 0) {
+projectFilePath     = "src/etc/testcases/taskdefs/optional/propertyfile.xml",
+Commandline commandLine = new Commandline();
+if (getPvcsproject() == null && getPvcsprojects().isEmpty()) {
+log("Creating folders", Project.MSG_INFO);
+sel.addClasspath(testclasses);
+throw new BuildException("Could not create task of type: "
+commandLine.clearArgs();
+/** The name of the server you wish to connect to.  */
+/** All files that fit this pattern are checked out.  */
+assertTrue(getServerName() != null, "ServerName must be set.");
+realThing = null;
+runServer(s);
+s.disconnect();
+log(checkedOut + " files checked out.");
+s.connect();
+ZipFile zfPrefixAddsDir = null;
+sel.validate();
+getWrapper().applyPreSet(u.getWrapper());
+int nProperties = 2;
+if (getLocalPath() != null) {
+task.setOwningTarget(this.getOwningTarget());
+log("Failed to process " + inFile, Project.MSG_INFO);
+|| (line.length() > POS_3 && line.startsWith("\"")
+if (liaison == null) {
+// We always display the ItemID (OBJECT_ID) and primary descriptor.
+String s1 = sel.toString();
+public RuntimeConfigurable getWrapper() {
+((XSLTLiaison3) liaison).setStylesheet(stylesheet);
+Property p1 = getPrimaryDescriptor(t);
+Property p2 = getSecondaryDescriptor(t);
+if (stylesheet instanceof FileResource) {
+String[] strNames = new String[nProperties];
+f.populateNow(t.getName(), strNames, -1);
+if (!equalsString(elementName, other.elementName)) {
+if ("name".equalsIgnoreCase(name)) {
+runFolder(s, p, v, t, f, calcTargetFolder(v, f));
+defaultPath = defaultPath.replace('/', java.io.File.separatorChar);
+if ("true".equalsIgnoreCase(value)) {
+if (dirName.endsWith(delim)) {
+return ctrlz.newInstance();
+in = new NormalizeEolFilter(in, calculateEolString(eol), getFixlast());
+}
+return algo;
+if (!getWrapper().getAttributeMap().equals(
+} // -- class Factory
+Item[] items = f.getItems(t.getName());
+if (getRecursion()) {
+/**
+Property p1 = getPrimaryDescriptor(t);
+// Transform an XML file that refers to the entity into a text
+if (getVerbose()) {
+if (children == null || children.size() == 0) {
+/** Missing file */
+boolean bShowHeader = (f != prevFolder);
+int locker = item.getLocker();
+// Check it out; also ugly.
+makeBed();
+}
+if (getProject().getProperty(property) != null) {
+commandLine.createArgument().setValue(SOSCmd.FLAG_COMMAND);
+long now = System.currentTimeMillis();
+exe.setVMLauncher(true);
+static {
+itemLine.append(",\t").append(formatForDisplay(p1, item.get(p1.getName())));
+public void test3() {
+return null;
+p.setNewProperty("override.property.test", "foo");
+Calendar cal = Calendar.getInstance();
+try {
+if (p2 != null) {
+com.starbase.starteam.File remote = (com.starbase.starteam.File) item;
+/**
+/**
+private StringBuffer unicodeBuf;
+* add a line tokenizer - this is the default.
+if (getAntlibClassLoader() != null || hasCpDelegate()) {
+runner = helper.getScriptRunner();
+shellLauncher = new WinNTCommandLauncher(baseLauncher);
+Map scriptRepository = null;
+if (getScriptClassLoader() == null) {
+ModifiedSelector s = (ModifiedSelector)getSelector();
+}
+shellLauncher
+commandLine.createArgument().setValue(SOSCmd.FLAG_COMMAND);
+try {
+//  Predefined tokenizers
+context.getImplicitTarget().setLocation(
+if (context.getCurrentTargets().get(name) != null) {
+/** The element to configure. It is only used during
+shellLauncher = new ScriptCommandLauncher("bin/antRun",
+commandLine.createArgument().setValue(SOSCmd.FLAG_COMMAND);
+commandLine.createArgument().setValue(getRecursive());
+exe.setNewenvironment(true);
+if (getComment() != null) {
+}
+/** The sos executable */
+/** The command option */
+/** Map of attribute names to values */
+commandLine.createArgument().setValue(SOSCmd.FLAG_COMMAND);
+if (getVersion() != null) {
+Object target = (wrappedObject instanceof TypeAdapter)
+commandLine.createArgument().setValue(SOSCmd.FLAG_COMMAND);
+if (getLabel() != null) {
+File dir = getProject().resolveFile(localPath);
+String msg = "Failed executing: " + commandLine.toString();
+if (r.children != null) {
+commandLine.setExecutable(getSosCommand());
+if (getSosServerPath() == null) {
+if (getVssServerPath() == null) {
+if (getProjectPath() == null) {
+context.currentTarget.addTask( task );
+polyType = (polyType == null) ? r.polyType : polyType;
+commandLine.createArgument().setValue(getVerbose());
+commandLine.createArgument().setValue(getNoCompress());
+Enumeration propertyKeyEnum = properties.propertyNames();
+if (r.characters != null) {
+/** The name of the file associated with this recorder entry.  */
+}
+if (Os.isFamily("win9x")) {
+shellLauncher
+}
+shellLauncher = new WinNTCommandLauncher(baseLauncher);
+commandLine.createArgument().setValue(SOSCmd.FLAG_COMMAND);
+commandLine.createArgument().setValue(SOSCmd.FLAG_COMMAND);
+// Some systems have /bin/env, others /usr/bin/env, just try
+if (getLabel() == null) {
+String[] entries = source.list();
+cmd[0] = "env";
+this.source = (File) files.elementAt(x);
+}
+}
+play(event.getProject(), fileSuccess, loopsSuccess, durationSuccess);
+String baseName = input.getName().toLowerCase();
+cache.put(key1, value1);
+private File localFile;
+if (e.id == ChannelSftp.SSH_FX_NO_SUCH_FILE) {
+OutputStream out = channel.getOutputStream();
+throw new IOException(serverResponse.substring(1));
+processDestroyer.add(process);
+start = serverResponse.indexOf(" ", start + 1);
+FileOutputStream fos = new FileOutputStream(localFile);
+process.destroy();
+}
+getProject().executeTarget("cleanup");
+Iterator it2 = cache.iterator();
+processDestroyer.remove(process);
+throw new BuildException("No response from server");
+session = openSession();
+String key = keyValue.substring(0, keyValue.indexOf('=') + 1);
+thread =
+thread = null;
+key = key.toLowerCase();
+if (outputProperty != null) {
+setUsername(uri.substring(0, indexOfAt));
+for (int j = 0; j < size; j++) {
+if (basedir != null
+FileInputStream fis = new FileInputStream(localFile);
+File dir2 = project.resolveFile("subant/subant-test1");
+cache.delete();
+if (logName != null) {
+if (logName != null) {
+logName = null;
+if (this.isUsingViewLabel()) {
+} catch (InvocationTargetException exc) {
+if (success) {
+if (file.isFile()) {
+throw new BuildException("Unable to execute command", exc);
+None
+if (env != null) {
+// XXX find the classpath - add the optional jars.
+setRecursive(false);
+public void test1() {
+String hash1 = algo.getValue(file);
+if (labelID >= 0) {
+View view = getViewConfiguredByDate(raw);
+} else {
+for (int i = 0; i < subFolders.length; i++) {
+while (e.hasMoreElements()) {
+e = this.keys();
+assertNotNull("Hashvalue was null for "+file.getAbsolutePath(), hash1);
+if (!getWrapper().getText().toString().equals(
+if (this.revisionlabel) {
+Class c = null;
+} else  if (getElementTag() == null) {
+public void setUp() {
+final int preCmdLength = 7;
+public void test2() {
+None
+String nextToken = tokenizer.nextToken().trim();
+final int preCmdLength = 6;
+UnknownElement c = copy(macroDef.getNestedTask());
+token += ":" + nextToken;
+if (completeDirMap.size() > 0) {
+executeTarget("test2");
+log("Moving " + moveCount + " file"
+Hashtable labelItems = new Hashtable(filesList.length);
+ModifiedSelector s = (ModifiedSelector)getSelector();
+String[] toFiles = (String[]) fileCopyMap.get(fromFile);
+if (localFiles == null) {
+View snapshot = openView();
+target.addDependency("");
+continue;
+visit(starteamrootfolder, localrootfolder);
+logOperationDescription(starteamrootfolder, localrootfolder);
+token = tokenizer.nextToken().trim();
+for (int i = 0; i < list.length; i++) {
+String localrootfolder;
+}
+/** The name of the file associated with this recorder entry.  */
+Hashtable byDir = new Hashtable();
+protected void log(String message) {
+}
+String nextToken = tokenizer.nextToken().trim();
+for (int i = 0; i < list.length; i++) {
+} catch (IOException ioe) {
+for (Iterator litr = findLinks(fileSets).iterator();
+// This will be handled inside UE
+private static char[] gAfterEscaping1 = new char[128];
+boolean javadoc4 =
+for (Iterator iter = names.iterator(); iter.hasNext();) {
+String oneMore = tokenizer.nextToken().trim();
+if (doclet != null) {
+if (links.size() != 0) {
+assertTrue("Comparator gave wrong value.", comp.compare(o1, o2) != 0);
+"**/*~",
+log("Warning: link location was invalid "
+try {
+"**/CVS/**",
+log("Link href \"" + la.getHref()
+//             super.getTaskName() : ((Task) realThing).getTaskName();
+public void targetStarted(BuildEvent event) {
+public void test4() {
+ModifiedSelector s = (ModifiedSelector)getSelector();
+"**/SCCS",
+// GET/SET methods.
+starteamrootfolder =
+"**/vssver.scc",
+//        assertEquals(2, n.intValue());
+XMLReader xmlReader = JAXPUtils.getXMLReader();
+for (Iterator dlnk = linksInDir.iterator(); dlnk.hasNext();) {
+"**/.svn",
+File canfil = linkfil.getCanonicalFile();
+File temp = FILE_UTILS.createTempFile("symlink", ".tmp",
+if (!linkfil.delete()) {
+try {
+for (int i = 0; i < v.size(); i++) {
+for (int j = 0; j < incs.length; j++) {
+private void expectNameAddress2(EmailAddress e) {
+if (nullIncludes) {
+}
+if (i < len) {
+continue;
+boolean toolsJarAvailable = false;
+StringBuffer baseClassPath
+private static final int ATTR_DIM = 2;
+commandLine.createArgument().setValue(getWritableFiles());
+if (localPath != null) {
+exe.setVMLauncher(false);
+private void expectNameAddress3(EmailAddress e) {
+return null;
+cmd.createArgument(true).setValue(locale);
+commandLine.createArgument().setValue(label);
+if (getVsspath() == null) {
+if (group != null) {
+return scannedDirs;
+if (groups.size() != 0) {
+// private static final int FG_BLACK = 30;
+if (javadoc4 || executable != null) {
+if (!getInitialized()) {
+toExecute.createArgument().setValue ("-tag");
+if (!tags.isEmpty()) {
+Commandline commandLine = new Commandline();
+if (doUpdate && !zipFile.exists()) {
+Project p = getProject();
+public void testPropertySchemaForValidXML() {
+if (useExternalFile && javadoc4) {
+if (!javadoc4 || executable != null) {
+File pd = new File(baseDir, dirs[i]);
+if (serverPath != null) {
+sp.createPathElement().setLocation(baseDir);
+Commandline commandLine = new Commandline();
+resource = classname.replace('.', '/') + ".class";
+public void test6() {
+assertTrue(m.size() == 0);
+loc = url.toExternalForm();
+if (line.length() > 0) {
+if (getLocalpath() == null) {
+"kaffe.rmi.rmic.RMIC",
+protected boolean includeEmpty = false;
+cmd.createArgument().setValue("-verbose");
+continue;
+String stubVersion = attributes.getStubVersion();
+if (file != null) {
+String stubOption = null;
+classname = proc;
+if (dir != null && dir.exists() && dir.isDirectory()
+getProject().executeTarget("cleanup");
+cmd.createArgument().setValue(stubOption);
+implicit = getImplicitFileSet();
+String base = name.substring(0, name.length() - 6);
+if (parent != null && parent.exists()
+RedirectorElement redirector = getRedirector();
+Path cp = attributes.getClasspath();
+addValue(cmd, "-verify");
+addValue(cmd, jar.getPath());
+Commandline commandLine = new Commandline();
+if (stubOption == null
+if (ex != null) {
+if ("1.2".equals(attributes.getStubVersion())) {
+int index = -1;
+index = 0;
+push(c2);
+target = new String[] {
+cmd.setExecutable(JavaEnvUtils.getJdkExecutable(getExecutableName()));
+String[] args = cmd.getCommandline();
+if (DEFAULT_COMPILER.equals(compiler) || compiler.length() == 0) {
+return resolveClassName(rmicType);
+if (Boolean.TRUE.equals(clause.enableSystemAssertions)) {
+performTests(s, "TFFFFFFFFFFT");
+if (getPackageName() != null && getClassName() != null) {
+if (getPackageName() != null) {
+command.append(':');
+command.append(':');
+/** publicId of the dtd/entity. */
+break;
+Vector newElements = catalog.getElements();
+// these files are made dirty --> 3+4 with different content
+if (!r.isExists()) {
+* The common superclass for all SAX event handlers used to parse
+cache.put(key1, value1);
+suite.addTest(new ModifiedSelectorTest("testValidateWrongCache"));
+// readable form of parameter kind
+return;
+private boolean savedDoUpdate = false;
+String f2name = "tar/bz2/asf-logo-huge.tar.bz2";
+String appliedCompiler = getCompiler();
+Iterator iter = resources.iterator();
+return;
+Path nestedClasspath = catalog.getClasspath();
+currentelement = (basedir == null)
+Transaction t = createTransaction();
+Path nestedCatalogPath = catalog.getCatalogPath();
+ClassLoader apacheResolverLoader = clazz.getClassLoader();
+Transaction t = createTransaction();
+Class baseResolverClass
+ClassLoader baseResolverLoader
+bft = new BFT();
+prependReader.close();
+for (Enumeration e = transactions.elements();
+catalogResolver = new InternalResolver();
+uri = uri.replace(File.separatorChar, '/');
+if (sql.length() > 0) {
+InputStream is
+if ("".equals(sql.trim())) {
+}
+if (algo.startsWith("<")) algo = algo.substring(1);
+log("Unable to find resource " + src, Project.MSG_WARN);
+bft.doTarget("modifiedselectortest-makeDirty");
+Parameter[] params = getParameters();
+if (failOnError && Execute.isFailure(retCode)) {
+this.setCommand(AbstractCvsTask.DEFAULT_COMMAND);
+if (root != null) {
+if (rsh != null) {
+// Mark all files which should be selected as (T)rue and all others
+if (eol == CrLf.ASIS) {
+if (p != null && p.trim().length() > 0) {
+ResourceLocation entryCopy = matchingEntry;
+Path catPath = getCatalogPath();
+return "\n";
+None
+//commented out for performance while target is empty
+StringBuffer expected = new StringBuffer();
+in = (tabs == AddAsisRemove.ADD) ? (Reader) new AddTabFilter(in, getTablength())
+in = (ctrlz == AddAsisRemove.ADD) ? new AddEofFilter(in) : in;
+if (filenames[i].equalsIgnoreCase(f3name)) ch = "T";
+Iterator it1 = cache.iterator();
+executeTarget("testIfAndUnless");
+public static class MyRpm extends Rpm {
+None
+String[] list = src.list();
+cleanupBed();
+this.sqlCommand += sql;
+Environment env = new Environment();
+if (src == null) {
+Execute execute = prepareExec();
+return new Resource("", true, Long.MAX_VALUE, true);
+executeTarget("update-existing-properties");
+state = JAVA;
+File savedDestFile = destFile;
+scanme();
+if (lastScannedResource != null
+savedRc = (ResourceCollection) rcs.elementAt(0);
+private DirectoryScanner directoryScanner = null;
+/**
+numEOL = 1;
+validateAttributes();
+|| (IS_WIN_9X && argument.indexOf(';') != -1)) {
+return new String[0];
+if (file != null) {
+final int normal = 0;
+/** {@inheritDoc}. */
+ExtendSelector s = new ExtendSelector();
+} else if (c1 == '\r') {
+/* for historical and performance reasons we have to do
+int endIndex = line.indexOf(endToken,
+value = replaceTokens(value, token);
+if (rc instanceof FileSet && rc.isFilesystemOnly()) {
+push(c2);
+if (!rc.isFilesystemOnly() && !supportsNonFileResources()) {
+nonFileResources.add(r);
+String[] command = new String[] {
+executeTarget("testMaybeConfigure");
+public void testTimeOut() throws Exception {
+protected abstract XSLTLiaison createLiaison() throws Exception ;
+String f2name = "tar/bz2/asf-logo-huge.tar.bz2";
+if (thisChar == -1) {
+try {
+public void testEqualComparator() {
+public Resource getResource(String name) {
+Map map = scan(nonFiles, destDir);
+int i = lookAhead;
+file = savedFile;
+for (int k = 0; k < mappedFiles.length; k++) {
+String results = selectionString(s);
+Vector props = sysProperties.getVariablesVector();
+addValue(cmd, "-keystore");
+loc = keystore;
+result.addExisting(this);
+if ("only".equals(getProject().getProperty("build.sysclasspath"))
+if (!order.equals("last")) {
+File kaffeShare = new File(System.getProperty("java.home")
+try {
+File to1 = new File(basedir, "selectortest/to-1");
+numEOL = 2;
+Object parent = null;
+MergingMapper fm = new MergingMapper();
+addExisting(new Path(null,
+acl = new AntClassLoader((ClassLoader) parent,
+addExisting(new Path(null,
+String[] secJars = {"jce", "jsse"};
+tabs = AddAsisRemove.ASIS;
+this.inputStream = inputStream;
+String[] ibmJars
+addExisting(new Path(null,
+OutputStream keepAliveOutput = new KeepAliveOutputStream(baos);
+ArrayList list = new ArrayList(name.length);
+List commands = new LinkedList();
+String fsFullValue = bft.getProperty("fs.full.value");
+return ctrlz.newInstance();
+addCommandsToList(listIterator);
+return (String[]) commands.toArray(new String[commands.size()]);
+Resource[][] initialResources = grabNonFileSetResources(rcs);
+sysProperties.addDefinitionsToList(listIterator);
+Path bcp = calculateBootclasspath(true);
+return ctrlz.newInstance();
+if (haveClasspath()) {
+if (isCloneVm()) {
+if (haveClasspath()) {
+in = (ctrlz == AddAsisRemove.REMOVE) ? new RemoveEofFilter(in) : in;
+if (executeJar) {
+String value) throws BuildException {
+ByteArrayOutputStream bos = new ByteArrayOutputStream();
+/**
+for (Enumeration e = setRefs.elements(); e.hasMoreElements();) {
+if (getJavafiles()) {
+* Temporary table to speed up the various scanning methods.
+HashSet complement = new HashSet(props.keySet());
+performTests(s, "TTTTTTTTTTTT");
+bft.writeProperties("f2name="+f2name);
+results = selectionString(s);
+getProject().log("Setting parent loader " + name + " "
+r.read(bytes, 0, 0);
+acl.addLoaderPackageRoot("org.apache.tools.ant.taskdefs.optional");
+if (thisAntFile != null
+* The common superclass for all SAX event handlers used to parse
+this.antFile = antFile;
+while (threadGroup.activeCount() > 0) {
+final FileUtils fileUtils = FileUtils.getFileUtils();
+/** darkgrey string */
+File f = createRelativeFile( GOOD_OUTFILE_XML );
+int readin = r.read(bytes, 0, 10);
+File pathEntry = new File(elements[i]);
+if (relPath == null) {
+int breakIndex = MAX_SECTION_LENGTH;
+if (attribute == null) {
+if (null != targetFile && !jarSource.equals(targetFile)) {
+/** The base directory to be scanned. */
+return false;
+addedAttributes = new Hashtable();
+assertEquals("abc".getBytes().length, readin);
+storeAttribute(attribute);
+for (Enumeration e = ptyRefs.elements(); e.hasMoreElements();) {
+String[] newname = m.mapFileName(name);
+storeAttribute(classpathAttribute);
+String line = patternReader.readLine();
+patternReader =
+for (int i = 0; i < s.length(); i++) {
+Enumeration warnEnum = section.warnings.elements();
+}
+None
+addNodeRecursively(nodeChildren.item(i), nodePrefix,
+String nextSectionName = mainSection.read(reader);
+granted.add(new java.net.SocketPermission("localhost:1024-", "listen"));
+algorithm = (Algorithm) loadClass(
+public void test7() {
+result = m.mapFileName("foobar");
+return new File( getProjectDir(), filename );
+line = readLine();
+if (signatureVersion != null) {
+return false;
+return exists == null || exists.booleanValue();
+}
+return directory != null && directory.booleanValue();
+if (found > start) {
+Enumeration e = sections.elements();
+private static final RegexpFactory FACTORY = new RegexpFactory();
+private String myPattern;
+private boolean ignoreErrors = false;
+included.addElement(filename);
+s.addParam(createParam("cache","propertyfile"));
+performTests(s, "TTTTTTTTTTTT");
+}//class-ModifiedSelectorTest
+TimeZone timeZone = TimeZone.getTimeZone("GMT+1");
+long ms = (20*3600 + 11*60 + 12)*1000;
+if (to != null) {
+int logLevel = Project.MSG_INFO;
+if (progress == null) {
+start = found + from.length();
+URL url = buildURL();
+value = (String) addedAttributes.get(name) + "," + value;
+cal.set(2002, 2, 12);
+if (line.length() > start) {
+None
+System.getProperties().put("xml.catalog.className",
+* Set the XMLCatalog object to callback.
+apacheCatalog.setResolver(this);
+keyValue = osEnvItem.substring(0, key.length())
+private static class SortedBag extends AbstractCollection {
+if (url != null) {
+return scannedDirs;
+new ByteArrayInputStream(getContent().getBytes());
+}
+boolean goEarly = true;
+String fromDirSep = onWindows ? "\\" : "/";
+private DirectoryScanner ds = null;
+if (v == null || v.isEmpty()) {
+ProjectComponent pc = new ProjectComponent() {
+None
+result = m.mapFileName("foo.baz.bar");
+return v;
+/** {@inheritDoc} */
+while (e.hasMoreElements()) {
+if (!sameDate) {
+try {
+return allowtie;
+// for NetWare and OS/2, piggy-back on Windows, since in the
+for (int i = 0; i < size; i++) {
+validate();
+public void setFrom(String s) {}
+return "";
+for (int i = 0; i < 50; i++){
+File currDir = dir;
+if (!basetoken.equals(filetoken)) {
+String[] destfiles = map.mapFileName(filename);
+if (!basetoken.equals(filetoken)) {
+String relPath = null;
+element.setLength(0);
+String[] destfiles = map.mapFileName(filename);
+if (file.isDirectory()) {
+};
+DateFormat df = ((pattern == null)
+name += line.substring(1);
+if (str.startsWith(File.separator) !=
+while (patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd) {
+None
+return true;
+assertMapped(mangler, "for.jsp", "for_jsp");
+if (hasTimestamp) {
+if (uname != null || pword != null) {
+return false;
+connection.connect();
+while (patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd) {
+if (connection instanceof HttpURLConnection) {
+if (patIdxEnd != strIdxEnd) {
+}
+if (httpConnection.getResponseCode()
+is = connection.getInputStream();
+}
+return true;
+throw new BuildException("import requires support in ProjectHelper");
+int patLength = (patIdxTmp-patIdxStart-1);
+public class HeadTailTest extends BuildFileTest {
+private Method addShutdownHookMethod;
+Class[] paramTypes = {Thread.class};
+} catch (NoSuchMethodException e) {
+}
+while((ch = patArr[patIdxStart]) != '*' && strIdxStart <= strIdxEnd) {
+} catch (Exception e) {
+Thread.sleep(5000);
+while((ch = patArr[patIdxEnd]) != '*' && strIdxStart <= strIdxEnd) {
+assertTrue(thirdModTime != secondModTime);
+}
+assertMapped(mangler, "_.jsp", "___jsp");
+running = true;
+patIdxStart++;
+// left in the pattern. If so, we succeeded. Otherwise failure.
+((ExtendFileSelector) dynselector).setParameters(paramArray);
+//   Helper methods
+if (!(passesConditions())) {
+/** Cache name for later instantiation. */
+/** How should the cached value and the new one compared? */
+/** Bean-Constructor. */
+assertMapped(mangler, "-.jsp", "__0002d_jsp");
+if (cvs.startsWith("\"") && cvs.endsWith("\"")) {
+/** Overrides BaseSelector.verifySettings(). */
+cachefile = new File(p.getBaseDir(), filename);
+getProject().addBuildListener(this);
+cachefile = new File(filename);
+private static final int DEFAULT_BUFFER_SIZE = 8192;
+specialParameter.add(par);
+if (algoName != null) {
+Class uriClazz = null;
+if ("hashvalue".equals(algoName.getValue())) {
+"expecting file " + name + " to contain " + contains +
+public void run() {
+// singletons - since all state is in the context
+} else {
+static AntHandler elementHandler=new ElementHandler();
+for (Iterator itConfig = configParameter.iterator(); itConfig.hasNext();) {
+char s = File.separatorChar;
+//                     if( qname.equals( "target" ) )
+if (cacheName != null) {
+cache = (Cache) loadClass(cacheClass, "is not a Cache.", Cache.class);
+// Tell how many files were checked out.
+context.setCurrentTargets(new HashMap());
+if (compName != null) {
+ClassLoader cl = getClassLoader();
+/**
+FileResource fileResource = (FileResource) resource;
+if (emacsMode) {
+relativeFilePaths.put(src, fr.getName().replace(File.separatorChar, '/'));
+if (f.isDirectory()) {
+if (update && rv) {
+throw new BuildException("import requires support in ProjectHelper");
+/**
+? getClass().getClassLoader()
+return null;
+File importedFile = new File(file);
+: getProject().createClassLoader(classpath);
+private boolean added = false;
+/**
+/**
+ds = new DirectoryScanner();
+String compiler = rmic.getCompiler();
+if (lock != null && lock.equalsIgnoreCase("locked")) {
+assertEquals(File.separator,
+}
+try {
+destroyProcessThread = null;
+/**
+if (processes.size() == 0) {
+public String getValue(File file) {
+Path classpath = getCompileClasspath();
+}
+/** Where to store the properties? */
+for (int i = 0, j = 0; j < l; i++) {
+cmd.createArgument().setValue("-classpath");
+/** Is the cache already loaded? Prevents from multiple load operations. */
+/** Bean-Constructor. */
+Path p = getBootClassPath();
+/**
+/**
+String factory = apt.getFactory();
+}
+return;
+Path factoryPath = apt.getFactoryPath();
+executeTarget("run-junit");
+assertEquals(localize("/1/2/3/4"),
+if (project.getProperty("basedir") != null) {
+Commandline cmd = setupModernJavacCommand();
+service.check();
+setAptCommandlineSwitches(cmd);
+if (baseDir == null) {
+Class c = Class.forName(APT_ENTRY_POINT);
+throw be;
+if ((new File(baseDir)).isAbsolute()) {
+throw new BuildException("Error starting apt compiler",
+return true;
+/**
+Method compile = c.getMethod("compile",
+out.newLine();
+if (projectTargets.containsKey(name)) {
+Path p = getBootClassPath();
+return true;
+return false;
+if (compileSourcepath != null) {
+setTimeout(timeoutMillis);
+if (!funnel.closed) {
+assertNoPrint(getOutput(), "output");
+}
+cmd.createArgument().setValue("/cp:p");
+cmd.createArgument().setValue("/x-");
+NodeList children = element.getChildNodes();
+for (int i = 0; i < indent; i++) {
+out.write("<");
+f.discardItems(t.getName(), -1);
+StringTokenizer pathTokenizer
+prefix = "";
+cmd.createArgument().setValue("/nomessage");
+NamedNodeMap attrs = element.getAttributes();
+out.write("<");
+cmd.createArgument().setValue("/nologo");
+}
+implicit = getImplicitFileSet();
+Thread thread = new Thread(){
+if (doesModernCompilerExist()) {
+File workingDir;
+}
+root = new File(File.separator).getAbsolutePath().toUpperCase();
+log("Found manifest " + file, Project.MSG_VERBOSE);
+// Hide warning also as it makes no sense since
+BufferedReader reader = null;
+kaffeDetected = false;
+final int millisperday=24 * 3600 * 1000;
+jExecutable = findInDir(JAVA_HOME + "/sh", command);
+return addExtension(command);
+assertLogContaining(MyPrinter.TAIL_CALLED);
+return command + (IS_DOS ? ".exe" : "");
+jrePackages.addElement("com.sun.org.apache");
+StringBuffer itemLine = new StringBuffer("                ");
+case 14:
+Thread.sleep(1000);
+FILE_UTILS.setFileLastModified(removeThis, secondModTime + millisperday);
+if (assumeJava11()) {
+if (sourcepath.size() > 0) {
+case 13:
+jrePackages.addElement("sun");
+cmd.createArgument().setValue("1.3");
+if (tokenizer.hasMoreTokens()) {
+s = "1.2";
+if (!tokenizer.hasMoreTokens()) {
+}
+String driveSpec = "SYS:";
+exe.setVMLauncher(true);
+Path p = getBootClassPath();
+int n = in.read(buf);
+}
+if (compileSourcepath != null) {
+out.write((byte) ((length & 0x3F) + ' '));
+b = 1;
+send( "500 5.5.1 Command unrecognized: \"" +
+try {
+a = data[offset + i++];
+String newName = context.getCurrentProjectName()
+includeJavaRuntime = true;
+String jikesPath = System.getProperty("jikes.class.path");
+File fs = new File(partition);
+dosRoot = dosRoot.toUpperCase();
+boolean found = def.getExposedClass(getProject()) != null;
+String driveSpec = "C:";
+UnknownElement task = new UnknownElement(tag);
+boolean isWindows = OS_NAME.indexOf(FAMILY_WINDOWS) > -1;
+is9x = (OS_NAME.indexOf("95") >= 0
+Class uriClazz = null;
+/**
+private String host;
+URL realURL = new URL(url);
+out.write('\n');
+if (priority <= msgOutputLevel) {
+}
+task.setRuntimeConfigurableWrapper(getWrapper2());
+Method reachableMethod = null;
+bits24 = (octetString[i++] & 0xFF) << 16;
+throw new BuildException("When calling " + reachableMethod);
+if (path.exists() && filename.equals(paths[i])) {
+if (classpath != null) {
+out[outIndex++] = '=';
+if (s != null && !s.trim().equals("")) {
+}
+}
+private static Random rand = new Random(System.currentTimeMillis()
+int pos = value.length() - suffix.length();
+return new File(path);
+s.push(thisToken);
+next = (ca[next] == sep) ? next + 1 : next;
+int nextsep = path.indexOf(sep, 2);
+File tmp3 = FILE_UTILS.createTempFile("pre", ".suf", null);
+String osPath;
+boolean isDirectory = f.isDirectory()
+if (org.apache.tools.ant.ProjectComponent.class.isAssignableFrom(
+if (!dest.exists()) {
+if (engine == null) {
+// added with JDK 1.4.2 - and isn't present in 1.5.0 either
+Throwable nested = e.getTargetException();
+reachable = false;
+log("Not found: InetAddress." + METHOD_NAME, Project.MSG_VERBOSE);
+javac = new Javac();
+long firstTime=System.currentTimeMillis();
+long secondTime=firstTime+60000;
+if (feature != null) {
+boolean state = false;
+String udir = System.getProperty("user.dir");
+if (!l.endsWith(File.separator)) {
+if (dir.startsWith("META-INF")) {
+Vector filesets = new Vector();
+state ^= c.eval();
+String[] fromPathStack = getPathStack(fromPath);
+return getPath(Arrays.asList(toPathStack));
+// with windows - that ; is the path separator
+return getPath(Arrays.asList(toPathStack));
+for (int i = same; i < fromPathStack.length; i++) {
+default:
+boolean matches = false;
+for (int i = same; i < toPathStack.length; i++) {
+/**
+}
+private static final MessageFormat MINUTE_SECONDS
+return null;
+if (vPath.length() <= 0) {
+reset();
+ZipFile zipFile = null;
+int index = classname.lastIndexOf(".");
+public DateFormat getPrimaryFormat() {
+int index2 = classname.lastIndexOf(".", index - 1);
+start = classname.charAt(index2 + 1);
+synchronized (semaphore) {
+// are all threads finished
+assertTrue("older source files are up to date",
+final int end
+comment = comment.substring(0, end);
+start = classname.charAt(0);
+cmdl.setExecutable(resolveExecutable(executable, searchPath));
+addClass(classname);
+try {
+comment = "";
+private MyCopy myCopy;
+final String dateRange = ">=" + outputDate.format(startDate);
+if (null == date) {
+continue;
+return getResourceContainer(classLocation, classPath.list());
+classname = classname.substring(0, index) + "$"
+myCopy.setFiltering(false);
+if (noRemovalNecessary) {
+continue;
+static {
+excls[nonOrphans.size()] = "";
+FILE_UTILS.getDefaultEncoding();
+validate();
+addCommandArgument("rdiff");
+StringBuffer subst = new StringBuffer();
+}
+Pattern p = compiler.compile(pattern, getCompilerOptions(options));
+int cOptions = Pattern.UNIX_LINES;
+StringBuffer subst = new StringBuffer();
+for (int i = dirs.length - 1; i >= 0; --i) {
+Substitution s =
+StringBuffer result = new StringBuffer();
+final int[] heap    = new int[MAX_ALPHA_SIZE * 2];
+this.crc.initialiseCRC();
+while (numToWrite > 0) {
+children = dir.listFiles();
+private Set nonOrphans = new HashSet();
+redirector.setInputStream(
+class StreamPumper extends Thread {
+this.allowableBlockSize
+throw new BuildException(
+File parent = destinationFile.getParentFile();
+String extension = Os.isFamily("dos") ? ".exe" : "";
+if (this.last == -1) {
+textBuffer.append(text);
+blockSort();
+private static int TEST_PORT = 27224;
+StringTokenizer myTokenizer = new StringTokenizer(mypackage);
+bsPutInt(this.blockCRC);
+if (this.blockRandomised) {
+setCommand("");
+moveToFrontCodeAndSend();
+super.execute();
+CvsTagEntry[] entries = parseRDiff(tmpFile);
+ds.setFollowSymlinks(true);
+String driveSpec = "C:";
+public void test3() {
+writeTagDiff(entries);
+String filename = line.substring(0, index);
+String vPathLowerCase = vPath.toLowerCase(Locale.ENGLISH);
+if (addedWebXmlFile != null) {
+addFile = true;
+if (myos.toLowerCase().indexOf("windows") >= 0
+/** sender  */
+// assert (this.nMTF > 0) : this.nMTF;
+sendMTFValues0(nGroups, alphaSize);
+boolean autoFound = false;
+final int nSelectors = sendMTFValues1(nGroups, alphaSize);
+sendMTFValues2(nGroups, nSelectors);
+if (encoding.equals(MIME)
+if (!autoFound  && (ssl)
+sendMTFValues4();
+sendMTFValues5(nGroups, nSelectors);
+sendMTFValues6(nGroups, alphaSize);
+sendMTFValues7(nSelectors);
+if (encoding.equals(UU)
+/*
+short cost0 = 0;
+if (encoding.equals(PLAIN)
+int bt = -1;
+final int[] rfreq_bt = rfreq[bt];
+if (mailer == null) {
+if (message == null) {
+while (bsLiveShadow >= 8) {
+while (bsLiveShadow >= 8) {
+while (bsLiveShadow >= 8) {
+if (toList.isEmpty() && ccList.isEmpty() && bccList.isEmpty()) {
+bsLiveShadow++;
+while (bsLiveShadow >= 8) {
+if (messageMimeType != null) {
+while (bsLiveShadow >= 8) {
+Vector files = new Vector();
+log("Sending email: " + subject, Project.MSG_INFO);
+while (bsLiveShadow >= 8) {
+mailer.setHost(host);
+mailer.send();
+project.setUserProperty("build.compiler", "jikes");
+int count = files.size();
+FileReader freader = new FileReader(messageSource);
+//
+boolean onceRunned = false;
+Execute exe = new Execute(jop);
+else {
+for (int i = 65537; --i >= 0;) {
+if (len > minLen) {
+for (int v = nGroups; --v >= 0;) {
+int c1 = block[0] & 0xff;
+nStart = i + 1;
+for (int i = 0; i <= 255; i++) {
+final int ss = runningOrder[i];
+nEnd = i;
+/*
+/*
+inUse[block[j] & 0xff] = true;
+int nInUseShadow = 0;
+/* the starting disk number        */ + 4
+Path expect = (Path) value;
+if (liaison instanceof XSLTLoggerAware) {
+File stylesheet = getProject().resolveFile(xslFile);
+list = scanner.getIncludedFiles();
+if (var != null) {
+helperImpl.parser.setDocumentHandler(this);
+helperImpl.parser.setDocumentHandler(parentHandler);
+final boolean[] inUse     = new boolean[256];                           //     256 byte
+None
+rmic.setCompiler("kaffe");
+public void testImportInTargetNoEffect() {
+if (depends.length() > 0) {
+// The consequence of lazy eval - UnknownElement must deal with
+* String data source implementation.
+None
+None
+return new StringBuffer(type != null ? type : "text/plain").append(
+None
+System.err.println("BZip2 CRC error");
+Session sesh;
+private int su_count;
+if (liaison instanceof XSLTLiaison2) {
+liaison.addParam(
+getAndMoveToFrontDecode();
+props.put("mail.smtp.socketFactory.class", SSL_FACTORY);
+if (this.storedBlockCRC != this.computedBlockCRC) {
+for (int i = 0; i < 16; i++) {
+task.setTaskName(tag);
+MimeMessage msg = new MimeMessage(sesh);
+final int nGroups = bsR(3);
+for (int t = 0; t < nGroups; t++) {
+if (from.getName() == null) {
+new TaskHandler(helperImpl, this, (TaskContainer) child,
+msg.setReplyTo(internetAddresses(replyToList));
+} catch (MalformedURLException ex) {
+message.setCharset(charset);
+public void testParagraphCharacter() throws IOException {
+}
+charset = DEFAULT_CHARSET;
+StringDataSource sds = new StringDataSource();
+StringTokenizer token = new StringTokenizer(type.substring(pos), "=; ");
+return token.nextToken();
+if ( !data && response.startsWith( "HELO" ) ) {
+if (srcDir == null) {
+if (destDir == null) {
+private static char[] gAfterEscaping2 = new char[128];
+None
+None
+srcFile = new File(srcDir, srcName);
+while (bsLiveShadow < zn) {
+public void notTestImportInTargetWithEffect() {
+static {
+if (srcFile.equals(destFile)) {
+if (this.blockRandomised) {
+thread.setDaemon(true);
+final boolean[] inUse   = new boolean[256];                                   //      256 byte
+String parentName = destFile.getParent();
+final int[][] limit = new int[N_GROUPS][MAX_ALPHA_SIZE];                      //     6192 byte
+* Set the command line arguments for the JVM.
+}
+headersKeys.add(name);
+File generatedFile = getGeneratedFile();
+void setReplyToHeader() {
+}
+if (outputDirectory == null) {
+if (fromExtension == null || toExtension == null || srcDir == null) {
+byte[] extra = ze.getLocalFileDataExtra();
+/** SAX1 not supported */
+}
+setLenient(false);
+setNoNamespaceSchemaProperty(XmlConstants.PROPERTY_NO_NAMESPACE_SCHEMA_LOCATION);
+return new String[] {"cmd", "/c", "set" };
+attrMap.put("name", String.class);
+setProperty(XmlConstants.FEATURE_JAXP12_SCHEMA_LANGUAGE, XmlConstants.URI_XSD);
+if (isSax1Parser()) {
+//setFeature(XmlConstants.FEATURE_VALIDATION, false);
+String[] cmd = new String[1];
+if (Os.isFamily("openvms")) {
+setFeatureIfSupported(XmlConstants.FEATURE_DISALLOW_DTD, disableDTD);
+addSchemaLocations();
+return;
+in = new BufferedReader( new InputStreamReader(
+None
+None
+int[] tt;                                                                     //  3600000 byte
+return Os.isFamily("openvms")
+//    60798 byte
+static String sanitizeAddress(String s) {
+void connect() throws IOException {
+}
+String response = in.getResponse();
+for (int i = 0; i < ok.length; i++) {
+rawWrite(b);
+osEnv.addElement(keyValue);
+throw new BuildException(ERROR_NO_URL_REPRESENTATION + file, e);
+String fileName =
+rawWrite(b);
+}
+// readable form of parameter kind
+private boolean includeAntRuntime = true;
+validate();
+}
+TarEntry longLinkEntry = new TarEntry(TarConstants.GNU_LONGLINK,
+if (line.startsWith("\t=")) {
+private RegularExpression regex;
+line = linebuf.toString();
+byte[] expect = {(byte)0xC6, 0x02, 0x78, (byte)0xB6, // CRC
+line = linebuf.toString();
+if ((hasCR) || (c < 0)) {
+while (fileName.startsWith("/")) {
+myExecWithCWD = Runtime.class.getMethod("exec",
+throw (IllegalArgumentException) e2;
+byte[] skipBuf = new byte[8 * 1024];
+StringBuffer longName = new StringBuffer();
+if (longName.length() > 0
+throw new IOException("unexpected EOF with " + numToRead
+project.executeTarget("cleanup");
+e2.printStackTrace();
+private boolean strictargs;
+long size = written - dataStart;
+if (raf != null) {
+static final String MSG_METHOD_ARGUMENT_NOT_USED
+entry.setMethod(method);
+//  Predefined tokenizers
+private Vector compileList = new Vector();
+if (entry.getMethod() == STORED && raf == null) {
+* local file header signature
+if ((p = getProject().getProperty("ant.netrexxc.comments")) != null) {
+final int zipMethod = ze.getMethod();
+None
+URL url = null;
+}
+writeOut(ZipShort.getBytes(zipMethod));
+}
+writeOut(toDosTime(ze.getTime()));
+byte[] name = getBytes(ze.getName());
+writeOut(ZipShort.getBytes((ze.getPlatform() << 8) | 20));
+continue;
+moveFile(f, d, filtering, forceOverwrite);
+String[] compileArgs = new String[compileOptionsArray.length + fileListArray.length];
+if (ch >= 128) {
+compileOptions.append("Compilation args: ");
+String currentClassPath = System.getProperty("java.class.path");
+} else if (sb != null) {
+l = (new StringBuffer(l)).replace(idx, idx + dlen, sdir).toString();
+if (suppressMethodArgumentNotUsed
+None
+byte[] bytes = null;
+log(l, Project.MSG_WARN);
+localDataStart = written;
+}
+StringTokenizer tok = new StringTokenizer (verboseScope, ",");
+DirectoryScanner tagDefScanner =
+for (i = 0; i < len; i++) {
+if (this.classpath != null) {
+String comm = ze.getComment();
+return classpath.toString();
+writeOut(ZERO);
+writeOut(ZipShort.getBytes(ze.getInternalAttributes()));
+public final static int NULL = 0;
+None
+if (b < 0) {
+protected ValidatorErrorHandler errorHandler = new ValidatorErrorHandler();
+writeOut(ZipLong.getBytes(ze.getExternalAttributes()));
+writeOut(ZERO);
+if (!lenient) {
+byte[] num = ZipShort.getBytes(entries.size());
+writeOut(ZipLong.getBytes(cdLength));
+Class.forName("com.sun.tools.javac.Main");
+for (int i = 0; i < attributeList.size(); i++) {
+byte[] data = getBytes(comment);
+exe.setWorkingDirectory(null);
+throw new ZipException("data starting at " + start
+for (int i = 0; i < propertyList.size(); i++) {
+/* version needed to extract       */ + 2
+/* general purpose bit flag        */ + 2
+}
+String javaHome = System.getProperty("java.home");
+/* compression method              */ + 2
+* </li>
+/* crc-32                          */ + 4
+Restrict exists = new Restrict();
+return toolsJar;
+/* filename length                 */ + 2
+/* extra field length              */ + 2
+return;
+/* file comment length             */ + 2
+/* disk number start               */ + 2
+URL[] dirURLs = Locator.getLocationURLs(element);
+/* external file attributes        */ + 4
+/**
+writeOut(ZERO);
+OffsetEntry offset = new OffsetEntry();
+Properties fileProperties = new Properties();
+entries.put(ze, offset);
+* @since 1.1
+/* number of the disk with the     */
+} finally {
+* Temporary table to speed up the various scanning methods.
+/* total number of entries in      */
+/* size of the central directory   */ + 4
+XMLReader newReader;
+/* directory with respect to       */
+* </a>.</p>
+incls = new String[] {"**"};
+private static final int FG_RED = 31;
+if (reader instanceof Parser) {
+public void assertOutputContaining(String substring) {
+if (name == null || value == null) {
+/** Utilities used for file operations */
+String name = event.getTask().getTaskName();
+private static final int FG_BLUE = 34;
+initValidator();
+// (which holds patterns "include" and "exclude")
+makeBed();
+}
+byte[] bytes = new byte[40];
+if (topNames.size() == 0) {
+// private static final int BG_BLACK = 40;
+/** + */
+tokenizer = new StringTokenizer(path, ":;", true);
+if (token.equals(File.pathSeparator) || token.equals(":")) {
+allProps.putAll(getProject().getProperties());
+getProject().setProperty(property, value);
+if (doUpdate) {
+message.append(label).append(event.getMessage());
+} finally {
+private static final int POS_1 = 1;
+appendFiles(files, super.getDirectoryScanner(baseDir));
+(new Thread(outPump)).start();
+try {
+int ret = runner.getRetCode();
+static {
+result = p.waitFor();
+outPump.waitFor();
+if (Execute.isFailure(result)) {
+exec.setFailonerror(true);
+/* zipfile comment length          */ + 2;
+if (args.length == 1 && java.lang.Void.TYPE.equals(returnType)
+private String              comment;
+private static final int CFD_LOCATOR_OFFSET =
+private static long dosToJavaTime(long dosTime) {
+* This software consists of voluntary contributions made by many
+byte[] data = new byte[getLocalFileDataLength().getValue() - 4];
+private String name = null;
+java.io.File local = new java.io.File(tgt, (String) item.get(p1.getName()));
+* This software consists of voluntary contributions made by many
+commandLine.createArgument().setValue(SOSCmd.FLAG_VERSION);
+return exe.execute();
+commandLine.createArgument().setValue(getNoCache());
+| ((mode & 0200) == 0 ? 1 : 0)
+| (isDirectory() ? 0x10 : 0));
+properties = new Properties();
+containingPath.setLocation(resolveFile(attributeValue));
+if (!(Os.isFamily("dos") || Os.isFamily("netware"))) {
+try {
+protected void tearDown() throws Exception {
+public void test5() {
+if (isContainer() && args.length == 1 && "addTask".equals(name)
+String oldValue = (String) props.get(key);
+directory = file.getParentFile();
+Collections.sort(dirs);
+props.put(key, newValue);
+None
+return new String[] {"protected", "public", "package", "private"};
+/** The base directory to be scanned. */
+transformer.setErrorListener(this);
+// the format is:
+None
+while (fileIter.hasNext()) {
+//after version or vendorID)
+// is there a startToken
+Class f = null;
+Commandline commandLine = new Commandline();
+if (src != null) {
+Execute exe = new Execute(getExecuteStreamHandler(), null);
+String encodedcreds =
+None
+if (r.isDirectory() || r instanceof FileResource) {
+if (isConfigured) {
+if (java.lang.String.class.equals(reflectedArg)) {
+}
+if (value == null && defaultValue != null && oldValue == null) {
+if (hasChildren) {
+* Add a single object into the script context.
+if (value != null && defaultValue != null && oldValue != null) {
+this.data = new Data(this.blockSize100k);
+realLog(log, "Start: " + event.getTarget().getName(),
+/** + */
+None
+/** int */
+public final static String DRIVER = "driver";
+None
+public JUnitTestRunnerTest(String name){
+transformer = null;
+if (!this.stylesheet.equals(stylesheet)
+throw new SQLException("No suitable Driver for " + url);
+if (event.getTarget() != null) {
+setTransformationParameters();
+}
+public void testSuite(){
+log("Failed to obtain required RDBMS information", Project.MSG_ERR);
+obj = null; // a new one will be created.
+getProject().setNewProperty(name, buffer.toString().trim());
+attribute = getAttribute(attribute.getKey());
+try {
+long timestamp = 0;
+if (deploymentDescriptor == null && !isInUpdateMode()) {
+executeTarget("testIfAndUnless");
+public void testNoSuite(){
+final Class reflectedArg = PRIMITIVE_TYPE_MAP.containsKey(arg)
+if (testClass.isInterface() && !iiop && !idl) {
+if (File.separatorChar != '/') {
+Base64Converter encoder = new Base64Converter();
+scanDir(baseDir,
+if (null != sourceBase && !baseDir.equals(sourceBase)
+InputStream is = null;
+continue;
+String fileName =
+NestedCreator(Method m) {
+public void testInvalidSuite(){
+if (nestedCreators.get(propName) == null) {
+return false;
+this.file=file;
+if (path.exists() && filename.equals(paths[i])) {
+if (ih == null || ih.bean != c) {
+return false;
+private boolean added = false;
+"expecting file " + name + " to contain " + contains +
+"Wrong files selected. Differing files: "       // info text
+}
+if (factoryName == null) {
+for (int i = 0; i < attributes.size(); i++) {
+al.addSystemPackageRoot("org.apache.tools.ant");
+/**
+for (Enumeration attrs = factory.getAttributes();
+Path sources = createUnifiedSourcePath();
+if (xmlCatalog != null) {
+for (Enumeration props = xsltTask.getOutputProperties();
+Vector options = apt.getOptions();
+Path p = getBootClassPath();
+if (!JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_2)
+Hashtable allProps = new Hashtable();
+if (inFile == null && propertySets.size() == 0) {
+addTypeMethods.set(c, method);
+expectBuildException("test5", "ANTLR returned: 1");
+return;
+if (compilerType.equalsIgnoreCase("modern")
+Iterator iten = sorted.iterator();
+Commandline commandLine2 = new Commandline();
+Commandline commandLine = new Commandline();
+commandLine.createArgument().setValue(FLAG_PASSWORD);
+Random rn = new Random();
