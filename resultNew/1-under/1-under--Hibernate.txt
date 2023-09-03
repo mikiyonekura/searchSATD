@@ -1,0 +1,2492 @@
+return ExecuteUpdateResultCheckStyle.COUNT;
+String sequentialSelect = generateSequentialSelect(loadable);
+return null;
+return BatchingEntityLoader.createBatchingEntityLoader(
+Long ts = new Long( region.nextTimestamp() );
+for ( Iterator ii = props.keySet().iterator(); ii.hasNext(); ) {
+}
+return disassembledState;
+return true;
+*           Environmental properties; currently unused.
+return false;
+* Callback to perform any necessary cleanup of the underlying cache implementation during SessionFactory.close().
+return true;
+if ( value instanceof ToOne ) {
+return false;
+id.setDynamic( !entity.hasPojoRepresentation() );
+optimizer = Environment.getBytecodeProvider().getReflectionOptimizer( mappedClass, getterNames, setterNames, propTypes );
+if ( component.getOwner().hasPojoRepresentation() ) {
+return false;
+mappings.addSecondPass( new ManyToOneSecondPass(manyToOne) );
+aliasRefNode.resolve( false, false ); //TODO: is it kosher to do it here?
+}
+return false;
+!( dialect instanceof MySQLDialect ) ||
+}
+log.debug( "processing foreign key constraints" );
+abstract static class CollectionType {
+cascadeBeforeSave(source, persister, entity, createCache);
+boolean indexIsFormula = false;
+None
+CacheEntry ce = new CacheEntry(
+java.util.Map propertyResults = bindPropertyResults(alias, returnElem, null, mappings );
+None
+// IMPL NOTE : currentDepth might be less-than zero if this is the
+Property property = (Property) itr.next();
+throw new QueryException( "duplicate association path: " + wholeAssociationPath );
+}
+simpleValue.getTable().addColumn( column );
+null;
+if ( StringHelper.isEmpty(condition) ) {
+useOffset ? getFirstRow(selection) : 0,
+* Retrieves a PropertyAccessor instance based on the given property definition and
+log.trace("skipping lock checks...");
+}
+return nullSafeGet(rs, names, session, owner);
+copyCache.put( original, copy );
+if ( "extra".equals( node.attributeValue("lazy") ) ) {
+// The need for it is intended to be alleviated with future development, thus it is
+}
+}
+return new StringBuffer( ownerEntityTable ).append( "_" )
+offset = writeKey( st, id, offset, session );
+if ( !hasNotNullableColumns ) {
+public static PropertyAccessor getPropertyAccessor(Class optionalClass, String type) throws MappingException {
+LoadEventListener.LoadType type = nullable
+private transient Class elementClass;
+}
+createForeignKeyOfEntity( ( (EntityType) getType() ).getAssociatedEntityName() );
+return (Serializable[]) state;
+org.dom4j.Document document = findPossibleExtends();
+private static final Class[] COLLECTION_PERSISTER_CONSTRUCTOR_ARGS = new Class[] {
+) {
+throw new DuplicateMappingException(
+String [] idColNames = owner.getQueryable().getIdentifierColumnNames();
+return StringHelper.unqualify(propertyName);
+if ( null == mode || EntityMode.POJO.equals( mode ) ) {
+int filteredParamCount = queryParameters.getFilteredPositionalParameterTypes() == null
+Iterator iter = results.iterator();
+private String substituteBrackets(String sqlQuery) throws QueryException {
+private static final PropertyAccessor BASIC_PROPERTY_ACCESSOR = new BasicPropertyAccessor();
+}
+if ( oj.getJoinable().isCollection() ) {
+log.trace( "owning entity already loaded; ignoring" );
+/*if ( isPrimaryKey && !isSpecialOneToOne ) {
+None
+endCollectionLoad( resultSetId, session, collectionPersisters[i] );
+LoadEventListener.LoadType type = nullable
+}
+registerFunction( "%exact", new StandardSQLFunction( "%exact", Hibernate.STRING ) );
+endCollectionLoad( resultSetId, session, collectionPersisters[i] );
+return true;
+( (initialVersion instanceof Number) && ( (Number) initialVersion ).longValue()<0 )
+/*EntityPersister persister = getEntityPersister();
+return false;
+return false;
+final Collection orphans;
+rtn.hasNonReadOnlyEntities = ois.readBoolean();
+/*if ( persister.hasCache() && !persister.isCacheInvalidationRequired() ) {
+return load(event, persister, keyToLoad, options);
+final PersistenceContext persistenceContext = session.getPersistenceContext();
+public EntityLoadContext(LoadContexts loadContexts, ResultSet resultSet) {
+if ( log.isDebugEnabled() ) {
+if ( session.getFactory().getStatistics().isStatisticsEnabled() ) {
+}
+public ScrollableResults scroll(ScrollMode scrollMode) throws HibernateException {
+final String queryString = queryParameters.getFilteredSQL();
+addExtraJoins( joinFragment, rootAlias, rootJoinable, true );
+Iterator iter = context.getCollectionEntries().entrySet().iterator(); //TODO: calling entrySet on an IdentityMap is SLOW!!
+loadContexts.unregisterLoadingCollectionXRef( collectionKey );
+loadContexts.cleanup( resultSet );
+return;
+PostLoadEvent postLoadEvent = new PostLoadEvent(session).setEntity(result)
+Object nextVersion = persister.forceVersionIncrement(
+throw new HibernateException( "reassociated object has dirty collection reference (or an array)" );
+Map transientCopyCache = getTransientCopyCache(event, copyCache );
+removeCollection(persister, collectionKey, session);
+return changed && existsInDatabase( target, source, persister );
+public interface QueryTranslator {
+CollectionType type = (CollectionType) getDataType();
+if ( node instanceof DotNode ) {
+createSelectClauseFromFromClause( qn );
+( ( DotNode ) dot ).setPropertyPath( ( ( FromReferenceNode ) property ).getPath() );
+// Prepare persisters and link them up with their cache
+versionIncrementNode = getASTFactory().create( HqlSqlTokenTypes.PLUS, "+" );
+None
+if ( sqlAst.needsExecutor() ) {
+private boolean compiled;
+super( sql, flushMode, session, parameterMetadata );
+expr.setText( text );
+// TODO : decide if it is better performance-wise to doAfterTransactionCompletion that check, or to simply use the MultiTableUpdateDelegate
+/**
+private FieldInterceptionHelper() {
+String name = propertyNode.getText();
+final Delete delete = new Delete()
+switch ( x.getType() ) {
+return persister.getSubclassPropertyTableNumber( propertyName ) != 0;
+None
+}
+Node lhs = getLeftHandOperand();
+return Hibernate.DOUBLE; //BLIND GUESS!
+JoinSequence joinSequence = fromElement.getJoinSequence();
+public class WhereParser implements Parser {
+namedParamsCopy.put( name, new TypedValue( type, vals.iterator().next(), session.getEntityMode() ) );
+session.getBatcher().closeQueryStatement( ps, resultSet );
+return factory.getEntityPersister( entityName )
+String[] tokens = StringHelper.split( StringHelper.WHITESPACE + "(),", query, true );
+//  doAfterTransactionCompletion "join post processing" once for the entire query (including
+return buf.append(')').toString();
+public boolean isDereferencedBySuperclassProperty() {
+None
+return buf.append(')').toString();
+oos.writeObject( loadedState );
+/**
+if ( manyToMany ) {
+super( sql, flushMode, session, parameterMetadata );
+// We would probably refactor to have LogicParser (builds a tree of simple
+final Object result = persistenceContext.getEntity(key);
+String replacement = ( String ) walker.getTokenReplacements().get( constant.getText() );
+//We should actually rework this class to not implement Parser
+return index==-1 ? 0 : getSubclassPropertyTableNumber(index);
+return ( String[] ) subclassPropertyColumnNames.get( propertyName );
+boolean[] includeOldField = entityMetamodel.getOptimisticLockMode() == Versioning.OPTIMISTIC_LOCK_ALL ?
+last();
+return collectionName != null && !getPropertyType().isCollectionType();
+private int dotcount;
+NativeSQLQuerySpecification spec;
+}
+None
+region.put( spaces[i], ts );
+String[] tokens = StringHelper.split( ".", token, true );
+if ( !( ( ( NodeSPI ) regionRoot ).getVersion() instanceof NonLockingDataVersion ) ) {
+public List list(String query, QueryParameters queryParameters) throws HibernateException {
+private static final Logger log = LoggerFactory.getLogger(SessionImpl.class);
+int scalarSize = scalarTypes.size();
+//The class is now way to complex!
+return jdbcContext.getConnectionManager().getBatcher();
+return finalKey;
+if ( discrimColumnName != null && !"clazz_".equals( discrimColumnName ) ) {
+if ( ps.getMaxRows()!=0 ) ps.setMaxRows(0);
+PreLoadEvent preLoadEvent = new PreLoadEvent( session )
+text = child.renderValueCollectionSelectFragment( nonscalarSize, nonscalarSize + k );
+log.debug( "could not log warnings", sqle );
+ComponentMetamodel metamodel = new ComponentMetamodel( this );
+return Environment.getBytecodeProvider().getProxyFactoryFactory().buildProxyFactory();
+final EntityKey optionalObjectKey = getOptionalObjectKey( queryParameters, session );
+None
+Criteria parent = null;
+private final CriteriaQueryTranslator translator;
+EntityUniqueKey euk = new EntityUniqueKey(
+final String[][] cols = persister == rootPersister ?
+CollectionElement elem = new CollectionElement();
+HolderInstantiator holderInstantiator = buildHolderInstantiator( resultTransformer );
+Type type = definition.getParameterType( name );
+if ( element instanceof HibernateProxy ) {
+}
+//NOTE: unlike all other Loaders, this one is NOT
+DecimalFormat jdkFormatter = new DecimalFormat( FORMAT_STRING );
+else {
+public Serializable disassemble(Object value, SessionImplementor session, Object owner)
+ArrayList columnTableNumbers = new ArrayList();
+}
+/**
+optimizer = Environment.getBytecodeProvider().getReflectionOptimizer(
+private final EntityMetamodel entityMetamodel;
+super.getReturnedClass().isInstance(parent);
+EntityUniqueKey euk = new EntityUniqueKey(
+ByteArrayOutputStream outputStream = new ByteArrayOutputStream(2048);
+replaceElements( result, target, owner, copyCache, session );
+return "";
+*         FIXME: even if isInverse="true"?
+Type keyType = getPersister( session ).getKeyType();
+* Is the primary key of the owning entity table
+None
+int spacesSize = 1 + persistentClass.getSynchronizedTables().size();
+AbstractQueryImpl query = (AbstractQueryImpl) session.getNamedSQLQuery(queryName);
+Component component = (Component) prop.getValue();
+throw new HibernateException("illegally attempted to associate a proxy with two open Sessions");
+if ( inFromClause
+return new Dom4jAccessor( nodeName, type, factory );
+pf.postInstantiate(
+columnNames = getSessionFactoryHelper().generateColumnNames( queryReturnTypes );
+}
+log.warn( "Transaction started on non-root session" );
+String alias = getLhs().getFromElement().getQueryable().getTableName();
+SessionFactoryImplementor sessionFactory = getSessionFactoryHelper().getFactory();
+private static final Logger log = LoggerFactory.getLogger( JDBCContext.class );
+}
+}
+String tableName = getTable().getQuotedName(dialect);
+return false;
+// was toUnqotedAliasStrings( getIdentiferColumnNames() ) before - now tried
+source.getPersistenceContext().addEntry(
+copyCache.put( original, copy );
+getLoadQueryInfluencers()
+for ( Iterator it=transientCopyCache.entrySet().iterator(); it.hasNext(); ) {
+EntityEntry entry = source.getPersistenceContext().getEntry(entity);
+/*Object[] cachedState = null;
+if ( object instanceof HibernateProxy ) {
+cacheable,
+if ( checkForEnd && i == end ) {
+OnReplicateVisitor visitor = new OnReplicateVisitor( source, id, entity, false );
+return collection.wasInitialized() &&
+// potentialTrimCharacterArgIndex = 1 assumes that a
+else {
+Serializable entityId = getLoadedCollectionOwnerIdOrNull( ce );
+}
+//		registerColumnType(Types.VARBINARY,     "binary($1)");
+}
+private static final Logger log = LoggerFactory.getLogger(ConcurrentStatisticsImpl.class);
+None
+SessionFactoryImplementor factory = session.getFactory();
+None
+oracleCursorTypeSqlType = extractOracleCursorTypeValue();
+return "{?= call current_timestamp}";
+if ( hsqldbVersion < 20 ) {
+return getLoadedElementsIterator(session, collectionType, collection);
+wrapper.setWrapped( wrapped );
+return false;
+if ( stringForm != null ) {
+this.set = set;
+/**
+buf.append("select ");
+EntityType entityType =(EntityType) type;
+return null;
+if ( value != old ) {
+ArrayList columnJoinNumbers = new ArrayList();
+private CollectionSubqueryFactory() {
+String[] columns = (String[]) columnsByPropertyPath.get(propertyName);
+//figure out which tables need to be fetched
+Iterator itr = associations.iterator();
+//NOTE: unlike all other Loaders, this one is NOT
+return false;
+SessionFactory sf;
+if (e.getMessage().startsWith("Cannot parseConfiguration CacheManager. Attempt to create a new instance of " +
+Type keyType = getPersister( session ).getKeyType();
+/**
+return ( ( Element ) value ).asXML();
+CacheEntry ce = new CacheEntry(
+// return collection.getOwner()
+arrayHolders.put( holder.getValue(), holder );
+private static final Logger log = LoggerFactory.getLogger( HQLQueryPlan.class );
+if ( !joinAlias.equals( referencedFromElement.getTableAlias() ) ) {
+// could also add a check to SessionFactory to only conditionally call start
+Integer minPoolSize = PropertiesHelper.getInteger( Environment.C3P0_MIN_SIZE, props );
+if ( fromElement.getOrigin() == null ) {
+if (value==null) {
+return factory.getReferencedPropertyType( entityType.getAssociatedEntityName(), EntityPersister.ENTITY_ID ) != null;
+log.trace( "transient instance could not be processed by merge: " +
+index += ArrayHelper.countTrue( includeColumns[i] ); //TODO:  this is kinda slow...
+return StringHelper.join( "=? and ",
+sequentialSelect = session.getBatcher().prepareSelectStatement( sql );
+if ( useStaticLoader ) {
+if ( j == 0 && identityInsert && useInsertSelectIdentity() ) { //TODO: suck into Insert
+/**
+byte[] b = cc.toBytecode();
+Select select = new Select( getFactory().getDialect() );
+None
+getSession().getPersistenceContext().getCollectionsByKey().remove(
+// Prepare persisters and link them up with their cache
+return new Alias( suffix ).toAliasStrings( getIdentifierAliases() );
+if ( collectionType.hasHolder( session.getEntityMode() ) ) {
+sqlAliasSuffixes[i] = ( size == 1 ) ? "" : Integer.toString( i ) + "_";
+if ( log.isTraceEnabled() ) {
+return;
+/**
+int loc = writeKey( st, id, offset, session );
+}
+sqlType = type;
+return System.currentTimeMillis() / 100;
+registerFunction( "year", new StandardJDBCEscapeFunction( "year", Hibernate.INTEGER ) );
+cacheAdapter.remove(key);
+if (jbcTsCache != null) {
+Option opt = getNonLockingDataVersionOption(false);
+None
+if (this == dataVersion) {
+if (jbcTsCache != null) {
+persister.setIdentifier( instance, generatedId, session );
+None
+initialize( true );
+Node added = null;
+if (this == dataVersion) {
+String[] idColumnNames = ( persister != null ) ?
+if ( !Character.isLetter( chars[0] ) ) {
+Long ts = new Long( region.nextTimestamp() + region.getTimeout() );
+q.addQuerySpaces( q.getCollectionPersister( pathExpressionParser.getCollectionRole() ).getCollectionSpaces() );
+//	private final SessionFactoryImplementor sessionFactory;
+PersistentClass superclass = getSuperclass();
+private final String role;
+ukName,
+batchNumber = new Integer( actionBatches.size() );
+Attribute typeNode = node.attribute( "type" );
+Object[] propertyValues = meta.getPropertyValues( entity, getEntityMode(criteria, criteriaQuery) );
+Serializable id = persister.getIdentifierGenerator().generate( getSession(), entry );
+lockMode
+return "? " +
+ArrayList allResultColumns = getResultColumns(propertyresult);
+.getColumnIterator() );
+case 23001: return null;
+throw new AssertionFailure( "entity was persistent" );
+}
+EntityKey entityKey = new EntityKey( id, persister, session.getEntityMode() );
+}
+private static final Set COUNT_MODIFIERS = new HashSet();
+}
+if ( me.getValue()==element ) return me.getKey();
+if ( useLimit && dialect.bindLimitParametersFirst() ) {
+public void initCollectionPropertyMap() {
+throw new QueryException(
+public String getEntityName(Criteria subcriteria, String propertyName) {
+final Serializable id = session.getEntityPersister( entityName, obj ).getIdentifier( obj, session );
+fk.setTable( this );
+}
+private PersisterFactory() {}
+return value==null ?
+/*if ( otherAlias!=null && !columnAlias.equals(otherAlias) ) {
+return isOwnerVersioned( session ) && super.isDirty( old, current, session );
+}
+return getFactory().getDialect().getIdentitySelectString(
+ComponentMetamodel metamodel = new ComponentMetamodel( this );
+LoadEventListener.LoadType type = nullable
+throws HibernateException;
+StringBuffer buf = new StringBuffer( "create" )
+mergeJoins( sql.getJoinFragment() );
+DisjunctionFragment df = new DisjunctionFragment();
+public RowSelection getSelection() {
+final CollectionPersister[] collectionPersisters = getCollectionPersisters();
+if ( hasSubclasses() ) {
+if (!isResolved()) {
+log.trace( "forcing inclusion of extra joins [alias=" + alias + ", containsTableAlias=" + containsTableAlias + "]" );
+// Prepare persisters and link them up with their cache
+boolean substitute = wrapCollections( session, persister, types, values);
+if (name!=null) {
+oos.writeObject( loadQueryInfluencers );
+String versionIncrementString = generateVersionIncrementUpdateString();
+public boolean supportsIdentityColumns() {
+}
+}
+mappings.addColumnBinding( logicalColumnName, column, table );
+mappings.addColumnBinding( logicalColumnName, column, table );
+throw new CacheException("unsupported access type [" + accessType.getName() + "]");
+}
+if ( lhs.getImpliedJoin() != null || lhs.getFromElement().isImplied() ) {
+FieldInterceptionHelper.injectFieldInterceptor( entity, getEntityName(), lazyProps, session );
+String logicalOwnerTableName = ownerTable.getName();
+for ( int i=0; i<spaces.length; i++ ) {
+inElementsFunction = true;
+prepareCollectionFlushes(session);
+if (channelFactory == null) {
+userAliases = ArrayHelper.toStringArray(userAliasList);
+else {
+//TODO: this is one of the ugliest and most fragile pieces of code in Hibernate....
+if ( getFactory().getSettings().isCommentsEnabled() ) {
+int potentialTrimCharacterArgIndex = 1;
+public boolean supportsEmptyInList() {
+addCollection( collectionName, collectionRole );
+try {
+registerFunction( "unhex", new StandardSQLFunction( "unhex", Hibernate.STRING ) );
+None
+Iterator iter = collections.values().iterator();
+.toString();
+entityIsTransient(event, copyCache);
+private final String subquery;
+String entityName = action.getEntityName();
+private final String[] subclassClosure;
+Option option = new Option();
+public UnionSubclassEntityPersister(
+private final Map propertyIndexes = new HashMap();
+}
+}
+log.trace( "entity found in session cache" );
+for ( Iterator actionItr = insertions.iterator(); actionItr.hasNext(); ) {
+this.disassembledState = TypeHelper.disassemble(
+None
+public String fromTableFragment(String name) {
+java.util.Collections.sort( collectionCreations );
+return isAbstract() || hasSubclasses();
+private HashMap latestBatches = new HashMap();
+buf.setLength( buf.length() - ( dialect.supportsUnionAll() ? 11 : 7 ) );
+if ( resultSet.isAfterLast() ) {
+return getTableName();
+public void cascade(EventSource session, Object child, String entityName, Object anything, boolean isCascadeDeleteEnabled)
+if ( sqle.getSQLState().startsWith( "23" ) ) {
+private final int[] subclassPropertyTableNumberClosure;
+EXPRESSION_OPENERS.add( "and" );
+private final Map subclassesByDiscriminatorValue = new HashMap();
+None
+registerFunction( "atan2", new StandardSQLFunction("atan2", Hibernate.FLOAT) );
+FromElement origin = fromElement.getOrigin();
+registerFunction( "add_months", new StandardSQLFunction("add_months", Hibernate.DATE) );
+.append(" ) as row_"); 					// close off the inner nested select
+/**
+if (hasOffset) {
+registerFunction(
+while (!isResultSet && ps.getUpdateCount() != -1) {
+/**
+customSQLInsert = new String[tableSpan];
+return load(event, persister, keyToLoad, options);
+EntityKey entityKey = new EntityKey( id, subclassPersister, session.getEntityMode() );
+specialCasesBefore( lcToken );
+//TODO: code duplication with SingleTableEntityPersister
+if ( !sessionFactory.getDialect().supportsRowValueConstructorSyntax() ) {
+return;
+subclassByDiscriminatorValue.put(
+// grab its state from the ResultSet and keep it in the Session
+}
+object = session.instantiate( instanceClass, key.getIdentifier() );
+return null;
+session.getPersistenceContext().getEntry(object)
+statement.registerOutParameter(col, oracletypes_cursor_value);
+Object proxy = persistenceContext.getProxy(keyToLoad);
+/**
+return getLoadedElementsIterator(session, collectionType, collection);
+public String getAddColumnString() {
+// Note, it potentially could be a proxy, so doAfterTransactionCompletion the location the safe way...
+value.addColumn( new Column( columnName ) );
+}
+}
+int oracletypes_cursor_value = 0;
+None
+List types = new ArrayList();
+private final PathExpressionParser pathExpressionParser;
+String userSpecifedResolverSetting = Environment.getProperties().getProperty( Environment.DIALECT_RESOLVERS );
+getPersister().remove( getKey(), getSession() );
+int count = doUpdateRows( id, collection, session );
+return Declarer.SUBCLASS;
+p.getIdentifierType(),
+None
+public String getAddColumnString() {
+Iterator iter = namedParams.entrySet().iterator();
+registerFunction( "ceiling", new StandardSQLFunction( "ceiling", Hibernate.INTEGER ) );
+if ( checkVersion( includeProperty ) ) {
+"bit_length", new SQLFunctionTemplate( Hibernate.INTEGER, "octet_length(cast(?1 as char))*4" )
+object = optionalObject;
+final boolean propertyIsDeferred = hasDeferred &&
+createClassProperties( node, subclass, mappings, inheritedMetas );
+parent = subcriteria.getParent();
+private final int[] subclassPropertyTableNumberClosure;
+rs.absolute( firstRow );
+return session.getPersistenceContext()
+None
+private final Map subclassesByDiscriminatorValue = new HashMap();
+Object discriminatorValue = persister.getDiscriminatorType().nullSafeGet(
+defaultLockModes = ArrayHelper.fillArray( LockMode.NONE, size );
+private final Map propertyTableNumbersByNameAndSubclass = new HashMap();
+throw e;
+joinSpan = persistentClass.getJoinClosureSpan()+1;
+if ( session.getFactory().getSettings().isWrapResultSetsEnabled() ) {
+code.addIconst( 0 );
+this.isKey = metamodel.isKey();
+code.addCheckcast( this.targetBean.getName() );
+afterCommitRollback();
+code.addInvokevirtual( target_type_index, getterName, getter_desc );
+final QueryNode select = ( QueryNode ) queryTranslator.getSqlAST();
+if ( setters.length > 0 ) {
+AST firstChild = getFirstSelectExpression();
+code.addNew( BULKEXCEPTION_CLASS_NAME );
+&& !BEFORE_TABLE_KEYWORDS.contains( lcToken ) ) {
+code.addOpcode(Opcode.GETFIELD);
+None
+code.addOpcode( Opcode.DUP );
+private ComponentTuplizerFactory componentTuplizerFactory = new ComponentTuplizerFactory();
+code.addOpcode(Opcode.PUTFIELD);
+cacheConfig.getRuntimeConfig().setTransactionManager(tm);
+Bytecode code = new Bytecode(cp, 3, 3);
+Integer associationBatchNumber = ( Integer ) entityBatchNumber.get( value );
+code.addInvokeinterface( target_type_index, getterName, getter_desc, 1 );
+if ( id == null ) {
+/**
+public int hashCode() {
+registerFunction( "str", new SQLFunctionTemplate( Hibernate.STRING, "cast(?1 as char varying)" ) );
+private final String[] propertyNames;
+if ( Byte.TYPE.equals( javaType ) ) {
+StringBuffer alter = new StringBuffer( root.toString() )
+registerFunction( "%string", new VarArgsSQLFunction( Hibernate.STRING, "%string(", ",", ")" ) );
+object = session.getEntityUsingInterceptor( key );
+Lock lock = new Lock( ts, nextLockId(), null );
+None
+return version!=null && comparator.compare(version, newVersion) < 0;
+return ( SelectClause ) ASTUtil.findTypeInChildren( this, SqlTokenTypes.SELECT_CLAUSE );
+bindDiscriminatorProperty( table, entity, subnode, mappings );
+public Object seed(SessionImplementor session) {
+private final Map propertyIndexes = new HashMap();
+None
+registerFunction( "%upper", new StandardSQLFunction( "%upper" ) );
+Boolean result = entityMetamodel.getVersionProperty()
+public synchronized boolean put(
+return this;
+// If <trim specification> is omitted, BOTH is assumed.
+return new StringBuffer( 300 )
+if ( isNullableTable( j ) && isAllNull( fields, j ) ) {
+try {
+.append( ") REFERENCES " )
+Object[] assembledProps = TypeHelper.assemble(
+Iterator elems = getElementsIterator( collection, session );
+final Map namedParameters;
+persistentCollection = (PersistentCollection) collection;
+if ( !region.isTransactionAware() ) {
+getDefaultProperties().setProperty(Environment.USE_GET_GENERATED_KEYS, "false");
+ccs.clear();
+if ( persister.hasCollections() ) {
+code.addInvokeinterface( target_type_index, getterName, getter_desc, 1 );
+private final SessionFactoryImplementor factory;
+Iterator joinIter = persistentClass.getJoinClosureIterator();
+else {
+Element hmNode = doc.getRootElement();
+private final Map propertyIndexes = new HashMap();
+propertyTableNumbersByNameAndSubclass.put(
+DotNode lhs = ( DotNode ) eq.getFirstChild();
+protected boolean isDiscriminatorFormula() {
+private final Map propertyIndexes = new HashMap();
+AbstractEntityPersister subclassPersister = (AbstractEntityPersister) persister;
+private final Map alias2Return = new HashMap();
+ArrayList columnNumbers = new ArrayList();
+if ( initializer.isUninitialized() ) {
+ArrayList formulaNumbers = new ArrayList();
+columnReaders = (String[]) columnReadersByPropertyPath.get(foreignKeyProperty);
+return renderSelect(
+}
+private String sqlVersionSelectString;
+@Override
+/**
+if ( !rs.next() ) {
+addTypeDependDataLoad(code, finfo.getDescriptor(), 1);
+log.info( "pooled optimizer source reported [" + value + "] as the initial value; use of 1 or greater highly recommended" );
+// Numeric Functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+private final String sqlWhereString;
+SessionImplementor source) {
+if ( prop.getGeneration() == PropertyGeneration.INSERT ) {
+if ( type == null ) {
+private final String[] lazyPropertyNames;
+renderScalarSelects( selectExpressions, fromClause );
+private final String[] subclassColumnClosure;
+public final class Subcriteria implements Criteria, Serializable {
+}
+public Object saveOrUpdateCopy(String entityName, Object object)
+private final FilterHelper filterHelper;
+this.affectedOwner = session.getPersistenceContext().getLoadedCollectionOwnerOrNull( collection );
+/**
+inAutoCommitState = true;
+handleCustomSQL( node, entity );
+super.cascadeBeforeSave(source, persister, entity, copyCache);
+.getColumnIterator() );
+return " add column";
+String[] aliasedLhsColumns = StringHelper.qualify(alias, lhsColumns);
+return "";
+rtn.defaultReadOnly = ois.readBoolean();
+Iterator iter = node.elementIterator();
+None
+identifierColumnSpan = persistentClass.getIdentifier().getColumnSpan();
+// key value upon which to doAfterTransactionCompletion the breaking logic.  However,
+bindVersioningProperty( table, subnode, mappings, name, entity, inheritedMetas );
+);
+sqlWhereString = StringHelper.isNotEmpty( persistentClass.getWhere() ) ? "( " + persistentClass.getWhere() + ") " : null;
+sql = query;
+ArrayList columns = new ArrayList();
+List matches = null;
+formnos[l] = -1;
+return false;
+filterHelper = new FilterHelper( persistentClass.getFilterMap(), factory.getDialect(), factory.getSqlFunctionRegistry() );
+log.warn( "Could not close a JDBC result set", e );
+return null;
+return getLoadedElementsIterator(session, collectionType, collection);
+return initializeLazyPropertiesFromCache( fieldName, entity, session, entry, cacheEntry );
+public void setJoinType(int joinType) {
+// was toUnqotedAliasStrings( getIdentiferColumnNames() ) before - now tried
+return getJoinType( nullable, currentDepth );
+setText( text );
+return persister.createProxy( id, this );
+// NOTE : in the case of this being a collection property in the select, not generating the subquery
+Type[] types = getPropertyTypes();
+return "lower";
+}
+//   but we capture that there simply to doAfterTransactionCompletion the unbind...
+public static void bindSimpleValue(Element node, SimpleValue simpleValue, boolean isNullable,
+}
+throw new DetailedSemanticException( "Unable to locate appropriate constructor on class [" + className + "]", e );
+* We encountered a delete request on a transient instance.
+ps = session.getBatcher().prepareSelectStatement(lazySelect);
+final boolean[] columnUpdateability = value.getColumnUpdateability();
+throw new MappingException(
+// make it non-updateable
+Iterator wrappers = IdentityMap.keyIterator(collectionEntries);
+private String customSQLInsert;
+Table ownerTable = collection.getOwner().getTable();
+// transaction that was already begun before openSession() was called
+//session.getPersistenceContext().removeDatabaseSnapshot(key);
+}
+public void validate(Mapping mapping) throws MappingException {
+return lhsPersister.getPropertyColumnNames(propertyName);
+try {
+return lhsPersister.getSubclassPropertyTableName(property);
+try {
+String associatedEntityName = propertyType.getAssociatedEntityName();
+return 0;
+for ( int i = 0; i < entitySpan; i++ ) {
+Attribute cascadeAtt = node.attribute( "cascade" );
+return dialectScopes.isEmpty() || dialectScopes.contains( dialect.getClass().getName() );
+/*if ( type.isComponentType() && !propertyName.equals(rootPropertyName) ) {
+None
+this.comment = comment;
+CollectionPersister[] collectionPersisters = getCollectionPersisters();
+if ( component.getOwner().hasPojoRepresentation() ) {
+None
+internalInitSubclassPropertyAliasesMap( null, model.getSubclassPropertyClosureIterator() );
+private final BackrefSetter setter; // this one could even be static...
+bindComponent(
+if ( session.isEventSource() ) {
+final Loadable persister = (Loadable) getFactory().getEntityPersister( instanceEntityName );
+if ( getIdentifierType().isComponentType() ) {
+customQueryReturns.addAll( processor.generateCustomReturns( parser.queryHasAliases() ) );
+CompositeType componentId = ( CompositeType ) getIdentifierType();
+version = persister.getVersion( instance, session.getEntityMode() );
+subclassPropertyAliases.put( idPropertyNames[i], new String[] { idAliases[i] } );
+WrapVisitor visitor = new WrapVisitor(session);
+l++;
+/**
+code.addInvokeinterface( target_type_index, getterName, getter_desc, 1 );
+registerColumnType( Types.BLOB, "BLOB" );
+uniqueKeyLoaders.put(
+if ( entry.getStatus() != Status.MANAGED ) {
+initIdentifierPropertyPaths(mapping);
+public int hashCode() {
+if ( useRowId ) {
+.getJdbcSupport()
+}
+.append( persister.filterFragment( getAlias(), Collections.EMPTY_MAP ) );
+fetchStyle = join ? FetchMode.JOIN : FetchMode.SELECT;
+ComponentTuplizer ct = ( ComponentTuplizer ) tuplizerMapping.getTuplizer( entityMode );
+update.addColumns( getPropertyColumnNames(i), propertyColumnUpdateable[i], propertyColumnWriters[i] );
+if ( defaultSchema!=null ) {
+throw new CacheException("Timestamps cache must be configured if a query cache is used");
+log.debug( "Transaction is marked for rollback; skipping Synchronization registration" );
+if ( componentPath.length() > 0 ) componentPath.append( '.' );
+isNaturalKeyLookup = isLookupByNaturalKey;
+.getColumnIterator() );
+property = identifierProperty;
+Iterator iter = node.elementIterator();
+String entityName = ( (OneToMany) collection.getElement() ).getReferencedEntityName();
+private static final Logger log;
+if ( mappings.getClass( extendsName ) == null && mappings.getClass( getClassName( extendsName, mappings ) ) == null ) {
+}
+final Properties properties = new Properties();
+final Object nextVersion = getNextVersion(event);
+settings.setRegionFactory( createRegionFactory( properties, ( useSecondLevelCache || useQueryCache ) ) );
+private final String[] subclassPropertyNameClosure;
+"hibernate.validator.autoregister_listeners"
+/**
+boolean[] includeInWhere = entityMetamodel.getOptimisticLockMode() == Versioning.OPTIMISTIC_LOCK_ALL ?
+return true;
+Element discriminatorResult = returnElement.element("return-discriminator");
+if ( StringHelper.isNotEmpty( s ) ) {
+boolean hasOrphanDelete = loadedPersister != null &&
+includeInSelect[i] = !element.isFetch();
+void setSqlStatementLogger(SQLStatementLogger sqlStatementLogger) {
+hydratedObjects.add( object );
+private Interceptor interceptor;
+None
+ListIterator itr = auxiliaryDatabaseObjects.listIterator( auxiliaryDatabaseObjects.size() );
+if ( resultSet.isAfterLast() && isLogicallyAfterLast ) {
+if ( session.getFactory().getSettings().isIdentifierRollbackEnabled() ) {
+resultRow = new Object[ columnProcessors.length ];
+* Iterate the entity mappings
+if ( lockMode==LockMode.PESSIMISTIC_FORCE_INCREMENT) {
+boolean ownerChanged = loadedPersister != currentPersister ||				// if either its role changed,
+private static interface Delegate {
+* {@inheritDoc}
+property = identifierProperty;
+for ( int i = 0; i < entityMetamodel.getPropertySpan(); i++ ) {
+private void writeObject(ObjectOutputStream oos) throws IOException {
+if ( j == 0 ) {
+return collectionType.getElementsIterator(collection, session);
+!currentPersister
+JDBCExceptionReporter.logExceptions(e);
+}
+super.setDataType(propertyType);
+}
+private Map entityToOperatedOnFlagMap = IdentityMap.instantiate(10);
+String[] keyColumnNames = persister.getKeyColumnNames();
+return result;
+expectedType = getType() == HqlSqlTokenTypes.PLUS ? Hibernate.DOUBLE : rhType;
+return null;
+for ( int i = 0; i < position - size; i++ ) {
+}
+/**
+public static class BasicExpectation implements Expectation {
+insert.addColumns( getPropertyColumnNames(i), propertyColumnInsertable[i], propertyColumnWriters[i] );
+CompositeType componentType = ( CompositeType ) types[i];
+if ( j == 0 && identityInsert ) {
+errorIfDML();
+None
+if ( getFactory().getSettings().isCommentsEnabled() ) {
+if ( log.isTraceEnabled() ) {
+public NamedQueryDefinition(
+regionFactoryClassName = RegionFactoryCacheProviderBridge.class.getName();
+}
+FromClause from = getCurrentFromClause();
+return NOT_NULL_COLLECTION;
+//the entity is not associated with the session, so
+if ( tableUpdateNeeded[j] ) {
+final PreparedStatement insert;
+return "";
+dehydrate( id, fields, null, notNull, propertyColumnInsertable, j, insert, session, index );
+// Dialect method overrides ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+session.getBatcher().addToBatch( expectation );
+&& ForeignKeys.isTransient( childEntityName, child, null, session ) ) {
+isRowToUpdate = false;
+None
+Attribute chNode = node.attribute( "check" );
+private transient ReferenceMap softReferenceCache = new ReferenceMap( ReferenceMap.SOFT, ReferenceMap.SOFT );
+isRowToUpdate = true;
+if ( log.isTraceEnabled() ) {
+registerFunction( "ascii", new StandardSQLFunction( "ascii", Hibernate.INTEGER ) );
+final PreparedStatement update;
+snapshot[ lazyPropertyNumbers[j] ] = lazyPropertyTypes[j].deepCopy( propValue, session.getEntityMode(), factory );
+* @return PropertyHolder
+List collectionOwners = new ArrayList();
+if ( useVersion && Versioning.OPTIMISTIC_LOCK_VERSION == entityMetamodel.getOptimisticLockMode() ) {
+Object unmergedInstance = mergeMap.get( entityEntryInstance );
+final PreparedStatement insert;
+Type elementType = persister.getElementType();
+getIdentifierType().nullSafeSet( delete, id, index, session );
+columnAliases = ( String[] ) fieldResults.get(propertyName);
+if ( useVersion ) {
+entry = persistenceContext.getCollectionEntryOrNull( collection );
+public Object[] toArray() {
+final String result;
+final boolean[] tableUpdateNeeded = getTableUpdateNeeded( dirtyFields, hasDirtyCollection );
+Object[] propertyValues = action.getState();
+private List embeddedParameters;
+private final String[] propertyNames;
+Object element = persister.readElement( rs, owner, descriptor.getSuffixedElementAliases(), getSession() ) ;
+/** The column parameter */
+fromElement.setText( queryableCollection.getTableName() + " " + getTableAlias() );
+@Override
+None
+public Object merge(String entityName, Object object) throws HibernateException {
+collectionConfig = PropertiesHelper.getString(COLLECTION_CACHE_RESOURCE_PROP, properties, null);
+String componentPath,
+updateStrings = new String[span];
+factory.getSettings().getDefaultCatalogName(),
+updateStrings = getUpdateStrings(
+return IdentifierGeneratorHelper.SHORT_CIRCUIT_INDICATOR;
+if ( methodName.startsWith( "is" ) ) {
+.toString();
+String dfltQueryResource = (entityConfig == null ? DEF_QUERY_RESOURCE : entityConfig);
+trimSource = ( String ) args.get( 0 );
+boolean[] notNull = getPropertiesToInsert( fields );
+if ( object == self ) {
+private final String[] userAliases;
+id = insert( fields, getPropertyInsertability(), getSQLIdentityInsertString(), object, session );
+whereString.append('('); //TODO: unnecessary for databases with ANSI-style joins
+found = true;
+private final static String C3P0_STYLE_MIN_POOL_SIZE = "c3p0.minPoolSize";
+s.append( persister.getOwnerEntityPersister().getIdentifierType().toLoggableString( ids[i], factory ) );
+private transient boolean ignore;
+private final SessionFactoryImplementor factory;
+ignore = false;
+HolderInstantiator holderInstantiator = buildHolderInstantiator( resultTransformer );
+snapshot = persister.isMutable() ?
+}
+registerColumnType( Types.VARBINARY, "blob($l)" );
+ignore = false;
+Integer initialPoolSize = PropertiesHelper.getInteger( C3P0_STYLE_INITIAL_POOL_SIZE, props );
+deleteStrings = generateSQLDeletStrings( loadedState );
+deleteStrings = getSQLDeleteStrings();
+}
+ForeignKeyKey fkk = (ForeignKeyKey) other;
+final String comment,
+createJoin( alias, innerJoin, includeSubclasses ).toFromFragmentString();
+if ( transaction != null ) {
+String propertyPath = getText() + "." + getNextSibling().getText();
+final JoinFragment join = getFactory().getDialect().createOuterJoinFragment();
+expectedType = getType() == HqlSqlTokenTypes.PLUS ? Hibernate.DOUBLE : rhType;
+final boolean joinIsIncluded = isClassOrSuperclassTable( j ) ||
+if ( hasIdentifierProperty() ) {
+final int j = tableNumbers[i];
+public Serializable insert(Object entity) {
+//render the where and from parts
+}
+Class.forName(driverClass);
+if (requestedId==null) {
+private SQLStatementLogger sqlStatementLogger;
+result = SessionFactoryObjectFactory.getNamedInstance(name);
+return session != null
+if ( implied && inFrom ) {
+int drivingTable = tableNumbers[0];
+batchNumber = findBatchNumber( action, entityName );
+}
+IsolatedWork work = new IsolatedWork() {
+final String where = createWhereByKey( drivingTable, drivingAlias );
+/**
+JoinFragment jf = createJoin( tableNumbers, drivingAlias );
+log.warn("Exception occured when closing the Proxool pool", e);
+latestBatchNumberForType = new Integer( actionBatches.size() );
+protected void registerKeyword(String word) {
+FromElement elementJoin = factory.createElementJoin( queryableCollection );
+SelectFragment selectFragment = createSelect( columnNumbers, formulaNumbers );
+return " default values";
+Select select = new Select( getFactory().getDialect() );
+return true;
+final int joinSpan = getTableSpan();
+return " null";
+sqlSnapshotSelectString = generateSnapshotSelectString();
+throw new QueryException("Parser: panic");
+for ( int j = 0; j < dirtyProperties.length; j++ ) {
+/**
+Type type = collectionNode.getDataType();
+break translator_loop;
+break;
+.getBatchFetchQueue()
+return getText();
+if ( lockMode==LockMode.PESSIMISTIC_FORCE_INCREMENT) {
+if ( elemType.isEntityType() || elemType.isAnyType() || elemType.isComponentType() ) {
+public CriteriaImpl(String entityOrClassName, SessionImplementor session) {
+eventSource.getPersistenceContext().addChildParent(child, parent);
+String pkname = null;
+boolean embeddedElements = eventSource.getEntityMode()!=EntityMode.DOM4J ||
+final PersistenceContext persistenceContext = session.getPersistenceContext();
+if ( deleteOrphans ) { // handle orphaned entities!!
+Transaction tx = suspend();
+final Object version = getVersion( entity, session.getEntityMode() );
+sessionFactory = new Configuration().configure().buildSessionFactory();
+if ( log.isTraceEnabled() ) {
+Boolean result = entityMetamodel.getIdentifierProperty()
+if ( mergeMap != null ) {
+if ( hasCache() ) {
+private String customSQLInsert;
+return getIdentifierOrUniqueKeyType( mapping ).getColumnSpan( mapping );
+for ( int j = 0; j < cols.length; j++ ) {
+Element keyNode = node.element( "key" );
+try {
+public static final String SEQUENCE_PARAM = "sequence_name";
+/**
+public CriteriaImpl(String entityOrClassName, SessionImplementor session) {
+private Map entitiesByUniqueKey;
+None
+/**
+/**
+private Map entityEntries;
+out.println("</body></html>");
+private Map proxiesByKey;
+return CascadingAction.getAllElementsIterator(session, collectionType, collection);
+private Map entitySnapshotsByKey;
+Column col = ( (Column) iter.next() );
+private Map arrayHolders;
+}
+if ( !veto ) {
+AST primaryOrdering = query.getOrderByClause().getFirstChild();
+if ( methodName.startsWith( "get" ) ) {
+chain.doFilter( request, response );
+private HashSet nullifiableEntityKeys;
+int propertyNumber = getSubclassPropertyIndex( lazyPropertyNames[i] );
+private List nonlazyCollections;
+return getEntityPersister(className).getPropertyType(propertyName);
+Iterator iter = entityEntries.values().iterator();
+value.addColumn( new Column( columnName ) );
+}
+* <p>Deep clone an <code>Object</code> using serialization.</p>
+private ArrayList collectionCreations;
+public String getImportFiles() {
+String alias;
+Serializable result = (Serializable) Array.newInstance( persister.getElementClass(), length );
+java.util.Collections.sort( updates );
+return fromElement.getQueryable() != null &&
+entityBatchNumber = new HashMap( insertions.size() + 1, 1.0f );
+}
+int count = 0;
+Object currentEntity = action.getInstance();
+}
+HashMap nameLockOptions = new HashMap();
+}
+/**
+None
+final boolean useBatch = j == 0 && expectation.canBeBatched();
+}
+}
+return;
+if ( proxyOrig != null ) {
+private transient LRUMap strongReferenceCache;
+}
+private boolean betweenSpecialCase = false;       //Inside a BETWEEN ... AND ... expression
+old.unsetSession( session );
+ToOne toOneValue = ( ToOne ) value;
+checkLhsIsNotCollection();
+return getIdentifierOrUniqueKeyType( session.getFactory() )
+}
+addJoin( currentName, q.getFactory().getTypeResolver().getTypeFactory().manyToOne( entityName ), joinColumns );
+if ( componentIdType!=null && componentIdType.isMethodOf(method) ) {
+return INVOKE_IMPLEMENTATION;
+if ( joinType != NONE ) throw new QueryException( "outer or full join must be followed by path expression" );
+addCollection( collection, collectionPersister );
+return !( m.getParameterTypes().length == 0 && m.getName().equals( "finalize" ) );
+Serializable id = (Serializable) getIdentifierOrUniqueKeyType( session.getFactory() )
+loadCounter++; //don't let this method be called recursively
+None
+( (PersistentCollection) nonlazyCollections.remove( size - 1 ) ).forceInitialization();
+if ( isSingleRowLoader() && id != null ) {
+default:
+if ( persister.hasCache() ) {
+Enhancer.registerCallbacks(factory, null);
+final boolean isVersionCheckNeeded = persister.isVersioned() &&
+if ( thisMethod.getName().equals( "getHibernateLazyInitializer" ) ) {
+isRowToUpdate = update( id, fields, oldFields, rowId, includeProperty, j, oldVersion, object, sql, session );
+try {
+else {
+//NOTE: unlike all other Loaders, this one is NOT
+int[] sqlTypes = new int[getColumnSpan( mapping )];
+int loc = 0;
+node.setType( SqlTokenTypes.SQL_TOKEN );
+Subject caller = getContextSubject();
+final EntityKey key = regenerate ?
+Subject caller = getContextSubject();
+return getLoadedElementsIterator(session, collectionType, collection);
+private String tableName;
+* Do we already know that the entity does not exist in the
+renderNonScalarSelects( collectSelectExpressions(), fromClause );
+public int getCascadeLevel() {
+}
+Iterator entities = IdentityMap.entries(entityEntries).iterator();
+if ( args.size() == 1 ) {
+if ( persister.isSubclassEntityName( entityEntry.getEntityName() ) ) {
+final String cacheRegionPrefix = settings.getCacheRegionPrefix() == null ? "" : settings.getCacheRegionPrefix() + ".";
+boolean found = isFoundInParent(
+return;
+}
+return ( (PersistentCollection) collection ).queuedAdditionIterator();
+STYLES.put( "delete-orphan", DELETE_ORPHAN );
+return lhsPersister.getIdentifierColumnNames();
+return getLoadedElementsIterator(session, collectionType, collection);
+return;
+Map userSuppliedTuplizerImpls = new HashMap();
+unquoted = unquoted.substring( 1, unquoted.length()-1 );
+final String entityName = collectionType.getAssociatedEntityName( eventSource.getFactory() );
+unquoted = unquoted.substring(0, length);
+if (joinType==JoinFragment.FULL_JOIN ) throw new UnsupportedOperationException();
+return ps.getResultSet();
+buf.append( " else -1" );								//$NON-NLS-1
+rootPropertyName = assocType.getLHSPropertyName();
+if ( StringHelper.isNotEmpty(outerJoinsAfterWhere) ) {
+HashSet proxyInterfaces = new HashSet();
+None
+// Add the query spaces.
+if ( !userSuppliedTuplizerImpls.isEmpty() ) {
+String tmpOuterJoinsAfterWhere = outerJoinsAfterWhere.trim();
+Tuplizer pojoTuplizer;
+if (
+log.info( "encountered CME attempting to release batcher; assuming cause is tx-timeout scenario and ignoring" );
+DONT_SPACE_TOKENS.add(".");
+public ComponentMetamodel(Component component) {
+DONT_SPACE_TOKENS.add(")");
+if ( value instanceof Class ) {
+public void setEntityResolver(EntityResolver entityResolver) {
+filterHelper = new FilterHelper( collection.getFilterMap(), dialect, factory.getSqlFunctionRegistry() );
+String propertyRefTable = lhsPersister.getPropertyTableName(propertyName);
+callback = jdbcContext.registerCallbackIfNecessary();
+HashSet columnsUnique = new HashSet();
+buf.append( buf2.toString() );
+if ( elem.getFromClause() != elem.getOrigin().getFromClause() ||
+refreshedAlready.put(object, object);
+if (region != null) {
+public long getCollectionRemoveCount();
+boolean alwaysDirtyCheck = type.isAssociationType() &&
+registerHibernateType( Types.BIGINT, Hibernate.BIG_INTEGER.getName() );
+boolean doUpdate = true;
+None
+if ( connection != null ) {
+checkVersion( i, persister, key.getIdentifier(), object, rs, session );
+private boolean verbose;
+None
+throw new WrongClassException(
+bindCompositeId( subnode, entity, mappings, inheritedMetas );
+return new CacheJoinFragment();
+catch (SystemException se) {
+for ( int m = 0; m < firstRow; m++ ) rs.next();
+/**
+FromElement fromElement = evaluateFromElementPath( path, classAlias );
+instanceAlreadyLoaded(
+return true;
+log.error( "could not close session during rollback", e );
+if ( EntityPersister.ENTITY_ID.equals( propertyName ) ) {
+log.error( "JTA commit failed", e );
+if ( log.isDebugEnabled() ) {
+if ( callback ) {
+DIALECT_RESOLVERS.addResolver( new StandardDialectResolver() );
+private String processedSQL;
+None
+processedPositionalParameterValues = getPositionalParameterValues();
+return type.getReturnedClass() == that.type.getReturnedClass() &&
+cacheSelectTokens = false;
+checkSubclassOrSuperclassPropertyReference( lhs, propName );
+resultSet.previous();
+return new Integer( transaction.hashCode() );
+// the current batch number is the latest batch for this entity type.
+return transaction;
+Constructor[] ctors = converterClass.getDeclaredConstructors();
+}
+);
+}
+String[] propertyColumnNames = getPropertyColumnNames( i );
+Transaction tx = suspend();
+if ( initializeImmediately( entityMode ) ) {
+if (regionRoot != null && regionRoot.isValid() && !regionRoot.isResident())
+return true;
+None
+SessionFactoryImplementor factory = criteriaQuery.getFactory();
+String propName = property.getText();
+Integer latestBatchNumberForType = ( Integer ) latestBatches.get( entityName );
+TypeHelper.deepCopy(
+None
+newRoot.setResident(true);
+if ( fromElement.getQueryableCollection().hasOrdering() ) {
+int joinType = JoinFragment.INNER_JOIN;
+boolean changed = ! persister.getVersionType().isSame(
+}
+int hashCode = queryString.hashCode();
+case NOT_BETWEEN:
+newRoot = jbcCache.getRoot().getChild( regionFqn );
+return; //NOTE: early exit!
+None
+index = dehydrate( id, fields, rowId, includeProperty, propertyColumnUpdateable, j, update, session, index );
+return new IdentifierProperty(
+public String getCurrentTimestampSelectString() {
+}
+boolean[] nullability = compType.getPropertyNullability();
+Tuplizer dynamicMapTuplizer;
+if ( lockMode==LockMode.PESSIMISTIC_FORCE_INCREMENT) {
+Tuplizer dom4jTuplizer;
+EntityEntry entityEntry = session.getPersistenceContext().getEntry(object);
+entry.setCurrentPersister(null);
+LazyInitializer li = ( (HibernateProxy) object ).getHibernateLazyInitializer();
+throw new HibernateException(
+@Override
+return false;
+if ( pojoTuplizer != null ) {
+Object[] snapshot = session.getPersistenceContext().getDatabaseSnapshot(
+None
+parentAsDotNode = ( DotNode ) parent;
+private final String name;
+if ( persister.hasCollections() ) {
+private final int propertySpan;
+}
+name = persistentClass.getEntityName();
+/**
+return (Serializable) entityOrId;
+entityState = DETACHED;
+}
+entry.getLoadedKey(),
+Iterator whereParams = getIdSelectParameterSpecifications().iterator();
+/**
+if ( entry.isDorecreate() ) {
+thetaJoins.addChild(fragment);
+}
+return getLoadedElementsIterator(session, collectionType, collection);
+None
+identifierGenerator = null;
+Serializable result = entityMetamodel.getIdentifierProperty()
+getFilterQueryPlan( collection, queryString, null, false ).getParameterMetadata()
+if ( COLLECTION_INDEX_LOWER.equals( key ) ) {
+return li.getSession()==this;
+VersionProperty versionProperty = entityMetamodel.getVersionProperty();
+SqlFragment discrimNode = ( SqlFragment ) create( SQL_TOKEN, whereFragment );
+return false;
+if ( ! entityMetamodel.hasNonIdentifierPropertyNamedId() ) {
+entry.setDoupdate(true);
+while ( !isResultSet && ps.getUpdateCount() != -1 ) {
+// session-start/post-flush persistent state
+for ( int i = 0; i < actionBatches.size(); i++ ) {
+if ( original instanceof PersistentCollection ) {
+private Serializable snapshot;
+private String role;
+for ( int i = 0; i < queryReturns.length; i++ ) {
+JoinSequence joinSequence = createJoinSequence( roleAlias, joinType );
+// todo: we should really just collect these from the various SelectExpressions, rather than regenerating here
+// during flush, we navigate the object graph to
+}
+private transient CollectionPersister currentPersister;
+if ( lockMode==LockMode.PESSIMISTIC_FORCE_INCREMENT) {
+}
+}
+.getJdbcSupport()
+private final boolean hasCascades;
+fromClause.registerFromElement( this );
+private final boolean explicitPolymorphism;
+None
+private final String[] propertyNames;
+source.getPersistenceContext().incrementCascadeLevel();
+SqlFragment fragment = ( SqlFragment ) lhs1;
+private transient CollectionPersister loadedPersister;
+Object id = ForeignKeys.getEntityIdentifierIfNotUnsaved( getAssociatedEntityName(), value, session );
+initAliases(selectExpressions);
+return rs;
+registerFunction( "concat", new VarArgsSQLFunction(Hibernate.STRING, "", "||", "") );
+private transient boolean reached;
+public void save(Object obj, Serializable id) throws HibernateException {
+setFromElement( fromElement );
+isAbstract = persistentClass.hasPojoRepresentation() &&
+return true;
+int size = fromElements.size();
+if ( keyColumns == null ) {
+None
+if ( lhsIsDateTime && !rhsIsDateTime ) {
+if (isVersionCheckNeeded) {
+target=instantiateResult(original);
+oos.defaultWriteObject();
+None
+FromElement fromElement = collectionNode.getFromElement();
+None
+String variant = "";
+if ( SqlNode.class.isAssignableFrom( lhs.getClass() ) ) {
+if ( whereClause == null ) {
+return loaded;
+fromElement.setIncludeSubclasses( true );
+if ( log.isTraceEnabled() ) {
+return CascadingAction.getAllElementsIterator(session, collectionType, collection);
+None
+None
+getFromClause().addChild( this );	// Not sure if this is will fix everything, but it works.
+}
+if ( getType() == HqlSqlTokenTypes.PLUS ) {
+getLoadedPersister() != null &&
+private HashMap actionBatches = new HashMap();
+None
+else if ( ".".equals( token ) ) {
+}
+throw new HibernateException( "LockMode.FORCE is currently not supported for generated version properties" );
+private final EntityMode entityMode;
+Transaction tx = suspend();
+private final transient Object rowId;
+if (!(isResolved() && nakedPropertyRef)) {
+return;
+* Types of the return values of an <tt>iterate()</tt> style query.
+final Serializable key = getKeyOfOwner(owner, session);
+}
+q.addNamedParameter( token.substring( 1 ) );
+}
+propertyType = fromElement.getPropertyType(getText(), propertyPath);
+ASTPair currentAST = new ASTPair();
+String tableAlias = getLhs().getFromElement().getTableAlias();
+if (buildCaches && jbcFactory == null) {
+String subselect = selectColumns[0].trim();
+}
+}
+JoinSequence joinSequence = getSessionFactoryHelper()
+if ( settable==null || settable[0] ) {
+HibernateUtil.getSessionFactory()
+Attribute rowidNode = node.attribute( "rowid" );
+final int idColumnSpan = getIdentifierColumnSpan();
+None
+cacheConfig.setTransactionManagerLookupClass(null);
+SelectExpression[] selectExpressions = collectSelectExpressions();
+visitPropertySpecNodes( propertyNode.getNextSibling(), types );
+if ( propertyPath == null ) {
+ASTIterator iter = new ASTIterator( fromElement );
+return ForeignKeyDirection.FOREIGN_KEY_FROM_PARENT;
+q.addFromCollection( collectionName, collectionRole, joinSequence );
+public EntityMode getEntityMode();
+String tableAlias = fromClause.getAliasGenerator().createName( entityPersister.getEntityName() );
+throw new MappingException( "Could not parse version unsaved-value: " + versionUnsavedValue );
+whereFragment = StringHelper.replace( whereFragment, persister.generateFilterConditionAlias( alias ) + ".", "" );
+String manyToManyFilter = ( ( QueryableCollection ) last )
+if ( fromElement.getType() == JOIN_FRAGMENT &&
+throw new PropertyValueException(
+if (localOnly)
+String breakProperties = checkSubElementsNullability( propertyTypes[i], value );
+return result.toString();
+if ( propertyType.isComponentType() ) {
+if ( value instanceof Collection ) {
+}
+public PropertyProjection group() {
+CollectionType collectionType = (CollectionType) propertyType;
+// Don't hold the JBC node lock throughout the tx, as that
+Object instance = fastClass.newInstance();
+None
+Queryable queryable = walker.getSessionFactoryHelper().findQueryableUsingImports( constant.getText() );
+// Add a zero (or quite low) timeout option so we don't block.
+int loc = 0;
+fromElements = new ArrayList();
+None
+addJoin( tableName, alias, fkColumns, pkColumns, joinType );
+None
+public Reference getReference() throws NamingException {
+int nn1 = n1 % 1000000;
+SelectExpression[] selectExpressions = collectSelectExpressions();
+return true;
+}
+CompositeType componentType = (CompositeType) collectionElementType;
+Iterator iter = entityPersisters.values().iterator();
+final Object[] values = compType.getPropertyValues( value, session.getEntityMode() );
+public boolean supportsLimit() {
+if ( "close".equals( method.getName()) ) {
+None
+}
+DotNode.useThetaStyleImplicitJoins ) {
+if (charReader==null) return null;
+if ( propertyType == null ) {
+StringBuffer sb = new StringBuffer();
+return sb.toString();
+return  "select permuted_id('NEXT',31) from rdms.rdms_dummy where key_col = 1 ";
+None
+// we should read annotations from fields, even though the access type is "property"?
+return putFromLoad(key, value, txTimestamp, version);
+if ( whereFragment.startsWith( "and" ) ) {
+elementClass = null; //elementType.returnedClass();
+definition.addQueryReturn( result );
+}
+return true;
+Object val = propertyTypes[i].hydrate( rs, range, session, owner );
+if ( isCorrelation() ) {
+for ( int i = 0; i < values.length; i++ ) {
+return false;
+object = li.getImplementation();
+return false;
+boolean lhsIsDateTime = isDateTimeType( lhType );
+final boolean registerSynchronization = owner.isAutoCloseSessionEnabled()
+/*public Type[] getSqlResultTypes() {
+EntityPersister persister = session.getEntityPersister(entityName, entity);
+/**
+int loc = 0;
+filters = create( FILTERS, "{filter conditions}" );
+return false;
+DataVersion version = optimistic ? NonLockingDataVersion.INSTANCE : null;
+* Set the transaction timeout for any transaction started by
+}
+if (assumed!=null) return assumed.booleanValue();
+if ( isTransient(entityName, object, Boolean.FALSE, session) ) {
+int stringLength = string.length();
+code.addOpcode(Opcode.PUTFIELD);
+Element parent = container.getParent();
+None
+}
+}
+//This solution would allow us to eliminate the owner arg to disassemble(), but
+continuation = false;
+if (cached==null) {
+// TODO: I don't really like this implementation; it would be better if
+for (T obj : objects) {
+if ( foreignKeyPropertyName == null ) {
+//if its "id"
+ownerId = ownerPersister.getIdentifier( key, session );
+}
+if ( isClauseStart ) {
+Type elemType = getElementType( session.getFactory() );
+if ( end != -1 ) {
+Object result = target == null || target == original ? instantiateResult( original ) : target;
+}
+return instantiate( -1 );
+return ids;
+}
+boolean wasClean = PersistentCollection.class.isInstance( target ) && !( ( PersistentCollection ) target ).isDirty();
+PersistentCollection collection = persistenceContext.getLoadContexts().locateLoadingCollection( persister, key );
+collection = persistenceContext.useUnownedCollection( new CollectionKey(persister, key, entityMode) );
+log.trace( "collection not yet initialized; initializing" );
+collection = instantiate( session, persister, key );
+None
+if ( uniqueKeyPropertyName == null && id != null ) {
+return true;
+if ( isNotEmbedded(session) ) return id;
+None
+None
+None
+None
+None
+connection.clearWarnings();
+out = new ObjectOutputStream( outputStream );
+Introspector.flushFromCaches( getClass() );
+OutputFormat outformat = OutputFormat.createPrettyPrint();
+System.out.println( element.asXML() );
+}
+return null;
+}
+if (jndiClass != null) result.put(Context.INITIAL_CONTEXT_FACTORY, jndiClass);
+* <p>Deep clone an <code>Object</code> using serialization.</p>
+* <p>Deep clone an <code>Object</code> using serialization.</p>
+if ( persister.getCollectionType().hasHolder( em ) ) {
+}
+}
+}
+}
+None
+matchAt = curMatch;
+None
+private Iterator[] iterators;
+private int currentIteratorIndex;
+private Iterator currentIterator;
+private Iterator lastUsedIterator;
+if ( booleanTests.size() > 0 ) {
+protected void updateCurrentIterator() {
+throw new UnsupportedOperationException();
+lastUsedIterator = currentIterator;
+if ( chars[pos+1] == '{' ) {
+if ( x == chars.length - 1 ) {
+None
+printEventForm(out);
+if ( addToCache ) {
+String systemPropertyName = "";
+if ( pos >= chars.length ) {
+ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
+url = ConfigHelper.class.getClassLoader().getResource(path);
+url = ClassLoader.getSystemClassLoader().getResource(path);
+return url;
+throw new UnsupportedOperationException();
+public static List toList(Object array) {
+code.addAload( 0 );
+int size = Array.getLength(array);
+if (rootClass!=null) {
+if ( right.getJoinSequence() != null && right.getJoinSequence().isThetaStyle() ) {
+final String discrim = persister.getDiscriminatorSQLValue();
+cfg.setListener( type, ( ( String ) value ) );
+}
+token( ".", q );
+Object result = SessionFactoryObjectFactory.getInstance(uuid);
+None
+if ( !target.keySet().contains( propertyName ) ) {
+tx = s.beginTransaction();
+cfg.setListener( type, value );
+private Object readResolve() throws ObjectStreamException {
+"javax.persistence.validation.group.pre-persist",
+protected Set getEvents() {
+System.err.println("Initial SessionFactory creation failed." + ex);
+HibernateUtil.getSessionFactory()
+PrintWriter out = response.getWriter();
+if ( "store".equals(request.getParameter("action")) ) {
+Session session = HibernateUtil.getSessionFactory().openSession();
+/**
+ManagedSessionContext.bind( session );
+ManagedSessionContext.unbind( HibernateUtil.getSessionFactory() );
+Event anEvent = (Event) session.load(Event.class, eventId);
+assertFalse( s.isDefaultReadOnly() );
+aPerson.addToEvent( anEvent );
+// Begin second unit of work
+Session session2 = HibernateUtil.getSessionFactory().getCurrentSession();
+session2.getTransaction().commit();
+aPerson.getEmailAddresses().add(emailAddress);
+TransactionManagerLookup tml = settings.getTransactionManagerLookup();
+if (((DefaultDataVersion) dataVersion).getRawVersion() > 1) {
+private Integer isolation;
+if ( "true".equals(externalConfig) ) {
+/**
+/**
+private final SoftLimitMRUCache planCache = new SoftLimitMRUCache( 128 );
+// process the "new" HQL style where aliases are assigned
+if ( entityName != null ) {
+code.addInvokespecial( BulkAccessor.class.getName(), MethodInfo.nameInit, cons_desc );
+for ( int i = 0; i < updates.length; i++ ) {
+else {
+while ( whereParams.hasNext() ) {
+}
+ois.defaultReadObject();
+public void ordinalParameter(int position) {
+Queryable p = q.getEntityPersisterUsingImports( token );
+final PreLoadEvent pre;
+}
+if ( lastToken == null ) {
+int right = StringHelper.firstIndexOfChar( sqlString, ParserHelper.HQL_SEPARATORS, indx + 1 );
+if ( indx < stringLength - 1 && Character.isDigit( sqlString.charAt( indx + 1 ) ) ) {
+idSelectParameterSpecifications = sqlGenerator.getCollectedParameters();
+int right = StringHelper.firstIndexOfChar( sqlString, ParserHelper.HQL_SEPARATORS, indx + 1 );
+try {
+PreparedStatement ps = null;
+}
+private ConnectionProviderFactory() {
+Attribute lazyNode = node.attribute( "lazy" );
+IntegralDataTypeHolder value = null;
+None
+None
+// joined subclasses
+log.debug("ignoring write lock acquisition failure");
+Properties allParameters = new Properties();
+lazy = false;
+ParameterNode parameter = ( ParameterNode ) astFactory.create( NAMED_PARAM, name );
+Attribute insertNode = node.attribute( "dynamic-insert" );
+None
+private DatabaseStructure databaseStructure;
+None
+throw new HibernateException( "reassociated object has dirty collection reference" );
+void setJdbcSupport(JdbcSupport jdbcSupport) {
+None
+return oldValue==null || elemType.isDirty( oldValue, entry, getSession() );
+private boolean dirty;
+private static Map eventInterfaceFromType;
+LT( 2 ).setType( IDENT );
+String entityName =
+if ( LA( 2 ) != LITERAL_by ) {
+return new SQLStateConverter( getViolatedConstraintNameExtracter() );
+protected String getCreateSequenceString(String sequenceName, int initialValue, int incrementSize) {
+getFilterQueryPlan( collection, queryString, null, false ).getParameterMetadata()
+if ( persistentCollection.isDirty() ) {
+None
+return ps.getResultSet();
+//	TBD	registerColumnType(Types.BINARY,        "binary($1)");
+HqlToken t = (HqlToken)LT(2);
+if (LA(0) == FROM && t != IDENT && LA(2) == DOT) {
+"bit_length", new SQLFunctionTemplate( Hibernate.INTEGER, "octet_length(cast(?1 as char))*4" )
+return true;
+if ( a.getType() == NULL && b.getType() != NULL ) {
+}
+if ( !negated ) {
+else if ( b.getType() == NULL && a.getType() != NULL ) {
+if ( path.getType() != SqlTokenTypes.DOT ) {
+}
+return super.handleIdentifierError( token, ex );
+if (assumed!=null) return assumed.booleanValue();
+if (substitute) persister.setPropertyValues( entity, values, entityMode );
+namedQueries = new HashMap( cfg.getNamedQueries() );
+return;
+values = entry.getDeletedState();
+values = persister.getPropertyValues( entity, entityMode );
+try {
+for ( int i = collectionRemovals.size() - 1; i >= previousCollectionRemovalSize; i-- ) {
+int[] props = persister.getNaturalIdentifierProperties();
+* Add a collection to the cache, creating a new collection entry for it
+return ArrayHelper.slice(
+session.getActionQueue().addAction(
+visitor.processEntityPropertyValues(values, types);
+intercepted = handleInterception( event );
+case NE:
+dirtyCheck(event);
+int[] dirtyProperties = event.getDirtyProperties();
+new Nullability(session).checkNullability( values, persister, true );
+if ( isSizeProperty ) {
+case NOT_LIKE:
+if ( ce.isReached() ) {
+ignore = false;
+case BETWEEN:
+if ( key != null && ! Serializable.class.isAssignableFrom( key.getClass() ) ) {
+return versionType.isEqual( versionType.seed( null ), defaultValue ) ?
+else {
+case IN:
+final Object[] values = event.getPropertyValues();
+if ( intercepted && event.isDirtyCheckPossible() && !event.isDirtyCheckHandledByInterceptor() ) {
+Versioning.setVersion(values, nextVersion, persister);
+if ( !cannotDirtyCheck ) {
+log.trace( "collection is already being initialized; ignoring row" );
+public EntityLoadContext getEntityLoadContext(ResultSet resultSet) {
+dirtyProperties = persister.findDirty( values, loadedState, entity, session );
+EntityEntry entry = event.getSession().getPersistenceContext().getEntry( event.getEntity() );
+// NOTE: we need to do the wrap here even if its not "dirty",
+else {
+//PostLoad is needed for EJB3
+persistenceContext.setFlushing(true);
+case GT:
+final Serializable clonedIdentifier = (Serializable) persister.getIdentifierType()
+if ( persister.implementsLifecycle( source.getEntityMode() ) ) {
+case LIKE:
+case LE:
+case GE:
+final boolean registerSynchronization = owner.isAutoCloseSessionEnabled()
+p.getIdentifierType(),
+None
+HqlLexer lexer = new HqlLexer( new StringReader( hql ) );
+if ( token instanceof HqlToken ) {
+dotRoot = null;
+final Object[] databaseSnapshot = getDatabaseSnapshot(session, persister, id);
+cannotDirtyCheck = false;
+}
+if ( unionSubclass.getEntityPersisterClass() == null ) {
+/**
+/*if ( persister.isUnsaved(entity, source) ) {
+None
+oldVersion = persister.getCurrentVersion( id, source );
+final Object realOldVersion = persister.isVersioned() ? oldVersion : null;
+performReplication( entity, id, realOldVersion, persister, replicationMode, source );
+log.trace( "no need to replicate" );
+if ( log.isTraceEnabled() ) {
+/**
+int indexOfL = typeName.indexOf('L');
+final FromElement fromElement = ( FromElement ) itr.next();
+if ( event.getLockMode() == LockMode.NONE ) {
+log.debug( "Refusing to add to cache due to enabled filters" );
+dot.resolve( true, false, alias == null ? null : alias.getText() );
+EntityEntry entry = persistenceContext.getEntry( object );
+if ( hqlToken.isPossibleID() && ( ex instanceof MismatchedTokenException ) ) {
+SqlGenerator sqlGenerator = new SqlGenerator( getFactory() );
+Type type = getDataType();
+lhs.resolve( true, true, null, this );
+return;
+FromElementFactory factory = new FromElementFactory(
+Object proxy = persister.createProxy( event.getEntityId(), event.getSession() );
+EntityEntry oldEntry = session.getPersistenceContext().getEntry( old );
+return assembleCacheEntry(
+TypeHelper.deepCopy(
+if ( max >= 0 && ( includedCount - first ) >= ( max - 1 ) ) {
+if ( isShallowQuery() ) {
+errorIfDML();
+this.tokenReplacements = replacements;
+public boolean isShallowQuery() {
+if ( Double.TYPE.equals( javaType ) ) {
+// TODO : perhaps we should additionally require that the incoming entity
+reportWarning( "Keyword  '"
+if ( log.isDebugEnabled() ) {
+final int size = list.length;
+w.statement( hqlAst );
+HqlParser parser = HqlParser.getInstance( hql );
+if ( log.isTraceEnabled() ) {
+final EventSource source = event.getSession();
+}
+Map.Entry me = list[i];
+log.trace( "Scheduling collection removes/(re)creates/updates" );
+session.getActionQueue().prepareActions();
+if (assumed!=null) return assumed.booleanValue();
+final class ListIteratorProxy implements ListIterator {
+HqlParser parser = parse( true );
+// value can be either a copy of the entity or the entity itself
+Object[] values = persister.getPropertyValues( object, source.getEntityMode() );
+return null;
+if ( right.getJoinSequence() != null && right.getJoinSequence().isThetaStyle() ) {
+if ( compiled ) {
+return ordinalParameters[ordinalPosition - 1];
+if ( log.isDebugEnabled() ) {
+super.setTokenObjectClass( HqlToken.class.getName() );
+session.getPersistenceContext()
+return;
+persistenceContext.setEntryStatus( entityEntry, Status.DELETED );
+session.getActionQueue().addAction(
+new Cascade( CascadingAction.DELETE, Cascade.AFTER_INSERT_BEFORE_DELETE, session )
+new Cascade( CascadingAction.DELETE, Cascade.BEFORE_INSERT_AFTER_DELETE, session )
+return null;
+if ( object instanceof HibernateProxy ) {
+else {
+final Object entity = source.getPersistenceContext().unproxyAndReassociate( object );
+event.setResultId( performSaveOrUpdate( event ) );
+return entityIsTransient( event );
+throw new TransientObjectException(
+new OnUpdateVisitor( source, event.getRequestedId(), entity ).process( entity, persister );
+AST next = a.getNextSibling();
+key,
+if ( !isOwnerUnchanged( wrapper, persister, collectionKey ) ) {
+removeCollection( persister, collectionKey, session );
+( ( Lifecycle ) event.getEntity() ).onLoad( event.getSession(), event.getId() );
+if ( source.getFactory().getStatistics().isStatisticsEnabled() ) {
+currentState = persister.getPropertyValues( entity, session.getEntityMode() );
+dirty=true;
+}
+None
+None
+transientCopyCache = getTransientCopyCache(event, copyCache );
+if ( t instanceof InitializeableNode ) {
+EntityEntry entry = source.getPersistenceContext().getEntry( entity );
+throw new ObjectDeletedException(
+if ( dotParent != null ) {
+return Timestamper.ONE_MS * SIXTY_THOUSAND_MS;
+bindProperty( idNode, prop, mappings, inheritedMetas );
+cascadeOnMerge(source, persister, entity, copyCache);
+}
+//cascadeOnMerge(event, persister, entity, copyCache, Cascades.CASCADE_BEFORE_MERGE);
+Serializable entityId = persister.getIdentifier( entity, source );
+None
+return queryableCollection;
+public boolean isManyToMany() {
+String tableAlias = null;
+// SELECT p FROM p IN CLASS eg.Person GROUP BY p.Name, p.Address, p
+fromClause.getWalker().addQuerySpaces( entityPersister.getQuerySpaces() );
+ast.setType( FROM_FRAGMENT );
+ArrayList queryReturnTypeList = new ArrayList();
+// If the data type is not an association type, it could not have been in the FROM clause.
+if ( ASTUtil.hasExactlyOneChild( exprList ) ) {
+boolean containsTableAlias = fromClause.containsTableAlias( alias );
+//cascadeOnMerge(event, persister, entity, copyCache, Cascades.CASCADE_BEFORE_MERGE);
+markInterceptorDirty( entity, target );
+private LinkedList nots = new LinkedList();           //were an odd or even number of NOTs encountered
+AssignmentSpecification specification = new AssignmentSpecification( eq, persister );
+if ( Character.isLetter( chars[i] ) ) {
+Reader charReader = rs.getCharacterStream(name);
+result = replaceElements( original, result, owner, copyCache, session );
+return false;
+LazyInitializer li = ( (HibernateProxy) object ).getHibernateLazyInitializer();
+return resolve( session.getContextEntityIdentifier(owner), session, owner );
+return ignoreNotFound;
+Type type = entityPersister.getPropertyType( uniqueKeyPropertyName );
+final Object owner = hasCollectionOwners ?
+Attribute persisterNode = node.attribute( "persister" );
+if (jbcEntityCache != null  && entityConfig != null) {
+if (CacheHelper.isClusteredReplication(jbcCache)) {
+if (safeEquals(preInvalidateValue, this.preInval)
+return (other.previousVersion != null);
+return element;
+"hibernate.validator.autoregister_listeners"
+if ( currentElements.size()==0 ) return oldElements; // no new elements, the old list contains only Orphans
+TypeHelper.deepCopy(
+if ( Long.TYPE.equals( javaType ) ) {
+existingPool = true;
+if ( !StringHelper.isNotEmpty( proxoolAlias ) ) {
+try {
+event.setEntityClassName( event.getInstanceToLoad().getClass().getName() );
+if ( StringHelper.isNotEmpty( customListenersString) ) {
+None
+return getColumns( propertyName, subcriteria );
+else {
+None
+);
+if ( log.isDebugEnabled() ) {
+int first = !hasLimit || queryParameters.getRowSelection().getFirstRow() == null
+log.debug("dirty checking collections");
+dot.setFetch( fetch );
+// So this needs to be safe from concurrent modification problems.
+private final Map propertyIndexes = new HashMap();
+CollectionKey collectionKey = new CollectionKey(
+Type collectionFilterKeyType = sessionFactoryHelper.requireQueryableCollection( collectionFilterRole ).getKeyType();
+Iterator itr = qn.getFromClause().getProjectionList().iterator();
+final java.util.Set set = new HashSet( extendz );
+Queryable persister = fromClause.getFromElement().getQueryable();
+return false;
+None
+Serializable id = persister.getIdentifier( entity, session );
+else {
+removeCollection(persister, collectionKey, session);
+if ( selectExpression.isScalar() ) {
+IdentifierGenerator generator = persister.getIdentifierGenerator();
+final Projection projection = rootCriteria.getProjection();
+private int traceDepth = 0;
+List collectionFetches = query.getFromClause().getCollectionFetches();
+void throwQueryException() throws QueryException;
+oos.defaultWriteObject();
+fromElement.setText( persister.getTableName() );
+}
+useSelectClause( select );
+return getStatementType() == INSERT || queryTranslatorImpl.isShallowQuery();
+JoinProcessor joinProcessor = new JoinProcessor( this );
+None
+private final SimpleMRUCache sqlParamMetadataCache = new SimpleMRUCache();
+case ALIAS_REF:
+initializeSqlNode( t );
+writeCrossJoinSeparator();
+FromElement left = ( FromElement ) parent;
+if ( d != null && hasText( d ) ) {
+HqlSqlWalker w = analyze( parser, collectionRole );
+generate( ( QueryNode ) sqlAst );
+if ( getReturnTypes().length > 1 ) {
+return paramTranslations;
+if ( ASTUtil.isSubtreeChild( dotRoot, node ) ) {
+}
+parseErrorHandler = new ErrorCounter();
+boolean explicitSelect = select != null && select.getNumberOfChildren() > 0;
+dotNode.resolveFirstChild();
+/* This can never happen because this rule will always eliminate the child NOT.
+}
+PreparedStatement ps = null;
+boolean isAutocommit = connectionManager.isAutoCommit();
+PreparedStatement ps = null;
+for ( int i = 0; i < deletes.length; i++ ) {
+None
+}
+f.setFirstChild( lhs );
+public BasicRegionAdapter(Cache jbcCache, String regionName, String regionPrefix) {
+AST parent = ASTUtil.findTypeInChildren( this, getWhereClauseParentTokenType() );
+}
+if (!optimistic) {
+// Don't hold a transactional lock for this
+if ( propertyType!=null && propertyType.isCollectionType() ) {
+if ( isResolved() ) {
+checkLhsIsNotCollection();
+if ( ! CollectionProperties.isAnyCollectionProperty( propertyName ) ) {
+boolean isSizeProperty = getNextSibling()!=null &&
+tsConfig = PropertiesHelper.getString(TIMESTAMP_CACHE_RESOURCE_PROP, properties, null);
+None
+String[] propertyColumnNames = getPropertyColumnNames( i );
+private final int[] propertyColumnSpans;
+String selectClause = concretePropertySelectFragment( getRootAlias(), inclusions );
+currentFromClause.addDuplicateAlias( classAlias, elem );
+None
+return !StringHelper.isEmpty( alias1 ) && !StringHelper.isEmpty( alias2 ) && alias1.equals( alias2 );
+None
+return lhType;
+return owningType.isReferenceToPrimaryKey();
+return propertyName.equals( persister.getIdentifierPropertyName() ) && owningType.isReferenceToPrimaryKey();
+dotNode.propertyPath = propertyPath;
+if ( useThetaStyleImplicitJoins ) {
+getFilterQueryPlan( collection, queryString, null, false ).getParameterMetadata()
+}
+None
+if ( isDateTimeType( rhType ) ) {
+int count = 0;
+String[] rowSelectColumnNames = ArrayHelper.join(keyColumnNames, elementColumnNames);
+if (entityConfig.equals(collectionConfig))
+super(region, new OptimisticTransactionalAccessDelegate(region, region.getPutFromLoadValidator()));
+if ( isDateTimeType( lhType ) ) {
+// create an index on the key columns??
+isPrimitiveArray = collection.isPrimitiveArray();
+return rhType;
+localOnly = cacheAdapter.isClusteredInvalidation();
+// prevents reads and other updates
+Object[] vals = (Object[]) suspendAndGet(key, null, false);
+boolean locked = false;
+return lhsIsDateTime ? lhType : rhType;
+AST selector = collectionNode.getNextSibling();
+String collectionTableAlias = elementTable;
+String[] elementColumns = queryableCollection.getElementColumnNames( elementTable );
+return getSessionFactoryHelper().findFunctionReturnType( getText(), resolveFunction(), getFirstChild() );
+}
+None
+return Hibernate.BOOLEAN;
+return;
+String classAlias = ( alias == null ) ? null : alias.getText();
+fromElementByClassAlias.put( classAlias, element );
+String tableAlias = element.getTableAlias();
+isAlias = parentFromClause.isFromElementAlias( possibleAlias );
+ASTIterator iter = new ASTIterator( this.getFirstChild() );
+for ( int j = 0; j < selectExpressions.length; j++ ) {
+return getFirstChild().getNextSibling();
+return new Type[]{};
+cacheAdapter.withFlags(FlagAdapter.FORCE_ASYNCHRONOUS).put(key, value);
+if ( orderByClause == null ) {
+current = newVal;
+AST prevSibling = ASTUtil.findTypeInChildren( this, SqlTokenTypes.WHERE );
+orderByClause.setNextSibling( prevSibling.getNextSibling() );
+return Hibernate.BOOLEAN;
+if ( fromElement.getFromClause().isSubQuery() ) {
+if ( persister instanceof Joinable ) {
+if ( st == null ) {
+PropertyMapping mapping = getPropertyMapping( propertyName );
+if (versionComparator instanceof ComparableComparator)
+log.debug("ignoring write lock acquisition failure");
+}
+if ( CollectionProperties.isCollectionProperty( propertyName ) ) {
+if ( propertyName.equals( EntityPersister.ENTITY_ID ) ) {
+final OSCache cache = new OSCache(refreshPeriod, cron, region);
+}
+VersionType versionType = persister.getVersionType();
+if ( !lhs.isResolved() ) {
+sqlAssignmentString = sqlGenerator.getSQL();
+}
+joinIsNeeded = getWalker().getCurrentStatementType() == SqlTokenTypes.SELECT && getWalker().isInFrom();
+}
+}
+private final static String C3P0_STYLE_INITIAL_POOL_SIZE = "c3p0.initialPoolSize";
+if ( fetch && getWalker().isShallowQuery() ) {
+return !isImplied() || this.useFromFragment;
+MethodNode versionMethodNode = ( MethodNode ) getASTFactory().create( HqlSqlTokenTypes.METHOD_CALL, "(" );
+}
+}
+else {
+return;
+FromReferenceNode aliasRefNode = ( FromReferenceNode ) node;
+String columnTableAlias = getFromElement().getTableAlias();
+}
+setResolved();
+setResolved();
+return;
+return UNKNOWN;
+if ( rootSession == null ) {
+FromElement element = getWalker().getCurrentFromClause().getFromElement(getText());
+super.setDataType(propertyType);
+return false;
+private boolean existingPool;
+Connection c = DriverManager.getConnection(proxoolAlias);
+if (isolation!=null) c.setTransactionIsolation( isolation.intValue() );
+return null;
+ColumnHelper.generateSingleScalarColumn(this, i);
+String pathAlias = PathHelper.getAlias( path );
+if ( c.getAutoCommit()!=autocommit ) c.setAutoCommit(autocommit);
+fromClause.getWalker().addQuerySpaces( entityPersister.getQuerySpaces() );
+return c;
+if ( fromElement.getFromClause() != fromClause ) {
+boolean explicitSubqueryFromElement = fromClause.isSubQuery() && !implied;
+String jaxpFile = props.getProperty(Environment.PROXOOL_XML);
+elem = createEntityAssociation( role, roleAlias, joinType );
+JoinSequence joinSequence = createJoinSequence( roleAlias, joinType );
+proxoolAlias = props.getProperty(Environment.PROXOOL_POOL_ALIAS);
+JoinSequence joinSequence = createJoinSequence( roleAlias, joinType );
+boolean buildCaches = jbcEntityCache == null
+if ( implied ) {
+}
+None
+proxoolAlias = PROXOOL_JDBC_STEM + proxoolAlias;
+}
+}
+isolation = PropertiesHelper.getInteger(Environment.ISOLATION, props);
+if (existingPool) {
+AST ast = createSubquery( node );
+elem.setType( FROM_FRAGMENT );
+destination = createAndAddFromElement(
+if ( implied ) {
+return manyToOne( clazz.getName() );
+None
+return versionType.getComparator().compare(currentVersion, newVersion) <= 0;
+None
+/**
+if ( queryableCollection.isOneToMany() ) {
+rtn = POJO;
+/**
+entityPersister,
+// For implied many-to-many, just add the end join.
+JoinSequence joinSequence = createJoinSequence( roleAlias, joinType );
+interceptorHandledDirtyCheck = false;
+}
+public static final String ERROR_CANNOT_FETCH_WITH_ITERATE = "fetch may not be used with scroll() or iterate()";
+return "current_timestamp";
+if ( nextIndex <= i ) {
+text );
+private Type[] queryReturnTypes;
+private Serializable generatedId;
+previousState,
+if ( lockMode==LockMode.PESSIMISTIC_FORCE_INCREMENT) {
+* The types actually being returned from this query at the "object level".
+// If the data type is not an association type, it could not have been in the FROM clause.
+queryReturnTypeList.add( type );
+entry.postUpdate( instance, state, nextVersion );
+persister.processUpdateGeneratedProperties( id, instance, state, session );
+List fromElements = fromClause.getProjectionList();
+ArrayList placeholders = new ArrayList();
+finalKey = session.getPersistenceContext().getEntry( collection.getOwner() ).getId();
+int roleComparison = collectionRole.compareTo( action.collectionRole );
+protected void registerFunction(String name, SQLFunction function) {
+if ( !ParserHelper.isWhitespace( tokens[i - 1] ) ) last = tokens[i - 1].toLowerCase();
+return persister.getKeyType()
+* {@inheritDoc}
+None
+final PersistentCollection collection = getCollection();
+BEFORE_CLASS_TOKENS.add( "," );
+.append( " where " )
+String text = fromElement.renderIdentifierSelect( size, k );
+try {
+None
+/**
+while ( n != null && ( n.getType() == SqlTokenTypes.DISTINCT || n.getType() == SqlTokenTypes.ALL ) ) {
+int k = 0;
+AST name = getFirstChild();
+if (LA(1) == DOT && LA(2) != IDENT) {
+return true;
+code.addOpcode(Opcode.ARETURN);
+}
+int roleComparison = entityName.compareTo( action.entityName );
+if ( CollectionPropertyNames.COLLECTION_ELEMENTS.equals( propertyName ) ) {
+return persister.getIdentifierType().compare( id, action.id, session.getEntityMode() );
+fromElement = collectionNode.getFromElement();
+ColumnHelper.generateSingleScalarColumn( this, i );
+className = className.replace( '/', '.' );
+ColumnHelper.generateScalarColumns( this, selectColumns, i );
+boolean isIdent = ( constant.getType() == IDENT || constant.getType() == WEIRD_IDENT );
+return getParent().loadClass( name );
+IdentNode ident = ( IdentNode ) constant;
+ident.resolve(false, true);
+DataInputStream din = new DataInputStream( new ByteArrayInputStream( byteCode ) );
+else {
+final String discrim = persister.getDiscriminatorSQLValue();
+}
+buf.append( " " ).append( displayableNode.getDisplayText() );
+AST where = query.getWhereClause();
+parent.setFirstChild( child.getNextSibling() );
+className = className + "_$$_bulkaccess_" + counter++;
+code.addInvokespecial( BulkAccessor.class.getName(), MethodInfo.nameInit, cons_desc );
+code.addAload( 1 );
+if ( fragment.getFromElement().isFilter() || fragment.hasFilterCondition() ) {
+code.addCheckcast( this.targetBean.getName() );
+ASTUtil.insertChild( where, filters );
+code.addAstore( 3 );
+filters.addChild( fragment );
+thetaJoins = create( THETA_JOINS, "{theta joins}" );
+code.addAload( 2 );
+if (filters==null) {
+try {
+code.addIconst( i ); // growing stack is 1
+}
+String importedClassName = sfi.getImportedClassName( name );
+joinSequence.addJoin( associationType, tableAlias, joinType, columns );
+None
+Type argumentType = null;
+for ( int j = 0; j < sqlColumns.length; j++ ) {
+buf.append( n.getText() );
+if ( firstChild != null ) {
+rd.getFakeBidirectionalRelationMapper().mapToMapFromEntity(sessionImplementor, data,
+if ( firstChild != null && firstChild.getNextSibling() != null ) {
+code.addAload( 3 );
+code.addInvokevirtual( target_type_index, getterName, getter_desc );
+code.add( Opcode.AASTORE );
+code.addIstore( 3 );
+code.addAload( 1 );
+// start region to handling exception (BulkAccessorException)
+Iterator iter = fromElements.iterator();
+}
+start = code.currentPc();
+if ( fromElement.useFromFragment() /*&& StringHelper.isNotEmpty( frag )*/ ) {
+String fromFragment = processFromFragment( frag, join ).trim();
+code.addOpcode( Opcode.IINC );
+if ( fromFragment.startsWith( ", " ) ) {
+code.addAload( 4 );
+// The reason for this is SQL doesn't let you sort by an expression you are
+return new LockAcquisitionException( message, sqlException, sql );
+code.addAload( 2 );
+return ( SQLExceptionConverter ) converterClass.newInstance();
+code.addIconst( i ); // growing stack is 1
+}
+code.addOpcode( Opcode.AALOAD );
+code.addCheckcast( this.targetBean.getName() );
+private boolean useThetaStyleJoin = true;
+Class[] setterParamTypes = setters[i].getParameterTypes();
+String rawSetterMethod_desc = RuntimeSupport.makeDescriptor( setters[i] );
+None
+end = code.currentPc();
+int throwableType_index = cp.addClassInfo( THROWABLE_CLASS_NAME );
+}
+None
+currentPropertyMapping = q.getPropertyMapping( currentName );
+public SoftLock lockItem(Object key, Object version) throws CacheException {
+// Do the corresponding RHS
+Bytecode code = new Bytecode(cp, 5, 3);
+code.addAstore( 5 );
+code.addAload( 5 );
+if ( getters.length >= 0 ) {
+code.addIload( 3 );
+Type propertyType = getPropertyType();
+code.addInvokespecial( BulkAccessor.class.getName(), MethodInfo.nameInit, cons_desc );
+code.addOpcode( Opcode.ATHROW );
+classfile = new ClassFile( new DataInputStream( new ByteArrayInputStream( classfileBuffer ) ) );
+boolean isIdShortcut = EntityPersister.ENTITY_ID.equals( propertyName ) &&
+log.error( "could not close session during rollback", e );
+final String idPropertyName;
+dotcount = 0;
+Bytecode code = new Bytecode(cp, 2, 1);
+continuation = false;
+QueryableCollection collectionPersister = q.getCollectionPersister( collectionRole );
+code.addAload(0);
+q.decoratePropertyMapping( elementName, collectionPersister );
+code.addAload(1);
+if (filter.handleRead(finfo.getDescriptor(), finfo
+log.debug( "transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!" );
+code.addOpcode(Opcode.GETFIELD);
+code.addOpcode(Opcode.IFNONNULL);
+addTypeDependDataReturn(code, finfo.getDescriptor());
+addTypeDependDataStore(code, finfo.getDescriptor(), 1);
+addCollection( collectionName, collectionRole );
+code.addLdc(finfo.getName());
+ready = true;
+insideNew = false;
+code.addInvokeinterface( target_type_index, getterName, getter_desc, 1 );
+}
+if ( !ready ) throw new QueryException( ", expected before aggregate function in SELECT: " + token );
+// This uses a PathExpressionParser but notice that compound paths are not valid,
+// The reason for this is SQL doesn't let you sort by an expression you are
+return NO_RETURN_ALIASES;
+addCollection( name, collectionRole );
+t = create( c );
+return "identity";
+if ( values.size()>1 ) {
+addFrom( name, classPersister.getEntityName(), joinSequence );
+returnedTypes = fromTypes;
+code.addInvokeinterface( target_type_index, getterName, getter_desc, 1 );
+code.addOpcode(Opcode.IFNONNULL);
+setResolved();
+addTypeDependDataLoad(code, finfo.getDescriptor(), 1);
+int size = returnedTypes.size();
+code.addOpcode(Opcode.PUTFIELD);
+Iterator iter = scalarSelectTokens.iterator();
+code.addOpcode(Opcode.RETURN);
+code.addLdc(finfo.getName());
+code.addOpcode(Opcode.GETFIELD);
+return type == null ? columnType : type;
+type = typeName.substring(1, typeName.length() - 1);
+type = typeName.replace('/', '.');
+QueryableCollection persister = getCollectionPersister( collectionRole );
+if ( Boolean.TYPE.equals( javaType ) ) {
+if ( Character.TYPE.equals( javaType ) ) {
+namedParamsCopy.put( name, new TypedValue( type, vals.iterator().next(), session.getEntityMode() ) );
+return false;
+if ( Float.TYPE.equals( javaType ) ) {
+ResolvableNode r = ( ResolvableNode ) node;
+final String result;
+if ( getCollectionPersisters() != null ) {
+throw new RuntimeException("bad type: " + typeName);
+}
+code.addIload(i);
+}
+BOOLEAN_OPERATORS.add( "<" );
+public String toString() {
+lock.unlock( cache.nextTimestamp() );
+cache.update( key, new Item( value, version, cache.nextTimestamp() ) );
+}
+return myLock!=null &&
+}
+private final ResultTransformer customTransformer;
+final int positionalParameterCount = queryParameters.getPositionalParameterTypes().length;
+// potentialTrimCharacterArgIndex = 1 assumes that a
+return false;
+}
+Attribute schemaNode = node.attribute( "schema" );
+private boolean negated = false;
+None
+String entityName = ( ( EntityType ) type ).getAssociatedEntityName();
+if ( token.equals( "[" ) && !expectingPathContinuation ) {
+if ( expectingPathContinuation ) {
+if ( !inSubselect && ( lcToken.equals( "select" ) || lcToken.equals( "from" ) ) ) {
+Serializable defaultValue = (Serializable) identifierGetter.get( instantiate(constructor) );
+if ( !betweenSpecialCase && EXPRESSION_TERMINATORS.contains( lcToken ) ) {
+if ( BOOLEAN_OPERATORS.contains( lcToken ) ) {
+settings.getDefaultEntityMode(),
+return null;
+joinFragment.setHasFilterCondition( joinFragment.addCondition( filterCondition ) );
+doToken( token, q );
+if ( !betweenSpecialCase && EXPRESSION_OPENERS.contains( lcToken ) ) {
+specialCasesAfter( lcToken );
+booleanTests.removeLast();
+appendToken( q, ( joins.removeLast() ).toString() );
+inheritedMetas = getMetas( hmNode, inheritedMetas, true );
+bindRootPersistentClassCommonValues( node, inheritedMetas, mappings, rootClass );
+doPathExpression( q.unalias( token ), q );
+Attribute schemaNode = node.attribute( "schema" );
+decrementLock(key, lock);
+Attribute mutableNode = node.attribute( "mutable" );
+private Map unownedCollections;
+Parameters rootParameters = qb.getRootParameters();
+Attribute polyNode = node.attribute( "polymorphism" );
+createClassProperties( node, subclass, mappings, inheritedMetas );
+doPathExpression( getElementName( element, q ) + token, q ); // careful with this!
+addToCurrentJoin( element );
+if ( element.elementColumns.length != 1 ) {
+token( ".", q );
+public static final String PATH_SEPARATORS = ".";
+}
+String lcToken = token.toLowerCase();
+joinType = JoinFragment.INNER_JOIN;
+if ( !afterJoinType ||
+if ( afterAs || expectingAs ) {
+if ( alias == null ) throw new QueryException( "alias not specified for: " + token );
+Queryable p = q.getEntityPersisterUsingImports( token );
+peParser.setJoinType( JoinFragment.INNER_JOIN );
+// force HQL style: from Person p inner join p.cars c
+if ( joinType != NONE ) {
+if ( quoted ) {
+bindVersioningProperty( table, subnode, mappings, name, entity, inheritedMetas );
+PrimaryKey pk = new PrimaryKey();
+if ( "version".equals( name ) ) {
+private ArrayList insertions;
+if ( ParserHelper.isWhitespace( token ) ) return;
+String substoken = ( String ) replacements.get( token );
+if ( currentCollectionProp != null ) {
+register( "hilo", TableHiLoGenerator.class );
+protected String getSelectSQL() {
+public static final String MAX_LO = "max_lo";
+None
+private transient long timestamp;
+return 0;
+SQL_STATEMENT_LOGGER.logStatement( sql, FormatStyle.BASIC );
+maxLo = PropertiesHelper.getInt(MAX_LO, params, Short.MAX_VALUE);
+log.info( "disallowing insert statement comment for select-identity due to Oracle driver bug" );
+"attempted to assign id from null one-to-one property [" + getRole() + "]"
+}
+persistentClass.setLazy( lazy );
+Attribute dynamicNode = node.attribute( "dynamic-update" );
+mappings.addImport( entity.getEntityName(), entity.getEntityName() );
+Attribute batchNode = node.attribute( "batch-size" );
+// we need to dirty check many-to-ones with not-found="ignore" in order
+Attribute sbuNode = node.attribute( "select-before-update" );
+Attribute olNode = node.attribute( "optimistic-lock" );
+int i = 1;
+else {
+}
+private Map entitiesByKey;
+String schemaName = normalizer.normalizeIdentifierQuoting( params.getProperty( SCHEMA ) );
+return new NoopOptimizer( returnClass, incrementSize );
+source.getPersistenceContext().incrementCascadeLevel();
+createClassProperties( node, subclass, mappings, inheritedMetas );
+if ( joinedSubclass.getEntityPersisterClass() == null ) {
+return processCollection( value, (CollectionType) type );
+if ( persister.isVersioned() ) {
+// TODO : perhaps we should additionally require that the incoming entity
+private Map collectionEntries;
+Attribute schemaNode = node.attribute( "schema" );
+public static final String VALUE_COLUMN_PARAM = "value_column";
+.getColumnIterator() );
+public boolean shouldAutoClose() {
+/**
+/**
+PreparedStatement insert = session.getBatcher().prepareStatement( insertSQL, false );
+Attribute columnAttribute = node.attribute( "column" );
+None
+PreparedStatement idSelect = session.getBatcher().prepareStatement( selectSQL );
+maxPosition = new Integer( currentPosition );
+for ( int i = 0; i < positions; i++ ) {
+for ( int i = 0; i < ( 0 - positions ); i++ ) {
+bindIndex( columnElement.attribute( "index" ), table, column, mappings );
+return false;
+public SessionImplementor getSession() {
+public String getAlias() {
+bindUniqueKey( columnElement.attribute( "unique-key" ), table, column, mappings );
+Object[] entitySnapshot = getDatabaseSnapshot( id, persister );
+public SessionImplementor getSession() {
+public String getAlias() {
+settings.getRegionFactory().start( settings, properties );
+identifierGenerators = new HashMap();
+EntityRegionAccessStrategy accessStrategy = ( EntityRegionAccessStrategy ) entityAccessStrategies.get( cacheRegionName );
+name = settings.getSessionFactoryName();
+if ( settings.isNamedQueryStartupCheckingEnabled() ) {
+getStatistics().setStatisticsEnabled( settings.isStatisticsEnabled() );
+log.debug("Checking " + namedQueries.size() + " named HQL queries");
+}
+}
+EntityPersister testPersister = (EntityPersister) iter.next();
+}
+if ( impl == null && transactionManager != null ) {
+log.trace( "exception trying to cleanup load context : " + ignore.getMessage() );
+if (name==null) {
+PersistentCollection collection = loadContexts.getPersistenceContext().getCollection( collectionKey );
+// TODO: what should be the actual exception type here?
+Iterator itr = definition.getParameterNames().iterator();
+return null;
+public void delete(Object entity) {
+public void update(Object entity) {
+public Object get(Class entityClass, Serializable id) {
+if ( "from".equals( tokens[i].toLowerCase() ) ) isSelectClause = false;
+if ( typeNode != null ) typeName = typeNode.getValue();
+property.setInsertable( false );
+createClassProperties( node, subclass, mappings, inheritedMetas );
+property.setInsertable( false );
+throw new MappingException(
+collection.setRole(path);
+Object loaded = temporaryPersistenceContext.getEntity( new EntityKey( id, persister, getEntityMode() ) );
+return get( entityName, id );
+return false;
+initOuterJoinFetchSetting( node, collection );
+session
+Attribute sortedAtt = node.attribute( "sort" );
+public void saveOrUpdate(Object object) throws HibernateException {
+public void update(Object obj) throws HibernateException {
+public void lock(String entityName, Object object, LockMode lockMode) throws HibernateException {
+public void persist(String entityName, Object object) throws HibernateException {
+public void persistOnFlush(String entityName, Object object)
+/**
+public void load(Object object, Serializable id) throws HibernateException {
+public void refresh(Object object) throws HibernateException {
+if ( sortedAtt == null || sortedAtt.getValue().equals( "unsorted" ) ) {
+public void replicate(Object obj, ReplicationMode replicationMode) throws HibernateException {
+if ( collection instanceof List ) {
+return false;
+throw new InternalError( "Unable to locate type for filter parameter" );
+event.setResult( load(event, persister, keyToLoad, loadType) );
+None
+if ( e != null && e.getStatus() != Status.DELETED && e.getStatus() != Status.GONE ) {
+flush();
+public Serializable getIdentifier(Object object) throws HibernateException {
+plan = factory.getQueryPlanCache().getFilterQueryPlan( filter, roleBeforeFlush.getRole(), shallow, getEnabledFilters() );
+object = li.getImplementation();
+final RowSelection selection = queryParameters.getRowSelection();
+public List listCustomQuery(CustomQuery customQuery, QueryParameters queryParameters)
+oos.writeObject( interceptor );
+return entity.getClass().getName();
+private List values = new ArrayList(4);
+/**
+public Object uniqueResult() throws HibernateException {
+// default to join and non-lazy for the "second join"
+String eoj = jfNode.getValue();
+return CGLIBHelper.extractFieldInterceptor( entity );
+return JavassistHelper.extractFieldInterceptor( entity );
+public final void setSession(SessionImplementor session) {
+protected final Object intercept(Object target, String fieldName, Object value) {
+public boolean readBoolean(Object target, String name, boolean oldValue) {
+this.columnNameToIndexCache = new HashMap( columnCount + (int)( columnCount * LOAD_FACTOR ) + 1, LOAD_FACTOR );
+if ( !useable ) {
+public static final Expectation NONE = new Expectation() {
+None
+return borrowedConnection != null;
+Element subnode = node.element( "generator" );
+}
+batchUpdateSQL=sql;
+log.warn( "Could not close a JDBC prepared statement", sqle );
+log.warn( "Could not close a JDBC prepared statement", sqle );
+log.info( "encountered CME attempting to release batcher; assuming cause is tx-timeout scenario and ignoring" );
+connectionManager.afterStatement();
+return;
+None
+None
+Attribute nullValueNode = node.attribute( "unsaved-value" );
+Attribute nullValueNode = node.attribute( "unsaved-value" );
+if ( propertyRef != null ) {
+Attribute where = manyToManyNode.attribute( "where" );
+role,
+public void connectionOpened() {
+}
+Attribute order = manyToManyNode.attribute( "order-by" );
+return true;
+Iterator filters = manyToManyNode.elementIterator( "filter" );
+None
+subclasses[0] = hmNode.elementIterator( "subclass" );
+String sessionFactoryName = props.getProperty(Environment.SESSION_FACTORY_NAME);
+ConnectionProvider connections = createConnectionProvider(props);
+boolean metaSupportsScrollable = false;
+dialect = DialectFactory.buildDialect( props );
+TransactionFactory transactionFactory = createTransactionFactory(properties);
+String defaultSchema = properties.getProperty(Environment.DEFAULT_SCHEMA);
+settings.setQueryTranslatorFactory( createQueryTranslatorFactory(properties) );
+boolean useSecondLevelCache = PropertiesHelper.getBoolean(Environment.USE_SECOND_LEVEL_CACHE, properties, true);
+SQLExceptionConverter sqlExceptionConverter;
+boolean showSql = PropertiesHelper.getBoolean(Environment.SHOW_SQL, properties);
+}
+}
+String autoSchemaExport = properties.getProperty(Environment.HBM2DDL_AUTO);
+.getLogger(DefaultValueComponents.class);
+properties.add(propertyresult);
+return null;
+private Interceptor interceptor;
+//	public boolean isShowSqlEnabled() {
+if ( property.isInsertable() ) {
+//	void setShowSqlEnabled(boolean b) {
+None
+collection.createAllKeys();
+protected Map extendsQueue;
+extendsQueue = new HashMap();
+identifierGeneratorFactory = new DefaultIdentifierGeneratorFactory();
+None
+resultSet.last();
+boolean firstPass = true;
+while ( resultSet.previous() ) {
+resultSet.next();
+protected void secondPassCompile() throws MappingException {
+( (HibernateProxy) proxy ).getHibernateLazyInitializer().setImplementation(entity);
+}
+final CollectionPersister collectionPersister = collectionPersisters[i];
+Iterator iterator = extendsQueue.keySet().iterator();
+Iterator iter = extendsQueue.keySet().iterator();
+constructor.setAccessible( true );
+collection,
+None
+None
+GLOBAL_PROPERTIES.setProperty( USE_REFLECTION_OPTIMIZER, Boolean.FALSE.toString() );
+return CollectionHelper.EMPTY_COLLECTION;
+final String nodeName = persister.getNodeName();
+if ( log.isTraceEnabled() ) log.trace( "processing result set" );
+}
+/**
+if ( !proxiesByKey.containsKey( key ) ) {
+None
+Set[] keySets = transpose(keys);
+deletes.add(test);
+deletes.add(oldValue);
+/**
+}
+initializing = true;
+initializing = true;
+if (operationQueue!=null) {
+Collection res = new ArrayList();
+java.util.Set currentIds = new HashSet();
+for ( Iterator it=oldElements.iterator(); it.hasNext(); ) {
+try {
+else {
+return set.add(entry);
+joinIsNeeded = generateJoin && ( !getWalker().isInSelect() || !getWalker().isShallowQuery() );
+}
+if ( log.isDebugEnabled() ) {
+* Read a row of <tt>Key</tt>s from the <tt>ResultSet</tt> into the given array.
+public Object setValue(Object value) {
+return persister.whereJoinFragment(alias, true, true);
+if ( status == Status.MANAGED && persister.implementsValidatable( entityMode ) ) {
+VersionType versionType = persister.getVersionType();
+);
+}
+checkLhsIsNotCollection();
+public Iterator getDeletes(CollectionPersister persister, boolean indexIsFormula) throws HibernateException {
+while ( newiter.hasNext() ) {
+ConditionFragment byId = new ConditionFragment()
+whereString.append( byId.toFragmentString() );
+collectionPersisters[j] = collPersister;
+}
+private Map collectionsByKey; //key=CollectionKey, value=PersistentCollection
+addCollection( collectionName, collectionRole );
+None
+// containing eager fetches via join fetch
+if ( joinType==JoinFragment.LEFT_OUTER_JOIN && path.isRoot() ) {
+final boolean isSameJoin = oneToManyPersister.getTableName().equals(foreignKeyTable) &&
+private final CriteriaQueryTranslator translator;
+None
+String testAlias = StringHelper.root( path );
+return path;
+return getWholeAssociationPath( ( CriteriaImpl.Subcriteria ) parent ) + '.' + path;
+getPathEntityName( ( String ) me.getKey() )
+}
+if ( outerQueryTranslator != null ) {
+return projectionColumns;
+throw new QueryException( "not a single-length projection: " + propertyName );
+if ( type instanceof StringRepresentableType ) {
+parent = ( Criteria ) aliasCriteriaMap.get( testAlias );
+return new TypedValue(
+private final String sql;
+/**
+private final ResultRowProcessor rowProcessor;
+private String[] transformerAliases;
+for ( int curr = 0; curr < sqlQuery.length(); curr = right + 1 ) {
+result.append( sqlQuery.substring( curr ) );
+result.append( sqlQuery.substring( curr, left ) );
+for ( int i = list.size(); i<=index; i++) {
+result.append( aliasPath );
+result.append( '{' ).append(aliasPath).append( '}' );
+String propertyName = aliasPath.substring( firstDot + 1 );
+String propertyName = aliasPath.substring( firstDot + 1 );
+private final Map namedParameters = new HashMap();
+for ( int i = 0; i < queryReturns.length; i++ ) {
+return;
+if ( !alias2Return.containsKey( ownerAlias ) ) {
+getFactory().getTypeResolver().getTypeFactory().manyToOne( persisters[k].getEntityName(), shallowQuery )
+if ( !alias2Persister.containsKey( ownerAlias ) ) {
+else if ( returnType.isEntityType() ) {
+public int size() {
+public Comparator comparator() {
+private ConnectionProviderFactory() {
+try {
+log.info("Using Hibernate built-in connection pool (not for production use!)");
+if ( log.isDebugEnabled() ) {
+current.getTransaction().registerSynchronization( buildCleanupSynch() );
+if ( needsWrapping( current ) ) {
+doBind( current, factory );
+if ( "beginTransaction".equals( method.getName() )
+}
+private void writeObject(ObjectOutputStream oos) throws IOException {
+TwoPhaseLoad.addUninitializedEntity(
+copiedValues = TypeHelper.replaceAssociations(
+QueryableCollection persister = sessionFactoryHelper.getCollectionPersister( collectionFilterRole );
+private String entityName;
+table.getQualifiedName( dialect, defaultCatalog, defaultSchema ),
+" where " +
+}
+InFragment in = new InFragment().setColumn( alias, columnNames[0] );
+return DbTimestampType.class.isAssignableFrom( type.getClass() );
+alias,
+return buf.toString();
+oldVersion = null;
+boolean mutableId = "true".equals( subnode.attributeValue("mutable") );
+trimSource = ( String ) args.get( 1 );
+code.addAstore( 4 );
+out( ", " );
+return "";
+JoinSequence fromJoins = new JoinSequence( q.getFactory() )
+return new ANSICaseFragment();
+id = persister.getIdentifier( object, event.getSession() );
+registerColumnType(Types.CHAR, "char($l)");
+case LT:
+int i = constraintName.indexOf('.');
+private static final Map STANDARD_AGGREGATE_FUNCTIONS = new HashMap();
+int[] sqlTypes;
+if ( sqlType == Types.NUMERIC ) {
+}
+protected Dialect() {
+registerFunction( "substring", new SQLFunctionTemplate( Hibernate.STRING, "substring(?1, ?2, ?3)" ) );
+registerFunction( "second", new SQLFunctionTemplate(Hibernate.INTEGER, "extract(second from ?1)") );
+/**
+/**
+None
+/**
+return false;
+queryReturnTypes = selectClause.getQueryReturnTypes();
+return false;
+/**
+/**
+//      if ( !root.equals( name ) ) {
+}
+public final void validateScrollability() throws HibernateException {
+protected boolean isSubselectLoadingEnabled() {
+case IS_NOT_NULL:
+}
+public List list(
+registerColumnType( Types.TIMESTAMP, "date" );
+None
+private Object[] toResultRow(Object[] row) {
+int loc = typeName.indexOf('(');
+case 23514: return extractUsingTemplate("violates check constraint \"","\"", sqle.getMessage());
+case 23505: return extractUsingTemplate("violates unique constraint \"","\"", sqle.getMessage());
+case 23503: return extractUsingTemplate("violates foreign key constraint \"","\"", sqle.getMessage());
+Iterator it = uniqueKeys.entrySet().iterator();
+if ( dialect.hasDataTypeInIdentityColumn() ) {
+case 23502: return extractUsingTemplate("null value in column \"","\" violates not-null constraint", sqle.getMessage());
+default: return null;
+statement.registerOutParameter(col, Types.OTHER);
+return false;
+final Class constants = ReflectHelper.classForName( "org.h2.engine.Constants" );
+}
+registerFunction( "acos", new StandardSQLFunction( "acos", Hibernate.DOUBLE ) );
+public int hashCode() {
+copy.setCheckConstraint( checkConstraint );
+return !hadNullableColumn || dialect.supportsNotNullUnique() ?
+/*Iterator iter = getElement().getColumnIterator();
+None
+private KeyValue identifier; //may be final
+private KeyValue identifier; //may be final
+private String customSQLInsert;
+PrimaryKey pk = new PrimaryKey();
+}
+registerFunction( "curdate", new NoArgSQLFunction( "curdate", Hibernate.DATE ) );
+registerFunction( "database", new NoArgSQLFunction( "database", Hibernate.STRING ) );
+}
+log.info("RDMSOS2200Dialect version: 1.0");
+}
+registerFunction( "concat", new SQLFunctionTemplate(Hibernate.STRING, "concat(?1, ?2)") );
+property = ( ( Component ) property.getValue() ).getProperty( element );
+checkColumnDuplication( cols, getKey().getColumnIterator() );
+/**
+}
+String columnName = ( (Column) getColumnIterator().next() ).getQuotedName(dialect);
+return true;
+/**
+}
+boolean isFormula = false;
+// methods to make it possible to use the Native Id generator
+public boolean supportsSequences() {
+pk.addColumns( getElement().getColumnIterator() );
+//getCollectionTable().createUniqueKey( getIdentifier().getConstraintColumns() );
+public String getCascadeConstraintsString() {
+return " including contents";
+}
+throw new UnsupportedOperationException();
+if (referencedPropertyName==null && !hasFormula() ) {
+//the entity is associated with the session, so check its status
+return true;
+registerFunction( "mod", new StandardSQLFunction( "mod", Hibernate.INTEGER ) );
+registerFunction( "concat", new VarArgsSQLFunction( Hibernate.STRING, "(", "||", ")" ) );
+}
+return "select sequence_name from information_schema.system_sequences";
+None
+if ( entry.getStatus() != Status.DELETED ) {
+registerColumnType( Types.BLOB, "VARBINARY(4000000)" );
+/*public boolean supportsForUpdateNowait() {
+for (T obj : objects) {
+if ( lockMode==LockMode.PESSIMISTIC_FORCE_INCREMENT) {
+Iterator entries = map.entrySet().iterator();
+map = new TreeMap();
+}
+else {
+else {
+return memberPersister.getCollectionType();
+insert.addColumns( indexColumnNames, indexColumnIsSettable );
+return true;
+}
+if ( rhs != null && isManyToMany() && !rhs.isCollection() ) {
+}
+public String getNodeName();
+//getCollectionTable().createUniqueKey( getIdentifier().getConstraintColumns() );
+private final String sqlDeleteString;
+private final Class elementClass;
+private final Type keyType;
+private final boolean insertCallable;
+protected final String qualifiedTableName;
+None
+private final FilterHelper manyToManyFilterHelper;
+private final FilterHelper filterHelper;
+registerColumnType( Types.NUMERIC, "NUMERIC($p,$s)" );
+registerKeyword( "password" );
+if (regionRoot != null && regionRoot.isValid()) {
+getDefaultProperties().setProperty( Environment.USE_STREAMS_FOR_BINARY, "false" );
+getDefaultProperties().setProperty( Environment.STATEMENT_BATCH_SIZE, NO_BATCH );
+String elemNode = collection.getElementNodeName();
+float f = precision > 0 ? ( float ) scale / ( float ) precision : 0;
+registerColumnType( Types.BIGINT, "bigint" );
+registerColumnType( Types.INTEGER, "integer" );
+}
+hasIndex = collection.isIndexed();
+return false;
+IndexedCollection indexedCollection = (IndexedCollection) collection;
+None
+None
+//sqlSelectString = sqlSelectString();
+elementPropertyMapping = (PropertyMapping) elementPersister;
+filterHelper = new FilterHelper( collection.getFilterMap(), dialect, factory.getSqlFunctionRegistry() );
+return initializer;
+Iterator iter = subselect.getResult().iterator();
+return createSubselectInitializer( subselect, session );
+if (!allowNull && cacheTm == null) {
+registerColumnType( Types.BIGINT, "numeric(19,0)" );
+throw new HibernateException( "Current transaction is not in progress" );
+return elementClass;
+while ( !isResultSet && ps.getUpdateCount() != -1 ) {
+}
+}
+try {
+Iterator entries = collection.entries(this);
+Iterator deletes = collection.getDeletes( this, !deleteByIndex );
+collection.preInsert( this );
