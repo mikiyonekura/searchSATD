@@ -1,0 +1,2494 @@
+double baseX = xx0;
+}
+* Default constructor.
+}
+return SWTUtils.toAwtColor(this.gc.getForeground());
+return arrangeNN(container, g2);
+Dimension size = getSize();
+return arrangeNF(container, g2, constraint);
+assertEquals(176461500L, m.getSerialIndex());
+}
+if (ensureSameSize) {
+}
+this(null, zone);
+}
+if (this.plot.isDomainCrosshairLockedOnData()) {
+tabs.insertTab(localizationResources.getString("General1"), null,
+return this.lowerClip;
+}
+if (r instanceof AbstractXYItemRenderer) {
+writeChartAsPNG(out, chart, width, height, null);
+CategoryPlot plot = (CategoryPlot) getPlot();
+/**
+/**
+boolean savedNotify = plot.isNotify();
+writeChartAsPNG(out, chart, width, height, null);
+* Replaces the chart's dataset and then checks that the new dataset is OK.
+//        // draw the annotations...
+}
+Iterator iterator = this.subplots.iterator();
+}
+this.drawBorder = draw;
+/**
+return getCategories();
+g2.setStroke(outlineStroke);
+return getItemPaint(series, item);
+BufferedImage image = new BufferedImage(200, 100,
+}
+Range range = axis.getRange();
+g2.drawImage(this.image, (int) xx0, (int) Math.min(yy0, yy1),
+return arrangeFN(container, g2, constraint);
+}
+//    public boolean getItemCreateEntity(int series, int item);
+if (r instanceof AbstractXYItemRenderer) {
+return this.labelFont;
+if (this.autoWidth) {
+if (r instanceof AbstractCategoryItemRenderer) {
+rollingSumForPeriod += current.getValue().doubleValue();
+/** The lower clip (axis) value for the axis. */
+}
+if (ensureSameSize) {
+return this.delegateSet.getGroup();
+return Collections.unmodifiableList(this.data);
+double total = 0.0;
+itemCount = highLowData.getItemCount(series);
+result = p.hashCode();
+return result;
+return super.clone();
+if (period instanceof RegularTimePeriod) {
+if (plot instanceof PiePlot) {
+String url = this.prefix;
+* Multiplier for the <code>darker</code> Methods.<br>
+ChartUtilities.saveChartAsPNG(new File(filename), this.chart,
+s.seriesPath.lineTo(x, y);
+/**
+/**
+// BarRenderer
+return new Color(g, g, g, this.alpha);
+}
+/**
+int i0 = findLiveItemsLowerBound(dataset, series, xLow, xHigh);
+}
+return this.labelType;
+clone.shape = ShapeUtilities.clone(this.shape);
+}
+return (k / this.xValues.length);
+}
+if (this.rows.isEmpty()) {
+}
+result = Range.combine(result,
+}
+shift = rectWidth * 0.20 / (seriesCount - 1);
+XYItemRenderer r0 = new XYLineAndShapeRenderer();
+this(null, zone);
+return (x >= rect.getMinX() && x <= rect.getMaxX()
+r.drawRangeGridline(g2, this, axis, dataArea,
+// add the series...
+}
+return super.clone();
+String description = label;
+// whereas the stroke instances are always immutable so they're OK
+// add an entity for the item...
+return clone;
+}
+@Override
+}
+}
+}
+/**
+if (this.horizontalAxisTrace && area.x < this.verticalTraceLineX
+}
+* To support cloning charts, it is recommended that renderers implement both
+result = this.sectionPaintMap.getPaint(key);
+RectangleConstraint c5 = new RectangleConstraint(
+double w = constraint.getWidthRange().constrain(
+if (this.chartBuffer == null
+List values2 = new ArrayList();
+DefaultCategoryDataset dataset2 = new DefaultCategoryDataset();
+// minorTickLength
+Number[][] data = new Integer[][]
+if (index >= getDatasetCount()) {
+TabItem item1 = new TabItem(tab, SWT.NONE);
+assertTrue(false);
+new Label(general, SWT.NONE).setText(localizationResources.getString(
+p1.setMercuryPaint(new GradientPaint(9.0f, 8.0f, Color.red,
+a1.setPeriod(5);
+boolean pass = false;
+if (createLegend) {
+long start = Math.max(from, this.segmentStart);
+if (SWTTitleEditor.this.font != null) {
+// --- Constants ---
+None
+// find the point at the appropriate distance end point
+ColorDialog dlg = new ColorDialog(getShell());
+if (isItemLabelVisible(row, column)) {
+TabItem item2 = new TabItem(tab, SWT.NONE);
+g1.addURLSeries(null);
+if (plot instanceof CategoryPlot) {
+if (b_colinear) {
+plot.setOutlinePaint(getOutlinePaint());
+Number sdv = statDataset.getStdDevValue(row, column);
+SWTAxisEditor.this.labelFontField.setText(
+RendererChangeEvent e = new RendererChangeEvent(this, true);
+}
+}
+new Label(general, SWT.NONE).setText(localizationResources.getString(
+plot1.setRoseHighlightPaint(new GradientPaint(1.0f, 2.0f, Color.green,
+if (axis instanceof NumberAxis)
+= (TimeSeriesDataItem) this.data.get(index);
+SWTTitleEditor.this.font = new Font(
+/* shape filled = */ true, fillPaint,
+s1.add(3.0, 5.0);
+TaskSeriesCollection c3 = createCollection3();
+}
+new Label(general, SWT.NONE).setText(localizationResources.getString(
+// contain no items, we still expect the range to be null
+final SWTPaintCanvas colorCanvas = new SWTPaintCanvas(general,
+None
+FontDialog dlg = new FontDialog(getShell());
+boolean positive = (value >= this.base);
+TableXYDataset tdataset = (TableXYDataset) dataset;
+TabItem item2 = new TabItem(tabs, SWT.NONE);
+/* shape outlined */ false, Color.black, UNUSED_STROKE,
+NumberAxis rangeAxis = (NumberAxis) plot.getRangeAxis();
+int height = (int) Math.round(font.getSize() * 72.0
+this.plot.handleClick(x, y, info.getPlotInfo());
+this.drawSeriesLineAsPath = false;
+IntervalCategoryDataset icd = (IntervalCategoryDataset) dataset;
+"Category"), new NumberAxis("Value"), r);
+TabItem item1 = new TabItem(tabs, SWT.NONE);
+return DomainOrder.ASCENDING;
+if (!validateMaximum(this.maximumRangeValue.getText()))
+p1.setSeriesOutlineStroke(0, new BasicStroke(1.1f));
+if (!validateMinimum(this.minimumRangeValue.getText()))
+f1.setVisible(false);
+t1.setGridBandPaint(new GradientPaint(1f, 2f, Color.white, 4f, 8f, Color.red));
+Area side1 = new Area(new Rectangle2D.Double(
+TabItem item3 = new TabItem(tabs, SWT.NONE);
+c1 = new DialCap();
+if (plot instanceof CategoryPlot) {
+plot1.setRangeAxisLocation(AxisLocation.TOP_OR_RIGHT);
+new Label(general, SWT.NONE).setText(localizationResources.getString(
+AffineTransform savedTransform = g2.getTransform();
+new Label(general, SWT.NONE).setText(localizationResources.getString(
+mf1 = new MonthDateFormat(TimeZone.getTimeZone("PST"), Locale.US, 1,
+new Label(general, SWT.NONE).setText(localizationResources.getString(
+low = Math.max(low, dataArea.getMinY());
+TimePeriodValues s1 = new TimePeriodValues("S1");
+Number meanValue = dataset.getMeanValue(row, column);
+}
+plot1.setSectionOutlinePaint(new GradientPaint(1.0f, 2.0f, Color.cyan,
+ValueMarker m = new ValueMarker(1.1);
+chart1.setBorderVisible(true);
+}
+for (SegmentedTimeline.Segment segment1 = timeline.getBaseTimeline()
+plot1.setDomainAxisLocation(AxisLocation.TOP_OR_RIGHT);
+String series1 = "First";
+a1.setStandardTickUnits(NumberAxis.createIntegerTickUnits());
+SerialUtilities.writePaint(this.backgroundPaint, stream);
+boolean pass = false;
+// minorTickPaint
+TimeSeries s1 = new TimeSeries("S1");
+item1.setLabelFont(new Font("Dialog", Font.PLAIN, 13));
+container.clear();
+TabItem item3 = new TabItem(tab, SWT.NONE);
+if ((this.chartBuffer == null)
+String category1 = "Category 1";
+List ticks = refreshTicks(g2, state, dataArea, edge);
+Button ok = new Button(this.shell, SWT.PUSH | SWT.OK);
+}
+ChartRenderingInfo info = this.chartPanel.getChartRenderingInfo();
+if (!hasToolTip) {
+BasicStroke s = new BasicStroke(2.0f);
+if (this.maxValue == DEFAULT_MAX_VALUE) {
+disposeResourcePool();
+plot.remove(plot2);
+this.gc.setLineStyle(SWT.LINE_SOLID);
+s.seriesPath.reset();
+float[] dashes = bs.getDashArray();
+int count = getItemCount();
+if (j == 0 || (i > -4 && j < 2)
+t1.setAxisLabelPaint(new GradientPaint(8f, 4f, Color.gray, 2f, 9f, Color.blue));
+None
+FontData[] fontData = this.gc.getFont().getFontData();
+EntityCollection entities = state.getEntityCollection();
+return SWTUtils.toAwtFont(this.gc.getDevice(), fontData[0], true);
+r1.setSeriesShapesFilled(1, true);
+StringBuffer sb = new StringBuffer();
+Range range = DatasetUtilities.findDomainBounds(this.dataset, false);
+this.colorsPool.put(new Integer(awtColor.getRGB()), swtColor);
+chart1.setRenderingHints(new RenderingHints(
+// adjust the plot area by the interior spacing value
+this.myColor = color;
+return true;
+fontData.setStyle(font.getStyle());
+if (this.domainAxisPropertyPanel != null) {
+//// OUTLINE STROKE ////////////////////////////////////////////////////////
+DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+} catch (SecurityException e) {
+chart1.addSubtitle(new TextTitle("Subtitle"));
+if (!this.useBuffer) {
+chart1.setBorderPaint(Color.red);
+for (XYDataset dataset: this.datasets.values()) {
+"Date",             // x-axis label
+double estimate1 = getRange().getLength() / 10.0;
+chart1.setBackgroundPaint(new GradientPaint(1.0f, 2.0f, Color.red,
+double labelReserve = 0.0;
+// but I didn't and neither did anyone else).
+JFreeChart chart = new JFreeChart(title, JFreeChart.DEFAULT_TITLE_FONT,
+EntityCollection entities = state.getEntityCollection();
+d.add(Double.POSITIVE_INFINITY, 0.0, "R1", "C3");
+if (point0 == null) {
+}
+if (c0.getAlpha() == 0) {
+/** The base y-coordinate. */
+Rectangle2D bounds = TextUtilities.getTextBounds(tickLabel, g2,
+i1.getChartArea().setRect(4.0, 3.0, 2.0, 1.0);
+boolean pass = false;
+subtitles.add(new TextTitle("T"));
+AreaRendererEndType.TRUNCATE, AreaRendererEndType.TRUNCATE
+for (ValueAxis rangeAxis : this.rangeAxes.values()) {
+true,
+if (isAngleGridlinesVisible()) {
+dataset,            // data
+this.axis.setRange(0.5, 10);
+item1.setOutlinePaint(new GradientPaint(1.1f, 2.2f, Color.green, 3.3f,
+for (int i = 0; i < this.data.size(); i++) {
+a1.setArrowPaint(Color.blue);
+Number value1 = dataset.getEndValue(row, column, subinterval);
+// --- Constants ---
+Rectangle2D bounds = RectangleAnchor.createRectangle(new Size2D(w, h),
+None
+BoxAndWhiskerToolTipGenerator g1 = new BoxAndWhiskerToolTipGenerator();
+EntityCollection entities = null;
+/** The override number format. */
+if (!getItemVisible(row, column)) {
+t1.setDrawingSupplier(new DefaultDrawingSupplier(
+double y0 = 0.0;
+String svg = generateSVG(getWidth(), getHeight());
+t1.setLegendItemPaint(new GradientPaint(9f, 8f, Color.red, 7f, 6f, Color.blue));
+g2.setRenderingHint(JFreeChart.KEY_SUPPRESS_SHADOW_GENERATION, true);
+timeline.setExceptionSegments(new java.util.ArrayList());
+for (int i = 0; i < inttmp.length; i++) {
+plot1.setDomainAxis(new NumberAxis("Domain Axis"));
+Stroke stroke = getItemOutlineStroke(row, column);
+t1.setWallPaint(new GradientPaint(4f, 5f, Color.red, 1f, 0f, Color.gray));
+double xmax = Math.min(e.getX(), scaledDataArea.getMaxX());
+if (this.data != null) {
+r1.setCloseTickPaint(Color.blue);
+if (this.fixedDomainAxisSpace != null) {
+s1 = new OHLCSeries("s2");
+MyDialLayerChangeListener l1 = new MyDialLayerChangeListener();
+t1.setShadowPaint(new GradientPaint(7f, 1f, Color.blue, 4f, 6f, Color.red));
+this.lastCategory = column;
+Stroke stroke = new BasicStroke(1.5f);
+if (this.paint != null) {
+t1.setShadowVisible(!t1.isShadowVisible());
+}
+Double l_subtrahendCurX   = null;
+t1.setTickLabelPaint(new GradientPaint(3f, 4f, Color.red, 5f, 6f, Color.yellow));
+logFloor = Math.log(lower) / LOG10_VALUE;
+t1.setThermometerPaint(new GradientPaint(9f, 7f, Color.red, 5f, 1f, Color.blue));
+* Appends new data.
+if (!super.equals(obj)) {
+t1.setBarPainter(new StandardBarPainter());
+if (!isVisible()) {
+t1.setXYBarPainter(new StandardXYBarPainter());
+r1.setShadowXOffset(3.3);
+t1.setErrorIndicatorPaint(new GradientPaint(0f, 1f, Color.white, 2f, 3f, Color.blue));
+PlotRenderingInfo plotInfo = null;
+if (this.smallLogFlag && lowerBoundVal < SMALL_LOG_VALUE) {
+return arrangeNR(container, g2, constraint);
+* The radius from the (x, y) point to the start of the arrow line (in
+DefaultCategoryDataset dataset2 = new DefaultCategoryDataset();
+switchColors();
+boolean scale = false;
+/** The arrow width (in Java2D units, per side). */
+}
+/** The length of the arrow head (in Java2D units). */
+drawZoomRectangle(g2, !this.useBuffer);
+* A flag that affects the size of the margins added to the axis range when
+setBaseOutlinePaint(new Color(0, 0, 0, 0));
+String key = line.substring(start, i);
+plot1.setWeight(3);
+container.clear();
+plot.mapDatasetToDomainAxis(99, 11);
+Composite originalComposite = g2.getComposite();
+Date d0 = new Date(y2006.getFirstMillisecond());
+// PROTECTED METHODS
+* Creates a new label and arrow annotation.
+if (this.panLast != null) {
+null);
+tip = tipster.generateToolTip(dataset, currentKey);
+container.clear();
+double upperBoundVal = range.getUpperBound();
+ToolTipManager ttm = ToolTipManager.sharedInstance();
+Iterator iterator = this.data.iterator();
+Stroke s = new BasicStroke(3.21f);
+CategoryItemRenderer renderer = new StackedBarRenderer3D();
+this.seriesList.remove(seriesIndex);
+double offset = (categoryWidth - state.getBarWidth()) / 2;
+if (entities != null &&
+a1.setCategoryAnchor(CategoryAnchor.START);
+axis.setTickMarkPosition(DateTickMarkPosition.START);
+a1.setTickMarkPosition(DateTickMarkPosition.END);
+DialCap c1 = new DialCap();
+Date d1 = new Date();
+double offset = (categoryWidth - usedWidth) / 2;
+a1.setTickUnit(new DateTickUnit(DateTickUnit.DAY, 7));
+AxisState state = new AxisState(cursor);
+//   |
+if (lower > 10.0) {   //parameter value is > 10
+int index = 0;
+series.setValue(key + " (+100%)", newValue);
+// --- Constants ---
+r1.setItemLabelGenerator(new StandardXYItemLabelGenerator());
+axis.refreshTicks(g2, new AxisState(), area, RectangleEdge.BOTTOM);
+container.clear();
+axis.setTickMarkPosition(DateTickMarkPosition.END);
+axis.setTickMarkPosition(DateTickMarkPosition.MIDDLE);
+this.vetoableChangeSupport.fireVetoableChange("Key", old, key);
+LegendItem li = r.getLegendItem(0, 0);
+}
+DefaultIntervalCategoryDataset dataset
+item.setValue(null);
+r1.setBaseStroke(s);
+rx2 = (px2 == 0) ? rx1 : (paint.isCyclic() ? (rx1 + bw / 2.0f)
+this(categoryAnchor, labelAnchor, TextAnchor.CENTER, 0.0,
+dataset = new DefaultOHLCDataset("S1", new OHLCDataItem[] {});
+g1.setShapeLocation(RectangleAnchor.BOTTOM_RIGHT);
+int index = rowData.getIndex(columnKey);
+d1.add(new Date(2L), new BoxAndWhiskerItem(1.0, 2.0, 3.0, 4.0, 5.0,
+if (this.popup != null) {
+/** The arrow stroke. */
+crosshairState.updateCrosshairPoint(rowKey, columnKey, value,
+axis.setTickMarkPosition(DateTickMarkPosition.END);
+for (ValueAxis yAxis : this.rangeAxes.values()) {
+axis.setTickMarkPosition(DateTickMarkPosition.START);
+// --- Constants ---
+return this.chartMouseListeners.getListeners(listenerType);
+Object obj1 = new ArrayList();
+AxisSpace fixed = getFixedRangeAxisSpace();
+axis.setTickMarkPosition(DateTickMarkPosition.MIDDLE);
+assertEquals(data.getValue("A"), new Double(1.0));
+if ((widthScaleFactor != 1) || (heightScaleFactor != 1)) {
+}
+r2 = Range.shift(r1, 0.0);
+this.axis.setRange(10, 20);
+int currentColumn = 0;
+a1.setTickLabelFont("C1", null);
+a1.setTickLabelPaint("C1", Color.yellow);
+boolean pass = false;
+a1.addCategoryLabelToolTip("C1", "XYZ");
+if (this.popup != null && this.popup.isShowing()) {
+a1.setLowerMargin(0.15);
+this.axis.setRange(0.2, 0.7);
+* Creates a new line by extending an existing line.
+if (this.categoryKeys == null) {
+a1.setCategoryMargin(0.15);
+a1.setUpperMargin(0.15);
+if (getPlotArea() && item > 0 && item == (itemCount - 1)) {
+Date start = new Date(dates[0]);
+container.clear();
+this.canvas = new Canvas(this, SWT.DOUBLE_BUFFERED | SWT.NO_BACKGROUND);
+item1.setFillPaint(new GradientPaint(1.0f, 2.0f, Color.green, 3.0f,
+// PROTECTED METHODS
+Point2D selectOrigin = translateScreenToJava2D(new Point(
+double fixedAutoRange = getFixedAutoRange();
+this.dataset = dataset;
+Stroke stroke = new BasicStroke(0.2f);
+if (Double.isNaN(transX0) || Double.isNaN(transY0)
+// than the category width
+if (getPlotArea() && item > 0 && this.pArea != null
+boolean pass = false;
+double l_denominator = ((l_y4 - l_y3) * (l_x2 - l_x1))
+* Flag that indicates whether or not the tick unit is selected
+r1.setPaint(new GradientPaint(1.0f, 2.0f, Color.blue,
+// --- Constants ---
+t1.setTickLabelPaint(new GradientPaint(3f, 4f, Color.red, 5f, 6f, Color.yellow));
+if (this.title != null) {
+a1.addCategoryLabelURL("Test", "http://www.jfree.org/");
+Comparable rowKey = crosshairState.getRowKey();
+boolean foundData = false;
+s1.setTickLabelPaint(new GradientPaint(1.0f, 2.0f, Color.white,
+for (int i = 0; i < exceptionSegmentCount; i++) {
+//private Shape rightArrow;
+assertEquals(1, this.msTimeline.getSegmentSize());
+c.removeSeries(s1);
+a1.setBoundMappedToLastCycle(!a1.isBoundMappedToLastCycle());
+double screenX = -1.0;
+// --- Constants ---
+if (i == bins - 1) {
+Map map = new HashMap();
+timeAxis.setUpperMargin(0.02);
+a1.setAdvanceLineVisible(!a1.isAdvanceLineVisible());
+String osName = System.getProperty("os.name").toLowerCase();
+if (start != null && end != null) {
+List values = new ArrayList();
+result.setStartTime(start.getTime());
+final double logLower = (Math.log(lower) / LOG10_VALUE);
+long quarterHourCount = (close.getTime() - open.getTime())
+AffineTransform saved = g2.getTransform();
+private static final int TEST_CYCLE_START = 0;
+double min = Math.min(W, H) / 2;
+}
+Graphics2D bufferG2 = (Graphics2D)
+double next = Math.pow(this.base, current
+dataset.addValue(Double.NaN, "R2", "C1");
+cal.add(Calendar.HOUR, 9);
+DeviationRenderer r1 = new DeviationRenderer();
+long temp = Double.doubleToLongBits(this.lowerBound);
+double marginX = plotArea.getX();
+if (anchor != null && !dataArea.contains(anchor)) {
+m1.mapKeyToGroup("K2", "Default Group");
+this.fifteenMinTimeline
+if (drawFront) {
+RectangleConstraint c4 = new RectangleConstraint(
+SegmentedTimeline.Segment segment = timeline.getSegment(n);
+/**
+container.clear();
+g2.drawImage(this.chartBuffer, insets.left, insets.top, this);
+assertTrue(!timeline.containsDomainRange(
+/**
+assertEquals(segment1.getSegmentNumber() + 1,
+double x1 = dataset.getXValue(series, item);
+SegmentedTimeline.Segment seg2 = seg1.copy();
+this.chartMouseListeners = new EventListenerList();
+a1.setVisible(false);
+return tabs;
+seg = timeline.getSegment(end + 1);
+r1.setItemLabelsVisible(true);
+assertEquals(Math.max(0, m - i - 2),
+// PROTECTED METHODS
+r.setSeriesVisible(1, Boolean.FALSE);
+seg1.inc();
+null,
+if (isCircular()) { // is circular?
+SegmentedTimeline.Segment seg3 = seg1.copy();
+plot1.setFixedDomainAxisSpace(new AxisSpace());
+Range range = getRange();
+FontRenderContext frc = g2.getFontRenderContext();
+a1.setTickLabelInsets(new RectangleInsets(10.0, 10.0, 10.0, 10.0));
+Rectangle2D linkAreaXX = new Rectangle2D.Double(linkX, linkY, linkW,
+assertEquals(exception.length, timeline.getExceptionSegments().size());
+long temp = Double.doubleToLongBits(this.lowerBound);
+plot1.setTickLabelsVisible(false);
+long[] exception = verifyFillInExceptions(timeline, exceptionString,
+plot1.setRangeAxisLocation(AxisLocation.TOP_OR_RIGHT);
+assertTrue(!segment.inIncludeSegments());
+// data area...
+assertTrue(segment.inIncludeSegments());
+assertEquals(m - i, timeline.getExceptionSegmentCount(
+a1.setTickMarkPaint(new GradientPaint(1.0f, 2.0f, Color.cyan,
+Point2D zp = (this.zoomPoint != null
+assertEquals(0, stl.toTimelineValue(946684800000L));
+r1.setSeriesStroke(1, s);
+// tickLabelFont
+CategoryAxis xAxis2 = new CategoryAxis("X2");
+SegmentedTimeline.Segment segment = timeline.getSegment(e);
+result = 1;
+ArrayList exceptionList = new ArrayList();
+if (this.datasetGroup != null) {
+a1.setLabel("New Label");
+long[] exception = new long[exceptionList.size()];
+if (!(dataset instanceof StatisticalCategoryDataset)) {
+l1.setStartTime(1234L);
+v1.insertValue(2, "B", 4.0);
+timeline.addBaseTimelineExclusions(from, to);
+double gapHorizontal = (2 * DEFAULT_BORDER_SIZE);
+assertFalse(stl.containsDomainValue(946684799999L));
+dataset.removeSeries(series2);
+a1.setSubLabelPaint(Color.red);
+TimeSeriesCollection dataset = new TimeSeriesCollection();
+assertEquals(renderer, plot.getRendererForDataset(dataset2));
+double minRange = getAutoRangeMinimumSize();
+// PROTECTED METHODS
+if (info != null) {
+a1.setSubLabelFont(new Font("Serif", Font.BOLD, 15));
+d1.add(new BoxAndWhiskerItem(1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 8.6, 9.6,
+SegmentedTimeline.Segment segment1 = baseTimeline.getSegment(e);
+// sum of x, x^2, x * y, y
+a1.addSubCategory("Sub 1");
+// PROTECTED METHODS
+assertEquals(seg1.getSegmentStart() + m,
+else {
+if (i == -1) {
+a1.setLabelFont(new Font("Dialog", Font.PLAIN, 8));
+RectangleInsets insets = getInsets();
+a1.setLabel("New Label");
+PiePlot piePlot = (PiePlot) getPieChart().getPlot();
+a1.setLabelPaint(new GradientPaint(1.0f, 2.0f, Color.white,
+double sum = 0.0;
+a1.setAttributedLabel(new AttributedString("Hello World!"));
+d1.add(7.5, 1.1, "Series 2");
+a1.setLabelInsets(new RectangleInsets(10.0, 10.0, 10.0, 10.0));
+if ((hZoom && (this.zoomRectangle.x + this.zoomRectangle.width
+g2.setPaint(Color.lightGray);
+return paint;
+BasicStroke s = new BasicStroke(1.1f);
+if (plot.getOrientation() == PlotOrientation.VERTICAL) {
+a1.setLabelAngle(1.23);
+if (!isVisible()) {
+a1.setAxisLineVisible(false);
+RectangleConstraint c3 = new RectangleConstraint(
+container.clear();
+a1.setAxisLineVisible(false);
+* (C) Copyright 2000-2013, by Object Refinery Limited and Contributors.
+a1.setLabelLocation(AxisLabelLocation.HIGH_END);
+plot1.setTickLabelPaint(Color.red);
+boolean isDomainZoomable = false;
+a1.setTickMarkInsideLength(1.23f);
+Iterator iterator = getSubplots().iterator();
+a1.setFixedDimension(3.21f);
+a1.setTickMarkOutsideLength(1.23f);
+RectangleConstraint c2 = new RectangleConstraint(
+if ((logAbs = Math.abs(logLower)) < 1.0) {
+//private Shape leftArrow;
+final double logUpper = (Math.log(upper) / LOG10_VALUE);
+// axisLinePaint
+CategoryItemRenderer renderer2 = new LineAndShapeRenderer();
+//private Shape downArrow;
+RectangleConstraint c1 = RectangleConstraint.NONE;
+state.setProcessVisibleItemsOnly(false);
+a1.setVerticalTickLabels(true);
+if (f1 != 0) {
+p1.setAxisLineStroke(new BasicStroke(1.1f));
+mf1 = new MonthDateFormat(TimeZone.getTimeZone("PST"), Locale.FRANCE, 2,
+if (xData.length != yData.length) {
+mf1 = new MonthDateFormat(TimeZone.getTimeZone("PST"), Locale.FRANCE, 1,
+label = this.labelGenerator.generateRowLabel(this.dataset, cat);
+mf1 = new MonthDateFormat(TimeZone.getTimeZone("PST"), Locale.FRANCE, 2,
+assertNull(dataset.getRangeBounds(false));
+mf1 = new MonthDateFormat(TimeZone.getTimeZone("PST"), Locale.FRANCE, 2,
+ticks = axis.refreshTicks(g2, new AxisState(), area,
+RectangleConstraint c8 = new RectangleConstraint(
+drawAnnotations(g2, dataArea);
+float offset = (paint.isCyclic()) ? (bw + bh) / 4.0f
+* Returns the minimum range value.
+RectangleConstraint c7 = RectangleConstraint.NONE;
+RectangleConstraint c6 = new RectangleConstraint(
+// PROTECTED METHODS
+container.clear();
+Rectangle2D bb = TextUtilities.getTextBounds(label, g2,
+container.clear();
+if (DatasetUtilities.isEmptyOrNull(this.dataset)) {
+RectangleConstraint c9 = new RectangleConstraint(
+// --- Constants ---
+None
+--iBegCount;       //decrement to generate more ticks
+super.draw(g2, area, null);
+container.clear();
+ToolTipManager ttm = ToolTipManager.sharedInstance();
+dataset.addSeries(createSeriesB());
+state = new PlotRenderingInfo(null);
+container.clear();
+if (getItemCount() > this.maximumItemCount) {
+container.clear();
+if ((xxMean > (dataArea.getMinX() - aRadius))
+container.clear();
+d.addSeries("S2", new double[][] {{0.0}, {9.9}});
+if (this.panLast != null) {
+container.clear();
+if (entities != null) {
+CategoryItemLabelGenerator generator = this.itemLabelGeneratorMap.get(
+container.clear();
+Number[] values = new Number[] {new Double(1.0)};
+// --- Constants ---
+None
+None
+s1.add(new Integer(1), "ABC");
+container.clear();
+values.add(new Double(Double.NaN));
+None
+r = new Rectangle2D.Double(r.getX(), r.getY(), r.getWidth(),
+TimeSeries series1 = new TimeSeries("Series 1");
+this.popup = null;
+}
+Graphics2D g2 = (Graphics2D) getGraphics();
+plot1.mapDatasetToDomainAxis(11, 11);
+series.add(new Year(2004), 1.0);
+// calculate the index of the
+container.clear();
+None
+for (int i = 0; i < nSeries; i++) {
+s1.remove(new Year(2008));
+}
+container.clear();
+plot.setRowRenderingOrder(SortOrder.DESCENDING);
+s1.setKey("S1");
+}
+s1.setKey("OK");
+for (int series = 0; series < seriesCount; series++) {
+return this.fixedIntervalWidth;
+ColorBar colorBar = null;
+container.clear();
+container.clear();
+container.clear();
+container.clear();
+Iterator iterator = this.bins.iterator();
+container.clear();
+None
+int r = getRowIndex(rowKey);
+String f1 = "{1}";
+if (!getItemVisible(row, column)) {
+g1 = new BoxAndWhiskerToolTipGenerator("{0} --> {1} {2}",
+if (includeInterval && dataset instanceof IntervalXYDataset) {
+g1 = new BoxAndWhiskerToolTipGenerator("{0} --> {1} {2}",
+ItemLabelPosition position = getNegativeItemLabelPosition(series, item);
+DateFormat f1 = new SimpleDateFormat("HH:mm:ss.SSS", locale);
+/**
+XYDataset data1 = createDataset1();
+iterator = keys.iterator();
+s = g.generateLabel(dataset, 1, 1);
+double estimate2
+g1 = new StandardXYItemLabelGenerator("{0} {1} {2}",
+None
+SegmentedTimeline.Segment tempSegment = segment.copy();
+g1 = new StandardXYZToolTipGenerator(f2, xnf2, ynf1, znf1);
+g1 = new StandardXYZToolTipGenerator(f2, xnf1, ynf1, znf1);
+if (this.fillType != FillType.NONE) {
+g1 = new StandardXYZToolTipGenerator(f2, xdf2, ydf1, zdf1);
+g1 = new StandardXYZToolTipGenerator(f2, xnf2, ynf2, znf1);
+double sourceX = source.getX();
+// PROTECTED METHODS
+XYDataset data2 = createDataset2();
+yAdj = (float) bounds.getHeight();
+plot.add(subplot1, 1);
+else if (this.zoomRectangle == null) {
+plot1.setSeparatorPaint(new GradientPaint(1.0f, 2.0f, Color.red,
+final double upperMargin;
+boolean hasData = false;
+if (isItemLabelVisible(series, item)) {
+plot1.setAxisOffset(new RectangleInsets(0.05, 0.05, 0.05, 0.05));
+// calculate the highest volume in the dataset...
+Size2D size = container.arrange(g2);
+boolean pass = false;
+boolean pass = false;
+plot1.setDomainAxis(11, new CategoryAxis("Secondary Axis"));
+RegularTimePeriod p1 = this.labelInfo[band].createInstance(
+// PROTECTED METHODS
+Object antiAlias = g2.getRenderingHint(RenderingHints.KEY_ANTIALIASING);
+plot1.setDrawSharedDomainAxis(!plot1.getDrawSharedDomainAxis());
+None
+XYSeries s1 = new XYSeries("S1");
+double x0 = dataset.getXValue(series, item - 1);
+plot1.setDatasetRenderingOrder(DatasetRenderingOrder.FORWARD);
+AxisSpace space = calculateAxisSpace(g2, area);
+plot1.setDomainAxisLocation(11, AxisLocation.TOP_OR_RIGHT);
+obj1 = new DefaultPieDataset();
+StandardDialScale s1 = new StandardDialScale();
+for (ValueAxis axis : this.domainAxes.values()) {
+JFreeChart chart = new JFreeChart(title, JFreeChart.DEFAULT_TITLE_FONT,
+r1.setCloseTickPaint(Color.blue);
+plot1.setRangeAxis(11, new NumberAxis("Secondary Range Axis"));
+datasetChanged(new DatasetChangeEvent(this, getDataset(index)));
+plot1.setRangeAxisLocation(11, AxisLocation.TOP_OR_RIGHT);
+List sectionKeys = dataset.getKeys();
+if (this.log10TickLabelsFlag) {
+plot1.addAnnotation(new CategoryTextAnnotation("Text", "Category",
+if (this.panLast != null) {
+AffineTransform transformer = new AffineTransform();
+if (this.barAlignmentFactor >= 0.0 && this.barAlignmentFactor <= 1.0) {
+t1.setRangeGridlinePaint(Color.red);
+double x = 0.0;
+ComparableObjectItem item = new ComparableObjectItem(x, y);
+plot1.setRangeGridlineStroke(stroke);
+for (int i = 0; i < yOutliers.size(); i++) {
+g2, (float) labelX, (float) labelY, getTextAnchor());
+plot1.setRowRenderingOrder(SortOrder.DESCENDING);
+assertEquals("Default Group", m1.getGroup("K1"));
+plot1.addRangeMarker(1, new ValueMarker(5.0), Layer.BACKGROUND);
+throw new RuntimeException(
+plot1.setRangeCrosshairValue(100.0);
+this.renderingHints = new RenderingHints(
+logFloor = Math.log(-lower) / LOG10_VALUE;
+if (drawBack) {
+p1.setLabelGenerator(new StandardCategoryItemLabelGenerator("XYZ: {0}",
+this.m_totalSum = Double.MIN_VALUE;
+if (drawBack) {
+plot1.addDomainMarker(new CategoryMarker("C2"), Layer.BACKGROUND);
+XYPlot plot = new XYPlot(dataset, timeAxis, valueAxis, null);
+plot1.addRangeMarker(1, new ValueMarker(4.0), Layer.FOREGROUND);
+return low;
+plot1.addDomainMarker(new CategoryMarker("C1"), Layer.FOREGROUND);
+timeline.setExceptionSegments(new java.util.ArrayList());
+}
+logFloor = -Math.pow(10, -logFloor);
+if (space == null) {
+LineAndShapeRenderer r2 = (LineAndShapeRenderer) p2.getRenderer();
+this.axisLocations = new ObjectList();
+/**
+plot1.setFixedRangeAxisSpace(new AxisSpace());
+DatasetChangeEvent event = new DatasetChangeEvent(this, dataset);
+plot1.setShadowGenerator(new DefaultShadowGenerator(5, Color.gray,
+a1.setAxisLinePaint(new GradientPaint(1.0f, 2.0f, Color.red,
+d.add(4.5, 1.0, "R1", "C1");
+logFloor = Math.floor(lower);   //use as-is
+}
+}
+}
+if (!r1.equals(r2)) {
+plot1.setDialOutlinePaint(new GradientPaint(1.0f, 2.0f, Color.red,
+IntervalXYDataset data2 = createDataset2();
+RegularTimePeriod period = source.getTimePeriod(i);
+pass = false;
+item1.setLabelPaint(Color.red);
+try {
+plot.setDataset(99, dataset2);
+boolean b1 = (area.getWidth() <= MINIMUM_WIDTH_TO_DRAW);
+g2.setXORMode(Color.gray);
+CategoryItemRenderer renderer2 = new LineAndShapeRenderer();
+r1 = new DefaultDrawingSupplier(ps2A, ops2A, ss1A, oss1A, shapes1A);
+t1.setDomainGridlinePaint(Color.blue);
+if (this.useBuffer) {
+if (yAverage != null) {
+= StandardXYToolTipGenerator.getTimeSeriesInstance();
+RectangleInsets insets = getInsets();
+plot1.setDrawBorder(true);
+if (plot instanceof Pannable) {
+plot1.setTickLabelPaint(Color.red);
+Object[] listeners = this.chartMouseListeners.getListeners(
+if (state.getInfo() != null) {
+}
+plot1.setTickLabelFont(new Font("Serif", Font.PLAIN, 6));
+TimeSeriesDataItem startOfMovingAvg = source.getRawDataItem(
+plot1.setValuePaint(new GradientPaint(1.0f, 2.0f, Color.black,
+if (getItemCount() > 1) {
+plot1.setValueFont(new Font("Serif", Font.PLAIN, 6));
+Paint[] ps1A = new Paint[] {Color.red, Color.blue};
+plot1.setNeedlePaint(new GradientPaint(9.0f, 8.0f, Color.red,
+ChartFactory.setChartTheme(new StandardChartTheme("JFree/Shadow",
+Stroke s = new BasicStroke(3.21f);
+if (this.useBuffer) {
+plot1.setTickLabelFormat(new DecimalFormat("0"));
+Stroke strokeSaved = g2.getStroke();
+m1 = new CategoryMarker("A", new GradientPaint(1.0f, 2.0f, Color.white,
+plot1.setDrawBorder(!plot1.getDrawBorder());
+double lowY = Double.POSITIVE_INFINITY;
+r1.setPaint(new GradientPaint(1.0f, 2.0f, Color.blue,
+/** Index of the newest data item. */
+plot1.setTickPaint(Color.green);
+plot1.setMeterAngle(22);
+Collections.reverse(l_subtrahendXs);
+}
+if (this.chart != null) {
+getTransform().setToRotation(angle, rotate.getX(), rotate.getY());
+upper = (expVal > 0.0) ? Math.ceil(upper * expVal) / expVal
+generator.getNumberFormat().setMinimumFractionDigits(2);
+r1.setOutlineStroke(s);
+plot1.setRangeAxis(11, new NumberAxis("Secondary Range Axis"));
+if (getAttributedLabel() != null) {
+plot1.setRoseCenterPaint(new GradientPaint(1.0f, 2.0f, Color.red,
+CategoryPlot plot = new CategoryPlot(dataset, categoryAxis, valueAxis,
+plot1.setRosePaint(new GradientPaint(1.0f, 2.0f, Color.blue,
+Dimension size = getSize();
+g2.setPaintMode();
+p1.setInteriorGap(0.123);
+p1.setInteriorGap(0.123);
+temp = Double.doubleToLongBits(this.extent);
+plot1.setLabelGap(0.11);
+plot1.setSectionPaint(new GradientPaint(1.0f, 2.0f, Color.red,
+if (getDataAreaRatio() != 0.0) { //check whether modification is
+plot1.setCircular(!plot1.isCircular());
+YIntervalSeries s2 = new YIntervalSeries("S2");
+plot1.setIgnoreNullValues(true);
+p1.setDirection(Rotation.ANTICLOCKWISE);
+// on the m_Renderer that has been set)...
+plot1.setSectionPaint(new GradientPaint(1.0f, 2.0f, Color.red,
+// PROTECTED METHODS
+assertNull(dataset.getRangeBounds(false));
+Stroke s = new BasicStroke(1.1f);
+plot1.setSeparatorsVisible(false);
+* Updates the control points.
+plot1.setLabelOutlinePaint(new GradientPaint(1.0f, 2.0f, Color.blue,
+t1.setShadowPaint(new GradientPaint(7f, 1f, Color.blue, 4f, 6f, Color.red));
+* The next 10 lines or so should be expanded if data can be negative
+r1.setShadowYOffset(3.3);
+plot1.setOutlineVisible(false);
+int iBegCount = (int) Math.rint(switchedLog10(lowerBoundVal));
+s1 = new StandardDialScale();
+plot1.setLabelLinksVisible(false);
+long delta;
+plot1.setMaximumLabelWidth(0.33);
+plot1.setExplodePercent("A", 0.33);
+@Override
+plot1.setLabelShadowPaint(new GradientPaint(1.0f, 2.0f, Color.yellow,
+g2.setRenderingHint(JFreeChart.KEY_SUPPRESS_SHADOW_GENERATION, true);
+if (this.composite instanceof AlphaComposite) {
+temp = Double.doubleToLongBits(this.startAngle);
+List itemLabelList = new ArrayList();
+double sourceY = source.getY();
+TimeZone saved = TimeZone.getDefault();
+p1.setAxisLinePaint(Color.red);
+double previous = previousValue.doubleValue();
+assertTrue(p1.getURLGenerator() != p2.getURLGenerator());
+* Sets the visibility of the item labels for ALL series (optional).
+r1.setItemURLGenerator(new StandardCategoryURLGenerator());
+double lm = 0.0;
+for (Iterator iterator = outliers.iterator(); iterator.hasNext();) {
+plot1.setLabelLinkStroke(new BasicStroke(1.0f));
+if (this.renderAsPercentages) {
+p1.setLegendItemShape(new Rectangle(1, 2, 3, 4));
+// the category width
+Date d2 = calendar.getTime();
+assertSame(item1.getDataset(), item2.getDataset());
+if (this.domainAxis != null) {
+plot.setIgnoreZeroValues(true);
+SegmentedTimeline.Segment segment1 = timeline.getSegment(
+r1.setOutlineStroke(s);
+int datasetIndex = plot.indexOf(dataset);
+plot.setIgnoreNullValues(true);
+this.colorsPool.get(new Integer(awtColor.getRGB()));
+return this.baseItemLabelsVisible;
+shape.setRect(1.0, 2.0, 3.0, 4.0);
+int index = 0;
+dataset.setValue("Item 5", -1.0);
+if (isItemLabelVisible(row, column)) {
+plot1.setNoDataMessage("No data XYZ");
+//// ITEM LABEL FONT  //////////////////////////////////////////////////////
+plot1.setNoDataMessage("No data XYZ");
+plot1.setNoDataMessage("No data XYZ");
+if (this.chart != null) {
+boolean pass = false;
+plot1.setForegroundAlpha(0.99f);
+double cursor = dataArea.getMinY() - this.axisOffset.calculateTopOutset(
+t1.setDrawingSupplier(new DefaultDrawingSupplier(
+// get a reference to the plot for further customisation...
+plot1.setBackgroundAlpha(0.99f);
+plot1.setRenderer(11, new DefaultXYItemRenderer());
+this.antialias = new Button(general, SWT.CHECK);
+p1.setDataExtractOrder(TableOrder.BY_COLUMN);
+p1.setMaxValue(123.4);
+None
+p1.setValueFont(new Font("Serif", Font.PLAIN, 9));
+if (b_impliedZeroSubtrahend) {
+}
+XYDataItem overwritten = null;
+LinkedList l_minuendXs    = new LinkedList();
+* Calculates and sets the bounds of all the items in the specified
+if (this.labelGenerator != null) {
+TimeSeries result1 = series.createCopy(
+s1.add(new Integer(0), "DEF");
+p1.setSeriesPaint(1, Color.black);
+DefaultCategoryDataset dataset2 = new DefaultCategoryDataset();
+d.clear();
+p1.setAxisLabelGap(0.11);
+GC gci = new GC(this.chartBuffer);
+plot1.setDomainAxisLocation(11, AxisLocation.TOP_OR_RIGHT);
+if (this.dataset != null) {
+p1.setWebFilled(false);
+r1.setSeriesFillPaint(0, Color.green);
+legendShape.setRect(4.0, 3.0, 2.0, 1.0);
+if (indices == null) {
+t1.setThermometerPaint(new GradientPaint(9f, 7f, Color.red, 5f, 1f, Color.blue));
+p1.setValueLocation(ThermometerPlot.LEFT);
+Day yesterday = (Day) today.previous();
+Calendar calendar = Calendar.getInstance(zone);
+if (i > iBegCount && i < iEndCount
+plot1.setDomainAxisLocation(AxisLocation.TOP_OR_RIGHT);
+XYPlot subplot = findSubplot(info, source);
+for (int j = 1; j <= this.precision; j++) {
+p1.setValueFormat(new DecimalFormat("0.0000"));
+p1.setValuePaint(new GradientPaint(4.0f, 5.0f, Color.red,
+i1 = new DialPointer.Pin(2);
+p1.setAxisLocation(ThermometerPlot.RIGHT);
+BasicStroke s = new BasicStroke(1.23f);
+assertEquals(ThermometerPlot.UNITS_CELCIUS, p1.getUnits());
+if (x != this.xValues[k].doubleValue()) {
+plot1.setRangeAxisLocation(11, AxisLocation.TOP_OR_RIGHT);
+plot1.setDomainAxis(11, new NumberAxis("Secondary Domain Axis"));
+plot1.setRangeAxis(new NumberAxis("Range Axis"));
+state.setProcessVisibleItemsOnly(false);
+p1.setSeriesOutlinePaint(0, Color.red);
+if (!vZoom) {
+CombinedRangeXYPlot plot = new CombinedRangeXYPlot(new NumberAxis(
+// baseItemLabelFont
+item1.setOutlinePaint(new GradientPaint(1.1f, 2.2f, Color.green, 3.3f,
+values.add(new Double(9.0));
+ToolTipManager ttm = ToolTipManager.sharedInstance();
+g1 = new StandardXYZToolTipGenerator(f2, xnf2, ynf2, znf2);
+true,               // create legend?
+if (this.refreshBuffer) {
+Hour h1 = new Hour(new Date(1014307199999L), zone, locale);
+this.backgroundColor = color;
+int low = 0;
+plot1.setFixedLegendItems(new LegendItemCollection());
+for (ChartMouseListenerFX listener: this.chartMouseListeners) {
+this.legendLine = new Line2D.Double(-7.0, 0.0, 7.0, 0.0);
+if (renderer instanceof BarRenderer) {
+i1.setTextAnchor(TextAnchor.TOP_LEFT);
+this.progressListeners = new EventListenerList();
+// tickLabelsVisible
+Composite originalComposite = g2.getComposite();
+int lenX = (int) (plotArea.getWidth() / 10);
+tickLabel = (j < 1 || (i < 1 && j < 5) || (j < 4 - i)
+container.clear();
+Vector tmpVector = new Vector(); //create a temporary vector
+allNull = true;
+RectangleInsets insets = getInsets();
+int index = indexOf(item.getComparable());
+plot.setRenderer(2, r2);
+/** An optional band for marking regions on the axis. */
+/**
+plot1.setQuadrantPaint(0, new GradientPaint(1.0f, 2.0f, Color.red,
+l_polygonXs.addAll(l_minuendXs);
+if (this.itemLabelGenerator != null) {
+r1 = new DefaultDrawingSupplier(ps2A, ops1A, ss1A, oss1A, shapes1A);
+// PROTECTED METHODS
+state = drawTickMarksAndLabels(g2, cursor, plotArea, dataArea, edge);
+clone.add(new Year(2004), 1.2, "SS");
+r1 = new DefaultDrawingSupplier(ps2A, ops2A, ss2A, oss2A, shapes2A);
+r1 = new DefaultDrawingSupplier(ps2A, ops2A, ss2A, oss2A, shapes1A);
+int[] result = collection.getSurroundingItems(0, 1000L);
+r1 = new DefaultDrawingSupplier(ps2A, ops2A, ss1A, oss1A, shapes1A);
+// 'postiveItemLabelAnchor' : immutable, no need to clone reference
+BoxAndWhiskerItem item2 = new BoxAndWhiskerItem(1.5, 2.5, 3.5, 4.5,
+XYSeries series2 = new XYSeries("Series 3");
+// 1-ms test timeline using 5 included and 2 excluded segments.
+b1.setGradientPaintTransformer(new StandardGradientPaintTransformer(
+r1.getNextPaint();
+"XYZ");
+Set unique = new HashSet();
+drawZoomRectangle(g2, true);
+this.axisOffset = RectangleInsets.ZERO_INSETS;
+OHLCDataItem[] items = new OHLCDataItem[] {item2, item1};
+temp = Double.doubleToLongBits(this.upperBound);
+double l_deltaY = l_y1 - l_y3;
+temp = Double.doubleToLongBits(this.tickRadius);
+Rectangle2D bufferArea = new Rectangle2D.Double(
+int visibleRow = state.getVisibleSeriesIndex(row);
+f1.setRadius(0.2);
+p1.getTickLabelFormat().setMinimumIntegerDigits(99);
+XYDataset d0 = createDataset1();
+XYLineAndShapeRenderer r2 = (XYLineAndShapeRenderer) p2.getRenderer();
+assertEquals(data.getKey(0), "A");
+r1.getNextShape();
+if (this.medianVisible) {
+if (!super.equals(obj)) {
+try {
+r1.getNextOutlineStroke();
+// but we can still skip any initial values that fall outside the
+assertTrue(a1.equals(a3));
+s1.add(new Integer(1), "ABC");
+x = (XYTextAnnotation) plot.getAnnotations().get(0);
+assertTrue(r1.getLegendItemLabelGenerator()
+boolean pass = false;
+/**
+ts.add(new Year(2014), null);
+result1 = series.createCopy(1, 3);
+if ((xxMean > (dataArea.getMinX() - aRadius))
+// baseShape
+DefaultPieDataset d1 = new DefaultPieDataset();
+if (!this.internalMarkerWhenTicksOverlap) {
+int categoryCount = starts[0].length;
+a1.setDateFormatOverride(new SimpleDateFormat("yyyy"));
+logFloor = Math.log(lower) / LOG10_VALUE;
+d.setValue(null, "R1", "C2");
+f1.setOuterRadius(0.88);
+Size2D s1 = arrangeNN(container, g2);
+m1.mapKeyToGroup("C2", "Default Group");
+f1.setForegroundPaint(new GradientPaint(1.0f, 2.0f, Color.blue, 3.0f,
+if ((y[0] != y[1]) && ((ycycleBound >= y[0])
+f1.setInnerRadius(0.11);
+// PROTECTED METHODS
+f1.setForegroundPaint(new GradientPaint(1.0f, 2.0f, Color.red,
+a1.setTickMarkStroke(new BasicStroke(2.0f));
+data.setObject("ABC", "R2", "C2");
+i1.setFrameAnchor(RectangleAnchor.TOP_LEFT);
+a1.setAngle(1.1);
+if (this.negativeItemLabelPositionMap != null) {
+m1.mapKeyToGroup("K2", null);
+a1 = new DialTextAnnotation("A1");
+i1.setTemplateValue(new Double(1.23));
+r1 = new DefaultDrawingSupplier(ps2A, ops2A, ss2A, oss2A, shapes1A);
+c1.setFillPaint(new GradientPaint(1.0f, 2.0f, Color.blue,
+assertEquals(data.getValue(0), new Double(1.0));
+i1.setValueAnchor(RectangleAnchor.BOTTOM_LEFT);
+if (item > 0) {
+DialCap cap1 = new DialCap();
+MyPlotChangeListener listener = new MyPlotChangeListener();
+tickVal = 0.0;        //change value to 0.0
+final double px1 = paint.getPoint1().getX();
+//        frame.setSize(600, 500);
+r1.setNegativePaint(new GradientPaint(1.0f, 2.0f, Color.yellow,
+p1.setView(0.2, 0.0, 0.8, 1.0);
+}
+p1.addLayer(new StandardDialScale());
+this.unit = unitTypeToInt(unitType);
+assertTrue(renderer.findDomainBounds(null) == null);
+return ResourceBundle.getBundle(baseName);
+double logUpper = calculateLog(upper);
+/** The tick label insets. */
+d.addSeries("S5", new double[][] {{1.0, 2.0, 1.5, 1.8}, {9.9, 9.9,
+r1.setOutlineStroke(s);
+// majorTickPaint
+cursor = midX - getColumnRadius();
+int tempWeek = calendar.get(Calendar.WEEK_OF_YEAR);
+// minorTickCount
+// 'stroke' : immutable, no need to clone reference
+range = renderer.findRangeBounds(null);
+// majorTickLength
+lineTo(areaState.area, transX1, transZero);
+// majorTickStroke
+if (noCodeBaseClassLoader != null) {
+t1.setLabelLinkStyle(PieLabelLinkStyle.STANDARD);
+r1.getNextOutlinePaint();
+r1.setSeriesVisible(Boolean.TRUE);
+r1.setBaseSeriesVisible(false);
+else if (isItemPass(pass)) {
+BarRenderer r1 = new BarRenderer();
+logFloor = Math.log(lower) / LOG10_VALUE;
+Segment segment = getSegment(baseSegment.getSegmentStart());
+return true;
+DialBackground b1 = new DialBackground();
+// --- Constants ---
+r1.setSeriesVisible(Boolean.TRUE);
+Rectangle2D interior = (Rectangle2D) area.clone();
+item1.setOutlinePaint(new GradientPaint(1.1f, 2.2f, Color.green, 3.3f,
+Rectangle2D labelEnclosure = getLabelEnclosure(g2, edge);
+Date d1 = new Date();
+Rectangle2D f = DialPlot.rectangleByRadius(frame, this.radius,
+r1.setBaseFillPaint(new GradientPaint(1.0f, 2.0f, Color.blue,
+g2.draw(poly);
+result = HashUtilities.hashCode(result, this.itemLabelsVisibleList);
+d.addSeries("S3", new double[][] {{0.0, 1.0}, {9.9, 9.9}});
+currentTickValue = Math.pow(10, i) + (Math.pow(10, i) * j);
+r1.setSeriesCreateEntities(0, Boolean.TRUE);
+if ((x[0] != x[1])
+m1.mapKeyToGroup("C3", "Default Group");
+TextTitle t = chart.getTitle();
+// baseShape
+r1.setBaseOutlineStroke(s);
+this.chart = chart;
+return true;
+drawBackground(g2, dataArea);
+result[1] = getSlope(xData, yData);
+if (renderer == null) {
+// baseItemLabelPaint
+this.tickUnit = (NumberTickUnit) candidate;
+assertEquals(ThermometerPlot.UNITS_FAHRENHEIT, p1.getUnits());
+segment.inc();
+// itemLabelPaintList
+String tickLabel;
+// baseItemLabelFont
+g2.draw(new Line2D.Double(xxMin, yymid, xxQ1, yymid));
+// baseItemLabelPaint
+if (renderer instanceof BarRenderer) {
+if (dataArea.getHeight() <= 0.0 || dataArea.getWidth() < 0.0) {
+r1.setCreateEntities(Boolean.TRUE);
+chart.addSubtitle(new TextTitle("Time to generate 1000 charts in SVG "
+// positiveItemLabelPositionList
+if (this.zoomPoint == null) {
+/**
+r1.setBaseOutlinePaint(new GradientPaint(1.0f, 2.0f, Color.blue,
+plot1.setInsets(new RectangleInsets(1.0, 2.0, 3.0, 4.0));
+r.setAutoPopulateSeriesPaint(true);
+r1.setBaseLegendShape(new Ellipse2D.Double(5.0, 6.0, 7.0, 8.0));
+detector.setNotified(false);
+r1.setLegendShape(0, new Ellipse2D.Double(1.0, 2.0, 3.0, 4.0));
+r1.setLegendTextFont(0, new Font("Dialog", Font.PLAIN, 7));
+/**
+r1.setBaseLegendTextFont(new Font("Dialog", Font.PLAIN, 7));
+detector.setNotified(false);
+}
+detector.setNotified(false);
+d.addSeries("S1", new double[][] {{}, {}});
+c2.removeSeries(s2);
+if (segment.contains(midSegment) || midSegment.contains(segment)) {
+c1.addSeries(s1);
+ParamChecks.nullNotPermitted(state, "state");
+d.addSeries("S5", new double[][] {{1.0, 2.0, 2.0, 2.0, 3.0}, {9.9, 9.9,
+d.addSeries("S4", new double[][] {{1.0, 2.0, 1.5}, {9.9, 9.9, 9.9}});
+s1.add(new SimpleTimePeriod(1500L, 3000L), 2.0);
+r1.setNegativeBarPaint(Color.cyan);
+// only add data in ascending order by x-value
+g1 = new LookupPaintScale(1.0, 2.0, new GradientPaint(1.0f, 2.0f,
+r1.setDrawYError(false);
+r1.setPositiveBarPaint(Color.cyan);
+double n = getRange().getLength()
+r1.setLastBarPaint(Color.cyan);
+r1.setFirstBarPaint(Color.cyan);
+BarRenderer br = new BarRenderer();
+r1.setFirstBarPaint(Color.yellow);
+new CategoryLabelPosition(
+double lowerVal = getRange().getLowerBound();
+HorizontalAlignment horizontalAlignment = getHorizontalAlignment();
+r1.setItemURLGenerator(new StandardCategoryURLGenerator());
+if (y2 >= 0.0) {
+r1.setDrawBarOutline(!r1.isDrawBarOutline());
+r1.setAutoWidthFactor(0.22);
+r1.setItemMargin(0.22);
+r1.setBaseCreateEntities(false);
+r1.setBase(0.123);
+r1.setMinimumBarLength(0.04);
+r1.setMaximumBarWidth(0.11);
+t1.setBarPainter(new StandardBarPainter());
+r1.setShadowVisible(false);
+assertNull(renderer.findRangeBounds(null));
+r1.setUseYInterval(!r1.getUseYInterval());
+assertNull(renderer.findRangeBounds(new DefaultTableXYDataset()));
+r1.setDrawBarOutline(!r1.isDrawBarOutline());
+r1.setBase(1.0);
+r1.setLegendBar(new Rectangle2D.Double(1.0, 2.0, 3.0, 4.0));
+r1.setMargin(0.10);
+list.clear();
+r1.setAutoWidthMethod(CandlestickRenderer.WIDTHMETHOD_SMALLEST);
+r1.setDrawOpenTicks(false);
+r1.setRoundXCoordinates(true);
+r1.setLegendLine(new Line2D.Double(1.0, 2.0, 3.0, 4.0));
+r1.setDrawXError(false);
+r1.setDrawCloseTicks(false);
+r1.setOpenTickPaint(Color.red);
+r1.setTickLength(99.9);
+r1.setCandleWidth(3.3);
+r1.setDrawVolume(false);
+Size2D s1 = arrangeNN(container, g2);
+r1.setDownPaint(new GradientPaint(5.0f, 6.0f, Color.green, 7.0f, 8.0f,
+r1.setUpPaint(new GradientPaint(1.0f, 2.0f, Color.red, 3.0f, 4.0f,
+r1.setBoxPaint(null);
+ItemLabelPosition position;
+item1.setLinePaint(new GradientPaint(0.1f, 0.2f, Color.green, 0.3f,
+item1.setFillPaintTransformer(new StandardGradientPaintTransformer(
+c[0] = 99.9;
+l1.setStripOutlineVisible(!l1.isStripOutlineVisible());
+* CombinedCategoryPlotDemo1.java
+r1.setAutoWidthGap(1.1);
+new CategoryLabelPosition(
+}
+Second s1 = new Second(new Date(1016729758999L), zone, locale);
+l1.setStripWidth(99.0);
+t1.setAxisOffset(new RectangleInsets(1, 2, 3, 4));
+r = renderer.findDomainBounds(dataset);
+XYDataset dataset = createDataset1();
+this.subplotArea = new Rectangle2D[n];
+r1.setBlockHeight(2.0);
+r1.setBlockWidth(2.0);
+r1.setPaintScale(new GrayPaintScale(0.0, 1.0));
+g1.setShapeOutlineVisible(!g1.isShapeOutlineVisible());
+l1.setStripOutlinePaint(new GradientPaint(1.0f, 2.0f, Color.red,
+l1.setStripOutlineStroke(new BasicStroke(1.1f));
+}
+new Line2D.Float(), new BasicStroke(), Color.black);
+return true;
+g1.setShapeAnchor(RectangleAnchor.BOTTOM_RIGHT);
+nf.setMinimumFractionDigits(2);
+g1.setLineStroke(new BasicStroke(1.23f));
+try {
+list1.clear();
+assertTrue(ko2.getObject("K1") == obj1);
+TickUnitSource tickUnits = getStandardTickUnits();
+boolean pass = false;
+result += lm.getHeight();
+boolean pass = false;
+v2.setValue(new Integer(2), "V2", "C1");
+d = new DefaultKeyedValues2D(true);
+assertTrue(ko2.getObject("K1") != obj1);
+boolean pass = false;
+v2.setValue(new Double(12.3));
+ko1.setObject("Key 2", "AAA");
+pass = false;
+pass = false;
+boolean pass = false;
+try {
+assertTrue(Double.isNaN(Statistics.calculateMedian(null, false)));
+r2 = Range.scale(r1, 1.0);
+boolean pass = false;
+pass = false;
+boolean pass = false;
+fail("Lower bound cannot be greater than the upper");
+r2 = Range.expand(r1, -0.8, -0.5);
+r2 = Range.expand(r1, 0.0, 0.0);
+m1.mapKeyToGroup("K2", "G2");
+DefaultIntervalCategoryDataset empty
+s1 = new MyComparableObjectSeries("B", false, true);
+s1.remove(new Integer(1));
+s1.add(new Integer(1), "ABC");
+Calendar cal = new GregorianCalendar(NO_DST_TIME_ZONE);
+boolean pass = false;
+m1.mapKeyToGroup("C4", "G1");
+assertEquals(1, m1.getGroupCount());
+i1.setTextAnchor(TextAnchor.TOP_LEFT);
+assertEquals(0, m1.getGroupIndex("Default Group"));
+m1.mapKeyToGroup("C1", "G1");
+m1.mapKeyToGroup("K3", "G3");
+boolean pass = false;
+assertEquals(-1, m1.getGroupIndex("G3"));
+boolean pass = false;
+m1.mapKeyToGroup("K1", "G2");
+assertTrue(false);
+Number[] values = new Number[] {new Double(1.0)};
+assertTrue(false);
+pass = false;
+boolean pass = false;
+pass = false;
+pass = false;
+boolean pass = false;
+assertNull(renderer.findRangeBounds(null));
+CategoryToPieDataset p1 = new CategoryToPieDataset(null,
+u1.addValue(3.0, "R1", "C3");
+v1.insertValue(2, "C", 3.0);
+}
+this(area, title, null);
+CategoryToPieDataset p1 = new CategoryToPieDataset(null,
+DefaultIntervalCategoryDataset empty1
+assertTrue(false);
+s1.add(2.0, 2.0, 1.4, 2.1);
+boolean pass = false;
+d.addValue(null, "R2", "C1");
+d.setValue(null, "R2", "C1");
+if (y0 >= 0.0) {
+pass = false;
+a1.setRotationAnchor(TextAnchor.BASELINE_RIGHT);
+assertTrue(false);
+Task sub1 = new Task("Sub1", new Date(11), new Date(111));
+Task taskB2 = new Task("Task 2", new SimpleTimePeriod(new Date(2220),
+assertTrue(false);
+assertTrue(false);
+r = DatasetUtilities.findRangeBounds(dataset, false);
+d1.addSeries("Series 2", new double[] {1.0, 2.0, 3.0}, 2);
+s1.add(1.0, 2.0, 1.5, 2.5);
+dataset.addValue(1.23, "R1", "C1");
+s2.add(1.0, 2.0, 1.9, 2.6);
+dataset.addValue(null, "R2", "C1");
+for (MouseHandlerFX handler: this.auxiliaryMouseHandlers) {
+s1.add(4.0, 6.0);
+TimeSeries s2 = new TimeSeries("S2");
+a1.setAdvanceLinePaint(new GradientPaint(1.0f, 2.0f, Color.red,
+d1.add(10.0, 20.0, "R1", "C1");
+s1.add(2.0, Double.NaN);
+s1.add(1.0, null);
+}
+Number min = DatasetUtilities.findMinimumStackedRangeValue(dataset);
+assertEquals(3, d2.getItemCount());
+}
+s1.add(3.0, Double.NaN);
+XYSeriesCollection dataset = new XYSeriesCollection();
+pass = false;
+pass = false;
+d.add(Double.NEGATIVE_INFINITY, 0.0, "R1", "C3");
+d = new TestIntervalCategoryDataset();
+}
+canvas.clearLiveHandler();
+XYSeries s2 = new XYSeries("B");
+assertNull(d.getRangeBounds(true));
+d.add(Double.NaN, 0.0, "R1", "C3");
+double outlineStrokeWidth = 1.0;
+cal.set(Calendar.YEAR, 2004);
+d.add(0.5, 2.0, "R1", "C2");
+boolean pass = false;
+result.setBaseTimeline(
+List values = new ArrayList();
+series.removeAgedItems(true);
+Number[] values = new Number[] {new Double(1.0)};
+assertTrue(Double.isNaN(Statistics.getStdDev(new Double[]
+boolean pass = false;
+values.add(new Double(9.0));
+List values = new ArrayList();
+values = new ArrayList();
+pass = false;
+values.add(new Double(9.0));
+list.add(null);
+refreshTicks(g2, state, plotArea, edge);
+List list = new ArrayList();
+}
+TimeSeries result3 = series.createCopy(
+this.gotSeriesChangeEvent = false;
+TimeSeries result2 = series.createCopy(
+result1 = series.createCopy(4, 4);
+r1.setCapLength(9.0);
+TimeSeries result1 = series.createCopy(0, 0);
+result1 = series.createCopy(0, 1);
+result1 = series.createCopy(3, 4);
+a1.setRotationAngle(12.3);
+assertTrue(Double.isNaN(Statistics.calculateMean(new Number[0])));
+tickLabel = ((this.expTickLabelsFlag && j < 2)
+overwritten.setValue(null);
+subplot.setParent(this);
+boolean pass = false;
+boolean pass = false;
+this.numberFormatterObj
+= (TimeSeriesDataItem) this.data.get(index);
+series.add(new Year(1999), 1.0);
+series.setMaximumItemAge(10);
+* The number of minor ticks per major tick unit.  This is an override
+s1.add(new Year(2012), 1.0);
+boolean pass = false;
+upper = (this.autoRangeNextLogFlag) ? computeLogCeil(upper)
+assertEquals(100.0, s.getMinY(), EPSILON);
+series.setMaximumItemAge(2);
+Hour h = Hour.parseHour("2002-01-29 13");
+lower = r.getLowerBound();    //use data range bound instead
+ts.add(new Year(2016), null);
+try {
+None
+s1.setDomainDescription("XYZ");
+s1.setRangeDescription("XYZ");
+boolean pass = false;
+try {
+s1.add(new SimpleTimePeriod(4000L, 5000L), 1.4);
+TimePeriodValuesCollection dataset = new TimePeriodValuesCollection();
+s1.setRangeDescription("XYZ");
+TimeZone.setDefault(saved);
+int n = this.subplots.size();
+assertEquals(Calendar.SUNDAY, cal.getFirstDayOfWeek());
+Day tomorrow = (Day) today.next();
+s1.add(new SimpleTimePeriod(6000L, 7000L), 1.5);
+Day today = new Day();
+boolean pass = false;
+assertEquals(Calendar.MONDAY, cal.getFirstDayOfWeek());
+c1.removeSeries(s2);
+boolean b1 = c1.equals(c2);
+c2.addSeries(s1);
+g1.setShapeVisible(!g1.isShapeVisible());
+assertEquals(0, d.getItemCount());
+assertEquals(7, maverage.getItemCount());
+FontMetrics fm = g2.getFontMetrics(getTickLabelFont());
+if (size > 0) {
+XYSeries s2 = new XYSeries("Series 2", true, false);
+assertEquals(2.75, d1.getStartXValue(0, 0), EPSILON);
+// --- Constants ---
+this.chart = (JFreeChart) chart.clone();
+if (this.autoRangeNextLogFlag) {
+XYSeries s1 = new XYSeries("A");
+OHLCSeries s1 = new OHLCSeries("Series");
+float midX = (float) (minX + (plotArea.getWidth() * 0.5));
+None
+boolean pass = false;
+ValueAxis rangeAxis = result.getRangeAxis();
+d.addSeries("S1", new double[][] {{11.0}, {12.0}});
+item1 = new XYIntervalDataItem(1.1, 0.55, 1.55, 2.0, 1.9, 2.1);
+XYSeries series1 = new XYSeries("A");
+try {
+}
+double expVal = Math.log(upper) / LOG10_VALUE;
+boolean pass = false;
+dataset.removeSeries(1);
+boolean pass = false;
+else {
+item1 = new XYIntervalDataItem(1.1, 0.55, 1.5, 2.0, 1.9, 2.1);
+item1 = new XYIntervalDataItem(1.1, 0.55, 1.55, 2.2, 1.99, 2.11);
+item1 = new XYIntervalDataItem(1.1, 0.55, 1.55, 2.2, 1.99, 2.1);
+assertEquals(6, dataset.getItemCount());
+for (int i = 0; i < this.data.size(); i++) {
+dataset.removeSeries(series1);
+series2.add(7, 2);
+assertEquals(7, dataset.getItemCount());
+DefaultTableXYDataset dataset = new DefaultTableXYDataset(true);
+assertEquals(4, dataset.getItemCount());
+double arcX = pieArea.getX();
+// WITHOUT AUTOPRUNING
+DefaultTableXYDataset dataset2 = new DefaultTableXYDataset(true);
+}
+if (theme instanceof StandardChartTheme) {
+if (!(this.stroke instanceof BasicStroke)) {
+// TOOL TIP GENERATOR
+a1.setTextAnchor(TextAnchor.BASELINE_RIGHT);
+units.add(new DateTickUnit(DateTickUnitType.MILLISECOND, 1, f1));
+Area side1 = new Area(new Rectangle2D.Double(
+//  range = this.rangeAxis.getRange().getLength();
+if (isAngleAtFront(start)) {  // segment starts at the front
+if ((this.maximumRangeValueRow == r && this.maximumRangeValueColumn
+Paint itemPaint = renderer.getItemPaint(row, column);
+None
+KeyedObjects ko1 = new KeyedObjects();
+}
+if (isCircular()) {
+Arc2D upperArc;
+// PROTECTED METHODS
+Iterator iterator = this.data.iterator();
+None
+volumeWidth = this.candleWidth;
+r1.setErrorPaint(new GradientPaint(1.0f, 2.0f, Color.red, 3.0f, 4.0f,
+r1.setPositivePaint(new GradientPaint(1.0f, 2.0f, Color.red,
+this.maximumItemCount = nMoments;  // establishes length of each array
+if (drawBack) {
+if (!this.notify) {
+r1.setErrorStroke(new BasicStroke(1.5f));
+// TOOL TIP GENERATOR
+/* line visible */ false, UNUSED_SHAPE, UNUSED_STROKE,
+l_intersectX = new Double(l_x2);
+double oRadius = state.getBarWidth() / 3;    // outlier radius
+double l_x1 = 0.0, l_y1 = 0.0; // current minuend point
+/**
+if (getPlotArea() && item > 0 && item == (itemCount - 1)) {
+Range xRange = null;
+None
+t1.setLabelLinkPaint(new GradientPaint(4f, 3f, Color.red, 2f, 9f, Color.blue));
+r1.setSeriesPaint(0, new GradientPaint(1.0f, 2.0f, Color.red,
+this.subplotArea = new Rectangle2D[n];
+return chart;
+* Returns the paint used to draw an item label.
+r1.setItemLabelGenerator(new StandardCategoryItemLabelGenerator());
+SWTTitleEditor.this.titleColor = new Color(
+BasicStroke s = new BasicStroke(1.23f);
+/** The standard tick units for the axis. */
+Paint result = getSectionPaint();
+// PROTECTED METHODS
+plot1.setQuadrantOrigin(new Point2D.Double(12.3, 45.6));
+CategoryAxis domainAxisA = p2.getDomainAxis(0);
+p1.setBackground(new DialBackground(Color.green));
+double mid = getStartAngle() + (getDirection().getFactor()
+/* Number start = */ tsc.getStartValue(0, 3);
+plot1.addRangeMarker(new ValueMarker(4.0), Layer.FOREGROUND);
+assertEquals(d1.getUnderlyingDataset(), d2.getUnderlyingDataset());
+// check handling of null key
+if (autoPopulate) {
+XYSeries s2 = new XYSeries("s1");
+return this.sectionPaintMap.getPaint(key);
+double lm = 0.0;
+plot1.addRangeMarker(1, new ValueMarker(4.0), Layer.FOREGROUND);
+setAxisLocation(0, location, true);
+a1.setRotationAnchor(TextAnchor.BOTTOM_LEFT);
+ValueAxis axis = getRangeAxis();
+None
+a1.setRotationAngle(Math.PI);
+}
+double sourceX = source.getX();
+= getLegendItemToolTipGenerator().generateLabel(
+if (result == null) {
+r1.addChangeListener(detector);
+this.mondayFridayTimeline
+Calendar cal = new GregorianCalendar(
+}
+r1.getNextStroke();
+// PROTECTED METHODS
+container.add(new EmptyBlock(123.4, 567.8));
+/**
+t1.setExpandToFitSpace(!t1.getExpandToFitSpace());
+a1.setCategory1("Category A");
+/**
+/**
+r1.setBasePaint(new GradientPaint(1.0f, 2.0f, Color.blue,
+a1.setCategory2("Category B");
+a1.setValue2(0.25);
+double xx0 = domainAxis.getCategoryStart(column, getColumnCount(),
+if (y0 >= 0.0) {
+g1 = new StandardXYZToolTipGenerator(f2, xdf2, ydf2, zdf1);
+t1.setMargin(new RectangleInsets(1.0, 2.0, 3.0, 4.0));
+double x1 = domainAxis.getCategoryMiddle(column, getColumnCount(),
+low = Math.max(low, dataArea.getMinX());
+g1 = new StandardXYZToolTipGenerator(f2, xdf2, ydf2, zdf2);
+s1.setDomainDescription("XYZ");
+double space;
+FontMetrics fm = g2.getFontMetrics(this.font);
+None
+CategoryPlot plot = (CategoryPlot) chart.getPlot();
+// PROTECTED METHODS
+r1 = new XYDifferenceRenderer(Color.green, Color.yellow, true);
+boolean hZoom, vZoom;
+}
+* This method is required by the {@link Zoomable} interface, but since
+/** The tick unit for the axis. */
+return result;
+* @see org.jfree.chart.axis.LogarithmicAxis#switchedLog10(double)
+* @see org.jfree.chart.axis.LogarithmicAxis#switchedLog10(double)
+plot1.setIgnoreZeroValues(true);
+r1.setOpenTickPaint(Color.red);
+Object[] listeners = this.chartMouseListeners.getListeners(
+BarRenderer renderer = (BarRenderer) plot.getRenderer();
+/** The minimum distance required to drag the mouse to trigger a zoom. */
+itemsInRow.clear();
+double h = constraint.getHeightRange().constrain(
+itemsInColumn.clear();
+"Milliseconds" /* y-axis label */, dataset);
+plot.setSectionPaint("Others", createGradientPaint(new Color(200, 200, 255), Color.BLUE));
+/**
+if (displayCols > displayRows && area.getWidth() < area.getHeight()) {
+for (CategoryItemRenderer renderer : this.renderers.values()) {
+if ((series >= 0) && (series < this.seriesNeedle.length)) {
+Rectangle2D fb = this.insets.createOutsetRectangle(bounds);
+int low = 0;
+try {
+double rectY = calculateBarW0(plot, PlotOrientation.HORIZONTAL,
+ValueAxis axis = plot.getDomainAxis();
+if (isDrawBarOutline()
+if (!isSeriesVisible(series) || !isSeriesVisibleInLegend(series)) {
+Point2D anchorPoint = calculateLabelAnchorPoint(
+g2.setPaint(Color.lightGray);
+boolean b_fastForwardDone = false;
+l_x1 = x_dataset.getXValue(0, l_minuendItem);
+return result;
+// visible before drawing it...
+d1.setValue("Item 1", 1.0);
+return itemIndex % getColumnsCount();
+if (this.chart == null) {
+this.chartBuffer = (org.eclipse.swt.graphics.Image)
+NumberAxis axis2 = new NumberAxis("Range Axis 2");
+int low = 0;
+g1.setShapeFilled(!g1.isShapeFilled());
+plot1.setDomainAxis(new CategoryAxis("Category Axis"));
+t1.setItemLabelPaint(new GradientPaint(2f, 5f, Color.gray, 1f, 2f, Color.blue));
+Stroke s = new BasicStroke(1.1f);
+plot1.setSectionDepth(0.12);
+// but we can still skip any initial values that fall outside the
+plot1.setRangeAxis(new NumberAxis("Range Axis"));
+t1.setExtraLargeFont(new Font("Dialog", Font.PLAIN, 21));
+plot1.setRenderer(new AreaRenderer());
+double xx1 = domainAxis.getCategoryMiddle(column, getColumnCount(),
+t1.setLargeFont(new Font("Dialog", Font.PLAIN, 19));
+if (seriesKeys != null) {
+t1.setRegularFont(new Font("Dialog", Font.PLAIN, 17));
+this.lastEvent = null;
+t1.setTitlePaint(new GradientPaint(0f, 1f, Color.red, 2f, 3f, Color.blue));
+}
+plot1.setAnchorValue(100.0);
+a1.setTickMarksVisible(false);
+None
+plot1.setTickLabelFont(new Font("Serif", Font.PLAIN, 6));
+if (this.chart.getAntiAlias()) {
+plot1.setRangeCrosshairPaint(new GradientPaint(1.0f, 2.0f, Color.white,
+double oRadius = state.getBarWidth() / 3;    // outlier radius
+//// FILL PAINT /////////////////////////////////////////////////////////
+/**
+//FIXME we should really assert a value
+}
+int rendererCount = plot.getRendererCount();
+RectangleEdge domainEdge = Plot.resolveDomainAxisLocation(
+int[] xs;
+plot1.addRangeMarker(new ValueMarker(4.0), Layer.FOREGROUND);
+chart.setBackgroundPaint(new GradientPaint(new Point(0, 0),
+int rangeAxisCount = plot.getRangeAxisCount();
+Color.black);
+/* line visible */ false, UNUSED_SHAPE, UNUSED_STROKE,
+}
+t1.setSubtitlePaint(new GradientPaint(1f, 2f, Color.red, 3f, 4f, Color.blue));
+CategoryAxis domainAxis = getDomainAxis(plot, rendererIndex);
+// --- Constants ---
+// --- Constants ---
+/** Zoom in command string. */
+int domainAxisCount = plot.getDomainAxisCount();
+boolean cyclenow = false;
+if (row < dataset.getRowCount() - 1) {
+// --- Constants ---
+}
+if (title != null) {
+this.backgroundPaint = null;
+Iterator iter = plot.getAnnotations().iterator();
+else if (command.equals(ZOOM_IN_BOTH_COMMAND)) {
+if (renderer instanceof LineRenderer3D) {
+if (renderer instanceof BarRenderer) {
+}
+this.renderingHints.put(RenderingHints.KEY_STROKE_CONTROL,
+if (plot.getAutoPopulateSectionPaint()) {
+if (notify) {
+Rectangle2D nonTitleArea = new Rectangle2D.Double();
+Shape savedClip = g2.getClip();
+if (p instanceof GradientPaint) {
+boolean notifyState = plot.isNotify();
+/** The stroke used to draw the chart border (if visible). */
+}
+logo = temp.getImage();
+setLicenceName("LGPL");
+return true;
+None
+if (this.polygon.length < 4) {
+* Provides serialization support.
+JFreeChart chart = new JFreeChart("CombinedXYPlotDemo1",
+}
+IntervalXYDataset data2 = createDataset2();
+IntervalXYDataset data1 = createDataset1();
+Shape s = null;
+Rectangle2D bounds = this.shape.getBounds2D();
+if (adjEnd <= adjStart) {
+return result;
+for (int j = 0; j < 10; ++j) {
+if (this.horizontalAxisTrace || this.verticalAxisTrace) {
+NumberAxis axis4 = new NumberAxis("Range Axis 4");
+else {
+result = trans(v, area, edge);
+double candidateWidth = exponentLengthToJava2D(candidate.getSize(),
+FontRenderContext frc = g2.getFontRenderContext();
+}
+clone.plot = null;
+double dimension = getFixedDimension();
+double cutoff = (this.displayStart + this.displayEnd) / 2.0;
+}
+if (lower > 0.0) {   //parameter value is > 0
+int iEndCount = (int) Math.rint(switchedLog10(upperBoundVal));
+int categoryIndex = getCategoryIndex(category);
+}
+double tickMarkSpace = 0.0;
+Rectangle2D bb = TextUtilities.getTextBounds(label, g2,
+r1.setLegendTextPaint(0, new GradientPaint(1.0f, 2.0f, Color.blue,
+double delta1 = 0.0;
+if (this.minorTickMarksVisible) {
+if (edge == RectangleEdge.BOTTOM) {
+if (!this.autoRange && !ObjectUtilities.equal(this.range, that.range)) {
+double tickLabelHeight = 0.0;
+double used = 0.0;
+* Draws the label for one axis.
+}
+logCeil = Math.ceil(-logCeil);
+if (lower > 10.0) {   //parameter value is > 10
+double lowerBoundVal = range.getLowerBound();
+logFloor = Math.floor(lower);   //use as-is
+None
+((DecimalFormat) this.numberFormatterObj).applyPattern(
+logFloor = Math.floor(-logFloor);
+}
+r = getDefaultAutoRange();
+double adjVal = (absUpper > SMALL_LOG_VALUE) ? absUpper
+lower = r.getLowerBound();    //get lower bound value
+final double lowerMargin;
+throw new RuntimeException("Values less than or equal to "
+None
+tickLabel = "";
+tickLabel = makeTickLabel(currentTickValue, true);
+tickLabel = this.numberFormatterObj.format(
+if (this.smallLogFlag) {
+if (upper - lower < minRange) {
+NumberFormat format
+if (this.expTickLabelsFlag) {
+currentTickValue = 0.0;     //set tick value to zero
+currentTickValue = Math.pow(10, i) + (Math.pow(10, i) * j);
+if (Math.abs(currentTickValue - 1.0) < 0.0001
+None
+int jEndCount = 10;
+TextAnchor anchor;
+None
+this.numberFormatterObj
+tickLabel = "10^" + i;   //create "log10"-type label
+}
+detector.setNotified(false);
+}
+Date maxDate = getMaximumDate();
+}     //calculate power-of-ten value for tick:
+if (this.log10TickLabelsFlag) {
+}
+units.add(new DateTickUnit(DateTickUnitType.MILLISECOND, 1, f1));
+None
+ticks.add(new NumberTick(new Double(tickVal), tickLabel,
+}
+None
+DateFormat f1 = new SimpleDateFormat("HH:mm:ss.SSS", locale);
+if (!(range instanceof DateRange)) {
+tickLabel = "10^" + i;   //create "log10"-type label
+return this.numberFormatterObj.format(val).toLowerCase();
+Date minDate = getMinimumDate();
+String baseResourceClass
+if (this.backgroundPaint != null) {
+double guess = (tickLabelWidth / unit1Width) * unit1.getSize();
+List ticks = refreshTicks(g2, state, dataArea, edge);
+units.add(new DateTickUnit(DateTickUnitType.DAY, 1,
+units.add(new DateTickUnit(DateTickUnitType.MINUTE, 1,
+r = new DateRange((
+units.add(new DateTickUnit(DateTickUnitType.YEAR, 1,
+units.add(new DateTickUnit(DateTickUnitType.MONTH, 1,
+units.add(new DateTickUnit(DateTickUnitType.HOUR, 1,
+DateTickUnit finalUnit;
+if (!hasRolled) {
+return clone;
+}
+if (this.dateFormatOverride != null) {
+if (info != null) {
+while (!done) {
+Plot plot = chart.getPlot();
+if (result == null) {
+if (result == null) {
+}
+Segment baseSegment = this.baseTimeline.getSegment(fromBaseDomainValue);
+int offset = TimeZone.getDefault().getRawOffset();
+// PROTECTED METHODS
+// PROTECTED METHODS
+// PROTECTED METHODS
+for (int i = 0; i < exceptionSegmentCount; i++) {
+if (dataset.getRowCount() - 1 == row) {
+// PROTECTED METHODS
+if (baseTimeline != null) {
+Segment result = new Segment(this.startTime + timelineValue
+long fromDomainValue = segment.getSegmentStart();
+while (lastIndex <= result.segmentStart) {
+while (result.inExceptionSegments() || result.inExcludeSegments()) {
+long exceptionSegmentCount;
+addException(fromDomainValue, toDomainValue);
+r.setAutoPopulateSeriesPaint(false);
+= this.segmentStart + SegmentedTimeline.this.segmentSize - 1;
+while (baseSegment.getSegmentStart() <= toBaseDomainValue) {
+Segment segment = getSegment(baseSegment.getSegmentStart());
+baseSegment.inc(this.baseTimeline.getGroupSegmentCount());
+if ((lastTick != null) && (lastX == x)
+// this assumes that there is a 3D renderer, all this 3D effect is a
+EntityBlockParams ebp = null;
+if (edge == RectangleEdge.TOP) {
+p1.setSeriesOutlinePaint(new GradientPaint(1.0f, 2.0f, Color.blue,
+this.axis.refreshTicks(g2, new AxisState(), colorBarArea, edge);
+// attribute, because we should extend the non-base end of the bar
+g2.setPaint(this.artifactPaint);
+}
+/** The amount of blank space around the colorbar. */
+previousDrawnTickLabelPos = xx;
+/** The list of symbols to display instead of the numeric values. */
+double upper = this.symbols.size() - 1;
+this.centerBlock = block;
+double upperMargin = 0.5;
+dim = bounds.getHeight();
+List yOutliers = bawDataset.getOutliers(row, column);
+sg2.drawImage(this.chartBuffer, 0, 0);
+transY1 = restrictValueToDataArea(transY1, plot, dataArea);
+this.clip = this.transform.createTransformedShape(shape);
+block.setBounds(
+return arrangeNR(container, g2, constraint);
+if (this.verticalAlignment == VerticalAlignment.CENTER) {
+}
+if (this.displayToolTips) {
+if (h == LengthConstraintType.NONE) {
+// no information needs to be recorded here
+None
+double t = this.insets.calculateTopInset(area.getHeight());
+}
+return arrangeRF(container, g2, constraint);
+return arrangeFN(container, g2, constraint);
+if (w <= 0.0 || h <= 0.0) {
+if ((l_x3 < l_x1) && (l_x1 < l_x4)) {
+block.setBounds(
+a1.setAutoRange(true);
+plot.setLabelFont(new Font("Courier New", Font.BOLD, 20));
+super.actionPerformed(event);
+TextTitle source = new TextTitle("Source: http://www.bbc.co.uk/news/business-15489523",
+this.tickLabelInsets = axis.getTickLabelInsets();
+if (axis instanceof NumberAxis) {
+JPanel panel = new JPanel(new BorderLayout());
+this.series = dataset.getRowIndex(rowKey);
+return x1 + "," + y1 + "," + x2 + "," + y2;
+}
+this.series = this.dataset.getRowIndex(rowKey);
+/** The Title for the entity. */
+if (this.domainAxisPropertyPanel != null) {
+if (this.categoryIndex != that.categoryIndex) {
+this.series = this.dataset.getRowIndex(rowKey);
+Plot parent = getParent();
+clone.shape = ShapeUtilities.clone(this.shape);
+if (x2 == x1) {
+None
+p1.setBaseSeriesPaint(new GradientPaint(1.0f, 2.0f, Color.red,
+if (info != null) {
+None
+renderer.setAutoPopulateSeriesStroke(false);
+}
+// new entity code...
+return " href=\"" + urlText + "\"";
+if (this.panLast != null) {
+else if (this.zoomRectangle == null) {
+getTransform().setToRotation(angle, rotate.getX(), rotate.getY());
+return super.equals(obj);
+if (line.getX1() == line.getX2()) {  // vertical
+int maxY = (int) (plotArea.getMaxY());
+}
+x = (line.getX1() + line.getX2()) / 2.0;
+getTransform().setToRotation(angle, rotate.getX(), rotate.getY());
+ValueAxis axis = getRangeAxis();
+ValueAxis axis = getRangeAxis();
+setFixedDomainAxisSpaceForSubplots(space);
+if (orientation == PlotOrientation.VERTICAL) {
+* Creates a new instance with no dataset.
+ValueAxis rangeAxis = getRangeAxis();
+double maximumExplodePercent = getMaximumExplodePercent();
+for (int i = 0; i < this.subplots.size(); i++) {
+double hh = linkW * getLabelLinkMargin();
+PieDataset dataset = getDataset();
+}
+Rectangle2D linkAreaXX = new Rectangle2D.Double(linkX, linkY, linkW,
+if (dataset.getKeys().size() > plotArea.getWidth()) {
+* This method is required by the {@link Zoomable} interface, but since
+}
+if (drawBack) {
+Area side1 = new Area(new Rectangle2D.Double(
+if (!isAngleAtBack(end)) {
+xs = new int[] {(int) arc.getCenterX(), (int) arc.getCenterX(),
+if (extent < 0.0) {
+cat = 0;
+Area side1 = new Area(new Rectangle2D.Double(
+if (!isAngleAtFront(end)) {
+if (extent < 180.0) {  // segment only occupies the front
+if (drawBack) {
+if (drawBack) {
+if (drawFront) {
+None
+if (!b_impliedZeroSubtrahend && !b_subtrahendDone
+setRangeCrosshairValue(crosshairState.getCrosshairY(), false);
+setDomainCrosshairValue(crosshairState.getCrosshairX(), false);
+ratio *= -1.0;
+if (w * ratio <= h) {
+drawBackground(g2, dataArea);
+double x1 = dataset.getXValue(series, item);
+if (!isAngleAtBack(end)) {  // and finishes at the front
+crosshairState.updateCrosshairX(transX);
+crosshairState.updateCrosshairY(transY);
+transY = verticalAxis.valueToJava2D(y[k], dataArea,
+clone.intervals = new java.util.ArrayList(this.intervals);
+p1.setSeriesPaint(new GradientPaint(1.0f, 2.0f, Color.red,
+if (i == 0) {
+ValueDataset data = getDataset();
+this.urlGenerator = urlGenerator;
+= StandardXYToolTipGenerator.getTimeSeriesInstance();
+if (this.drawBorder) {
+}
+}
+double java2D = 0.0;
+if (isCircular()) { // is circular?
+datasetChanged(new DatasetChangeEvent(this, dataset));
+if ((l_x1 == l_x3) && (l_y1 == l_y3)) {
+setSeriesShapesFilled(series, BooleanUtilities.valueOf(filled));
+NumberAxis axis3 = new NumberAxis("Range Axis 3");
+else {
+if (info != null) {
+for (int i = 0; i < this.subplots.size(); i++) {
+if (!isAngleAtFront(end)) {
+return super.getDataRange(axis);
+startX += (major - minor) / 2;
+result = this.sectionOutlineStrokeMap.getStroke(key);
+Ellipse2D waferEdge = getWaferEdge(plotArea);
+if (plotArea.getWidth() != plotArea.getHeight()) {
+Paint seriesFillPaint = getSeriesFillPaint(series);
+diameter = minor;
+if (plotArea.getWidth() == minor) { // x is minor
+Arc2D notch;
+/**
+/**
+p1.setSeriesPaint(new GradientPaint(1.0f, 2.0f, Color.red,
+int cat = 0;
+DefaultKeyedValues leftKeys = new DefaultKeyedValues();
+l_minuendXs.clear();
+None
+this.labelDistributor.clear();
+if (this.labelGenerator != null) {
+return true;
+this.labelDistributor.distributeLabels(plotArea.getMinY() + gap,
+new Line2D.Float(), new BasicStroke(), Color.black);
+if (paint instanceof RadialGradientPaint) {
+double depth = this.sectionDepth / 2.0;
+ValueAxis vva = getRangeAxis();
+ValueAxis rangeAxis = result.getRangeAxis();
+XYPlot subplot = findSubplot(state, source);
+p1.setShowValueLines(true);
+for (int c = 0; c < this.dataset.getColumnCount(); c++) {
+for (int i = 0; i < piedataset.getItemCount(); i++) {
+Arc2D.Double arc2 = new Arc2D.Double(innerArcBounds, angle1
+int displayCols = (int) Math.ceil(Math.sqrt(pieCount));
+if (state.getInfo() != null) {
+for (int r = 0; r < this.dataset.getRowCount(); r++) {
+* (C) Copyright 2000-2013, by Object Refinery Limited and Contributors.
+this.domainAxes = new HashMap<Integer, CategoryAxis>();
+* Returns <code>true</code> if an item label is visible, and
+/**
+for (int i = 0; i < dataset.getColumnCount(); i++) {
+Shape savedClip = g2.getClip();
+Integer axisIndex = (Integer) axisIndices.get(0);
+for (CategoryAxis xAxis : this.domainAxes.values()) {
+for (CategoryDataset dataset: this.datasets.values()) {
+if (getRenderer() != null) {
+crosshairState.setAnchorX(Double.NaN);
+if (this.fixedRangeAxisSpace != null) {
+for (CategoryAxis xAxis : this.domainAxes.values()) {
+boolean foundData = false;
+Composite originalComposite = g2.getComposite();
+if (isOutlineVisible()) {
+List<Integer> rendererIndices = getRendererIndices(order);
+Iterator iterator = this.annotations.iterator();
+Iterator iterator = mappedDatasets.iterator();
+cursor = dataArea.getMaxY()
+cursor = dataArea.getMinX()
+for (ValueAxis yAxis : this.rangeAxes.values()) {
+cursor = dataArea.getMaxX()
+try {
+* This method is required by the {@link Zoomable} interface, but since
+}
+if (!isRangeGridlinesVisible() && !isRangeMinorGridlinesVisible()) {
+r1 = new DefaultDrawingSupplier(ps2A, ops2A, ss2A, oss1A, shapes1A);
+clone.domainAxisLocations = new HashMap<Integer, AxisLocation>(
+fillBackground(g2, area);
+zoomRangeAxes(factor, state, source, false);
+/** The alignment for the background image. */
+p1.setHeadPercent(0.321);
+result[0] = new Rectangle2D.Double(-delta, -delta, size, size);
+try {
+PlotOrientation orientation = plot.getOrientation();
+plot1.setBaseSectionPaint(new GradientPaint(1.0f, 2.0f, Color.black,
+clone.datasets = (ObjectList) ObjectUtilities.clone(this.datasets);
+* Represents state information that applies to a single rendering of
+double offset = this.angleOffset;
+if (isRadiusGridlinesVisible()) {
+Shape originalClip = g2.getClip();
+int i;
+result[6] = new Ellipse2D.Double(-delta, -delta / 2, size, size / 2);
+result[4] = new Rectangle2D.Double(-delta, -delta / 2, size, size / 2);
+xpoints = intArray(0.0, delta, -delta);
+xpoints = intArray(-delta, delta, -delta);
+drawLine(g2, state.workingLine, transY0, transX0, transY1,
+xpoints = intArray(-delta, delta, delta);
+result[8] = new Rectangle2D.Double(-delta / 2, -delta, size / 2, size);
+Paint seriesPaint = getSeriesPaint(series);
+// Finds our starting angle from the centre for this axis
+c1.add(new LegendItem("X"));
+/**
+for (int cat = 0; cat < catCount; cat++) {
+for (int cat = 0; cat < catCount; cat++) {
+for (int series = 0; series < seriesCount; series++) {
+Line2D  line = new Line2D.Double(centre, endPoint);
+Point2D point = getWebPoint(plotArea, angle,
+shapeOutlined, outlinePaint, outlineStroke,
+double angle = getStartAngle()
+xpoints = intArray(-delta, +delta, 0.0);
+result[1] = new Ellipse2D.Double(-delta, -delta, size, size);
+xpoints = intArray(0.0, delta, 0.0, -delta);
+boolean isChartInUserList = false;
+ValueAxis hva = getDomainAxis();
+Paint paint = getSeriesPaint(series);
+ValueAxis yAxis = getRangeAxisForDataset(datasetIndex);
+Paint paint = getSeriesPaint(series);
+java.awt.event.MouseEvent mouseEvent = SWTUtils.toAwtMouseEvent(event);
+for (ValueAxis axis: this.domainAxes.values()) {
+this.domainAxes = new HashMap<Integer, ValueAxis>();
+this.maxZ = maxZtmp - minZtmp + 1;
+label = this.labelGenerator.generateColumnLabel(this.dataset, cat);
+if (this.webFilled) {
+if (this.stepped) {
+for (int i = 0; i < this.datasets.length; ++i) {
+}
+else {
+for (ValueAxis axis: this.rangeAxes.values()) {
+int domainIndex = getDomainAxisIndex(axis);
+for (int pass = 0; pass < passCount; pass++) {
+for (int i : rendererIndices) {
+innerRadius = radius - 42;
+for (int pass = 0; pass < passCount; pass++) {
+for (int i : rendererIndices) {
+for (int datasetIndex : datasetIndices) {
+return foundData;
+return;
+}
+return;
+Title t1 = new TextTitle();
+if (event.getSeriesVisibilityChanged()) {
+clone.listenerList = new EventListenerList();
+for (int w = 0; w < 360; w += 90) {
+ValueDataset existing = this.dataset;
+if (this.shapesVisible) {
+this.textAlignment = horizontalAlignment;
+int rangeIndex = getRangeAxisIndex(axis);
+for (ValueAxis xAxis : this.domainAxes.values()) {
+for (ValueAxis axis : this.domainAxes.values()) {
+g1.setLineVisible(!g1.isLineVisible());
+int transX = (int) this.domainAxis.valueToJava2D(x, dataArea,
+this.calendar = new GregorianCalendar();
+assertFalse(t1.equals(t2));
+metrics = g2.getFontMetrics();
+None
+this.rangeAxis.removeChangeListener(this);
+if (this.cap != null && this.cap.isVisible()) {
+g2.setFont(this.valueFont);
+double value = this.subrangeInfo[NORMAL][RANGE_LOW];
+/**
+if ((this.rangeAxis != null) && (this.axisLocation != NONE)) {
+value = this.subrangeInfo[WARNING][RANGE_LOW];
+value = this.subrangeInfo[CRITICAL][RANGE_LOW];
+plot1.setPieIndex(99);
+if (this.subrangeIndicatorsVisible) {
+g2.setStroke(this.thermometerStroke);
+g2.setStroke(this.outlineStroke);
+g2.setPaint(lookupSeriesOutlinePaint(seriesIndex));
+String s = this.formatter.format(this.templateValue);
+result.setToolTipText(toolTipText);
+t1.setURLText(("URL"));
+Shape savedClip = g2.getClip();
+textBounds.setRect(x + adjust[0], y + adjust[1] + adjust[2],
+iterator = this.pointers.iterator();
+if (this.drawBorder) {
+Rectangle2D frame = viewToFrame(area);
+if (this.minorTickCount > 0 && this.minorTickLength > 0.0) {
+Stroke result = getSeriesOutlineStroke(series);
+int row = getRowIndex(rowKey);
+/**
+ItemLabelPosition position
+/**
+Shape result = getSeriesShape(series);
+ItemLabelPosition position = (ItemLabelPosition)
+/**
+List keys = source.getKeys();
+/**
+/**
+Boolean b = this.itemLabelsVisibleList.getBoolean(series);
+/**
+if (this.paintList != null) {
+/**
+// 'outlineStroke' : immutable, no need to clone reference
+if (this.outlinePaintList != null) {
+if (this.strokeList != null) {
+if (this.fillPaintList != null) {
+double x = dataset.getXValue(series, index);
+// 'negativeItemLabelAnchor' : immutable, no need to clone reference
+None
+if (this.shape != null) {
+// 'itemLabelPaint' : immutable, no need to clone reference
+result = HashUtilities.hashCode(result, this.itemLabelsVisibleList);
+Map.Entry entry =  (Map.Entry) i.next();
+if (this.positiveItemLabelPositionMap != null) {
+if (this.itemLabelPaintList != null) {
+if (this.itemLabelFontMap != null) {
+if (this.itemLabelsVisibleList != null) {
+if (this.createEntitiesList != null) {
+for (Iterator i = uniqueValues.iterator(); i.hasNext();) {
+updated = this.outlierLists.add(new OutlierList(outlier));
+/**
+if (this.outlineStrokeList != null) {
+this.listenerList = new EventListenerList();
+PaintItem item = (PaintItem) this.lookupTable.get(0);
+/**
+return high;
+/**
+switch (this.paintIndexMethod) {
+CategoryPlot cp = getPlot();
+if (this.shapesFilled != null) {
+None
+int low = 0;
+transY1 = (float) rangeAxis.valueToJava2D(y1 + stack1[0], dataArea,
+double xxLeft = xx0;
+None
+transY1 = (float) rangeAxis.valueToJava2D(y1 + stack1[1], dataArea,
+if (y2 >= 0.0) {
+/**
+result.add(0, new Object[] {new Integer(-r - 1),
+if (value < this.lowerBound) {
+if (orientation == PlotOrientation.HORIZONTAL) {
+Iterator iterator = series.getTasks().iterator();
+boolean inverted = rangeAxis.isInverted();
+//if (this.event == null) {
+/**
+t1.getContainer().add(new TextTitle("T1"));
+this.itemMargin = 0.0;
+/**
+Number value0 = dataset.getStartValue(row, column, subinterval);
+Number v = dataset.getValue(row, column);
+Stroke outlineStroke = plot.getOutlineStroke();
+TaskSeries ts = (TaskSeries) this.data.get(series);
+if (!getItemLineVisible(row, column)
+if (value >= uclip) {
+ValueAxis rangeAxis = plot.getRangeAxisForDataset(rendererIndex);
+// the user requests visible item labels...
+Paint backgroundPaint = plot.getBackgroundPaint();
+g2.setPaint(Color.lightGray);
+/**
+Line2D line;
+Number dataValue = dataset.getValue(row, column);
+}
+/**
+/**
+if (!(data instanceof StatisticalCategoryDataset)) {
+}
+if (im.getOutlinePaint() != null && im.getOutlineStroke() != null) {
+/**
+if (value >= uclip) {
+BoxAndWhiskerCategoryDataset bx
+super.drawItem(g2, state, dataArea, plot, domainAxis, rangeAxis,
+Number n = dataset.getStdDevValue(row, column);
+if (value <= lclip) {
+Image backgroundImage = plot.getBackgroundImage();
+editor.open();
+/**
+// POSITIVE ITEM LABEL POSITION...
+Rectangle2D bar = null;
+Number dataValue = dataset.getValue(row, column);
+t1.setPlotBackgroundPaint(new GradientPaint(4f, 3f, Color.red, 6f, 7f, Color.blue));
+return hash;
+this.positiveItemLabelPositionFallback = null;
+//// SHAPE /////////////////////////////////////////////////////////////////
+p1.setUnits(ThermometerPlot.UNITS_KELVIN);
+/**
+if (notify) {
+plot1.setTickLabelsVisible(false);
+plot1.setTickSize(1.23);
+Number n = dataset.getStdDevValue(row, column);
+g2.draw(state.line);
+}
+drawLine(g2, (State) state, orientation, x1s, y0, x1s, y1);
+double y0 = rangeAxis.valueToJava2D(previous, dataArea,
+double y1 = rangeAxis.valueToJava2D(value.doubleValue(), dataArea,
+assertTrue(p1.getDataset() == p2.getDataset());
+t1.setPlotOutlinePaint(new GradientPaint(5f, 2f, Color.blue, 6f, 7f, Color.red));
+/**
+// draw the item labels if there are any...
+/**
+double rectWidth = state.getBarWidth();
+/**
+* CombinedCategoryPlotDemo1.java
+* Returns the minimum x-value in the dataset.
+double rectHeight = Math.max(getMinimumBarLength(),
+new Label(general, SWT.NONE).setText(localizationResources.getString(
+/**
+/**
+/**
+/**
+// ITEM LABELS VISIBLE
+//// STROKE ////////////////////////////////////////////////////////////////
+/**
+* Returns the stroke used to outline data items.  The default
+* Returns the base item label generator.
+/**
+//// ITEM LABEL PAINT  /////////////////////////////////////////////////////
+/**
+Stroke stroke = renderer.getItemOutlineStroke(row, column);
+/**
+b_positive = (l_subtrahendMaxY <= l_minuendMaxY)
+this.xOffset = DEFAULT_X_OFFSET;
+g2.draw(new Line2D.Double(xxMax, yymid, xxQ3, yymid));
+if (this.plotLines) {
+if (this.centerBarAtStartValue) {
+Number value = dataset.getValue(row, column);
+None
+double minimum = 0.0;
+ItemLabelPosition p = new ItemLabelPosition(ItemLabelAnchor.CENTER,
+CategoryAxis domainAxis = getDomainAxis(plot, rendererIndex);
+runningTotal = value;
+double offset = (categoryWidth - state.getBarWidth()) / 2;
+if (calendar.get(Calendar.MONTH) == Calendar.JANUARY
+box = new Rectangle2D.Double(Math.min(xxQ1, xxQ3), yy,
+return paint;
+areaState.setSeriesArea(new Polygon());
+double transY2 = rangeAxis.valueToJava2D(getRangeBase(), dataArea,
+if (this.medianVisible) {
+if (this.meanVisible) {
+double maxAxisValue = rangeAxis.valueToJava2D(
+box = new Rectangle2D.Double(xx, Math.min(yyQ1, yyQ3),
+if (outlierListCollection.isHighFarOut()) {
+state.setProcessVisibleItemsOnly(false);
+double transXs = transX0 + (getStepPoint()
+if (orientation == PlotOrientation.VERTICAL) {
+if (!b_impliedZeroSubtrahend && areSeriesDisjoint(x_dataset)) {
+return new Range(r.getLowerBound() + offset, r.getUpperBound()
+double l_slope = (l_y2 - l_y1) / (l_x2 - l_x1);
+g2.fill(this.pArea);
+if (isOutline()) {
+return new Range(r.getLowerBound() + offset,
+}
+this.pArea = null;
+if ((pass == 0) && this.guideLinesVisible) {
+double dxx = (xx1 - xx0);
+return super.equals(obj);
+t1.setLabelLinkStyle(PieLabelLinkStyle.STANDARD);
+p.moveTo((float) yy1, (float) xx1);
+if (isEitherSeriesDegenerate(x_dataset, b_impliedZeroSubtrahend)) {
+listeners = p.getListeners(CaretListener.class);
+* Returns the font for an item label.
+int l_minuendItem      = 0;
+return;
+while (!b_minuendDone && !b_subtrahendDone) {
+l_subtrahendItem++;
+/**
+item = (XYDataItem) item.clone();
+/**
+if ((l_x2 == l_x4) && (l_y2 == l_y4)) {
+b_minuendFastForward    = false;
+boolean b_useMinuend = ((l_x3 <= l_x1)
+double l_slope   = (l_y4 - l_y3) / (l_x4 - l_x3);
+java.awt.event.MouseEvent mouseEvent = SWTUtils.toAwtMouseEvent(event);
+l_minuendXs.clear();
+double l_numeratorA = ((l_x4 - l_x3) * l_deltaY)
+}
+double l_xi;
+if (((0 < l_slopeA) && (l_slopeA <= 1) && (0 < l_slopeB)
+boolean b_vertical = (l_x1 == l_x2) && (l_x3 == l_x4) && (l_x2 == l_x4);
+l_polygonXs.add(l_intersectX);
+/**
+if (!getItemVisible(series, item)) {
+l_polygonXs.add(l_intersectX);
+double sourceX = source.getX();
+double l_y       = l_intersectY.doubleValue();
+plot1.setLabelType(CompassPlot.VALUE_LABELS);
+l_minuendXs.add(l_minuendNextX);
+l_minuendMaxY    = Math.max(l_minuendMaxY,
+if (b_minuendDone && (l_x3 < l_x2) && (l_x2 < l_x4)) {
+renderer.setBarPainter(new StandardBarPainter());
+if (l_x4 <= l_x2) {
+/**
+if (l_x2 <= l_x4) {
+moveTo(hotspot, ((transX0 + transX1) / 2.0), transZero);
+l_minuendCurX    = l_intersectX;
+assertFalse(r1.equals(new Double(0.0)));
+}
+double l_slopeA = l_numeratorA / l_denominator;
+/**
+Rectangle2D bar = null;
+/**
+Range range = DatasetUtilities.findDomainBounds(this.dataset, false);
+if (pass == 0) {
+* Returns the stroke used to outline data items.  The default
+/**
+* Returns the item label generator for the specified data item.
+/**
+/**
+clone.shape = ShapeUtilities.clone(this.shape);
+double ph1 = getPreviousHeight(tdataset, series, item);
+if (info != null) {
+XYPlot plot = getPlot();
+if (item == 0) {
+final SWTPaintCanvas colorCanvas = new SWTPaintCanvas(general,
+Paint itemPaint = getItemPaint(series, item);
+double transY2 = rangeAxis.valueToJava2D(ph1, dataArea,
+t1.setLabelLinkPaint(new GradientPaint(4f, 3f, Color.red, 2f, 9f, Color.blue));
+if (isOutline()) {
+if (orientation == PlotOrientation.VERTICAL) {
+plot1.setDialShape(DialShape.CHORD);
+Point2D cp0 = s.points.get(0);
+if (s.points.size() > 1) {
+if (item == s.getLastItemIndex()) {
+if (itemVisible && !Double.isNaN(transX1)
+TextTitle t2 = new TextTitle("T2");
+Shape shape = null;
+if (series != 0) {
+if (!Double.isNaN(transX1) && !Double.isNaN(transY1)) {
+g2.setStroke(lookupSeriesStroke(series));
+int np = s.points.size(); // number of points
+Point2D cp1 = s.points.get(1);
+result = URLEncoder.encode(s);
+oldt = x[0];
+plot1.setDialBackgroundPaint(new GradientPaint(9.0f, 8.0f, Color.red,
+ItemLabelPosition position;
+t1 = new StandardChartTheme("t1");
+crosshairState.updateCrosshairY(y, rangeAxisIndex);
+drawFirstPassShape(g2, pass, series, item, s.seriesPath);
+if (this.fillType != FillType.NONE) {
+crosshairState.updateCrosshairX(x, domainAxisIndex);
+super.drawFirstPassShape(g2, pass, series, item, shape);
+for (i = 2; i <= n; i++) {
+s.points = new ArrayList<Point2D>();
+throw new RuntimeException("Unknown layer.");
+m1.mapKeyToGroup("K1", "G1");
+if (this.itemLabelGenerator != null
+double transXs = transX0 + (getStepPoint()
+// calculate the step point
+double transXs = transX0 + (getStepPoint()
+int domainAxisIndex = plot.getDomainAxisIndex(domainAxis);
+areaState.area = new GeneralPath();
+double zero = rangeAxis.valueToJava2D(0.0, dataArea,
+}
+Area clip = new Area(new Rectangle2D.Double(
+setShapesFilled(BooleanUtilities.valueOf(filled));
+if (Double.isNaN(this.maximumRangeValue)) {
+int size = this.data.size();
+if (!itemVisible) {
+if (x.length == 2) {
+box = new Rectangle2D.Double(xx, Math.min(yyQ1, yyQ3),
+int numX = dataset.getItemCount(series);
+g2.draw(new Line2D.Double(xxMin, yymid, xxQ1, yymid));
+g2.draw(new Line2D.Double(xxMax, yymid, xxQ3, yymid));
+return null;
+if (isLinePass(pass)) {
+g2.setPaint(seriesFillPaint);
+* Returns the image used to draw a single data item.
+double xcycleBound = Double.NaN;
+throw new RuntimeException("Unknown layer.");
+if (yOutliers == null) {
+if (outlierListCollection.isHighFarOut()) {
+double maxAxisValue = rangeAxis.valueToJava2D(
+l_minuendItem++;
+if (Double.isNaN(yn)) {
+initialize(
+// appropriate outlier list or a new outlier list is made
+if (Double.isNaN(yn)) {
+if (this.drawVolume) {
+double y0 = ixyd.getStartYValue(series, item);
+double x0 = ixyd.getStartXValue(series, item);
+if (this.expandToFitSpace) {
+return findDomainBounds(dataset, true);
+t1.setDomainGridlinePaint(Color.blue);
+* The key for a hint to signal the beginning of an element.  The value
+if (isItemLabelVisible(series, item)) {
+}
+double x1 = (startX + endX) / 2.0;
+}
+/**
+return duplicate;
+if (session != null) {
+ServletUtilities.sendTempFile(file, response);
+filename = ServletUtilities.searchReplace(filename, "..", "");
+if (mimeType != null) {
+return new Size2D(calculateTotalWidth(contentSize.getWidth()),
+}
+AxisSpace space = this.axis.reserveSpace(g2, null,
+throw new IndexOutOfBoundsException("Invalid 'index': " + index);
+a = dataBuffer[bufferOffset + right] >>> 24;
+if ((f1 & Rectangle2D.OUT_LEFT) == Rectangle2D.OUT_LEFT
+if ((f1 & Rectangle2D.OUT_LEFT) == Rectangle2D.OUT_LEFT
+float rx1, ry1, rx2, ry2;
+None
+props = new Hashtable();
+pix[p] = img.getColorModel().getDataElement(nco, 0);
+for (int y = miY; y < maY; y++)  {
+/*
+print,
+}
+final Rectangle2D bounds = target.getBounds();
+URL[] urlsNoBaseArray = (URL[]) urlsNoBase.toArray(new URL[0]);
+}
+for (int x = 0, bufferOffset = 0; x < dstWidth; x++, bufferOffset = x) {
+aSum -= aHistory[historyIdx];
+rx1 = bx;
+/**
+rx1 = bx;
+for (int y = 0, bufferOffset = 0; y < dstHeight; y++, bufferOffset = y * dstWidth) {
+if (!(this.columnKeys.contains(columnKey))) {
+result = 1;
+throw new IndexOutOfBoundsException(
+boolean allNull = true;
+clone.rows = (List) ObjectUtilities.deepClone(this.rows);
+File file = new File(System.getProperty("java.io.tmpdir"), filename);
+if (columnIndex < 0) {
+}
+clone.columnKeys = new java.util.ArrayList(this.columnKeys);
+}
+for (int kGrid = 0; kGrid < xGrid.length; kGrid++) {
+if ((series < 0) || (series > getSeriesCount() - 1)) {
+double xMin = 1.e20;
+return this.startData[series][category];
+this.startData[series][categoryIndex] = value;
+for (int r = 0; r < this.data.getRowCount(); r++) {
+// check if starting new column
+zGrid[kGrid] += this.zValues[k].doubleValue() * d;
+d = 1.e20;
+double dxGrid = xRange.getLength() / (numX - 1);
+}
+if (this.categoryKeys == null) {
+}
+this.data.clear();
+}
+x = this.xValues[k].doubleValue();
+}
+this.factor = 1 / (std * Math.sqrt(2.0 * Math.PI));
+this.yValues[k] = (Double) yData[k];
+otherValue += dataValue.doubleValue();
+}
+DefaultCategoryDataset result = new DefaultCategoryDataset();
+if (otherKeys.size() >= minItems) {
+result.setValue(currentKey, dataValue);
+if (dataset instanceof DomainInfo) {
+// PROTECTED METHODS
+if (Double.isNaN(this.minimumRangeValue)) {
+for (int row = 0; row < rowCount; row++) {
+File tempDir = new File(tempDirName);
+// PROTECTED METHODS
+OHLCDataset ohlc = (OHLCDataset) dataset;
+IntervalXYDataset ixyd = (IntervalXYDataset) dataset;
+if (dataset instanceof DomainInfo) {
+if (dataset instanceof RangeInfo) {
+int groupCount = map.getGroupCount();
+/**
+this.seriesList.add(series);
+result = 0;
+switch (columnTypes[0]) {
+}
+}
+int[] indices = findItemIndicesForX(dataset, series, x);
+return super.getDataItem(index);
+}
+}
+if (this.rows != null) {
+}
+this.propertyChangeSupport.firePropertyChange("Key", old, key);
+break;
+int i = getRowCount();
+columnKeys = extractColumnKeys(line);
+Comparable rowKey = resultSet.getString(1);
+Double value = Double.valueOf(
+}
+if (this.upperBound < bin.upperBound) {
+throw new IllegalStateException();
+String key = line.substring(start, i);
+for (int i = 0; i < values.length; i++) {
+this.columnNames = new String[numberOfValidColumns - 1];
+if (this.rows.size() < 1) {
+while (resultSet.next()) {
+this(new Double(mean), new Double(median), new Double(q1),
+double sx = 0.0, sxx = 0.0, sxy = 0.0, sy = 0.0;
+if (this.maximumRangeValue == null) {
+int r = this.data.getRowIndex(rowKey);
+int r = getRowIndex(rowKey);
+result[0] = calculateMean(yData) - result[1] * calculateMean(xData);
+if (includeNullAndNaN || !Double.isNaN(current)) {
+if (values[i] != null) {
+if (result[0][0] == 0) {
+updateBounds();
+int r = this.data.getColumnIndex(columnKey);
+}
+boolean added = false;
+}
+Hour nextHour = (Hour) getHour().next();
+e.printStackTrace();
+long index = Long.MAX_VALUE;
+* Validates the object. We use this opportunity to call listeners who have
+@Override
+t1.setRangeGridlinePaint(Color.red);
+boolean iterate = false;
+Day prevDay = (Day) this.day.previous();
+if ((hour >= FIRST_HOUR_IN_DAY) && (hour <= LAST_HOUR_IN_DAY)) {
+}
+// Avoid IndexOutOfBoundsException:
+Day nextDay = (Day) this.day.next();
+if (column == 1) {
+// --- Constants ---
+/** the # of msec by which time advances. */
+/** The history count. */
+int y;
+int n = 0;
+// --- Constants ---
+/** Storage for the x-values. */
+/**
+// Avoid IndexOutOfBoundsException:
+try {
+extractRowKeyAndData(line, dataset, columnKeys);
+int[] groupIndex = new int[dataset.getRowCount()];
+long firstSerial = source.getTimePeriod(0).getSerialIndex() + skip;
+/** The minimum value. */
+int srcLength = values.length;
+if (this.timePeriodClass == Millisecond.class) {
+this.workingCalendar = Calendar.getInstance(zone);
+this.valueHistory[seriesNumber].enterData(i, values[i]);
+/**
+BoxAndWhiskerXYDataset bx = (BoxAndWhiskerXYDataset) dataset;
+}
+int newIndex = toFetch + this.oldestAt;
+}
+boolean extremaChanged = false;
+this.oldestAt++;
+for (s = 0; s < nDataPoints; s++) {
+long startL = this.domainStart.longValue();  //(time is kept in msec)
+if (this.valueHistory[s] == null) {
+int i = s.indexOf("Q");
+if (item == 0) {
+ValueSequence values = this.valueHistory[series];
+// --- Constants ---
+transX1 = transX0;
+* This method is required by the {@link Zoomable} interface, but since
+remaining = remaining.replace('/', ' ');
+this.pointsInTime[this.newestAt] = nextInstant;
+this.msTimeline = new SegmentedTimeline(1, 5, 2);
+// --- Constants ---
+if (this.year > 1900) {
+Series s = (Series) e.getSource();
+Comparable key = (Comparable) e.getNewValue();
+for (int i = 0; i < exceptionSegmentCount; i++) {
+if (!"Key".equals(e.getPropertyName())) {
+if (xData.length != yData.length) {
+series.setValue(key + " (+100%)", newValue);
+// --- Constants ---
+s = s.trim();
+t1.setAxisOffset(new RectangleInsets(1, 2, 3, 4));
+// --- Constants ---
+return this.historyCount;
+/**
+Year y1 = Month.evaluateAsYear(s1);
+float wiper = (float) 0.0;
+clearCurrentText();
+this.value = null;
+/** The angle of the centre of the section (in radians). */
+}
+this.seriesList.clear();
+if (xData.length != yData.length) {
+clone.intervalDelegate.setFixedIntervalWidth(getIntervalWidth());
+this.seriesKeys.add(seriesKey);
+* Returns the width of each candle.
+return this.autoIntervalWidth;
+return this.x.doubleValue();
+* Returns the x-value for the specified series and item.
+/** Storage for the data items in the series. */
+// to find the revised minY / maxY
+pass = false;
