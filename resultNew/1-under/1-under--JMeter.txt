@@ -1,0 +1,4148 @@
+public LDAPSampler() {
+return;
+LdapClient ldap = new LdapClient();
+private static final boolean startTimeStamp
+if (getPropertyAsString(TEST).equals(SEARCHBASE) && !searchFoundEntries) {
+private final ArrayList<ChangeListener> mChangeListeners = new ArrayList<ChangeListener>(3);
+String key = elementClass.getName();
+// Extend the time to the end of the added sample
+}
+} else {
+log.error("Unable to create a sample sender from class:'"+type+"', search for mode property in jmeter.properties for correct configuration options");
+log.error("Unable to instantiate tidy parser", e);
+res.setResponseData(sb.toString().getBytes()); // TODO this should really be request data, but there is none
+private int intervalValue = INTERVAL_DEFAULT;
+public static int findInArray(String[] array, String value) {
+// TODO - remove UnsharedComponent ? Probably does not make sense for a TestBean.
+headerFieldsPanel.remove(headerValue);
+}
+/** send plain body, i.e. not multipart/mixed */
+private static final Logger log = LoggingManager.getLoggerForClass();
+None
+long loadFactor = n / numberOfNodes;
+public String handle(Object o) {
+public TextAreaEditor(Object source) {
+if(log.isDebugEnabled()) {
+String resKey = locale.toLowerCase(java.util.Locale.ENGLISH);
+protected String title, xAxisTitle, yAxisTitle;
+this.setThreadName(tn);
+}
+* href="mailto:d.maung@mdl.com">Dave Maung</a>
+filePanel.setFilename(filename);
+boolean usesUNC = OS_NAME_LC.startsWith("windows");// $NON-NLS-1$
+}
+None
+}
+} else if (toType.isAssignableFrom(value.getClass())) {
+final HttpConnectionManager httpConnectionManager = client.getHttpConnectionManager();
+return this;
+@Override
+if (!(currentGui instanceof NamePanel)) {
+List urls);
+res.setResponseMessage("OK - no results");
+}
+busy = true;
+private final JCheckBox getFragment =
+@Override
+return result;
+// NOTE: responseData encoding is server specific
+private static final int MATCH = 1 << 0;
+{
+results.getDocument().putProperty(Document.StreamDescriptionProperty, res.getURL());
+protected long calculateCurrentTarget(long currentTime) {
+failureCount = 0;
+public String getDescription() {
+@Override
+writer.write('\n');
+runningIndicator = new JButton(stoppedIcon);
+log.warn("Could not fetch SamplePackage");
+JMeterUtils.setProperty("START.YMD",new SimpleDateFormat("yyyyMMdd").format(today));// $NON-NLS-1$ $NON-NLS-2$
+private JMeter parent;
+JMeterContext threadContext = getThreadContext();
+SearchByClass<ReplaceableController> replaceableControllers = new SearchByClass<ReplaceableController>(ReplaceableController.class);
+System.setProperty(JMETER_NON_GUI, "true");// $NON-NLS-1$
+String bshinit = JMeterUtils.getProperty("beanshell.init.file");// $NON-NLS-1$
+iterationListeners.addFirst(lis);
+private static final long serialVersionUID = 240L;
+if (item.getClass().getName().equals("org.apache.jmeter.control.ModuleController")){ // Bug 47165
+/** The table of configuration parameters. */
+public static String decode(String s) {
+SampleEvent.initSampleVariables();
+File baseDirRelative = FileServer.getFileServer().getBaseDirRelative();
+engine = this;
+char[] current = new char[1];
+hasFunction = false;
+if(log.isDebugEnabled()) {
+JTLSAVER.marshal(evt.getResult(), new XppDriver().createWriter(writer), dh);
+if (model.isEnabled()) {
+public class SearchTreeDialog extends JDialog implements ActionListener {
+* Specify whether or not the File|Load menu item should be enabled.
+return e.getKeyCode() == k.getKeyCode() && modifiersEx == k.getModifiers();
+public JMeterTreeModel getTreeModel() {
+if (!getModel().isEnabled()) return;
+private void init() {
+guiInstance.setMenuItemToolbar(menuToolBar);
+public void initialize() {
+public class StatisticalSampleResult extends SampleResult implements
+private Object readResolve() throws ObjectStreamException{
+if (name.endsWith("JMeterTreeNode") // $NON-NLS-1$
+}
+public class ResultSaver extends AbstractTestElement implements Serializable, SampleListener {
+private transient WeakReference<Visualizer> listener;
+private transient volatile int numSamplesThreshold;
+private static boolean KEY_ON_THREADNAME = JMeterUtils.getPropDefault("key_on_threadname", false);
+dlm="\t";
+public static final int SAVE_NO_ASSERTIONS = 0;
+public void initialize() {
+private final Map<String, StatisticalSampleResult> sampleTable = new HashMap<String, StatisticalSampleResult>();
+}
+}
+result.setError(config.getAttributeAsBoolean(ERROR, false));
+while ((parts = csvReadFile(dataReader, delim)).length != 0) {
+* <elementProp name="User-Agent"
+private static String inVersion;
+}
+{
+private final String hostname;
+} catch (Error e) {
+if (!acceptsOther && !isATag(text)) {
+if (getAddTimeStamp()) {
+results.setResponseMessage("Exception occured whilst executing System Call: " + ioe);
+/**
+* Read test results from JTL files and pass them to the visualiser directly.
+* containing "${" as a valid expression. TODO: improve, but keep returning
+private int scrollerCount = 0;
+setEditorValue(i, descriptors[i].getValue(DEFAULT));
+@Override
+private static final String DEFAULT_SSL_PROTOCOL =
+protected static final Logger log = LoggingManager.getLoggerForClass();
+public void initialize() {
+private Map<String, JMeterProperty> value;
+/**
+String getPropertyAsString(String key);
+}
+private String threadName;
+sampler.setThreadName(threadName);
+if (startEarlier) {
+// If we got any results, then perform processing on the result
+List data);
+}
+this.rand = new SecureRandom();
+private SSLContext defaultContext; // If we are using a single session
+public static Vector<Object> getControllers(Properties properties) {
+public class CustomX509TrustManager implements X509TrustManager
+Map<String, String> pageEncodings = Collections.synchronizedMap(new HashMap<String, String>());
+if (fun == Scriptable.NOT_FOUND)
+Object value = ((JavaScriptException) t).getValue();
+} finally {
+}
+Vector<LocaleChangeListener> listeners = (Vector<LocaleChangeListener>) localeChangeListeners.clone();
+public static XMLReader getXMLParser() {
+public static Object instantiate(String className, String impls) {
+private static String jmDir; // JMeter Home directory (excludes trailing separator)
+boolean supportsCompilable = scriptEngine instanceof Compilable
+private final long deviation;
+@Override
+this.defaultpw = JOptionPane.showInputDialog(
+}
+rbool = res.isSuccessful();
+super.configureTestElement(mc);
+/** {@inheritDoc} */
+private static final JexlEngine jexl = new JexlEngine();
+* Close a Closeable with no error thrown
+}
+if (!m_isLong) {
+if (xpfc == null) {
+public static void addLogTargetToRootLogger(LogTarget[] logTargets) {
+private final String contains; // class name should contain this string
+Iterator<String> expected;
+private final boolean drawYgrid = true;
+if (n.endsWith("RemoteJMeterEngineImpl")) {
+}
+public DummyAnnotatedTest() {
+assertFalse(res.isFailure());
+private class AnnotatedTestCase extends TestCase {
+for (PropertyIterator iter = getAuthObjects().iterator(); iter.hasNext();) {
+server.setText(element.getPropertyAsString(FTPSampler.SERVER));
+URL url2 = null;
+continue;
+// package-protected to allow access by unit-test cases
+getCookies().remove(index);
+public MultipartUrlConfigGui(boolean showSamplerFields) {
+}
+public String getArgumentName() {
+hashCode = urlAsString.hashCode();
+final String LF = "\n";
+input.setInput(new String(html, encoding));
+guiPackage.setTestPlanFile(f.getAbsolutePath());
+private void checkHeaderTypeLength(String requestHeaders, String contentType, int contentLen) {
+notifySampleListeners(new SampleEvent(result, "WorkBench")); // TODO - is this the correct threadgroup name?
+/**
+public static final boolean MAINTAIN_SESSION_DEFAULT = true;
+/**
+None
+result = generateErrorResult(result, request, ioe, "\n**ensure browser is set to accept the JMeter proxy certificate**"); // Generate result (if nec.) and populate it
+setConnectionAuthorization(httpClient, url, getAuthManager(), key);
+rc = (ReplaceableController) item.clone();
+res.setHTTPMethod(HTTPConstants.POST);
+private static final HttpResponseInterceptor METRICS_SAVER = new HttpResponseInterceptor(){
+DefaultHttpClient.setDefaultHttpParams(DEFAULT_HTTP_PARAMS);
+public void testParseArgumentsLF() {
+dirContext.createSubcontext(string, basicattributes);
+/** If the port is not present in a URL, getPort() returns -1 */
+return objectsOfClass;
+newNode.setEnabled(true);
+final String mimeType="text/plain";//TODO make this a parameter?
+String contentEncoding = getContentEncoding();
+public void initialize() {
+GuiPackage.getInstance(treeLis, treeModel);
+this(null, null);
+post.setEntity(fileRequestEntity);
+log.info("Thread started: " + Thread.currentThread().getName());
+el.setProperty(TestElement.TEST_CLASS, targetName);
+if (basedir != null) {
+private Collection<?> findApplicableElements(JMeterTreeNode myTarget, Class<? extends TestElement> myClass, boolean ascending) {
+if (treePath != null) {
+protected String encodeSpaces(String path) {
+if (path.startsWith(HTTP_PREFIX)
+Arguments arguments = s.getArguments();
+/**
+public static final boolean POST_BODY_RAW_DEFAULT = false;
+res.addSubResult(errorResult(new Exception(binURL + " is not a correct URI"), new HTTPSampleResult(res)));
+res.setThreadName(Thread.currentThread().getName());
+if(allResponse[i] == 0x0d && allResponse[i+1] == 0x0a && allResponse[i+2] == 0x0d && allResponse[i+3] == 0x0a) {
+file.setHeader(header);
+}
+if (! HTTPConstants.HEADER_CONTENT_LENGTH.equalsIgnoreCase(n)){
+private static final String DEFAULT_CONTENT_TYPE = "text/xml"; //$NON-NLS-1$
+post.setHeader(HTTPConstants.HEADER_CONTENT_TYPE, HTTPConstants.APPLICATION_X_WWW_FORM_URLENCODED);
+return DEFAULT_CONTENT_TYPE; // $NON-NLS-1$
+* Creates the entity data to be sent.
+String contentLengthValue = getSentRequestHeaderValue(headersSent, HTTPConstants.HEADER_CONTENT_LENGTH);
+connection.setRequestProperty(HTTPConstants.HEADER_CONTENT_TYPE, HTTPConstants.APPLICATION_X_WWW_FORM_URLENCODED);
+}
+public static final String GET = "GET";
+of.parseBytes(contents.getBytes()); // TODO - charset?
+res.setResponseCode("200"); // $NON-NLS-1$
+res.sampleEnd();
+protected static final String ENCODING = "UTF-8"; // $NON-NLS-1$
+}
+public static void put(Object key, Object client) {
+String fname = FSERVER.getRandomFile(getRandomPath(), new String[] { ".txt", ".obj" })
+private static final boolean USE_SECURITY_PROPERTIES =
+result.setResponseCodeOK();
+public class ReportStart extends AbstractAction {
+private static final Set<String> commands = new HashSet<String>();
+* except for beans whose name contains "Experimental" or "Alpha".
+log.warn("Could not translate " + propName + "=" + propValue + " using Locale: " + rb.getLocale());
+private JCheckBox useSeparator;
+}
+public void test1() throws Exception{
+* The constructor is used by GUI and samplers to generate request objects.
+private JMenu remote_stop;
+newNode.setEnabled(true);
+private JMenu makeLanguageMenu() {
+public static Map<String, String> getQueryMap(String query) {
+// Note: originally the code did use the ClientPool to "share" subscribers, however since the
+connection.setRequestProperty(
+private transient Daemon server;
+if(log.isDebugEnabled()) {
+if (!path.endsWith(DOT_JAR)) {
+multiLineEditor = true;
+threadVars.putObject(PACKAGE_OBJECT, pack);
+BeanDescriptor bd = beanInfo.getBeanDescriptor();
+JMeterGUIComponent item;
+}
+Map<String, String> args = ((TestPlan) node).getUserDefinedVariables();
+rc = (ReplaceableController) item.clone();
+private static String prettyJSON(String json) {
+None
+int len = res.getResponseData().length;
+private String getFailText(String stringPattern, String toCheck) {
+result.setFailureMessage(
+guiInstance.clearTestPlan((TestElement)tree.getArray()[0]);
+private JTextField variableName;
+try {
+if (signerIt.hasNext()) {
+JMeterVariables threadVars = context.getVariables();
+private static final String ADD = "add"; // $NON-NLS-1$
+if (usesUNC) {
+None
+transactionSampleResult.setResponseMessage("Number of samples in transaction : "
+private static final boolean exitAfterTest =
+synchronized (myTotals) {
+@Override
+if(file.getMimeType() != null && file.getMimeType().length() > 0) {
+Object fun = global.get(method, global);
+log.debug("Chunked");
+res.setSamplerData(req);
+AssertionResult res = assertion.getResult(result);
+}
+if (! HTTPConstants.HEADER_CONTENT_LENGTH.equalsIgnoreCase(n)){
+}
+checkHeaderTypeLength(res.getRequestHeaders(), "multipart/form-data" + "; boundary=" + boundaryString, expectedPostBody.length);
+assertEquals(1,timer.getCalcMode());// All threads
+/** Indicates that the results file should be in XML format. * */
+static String baMD5Hex(byte ba[]) {
+String contentEncoding = "";
+return result;
+private synchronized Method doCreateMethod(Class<?> p_class, Class<?>[] p_types) {
+public HttpDefaultsGui() {
+private transient int varCount = 0;
+lOutputWriter.flush();
+public void testSetHeaders() throws IOException {
+final JPanel embeddedRsrcPanel = new HorizontalPanel();
+private static volatile String[] variableNames = new String[0];
+sb.append(TAB).append("TRUE");
+/**
+None
+sender = SampleSenderFactory.getInstance(listener);
+public static final int COL_URL = 0;
+continue;
+log.debug("HTMLAssertions.getResult(): there were errors/warnings but threshold to high");
+headerLines[contentLengthIndex]=HTTPConstants.HEADER_CONTENT_LENGTH+": "+res.getResponseData().length;
+url2 = new URL(url.getProtocol(), url.getHost(), port, url.getPath());
+int port = url.getProtocol().equalsIgnoreCase("http") ? HTTPConstants.DEFAULT_HTTP_PORT : HTTPConstants.DEFAULT_HTTPS_PORT;
+* @param listener
+writeOutput(errbuf.toString());
+@Deprecated
+String s1 = url.toString();
+None
+protected HttpTestSampleGui(boolean ajp) {
+vars.put(varName, str);
+private static final String SAMPLER_TYPE_HTTP_SAMPLER_JAVA = "0";
+domain = st.nextToken();
+private static boolean isBinaryType(String ct){
+embeddedRE = new JLabeledTextField(JMeterUtils.getResString("web_testing_embedded_url_pattern"),20); // $NON-NLS-1$
+final String CS_PFX = "charset="; // $NON-NLS-1$
+if ((lFilename != null) && (!"".equals(lFilename.trim()))) {
+// ResourceBundle i18nEdit=
+private JComboBox sourceIpType = new JComboBox(HTTPSamplerBase.getSourceTypeList());
+None
+getImages.addItemListener(new ItemListener() {
+/** Prefix for the user preference key */
+IOUtils.closeQuietly(lOutputWriter);
+public SortedHashTree(Comparator<? super Object> comper) {
+urlConfigGui = new MultipartUrlConfigGui(true, !isAJP);
+private final Token nextToken(final char[] separators) {
+throw new IllegalArgumentException("Only ASCII supported in headers (perhaps SSL was used?)");
+lOutputWriter = new FileWriter(lFilename, false);
+int entry=-1;
+JPanel bottomPane = new VerticalPanel();
+private final boolean isClientConfigured = JMeterUtils.getPropDefault("sample_sender_client_configured", true); // $NON-NLS-1$
+,AuthScope.ANY_SCHEME),
+concurrentPool.setFont(FONT_SMALL);
+fontNameMap.put(JMeterUtils.getResString("font.serif"), "Serif"); //$NON-NLS-1$
+private final Class<?>[] types;
+choiceList.addItemListener(new ItemListener() {
+String header = XML_HEADER.replaceAll("<ph>", charset.name());
+ArrayList<String> listPaths = new ArrayList<String>();
+private static final Properties aliasToClass = new Properties();
+long totMem = stat.getJvm().getMemory().getTotal();
+* @see org.apache.jmeter.protocol.http.util.accesslog.LogFilter#excPattern(java.lang.String)
+None
+AssertionResult result = new AssertionResult(getName());
+if (val.indexOf("{0}") > 0 && val.indexOf('\'') > 0) {
+private transient Object testObject;
+private static final int TYPE_MASK = CONTAINS | EQUALS | MATCH | SUBSTRING;
+if (label == null || label.length() == 0) {
+getImages = new JCheckBox(JMeterUtils.getResString("web_testing_retrieve_images")); // $NON-NLS-1$
+private static final String VERSION_2_2 = "2.2";  // $NON-NLS-1$
+soapXmlFile.setFilename(sampler.getXmlFile());
+if (drawYgrid && x == 1) {
+isMon = new JCheckBox(JMeterUtils.getResString("monitor_is_title")); // $NON-NLS-1$
+// PROPERTY FILE CONSTANTS
+/** A button for adding new files to the table. */
+double threadWeight = 0;
+if (getAssumeSuccess()) {
+loadIcon.setIcon(getLoadImageIcon(stat.getLoad()));
+None
+if (SERVERTREE.getLastSelectedPathComponent() != null) {
+None
+}
+String alias = getDomainMatch(keyStore, host);
+sourceIpType.setSelectedIndex(HTTPSamplerBase.SourceType.HOSTNAME.ordinal()); //default: IP/Hostname
+public static final String BINARY_MODE = "FTPSampler.binarymode"; // $NON-NLS-1$
+if (isScopeVariable()){
+long diff = parentElapsedTotal - sumSamplesTimes;
+None
+public MultipartUrlConfigGui() {
+None
+toCheck = "";
+private ValidationTabbedPane postContentTabbedPane;
+JPanel wsdlEntry = new JPanel();
+for (int i = 0; i < results.length; i++) {
+headerLabelMethods.put(CSV_THREAD_COUNT1,
+@Override
+JPanel listPanel = new JPanel();
+if(log.isWarnEnabled()) {
+expiresDate=new Date(System.currentTimeMillis()
+boolean equals = isEqualsType();
+HTMLParser pars = parsers.get(htmlParserClassName);
+soapXmlPane.add(new JScrollPane(soapXml), BorderLayout.CENTER);
+String regularExpression = "^.$";
+private static final String[] FILES_LINES = new String[] {
+return result;
+} catch (UnsupportedEncodingException e) {
+optionPane.add(getProxyServerPanel());
+static boolean isSupportedProtocol(URL url) {
+if (value != null || !type.isPrimitive())
+Perl5Matcher localMatcher = JMeterUtils.getMatcher();
+loops = new JTextField("1", 5); // $NON-NLS-1$
+concurrentDwn = new JCheckBox(JMeterUtils.getResString("web_testing_concurrent_download")); // $NON-NLS-1$
+None
+sb.append(" expected something using ");
+WebServiceSampler sampler = (WebServiceSampler) this.createTestElement();
+if (!deleteButton.isEnabled()) {
+private static final String ARGUMENT_NAME = "argument_name"; // $NON-NLS-1$
+private JTextField filename;// script file name (if present)
+} catch (IllegalArgumentException e) {
+return "True";
+if (qName.equals("thread")) {
+private JSyntaxTextArea scriptField;// script area
+private void resetContraints(GridBagConstraints gbc) {
+setEditorValue(i, descriptor.getValue(DEFAULT));
+None
+Border margin = new EmptyBorder(10, 10, 5, 10);
+endtime = endtime *1000 + System.currentTimeMillis();
+private JTextField parameters;// parameters to pass to script file (or script)
+System.out.println("+++++++++++");
+public BeanShellSamplerGui() {
+private static class URLPointer {
+Collection<URLString> col = new LinkedHashSet<URLString>();
+add(Box.createVerticalStrut(panel.getPreferredSize().height), BorderLayout.WEST);
+String styleTagStr = tag.getAttributeValue(ATT_STYLE, false);
+None
+Iterator<HTTPFileArg> modelData = (Iterator<HTTPFileArg>) tableModel.iterator();
+None
+/**
+for (int g = 1; g <= NUM_BASE_GROUPS && g <= match.groups(); g++) {
+return cookie;
+public static final int ON_ERROR_CONTINUE = 0;
+log.error("Cannot create copy of "+coll.getClass().getName(),e);
+if (log.isDebugEnabled()) {
+boolean use = useProxy.isSelected();
+return 0;
+}
+if (tableModel.getRowCount() == 0) {
+Socket clientSocket = mainSocket.accept();
+checkDeleteAndBrowseStatus();
+private static final boolean startEarlier =
+if (STYLESHEET.equalsIgnoreCase(tag.getAttributeValue(ATT_REL, false))) {
+/**
+headerTable = new JTable(tableModel);
+if (tag instanceof BodyTag) {
+filePanel = new FilePanel(JMeterUtils.getResString("html_assertion_file"), ".txt"); //$NON-NLS-1$ //$NON-NLS-2$
+None
+if (headers != null) {
+Class<?> clazz = Class.forName(name);
+setupFormData(httpSampler, isEncoded, titleField, titleValue, descriptionField, descriptionValue);
+sampler.setDoMultipartPost(true);
+fontNameMap.put(JMeterUtils.getResString("font.serif"), "Serif"); //$NON-NLS-1$
+connection.setDoOutput(true);
+}
+// Must agree with the order of entries in the drop-down
+@Override
+private static final String VERSION = "2.10";
+@Override
+private static final int GROUPING_ADD_SEPARATORS = 1;
+delete.setEnabled(true);
+String s = tg.getPropertyAsString(ThreadGroup.START_TIME);
+int rowToSelect = tableModel.getRowCount() - 1;
+contentEncoding = "UTF-8";
+p.add(Box.createVerticalStrut(70), BorderLayout.WEST);
+protected String scriptLanguage = ""; // BSF/JSR223 language to use
+ROOTSAMPLE = new SampleResult();
+throw (Error) t;
+int rowToSelect = tableModel.getRowCount() - 1;
+private SampleResult process_sampler(Sampler current, Sampler parent, JMeterContext threadContext) {
+if (JSR223TestElement.class.isAssignableFrom(beanClass) ) {
+if (authTable.isEditing()) {
+@Override
+return text.toString();
+// after delete.
+}
+} finally {
+None
+public class RegexFunction extends AbstractFunction {
+GuiUtils.stopTableEditing(authTable);
+final Node firstChild = match.getFirstChild();
+sampler.parseArguments(postData.trim(), contentEncoding); //standard name=value postData
+if (tableModel.getRowCount() == 0) {
+sampler.setHTTPFiles(urlConfig.getHTTPFileArgs().asArray());
+return selectHandlerPanel;
+if (parseCount != -1 && actualCount >= parseCount) {
+ChangeListener changeListener = new ChangeListener() {
+cookieTable = new JTable(tableModel);
+request.getHeaderManager().removeHeaderNamed(HttpRequestHdr.CONTENT_TYPE);
+fileToUse=JMeterUtils.getJMeterHome()
+HorizontalPanel md5HexPanel = new HorizontalPanel();
+JMeterUtils.getResString("help"),//$NON-NLS-1$
+private static final Logger log = LoggingManager.getLoggerForClass();
+private static final String ADD_COMMAND = "Add"; //$NON-NLS-1$
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+None
+_prefix = new JTextField(5);
+public long getBytes() {
+None
+}
+desc.add(JMeterUtils.getResString("function_name_paropt")); //$NON-NLS-1$
+throw new IllegalArgumentException("xpath eval of '" + xpathString + "' was null");
+if (pageEncodings != null) {
+HorizontalPanel docTypePanel = new HorizontalPanel();
+try {
+selectHandlerPanel = new JComboBox(nodesModel);
+if (!(node instanceof Tag)) {
+List<String> classesToAdd = Collections.<String>emptyList();
+private final JCheckBox successOnlyLogging;
+protected static final String TAG_RESPONSE_DATA     = "responseData";     //$NON-NLS-1$
+if (table.isEditing()) {
+private static final String WARNING_THRESHOLD_FIELD = "warningThresholdField"; // $NON-NLS-1$
+Iterator<Argument> modelData = (Iterator<Argument>) tableModel.iterator();
+private JTextField errorThresholdField = null;
+VerticalPanel formatPanel = new VerticalPanel();
+errorsOnly = new JCheckBox("Errors only", false);
+checkArgument((HTTPArgument)arguments.getArgument(0), "abc%3FSPACE", "a+b", "a+b", contentEncoding, false);
+else {
+HorizontalPanel thresholdPanel = new HorizontalPanel();
+JMeterUtils.setProperty("START.HMS",new SimpleDateFormat("HHmmss").format(today));// $NON-NLS-1$ $NON-NLS-2$
+if(!isChunked) {
+JMeterVariables vars = getVariables();
+String name = "";
+JPanel buttonPanel = new JPanel();
+authTable = new JTable(tableModel);
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+return;
+} catch (InterruptedException e) {
+// for ssl connection
+portField.setText(portField.getText().substring(0, length-1));
+// @see also Clearable
+}
+JMeterUtils.setProperty("START.HMS",new SimpleDateFormat("HHmmss").format(today));// $NON-NLS-1$ $NON-NLS-2$
+public SizeAssertionGui() {
+JMeterUtils.setProperty("START.HMS",new SimpleDateFormat("HHmmss").format(today));// $NON-NLS-1$ $NON-NLS-2$
+cntr = stat.getConnector().get(0);
+private static final boolean USE_DYNAMIC_KEYS = JMeterUtils.getPropDefault("proxy.cert.dynamic_keys", true); // $NON-NLS-1$;
+resKey = resKey.toLowerCase(java.util.Locale.ENGLISH);
+static {
+return true;
+/** Indicates that the results file should be in CSV format. * */
+Box checkPanel = Box.createVerticalBox();
+String type = getPropertyAsString(SAMPLER_TYPE_NAME);
+ra.setTestFieldURL();
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+pathExtensionEqualsQuestionmarkRegexp = JMeterUtils.getPatternCache().getPattern(
+String[] param = request.getUrl().split(":");  // $NON-NLS-1$
+"|\\s[Nn][Aa][Mm][Ee]\\s*=\\s*[\"']" + quotedArg
+String retval = getPrefix() + Long.toString(_value) + getSuffix();
+_value += getIncrement();
+private static final boolean ATTEMPT_REDIRECT_DISABLING =
+s = getSamplerForRequest(null, testPostRequest, contentEncoding);
+* Hack to allow TreeModel to be used in non-GUI and headless mode.
+String TRANSFER_ENCODING = "transfer-encoding"; // $NON-NLS-1$
+JMeterVariables variables = JMeterContextService.getContext().getVariables();
+private transient Object lock = new Object();
+return suite;
+boolean matched = testPattern(includeExp, sampleContentType, true);
+private transient String savedValue = ""; // $NON-NLS-1$
+boolean filterUrl(HTTPSamplerBase sampler) {
+private final String targetLabel = JMeterUtils.getResString("test_action_target"); // $NON-NLS-1$
+"[;\\?&]" + quotedArg + "=([^\"'<>&\\s;\\\\]*)" +  // $NON-NLS-1$
+None
+log.error("Program error", e);
++ "|\\s[vV][Aa][Ll][Uu][Ee]\\s*=\\s*[\"']" // $NON-NLS-1$
+private static final String INIT_FILE = "beanshell.preprocessor.init"; //$NON-NLS-1$
+* Returns the current value, prefixed and suffixed, as a string, then
+@Override
+if (arg.getName().equals(getMask().getFieldName())) {
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+if ("*".equals(arg.getValue())) {
+None
+String httpSamplerName = target.getSamplerTypeName();
+if(haveContentEncoding) {
+private static final String PROXY_HEADERS_REMOVE = "proxy.headers.remove"; // $NON-NLS-1$
+XMLReader reader = JMeterUtils.getXMLParser();
+public void testHeaderOpen(){
+res.addSubResult(errorResult(e, new HTTPSampleResult(res)));
+}
+reader.setContentHandler(threadParametersContentHandler);
+if(engine != null) {
+reader.setErrorHandler(parameterErrorHandler);
+ValueReplacer replacer = new ValueReplacer();
+public void testMakingUrl7() throws Exception {
+synchronized (info.MUTEX) {
+* Constructs a <code>TableCellEditor</code> that uses a text field.
+int response = JOptionPane.showConfirmDialog(GuiPackage.getInstance().getMainFrame(),
+indexOfUsers = allUsers.iterator();
+None
+if (!indexOfUsers.hasNext()) {
+try {
+user = new HashMap<String, String>();
+None
+if(jmvars.get(regExRefName + MATCH_NR) == null
+None
+private List<Map<String, String>> userThreads = new LinkedList<Map<String, String>>();
+jexlVars.put("threadName", Thread.currentThread().getName()); //$NON-NLS-1$
+}
+headerBuf.append("\n"); //$NON-NLS-1$
+if (!keyStore.containsAlias(host)) {
+None
+private static final String STATUS_PREFIX = JMeterUtils.getPropDefault("tcp.status.prefix", ""); //$NON-NLS-1$
+None
+None
+* Simplify getMessage() output from XStream ConversionException
+rightSide.setTitleAt(0, JMeterUtils.getResString("view_results_tab_sampler")); //$NON-NLS-1$
+private JCheckBox reportErrors; // Report Tidy errors as Assertion failure?
+} else {
+if (qName.equals("parameter")) {
+None
+private static final String NAME = "name";
+resKey = resKey.toLowerCase(java.util.Locale.ENGLISH);
+* @param name
+private static final String FILENAME = "filename";               //$NON-NLS-1$
+TREEPANE.updateUI();
+None
+break;
+None
+/**
+long longVal = 0;
+None
+public void modifyTestElement(XPathAssertion assertion) {
+None
+private final String LEGEND_HEALTH = JMeterUtils.getResString("monitor_legend_health"); //$NON-NLS-1$
+jexlVars.put("threadName", Thread.currentThread().getName()); //$NON-NLS-1$
+private JCheckBox showWarnings; // Show Tidy warnings ?
+HTTPSamplerBase s = getSamplerForRequest(null, testGetRequest, null);
+if (contentDisposition != null && contentDisposition.indexOf("form-data") > -1) { //$NON-NLS-1$
+private void tolerant() {
+private JCheckBox downloadDTDs; // Should we download external DTDs?
+None
+resKey = resKey.toLowerCase(java.util.Locale.ENGLISH);
+validate.setEnabled(!isTolerant);
+resultModel.addRow(new RowResult(JMeterUtils.getParsedLabel("view_results_thread_name"), sampleResult.getThreadName())); //$NON-NLS-1$
+String COMMENTS = "TestPlan.comments"; //$NON-NLS-1$
+quiet.setEnabled(isTolerant);
+rightSide.setTitleAt(0, JMeterUtils.getResString("view_results_tab_sampler")); //$NON-NLS-1$
+String parameterName = arg.getName();
+tabbedResult.addTab(JMeterUtils.getResString("view_results_table_result_tab_raw"), paneRaw); //$NON-NLS-1$
+String postBody = "--" + boundary + endOfLine
+String userProp = JMeterUtils.getPropDefault("user.properties",""); //$NON-NLS-1$
+return doInvoke(clazz, invokee, getArgs());
+None
+public void modifyTestElement(XPathExtractor assertion) {
+private static String LAST_REDIRECT = null;
+final String charset = getContentEncoding(HTTP.DEF_CONTENT_CHARSET.name());
+file_load.setEnabled(false);
+entityBody.append(new String(bos.toByteArray(), charset));
+public String getTitle() {
+JMeterContext jmctx = JMeterContextService.getContext();
+HTTPFileArg file = files[0];
+res.setRedirectLocation("./");
+@Override
+None
+None
+}
+String nodeName = reader.getNodeName();
+Vector declaredBeans)
+// FILE_FIELD is kept for backward compatibility with old test plans
+private transient Node xmlNode;
+private static final long AWAIT_TERMINATION_TIMEOUT =
+String dataSentToMirrorServer = new String(res.getResponseData(), contentEncoding);
+public static final String IMAGE_PARSER = "HTTPSampler.image_parser"; // $NON-NLS-1$
+/*
+HTTPFileArg[] files = getHTTPFiles();
+Arguments arguments = s.getArguments();
+setPath(path, EncoderCache.URL_ARGUMENT_ENCODING);
+parseArguments(path.substring(index + 1), contentEncoding);
+private void setCookieManagerProperty(CookieManager value) {
+String queryString = getQueryString(getContentEncoding());
+final Object UNDEFINED = new UniqueObject("property_undefined"); //$NON-NLS-1$
+try {
+Enumeration<?> enumFrom = node.children();
+urls = parser.getEmbeddedResourceURLs(responseData, res.getURL(), res.getDataEncodingWithDefault());
+String metaData; // records the existance of an equal sign
+final List<Callable<AsynSamplerResultHolder>> liste = new ArrayList<Callable<AsynSamplerResultHolder>>();
+try {
+if (isConcurrentDwn()) {
+}
+if(!merging) { // i.e. it is OPEN
+location = encodeSpaces(location);
+CacheManager cacheManager = base.getCacheManager();
+@Override
+/** Use the the default Java HTTP implementation */
+static final String[] SHARE_TAGS = new String[3];
+None
+None
+post.setRequestHeader(HTTPConstants.HEADER_CONTENT_TYPE, DEFAULT_CONTENT_TYPE); //$NON-NLS-1$
+static {
+None
+}
+KeyStore updateKeyStore(String port, String host) throws IOException, GeneralSecurityException {
+private String keyPassword;
+combined.add(rawTemplate.substring(beginOffset, rawTemplate.length()));
+KeyToolUtils.genkeypair(CERT_PATH, JMETER_SERVER_ALIAS, storePassword, CERT_VALIDITY, null, null);
+//@GuardedBy("this")
+private void init(){
+final String url = param.length>0 ?  " for '"+ param[0] +"'" : "";
+if (minimum >= maximum){
+vars.put(myName, myValue);
+return;
+private static final ImageIcon imageSuccess = JMeterUtils.getImage(
+log.warn("maximum("+maxAsString+") - minimum"+minAsString+") must be <="+Integer.MAX_VALUE);
+static final String CERT_ALIAS = JMeterUtils.getProperty("proxy.cert.alias"); // $NON-NLS-1$
+JMeterVariables variables = JMeterContextService.getContext().getVariables();
+private String formatNumber(long value){
+if (rawObject != null) {
+final String propValue = property.getStringValue();
+super.setProperty(property);
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+private static final HashMap<String, SSLSocketFactory> HOST2SSL_SOCK_FAC = new HashMap<String, SSLSocketFactory>();
+static final String JMETER_SERVER_ALIAS = ":jmeter:"; // $NON-NLS-1$
+break;
+log.error(e.toString());
+None
+sampler.addNonEncodedArgument("", postData, ""); //used when postData is pure xml (ex. an xml-rpc call)
+checkArraysHaveSameContent(expectedPostBody, bodySent.getBytes(contentEncoding), contentEncoding, res);
+if (getStopThread()) {
+private static abstract class GenericHttpParams {
+public ReplaceFunctionsWithStrings(CompoundVariable masterFunction, Map<String, String> variables) {
+ByteArrayOutputStream bos = new ByteArrayOutputStream();
+establishConnection();
+byte[] responseData = readResponse(conn, res);
+final HttpRequest request = (HttpRequest) localContext.getAttribute(ExecutionContext.HTTP_REQUEST);
+private static final String KEYSTORE_TYPE =
+assertEquals(1,timer.getCalcMode());// All threads
+Action escapeAction = new AbstractAction("ESCAPE") {
+protected void threadFinished() {
+String file=JMeterUtils.getProperty("httpclient.parameters.file"); // $NON-NLS-1$
+* @see org.apache.jmeter.protocol.http.util.accesslog.LogFilter#excPattern(java.lang.String)
+}
+None
+return super.getDomain();
+if (tag instanceof FormTag) {
+canSetPreEmptive =  params.getParameter(HTTP_AUTHENTICATION_PREEMPTIVE) == null;
+private static final String CERT_DIRECTORY =
+return HTTPConstants.DELETE;
+int newIndx = index - 1;
+org.apache.commons.httpclient.Header responseHeader = httpMethod.getResponseHeader(HTTPConstants.HEADER_CONTENT_ENCODING);
+return new File(getRecentFile(Integer.parseInt(menuItem.getName())));
+requestParams.setParameter(ConnRoutePNames.LOCAL_ADDRESS, inetAddr);
+JMeterTreeNode[] nodes = getDraggedNodes(t);
+HostConfiguration hc = new HostConfiguration();
+HTTPFileArg file = files[0];
+new NTCredentials(
+if(sampler.getArguments() != null && !sampler.hasArguments() && sampler.getSendFileAsPostBody()) {
+/**
+fontNameMap.put(JMeterUtils.getResString("font.serif"), "Serif"); //$NON-NLS-1$
+private static final String USER_PASSWORD_KEY = "proxy_cert_password";
+None
+reportError("Missing jar file", ex, true);
+}
+private static final String VARIABLE_GROUP = "variable"; // $NON-NLS-1$
+if (item instanceof TestPlan)
+final String includePath = getIncludePath();
+tree = getProperBranch(tree);
+if (propertyEditor != null) {
+return clone;
+if (childError && parent.isSuccessful()) {
+clone.globalIteration = globalIteration;
+final Class<?> propClass = ClassUtils.primitiveToWrapper(pd.getPropertyType());
+for (Iterator<TestElement> i = this.subControllersAndSamplers.iterator(); i.hasNext();) {
+initialized = false;
+if (!nodeToReplace.isEnabled()) {
+if (defaultBundle == null) {
+current = getSelectionAsInt();
+None
+List<TestElement> reordered = new ArrayList<TestElement>(this.subControllersAndSamplers.size());
+this.subControllersAndSamplers = reordered;
+postedBody.append(new String(formDataPostBody, contentEncoding));
+return true;
+private static final String CLIENT_CHOICE = "jms.client_choice"; // $NON-NLS-1$
+if (log.isDebugEnabled()) {
+throw new NextIsNullException();
+reInitialize();
+} catch (IOException ioe) {
+tpPanel.add(throughput);
+if (formEncoding != null) {
+private int loopCount = 0;
+public static final String REMOVE = "check_remove";
+/** Indicates that the results file should be in CSV format. * */
+{
+return getPropertyAsInt(START_INDEX, 0);
+if (!edit_add.isEnabled()) {
+@Override
+perthread = new JCheckBox(PERTHREAD_LABEL, isPerThread);
+((ThroughputController) tc).setMaxThroughput(throughput.getText().trim().split("\\.")[0]); // $NON-NLS-1$
+JPanel tpPanel = new JPanel();
+loops = new JTextField("1", 5); // $NON-NLS-1$
+i = str.lastIndexOf(':'); // $NON-NLS-1$
+if(str.startsWith("[")&& str.endsWith("]")) {
+i = str.indexOf('/'); // $NON-NLS-1$
+for (int i=0; i < files.length; i++) {
+String contentTypeHeader = connection.getRequestProperty(HTTPConstants.HEADER_CONTENT_TYPE);
+StringBuilder postedBody = new StringBuilder(1000);
+if (displayName) {
+hbuf.append("Host").append(COLON_SPACE).append(host).append(NEWLINE);//$NON-NLS-1$
+// just send all the values as the post body
+setLayout(new BorderLayout());
+cl.getHttpConnectionManager().closeIdleConnections(-1000);// Closes the connection
+// LOOP LABEL
+IOUtils.write(getXmlData(), out, ENCODING); // $NON-NLS-1$
+//@GuardedBy("fileContainers")
+out.write(formDataPostBody);
+HTTPFileArg file = files[0];
+File uploadFile = new File(file.getPath());
+if(sampler.getUseMultipartForPost()) {
+postBody = sampler.getQueryString(contentEncoding);
+None
+None
+contentTypeInclude.setText(JMeterUtils.getProperty("proxy.content_type_include")); // $NON-NLS-1$
+None
+JLabel label = new JLabel(JMeterUtils.getResString("proxy_target")); // $NON-NLS-1$
+}
+out.write(("HTTP/1.0 "+responseStatusValue).getBytes(ISO_8859_1)); //$NON-NLS-1$
+m.addElement(JMeterUtils.getResString("grouping_no_groups")); // $NON-NLS-1$
+private static SSLManager manager;
+targetNodes.removeActionListener(this);
+if (HTTPConstants.POST.equals(method) || HTTPConstants.PUT.equals(method)
+targetNodes.addActionListener(this);
+private String method;
+private static final String FUNCTION_REF_PREFIX = "${"; //$NON-NLS-1$
+targetNodesModel.setSelectedItem(choice);
+if (formEncodings != null) {
+/** Handles writing of a post or put request */
+final String[] REDIRECT_CODES = { "301", "302", "303" };
+String prefix = new String(bytes, 0, Math.min(bytes.length, 2000), Charset.forName(DEFAULT_HTTP_ENCODING));
+String matchAgainst = prefix.toLowerCase(java.util.Locale.ENGLISH);
+JMeterVariables vars = context.getVariables();
+private static final String ATT_RESPONSE_CODE     = "rc"; //$NON-NLS-1$
+JLabel loopsLabel = new JLabel(JMeterUtils.getResString("iterator_num")); // $NON-NLS-1$
+None
+Document doc = null;
+}
+/**
+JPanel modulesPanel = new JPanel();
+try {
+final String errorMessage = "IOException on ("+getXPathQuery()+")";
+final String METATAG = "<meta http-equiv=\"content-type\" content=\""; // $NON-NLS-1$
+Method get = null, eval = null, set = null, source = null;
+return XPathUtil.makeDocument(in,false,false,useNameSpace(),isTolerant(),isQuiet(),showWarnings(),reportErrors()
+conn.setInstanceFollowRedirects(getAutoRedirects());
+}
+log.warn("SAXException while processing ("+getXPathQuery()+") "+e.getLocalizedMessage());
+boolean gzipped = HTTPConstants.ENCODING_GZIP.equals(conn.getContentEncoding());
+bshInterpreter.set("FailureMessage", "");//$NON-NLS-1$ //$NON-NLS-2$
+InputStream errorStream = conn.getErrorStream();
+public void setXPathQuery(String val){
+byte[] responseData = readResponse(res, in, contentLength);
+StringBuilder hdrs = new StringBuilder(100);
+if(!HTTPConstants.HEADER_COOKIE.equalsIgnoreCase(headerKey)) {
+for (String value : entry.getValue()){
+// Check cache for an entry with an Expires header in the future
+final CacheManager cacheManager = getCacheManager();
+for (retry = 0; retry <= MAX_CONN_RETRIES; retry++) {
+savedConn = conn;
+} catch (IOException e) {
+throw new BindException();
+if (method.equals(HTTPConstants.POST)) {
+// Now collect the results into the HTTPSampleResult:
+res.setResponseData(responseData);
+for(int i = 1; i <= parts.length - 2; i++) {
+int errorLevel = conn.getResponseCode();
+res.setEncodingAndType(ct);
+if (file.length() > 0) {// we have a file
+file_load.setEnabled(false);
+None
+addAssertionFailure(previousResult, e, true); // fail the sample
+if (firstTime) {
+saveConnectionCookies(conn, url, getCookieManager());
+if (getAutoRedirects()){
+for(int i=matchCount+2; i <= prevCount; i++) {
+None
+return errorResult(e, res);
+private static final String MATCH_AGAINST = "RegexExtractor.useHeaders"; // $NON-NLS-1$
+if (cacheManager != null){
+private final Random RANDOM = new Random();
+protected final JPanel getWebServerTimeoutPanel() {
+if(acceptCharSet != null) {
+try {
+return one.getAbsolutePath();
+private static final String XML_DATA = "HTTPSamper.xml_data"; //$NON-NLS-1$
+vars.put(refName, defaultValue);
+String port = this.getPropertyAsString(PROXY_PORT);
+/* Note that the filename is also used as a key to the pool (if used)
+final int groups = match.groups();
+if (next.length() > 0 && getMemoryCache()) {
+DOMPool.putDocument(next, doc);
+removeGroups(vars, refName);
+doc = openDocument(next);
+byte[] utf8data = unicodeData.getBytes("UTF-8"); // $NON-NLS-1$
+try {
+temporaryFile = File.createTempFile("foo", "txt");
+public void testSendPostData() throws IOException {
+for (int i = 1; i <= matchCount; i++) {
+match = getCorrectMatch(matches, matchNumber);
+{
+matchCount = matches.size();
+host = System.getProperty("http.proxyHost");
+for (int i = matchCount + 1; i <= prevCount; i++) {
+fileContents = getXmlData();
+protected HTTPSampleResult sample(URL u, String s, boolean b, int i) {
+this(name, value, alreadyEncoded, EncoderCache.URL_ARGUMENT_ENCODING);
+for (int i = 0; i <= groups; i++) {
+private static final String PROXY_USER =
+Priority p = Priority.getPriorityForName(prio);
+None
+int groups;
+result.setDataEncoding(ENCODING);
+Envelope msgEnv = Envelope.unmarshall(rdoc);
+return null;
+buf.setLength(pfxlen);
+if (this.getHeaderManager() != null && this.getHeaderManager().getSOAPHeader() != null) {
+String phost = "";
+List<Object> combined = new ArrayList<Object>();
+if (this.getUseProxy()) {
+if (phost.length() > 0 && pport > 0) {
+beginOffset = currentResult.endOffset(0);
+final Map<String, String> headers = spconn.getHeaders();
+private static final Scheme SLOW_HTTP;
+None
+combined.add(rawTemplate.substring(beginOffset, beginMatch));
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+public boolean useBody() {
+{
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+SampleResult sr = new SampleResult();
+} else {
+private static final String FILE_ARGS = "HTTPsampler.Files"; // $NON-NLS-1$
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+@Override
+synchronized (lockInterval) {
+None
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+@Override
+length=br.read();
+None
+} catch (IllegalArgumentException exception){
+if (CPS_HTTP > 0) {
+private static final Scheme HTTPS_SCHEME;
+None
+private volatile boolean resetSSLContext;
+} catch (Exception e) {
+HttpResponse httpResponse =
+None
+final InetAddress localAddr = (InetAddress) httpRequest.getParams().getParameter(ConnRoutePNames.LOCAL_ADDRESS);
+throw new IllegalArgumentException("Missing location header in redirect for " + httpRequest.getRequestLine());
+SocketAddress localaddr = new InetSocketAddress(localAddress, localPort);
+res = resultProcessing(areFollowingRedirect, frameDepth, res);
+res.setRequestHeaders(getConnectionHeaders((HttpRequest) localContext.getAttribute(ExecutionContext.HTTP_REQUEST)));
+expectedPostBody
+None
+/**
+private int getHash(String s) {
+return
+None
+HttpClientKey key = new HttpClientKey(url, (useStaticProxy || useDynamicProxy),
+if(!StringUtils.isEmpty(contentEncoding)) {
+HttpParams clientParams = new DefaultedHttpParams(new BasicHttpParams(), DEFAULT_HTTP_PARAMS);
+private Object bshInstance = null; // The interpreter instance for this class
+}
+String contentEncoding = null;
+SchemeRegistry schemeRegistry = httpClient.getConnectionManager().getSchemeRegistry();
+parseNodes(htmlParser.elements(), formEncodings, pageEncoding);
+if (useDynamicProxy){
+private static final String RECEIVE_STR = JMeterUtils.getResString(JMSSubscriberGui.RECEIVE_RSC); // $NON-NLS-1$
+JMeterContext jmctx = JMeterContextService.getContext();
+requestParams.removeParameter(ConnRoutePNames.LOCAL_ADDRESS);
+if(file.getMimeType() != null && file.getMimeType().length() > 0) {
+bsh.set("Parameters", params); // $NON-NLS-1$
+public String getParameters() {
+break;
+this.target = url.getProtocol()+"://"+url.getAuthority();
+} else if (postData.trim().startsWith("<?")
+Map<Long, StatCalculatorLong> newSubList = new LinkedHashMap<Long, StatCalculatorLong>(5);
+}
+public static final String DEFAULT_PORT_S =
+None
+}
+urlWithoutQuery = urlWithoutQuery.substring(0, urlWithoutQuery.length() - query.length() - 1);
+StringBuilder hdrs = new StringBuilder(100);
+CSVSaveService.processSamples(filename, visualizer, this);
+private static class ViewableFileBody extends FileBody {
+final int contentLen = parseLine(reqLine);
+} else {
+}
+headers = request.getHeaderManager();
+Charset charset = null;
+}
+}
+MultipartEntity multiPart = new MultipartEntity(
+if (getMethod().startsWith(HTTPConstants.CONNECT)) {
+PropertyIterator args = sampler.getArguments().iterator();
+rawPostData = line.toByteArray();
+postedBody.append(new String(bos.toByteArray(),
+GuiUtils.stopTableEditing(table);
+: contentEncoding));
+log.debug("parsed version:  " + version);
+None
+String contentTypeHeader = connection.getRequestProperty(HTTPConstants.HEADER_CONTENT_TYPE);
+};
+//+ JMX file attributes
+* @param listener
+if (tag instanceof CompositeTag) {
+useBody.setActionCommand(RegexExtractor.USE_BODY);
+if (tristateCheckBox!= null){
+None
+postedBody.append("<actual file content, not shown here>"); // $NON-NLS-1$
+String postBody = null;
+// find index of path start
+String contentLengthHeaderValue = getRequestHeaderValue(headerString, "Content-Length"); //$NON-NLS-1$
+if (haveContentEncoding) {
+setupTabPaneForAssertionResult();
+if (retval instanceof Wrapper)
+if (myStart != COUNT_UNUSED) // Only try to format if there is a
+StringEntity requestEntity = new StringEntity(postBody.toString(), contentEncoding);
+//          HttpsURLConnection secureConn = (HttpsURLConnection) conn;
+String responseStatusValue = getRequestHeaderValue(headerString, "X-ResponseStatus"); //$NON-NLS-1$
+* i.e. url starts with "http:", not "/"
+connection.setRequestProperty(
+String pageEncoding = addPageEncoding(result);
+public HttpRequestHdr() {
+PropertyIterator args = getArguments().iterator();
+urlContentEncoding = EncoderCache.URL_ARGUMENT_ENCODING;
+if (def != null) {
+parameterName = URLDecoder.decode(parameterName, urlContentEncoding);
+nvps.add(new BasicNameValuePair(parameterName, parameterValue));
+this.USEFILE = false;
+private static final String VALUE = "Header.value"; //$NON-NLS-1$
+StringBuilder entityBody = new StringBuilder(1000);
+}
+if(sampler.getArguments() != null && !sampler.hasArguments() && sampler.getSendFileAsPostBody()) {
+private final String INFO_H = JMeterUtils.getResString("monitor_equation_healthy"); //$NON-NLS-1$
+StringBuilder entityBodyContent = new StringBuilder();
+final String filenamePrefix = "filename=\""; //$NON-NLS-1$
+if(hasEntityBody) {
+throw new JMeterException(); // hack to skip processing
+Object[] clist = filter.filterArray(classList);
+log.info("Starting thread group number " + groupCount
+contentEncoding = "UTF-8";
+String sleepHeaderValue = getRequestHeaderValue(headerString, "X-Sleep"); //$NON-NLS-1$
+private static SSLManager manager;
+// just send all the values as the post body
+None
+final HttpEntity entityEntry = entity.getEntity();
+None
+entityBody.append("<RequestEntity was not repeatable, cannot view what was sent>");
+if (columnOrNext.equals("next()") || columnOrNext.equals("next")) { //$NON-NLS-1$ //$NON-NLS-2$
+Map<HttpClientKey, HttpClient> map = HTTPCLIENTS.get();
+lock = new Object();
+} catch (UnknownHostException uhe) {
+try {
+if (columnOrNext.startsWith("*")) { //$NON-NLS-1$
+return up;
+if (!skipAutoNumber){
+InputStreamReader inputStreamReader = getInputStreamReader(in);
+}
+}
+None
+String val = value.toString();
+for(String lang : getLanguages()){
+None
+setEditEnabled(enabled);
+String projectFile = GuiPackage.getInstance().getTestPlanFile();
+if(charSets.length > 0) {
+! Boolean.TRUE.equals(desc.getValue(GenericTestBeanCustomizer.NOT_UNDEFINED))) {
+if (ATT_IS_IMAGE.equalsIgnoreCase(tag.getAttributeValue(ATT_TYPE, false))) {
+byte[] formdataMultipart = createExpectedFormdataOutput(boundaryString, contentEncoding, titleField, titleValue, descriptionField, descriptionValue, true, false);
+if (tableModel.getRowCount() == 0) {
+return fontValueStylePane;
+private static final List<String> desc = new LinkedList<String>();
+channel = null;
+/** {@inheritDoc} */
+setString(String.valueOf(cl));
+None
+setString(query);
+public static final String ARGUMENTS = "HTTPsampler.Arguments"; // $NON-NLS-1$
+setString(authHeader);
+private static class TristateCheckBoxIcon implements Icon, UIResource, Serializable {
+if(method.equals(HTTPConstants.POST)) {
+@Override
+assertFalse(1d / (parentElapsed / 1000d) <= calculator.getRate());
+@Override
+setString(mt);
+None
+bshInterpreter.set("SampleResult", response); //$NON-NLS-1$
+} else {
+if (referenceKey.equals("__StringFromFile")){//$NON-NLS-1$
+getInt();
+* Holds details of which sample attributes to save.
+new TestData("testfiles/HTMLParserTestCase3.html",
+None
+protected HttpClient setupConnection(URL url, HttpMethodBase httpMethod, HTTPSampleResult res)
+long start = System.currentTimeMillis();
+None
+None
+private byte[] rawPostData;
+* This method test sending a request which contains both formdata and file content
+private static final String FUNCTIONAL_MODE = "TestPlan.functional_mode"; //$NON-NLS-1$
+None
+private void drawLine(Graphics g, int x, int y) {
+private static class FileEntry{
+private static final ThreadLocal<Map<String, Object>> tp =
+/** {@inheritDoc} */
+if (hgap > 0 && subPanel.getComponentCount() > 0) {
+public static final int CONCURRENT_POOL_SIZE = 4; // Default concurrent pool size for download embedded resources
+if (getDelay() > 0) {// Duration is in seconds
+//- JMX names
+Action enterAction = new AbstractAction("ENTER") { //$NON-NLS-1$
+/**
+private String format   = ""; //$NON-NLS-1$
+public static enum SourceType {
+log.warn(type+" delay for "+threadName+" was interrupted. Waited "+(now - start)+" milli-seconds out of "+delay);
+private static final long KEEPALIVETIME = 0; // for Thread Pool for resources but no need to use a special value?
+None
+public static final String[] getSourceTypeList() {
+for(String hdr : HEADERS_TO_REMOVE){
+private static final boolean IGNORE_FAILED_EMBEDDED_RESOURCES =
+if (!"1.0".equals(outVersion)) {//$NON-NLS-1$
+public void testSplitEmpty() throws Exception {
+postData = new String(request.getRawPostData(), PostWriter.ENCODING);
+private static final String FILE_FIELD = "HTTPSampler.FILE_FIELD"; // $NON-NLS-1$
+Proxy thd = proxyClass.newInstance();
+private static final String [] METHODS = {
+gp.getMainFrame().updateCounts();
+HTTPConstants.POST,
+private static final Map<String, String> parsersForType = new HashMap<String, String>();
+ObjectTag applet = (ObjectTag) tag;
+private static final boolean numberRequests =
+stopScheduler();
+if (result != null) {
+establishConnection();
+// This will only work with an Applet .class file.
+else if (tableModel.getRowCount() > 0) {
+searchMenu = makeMenuRes("menu_search"); //$NON-NLS-1$
+private boolean remoteStop; // should remote engines be stopped at end of non-GUI test?
+public JMeterThread(HashTree test, JMeterThreadMonitor monitor, ListenerNotifier note) {
+extractAttribute(tag, ATT_SRC);
+private static final String MD5 = "HTTPSampler.md5"; // $NON-NLS-1$
+public static TestSuite suite() {
+paramPanel = new JPanel(new BorderLayout());
+private static final String RESPONSE_PARSERS= // list of parsers
+for (int i=0;i<parsers.length;i++){
+List<String> addressList = getAddressList();
+if (rh != null && rh.length() > 0) {
+public HTTPSamplerBase() {
+}
+//////// This code is mostly unused at present
+HTTPFileArg[] files = getHTTPFiles();
+Properties props = new Properties();
+}
+String valueEncoded = null;
+log.info("HTTP(S) Test Script Recorder stopped");
+if (arg.getName().equals(arg.getEncodedName()) && arg.getValue().equals(valueEncoded)) {
+protected static final String TAG_COOKIES           = "cookies";          //$NON-NLS-1$
+ObjectPair pair = new ObjectPair(child, parent);
+throw new Error("Should not happen: " + e.toString());
+// Document doc = null;
+} else {
+// Button group resources when Bytes Message is selected
+if (!path.startsWith("/")){ // $NON-NLS-1$
+Map<String, JMeterProperty> emptyColl = (Map<String, JMeterProperty>) coll;
+if(HTTPConstants.GET.equals(getMethod()) || HTTPConstants.DELETE.equals(getMethod())) {
+pathAndQuery.append(QRY_SEP);
+if(isProtocolDefaultPort()) {
+return getQueryString(EncoderCache.URL_ARGUMENT_ENCODING);
+None
+if(JOrphanUtils.isBlank(contentEncoding)) {
+this.cssJqueryResultField.setText(""); // $NON-NLS-1$
+String name;
+private static final String PORT = "ProxyControlGui.port"; // $NON-NLS-1$
+Message msg = new MimeMessage(session);
+None
+parseArguments(queryString, null);
+if (getScheduler()) {
+if(HTTPConstants.POST.equals(getMethod()) || HTTPConstants.PUT.equals(getMethod())) {
+private final DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z"); // ISO format $NON-NLS-1$
+new Functor[] {
+// Constructor for TestElement tests
+current = null;
+private static class UrlIterator implements Iterator<URL> {
+metaData = ARG_VAL_SEP;
+if(!StringUtils.isEmpty(contentEncoding)) {
+if(log.isDebugEnabled()) {
+addNonEncodedArgument(name, value, metaData);
+}
+HTMLParser.getParser(parserName)
+returnValue = super.next();
+if (urls != null && urls.hasNext()) {
+String re=getEmbeddedUrlRE();
+} catch (MalformedCachePatternException e) {
+url=StringEscapeUtils.unescapeXml(url);
+private static final String SCOPE = "Sample.scope"; // $NON-NLS-1$
+JButton button = new JButton("Browse...");
+try {
+private final boolean isRemote; // skip certain processing for remote tests
+if (pattern != null && localMatcher != null && !localMatcher.matches(urlStrEnc, pattern)) {
+}
+HTTPSampleResult binRes = sample(url, HTTPConstants.GET, false, frameDepth + 1);
+private JCheckBox includeTimers; // if selected, add duration of timers to total runtime
+if (!sample.isSuccessful()) {
+{
+try {
+final List<Future<AsynSamplerResultHolder>> retExec = exec.invokeAll(liste);
+private static final int NUM_BASE_GROUPS = 3;
+public void setFailureLimit(String limit) {
+this.clearData();
+exec.shutdown();
+}
+exec.awaitTermination(AWAIT_TERMINATION_TIMEOUT, TimeUnit.SECONDS);
+if (tabbedResult.getTabCount() >= 2) {
+public String getToAddress() {
+default:
+for (Future<AsynSamplerResultHolder> future : retExec) {
+} catch (InterruptedException ie) {
+threadContext = JMeterContextService.getContext();
+None
+}
+private Serializable object_msg_file_contents = null;
+public static final int STOP = 0;
+private String nextName(GenericController c) {
+public static final int THREAD = 0;
+* selecting the "Edit" option. Used to prevent reverting the combo to
+* @return parser class name (may be "") or null if entry does not exist
+public static final int TEST = 2;
+return legendPanel;
+invalidRedirectUrl = true;
+private static final String TARGET = "ActionProcessor.target"; //$NON-NLS-1$
+}
+if(!invalidRedirectUrl) {
+totalRes.setSampleLabel(totalRes.getSampleLabel() + "->" + lastRes.getSampleLabel());
+private String getValue(NamedNodeMap attrs, String attname) {
+if (thrd!= null) {
+*            the value to be stored in the editor
+}
+abstract PropertyEditor getInstance(PropertyDescriptor descriptor);
+private JRadioButton pauseButton;
+private HTTPFileArgs getHTTPFileArgs() {
+if (files.length > 0) {
+private int target;
+}
+bufferSize = 4 * 1024;
+JPanel webServerPanel = new HorizontalPanel();
+AssertionResult assertionResults[] = res.getAssertionResults();
+allFileArgs = fileArgs;
+None
+setHTTPFileArgs(allFileArgs);
+private transient Publisher publisher = null;
+JLabel label = new JLabel(JMeterUtils.getResString("proxy_target")); // $NON-NLS-1$
+abscissa = t - splineNumber;
+private HttpClientDefaultParameters(){
+setEditEnabled(enabled);
+@Override
+thread.setStartTime(getDelay() * 1000 + now);
+private static final ThroughputInfo allThreadsInfo = new ThroughputInfo();
+}
+private static final ConcurrentMap<AbstractThreadGroup, ThroughputInfo> threadGroupsInfoMap =
+return currentTarget - currentTime;
+private long calculateDelay() {
+if (file_contents == null) {
+double msPerRequest = (MILLISEC_PER_MIN / getThroughput());
+public static final int EQUAL = 1;
+delay = (long) (JMeterContextService.getNumberOfThreads() * msPerRequest);
+hashAlias = host;
+delay = (long) (JMeterContextService.getContext().getThreadGroup().getNumberOfThreads() * msPerRequest);
+None
+log.error("UTF-8 encoding not supported!");
+if(fileArgs != null) {
+delay = calculateSharedDelay(allThreadsInfo,(long) msPerRequest);
+protected static final int SO_TIMEOUT = JMeterUtils.getPropDefault("httpclient.timeout", -1);
+}
+}
+final org.apache.jmeter.threads.AbstractThreadGroup group =
+double incrYAxis = max / numInterval;
+protected static final boolean USE_CACHED_SSL_CONTEXT =
+if (_title.length() == 0 ) {
+previousTime = 0;
+Stroke[] strokes = new Stroke[_legendLabels.length];
+nonProxyHostSuffix.add(t.substring(1));
+}
+establishConnection();
+cache.addElement(cacheKey, encodedValue);
+localHostOrIP = addr.getHostName();
+if(nbLoops==null || nbLoops.intValue()==INFINITE_LOOP_COUNT) {
+public static final String IMPL_HTTP_CLIENT4 = "HttpClient4";  // $NON-NLS-1$
+// Must be done before setContentType
+* This method test sending a request which contains both formdata and file content
+private static final String CONTINUE_FOREVER = "LoopController.continue_forever"; // $NON-NLS-1$
+String name=key.substring(0,typeSep);
+super(null);
+JLabel label = new JLabel(text);
+String contentEncoding = sampler.getContentEncoding();
+if(sampler.getArguments() != null && !sampler.hasArguments() && sampler.getSendFileAsPostBody()) {
+Protocol protocol = Protocol.getProtocol(schema);
+File inputFile = new File(file.getPath());
+private static boolean recurseForm(Node tempNode, LinkedList<HTTPSamplerBase> urlConfigs, URL context, String selectName,
+StringBuilder putBodyBuffer = new StringBuilder();
+if(HTTPSamplerFactory.IMPL_JAVA.equals(httpSamplerName)) {
+formDataPostBody = bos.toByteArray();
+assertEquals("1a:aa.",f1.invoke(t1a));
+connection.setRequestProperty(HTTPConstants.HEADER_CONTENT_LENGTH, Long.toString(contentLength));
+swin.join();
+private final Class<?> clazz;
+if (_title.length() == 0 ) {
+calc.addValue(1L);
+String config = getPropertyAsString(CONFIG_CHOICE);
+myJTable = new JTable(model);
+for (int i = 0; i < _xAxisLabels.length; i++) {
+* Returns the current value, prefixed and suffixed, as a string, then
+HttpConnectionMetrics  metrics = (HttpConnectionMetrics) localContext.getAttribute(CONTEXT_METRICS);
+System.out.println("Creating test suite");
+if (method.equals(HTTPConstants.POST)) {
+String styleUrl = match.group(2);
+String[] order = new String[] { "zero", // 0/1 vs. 1/1 -> 0 is
+protected void notifyFirstSampleAfterLoopRestart() {
+private final Map<String, String> validTranslations;
+/**
+}
+textToFindField.getDocument().addDocumentListener(this);
+private static final ThreadLocal<Map<HostConfiguration, HttpClient>> httpClients =
+String str = url;
+volatile HttpClient savedClient;
+out.append("<HTML><HEAD><TITLE>");
+HttpParams params = DefaultHttpParams.getDefaultParams();
+* If name = "content-length", then return value as int, else return 0
+try {
+* Find the //server.name from an url.
+}
+String boundaryString = contentType.substring(contentType.toLowerCase(java.util.Locale.ENGLISH).indexOf("boundary=") + "boundary=".length());
+params.setParameter(HttpMethodParams.COOKIE_POLICY,CookiePolicy.IGNORE_COOKIES);
+}
+if (USE_LOOPBACK){
+None
+i = str.indexOf('/'); // $NON-NLS-1$
+if (method.equals(HTTPConstants.POST)) {
+i = str.indexOf('/'); // $NON-NLS-1$
+setDefaultRequestHeaders(httpMethod);
+* This method test sending a request which contains both formdata and file content
+* Returns the current value, prefixed and suffixed, as a string, then
+HttpClient client = setupConnection(url, httpMethod, res);
+}
+res.setResponseData(readResponse(res, tmpInput, (int) httpMethod.getResponseContentLength()));
+res.setResponseCode(Integer.toString(statusCode));
+{
+* Simplify getMessage() output from XStream ConversionException
+previousTime = currentTime; // assume the sample will run immediately
+None
+Mode getMode() {
+boolean result = true;
+Collection<ConfigTestElement> defaultConfigurations = (Collection<ConfigTestElement>) findApplicableElements(myTarget, ConfigTestElement.class, false);
+None
+field.setMaximumSize(new Dimension(field.getMaximumSize().width, field.getPreferredSize().height));
+* Added background support for reporting tool
+synchronized(row) {
+this.barrier.setup(numThreadsInGroup);
+if (tableModel == null) {
+String val = paramMap.get(arg.getName());
+* @param listener
+}
+None
+final InetAddress inetAddr = getIpSourceAddress();
+Box row = Box.createHorizontalBox();
+private final JButton syncWithName =
+final RequestView requestView = (RequestView) Class.forName(clazz).newInstance();
+if (dynamicGraphSize.isSelected()) {
+if (port != -1) {
+if (samplerSelection.isSelected() && pattern != null) {
+None
+private Object readResolve(){
+g.drawLine(xborder, 0, xborder, (int) height);
+Header[] rh = httpMethod.getResponseHeaders();
+if (p_model != null && p_model.getCount() > 50) {
+{
+JPanel lgraphPanel = new JPanel(new BorderLayout());
+Box delayDevPanel = Box.createHorizontalBox();
+if (file.isDirectory() && !path.endsWith("/")) {// $NON-NLS-1$
+}
+if (System.getProperty("org.apache.commons.logging.Log") == null) { // $NON-NLS-1$
+return headerSize;
+private static final int JMLOGFILE_OPT      = 'j';// $NON-NLS-1$
+this.barrier = new BarrierWrapper();
+* Returns the current value, prefixed and suffixed, as a string, then
+private static class ListenToTest implements TestStateListener, Runnable, Remoteable {
+// Set up the local address if one exists
+if (summer != null) {
+} else {
+}
+List<CLOption> clOptions = parser.getArguments();
+} else if (useStaticProxy) {
+Box avgDelayPanel = Box.createHorizontalBox();
+private static final Class<?>[] columnClasses = {
+HttpClient httpClient = map.get(hc);
+setupFormData(sampler);
+if (item.getUserObject() instanceof ReplaceableController) {
+if (useDynamicProxy){
+log.warn("ResponseCode==-1 & null ResponseMessage. Header(0)= "+hdr);
+JTabbedPane tabbedRequest = new JTabbedPane(SwingConstants.BOTTOM);
+None
+httpMethod.setFollowRedirects(getAutoRedirects());
+System.out.println("The JVM should have exitted but did not.");
+if (headerManager != null) {
+JPanel panel = new JPanel(new BorderLayout());
+* - before
+if (!argMap.containsKey(arg.getName())) {
+* @see #isCellEditable
+return formError("301 Moved", "File has moved");
+private JCheckBox regexMatch;
+private static final String ENABLE_RESTART = "enable_restart"; // $NON-NLS-1$
+Cursor cursor = getCursor();
+// Resource names for column headers
+if (canSetPreEmptive){
+final Object source = action.getSource();
+ArrayList<PartBase> partlist = new ArrayList<PartBase>();
+for (int i=0; i < files.length; i++) {
+closeButton.setText(JMeterUtils.getResString("close")); //$NON-NLS-1$
+ViewableFilePart filePart = new ViewableFilePart(file.getParamName(), inputFile, file.getMimeType(), null);
+private void update(int addend, boolean shifted) {
+partlist.add(filePart);
+file_load.setEnabled(false);
+int partNo = partlist.size();
+private static final String DESTINATION_STATIC = "jms.destination_static"; // $NON-NLS-1$
+None
+private transient ThreadLocal<Long> perTheadNumber;
+// Convert to URL for manifest
+public void setDefaultDelimiter() {
+/** Logging */
+@Override
+None
+private static final String INCLUDE_COL = "patterns_to_include"; // $NON-NLS-1$
+durationTest = maxStartTime - minStartTime;
+if (thisToken.length() > 0 && !thisToken.equals(DOTDOT) && tokens.get(i + 1).equals(DOTDOT))
+for (JMeterTreeNode controller = myTarget; controller != null; controller = (JMeterTreeNode) controller
+regexpPane = createRegexpPanel();
+// The known tags are assumed to be valid:
+}
+for (int i=0; i < files.length; i++) {
+StringBuilder sb = new StringBuilder();
+StringBuilder putBody = new StringBuilder(1000);
+private static final Map<String, HTMLParser> parsers = new ConcurrentHashMap<String, HTMLParser>(4);
+((SimpleHttpConnectionManager)httpConnectionManager).shutdown();
+if (rightSide.indexOfTab(JMeterUtils.getResString("regexp_tester_title")) < 0) { // $NON-NLS-1$
+if (paramSplit.length > 1) {
+}
+break;
+// Standalone
+JPanel labelPanel = new JPanel();
+savedBsh = bshInterpreter;
+}
+JPanel numberPanel = new JPanel();
+static {
+JPanel infoPanel = new JPanel();
+if (width == lastWidth && height == lastHeight) {
+final int keyManagerCount = keyManagers.length;
+reader.reset();
+int n = plot.length;
+if(hideFileData) {
+private static final Logger log = LoggingManager.getLoggerForClass();
+private static final String PORTFIELD = "portField"; // $NON-NLS-1$
+if (getHeaderManager() != null) {
+length = Integer.parseInt(hd.getValue());
+}
+return new File(xmlFile).length();
+} catch (UnsupportedEncodingException e) {
+// specified time.
+writer.print("\n"); // $NON-NLS-1$
+private static final Map<String, Integer> mapJdbcNameToInt;
+}
+res.setRequestHeaders(getConnectionHeaders(httpMethod));
+String sysProp = JMeterUtils.getPropDefault("system.properties",""); //$NON-NLS-1$
+sb.append('.');
+}
+String charsetName = fileEntry.charSetEncoding;
+restart.setEnabled(true);
+hashAlias = alias;
+}
+/** {@inheritDoc} */
+Field[] fields = java.sql.Types.class.getFields();
+static final String SELECT   = "Select Statement"; // $NON-NLS-1$
+None
+}
+reader.readLine();
+byte[] buffer = new byte[4096];
+while ((len = instream.read(buffer)) > 0) {
+res.latencyEnd();
+res.setDataEncoding(ENCODING);
+private String logFile, parserClassName, filterClassName;
+None
+int contentLengthIndex=-1;
+{
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+try {
+checkArraysHaveDifferentContent(new String(TEST_FILE_CONTENT) // TODO - charset?
+// Defaults from properties:
+byte[] multipartEndDivider = getMultipartEndDivider();
+}
+public static final String REGEX = "regex"; // $NON-NLS-1$
+private static final String NODE_FILENAME = "fileName"; // $NON-NLS-1$
+table = new JTable(model);
+@Override
+} else {
+None
+for(String subject : domains) {
+setBase(scriptPath.getAbsoluteFile().getParentFile());
+lastWidth = width;
+public static void setInVersion(String v) {
+perConnCache.put(conn, preparedStatementMap);
+Context oldCtx = MAP.putIfAbsent(cacheKey, ctx);
+preparedStatementMap.put(getQuery(), pstmt);
+sb.append(TAB).append("TRUE");
+None
+private static final long serialVersionUID = 233L;
+this.add(this.makeTitlePanel(), BorderLayout.NORTH);
+if (baos.size() > 0 // we have some data
+res.setResponseData(sb.toString().getBytes()); // TODO this should really be request data, but there is none
+if (oname.length() != 0 && name.length()==0) {
+private static final TableCellRenderer[] RENDERERS =
+@Override
+res.setResponseData(sb.toString().getBytes()); // TODO this should really be request data, but there is none
+return failed;
+postedBody.append("<actual file content, not shown here>"); // $NON-NLS-1$
+* Private versions of what might eventually be part of Commons-CSV or
+postedBody.append("<actual file content, not shown here>"); // $NON-NLS-1$
+ByteArrayOutputStream bos = new ByteArrayOutputStream();
+None
+bos.write(getMultipartDivider());
+PropertyIterator args = sampler.getArguments().iterator();
+bos.write(CRLF);
+JPanel dataPanel = new JPanel();
+writeFormMultipart(bos, parameterName, arg.getValue(), contentEncoding, sampler.getDoBrowserCompatibleMultipart());
+if(files.length > 0) {
+if (!seriesNames.containsKey(sampleLabel)) {
+bos = new ByteArrayOutputStream();
+contentLength += getFileMultipartEndDivider().length;
+JPanel tablePanel = new JPanel();
+contentLength += getMultipartEndDivider().length;
+merged.setName(merged.getName() + ":" + other.getName());
+public RespTimeGraphVisualizer() {
+if (startTimeInterval < minStartTime) {
+*            the class to check
+bshInterpreter.set("ctx", jmctx); //$NON-NLS-1$
+String resultFileName = res.getResultFileName();
+None
+if (!(
+for (int i=0; i < files.length; i++) {
+HTTPFileArg file = files[0];
+JOrphanUtils.closeQuietly(in);
+} catch (Exception e) {
+out.write(getMultipartDivider());
+static class LoopbackOutputStream extends ByteArrayOutputStream{
+static class LoopBackInputStream extends ByteArrayInputStream{
+if (DELETE_NULL_COOKIES && (null == cv || cv.length()==0)) {
+os.write("HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\n".getBytes(SampleResult.DEFAULT_HTTP_ENCODING));
+if (colorIdx >= listColors.size()) {
+final boolean useNanoTime;
+}
+Map<Long, StatCalculatorLong> subList = pList.get(sampleLabel);
+None
+int retry;
+int width = (int) size.getWidth();
+String body = formErrorBody(error, description);
+final String contentType = sc.getContentType();
+private final SSLSocket sslSock; // Save the actual socket
+if (headerManager != null) {
+conn.disconnect();
+graphPanel.repaint();
+double[][] data = new double[size][max];
+@Override
+private void checkProxy() {
+int nlsize = nanList.size();
+String cookieHeaderValue = getRequestHeaderValue(headerString, "X-SetCookie"); //$NON-NLS-1$
+idx++;
+public TCPClientImpl() {
+forceReloadData = true;
+DocumentBuilder XDB = XMLParserUtils.getXMLDocBuilder();
+private org.w3c.dom.Element createDocument() throws SAXException, IOException {
+if (eventSource == applyFilterBtn || eventSource == intervalButton || forceReloadData) {
+clearData();
+if (internalList.size() >= 2) {
+JPanel buttonPanel = new JPanel();
+/**
+NodeList servlist = pnode.getElementsByTagNameNS(SOAP11_BINDING_NAMESPACE, "address");
+if (servlist.getLength() == 0) {
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+searchPanel = new JPanel();
+assertEquals(sampler.getUrl(), res.getURL());
+Node act = (Node) SOAPOPS[idx];
+caseChkBox = new JCheckBox(JMeterUtils
+None
+JPanel titlePane = new JPanel(new BorderLayout());
+NodeList opers = ((Element) act).getElementsByTagNameNS(SOAP11_BINDING_NAMESPACE, "operation");
+None
+return lineStylePane;
+Element op = (Element) opers.item(0);
+//@GuardedBy("myTotals")
+for (int idx = 0; idx < res.length; idx++) {
+TEST_FILE_CONTENT = "foo content &?=01234+56789-\u007c\u2aa1\u266a\u0153\u20a1\u0115\u0364\u00c5\u2052".getBytes(UTF_8);
+graphWidth.setEnabled(false);
+for (int idz = 0; idz < opnodes.getLength(); idz++) {
+Element child = (Element) opnodes.item(idz);
+public final class CSVSaveService {
+charSet = JOrphanUtils.replaceAllChars(charSet, '"', "");
+if (location.startsWith(prefix)){
+private static final EditorKit customisedEditor = new LocalHTMLEditorKit();
+int dotSlashSlashIndex = url.indexOf(COLONSLASHSLASH);
+if (htmlIndex < 0) {
+pathStartIndex = url.indexOf(SLASH, dotSlashSlashIndex + COLONSLASHSLASH.length());
+@Override
+}
+int pathEndIndex = url.length();
+arg = new HTTPArgument("name.%3F", "value_+here", true);
+StringBuilder s = new StringBuilder(url);
+results.setEditorKitForContentType(TEXT_HTML, embedded ? defaultHtmlEditor : customisedEditor);
+Protocol.registerProtocol(LOOPBACK, new Protocol(LOOPBACK,new LoopbackHttpClientSocketFactory(),1));
+URLStreamHandlerFactory ushf = new URLStreamHandlerFactory(){
+None
+for (int idx = 0; idx < INCPTRN.length; idx++) {
+}
+encodedValue = URLEncoder.encode(k, contentEncoding);
+private static final Map<Object, Document> MEMCACHE = Collections.<Object, Document>synchronizedMap(
+if(log.isDebugEnabled()) {
+if(log.isDebugEnabled()) {
+private static final String TAB = "\t"; //$NON-NLS-1$
+Pattern p = Pattern.compile("^/((?:\\.\\./)+)"); // $NON-NLS-1$
+if (!location.startsWith("../")){// $NON-NLS-1$
+pathStartIndex = 0;
+String currentPath = url.substring(pathStartIndex, pathEndIndex);
+try {
+String response = ViewResultsFullVisualizer.getResponseAsString(sampleResult);
+} catch (IOException ioe) {
+String cleanedLine = this.cleanURL(line);
+el.setProperty(HTTPSamplerBase.METHOD, RMETHOD);
+count++;
+line = FILTER.filter(cleanedLine);
+private static PropertyResourceBundle messagePRB; // messages.properties
+createUrl(cleanedLine, el);
+for (int i = myTarget.getChildCount() - 1; i >= 0; i--) {
+paramString = this.stripFile(line, el);
+private transient int sampleCount; // maintain separate count of samples for speed
+} catch (RuntimeException rte) {
+if (conn != null) { // May not exist
+if (entry.indexOf('"') > -1 && checkMethod(entry)) {
+return url;
+public void testHeaderOpen(){
+for (int idx = 0; idx < nvparams.length; idx++) {
+ActionEvent actionEvent =
+String value = null;
+protected int _n; // number of non extreme nodes (_m-2)
+KeyStore getKeyStore() {
+if (name.equals(TestElement.ENABLED) || name.equals(TestElement.GUI_CLASS) || name.equals(TestElement.NAME)
+static final protected float DEFAULT_PRECISION = (float) 1E-1;
+}
+this._m = n;
+* @see org.apache.jmeter.protocol.http.util.accesslog.LogFilter#excPattern(java.lang.String)
+this._r = new float[n];
+line = breader.readLine();
+// Otherwise, the response is scanned for these strings
+try {
+sampleCount = res.sampleCount;
+_rS = new float[_m];
+int i = 0, j = 0;
+tokens = this.tokenize(entry, "\"");
+mechanism = Mechanism.valueOf(st.nextToken());
+if (t.startsWith("/")) {
+* Method is used internally to parse the InputStream and build the document
+for (i = 0; i < _n; i++) {
+for (i = 0; i < _n; i++) {
+public void SFFTest5() throws Exception {
+if(lastUsed != null)
+for (i = 1; i < _n; i++) {
+* Reset the HTTPSampler to make sure it is a new instance.
+for (i = 0; i < _n; i++) {
+if (this.FILEFILTER || this.PTRNFILTER || this.CHANGEEXT) {
+if (this.EXCFILE != null) {
+private static final String PORT = "ProxyControlGui.port"; // $NON-NLS-1$
+_coefficients[i][0] = _r[i];
+if (item >= minTagIndex && item <= maxTagIndex) {
+this.USEFILE = true;
+merged.remove(j);
+private static final TableCellRenderer[] RENDERERS_REQUEST = new TableCellRenderer[] {
+public static final String USE_SSL              = "SMTPSampler.useSSL"; // $NON-NLS-1$
+_coefficients[i][2] = _rS[i] / 2;
+_coefficients[i][3] = (_rS[i + 1] - _rS[i]) / 6;
+*            The new Context value
+}
+extractor.setXPathQuery("//a");
+propertyFieldLabelMessage = new MessageFormat(JMeterUtils.getResString("property_as_field_label")); //$NON-NLS-1$
+float[] newX = new float[_n];
+if (!converge()) {
+for (i = 0; i < _n; i++) {
+if ((t < 0) || (t > (_m - 1))) {
+splineNumber = (int) Math.floor(t);
+for (i = 0; i < 4; i++) {
+}
+requestModel.addRow(new RowResult(
+length = 0;
+float[] y = new float[width];
+requestModel.addRow(new RowResult(JMeterUtils
+LinkedHashMap<String, String> lhm = JMeterUtils.parseHeaders(sampleResult.getRequestHeaders());
+}
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+map.put(" ", query); //blank name // $NON-NLS-1$
+return map;
+int expectedNoSamples = 2 + (1 + (3 + 1) * innerLoopCount) * outerLoopCount;
+None
+}
+tableParams = new JTable(paramsModel);
+tableRequest = new JTable(requestModel);
+prop.addProperty(subProp);
+tableHeaders = new JTable(headersModel);
+JSplitPane topSplit = new JSplitPane(JSplitPane.VERTICAL_SPLIT,
+String queryPost = sampleResult.getQueryString();
+} catch(IllegalArgumentException e) {
+possibleClasses = ClassFinder.findClassesThatExtend(JMeterUtils.getSearchPaths(),
+@Override
+@Override
+{
+private transient ResourceLimitingJdbcDataSource excaliburSource;
+res.sampleStart();
+@Override
+long currentTarget = previousTime  + calculateDelay();
+bsfEngine = mgr.loadScriptingEngine(getScriptLanguage());
+log.warn("Problem evaluating the script", ex);
+attributePane.add(createMailingSettings());
+this._n = n - 2;
+if (md5HexString == null || md5HexString.length() == 0) {
+if(!StringUtils.isEmpty(lastModified) && !StringUtils.isEmpty(date)) {
+splineNumber--;
+Object objectValue = iter.next().getObjectValue();
+for (int i = 0; i < width; i++) {
+}
+@Override
+initGui();
+@Override
+@Override
+private String minimumValue;
+this.jacobi(); // results are stored in _rS
+JPanel testerPanel = new JPanel(new BorderLayout());
+context = new JavaSamplerContext(args);
+}
+if (result != null && result.getSampleLabel().length() == 0) {
+private transient ThreadLocal<Long> perTheadNumber;
+return new ErrorSamplerClient();
+catch (NoClassDefFoundError ex) {
+if(canConvertParameters()) {
+axisProperties.getYAxisProperties().setShowGridLines(1);
+this.paint_counter = -1;
+None
+None
+try {
+@Override
+JPanel mailerPanel = new JPanel(new BorderLayout());
+@Override
+@Override
+/**
+bshInterpreter.set("ResponseCode", "200"); //$NON-NLS-1$
+DataAxisProperties daxp = (DataAxisProperties)axisProperties.getYAxisProperties();
+}
+HTTPArgument arg = new HTTPArgument("", text.replaceAll("\n","\r\n"), false);
+SampleResult res = new SampleResult();
+Mode(String name) {
+String out = bshOut.toString();
+* @param listener
+res.setResponseCode(bshInterpreter.get("ResponseCode").toString());//$NON-NLS-1$
+.getPattern("\\w+((\\W)\\w+)?(\\2\\w+)*(\\2\"\\w+\")*", // $NON-NLS-1$
+res.setSuccessful(isSuccessful);
+/**
+private static final String PER_THREAD = "perThread"; // $NON-NLS-1$
+/** The name used to store the Label parameter. */
+private void setupValues(JavaSamplerContext context) {
+arg.setAlwaysEncoded(false);
+private final boolean showImplementation; // Set false for AJP
+if (result.getStartTime() == 0)
+sampler.setFollowRedirects(true);
+final String CRLF = "\r\n";
+static final String KEY_LABEL = "view_results_table_request_tab_raw"; //$NON-NLS-1$
+private int getSelectionAsInt() {
+results.sampleStart();
+public static final String UPLOAD_FILE = "FTPSampler.upload"; // $NON-NLS-1$
+sleep = sleepTime + (start % sleepMask);
+private transient MutableInteger globalNumExecutions;
+private static final String ERRKEY = "ERR"; //$NON-NLS-1$ key for HashMap
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+None
+results.sampleEnd();
+private String name;
+/** An image which is displayed when a test is not currently running. */
+if (sleepTime > 0 && sleepMask > 0) {
+Authenticator authenticator = null;
+TimeUnit.MILLISECONDS.sleep(sleep);
+csv.iterationStart(null); // line 2
+private static final String NULL_MARKER =
+}
+static {
+String dataSentToMirrorServer = new String(res.getResponseData(), contentEncoding);
+mapJdbcNameToInt = new HashMap<String, Integer>();
+String _queryType = getQueryType();
+throw new UnsupportedOperationException("Unexpected query type: "+_queryType);
+public static final String REMOTE_FILENAME = "FTPSampler.filename"; // $NON-NLS-1$
+if (element instanceof TestPlan) {
+private OutputStream outStreamClient = null;
+}
+try {
+//////// This code is mostly unused at present
+//////// This code is mostly unused at present
+log.error("In SSL request, unable to find host and port in CONNECT request: " + request.getUrl());
+cssJqueryPane = createCssJqueryPanel();
+@Override
+Object o = outputValues.get(i);
+@Override
+private Color backGround;
+private KeyStore keyStore; // keystore for SSL keys; fixed at config except for dynamic host key generation
+@Override
+for(ResourceLimitingJdbcDataSource dsc : perThreadPoolSet){
+None
+private SampleResult sampleResult = null;
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+}
+throw new SQLException("Could not set argument no: "+(i+1)+" - missing parameter marker?");
+sampleDataField.setText(JMeterUtils
+public MultipartUrlConfig(String boundary) {
+}
+Map<String, PreparedStatement> lruMap = new LRUMap(MAX_OPEN_PREPARED_STATEMENTS) {
+private int lastResultTabIndex= 0;
+String name = varnames[i - 1].trim();
+private static final TableCellRenderer[] RENDERERS_RESULT = new TableCellRenderer[] {
+for(int i=0; i < varnames.length; i++){
+public void testStarted() {
+private static final TableCellRenderer[] RENDERERS_HEADERS = new TableCellRenderer[] {
+return false;
+String prevCount = jmvars.get(varCount);
+None
+private transient Set<ResourceLimitingJdbcDataSource> perThreadPoolSet;
+writer.addAttribute(ATT_VERSION, version);
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+private static final TableCellRenderer[] RENDERERS_FIELDS = new TableCellRenderer[] {
+byte[] ba = request.parse(new BufferedInputStream(clientSocket.getInputStream()));
+String out[] = JOrphanUtils.split(in, ",",true);
+savedConn = null; // we don't want interrupt to try disconnection again
+matched = testPattern(excludeExp, sampleContentType, false);
+treeModel.removeNodeFromParent((DefaultMutableTreeNode) root.getChildAt(0));
+None
+Enumeration<?> kids = treeModel.getNodeOf(this).children();
+private ResourceLimitingJdbcDataSource initPool(String maxPool) {
+None
+if (rightSide.indexOfTab(JMeterUtils.getResString("cssjquery_tester_title")) < 0) { // $NON-NLS-1$
+source.enableLogging(new LogKitLogger(log));
+if((includeExp == null || includeExp.length() == 0) &&
+private static final ThreadLocal<Map<String, ResourceLimitingJdbcDataSource>> perThreadPoolMap =
+private class DataSourceComponentImpl implements DataSourceComponent{
+None
+String sampleContentType = result.getContentType();
+dsc = sharedDSC;
+if (CONN instanceof HttpURLConnection && this.AUTH != null && this.AUTH.getAuthHeaderForURL(this.WSDLURL) != null) {
+conn.setTransactionIsolation(transactionIsolation);
+log.warn("Removing System property: " + name);
+TRANSACTION_ISOLATION_MAP.put("DEFAULT", Integer.valueOf(-1));
+private static final Scheme HTTPS_SCHEME;
+res.setSuccessful(true);
+if (getAuthManager() != null) {
+resultModel = new ObjectTableModel(COLUMNS_RESULT, RowResult.class, // The object used for each row
+Map<String, Object> env = (Map<String, Object>)ctx.getEnvironment();
+if (length > 0){
+requestPanel = new RequestPanel();
+final Pattern p = Pattern.compile("\\s+<([^\\.]+)\\.version>([^<]+)<.*");
+private final LinkedBlockingQueue<Message> queue;
+try {
+setupTabPaneForSampleResult();
+message = queue.poll();
+String responseCode = sampleResult.getResponseCode();
+log.debug("close()");
+private static final ArrayList<Closeable> clients = new ArrayList<Closeable>();
+None
+}
+}
+String responseMsgStr = sampleResult.getResponseMessage();
+LinkedHashMap<String, String> lhm = JMeterUtils.parseHeaders(sampleResult.getResponseHeaders());
+super.clearGui();
+String name = descriptors[i].getName();
+lastPosition = LAST_POSITION_DEFAULT;
+Object encodedValue = cache.getElement(cacheKey);
+jndiPropertiesPanel.configure(sampler.getJNDIProperties());
+// el.getProperty(JMSSampler.JMS_PROPERTIES).getObjectValue());
+if (tabbedResult.getTabCount() < 2) {
+private static final String[] CONFIG_ITEMS_BYTES_MSG = { USE_FILE_RSC, USE_RANDOM_RSC};
+if (lastSelectedTab < rightSide.getTabCount()) {
+boolean appendSlash = i < (tokens.size() - 1) ? true : endsWithSlash;
+initializeTestObject();
+Throwable t = e.getCause();
+liste.add(new ASyncSample(url, HTTPConstants.GET, false, frameDepth + 1, getCookieManager(), this));
+this.convertStringToJMRequest(paramString, el);
+private static final String DEST_SETUP_STATIC = "jms_dest_setup_static"; // $NON-NLS-1$
+checkArraysHaveSameContent(expectedQueryString.getBytes(EncoderCache.URL_ARGUMENT_ENCODING), queryStringSent.getBytes(EncoderCache.URL_ARGUMENT_ENCODING), EncoderCache.URL_ARGUMENT_ENCODING, res);
+if (checkMethod(toke)) {
+private static final String[] CONFIG_ITEMS_BYTES_MSG = { USE_FILE_RSC, USE_RANDOM_RSC};
+private static final String[] CONFIG_ITEMS = { USE_FILE_RSC, USE_RANDOM_RSC, USE_TEXT_RSC };
+JMeterContext jmctx = JMeterContextService.getContext();
+* @param params
+synchronized(managersInUse)
+synchronized(managersInUse)
+/** Take source from the named file */
+private String file_contents = null;
+private byte[] bytes_msg_file_contents = null;
+/**
+type = "java.lang."+type;
+String cookie = sampleResult.getCookies();
+private final String[] SCOPE_STRINGS = new String[]{
+None
+None
+StyledDocument doc = (StyledDocument) stats.getDocument();
+tabbedResult = new JTabbedPane(SwingConstants.BOTTOM);
+protected void sizeColumns(JTable _table) {
+result.setSuccessful(false);
+public static final String SERVERNAME = "servername"; // $NON-NLS-1$
+searchTextExtension = new SearchTextExtension();
+None
+/**
+private static final String USE_FILE_LOCALNAME = JMeterUtils.getResString(JMSPublisherGui.USE_FILE_RSC);
+}
+private static final String PROPVERSION = "2.5";// Expected version $NON-NLS-1$
+private static final int MAX_DISPLAY_SIZE =
+private static final String HOTSPOT_BEAN_NAME =
+DefaultMutableTreeNode currNode = new DefaultMutableTreeNode(res);
+None
+private static final long DEFAULT_WAIT = 500L;
+private transient ReceiveSubscriber SUBSCRIBER = null;
+private transient Exception exceptionDuringInit;
+private transient boolean stopBetweenSamples;
+rightSide = new JTabbedPane();
+if (!isDestinationStatic()) {
+} finally {
+try {
+resultsRender.setRightSide(rightSide);
+if (!isDestinationStatic()) {
+Enumeration<String> enumb = mapm.getMapNames();
+if (rightSide.getTabCount() > selectedTab) {
+String returnData = ex.toString();
+if (isDestinationStatic() || START_ON_SAMPLE) {
+SUBSCRIBER.start();
+}
+setNoDelay.setPropertyFromTristate(element, TCPSampler.NODELAY);
+SUBSCRIBER.close();
+final ResultRenderer renderer = (ResultRenderer) Class.forName(clazz).newInstance();
+}
+private void writeSearchResults(final XMLBuffer xmlb, final NamingEnumeration<SearchResult> srch)
+return !oldvalue;
+return selectRenderPanel;
+selectedTab = rightSide.getSelectedIndex();
+MainFrame mf = getMainFrame(); // Fetch once
+mainSplit.remove(rightSide);
+rightSide = new JTabbedPane();
+this.valueChanged(lastSelectionEvent);
+String remote = getRemoteFilename();
+None
+private static final String JNDI_INITIAL_CONTEXT_FACTORY = "JMSSampler.initialContextFactory"; // $NON-NLS-1$
+public static final String ACTION_SHUTDOWN = "shutdown"; // $NON-NLS-1$
+if (choice.equals(RECEIVE_STR)){
+return new InputStreamReader(inStream);
+//--
+None
+private static final String JNDI_INITIAL_CONTEXT_FAC = "jms.initial_context_factory"; // $NON-NLS-1$
+private static final String DEST = "jms.topic"; // $NON-NLS-1$
+// See BUG 45460. We need to keep the resource in order to interpret existing files
+private static final String[] MENU_ADD_CONTROLLER = new String[] {
+private void check(String resname, boolean checkUnexpected) throws Exception {
+}
+private JComboBox targetBox;
+ReportGuiPackage.getInstance().getTreeModel().insertNodeInto(draggedNodes[i], parentNode, index);
+assertEquals(bodySent.length(), 0);
+if (userObject instanceof SampleResult) {
+newNode.setEnabled(component.isEnabled());
+@Override
+if (failure) {
+sub_4.addTestElement(new TestSampler("nine"));
+JLabel textAreaLabel =
+private transient ThreadLocal<Long> perTheadLastIterationNumber;
+/** Queue for receiving messages (if applicable). */
+private void runTest2(String cond, String exp[]) throws Exception {
+synchronized (admin) {// interlock with Receiver
+if(!output.renameTo(new File("archive." + getDayString()))) {
+textArea = new JSyntaxTextArea(15, 50, true);
+public void testBlankPrevOK() throws Exception {
+/**
+try {
+int expectedNoSamples = 2 + (1 + 2 + (1 + 1) * innerLoopCount) * outerLoopCount;
+ClusteredBarChartProperties clusteredBarChartProperties= new ClusteredBarChartProperties();
+LoopController controller = new LoopController();
+assertEquals(0, res.getQueryString().length());
+int expectedNoSamples = 2 + (1 + 2 + 1 + (1 + 1 + 1) * innerLoopCount) * outerLoopCount;
+URLDecoder.decode(new String(expectedUrl, "US-ASCII"), "ISO-8859-1"),
+private static StringFromFile SFFParams(String p1, String p2, String p3, String p4) throws Exception {
+assertEquals("", s);
+Paint[] paints = new Paint[_color.length];
+AxisChartDataSet axisChartDataSet =
+pageEncodings = null;
+try {
+}
+private JMeterGUIComponent guiItem;
+assertEquals("/sub1",man.get(1).getPath());
+legendProperties.setNumColumns(LegendAreaProperties.COLUMNS_FIT_TO_IMAGE);
+testItem = te;
+}
+int height = getHeight();
+if (wantData) {
+titleValue = "mytitle%20and%20space%2Ftest%C3%85";
+private static final String CARDS_DEFAULT = ""; // $NON-NLS-1$
+cl.show(cards, CARDS_DEFAULT);
+bind.addItemListener(this);
+public TestHTTPSamplersAgainstHttpMirrorServer(String arg0, int item) {
+// ResourceBundle i18nEdit=
+String titleValue = "mytitle";
+establishConnection();
+establishConnection();
+establishConnection();
+final String contentType = request.getContentType();
+tr.runProtected(theClazz, protectable);
+String regularExpression = "^.$";
+Arguments arguments = s.getArguments();
+final GuiPackage guiInstance = GuiPackage.getInstance();
+int indexOf = matchString.indexOf(';');
+if (descriptors[i].isHidden() || descriptors[i].getReadMethod() == null
+}
+public void testMakingUrl4() throws Exception {
+/** A button for removing arguments from the table. */
+private static final ImageIcon imageSuccess = JMeterUtils.getImage(
+None
+}
+return false;
+} catch (FileNotFoundException e1) {
+final String tab = ":   "; // $NON-NLS-1$
+private String printLabels(Map<String, Map<String, String>> missingLabelsPerBundle) {
+private static final String OTHER_VALUE_REGEX = "[^\\{\\[\\]\\}\\,]*"; // $NON-NLS-1$
+try {
+if (t < 0) {
+}
+private static boolean isPureAscii(String v) {
+showRenderedResponse(response, res, true);
+/**
+private static final int PROXY_PASSWORD     = 'a';// $NON-NLS-1$
+singleExecutor.submit(new Runnable() {
+_coefficients[i][1] = _r[i + 1] - _r[i] - (_rS[i + 1] + 2 * _rS[i]) / 6;
+private final Collection<TestIterationListener> testIterationStartListeners;
+private static volatile int counter = 0;
+reader.moveDown();
+guis = new HashMap<Class<?>, JMeterGUIComponent>();
+String[] strPathsOrJars = addJarsInPath(searchPathsOrJars);
+private final transient ClassLoader contextClassLoader
+None
+final boolean holdSamples = JMeterUtils.getPropDefault("hold_samples", false); // $NON-NLS-1$
+Attribute mod0 = new BasicAttribute("userpassword", "secret"); //$NON-NLS-1$ //$NON-NLS-2$
+boolean hasResultSet = cstmt.execute();
+fileReader = new BufferedReader(new FileReader(scriptFile),
+res.setHeadersSize(responseHeaders.replaceAll("\n", "\r\n") // $NON-NLS-1$ $NON-NLS-2$
+public static final String ADD = "add"; // $NON-NLS-1$
+public static final String SEARCHBASE = "search"; // $NON-NLS-1$
+if(initialized) {
+if (getUseKeepAlive()) {
+None
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+private static final String PROPVERSION = "2.5";// Expected version $NON-NLS-1$
+selection = new DefaultHighlighter();
+if (lastTextTofind != null && !lastTextTofind.equals(textToFind)) {
+String message = errorString + m.getName();
+lastPosition = lastPosition + matcher.end();
+if (!System.getProperty("java.class.path").contains("tika-app")) { // $NON-NLS-1$ $NON-NLS-2$
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+try {
+JOptionPane.showMessageDialog(null, JMeterUtils
+String resKey = key.replace(' ', '_'); // $NON-NLS-1$ // $NON-NLS-2$
+normaliseSearchDN(sr, searchBase, rootDn);
+int contentLength = -1;
+setConfig(properties);// Further configuration
+None
+private final Object invokee;
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+private void trace(String s) {
+private int currentPos, size;
+None
+final SearchResult    sr = srch.next();
+return StringEscapeUtils.escapeXml((String)value);
+SampleSender s = null;
+private final boolean isFile;
+File parentFolder = new File(base);
+@Override
+/** Name used to store the argument's name. */
+String sampleLog = findTestPath("testfiles/sample_log1.jtl");
+private final Map<T, MutableLong> valuesMap = new TreeMap<T, MutableLong>();
+/*
+parent.sampleStart(); // Start timing
+try {
+None
+private static final String TRUST_ALL_SOCKET_FACTORY = TrustAllSSLSocketFactory.class.getName();
+private volatile boolean busy;
+boolean deleteMessages = getDeleteMessages();
+sumOfSquares += (currentVal * currentVal) / (sampleCount);
+Properties props = new Properties();
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+props.setProperty("mail.pop3s.starttls.require", "true");
+Session session = Session.getInstance(props, null);
+Store store = session.getStore(getServerType());
+Message messages[] = folder.getMessages();
+ByteArrayOutputStream bout = new ByteArrayOutputStream();
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+child.setDataType(SampleResult.TEXT);
+Enumeration<Header> hdrs = message.getAllHeaders();
+private static SSLManager manager;
+folder.close(true);
+parent.sampleEnd();
+private final String ServerTypeLabel = JMeterUtils.getResString("mail_reader_server_type");// $NON-NLS-1$
+SampleResult result = event.getResult();
+public static final String DEFAULT_PATTERN = "%{time:yyyy/MM/dd HH:mm:ss} %5.5{priority} - "  //$NON_NLS-1$
+private void init() {
+String expectedQueryString = null;
+None
+None
+None
+public static final String FILENAME_SEPARATOR = ";";
+public SmtpSampler() {
+instance.setReceiverTo(getPropNameAsAddresses(receiverTo));
+InputStream certReqIn = new ByteArrayInputStream(certReqOut.toByteArray());
+CounterOutputStream cs = new CounterOutputStream();
+res.setDataType(SampleResult.TEXT);
+InputStream certIn = new ByteArrayInputStream(certOut.toByteArray());
+res.sampleStart();
+catch (AuthenticationFailedException afex) {
+private static final String SCOPE = "Sample.scope"; // $NON-NLS-1$
+log.warn("",ex);
+InputStream is = message.getInputStream();
+writeHeaders(headers, sb);
+}
+InputStream genCertIn = new ByteArrayInputStream(genCertOut.toByteArray());
+}
+findButton = new JButton(JMeterUtils
+InputMap im = textToFindField
+public static final String USE_HDRS = "true"; // $NON-NLS-1$
+searchPanel.setVisible(true);
+throw new RuntimeException(FOUND);
+private static final String DEFAULT_DNAME = "cn=JMeter Proxy (DO NOT TRUST)";  // $NON-NLS-1$
+if (SEARCH_TEXT_COMMAND.equals(command)) {
+buf.setLength(pfxlen);
+if (0 == peekAtChar()) {
+@Override
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+instance.setMailBody(getPropertyAsString(MESSAGE));
+None
+String textToFindQ = Pattern.quote(textToFind);
+None
+None
+if (!StringUtils.isEmpty(readResponse) && STATUS_PREFIX.length() > 0) {
+new Functor[] {
+List<InternetAddress> addresses = new ArrayList<InternetAddress>();
+establishConnection();
+private static final Logger logger = LoggingManager.getLoggerForClass();
+synchronized (lock) {
+JPanel panelServerSettings = new JPanel(new GridBagLayout());
+JPanel panelMailSettings = new JPanel(new GridBagLayout());
+private void runTestLastFailed(String s) throws Exception {
+System.err.println("Not a directory: "+file);
+JPanel panelAuthSettings = new JPanel(new GridBagLayout());
+private static final int INVALID = Integer.MAX_VALUE;
+securitySettingsPanel = new SecuritySettingsPanel();
+JPanel panelMessageSettings = new JPanel(new GridBagLayout());
+addHeaderFieldButton = new JButton(JMeterUtils.getResString("smtp_header_add")); // $NON-NLS-1$
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+setLayout(new BorderLayout(0, 5));
+private Object doInvoke(Class<?> _class, Object _invokee, Object[] _args) {
+None
+add(makeDataPanel(), BorderLayout.CENTER);
+}
+add(p, BorderLayout.CENTER);
+}
+None
+}
+smtpPanel.setHeaderFields((CollectionProperty)headers);
+new Functor("setValue"), // $NON-NLS-1$
+final ThreadPoolExecutor exec = new ThreadPoolExecutor(
+props.setProperty("mail." + protocol + ".host", smtpServer);
+Multipart multipart = new MimeMultipart();
+private final CachingStatCalculator model;
+File first = attachments.get(0);
+if (null != sender) {
+if (DELAY == counter) {
+listener.attend(); // listener cannot be null here
+}
+public void testBlankPrevFailed() throws Exception {
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+return port;
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+/**
+// Look for a case variation
+// There's only 1 test plan, so can cache the mode here
+public void testLastPrevOK() throws Exception {
+public long currentTimeInMillis() {
+private static volatile PatternFormatter format = null;
+private Mongo mongo = null;
+private static final String DNAME_ROOT_CA_KEY;
+mongo = null;
+None
+/**
+public static final String COMMAND = "SystemSampler.command";
+}
+classname.setText(element.getPropertyAsString(TCPSampler.CLASSNAME));
+reUseConnection.setSelected(element.getPropertyAsBoolean(TCPSampler.RE_USE_CONNECTION, TCPSampler.RE_USE_CONNECTION_DEFAULT));
+public abstract class AbstractScopedTestElement extends AbstractTestElement {
+element.setProperty(TCPSampler.CLASSNAME, classname.getText(), "");
+private static String quoteDelimiters(String input, char[] specialChars) {
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+private static final String VERSION = "1.2"; // $NON-NLS-1$
+* Simplify getMessage() output from XStream ConversionException
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+try {
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+element.setProperty(TCPSampler.SO_LINGER, soLinger.getText(), "");
+JMeterTreeNode node = (JMeterTreeNode) currentNode.getChildAt(0);
+soLinger.setMaximumSize(new Dimension(soLinger.getPreferredSize()));
+JMeterTreeNode copy = (JMeterTreeNode) node.clone();
+eolByte.setMaximumSize(new Dimension(eolByte.getPreferredSize()));
+*            The number of characters to use from the character array.
+model.add(res);//this is a different model from the one used by the result collector
+private static final String TCPKEY = "TCP"; //$NON-NLS-1$ key for HashMap
+assertEquals(1,timer.getCalcMode());// All threads
+None
+None
+private final String INFO_H = JMeterUtils.getResString("monitor_equation_healthy"); //$NON-NLS-1$
+if (searchStart == null) {
+None
+} catch (Exception e) {
+OutputStream out = connection.getOutputStream();
+None
+if ((loopEnd && cnd.length() == 0) || "LAST".equalsIgnoreCase(cnd)) {// $NON-NLS-1$
+ConfigTestElement config1 = new ConfigTestElement();
+public static final String SERVER = "TCPSampler.server"; //$NON-NLS-1$
+private Sampler next2() {
+private transient volatile Socket currentSocket; // used for handling interrupt
+public TCPSampler() {
+if (displayName) {
+try {
+static String getprop(String s) {
+initSampling();
+} catch (Exception ex) {
+requestHeaders = value;
+private static final String XML_PI               = "jmeter.save.saveservice.xml_pi"; // $NON_NLS-1$
+* - While Controller ${VAR}
+StringBuilder sb = new StringBuilder();
+public void testVariable1() throws Exception {
+res.sampleEnd();
+private static final String [] PRE_LOAD = {
+private void initSampling(){
+private final Map<JMeterThread, Thread> allThreads = new ConcurrentHashMap<JMeterThread, Thread>();
+if (values.length > 2) {
+if (getDuration() > 0) {// Duration is in seconds
+} else {
+int thisCount = PARSER.parseAndConfigure(1, this);
+for (Iterator<Controller> iterator = controllersToReinit
+if (sock != null) {
+None
+@Override
+if (backingEngine != null) {
+InterleaveControl sub_4 = new InterleaveControl();
+private static class ThreadListenerTraverser implements HashTreeTraverser {
+protected static final String DEFAULT_TOOLBAR_PROPERTY_FILE = "org/apache/jmeter/images/toolbar/icons-toolbar.properties"; //$NON-NLS-1$
+public TCPClientDecorator(TCPClient tcpClient) {
+int value = b[0] << ((b.length - 1) * 8);
+JMeterProperty jprop = el.getProperty(desc.getName());
+if(log.isDebugEnabled()) {
+totalRes.setURL(lastRes.getURL());
+private void notifyTestListenersOfStart(SearchByClass<TestStateListener> testListeners) {
+return (ConfigElement) config.clone();
+None
+static final class StringQuoter {
+final int onceOnlySamples = onlyOnceOrder.length;
+None
+current = transactionSampler.getSubSampler();
+// Test plan with OnlyOnceController inside inner loop
+@Override
+// These can potentially occur multiple times
+private volatile static StandardJMeterEngine engine;
+None
+/** A message dialog shown while JMeter threads are stopping. */
+ScriptWrapper wrapper = new ScriptWrapper();
+OutputStreamWriter outputStreamWriter = getOutputStreamWriter(out);
+JTLSAVER.marshal(evt.getResult(), new XppDriver().createWriter(writer), dh);
+public static String aliasToClass(String s){
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+fontNameMap.put(JMeterUtils.getResString("font.serif"), "Serif"); //$NON-NLS-1$
+return legendPanel;
+log.info("Setting System property: " + name + "=" + value);
+log.error("Could not initialise key store", e);
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+return null;
+if (LAST_REDIRECT == null) {
+sampler.setEnabled(false);
+log.info("LogLevel: " + name + "=" + value);
+log.warn("LogLevel: " + name);
+private static final String DEFAULT_TITLE = DEFAULT_APP_NAME +
+private static final String PORT = "ProxyControlGui.port"; // $NON-NLS-1$
+JButton btn = ((JButton) eventSource);
+private static final int fieldPositions[] = {
+for (int y = 0; y < 4; y++) {
+JMeterUtils.helpGC();
+g.drawLine(xborder, (int) height, width, (int) height);
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+if (group instanceof SetupThreadGroup) {
+Number ninety = p_model.getPercentPoint(0.90);
+/*
+Arrays.sort(objval, new NumberComparator());
+resFieldsModel.addRow(new RowResult("Type Result ", typeResult)); //$NON-NLS-1$
+None
+for (AbstractThreadGroup threadGroup : engine.groups) {
+final Pattern p = Pattern.compile("\\s+<classpathentry kind=\"lib\" path=\"lib/(?:api/)?(.+)-([^-]+)\\.jar\"/>");
+Number[] num = objval[count];
+private final JTextField filename = new JTextField(20);
+if (timeout == 0){
+ActionRouter.getInstance().doActionNow(new ActionEvent(e.getSource(), e.getID(), ActionNames.SEARCH_RESET));
+None
+URLDecoder.decode(new String(expectedUrl, "US-ASCII"), "ISO-8859-1"),
+private static String checkLafName(String laf){
+resKey = resKey.toLowerCase(java.util.Locale.ENGLISH);
+if (!support.isDataFlavorSupported(nodeFlavor)) {
+if (total.delta.getNumSamples() > 0 && total.total.getNumSamples() >  0) {
+OnceOnlyController sub_5 = new OnceOnlyController();
+String recentFilePath = getRecentFile(i);
+return null;
+None
+if (fname == null) {
+updateCurrentNode();
+Introspector.flushCaches();
+insertNodeInto(new JMeterTreeNode(wb, this), (JMeterTreeNode) getRoot(), 1);
+private JMenu optionsMenu;
+private static final List<TestStateListener> testList = new ArrayList<TestStateListener>();
+if (edit_add != null) {
+if (htmlIndex < 0) {
+edit_add = menu;
+while ((this.precision(oldX, newX) > this._minPrecision) && (iterations < this._maxIterations)) {
+if (edit_add != null) {
+buffer.append(current[0]);
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+@Override
+* @see org.apache.jmeter.protocol.http.util.accesslog.LogFilter#excPattern(java.lang.String)
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+protected boolean hasExcPattern(String text) {
+String action = tag.getAttribute("action");
+if (iheight < 1) {
+//////// This code is mostly unused at present
+if (buffer.length() == 0 && result.isEmpty()){
+static {
+if (num[0].longValue() == ninety.longValue()) {
+@Override
+private static final String ONETIMESETUP = "oneTimeSetUp"; //$NON-NLS-1$
+if (num[0].longValue() == fifty.longValue()) {
+public static final String LOCAL = "*local*"; // $NON-NLS-1$
+None
+private void initGui() {
+public RenderAsXML(){
+break;
+public class SubscriberSampler extends BaseJMSSampler implements Interruptible, ThreadListener, TestStateListener {
+org.w3c.dom.Document document = null;
+None
+* with the signature "boolean saveXXX()".
+}
+{
+optionsMenu = makeMenuRes("option",'O'); //$NON-NLS-1$
+firstTime = true;
+for (int i = 0; i < childNodes.getLength(); i++) {
+XPathWrapper.clearAll();// TODO only clear the relevant entry - if possible...
+None
+* Forwards the message from the <code>CellEditor</code> to the
+editMenu.setEnabled(false);
+new Class[] {Class.forName("org.apache.jmeter.gui.action.Command") }, // $NON-NLS-1$
+None
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+// Set default SAVE menu item to disabled since the default node that
+private ActionNames(){
+}
+None
+for(int i = 0; i < node.getChildCount(); i++) {
+Socket clientSocket = new Socket("localhost", HTTP_SERVER_PORT);
+return;
+public void testParserProperty() throws Exception {
+None
+else {
+}
+updateMenuItems(menuItems);
+if(!alreadyExists) {
+laf = JMeterUtils.getProperty(JMETER_LAF+"."+osName.replace(' ', '_'));
+* Specifies the number of clicks needed to start editing.
+private transient KeyStore keyStore;
+if (node.getChildCount() > 0
+static final String SWITCH_VALUE = "SwitchController.value"; //$NON-NLS-1$
+None
+public static final String ATT_CLASS         = "class"; //$NON-NLS-1$
+// ResourceBundle i18nEdit=
+private static final String ATT_BYTES             = "by"; //$NON-NLS-1$
+None
+None
+return ""; //$NON-NLS-1$
+}
+}
+if (lastJFCDirectory == null) {
+for (int i=0; i < files.length; i++) {
+}
+}
+if (!merging && isTestPlan && setDetails) {
+protected int numberOfNodes = DEFAULT_NUMBER_OF_NODES;
+ReportGuiPackage.getInstance().setReportPlanFile(null);
+private static SSLManager manager;
+None
+guiPackage.getTreeListener().removedSelectedNode();
+}
+samples.clear();
+commandClass = Class.forName(strClassName);
+extractor.setRegex("<title>([^<]+)<");
+dataCurve = new Spline3(floatNode);
+vars.put("SCR2", "getprop(\"avavaav\",\"default\")");
+* Method is used internally to parse the InputStream and build the document
+model.addSample(res);
+String tmpDir=null;
+jar=jar.replace("-jdk15on","");
+if (tree == null) {
+fontNameMap.put(JMeterUtils.getResString("font.serif"), "Serif"); //$NON-NLS-1$
+if (component instanceof Printable) {
+filename = chooser.getSelectedFile().getAbsolutePath();
+{
+ic = node.getIcon();
+JMeterTreeNode newNode = new JMeterTreeNode(component, this);
+private TreePath currentPath;
+}
+MainFrame mainFrame = GuiPackage.getInstance().getMainFrame();
+mainFrame.closeMenu();
+// ResourceBundle i18nEdit=
+// helper method - also used by constructor
+if (img == null) {
+if (!output.mkdir() && !output.isDirectory()) {
+None
+private static volatile boolean functionalMode = false;
+StringBuilder classpath = new StringBuilder();
+List<String> listPaths = getClasspathMatches(strPathsOrJars);
+None
+return stat.getKBPerSecond();
+dset.add(ss);
+None
+int width = getWidth();
+String url = sample.getSampleLabel();
+jars.add(new File(s).toURI().toURL());// See Java bug 4496398
+for (int idx=0; idx < data.size(); idx++) {
+"-Dstupid=idiot", "are", "--all", "--all", "here" };
+System.setProperty(JAVA_CLASS_PATH, initial_classpath + classpath.toString());
+"-Dstupid", "idiot", "are", "--all", "--blee", "here" };
+final String[] args = new String[] { "--taint", "param", "-a" };
+System.setProperty(JAVA_CLASS_PATH,sb.toString());
+None
+@Override
+public static final String HTTP_PROXY_PASS = "http.proxyPass"; // $NON-NLS-1$
+private static final String USE_LAST_JMX = "LAST";
+assertEquals("dos", sff.execute());
+assertion.setXsdFileName("testfiles/XMLSchema-fail.xsd");
+, options);
+None
+None
+final CLOptionDescriptor[] options = new CLOptionDescriptor[] { DEFINE };
+final CLOptionDescriptor[] options = new CLOptionDescriptor[] { DEFINE };
+final CLOptionDescriptor[] options = new CLOptionDescriptor[] { DEFINE, CLEAR1 };
+check(new String [] {"--one=a",
+check(new String [] {"-?",
+private static Map<String, String> JAR_TO_BUILD_PROP = new HashMap<String, String>();
+propNames.remove("velocity");
+extractor.setRefName(VAL_NAME);
+AssertionResult res = assertion.getResult(result);
+AssertionResult res = assertion.getResult(result);
+AssertionResult res = assertion.getResult(result);
+assertEquals("",threadVars.get("a"));
+private void runNonGui(String testFile, String logFile, boolean remoteStart, String remote_hosts_string) {
+wr = new StringWriter(1000);
+None
+None
+extractor.setMatchNumber(0);
+None
+/**
+boolean gui = parser.getArgumentById(NONGUI_OPT)==null;
+CSVDataSet csv0 = initCSV();
+/*
+None
+};
+long now=System.currentTimeMillis();
+assertEquals("one", nextName(controller));
+for (int i = 1; i <= 3; i++) {
+e.setAsText(e.UNDEFINED.toString());
+public void testVariable2() throws Exception {
+assertEquals("Loop: "+i,"four", nextName(controller));
+try {
+}
+assertEquals("Loop: "+i,"three", nextName(controller));
+private void updateClassLoader() {
+bsi.source(bshinit);
+}
+} catch (MessagingException mex) {
+case CLOption.TEXT_ARGUMENT:
+}
+None
+* + Before
+public void testFunction() throws Exception {
+// While (LAST), previous sample OK - should loop until false
+public void testLASTPrevFailed() throws Exception {
+public void testfalsePrevFailed() throws Exception {
+None
+LoopController controller = new LoopController();
+None
+OnceOnlyController sub_1 = new OnceOnlyController();
+controller.addTestElement(new TestSampler("three"));
+LoopController sub_2 = new LoopController();
+sub_2.addTestElement(new TestSampler("seven"));
+String[] onlyOnceOrder = new String[] { "one", "two" };
+System.arraycopy(onlyOnceOrder, 0, expectedSamples, 0, onlyOnceOrder.length);
+assertEquals("one", nextName(controller));
+controller.setRunningVersion(true);
+private String processLAST(String jmlogfile, String suffix) {
+JPanel panelAdditionalSettings = new JPanel(new GridBagLayout());
+None
+OnceOnlyController sub_3 = new OnceOnlyController();
+convertSubTree(tree.getTree(item));
+public void notestInsideInterleave() throws Exception {
+tree.remove(item);
+sub_2.addTestElement(new TestSampler("seven"));
+public void testParseExample11() throws Exception {
+// Sample that will get two sub results, simulates a web page load
+public void testParseExample12() throws Exception {
+assertEquals("$a , \\ \\x \\ jakarta.apache.org $b , \\ cd", newProp.getStringValue());
+JMeterTreeNode item = (JMeterTreeNode) o;
+public void testParseExample13() throws Exception {
+convertSubTree(tree.getTree(item));
+public void testParseExample14() throws Exception {
+element.setRunningVersion(true);
+//NOT YET USED private JMeter _parent;
+extractor.process();
+private final List<JMeterEngine> engines;
+assertNull(vars.get("regVal_g"));
+extractor.setRegex("xxxx(.)(.)");
+this.engines=engines;
+extractor.setMatchNumber(10);
+println("Exitting remote servers");
+} catch (InterruptedException ignored) {
+assertEquals(1,timer.getCalcMode());// All threads
+} catch (InterruptedException ignored) {
+extractor.setXPathQuery("/book/a");
+extractor.setXPathQuery("/book/empty");
+extractor.setXPathQuery("//a");
+extractor.setXPathQuery("/book/page[2]");
+extractor.setXPathQuery("/book/page[2]/text()");
+extractor.process();
+result.sampleStart(); // Needed for addSubResult()
+extractor.setScopeAll();
+extractor.setScopeChildren();
+private static SplitFunction splitParams(String p1, String p2, String p3) throws Exception {
+checkSplitString("a,b\u00e7,d,\u00e9", ',', new String[]{"a","b\u00e7","d","\u00e9"});
+private static BeanShell BSHFParams(String p1, String p2, String p3) throws Exception {
+suite.addTest(new PackageTest("CSVSetup"));
+bsh = BSHFParams("return threadName", null, null);
+bsh = BSHFParams("source (\"testfiles/BeanShellTest.bsh\")", null, null);
+bsh = BSHFParams("${SCR1}", null, null);
+private static CSVRead cr1, cr2, cr3, cr4, cr5, cr6;
+private static class Baton {
+synchronized (baton) {
+assertEquals("", s);
+assertEquals("", s);
+assertEquals("c1", s);
+assertEquals("b2", s);
+assertEquals("", s);
+assertEquals("c2", s);
+public void XPathtestNull() throws Exception {
+convertSubTree(tree);
+final int REMAIN_THREAD_PAUSE =
+public void XPathSetup1() throws Exception{
+r.execute(null,null);
+IntSum is = new IntSum();
+}
+String maxLongVal = Long.toString(Long.MAX_VALUE);
+private void checkSum(AbstractFunction func, String value, String [] addends)  throws Exception {
+variable.setParameters(params);
+public void testVariableExtraction1a() throws Exception {
+if (address.isLoopbackAddress()){
+None
+this.name = null;
+public void testVariableExtraction1b() throws Exception {
+static{
+super();
+tristateBox.addItemListener(new ItemListener() {
+scanFiles(suite,testfiledir);
+private TestElement testItem;
+assertEquals("/sub1",man.get(1).getPath());
+private Serializable serObj;
+private Function funcItem;
+public JMeterTest(String testName, Function fi) {
+if(file.getMimeType() != null && file.getMimeType().length() > 0) {
+None
+None
+public static Test suite() throws Exception {
+JMeterUtils.setLocale(TEST_LOCALE);
+public void resetLocale(){
+public void createTitleSet() throws Exception {
+SampleResult child1 = new SampleResult(nanoTime);
+guiTitles.put(nm.replace(' ','_'), Boolean.FALSE);
+public void createFunctionSet() throws Exception {
+{
+None
+private static Test suiteGUIComponents() throws Exception {
+private static Test suiteFunctions() throws Exception {
+public void runGUITitle() throws Exception {
+}
+None
+&& (!name.startsWith("org.apache.jmeter.examples."))
+}
+}
+public void runFunction2() throws Exception {
+public void GUIComponents2() throws Exception {
+private static Test suiteSerializableElements() throws Exception {
+public void runSerialTest() throws Exception {
+}
+objects.add(c.newInstance());
+System.out.println("o.a.j.junit.JMeterTest WARN: " + exName + ": NoSuchMethodException  " + n + ", missing empty Constructor or Constructor with Object parameter");
+} catch (HeadlessException e) {
+System.out.println("o.a.j.junit.JMeterTest WARN: " + "Error creating " + n + " " + e.toString());
+System.out.println("Class path is:");
+private static final String filePrefix;
+filePrefix = "bin/";
+String home=new File(System.getProperty("user.dir"),filePrefix).getParent();
+JMeterUtils jmu = new JMeterUtils();
+System.out.println("default encoding="+Charset.defaultCharset());
+protected static File findTestFile(String file) {
+}
+/**
+/** A button for adding new arguments to the table. */
+assertEquals("login", at.getUser());
+assertNull(at);
+}
+add(Box.createVerticalStrut(70), BorderLayout.WEST);
+man.addCookieFromHeader("test=2;domain=.hc.apache.org", url);
+man.addCookieFromHeader("test=1;domain=.jakarta.apache.org", url);
+public void testSessionCookie() throws Exception {
+public void testOldCookie() throws Exception {
+public void testDuplicateCookie() throws Exception {
+man.addCookieFromHeader("test=2", url);
+public void testCookieMatching() throws Exception {
+Cookie cc;
+}
+}
+httpServer.stopServer();
+try {
+}
+Socket clientSocket = new Socket("localhost", HTTP_SERVER_PORT);
+ByteArrayOutputStream bos = new ByteArrayOutputStream();
+bos.write("GET / HTTP 1.1".getBytes(ISO_8859_1));
+clientSocket.close();
+ByteArrayOutputStream response = new ByteArrayOutputStream();
+checkArraysHaveSameContent(bos.toByteArray(), mirroredResponse);
+bos.close();
+bos = new ByteArrayOutputStream();
+bos = new ByteArrayOutputStream();
+Socket clientSocket = new Socket("localhost", HTTP_SERVER_PORT);
+StringBuilder postBodyBuffer = new StringBuilder();
+outputStream.write(bos.toByteArray());
+bos.close();
+byte[] secondChunk = postBody;
+checkArraysHaveSameContent(bos.toByteArray(), mirroredResponse);
+mod.setPathExtension(true);
+};
+public void testSimpleParse1() throws Exception {
+String htmlEncodedFixture = URLEncoder.encode(specialChars, "UTF-8");
+new TestData("testfiles/HTMLParserTestCase3.html",
+new TestData("testfiles/HTMLParserTestFile_2.html",
+Action escapeAction = new AbstractAction("ESCAPE") {
+ps.addTest(new TestHTMLParser("testParserProperty", PARSERS[i], 0));
+} else {
+public RowDetailDialog() {
+Action enterAction = new AbstractAction("ENTER") {
+{
+// List of parsers to test. Should probably be derived automatically
+expected = new TreeSet<String>(getFile(resultFile)).iterator();
+private static List<String> getFile(String file) throws Exception {
+String contentEncoding = "UTF-8";
+contentEncoding = "UTF-8";
+String contentEncoding = "UTF-8";
+contentEncoding = "UTF-8";
+String contentEncoding = "UTF-8";
+contentEncoding = "UTF-8";
+contentEncoding = "UTF-8";
+String contentEncoding = "UTF-8";
+contentEncoding = "UTF-8";
+public class IfController extends GenericController implements Serializable {
+public static Connection getConnection(String poolName) throws SQLException{
+res = "false".equalsIgnoreCase(cnd);// $NON-NLS-1$
+Context cx = Context.enter();
+try {
+public RunTime() {
+contentEncoding = "UTF-8";
+}
+contentEncoding = "UTF-8";
+@Override
+contentEncoding = "UTF-8";
+private transient final ConcurrentMap<TestElement, Object> children =
+HttpRequestHdr req = new HttpRequestHdr();
+HttpRequestHdr req = new HttpRequestHdr();
+protected transient List<TestElement> subControllersAndSamplers =
+assertEquals(fileFieldValue, hfa.getParamName());
+postBody += "Content-Disposition: form-data; name=\"description\"" + endOfLine;
+returnValue = nextIsNull();
+String postBody = "--" + boundary + endOfLine
+bis = new ByteArrayInputStream(request.getBytes("ISO-8859-1"));
+returnValue = nextIsAController((Controller) currentElement);
+control.setContentTypeInclude(null);
+control.setContentTypeInclude("");
+control.setContentTypeInclude(" ");
+}
+control.setContentTypeInclude("text/html|text/ascii");
+control.setContentTypeInclude(null);
+/** How often to check for shutdown during ramp-up, default 1000ms */
+postWriter=new PostWriter();
+/**
+private Sampler next1() {
+if(transactionSampler != null && transactionSampler.isTransactionDone()) {
+transactionSampler = null;
+Sampler subSampler = super.next();
+bis = new ByteArrayInputStream(request.getBytes("ISO-8859-1"));
+if(!temporaryFile.delete()) {
+if (subSampler == null) {
+private JTextField serverTypeBox;
+establishConnection();
+* This method test sending a request which contains both formdata and file content
+postWriter.setHeaders(connection, sampler);
+String otherEncoding;
+postWriter.setHeaders(connection, sampler);
+* This method test sending a request which contains both formdata and file content
+sampler.setDoMultipartPost(true);
+establishConnection();
+establishConnection();
+res.setSuccessful(true);
+if (isFirst()) // must be the start of the subtree
+}
+{
+calls++;
+res = null;
+if(res != null && !se.isTransactionSampleEvent()) {
+establishConnection();
+None
+pauseTime += sampleResult.getEndTime() - sampleResult.getTime() - prevEndTime;
+* Constructor, only called by client code.
+ByteArrayOutputStream output = new ByteArrayOutputStream();
+transactionSampleResult = new SampleResult();
+final String httpEncoding = "ISO-8859-1";
+String filename = file.getName();
+}
+private static byte[] TEST_FILE_CONTENT;
+public static Test suite(){
+calls++;
+for(int i=0; i<11; i++) {
+httpServer.stopServer();
+if (noFailingSamples == 0) {
+establishConnection();
+if (!res.isSuccessful()) {
+replacer.replaceValues(sampler);
+transactionSampleResult.addSubResult(res);
+totalTime += res.getTime();
+/**
+establishConnection();
+sampler = createHttpSampler(samplerType);
+sampler = createHttpSampler(samplerType);
+establishConnection();
+checkPostRequestBody(
+checkArraysHaveSameContent(expectedPostBody, res.getQueryString().getBytes(contentEncoding), contentEncoding, res);
+bodySent = dataSentToMirrorServer.substring(posDividerHeadersAndBody+2);
+checkHeaderTypeLength(headersSent, "multipart/form-data" + "; boundary=" + boundaryString, expectedPostBody.length);
+establishConnection();
+String contentEncoding = "";
+checkMethodPathQuery(headersSent, sampler.getMethod(), sampler.getPath(), (String) null, res);
+checkMethodPathQuery(headersSent, sampler.getMethod(), sampler.getPath(), (String) null, res);
+Folder folder = store.getFolder(getFolder());
+checkArraysHaveSameContent(expectedPostBody, bodySent.getBytes(contentEncoding), contentEncoding, res);
+if(indexQueryStart <= 0 || (indexQueryStart == uriSent.length() - 1)) {
+fail("Query string present in URI");
+loops = new JTextField("1", 5); // $NON-NLS-1$
+String pathSent = uriSent.substring(0, indexQueryStart);
+if(expectedQueryString != null && expectedQueryString.length() > 0) {
+JLabel loopsLabel = new JLabel(JMeterUtils.getResString("iterator_num")); // $NON-NLS-1$
+String dataSentToMirrorServer = new String(res.getResponseData(), contentEncoding);
+JLabel secondsLabel = new JLabel(JMeterUtils.getResString("runtime_seconds")); // $NON-NLS-1$
+private JCheckBox saveWorkBench;
+return -1;
+infinite = new JCheckBox(JMeterUtils.getResString("infinite")); // $NON-NLS-1$
+JLabel conditionLabel = new JLabel(JMeterUtils.getResString("if_controller_label")); // $NON-NLS-1$
+testTree.traverse(new TurnElementsOn());
+return localMatcher.getMatch().group(1);
+String domain = "localhost";
+HTTPFileArg[] hfa = {new HTTPFileArg(fileValue == null ? "" : fileValue.getAbsolutePath(), fileField, fileMimeType)};
+public void testParseArguments(){
+public void testParseArguments2(){
+= "Content-Disposition: form-data; name=\"aa\"\n"
+config.setHTTPFiles(files);
+files = new HTTPFileArg[]{
+files = new HTTPFileArg[]{
+arg.setAlwaysEncoded(false);
+arg = new HTTPArgument("name.?", "value_ here", true);
+assertEquals("name.?", arg.getEncodedName());
+child.sampleEnd();
+useExpression = new JCheckBox(JMeterUtils.getResString("if_controller_expression")); // $NON-NLS-1$
+evaluateAll = new JCheckBox(JMeterUtils.getResString("if_controller_evaluate_all")); // $NON-NLS-1$
+None
+@Override
+}
+private static final boolean createServer =
+assertEquals(new URL("http://192.168.0.1/a/b/d"),ConversionUtils.makeRelativeURL(base,"d"));
+this.rmiPort = rmiPort;
+assertEquals(new URL("http://192.168.0.1/a/b/c/d"),ConversionUtils.makeRelativeURL(base,"d"));
+new TestData("/test/hello.jsp", true, false, true, false),
+log.info("IP address is a site-local address; this may cause problems with remote access.\n"
+fail("Expected IllegalArgumentException");
+fail("Expected IllegalArgumentException");
+throw new RemoteException("Cannot start. See server log file.", ex);
+try {
+if (backingEngine != null && backingEngine.isActive()) {
+private static final CharsetEncoder ASCII_ENCODER =
+private PropertyResourceBundle getRAS(String res) throws Exception {
+}
+private int readRF(String res, List<String> l) throws Exception {
+/*
+@Override
+/*
+private String getResName(String lang) {
+Registry reg = LocateRegistry.getRegistry(this.rmiPort);
+String res = getResName(resname);
+String last = "";
+JMeterUtils.helpGC();
+{
+PropertyResourceBundle prb = getRAS(res);
+private final List<AbstractThreadGroup> groups = new CopyOnWriteArrayList<AbstractThreadGroup>();
+if (mainResourceFile && val.equals(prb.getString(key))){
+int indexOfOrg = absPath2.indexOf("/org");
+engine.stopTest(true);
+public static Test suite() {
+for(String language : languages){
+pfx.addTest(new PackageTest("testLang", language, prefix));
+}
+continue;
+public StandardJMeterEngine() {
+SearchByClass<TestPlan> testPlan = new SearchByClass<TestPlan>(TestPlan.class);
+Object item = iter.next();
+if (JMeter.isNonGUI()) {
+a.setUrl(true);
+assertEquals(a, b);
+assertFalse(a.equals(b));
+res.sampleEnd();
+res.sampleResume();
+public void xtestUntilFail() throws Exception {
+}
+SampleResult parent = new SampleResult(nanoTime, nanoThreadSleep);
+SampleResult child1 = new SampleResult(nanoTime);
+parent.addSubResult(child1);
+if (diff < 0 || diff > maxDiff) {
+Calculator calculator = new Calculator();
+SampleResult res = new SampleResult();
+res.setEncodingAndType(null);
+res.setEncodingAndType("text/html");
+res.setEncodingAndType("text/html; charset=aBcd");
+res.setEncodingAndType("text/html; charset=\"aBCd\"");
+public void testSplitUnquoted() throws Exception {
+assertEquals("Expected to be at EOF",-1,br.read());
+out = CSVSaveService.csvReadFile(br, ',');
+} else {
+private static final String[] FILES = new String[] {
+private static final String[] FILES_LOAD_ONLY = new String[] {
+VerticalPanel threadPropsPanel = new VerticalPanel();
+}
+for (int i = 0; i < FILES.length; i++) {
+}
+String out[] = JOrphanUtils.split(in, ",","?");
+testListeners.getSearchResults().addAll(testList);
+if (!startListenersLater ) { notifyTestListenersOfStart(testListeners); }
+Iterator<SetupThreadGroup> setupIter = setupSearcher.getSearchResults().iterator();
+assertFalse("Should not have any files open",FS.filesOpen());
+assertFalse("Should not have any files open",FS.filesOpen());
+AbstractThreadGroup group = setupIter.next();
+assertNotNull(FS.readLine(infile));
+fail("Expected IOException");
+waitThreadsStopped();
+assertFalse("Should not have any files open",FS.filesOpen());
+assertFalse("Should not have any files open",FS.filesOpen());
+None
+ComboStringEditor e = new ComboStringEditor();
+waitThreadsStopped();
+}
+JPanel threadPanel = new JPanel(new BorderLayout(5, 0));
+/*
+for (Enumeration<String> keys = bundle.getKeys(); keys.hasMoreElements();) {
+// displayName is always mandatory:
+}
+String dn = defaultBundle.getString("displayName").toUpperCase(Locale.ENGLISH);
+if (dn.indexOf("(ALPHA") != -1 || dn.indexOf("(EXPERIMENTAL") != -1) {
+for (AbstractThreadGroup threadGroup : groups) {
+PropertyDescriptor[] descriptors = beanInfo.getPropertyDescriptors();
+if (TestElement.class.isAssignableFrom(descriptors[i].getPropertyType())
+engine.stopTest(false);
+String name = descriptors[i].getName();
+continue;
+Thread t = new Thread() {
+serv.saveJComponent(outPfx,SaveGraphicsService.PNG,gr);
+log.info("Bye from "+host);
+public void DISABLEDtestBug50799() throws Exception {
+assertEquals(new NullProperty("login"), config.getProperty("login"));
+public static void incrNumberOfThreads(){
+RemoteListenerWrapper wrap = new RemoteListenerWrapper(rtl);
+JPanel rampPanel = new JPanel(new BorderLayout(5, 0));
+} else {
+private static final Map<String, Class<? extends Function>> functions =
+admin.putReply(messageKey, reply);
+functions.put(referenceKey, tempFunc.getClass());
+log.warn("Received message with correlation id null. Discarding message ...");
+None
+None
+threadPropsPanel.add(createControllerPanel());
+None
+None
+return addToTree(model, node, sc);
+}
+None
+if (!val.getName().equals(TestElement.GUI_CLASS) &&
+None
+None
+None
+* Create a panel containing the username field and corresponding label.
+&& (!honourNoThreadClone || !(node instanceof NoThreadClone))
+// TODO but why do we need to clone the list?
+/** {@inheritDoc} */
+public static Class<? extends Function> getFunctionClass(String className) {
+previous = current[0];
+tree2.add("a2");
+buffer.deleteCharAt(buffer.length() - 1);
+if("JMSCorrelationID".equalsIgnoreCase(name)) { // $NON-NLS-1$
+result.add(buffer.toString());
+char []cb = new char[100];
+function = CompoundVariable.getNamedFunction(buffer.toString());
+((Function) function).setParameters(new LinkedList<CompoundVariable>());
+}
+continue;
+CompoundVariable param = new CompoundVariable();
+log.error("Error parsing function: " + buffer.toString(), e);
+log.warn("Probably an invalid function string: " + buffer.toString());
+instance.setSynchronousMode(true);
+public IllegalUserActionException() {
+calc.addValue(1L);
+calc.addValue(1L);
+calc.addValue(1L);
+try {
+fail("Should have generated error");
+Test1 t1 = new Test1("t1");
+}
+public void testClass() throws Exception{
+private static final String DEFAULT_APP_NAME = "Apache JMeter"; // $NON-NLS-1$
+private static final boolean DISPLAY_LOGGER_PANEL =
+warnIndicator.setOpaque(false);
+private static final boolean DISPLAY_TOOLBAR =
+}
+private JTextField rootdn = new JTextField(20);
+private static final boolean DISPLAY_ERROR_FATAL_COUNTER =
+public void testSplit1() {
+treevar.setDragEnabled(true);
+out = CSVSaveService.csvReadFile(br, ',');
+public void testSplitSSS1() {
+this.toolbar = JMeterToolBar.createToolbar(DISPLAY_TOOLBAR);
+String out[] = JOrphanUtils.split(in, ",","");
+String out[] = JOrphanUtils.split(in, "","?");
+if (flavors[i].isFlavorJavaFileListType()) {
+String out[];
+String out[] = JOrphanUtils.split(in, ",",",");
+private final CommentPanel commentPanel;
+log.debug("setting element to enabled: " + enabled);
+String label =  JMeterUtils.getResString(getLabelResource(), new Locale("",""));
+private JRadioButton continueBox;
+if (!commands.contains(e.getActionCommand())) {
+OutputStream out = connection.getOutputStream();
+ByteArrayOutputStream os = new ByteArrayOutputStream();
+// @see also JMeterGUIComponent
+private static final String SAMPLE_URL = "Assertion.sample_label"; // $NON-NLS-1$
+None
+None
+this.regexpResultField.setText(""); // $NON-NLS-1$
+String temp = fname.replace('\\', '/'); // $NON-NLS-1$ // $NON-NLS-2$
+/*
+None
+return AbstractThreadGroup.ON_SAMPLE_ERROR_CONTINUE;
+JScrollPane areaScrollPane = new JTextScrollPane(textArea);
+JPanel webServerPanel = new HorizontalPanel();
+private static final int LOGGER_PANEL_MAX_LENGTH =
+if(LOGGER_PANEL_MAX_LENGTH != 0 && currentLength> LOGGER_PANEL_MAX_LENGTH) {
+currentNodeUpdated = true;
+} catch (ClassNotFoundException e) {
+/**
+getMainFrame().setFileRevertEnabled(f != null);
+JMeterTreeNode workbenchNode = (JMeterTreeNode) ((JMeterTreeNode) GuiPackage.getInstance().getTreeModel().getRoot()).getChildAt(1);
+private static final boolean SKIP_CONFIRM = JMeterUtils.getPropDefault("confirm.delete.skip", false); // $NON-NLS-1$
+JMeterTreeNode newNode = GuiPackage.getInstance().getTreeModel().addComponent(node.getTestElement(), parent);
+static class IODH {
+if(FilenameUtils.getExtension(updateFile).equals("")) {
+File f = new File(updateFile);
+JLabel conditionLabel = new JLabel(JMeterUtils.getResString("if_controller_label")); // $NON-NLS-1$
+None
+public static final KeyStroke EXPAND_ALL        = KeyStroke.getKeyStroke(KeyEvent.VK_MINUS, CONTROL_MASK | InputEvent.SHIFT_DOWN_MASK);
+if (current[0] != '$' && current[0] != ',' && current[0] != '\\') {
+None
+private static long sequenceNumber = 0;
+private static long sequenceNumber = 0;
+private final int clientConfiguredNumSamplesThreshold = JMeterUtils.getPropDefault(
+if (key.equalsIgnoreCase("_version")) { // $NON-NLS-1$
+JSeparator separator = (JSeparator)menuItems.get(menuItems.size() - 1);
+None
+None
+None
+None
+/** Tests missing cookie path for a trivial URL fetch from the domain
+}
+None
+void convertSubTree(HashTree tree) {
+tree.replace(item, testElement);
+if (parentParentNode != null
+moveAndSelectNode(currentNode, after, 0);
+TreeNode[] nodes = guiInstance.getTreeModel()
+if(!merging) { // i.e. it is OPEN
+loadProjectFile(e, getRecentFile(e), false);
+contentEncoding = "UTF-8";
+None
+URLDecoder.decode(new String(expectedUrl, "US-ASCII"), "ISO-8859-1"),
+None
+JMenuItem recentFile = new JMenuItem();
+recentFile.setName(Integer.toString(i));
+int shortKey = getShortcutKey(i);
+menuItems.add(recentFile);
+JSeparator separator = new JSeparator();
+res.setRequestHeaders(getConnectionHeaders((HttpRequest) localContext.getAttribute(ExecutionContext.HTTP_REQUEST)));
+public static final String DEFAULT_PROTOCOL = "pop3";  // $NON-NLS-1$
+boolean alreadyExists = false;
+newRecentFiles.add(0, loadedFileName);
+for(int i = 0; i < NUMBER_OF_MENU_ITEMS; i++) {
+boolean someRecentFiles = false;
+for(int i = 0; i < NUMBER_OF_MENU_ITEMS; i++) {
+None
+JMenuItem recentFile = (JMenuItem)menuItems.get(i);
+beanDescriptor = rootBeanInfo.getBeanDescriptor();
+scrollRectToVisible(new Rectangle(1,1,1,1));
+private static final String SCOPE = "Sample.scope"; // $NON-NLS-1$
+if ((checkSize && (orig[0] != output[0] ))|| orig[1] != output[1]) {
+someRecentFiles = true;
+outStreamClient.write(("HTTP/1.0 200 OK\r\n\r\n").getBytes(SampleResult.DEFAULT_HTTP_ENCODING)); // $NON-NLS-1$
+String formCharSet = pageEncoding;
+private static final String STOP = "stop"; // $NON-NLS-1$
+populateTable(includeModel, model.getIncludePatterns().iterator());
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+None
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+final int maxLength = 40;
+if(action.equals(ActionNames.SUB_TREE_MERGED)) {
+if(!dirty) {
+if (getUseKeepAlive()) {
+Action enterAction = new AbstractAction("ENTER") { //$NON-NLS-1$
+Searcher searcher = null;
+String file=JMeterUtils.getProperty("hc.parameters.file"); // $NON-NLS-1$
+public static final String EMBEDDED_URL_RE = "HTTPSampler.embedded_url_re"; // $NON-NLS-1$
+if(projectFile == null) {
+* This method allows a proxy server to send over the raw text from a
+// This allows the user to specify his own content-type for a POST request
+if (isTestPlan) {
+if(multiPart.isRepeatable()) {
+HeaderManager mngr = getHeaderManager();
+int response = JOptionPane.showConfirmDialog(GuiPackage.getInstance().getMainFrame(),
+Close.closeProject(e);
+Element node = (Element) services.item(0);
+new WSDLHelper("http://localhost:8080/ServiceGateway.wsdl");
+BSFManager mgr = new BSFManager();
+Load.loadProjectFile(e, new File(projectFile), false);
+long start = System.currentTimeMillis();
+public static final String RECEIVE_RSC = "jms_subscriber_receive"; // $NON-NLS-1$
+laf = JMeterUtils.getProperty(JMETER_LAF+"."+osFamily[0]);
+None
+* The default encoding to be used to decode the responseData byte array.
+private static final String REMOTE_HOSTS_SEPARATOR = ","; // $NON-NLS-1$
+private static final int MINIMAL_BOX_WIDTH = 500;
+JPanel actionBtnBar = new JPanel(new FlowLayout());
+populateTemplatePage();
+private static class Templates {
+private final LinkedHashMap<String, Template> templates = new LinkedHashMap<String, Template>();
+xstream.addImplicitMap(Templates.class,
+* Methods
+"templates", // $NON-NLS-1$
+"name" // $NON-NLS-1$
+/**
+* Returns a list of tree nodes that hold objects of the given class type.
+guiPackage.updateCurrentNode();
+int children = getChildCount(getRoot());
+insertNodeInto(new JMeterTreeNode(tp, this), (JMeterTreeNode) getRoot(), 0);
+initTree(testPlan,new WorkBenchGui().createTestElement()); // Assumes this is only called from GUI mode
+nodeStructureChanged((JMeterTreeNode)getRoot());
+config.removeProperty(HTTPSamplerBase.CONCURRENT_DWN);
+private List<JMeterTreeNode> nodesForRemoval = null;
+String jvmLocalFlavor = DataFlavor.javaJVMLocalObjectMimeType + ";class=\"" + JMeterTreeNode[].class.getName() + "\"";
+boolean[] toRemove = new boolean[paths.length];
+private String parameters = ""; // passed to file or script
+sortTreePathByRow(paths, tree);
+JMeterTreeNode[] nodes = new JMeterTreeNode[size];
+errorLogging = new JCheckBox(JMeterUtils.getResString("log_errors_only")); // $NON-NLS-1$
+DataFlavor[] flavors = support.getDataFlavors();
+public void setMyStringProperty(String s) {
+None
+int action = support.getDropAction();
+None
+String category = prop.substring(LOG_PRIORITY.length() + 1);
+JTree.DropLocation dl = (JTree.DropLocation) support.getDropLocation();
+if(target.isRoot()) {
+return MenuFactory.canAddTo(target, nodes);
+GuiPackage guiInstance = GuiPackage.getInstance();
+JTree.DropLocation dl = (JTree.DropLocation) support.getDropLocation();
+index = target.getChildCount();
+JTree tree = (JTree) support.getComponent();
+reader.setFeature("http://xml.org/sax/features/validation", true); // $NON-NLS-1$
+if (img == null) {
+private static final String PORT = "ProxyControlGui.port"; // $NON-NLS-1$
+None
+treeModel.nodeChanged(this);
+@Override
+public static final String SERVER               = "SMTPSampler.server"; // $NON-NLS-1$
+// Clear any other remaining variables
+c.gridx = 2;
+}
+/** The Swing component being edited. */
+* Constructs a <code>TableCellEditor</code> that uses a text field.
+/** Implements the <code>TreeCellEditor</code> interface. */
+/** Implements the <code>TableCellEditor</code> interface. */
+* The protected <code>EditorDelegate</code> class.
+private final DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss"); // $NON-NLS-1$
+None
+optionsMenu = makeMenuRes("option",'O'); //$NON-NLS-1$
+public JDateField() {
+}
+private static int posToField(int pos) {
+None
+}
+file_load_recent_files = new LinkedList<JComponent>();
+remote_engine_start = new LinkedList<JMenuItem>();
+public void setEditMenu(JPopupMenu menu) {
+lafMenu.add(laf);
+languageMenu.add(language);
+public static String[] getLanguages(){
+@Override
+editMenu.setEnabled(false);
+private final class TSCBChangeListener implements ChangeListener, Serializable {
+file_load_recent_files = LoadRecentProject.getRecentFileMenuItems();
+super.addMouseListener(new MouseAdapter() {
+public static LookAndFeelInfo[] getAllLAFs() {
+TristateCheckBox(String text, Icon icon, TristateState initial, boolean original) {
+private void iterateState() {
+setModel(new TristateButtonModel(initial, this, original));
+public void setIndeterminate() {
+displayState();
+if (model instanceof TristateButtonModel)
+public TristateButtonModel getTristateModel() {
+UIDefaults defaults = UIManager.getLookAndFeelDefaults();
+getTristateModel().iterateState();
+@Override
+int modifiers = 0;
+// Send ChangeEvent
+int indeterminate = 3;
+this.state = state;
+fireStateChanged();
+tristateCheckBox.setDisabledSelectedIcon(icon); // Nimbus works - after a fashion - with this
+}// paintIcon
+private static final HttpParams DEFAULT_HTTP_PARAMS;
+public static final String THREADS = "menu_threads"; //$NON-NLS-1$
+None
+//        private void drawCross(Graphics g, int x, int y) {
+this(30, 50, false);
+JPopupMenu pop = new JPopupMenu();
+None
+log.info("Skipping " + name);
+throw (RuntimeException) e;
+}
+None
+return false;
+if (foundClass(nodes, new Class[]{org.apache.jmeter.control.TestFragmentController.class})){
+return true;
+if (foundClass(nodes, new Class[]{org.apache.jmeter.threads.AbstractThreadGroup.class})){
+return true;
+org.apache.jmeter.threads.AbstractThreadGroup.class)  // but AbstractThreadGroup (Controller) is OK
+return false;
+private static boolean foundClass(JMeterTreeNode nodes[],Class<?> classes[]){
+private static boolean foundClass(JMeterTreeNode nodes[],Class<?> classes[], Class<?> except){
+static int menuMap_size() {
+JPanel content = (JPanel) dialog.getContentPane();
+return
+Container panel = dialog.getContentPane();
+Point p = mainFrame.getLocationOnScreen();
+closeDialog();
+textBox.setText(text);
+TableModel tm = table.getModel();
+}
+TableModel tm = table.getModel();
+}
+this.bGroup.add(btn);
+this.bGroup.add(btn);
+return toolBar;
+Properties defaultProps = JMeterUtils.loadProperties(DEFAULT_TOOLBAR_PROPERTY_FILE);
+}
+/**
+}
+new Class[] { String.class });
+public FilePanelEntry() {
+private static final int INTERVAL_WINDOW = 5; // in seconds
+//@GuardedBy("accumulators") - needed to ensure consistency between this and instanceCount
+private static final Map<String, Totals> accumulators = new ConcurrentHashMap<String, Totals>();
+private static int instanceCount; // number of active tests
+private transient Totals myTotals = null;
+private transient String myName;
+private static class Totals {
+myDelta = new RunningSample(myTotals.delta);
+}
+if (myTotal != null && myDelta != null &&myTotal.getNumSamples() != myDelta.getNumSamples()) {
+None
+}
+log.warn("Problem reading Avalon JTL file: "+file,e);
+None
+None
+return;
+private final Map<String, List<Integer>> data;
+int base = 10;
+// the grid line would draw over the data
+for (int t = 1; t < dataWidth; t += (dataWidth / 25 + 1)) {
+int start = 0;
+return null;
+private static final String TEST_IS_LOCAL = "*local*"; // $NON-NLS-1$
+// Lock used to guard static mutable variables
+private static final Object LOCK = new Object();
+private static long sequenceNumber = 0;
+private transient volatile PrintWriter out;
+clone.summariser = this.summariser;
+}
+Runtime.getRuntime().removeShutdownHook(shutdownHook);
+shutdownHook = new Thread(new ShutdownHook());
+}
+log.info("Failed to load "+filename+" using XStream. Assuming Avalon format, as message was: "+message);
+return varCount;
+None
+@Override
+File pdir = new File(filename).getParentFile();
+fileReader = new BufferedReader(new FileReader(scriptFile),
+writer.print(TESTRESULTS_START_V1_1_PREVER);
+}
+if(pdir.mkdirs()){
+if (!pdir.exists()){
+private static boolean trimLastLine(String filename) {
+{
+{
+String savee = CSVSaveService.resultToDelimitedString(event);
+raf.close();
+}
+public void recordStats(TestElement e) throws Exception {
+public static final String FILENAME = "FileSaver.filename"; // $NON-NLS-1$
+private synchronized long nextNumber() {
+/** A properties file indicator for true. * */
+String variable = getVariableName();
+private static class Counter{
+if (s.isSuccessful()){
+try {
+@Override
+}
+* This method is called remotely and fires a list of samples events
+} catch (IOException e) {
+singleExecutor = Executors.newSingleThreadExecutor();
+* - methods have the signature "boolean saveXXX()"
+p = new JPanel();
+private boolean time = _time, latency = _latency, timestamp = _timestamp, success = _success, label = _label,
+private static final String SAVE_BYTES_PROP = "jmeter.save.saveservice.bytes"; // $NON_NLS-1$
+None
+private static final String SAVE_FILENAME_PROP = "jmeter.save.saveservice.filename"; // $NON_NLS-1$
+private static final String SAVE_HOSTNAME_PROP = "jmeter.save.saveservice.hostname"; // $NON_NLS-1$
+private boolean printMilliseconds = _printMilliseconds;
+if (!_printMilliseconds && !NONE.equalsIgnoreCase(_timeStampFormat) && (_timeStampFormat != null)) {
+private static final boolean _time, _timestamp, _success, _label, _code, _message, _threadName, _xml,
+_saveAssertionResultsFailureMessage = TRUE.equalsIgnoreCase(props.getProperty(
+private String delimiter = _delimiter;
+// Initialise values from properties
+public static SampleSaveConfiguration staticConfig() {
+SampleSaveConfiguration s = (SampleSaveConfiguration)obj;
+public boolean saveResponseHeaders() {
+|| (responseDataOnError && !res.isSuccessful());
+formatter = fmt;
+}
+public void setDelimiter(String delim) {
+private static final int NUM_SAMPLES_THRESHOLD = JMeterUtils.getPropDefault(
+String key = StatisticalSampleResult.getKey(e, keyOnThreadName);
+sampleTable.put(key, statResult);
+sampleStore
+None
+if (batchSendTime == -1) {
+private final String[] values;
+static {
+public SampleEvent() {
+static final Logger log = LoggingManager.getLoggerForClass();
+private static final String DEFAULT_CHARSET = Charset.defaultCharset().name();
+public static final byte[] EMPTY_BA = new byte[0];
+private String label = "";// Never return null
+private String requestHeaders = "";
+/** the time stamp - can be start or end */
+/** Start of pause (if any) */
+private boolean success;
+/** files that this sample has been saved in */
+/** elapsed time */
+private int headersSize = 0;
+static final boolean USENANOTIME
+private static final long NANOTHREAD_SLEEP =
+static {
+NanoOffset.nanoOffset = System.currentTimeMillis() - SampleResult.sampleNsClockInMs();
+SampleResult(boolean nanoTime) {
+SampleResult(boolean nanoTime, long nanoThreadSleep) {
+private void stampAndTime(long stamp, long elapsed) {
+* Returns the current value, prefixed and suffixed, as a string, then
+private transient static final SampleEvent FINAL_EVENT = new SampleEvent();
+groupThreads = res.groupThreads;//OK
+None
+int semiColon = charSet.indexOf(';');
+if (charSet.startsWith("\"")){ // $NON-NLS-1$
+private static final String[] BINARY_TYPES = {
+private static final String[] NON_BINARY_TYPES = {
+protected final void setStartTime(long start) {
+private transient long queueWaitTime; // how long we had to wait (nanoSeconds)
+}
+private final RemoteSampleListener listener;
+private transient long queueWaits; // how many times we had to wait to queue a sample
+sortResults(sortedResults);
+}
+final String hexString = JOrphanUtils.baToHexString(w.toByteArray());
+/**
+* TODO: error counting needs to be sorted out.
+}
+getOffset(30L); // Catch an early clock pulse to reduce slop.
+.add(new SampleEvent(statResult, e.getThreadGroup()));
+protected AsynchSampleSender(RemoteSampleListener listener) {
+queueWaits++;
+response = new SampleResult();
+l.add(e);
+result.setBytes(result.getBytes());
+private transient volatile int numSamplesThreshold;
+private static final int NUM_SAMPLES_THRESHOLD =
+private final int clientConfiguredNumSamplesThreshold =
+private Class<?> sampler;
+private transient long batchSendTime = -1;
+final String type = JMeterUtils.getPropDefault("mode", MODE_STRIPPED_BATCH); // $NON-NLS-1$
+assertions = new LinkedList<Assertion>();
+private long elapsed;
+}
+setSampleLabel(res.getSampleLabel());
+None
+setSampleCount(getSampleCount() + res.getSampleCount());
+if (!res.isSuccessful()) {
+return errorCount;
+errorCount = e;
+return arg0.equals(ScriptWrapper.class);
+public static final String SAMPLE_EVENT_OBJECT = "SampleEvent"; // $NON-NLS-1$
+public static final String TEST_CLASS_NAME = "TestClassName"; // $NON-NLS-1$
+@Override
+return new MapperWrapper(next){
+@Override
+Class type) {
+}
+private static final String XML_HEADER = "<?xml version=\"1.0\" encoding=\"<ph>\"?>"; // $NON-NLS-1$
+private static final String SAVESERVICE_PROPERTIES_FILE = "/bin/saveservice.properties"; // $NON-NLS-1$
+private static final String SAVESERVICE_PROPERTIES = "saveservice_properties"; // $NON-NLS-1$
+public static final String TESTPLAN_FORMAT
+private static final String FILE_FORMAT = "file_format"; // $NON-NLS-1$
+HTTPSamplerBase sampler = HTTPSamplerFactory.newInstance(request.getHttpSamplerName());
+private static final Properties classToAlias = new Properties();
+// Also to JTL files by ResultCollector
+private static void makeAlias(String aliasList, String clazz) {
+String alias=aliases[0];
+try {
+for (Map.Entry<Object, Object> me : nameMap.entrySet()) {
+try {
+public static void saveTree(HashTree tree, OutputStream out) throws IOException {
+public static void saveElement(Object el, OutputStream out) throws IOException {
+outputStreamWriter.close();
+public synchronized static void saveSampleResult(SampleEvent evt, Writer writer) throws IOException {
+public synchronized static void saveTestElement(TestElement elem, Writer writer) throws IOException {
+static boolean checkPropertyVersion(){
+static List<String> checkClasses(){
+for (Object clazz : classToAlias.keySet()) {
+try {
+private static final String REVPFX = "$Revision: ";
+Charset charset = getFileEncodingCharset();
+public static String getFileEncoding(String dflt){
+Charset charset = getFileEncodingCharset();
+rc.clear();
+String version = "";
+static final String PRESERVE = "preserve"; // $NON-NLS-1$
+private static SampleResult getSampleResult(Configuration config) {
+this.data.put(url,row);
+"-?=B",
+None
+public void checkResourceReferences() {
+public synchronized static HashTree loadSubTree(InputStream in) throws IOException {
+private void runSimpleTest2(String cond, String exp, String sub1Name) throws Exception {
+None
+name = NameUpdater.getCurrentName(name, testClass);
+} else {
+JMeterProperty prop = (JMeterProperty) Class.forName(type).newInstance();
+None
+InputStream in = new BufferedInputStream(new FileInputStream(filename));
+public static void processSamples(String filename, Visualizer visualizer, ResultCollector rc)
+// PROPERTY FILE CONSTANTS
+private static final String VARIABLE_NAME_QUOTE_CHAR = "\""; // $NON-NLS-1$
+static private final SampleSaveConfiguration _saveConfig = SampleSaveConfiguration
+private static final String DATE_FORMAT_STRINGS[] = {
+};
+String line = dataReader.readLine();
+log.info(filename
+None
+final long lineNumber) {
+int i = 0;
+log.warn("Setting date format to: " + fmt);
+final String msg = "Unknown timestamp format";
+if (size >= delSize) {
+private static final LinkedMap headerLabelMethods = new LinkedMap();
+static {
+String delim = null;
+None
+}
+SampleSaveConfiguration saveConfig = new SampleSaveConfiguration(false);
+for (int i = 0; i < parts.length; i++) {
+if (isVariableName(label)) {
+continue;
+}
+}
+public void append(String s) {
+public void append(int i) {
+text.append(sample.getSampleCount());
+requestModel.addRow(new RowResult("", //$NON-NLS-1$
+* <p> Returns a <code>String</code> value for a character-delimited column
+}
+state = QUOTED;
+private static final int INITIAL = 0, PLAIN = 1, QUOTED = 2,
+infile.mark(1);
+None
+//   * If someone wants to save a JPEG, use this method. There is a limitation
+possibleClasses.remove(JavaSampler.class.getName() + "$ErrorSamplerClient");
+if (currArgsMap.containsKey(name)) {
+// N.B. some engines (e.g. Javascript) cannot handle certain declareBean() calls
+Class type) {
+throw e;
+alias = NameUpdater.getCurrentName(alias);
+if (!SaveService.IS_TESTPLAN_FORMAT_22 || !ConversionHelp.isSpecialProperty(jmp.getName())) {
+type = mapper().realClass(targetName);
+ConversionHelp.restoreSpecialProperties(el, reader);
+if (p == null) {
+private static final Map<String, String> propertyToAttribute=new HashMap<String, String>();
+@Override
+if (!(
+* Get the URLs for all the resources that a browser would automatically
+TestElement te = (TestElement)prop.getObjectValue();
+}
+prop.addProperty(subProp);
+private static final String NODE_DELIMITER = "delimiter"; // $NON-NLS-1$
+if (fieldName.equals(NODE_BYTES)) { return false; }
+if (fieldName.equals(NODE_DELIMITER)) { return false; }
+SampleSaveConfiguration prop = (SampleSaveConfiguration) obj;
+createNode(writer,prop.saveBytes(),NODE_BYTES);
+private void createNode(HierarchicalStreamWriter writer, boolean save, String node) {
+while (reader.hasMoreChildren()) {
+final ResultCollectorHelper resultCollectorHelper = (ResultCollectorHelper) context.get(SaveService.RESULTCOLLECTOR_HELPER_OBJECT);
+private static SSLManager manager;
+private volatile String scriptName;
+private FileServer() {
+throw new IllegalStateException("Files are still open, cannot change base directory");
+}
+File parent = new File(DEFAULT_BASE).getAbsoluteFile();
+reader.mark(1);
+reader.close();
+String charsetName = fileEntry.charSetEncoding;
+for (FileEntry fileEntry : files.values()) {
+public static final String TAGS = GenericTestBeanCustomizer.TAGS;
+getBeanDescriptor().setValue(RESOURCE_BUNDLE, resourceBundle);
+PropertyDescriptor[] properties = getPropertyDescriptors();
+property.setValue(GenericTestBeanCustomizer.RESOURCE_BUNDLE, getBeanDescriptor().getValue(RESOURCE_BUNDLE));
+log.debug("Getting property for: " + names[i]);
+{
+log.error("Couldn't set properties for " + el.getClass().getName());
+else if (jprop instanceof NullProperty &&
+// The known tags are assumed to be valid:
+if (isATag(text)) {
+if (!acceptsOther) {
+return false;
+return true;
+extractor.setRegex("(\\w+)count"); // fewer matches
+String text;
+if (resourceBundle.containsKey("displayName")) { // $NON-NLS-1$
+// a check, just in case:
+String v;
+}
+try {
+extractor.process();
+guiEditor.setAsText(lastValidValue);
+descriptors = beanInfo.getPropertyDescriptors();
+/** TextEditor property */
+editors = new PropertyEditor[descriptors.length];
+PropertyDescriptor descriptor = descriptors[i];
+if (TestBeanHelper.isDescriptorIgnored(descriptor)) {
+final Class<? extends Enum<?>> enumClass = (Class<? extends Enum<?>>) guiType;
+String beanName = this.beanInfo.getBeanDescriptor().getName();
+private static CSVRead setCSVReadParams(String p1, String p2) throws Exception {
+typeEditor.setAsText(text); // may throw IllegalArgumentException
+init();
+None
+for (PropertyDescriptor descriptor : descriptors) {
+for (int i = 0; i < editors.length; i++) {
+cl.gridx = 0;
+ce.fill = GridBagConstraints.BOTH;
+cp.fill = GridBagConstraints.BOTH;
+private final int minTagIndex;
+JMeterUtils.getJMeterProperties().setProperty(BeanShell.INIT_FILE, fn);
+private final int maxTagIndex;
+ComboStringEditor() {
+TestSuite suite = new TestSuite("JMeterTest");
+cp.weighty = 0.0001;
+for (String tag : this.tags) {
+assertEquals("b1", s);
+}
+return (String) value;
+}
+private String translate(String input) {
+} else {
+if (!TestBean.class.isAssignableFrom(testBeanClass)) {
+try {
+if (customizer instanceof GenericTestBeanCustomizer) {
+for (PropertyDescriptor desc : beanInfo.getPropertyDescriptors()) {
+setPropertyInElement(element, name, desc.getValue(GenericTestBeanCustomizer.DEFAULT));
+for (PropertyIterator jprops = element.propertyIterator(); jprops.hasNext();) {
+} else if (value == null || value instanceof Integer) {
+assertEquals("c1", s);
+panel = new JPanel(new BorderLayout(5, 0));
+modifyTestElement(element); // put the default values back into the
+if (bd.isExpert() && !JMeterUtils.isExpertMode()) {
+log.error("More than 1 GUI class found for " + testBeanClass.getName());
+guiTitles.put("Example Sampler", Boolean.FALSE);
+private transient Thread threadStarter;
+boolean notNull = GenericTestBeanCustomizer.notNull(descriptor);
+None
+}
+private static final String CLASSPATH_SEPARATOR = ","; //$NON-NLS-1$
+private Object readResolve(){
+String[] paths = this.getTestPlanClasspathArray();
+public static final String ON_ERROR_ACTION = "OnError.action";
+private transient JMeterContext threadContext = null;
+} catch (IllegalAccessException e) {
+// log.warn("ThreadContext was not set up - should only happen in
+* @see org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase#testIterationStart(org.apache.jmeter.engine.event.LoopIterationEvent)
+public TestPlan(String name) {
+public TestPlan(String name) {
+@Override
+@Override
+Object clone();
+public void XPathSetup2() throws Exception{
+private static final String SAVE_WORKBENCH = "WorkBench.save";
+Map<String, JMeterProperty> newCol = value.getClass().newInstance();
+Collection<JMeterProperty> newCol = value.getClass().newInstance();
+public AbstractProperty(String name) {
+Object o = getObjectValue();
+Collection<JMeterProperty> okColl = (Collection<JMeterProperty>) coll;
+Collection<JMeterProperty> okColl = (Collection<JMeterProperty>) coll;
+return getStringValue();
+synchronized (PAIRING) {
+if (!PAIRING.contains(pair)) {
+sam.addTestElement(config);
+None
+}
+// Gives access to parent thread threadGroup
+private AbstractThreadGroup threadGroup;
+/*
+private volatile boolean running; // may be set from a different thread
+private volatile boolean onErrorStopTest;
+JMeterContext threadContext = JMeterContextService.getContext();
+catch (JMeterStopTestException e) {
+try {
+threadContext.clear();
+}
+FindTestElementsUpToRootTraverser pathToRootTraverser=null;
+TransactionSampler transactionSampler = null;
+SamplePackage transactionPack = null;
+if(transactionSampler.isTransactionDone()) {
+transactionResult = transactionSampler.getTransactionResult();
+checkAssertions(transactionPack.getAssertions(), transactionResult, threadContext);
+if (!(parent instanceof TransactionSampler)){
+threadContext.setCurrentSampler(prev);
+if(current != null) {
+SamplePackage pack = compiler.configureSampler(current);
+if (item instanceof JMeterTreeNode) {
+None
+None
+currentSampler = sampler;
+List<SampleListener> sampleListeners = getSampleListeners(pack, transactionPack, transactionSampler);
+if(transactionSampler != null) {
+if (result.isStopThread() || (!result.isSuccessful() && onErrorStopThread)) {
+}
+boolean found = false;
+if(trans == listener) {
+if (scheduler) {
+startScheduler();
+}
+if((!HTTPConstants.CONNECT.equals(request.getMethod())) && (!HTTPConstants.GET.equals(request.getMethod()))) {
+JMeterContextService.decrNumberOfThreads();
+String postData = null;
+controller.removeIterationListener(iterationListener);
+public void runFunction() throws Exception {
+running = false;
+} catch (InterruptedException e) {
+public void GUIComponents1() throws Exception {
+public void runTestElement() throws Exception {
+{
+public Set<Entry<String, Object>> entrySet(){
+List<TestElement> telist = (List<TestElement>)list;
+List<TestElement> telist = (List<TestElement>)list;
+private static Test suiteTestElements() throws Exception {
+//           if (testAt instanceof junit.framework.TestCase){
+None
+/** How often to check for shutdown during ramp-up, default 1000ms */
+/** Ramp-up time */
+private transient Thread threadStarter;
+}
+thread.setScheduled(true);
+while(running && (now = System.currentTimeMillis()) < end) {
+final JMeterContext context = JMeterContextService.getContext();
+jmThread.setInitialDelay((int)(i * perThreadDelay));
+boolean onErrorStopTest = getOnErrorStopTest();
+objects.add(c.getConstructor(new Class[] { Object.class }).newInstance(
+this.context = JMeterContextService.getContext();
+JMeterContextService.getContext().setVariables(this.context.getVariables());
+long endtime = 0;
+}
+if (getDuration() > 0) {// Duration is in seconds
+}
+}
+if (usingScheduler) {
+registerStartedThread(jmThread, newThread);
+public static synchronized ThreadCounts getThreadCounts() {
+None
+private static long testStart = 0;
+threadContext.remove();
+public ThreadGroupGui() {
+of.parseBytes(contents.getBytes()); // TODO - charset?
+start.setDate(new Date());
+private void initGui(){
+private static final int MAX_DOCUMENT_SIZE =
+Metadata metadata = new Metadata();
+try {
+} catch (IOException ioe) {
+URL resource = myClass.getResource("JMeterVersion.class");
+String url = resource.toString().replaceFirst("!/.+", "!/META-INF/MANIFEST.MF");
+} else {
+{
+private static final boolean SHARED_SESSION_CONTEXT =
+None
+Protocol protocol = new Protocol(
+} else {
+private SSLContext createContext() throws GeneralSecurityException {
+for (int i = 0; i < managers.length; i++) {
+TrustManagerFactory tmfactory = TrustManagerFactory.getInstance(
+TrustManager[] trustmanagers = tmfactory.getTrustManagers();
+return this.store.getClientAliases(keyType, issuers);
+private String script = ""; // script (if file not provided)
+public ScriptingTestElement() {
+serverport = port;
+/**
+@Override
+@Override
+public void testNewCookie() throws Exception {
+Scriptable wrapped = Context.toObject(bean.bean, global);
+handleError(t);
+try {
+private static final Logger log = LoggingManager.getLoggerForClass();
+URL url = new URL("http://order.now/sub1/moo.html");
+mean = sum / count;
+if (selected) {
+target = (Throwable) value;
+Enumeration<URL> enu = null;
+Enumeration<String> propertyNames = (Enumeration<String>) prop.propertyNames();
+minimum=Math.min(newValue, minimum);
+}
+None
+}
+private static final int MS_PER_SEC = 1000;
+final Logger logger = LoggingManager.getLoggerForShortName(getClass().getName());
+Sampler sampler = jmctx.getCurrentSampler();
+//  private static Set findAllSubclasses(Class []superClasses, Set listAllClasses, boolean innerClasses) {
+private boolean synchronousMode;
+try {
+private Socket wrapSocket(Socket sock){
+//@GuardedBy("this")
+private static final ThreadLocal<Perl5Matcher> localMatcher = new ThreadLocal<Perl5Matcher>() {
+private static final Random rand = new Random();
+assertEquals(item2.getStringValue(), clonedItem.getProperty(item2.getName()).getStringValue());
+None
+sendLine("String [] args={",os);
+bindings.put("OUT", System.out);
+if (loc.getLanguage().equals(ENGLISH_LANGUAGE)) {
+} else {
+if (!def.getLanguage().equals(ENGLISH_LANGUAGE)) {
+} else if (resBundLocale.getLanguage().equals(loc.getLanguage())) {
+}
+return "["+key+"]";
+log.info("no icon for " + name + " " + e.getMessage());
+assertEquals(1,timer.getCalcMode());// All threads
+combo.updateUI();
+private static final X509Certificate[] EMPTY_X509Certificate = new X509Certificate[0];
+/**
+} else {
+/**
+private static final Map<String, CompiledScript> compiledScriptsCache =
+bindings.put("OUT", System.out);
+}
+@Override
+public ScriptingTestElement() {
+filename="";
+if (red == temp2) {
+int startOfMirrorResponse = 0;
+System.out.println("Connecting to BSH server on "+host+":"+portString);
+os.flush();
+}
+private volatile boolean truststore_loaded=false;
+this.keyStore.load(null, "");
+private String getPassword() {
+String fileName = System.getProperty(SSL_TRUST_STORE);
+None
+@Override
+protected static String findTestPath(String file) {
+Method get = null, eval = null, set = null, source = null;
+private final Logger logger; // Logger to use during initialization and script run
+public BeanShellInterpreter() throws ClassNotFoundException {
+{
+private void init() throws ClassNotFoundException {
+try {
+File in = new File(fileToUse);
+}
+final String message = errorString + m.getName();
+public static boolean isInterpreterPresent(){
+documentBuilderFactory = DocumentBuilderFactory.newInstance();
+//@GuardedBy("this")
+PrivateKey _key = null;
+int v_size = v_names.size();
+return null;
+Cookie d = new Cookie("id", "", "127.0.0.1", "/", false, 0);
+private final long startTime;
+}
+}
+public void testCookies1() throws Exception {
+throw new Exception("Could not start mirror server on port: "+port+". "+e);
+firstTime = startTime;
+Socket clientSocket = new Socket("localhost", HTTP_SERVER_PORT);
+Socket clientSocket = new Socket("localhost", HTTP_SERVER_PORT);
+if (lastTime < endTime) {
+private final long average;
+public int getBytes() {
+this("");
+double rate = 0;
+// (for instructional purposes only!)
+public ExampleSampler() {
+response = Thread.currentThread().getName();
+res.setSamplerData(data);
+res.setSuccessful(isOK);
+private void trace(String s) {
+add(createDataPanel(), BorderLayout.CENTER);
+public static final String DATA = "ExampleSampler.data"; //$NON-NLS-1$
+panel.add(getFilePanel());
+assertEquals("jfdkjdkf jddkfdfjkdjfdf\"", ((Argument) args.getArguments().get(0).getObjectValue())
+None
+res.setResponseData(myStringProperty.toLowerCase(Locale.ENGLISH), null);
+public void setMyStringProperty(String s) {
+private static final int MIN_PARAMETER_COUNT = 1;
+priorityString = ((CompoundVariable) values[1]).execute();
+String value = ((CompoundVariable) values[2]).execute();
+comment = ((CompoundVariable) values[3]).execute();
+private static void printDetails(java.io.PrintStream ps, String s, Throwable t, String c) {
+static void logDetails(Logger l, String s, String prio, Throwable t, String c) {
+assertEquals(1,timer.getCalcMode());// All threads
+String tn = Thread.currentThread().getName();
+String varName = values.length < 2 ? null : ((CompoundVariable) values[1]).execute().trim();
+private static final String INPUT_FILE = "jms.input_file"; //$NON-NLS-1$
+vars.put(varName, resultStr);
+}
+None
+{
+{
+if (currentSampler != null) {
+Object bshOut = bshInterpreter.eval(script);
+private void trace(String s) {
+return defaultValue;
+private static final Random rand = new Random();
+public class JexlFunction extends AbstractFunction {
+List<Object> combined = new LinkedList<Object>();
+private static final String[] PARSERS = {
+String contentEncoding = "UTF-8";
+while (line != null && line.length() > 0) {
+Object o = script.execute(jc);
+result.add("");
+private final String fileName; // name of the file
+{
+public static final String DELIMITER
+{
+None
+name = currentSampler.getName();
+throws Exception {
+public int getSize(){
+private static final List<String> desc = new LinkedList<String>();
+String varName = ((CompoundVariable) values[0]).execute().trim();
+String contentEncoding = "UTF-8";
+private static SSLManager manager;
+private static SSLManager manager;
+if (myCurrent == COUNT_UNUSED) {
+myStart = Integer.parseInt(start);
+log.warn("Exception parsing "+start + " as int, value will not be considered as Start Number sequence");
+log.warn("Exception parsing "+tmp + " as int, value will not be considered as End Number sequence");
+sum += Long.parseLong(varName);
+}
+String tn = Thread.currentThread().getName();
+try {
+log.info(tn + " Detected end of sequence.");
+} catch(NumberFormatException ignored) {
+None
+String totalString = Long.toString(sum);
+splitString = ((CompoundVariable) values[2]).execute();
+{
+super();
+private static final ThreadLocal<Map<String, XPathFileContainer>> filePacks =
+}
+xpfc=open(file, xpathString);
+}
+static {
+return ""; //$NON-NLS-1$
+m_unparsedArgs = subArray(m_args, m_argIndex, m_stringIndex);
+myValue = FileWrapper.getColumn(fileName, columnIndex);
+private static final ThreadLocal<Map<String, FileWrapper>> filePacks =
+if (values.length >= ENCODING) {
+encoding = null;
+private FileWrapper(FileRowColContainer fdc) {
+* - maps names to  containers
+public static void endRow(String file) {
+public static synchronized void open(String file, String alias) {
+{
+} catch (IOException e) {
+}
+{
+JMeterVariables vars = getVariables();
+assertEquals(TESTSTROUT, testf.filter(TESTSTR));
+try {
+if (values.length >= CHARS) {
+return (String) JMeterUtils.setProperty(propertyName, propertyValue);
+charsToUse = null;
+datetime = Long.toString(System.currentTimeMillis());
+vars.put(varName, str);
+private void init(){
+private static final Map<String, String> aliases = new HashMap<String, String>();
+propertyDefault = ((CompoundVariable) values[2]).execute();
+String fmt = aliases.get(format);
+None
+datetime = df.format(new Date());
+final JMeterVariables variables = getVariables();
+params.setVersion(name, value);
+SampleSaveConfiguration cloneA = (SampleSaveConfiguration) a.clone();
+private static final int TOKEN_SEPARATOR = 0;
+@Override
+if (m_option != null) {
+private Hashtable<Object, CLOption> m_optionIndex;
+m_state = STATE_NORMAL;
+private char m_ch;
+a.setUrl(true);
+m_option.addArgument("");
+addOption(new CLOption(m_args[m_argIndex++]));
+addOption(m_option);
+addOption(m_option);
+if (0 == m_ch && '-' == peekAtChar()) {
+if (0 == peekAtChar()) {
+{
+final String optionName = nextToken(ARG_SEPARATORS).getValue();
+final String argument = nextToken(NULL_SEPARATORS).getValue();
+if ('-' != m_ch) {
+}
+@Override
+@Override
+res.sampleStart();
+AppletTag applet = (AppletTag) tag;
+if (null == descriptor) {
+if (0 == m_ch) {
+private static final String FOUND = "found"; // $NON-NLS-1$
+protected final Map<Object, HashTree> data;
+* Method is used internally to parse the InputStream and build the document
+/**
+} else {
+private int run(List<String> arguments, InputStream in, OutputStream out, OutputStream err) throws InterruptedException, IOException {
+int exitCode=run(arguments1,stdin,out, stderr);
+Thread.sleep(pollInterval);
+throw new InterruptedException( "Process timeout out after " + timeoutInMillis + " milliseconds" );
+None
+None
+None
+private KeyToolUtils() {
+}
+ByteArrayOutputStream certReqOut = new ByteArrayOutputStream();
+KeyToolUtils.genkeypair(keystore, ROOTCA_ALIAS, password, validity, DNAME_ROOT_CA_KEY, "bc:c");
+// get the certificate request
+KeyToolUtils.keytool("-certreq", keystore, password, INTERMEDIATE_CA_ALIAS, null, certReqOut);
+KeyToolUtils.keytool("-exportcert", keystore, password, ROOTCA_ALIAS, null, null, "-rfc", "-file", ROOT_CACERT_CRT);
+InputStream certReqIn = new ByteArrayInputStream(certReqOut.toByteArray());
+generateSignedCert(keystore, password, validity,
+FileUtils.copyFile(caCert_crt, caCert_usr);
+None
+private String oldValue = "";
+ByteArrayOutputStream certReqOut = new ByteArrayOutputStream();
+this.add(mLabel);
+int numWrite = writeFunctors.length;
+return null;
+private transient boolean cellEditable = true;
+if (!oldValue.equals(mTextField.getText())) {
+return objects;
+int maxItems = (int)Math.round(
+private JPopupMenu menu;
+}
+}
+//
+synchronized (parent.getTreeLock()) {
+for (int i = 0; i < n; i++) {
+if (anchor == TOP) {
+for (int i = 0; i < n; i++) {
+}
+}
+}
+Hierarchy hier = Hierarchy.getDefaultHierarchy();
+System.out.println("Error processing logging config " + cfg);
+// Running values, updated for each sample
+private double sum = 0;
+setTarget(makeWriter(properties.getProperty(LOG_FILE, "jmeter.log"), LOG_FILE));  //$NON_NLS-1$
+System.out.println("Error processing logging config " + cfg);
+final int length = logFile.split("'",-1).length;
+name = name.substring(PACKAGE_PREFIX.length());
+private final T MIN_VALUE; // e.g. Long.MIN_VALUE
+public void CSVBlankLine() throws Exception {
+/**
+long target = Math.round (count * percent);
+}
+sumOfSquares += currentVal * currentVal * sampleCount;
+sumOfSquares += currentVal * currentVal;
+valuesMap.put(actualValue, new MutableLong(sampleCount));
+p.add(Box.createVerticalStrut(70), BorderLayout.WEST);
+private final String methodName;
+private Object[] args;
+private Method methodToInvoke;
+this.clazz = _clazz != null ? _clazz : (_invokee != null ? _invokee.getClass() : null);
+this.types = _types != null ? _types : (_args != null ? _getTypes(_args) : null);
+private ClassFinder() {
+if (tree1.hashCode() == tree2.hashCode()) {
+log.error("Failed to read the bytes",e);
+None
+None
+}
+System.out.println("WARN: unequal HashTrees should not have equal hashCodes");
+}
+}
+// hack to reduce the need to load every class in non-GUI mode, which only needs functions
+private static String[] addJarsInPath(String[] paths) {
+final Class<? extends Annotation>[] annoclassNames = (Class<? extends Annotation>[]) classNames;
+findClassesInPaths(listPaths, listClasses);
+}
+* @return classpath
+}
+None
+//              try {
+strClassName = strClassName.substring(0, strClassName.length() - DOT_CLASS_LEN);
+}
+URLDecoder.decode(new String(expectedUrl, "US-ASCII"), "ISO-8859-1"),
+splittee = splittee.substring(0,splittee.length()-splitLength);
+returns.add(EMPTY_ELEMENT);
+int start = 0;
+None
+public RenderAsXML(){
+if (state == QUOTED) {
+}
+public final class JOrphanUtils {
+private static class DumperHolder {
+private final MBeanServer server;
+private final Exception exception;
+private HeapDumper() {
+ObjectName on = null;
+None
+}
+private final ArrayStack tags = new ArrayStack(); // opened tags
+public XMLBuffer(){
+}
+d = formatter.parse(date.toString());
+private static final String SETUP = "setUp";
+Class<?> testClass = Class.forName(className, false, contextClassLoader);
+private static final String CLASSNAME = "junitSampler.classname";
+boolean inc = false;
+private transient TestCase testCase;
+private transient Method setUpMethod;
+private transient String methodName;
+private transient Protectable protectable;
+private transient String className;
+TestResult tr = new TestResult();
+AssertionFailedError afe = new AssertionFailedError(cause.toString());
+afe.setStackTrace(cause.getStackTrace());
+sresult.setSuccessful(false);
+sresult.setResponseMessage("Failed to create an instance of the class:"+getClassname()
+throw e;
+None
+if (strCon != null) {
+strCon = theclazz.getDeclaredConstructor(
+protectable = new Protectable() {
+if (thrown instanceof AssertionError && !(thrown instanceof AssertionFailedError)){
+}
+@Test(expected=RuntimeException.class)
+return DOCHANDLER.getContents();
+public void add() {
+@Test(expected=RuntimeException.class)
+assert 4 == four;
+@Test(timeout=1000)
+@Test(timeout=1000)
+public void divideByZero() {
+}
+public void testFail() {
+public void testException() {
+double per = (double) current / (double) max;
+for (int i = 0; i < stat.getConnector().size(); i++) {
+cntr = stat.getConnector().get(0);
+value = parts[i].substring(indexEmptyCrLfCrLfLinePos+CRLFCRLF.length(),parts[i].lastIndexOf(CRLF));
+} finally {
+/**
+}
+JLabel label = new JLabel(legend);
+init(model);
+private String connectorPrefix = null;
+/**
+String eqstring1 = " " + INFO_H + "   |   " + INFO_A;
+log.debug("StatsModel was null", e);
+}
+MonitorStats stat = new MonitorStats(Stats.calculateStatus(st), Stats.calculateLoad(st), 0, Stats
+final TestElement te = (TestElement)tree.getArray()[0];
+private final ObjectFactory factory;
+this.stacktree = new Stack<Object>();
+* Receive notification of the start of an element.
+element.setProperty(FTPSampler.SERVER,server.getText());
+public FTPSampler() {
+boolean ftpOK=false;
+res.setResponseCode(Integer.toString(ftp.getReplyCode()));
+}
+value = parts[i].substring(indexEmptyLfLfLinePos+LFLF.length(),parts[i].lastIndexOf(LF));
+public void initialize() {
+final boolean ok = MenuFactory.canAddTo(guiInstance.getCurrentNode(), te);
+String next = this.getRandomFileName();//get filename or ""
+lOutputWriter.write(inOutput);
+variables.addParameter("password", "his_password");
+public static final String SAVE_RESPONSE = "FTPSampler.saveresponse"; // $NON-NLS-1$
+None
+HTTPArgument arg = new HTTPArgument(name, value, false);
+String projectFile = GuiPackage.getInstance().getTestPlanFile();
+files.addHTTPFileArg(path, name, contentType);
+JPanel webServerPanel = new HorizontalPanel();
+cfg.addConfigElement(el);
+concurrentPool.setMinimumSize(new Dimension(10,20));
+JPanel webRequestPanel = new JPanel();
+// Body data
+private JSyntaxTextArea postBodyContent;
+useKeepAlive = new JCheckBox(JMeterUtils.getResString("use_keepalive")); // $NON-NLS-1$
+concurrentDwn = new JCheckBox(JMeterUtils.getResString("web_testing_concurrent_download")); // $NON-NLS-1$
+embeddedRE = new JLabeledTextField(JMeterUtils.getResString("web_testing_embedded_url_pattern"),20); // $NON-NLS-1$
+for(int i = 0; i < jTree.getRowCount(); i++) {
+if(postBodyContent.getText().equals(computePostBody((Arguments)argsPanel.createTestElement()).trim())) {
+public static boolean insertLoadedTree(final int id, final HashTree tree) throws IllegalUserActionException {
+postBodyContent.setInitialText(postBody);
+optionPanel.add(autoRedirects);
+if (portString.equals(HTTPSamplerBase.UNSPECIFIED_PORT_AS_STRING)) {
+private static void reportError(final String reason, final Throwable ex, final boolean stackTrace) {
+private static final ThreadLocal<SAXBuilder> myBuilder = new ThreadLocal<SAXBuilder>() {
+if (showImplementation) {
+protocol = new JTextField(4);
+contentEncoding = new JTextField(10);
+result.setFailure(true);
+sb.append(" expected something using ");
+String resultData = response.getResponseDataAsString();
+argsPanel.clear();
+JOptionPane.showConfirmDialog(this,
+JOptionPane.showConfirmDialog(this,
+private static final int DEFAULT_MAX_SIZE = 5000;
+static class CacheEntry{
+private void setCache(String lastModified, String cacheControl, String expires, String etag, String url, String date) {
+if(cacheControl != null && !cacheControl.contains("no-cache")) {
+if(cacheControl.contains(MAX_AGE)) {
+}
+private String getHeader(HttpMethod method, String name){
+private String getHeader(HttpResponse method, String name) {
+private boolean isCacheable(SampleResult res){
+public static final String CLEAR = "clearEachIteration"; // $NON-NLS-1$
+SampleResult subResults[] = response.getSubResults();
+None
+}
+headers.append(new String(buffer, 0, length, ISO_8859_1));
+DocumentBuilder parser = parserFactory.newDocumentBuilder();
+positionOfBody = getPositionOfBody(headers.toString());
+log.debug("Reading, "+totalReadBytes+" < " +contentLength);
+parser.parse(new InputSource(new StringReader(xmlStr)));
+ret.setSecure(jmc.getSecure());
+} catch (SAXParseException e) {
+if (exp == 0 || exp >= System.currentTimeMillis()) {
+if (!result.isError() && !result.isFailure()) {
+} else {
+private static String errorDetails(SAXParseException spe) {
+log.warn("Not storing invalid cookie: <"+cookieHeader+"> for URL "+url+" ("+e.getLocalizedMessage()+")");
+@Override
+policy = CookiePolicy.BEST_MATCH;
+@Override
+final String msg = compareSize(resultSize);
+private static final Logger log = LoggingManager.getLoggerForShortName(SMIMEAssertionTestElement.class.getName());
+int totalReadBytes = headerString.length() - positionOfBody - 2;
+log.debug("Other");
+String expression = "^" + headerName + ":\\s+([^\\r\\n]+)"; // $NON-NLS-1$ $NON-NLS-2$
+X509Certificate cert = (X509Certificate) certIt.next();
+*            the SampleResult containing information about the Sample
+static class LoginCallbackHandler implements CallbackHandler {
+HeaderManager merged = (HeaderManager)this.clone();
+if ( responseTime > duration) {
+for (int i = 0; i < other.getHeaders().size(); i++) {
+for (int j = 0; j < merged.getHeaders().size(); j++) {
+found = true;
+if ( (otherHeader.getValue() == null) || (otherHeader.getValue().length() == 0) ) {
+mergedHeader.setValue(otherHeader.getValue());
+break;
+merged.add(otherHeader);
+None
+private volatile Exception except;
+if(threadPoolExecutor != null) {
+fileReader = new BufferedReader(new FileReader(scriptFile),
+return (Cookie) getCookies().get(i).getObjectValue();
+}
+None
+final int _path = 2;
+private static final String CLEAR = "CookieManager.clearEachIteration";// $NON-NLS-1$
+/** {@inheritDoc} */
+Cookie cookie = new Cookie(st[_name], st[_value], st[_domain], st[_path], secure, expires);
+writer.println(cookieToString(cook));
+}
+if (getAllowedMD5Hex().equals("")) {
+* Method is used internally to parse the InputStream and build the document
+PropertyIterator iter = getCookies().iterator();
+private void clearCookies() {
+static final int DEFAULT_PORT = 8081;
+Tidy tidy = null;
+setProperty(initialCookies.clone());
+if (!md5Result.equalsIgnoreCase(getAllowedMD5Hex())) {
+@Override
+if ((tidy.getParseErrors() > getErrorThreshold())
