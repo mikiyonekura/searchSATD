@@ -1,6 +1,0 @@
-search_string,predict_under_code,line_no,similarity,filepath
-"// TODO (@author fdietz): should be removed if we only use // Streams!","None",None,None,None
-"// FIXME (@author karlpeder): Is 3.2 the proper version of html to refer to?","None",None,None,None
-"// this is a hack for the multiline column","None",None,None,None
-"//TODO (@author tstich): do something","None",None,None,None
-"// TODO (@author fdietz): i18n","None",None,None,None

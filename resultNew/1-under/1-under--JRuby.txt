@@ -1,0 +1,3652 @@
+return initialize(context);
+// There are also differences in variable scoping between 1.8 and 1.9
+Block block = InterpretedBlock.newInterpretedClosure(context, this, self);
+// There are also differences in variable scoping between 1.8 and 1.9
+public static final ByteList PARAGRAPH_DELIMETER = ByteList.create("PARAGRPH_DELIM_MRK_ER");
+rootMethod.addInstr(new RECV_ARG_Instr(rootClass.getSelf(), 0));
+if (Double.isNaN(mod)) {
+// There are also differences in variable scoping between 1.8 and 1.9
+if (str.getByteList().length() == 0) {
+// There are also differences in variable scoping between 1.8 and 1.9
+if (expForm) {
+// There are also differences in variable scoping between 1.8 and 1.9
+final RubyClass fileStatClass = runtime.getFile().defineClassUnder("Stat",runtime.getObject(), ALLOCATOR);
+// There are also differences in variable scoping between 1.8 and 1.9
+return getProxyClass(runtime, JavaClass.forNameQuiet(runtime, fullName));
+// There are also differences in variable scoping between 1.8 and 1.9
+public RubyHash(Ruby runtime, Map valueMap, IRubyObject defaultValue) {
+// There are also differences in variable scoping between 1.8 and 1.9
+return clazz.findImplementer(implementationClass);
+// There are also differences in variable scoping between 1.8 and 1.9
+this.protectedClass = calculateProtectedClass(implementationClass);
+// There are also differences in variable scoping between 1.8 and 1.9
+((Node)yyVal).setPosition(getPosition(((Node)yyVals[-2+yyTop])));
+// There are also differences in variable scoping between 1.8 and 1.9
+Args(Ruby runtime, long value) {
+for (int i = 0; i < variables.length; i++) {
+localContext.set(new SoftReference<ThreadContext>(mainContext));
+return result;
+return delegate.constantTableStore(name, value);
+block = block.cloneBlock();
+if (cwd == null) return runtime.getNil();
+return getRuntime().newString(status.toString().toLowerCase());
+public static void marshalTo(final RubyHash hash, final MarshalStream output) throws IOException {
+@JRubyMethod(required = 2)
+RubyClass result = javaModule.defineClassUnder("JavaObject", runtime.getObject(), JAVA_OBJECT_ALLOCATOR);
+initializeClass(javaClass);
+int iPriority = RubyNumeric.fix2int(priority);
+public void addMethod(String name, DynamicMethod method) {
+return JavaUtil.convertJavaToUsableRubyObject(context.getRuntime(), new IOInputStream(self));
+return mproc(context, block);
+for (RubyModule module = this; module != null; module = module.getSuperClass()) {
+// TODO: These were missing, so we're not handling them elsewhere?
+DynamicMethod clonedMethod = method.dup();
+fileClass.fastSetConstant("FNM_NOESCAPE", runtime.newFixnum(FNM_NOESCAPE));
+loadRuntime();
+if (methodName == "toString" && length == 0) {
+if (enclosingClass == null) throw runtime.newTypeError("no outer class/module");
+modes = new ModeFlags(RDWR);
+defaultMessages.put("Errno::EPERM", "Operation not permitted");
+shareLevel = SHARE_LEVEL_BUFFER;
+return callCoerced(context, "*", b);
+RubySymbol symbol = RubySymbol.getSymbolLong(runtime, value);
+boolean foundMethod = false;
+runtime.getLoadService().require("readline");
+return create(runtime, method);
+if(ioe.getMessage() != null) {
+RubyClass threadClass = runtime.defineClass("Thread", runtime.getObject(), ObjectAllocator.NOT_ALLOCATABLE_ALLOCATOR);
+Object[] convertedArgs = new Object[len + 1];
+binding = binding.clone();
+Constructor[] constructors = getConstructors(javaClass);
+if (rubySing.getMethods().get("new") == null) {
+// There are also differences in variable scoping between 1.8 and 1.9
+Ruby runtime = context.getRuntime();
+StringBuilder part = new StringBuilder();
+methodCompiler.loadSelf();
+if(attached instanceof RubyClass || attached instanceof RubyModule){
+getPosition();
+RubyThread currentThread = getRuntime().getCurrentContext().getThread();
+if (implementationClass == null) {
+if (Platform.IS_WINDOWS && file != null) {
+return JavaUtil.convertJavaToUsableRubyObject(context.getRuntime(), new IOOutputStream(self));
+} catch (SecurityException ex) {
+yyVal = new ForNode(getPosition(((Token)yyVals[-8+yyTop])), ((Node)yyVals[-7+yyTop]), ((Node)yyVals[-1+yyTop]), ((Node)yyVals[-4+yyTop]));
+public static class StringGlobalVariable extends GlobalVariable {
+throw getRuntime().newErrnoEBADFError();
+return n;
+if (buflen == 0) {
+int cutoff = bufstr.substring(position).lastIndexOf('.') + 1;
+//    fseeko(fptr->f, ftello(orig->f), SEEK_SET);
+pending.remove(key.attachment());
+import org.jruby.RubyClass;
+RubyArray splattedArgs = RuntimeHelpers.splatValue(restArg);
+int v = (dt.getDayOfWeek()+1)%8;
+}
+if (((Node)yyVals[-1+yyTop]) instanceof YieldNode) {
+return InterpretedBlock.newInterpretedClosure(context, iterNode.getBlockBody(), self);
+public IR_Loop getCurrentLoop() { return _loopStack.peek(); }
+// There are also differences in variable scoping between 1.8 and 1.9
+if (runtime.getGlobalVariables().get("$*").isNil()) {
+for (int i = 0; i < signals.length; i++) {
+fileChannel.write(ByteBuffer.allocate(difference));
+if (argsCallback == null || argsCallback.getArity() == 0) {
+if ((packageModule = getJavaPackageModule(runtime, fullName)) == null) {
+if (!Ruby.isSecurityRestricted() && jrubyClassLoader == null) {
+result.append(
+int start = scope.getRequiredArgs();
+RubyClass result = javaModule.defineClassUnder("JavaField", runtime.getObject(), ObjectAllocator.NOT_ALLOCATABLE_ALLOCATOR);
+int strlen = str.length();
+return JavaMethod.getMatchingDeclaredMethod(runtime, javaClass, methodName, argumentTypes);
+boolean hasLocalMethod() {
+growVariableNames(name);
+}
+private final ConcurrentHashMap<Class,JavaClass> javaClassCache =
+RubyModule packageModule;
+if (result.isTrue()) {
+if (e.getCause() instanceof SocketException) {
+throw newRefError("Illegal Reference - probably recycled");
+public ISourcePosition createEmptyArgsNodePosition(ISourcePosition pos) {
+throw new PipeException();
+cFiber.defineAnnotatedMethods(Fiber.class);
+match.regs = matcher.getRegion(); // lazy, null when no groups defined
+private StaticScope staticScope;
+/*                    if (support.is_local_id($1)) {
+public synchronized IRubyObject id() {
+if ((packageName = pkg.getInstanceVariables().fastGetInstanceVariable("@package_name")) == null) {
+public static final int ZERO_ARGS = 0;
+RubyClass structClass = runtime.defineClass("Struct", runtime.getObject(), ObjectAllocator.NOT_ALLOCATABLE_ALLOCATOR);
+} catch (JumpException.BreakJump bj) {
+String pkg = proxyPackageName(superClass);
+static JavaProxyClass newProxyClass(Ruby runtime, ClassLoader loader,
+methodCompiler.loadNil();
+public void add(int index, Object element) {
+@JRubyMethod(name = "remove_class_variable", required = 1, visibility = PRIVATE)
+return dup;
+if (whenNode.getExpressionNodes() instanceof ArrayNode) {
+if (!Ruby.isSecurityRestricted()) {
+@JRubyMethod(backtrace = true, visibility = Visibility.PRIVATE)
+runtime.setCurrentDirectory(realPath);
+import org.jruby.runtime.Arity;
+* FIXME: Whis is this named "push_m"?
+traceLine = RubyString.newString(runtime, frame.getFile() + ':' + (frame.getLine() + 1) + ":in `<main>'");
+this.receiverNode = receiverNode;
+io.getHandler().setSync(true);
+if (recv == runtime.getModule("Zlib").getClass("GzipWriter")) {
+super(implementationClass, visibility, null);
+* tell if a channel is "really" seekable.
+context.getVariableCompiler().assignLocalVariable(index, false);
+private IRubyObject whenNoTest(ThreadContext context, Ruby runtime, IRubyObject self, Block aBlock) {
+res = res.round(new MathContext(digits,  RoundingMode.HALF_UP));
+public void checkSafeString(IRubyObject object) {
+RubyClass exceptionClass = runtime.defineClass(CLASS_NAME, baseClass, ObjectAllocator.NOT_ALLOCATABLE_ALLOCATOR);
+if (value.getMetaClass().searchMethod("to_a").getImplementationClass() != runtime.getKernel()) {
+ConstDeclNode constDeclNode = (ConstDeclNode) node;
+public static final boolean isRubyVariable(String name) {
+// There are also differences in variable scoping between 1.8 and 1.9
+} catch (IOException ex) { // TODO: better error handling
+rubySing.addMethod("new" + prettyParams(constructor.getParameterTypes()), dynMethod);
+if (context == null) {
+if (unit == 0) throw runtime.newArgumentError("step cannot be 0");
+for (int i = 0; i < secondSplit.length; i++) {
+return staticScope;
+public class BenchFixnumCreation {
+topSelf.getSingletonClass().defineFastPrivateMethod("include", new Callback() {
+RubyClass result = javaModule.defineClassUnder("JavaField", runtime.getObject(), ObjectAllocator.NOT_ALLOCATABLE_ALLOCATOR);
+// There are also differences in variable scoping between 1.8 and 1.9
+}
+return newRaiseException(is1_9() ? getRuntimeError() : getTypeError(), "can't modify frozen " + objectType);
+public static IRubyObject invokeMethodMissing(IRubyObject receiver, String name, IRubyObject[] args) {
+return obj == null ? runtime.getNil() : obj;
+if ("MET".equalsIgnoreCase(zone)) {
+argsNodeId = NodeType.SVALUENODE;
+LocalStaticScope staticScope = new LocalStaticScope(null);
+// There are also differences in variable scoping between 1.8 and 1.9
+if (superClass != null && profile.allowClass(name)) {
+byte[] target = buf.bytes;
+rubySing.addMethod("new" + prettyParams(constructor.getParameterTypes()), dynMethod);
+public class ObjectSpace {
+buffer.clear();
+new ObjectProxyCache<IRubyObject,RubyClass>(ObjectProxyCache.ReferenceType.WEAK) {
+if (((Node)yyVals[0+yyTop]) instanceof ArrayNode &&
+public boolean is_local_id(Token identifier) {
+public static Object coerceStringToType(RubyString string, Class target) {
+int[] tmpLocals = new int[count];
+}
+// if we get here, the class and field exist; construct our Unsafe impl
+mv.getfield(mnamePath, "$scriptObject", ci(Object.class));
+methodCompiler.getScriptCompiler().getClassInitMethod();
+private IRubyObject[] trueIfNoArgument(ThreadContext context, IRubyObject[] args) {
+int args = paramsLength;
+@JRubyMethod(name = "singleton_methods", optional = 1, compat = CompatVersion.RUBY1_8)
+if (object == null) object = ((JavaObject)dataGetStruct()).getValue();
+checkOffset(args,++offset,length,ERR_MALFORMED_STAR_NUM);
+mv.aload(selfIndex);
+// There are also differences in variable scoping between 1.8 and 1.9
+try {holder.readline.getTerminal().initializeTerminal();} catch (Exception e) {}
+return nextNode.interpret(runtime, context, self, aBlock);
+// There are also differences in variable scoping between 1.8 and 1.9
+@JRubyMethod(frame = true)
+this.proxyClass = proxy;
+return new RubyComplex(context.getRuntime(), clazz, x, y);
+return;
+//            try {
+return ctl(context.getRuntime(), cmd, null);
+context.consumeCurrentValue();
+protected abstract IRubyObject internalFinish();
+RubyString str = null;
+if (args.length == 1 && args[0].convertToString().isEmpty()) {
+public RubyFile(Ruby runtime, String path, final Reader reader) {
+setFlag(SCOPE_AWARE);
+public double getDoubleValue() {
+remove(table, hash, e);
+int prec = Math.max(200, scale);
+context.getVariableCompiler().assignLocalVariable(dasgnNode.getIndex(), dasgnNode.getDepth(), expr);
+return ""+flags;
+public ConstDeclNode(ISourcePosition position, String name, INameNode constNode, Node valueNode) {
+long oldRandomSeed = runtime.getRandomSeed();
+@JRubyMethod(rest = true)
+return new InvocationCallbackFactory(runtime, type, classLoader);
+context.createNewArray(true);
+case CLASSVARASGNNODE:
+super(implementationClass, visibility, null);
+method.end();
+RubyInstanceConfig config = new RubyInstanceConfig();
+if(isDst != null) {
+if (flags == -1) {
+RubyClass.checkInheritable(baseType);
+public void preExecuteUnder(RubyModule executeUnderClass, Block block) {
+// There are also differences in variable scoping between 1.8 and 1.9
+return JavaUtil.convertJavaToUsableRubyObject(getRuntime(), result);
+RubyIO io = (RubyIO)maybeIO;
+clone.callMethod(clone.getRuntime().getCurrentContext(), "initialize_copy", original);
+!Modifier.isFinal(method.getModifiers())) {
+if (!(type instanceof RubyModule)) {
+private final Map matchCache = Collections.synchronizedMap(new HashMap(128));
+static final int STR_FUNC_ESCAPE=0x01;
+JavaClass javaClass = null;
+if (str == null) {
+mv.label(methodMissing);
+String loadPathEntry = ((IRubyObject)pathIter.next()).toString();
+addMethod(name, new WrapperMethod(this, method, visibility));
+if (defnNode.getBodyNode() instanceof RescueNode) {
+@JRubyMethod(rest = true, meta = true)
+static class Segment<T,A> extends ReentrantLock {
+evalScope.getStaticScope().determineModule();
+return runtime.newFixnum(read);
+// IN FACT, we should probably raise an error, yes?
+state = strict ? SERR_NOT_STRICT : SCOMPLETE;
+public List subList(int fromIndex, int toIndex) {
+this.proxyClass = proxy;
+provider = (Provider) AccessController.doPrivileged(new PrivilegedAction() {
+RubyArray keys = super.keys();
+if (arg.respondsTo("java_object")) {
+public IRubyObject downto(ThreadContext context, IRubyObject to, Block block) {
+if (args.length == 0) {
+invDynSupportInstaller.invoke(null, clinitMethod, getClassname());
+value = RubyBignum.newBignum(value.getRuntime(), fixnum.getLongValue());
+this.flags = (int)flags;
+try { buf.append("dev=0x").append(Long.toHexString(stat.dev())).append(", "); } catch (Exception e) {}
+return dup;
+initMethod.aload(THIS);
+IOChannel channel;
+int bytesRead = descriptor.read(number, byteList);
+for (int i = 0, argIndex = 1; i < paramTypes.length; i++) {
+// There are also differences in variable scoping between 1.8 and 1.9
+// There are also differences in variable scoping between 1.8 and 1.9
+if (!Ruby.isSecurityRestricted()) {
+ioClass.defineAnnotatedMethods(RubyIO.class);
+return runtime.getEncodingService().getEncoding(KCode.NONE.getEncoding());
+return block.yield(context, valueInYield, RubyObject.this, context.getRubyClass(), aValue);
+Ruby runtime = context.getRuntime();
+Constructor[] constructors = getConstructors(javaClass);
+return newComplexBang(context, clazz, x, RubyFixnum.zero(context.getRuntime()));
+if (currentLoopLabels != null) {
+private CodeVersion _token;   // Current code version token for this method -- can change during execution as methods get redefined!
+if (!(channel instanceof ReadableByteChannel)) {
+cw.visitField(ACC_STATIC | ACC_PUBLIC | ACC_VOLATILE, simpleName, ci(CacheEntry.class), null, null).visitEnd();
+throw context.getRuntime().newTypeError("class or module required");
+if (args != null) {
+return getPackageModule(runtime, name);
+throw runtime.newTypeError("no class/module to define constant");
+private static ModeFlags getModes(Ruby runtime, IRubyObject object) throws InvalidValueException {
+public class ConstDeclNode extends AssignableNode implements INameNode {
+throw flt.getRuntime().newRangeError("float " + aFloat + " out of range of integer");
+}
+Object result = method.invoke(javaInvokee, arguments);
+throw runtime.newIOError("could not reopen: " + ex.getMessage());
+// There are also differences in variable scoping between 1.8 and 1.9
+return new ManyVarsDynamicScope(new LocalStaticScope(null), existingScope);
+if (threadImpl.isAlive()) {
+area.setCaretPosition(area.getDocument().getLength());
+if (result.getScope() != null) {
+// There are also differences in variable scoping between 1.8 and 1.9
+ByteBuffer format = ByteBuffer.wrap(formatString.unsafeBytes(), formatString.begin(), formatString.length());
+// FIXME: is this ok?
+return op_div(context, other, getRuntime().newFixnum(200));
+resultCode = ShellLauncher.execAndWait(runtime, args);
+// There are also differences in variable scoping between 1.8 and 1.9
+return javaModule.defineClassUnder("JavaArray", javaModule.fastGetClass("JavaObject"), ObjectAllocator.NOT_ALLOCATABLE_ALLOCATOR);
+return new ReflectionCallback(type, method, new Class[] { RubyKernel.IRUBY_OBJECT,
+return JavaMethod.getMatchingDeclaredMethod(runtime, javaClass, methodName, argumentTypes);
+var = ancestor.getInstanceVariables().fastGetInstanceVariable("@__java_ovrd_methods");
+if (RubyInstanceConfig.FASTEST_COMPILE_ENABLED) {
+if (bytesRead == -1 || (bytesRead == 0 && len > 0)) {
+return newProc;
+public List<Variable<Object>> getVariableList() {
+break;
+if ((flags & FLAG_WIDTH) != 0 && width > len) {
+}
+public static String jrubyShell() {
+BigDecimal val = value.abs().stripTrailingZeros();
+private void addAccessor(ThreadContext context, String internedName, Visibility visibility, boolean readable, boolean writeable) {
+if (infinitySign * val.infinitySign > 0) {
+int ret = StringSupport.caseCmp(bytes, p, obytes, op, cl < ocl ? cl : ocl);
+method.label(falseJmp);
+return new ChannelDescriptor(nullChannel, RubyIO.getNewFileno(), flags, new FileDescriptor());
+Label falseJmp = new Label();
+if (Priority.ALIAS.moreImportantThan(assignedName)) {
+} else {
+int index = name.lastIndexOf('/');
+RubySymbol symbol = runtime.newSymbol(name);
+for (int i = 0; i < scope.getRequiredArgs(); i++) {
+}
+if (encoding == null) encoding = getRuntime().getEncodingService().loadEncoding(name);
+ChannelDescriptor descriptor = openFile.getMainStream().getDescriptor();
+}
+}
+}
+throw runtime.newErrnoEEXISTError("File exists - "
+private static final Map<String, AssignedName> RESERVED_NAMES = new HashMap<String, AssignedName>();
+if (!startsWithSlashNotOnWindows && !startsWithDriveLetterOnWindows(cwd)) {
+int arity = method.getParameterTypes().length;
+public class RootNode extends Node {
+// READ_CHECK from MRI io.c
+// FIXME: JRUBY-3188 ends up with condition returning null...quick fix until I can dig into it
+ByteList out = new ByteList(value.realSize);
+if (bodyNode == null) {
+Ruby runtime = context.getRuntime();
+context.lineNumber(node.getPosition());
+IRubyObject ith = constructor_args.aref(getRuntime().newFixnum(i));
+String newMethodName;
+ByteList name = str.convertToString().getByteList();
+// There are also differences in variable scoping between 1.8 and 1.9
+return Tokens.tGVAR;
+// There are also differences in variable scoping between 1.8 and 1.9
+yyVal = support.new_opElementAsgnNode(getPosition(((Node)yyVals[-5+yyTop])), ((Node)yyVals[-5+yyTop]), (String) ((Token)yyVals[-1+yyTop]).getValue(), ((Node)yyVals[-3+yyTop]), ((Node)yyVals[0+yyTop]));
+// self = args[0]
+if (currentBlock != null && currentBlock.isGiven()) {
+// This is not an expression that computes anything
+if ((!superset.isReadable() && isReadable()) ||
+return build(node.getBody(), s);
+recv.dataWrapStruct(obj);
+default:
+public void testEmptyList() throws Exception {
+// There are also differences in variable scoping between 1.8 and 1.9
+throw context.getRuntime().newTypeError("bind argument must be an instance of " + originModule.getName());
+// There are also differences in variable scoping between 1.8 and 1.9
+// There are also differences in variable scoping between 1.8 and 1.9
+return descriptor;
+// There are also differences in variable scoping between 1.8 and 1.9
+private synchronized boolean isCacheInvalid(String newString, RubyClass klass) {
+// There are also differences in variable scoping between 1.8 and 1.9
+yyVal = support.new_opElementAsgnNode(getPosition(((Node)yyVals[-5+yyTop])), ((Node)yyVals[-5+yyTop]), (String) ((Token)yyVals[-1+yyTop]).getValue(), ((Node)yyVals[-3+yyTop]), ((Node)yyVals[0+yyTop]));
+return  getRuntime().getNil();
+if (readComment(c) == EOF) return EOF;
+yyVal = new SymbolNode(((Token)yyVals[0+yyTop]).getPosition(), ((String) ((Token)yyVals[0+yyTop]).getValue()).intern());
+host = list.get(2).toString();
+if (str == null) {
+if(simpleName.equals("equals") && paramTypes.length == 1 && paramTypes[0] == Object.class && returnType == Boolean.TYPE) {
+// TODO: Ruby truncates string to specific size here, but our bytelist should handle this already?
+if (rubySing.getMethods().get("new") == null) {
+return this;
+if (JAVA_PRIMITIVES.containsKey(name)) {
+private static void assignAliases(MethodInstaller installer, Map<String, AssignedName> assignedNames) {
+if (method.getImplementationClass() == realType || method.isUndefined()) {
+if (openFile == null) {
+/*                  if (support.getConfiguration().hasExtraPositionInformation()) {*/
+/**
+throw runtime.newErrnoEEXISTError("File exists - "
+if (pipeFile != null) {
+@JRubyMethod(name = "subclasses", optional = 1)
+@JRubyMethod(name = {"to_int", "pid", "stopped?", "stopsig", "signaled?", "termsig?", "exited?", "coredump?"}, frame = true)
+encodings = EncodingDB.getEncodings();
+if (infinitySign * val.infinitySign > 0) {
+if (openFile.getProcess() != null) {
+args.prepare(context, runtime, self, parameters, block);
+break;
+r = writeStream.getDescriptor().write(buffer,offset,l);
+throw runtime.newTypeError("can't convert " + timeArg.getMetaClass().getName() + " into time interval");
+return writeStream.fwrite(buffer);
+ByteList oneCharBL = new ByteList(1);
+RubyInteger newLength = arg2.convertToInteger();
+return Tokens.tINTEGER;
+// select until read is ready
+return new RubyBigDecimal(getRuntime(), rounded.movePointLeft(scale));
+method.go_to(conditionCheck);
+private Sprintf () {}
+method.aload(StandardASMCompiler.THIS);
+method.go_to(currentLoopLabels[2]);
+// new interrupt, to hopefully wake it out of any blocking IO
+None
+MyRubyObjectSubclass.currentRuntime = runtime;
+if (elementCount < 6) {
+try {
+method.areturn();
+public static int length(Encoding enc, byte[]bytes, int p, int end) {
+i = lo;
+protected DynamicScope evalScope;
+if (numbered > 0) raiseArgumentError("unnumbered" + (unnumbered + 1) + "mixed with numbered");
+dst.put(buffer);
+loadThreadContext();
+size = inheritedVariableWriterCount;
+if (unnumbered > 0) raiseArgumentError("numbered("+numbered+") after unnumbered("+unnumbered+")");
+None
+switch(base) {
+clazz.addMethod("__jcreate_meta!", new JavaMethodN(clazz, Visibility.PRIVATE) {
+obj = TypeConverter.convertToType(obj, obj.getRuntime().getFixnum(), "to_int", true);
+if (!hasMasgnArgs) {
+// static methods only
+if (strings.length == 1) {
+method.label(scopeEnd);
+if (nondigit != '\0') {
+if (arg instanceof RubyString) {
+return variableValues[offset];
+mv.aload(6);
+this(Channels.newChannel(baseInputStream), fileno, originalModes, fileDescriptor, new AtomicInteger(1), true);
+method.aload(getRuntimeIndex());
+private static final Pattern TZ_PATTERN
+public static boolean sprintf(ByteList to, Locale locale, CharSequence format, IRubyObject args) {
+rest.assign(runtime, context, self, runtime.newArrayNoCopyLight(IRubyObject.NULL_ARRAY), block, true);
+methodCompiler.loadThreadContext();
+byte[] slashes = new byte[slashCount];
+methodName = methodName + "_" + script.getAndIncrementMethodIndex();
+RubyArray args = (RubyArray) argsNode.interpret(runtime, context, self, block);
+methodCompiler = asmCompiler.startFileMethod(args, staticScope, inspector);
+}
+public static boolean sprintf(ByteList to, Locale locale, CharSequence format, IRubyObject args) {
+int count = refCounter.decrementAndGet();
+None
+nameSet.add(javaPropertyName);
+if (instanceConfig.getJitLogEvery() > 0) {
+Object value = map.get(key);
+Script jitCompiledScript = sourceClass.newInstance();
+for ( --i; i < buflen && isWhitespace(bytes[i]); i++ );
+context.consumeCurrentValue();
+}
+number = 0;
+throw new SyntaxException(PID.GRAMMAR_ERROR, getPosition(null), lexer.getCurrentLine(), message);
+boolean normalAssigns = true;
+long position = fileChannel.position();
+failCount.incrementAndGet();
+private int location;
+if (multipleAsgn19Node.getPreCount() == ((ArrayNode)multipleAsgn19Node.getValueNode()).size()) {
+state = SDIGIT;
+compileUnoptimizedMultipleAsgn19(multipleAsgn19Node, context, expr);
+if (callType == CallType.SUPER && closureArg == null) {
+{
+loadService.load("build/classes/test/org/jruby/test/NormalJavaClass.class", false);
+inspector.inspect(argsNode);
+}
+/* intDigits = 1; */
+final CompilerCallback closureBody = new CompilerCallback() {
+} else {
+mv = cw.visitMethod(ACC_PUBLIC, "<init>", CodegenUtils.sig(void.class), null, null);
+RubyThreadGroup defaultThreadGroup = new RubyThreadGroup(runtime, threadGroupClass);
+assertEquals(initialCount + 1, ((RubyArray)rtg.list(Block.NULL_BLOCK)).getLength());
+} else if ((flags & FLAG_PLUS) != 0) {
+mv.label(dispatch);
+if (fchar == 'i') fchar = 'd';
+} else {
+if (!lToDelete.exists() && !isSymlink) {
+method.dup();
+klazz = context.getRuntime().getDummy();
+compileRescueInternal(defsNode.getBodyNode(), context, true);
+if (nDigits == 0) {
+superClass.remove_const(context, runtime.newString(name));
+if (fchar == 'u' && (flags & (FLAG_SPACE | FLAG_PLUS)) != 0) {
+mv.getstatic(p(Block.class), "NULL_BLOCK", ci(Block.class));
+int size = multipleAsgn19Node.getPreCount();
+case SOPTCALC:
+if (method.getCallCount() < 0) {
+fileChannel.position(fileChannel.position() - buffer.remaining());
+while (c == '\n') {
+SymbolEntry lastRun = e;
+context.getInvocationCompiler().yieldSpecific(argsCallback);
+return implementationClass;
+BodyCompiler methodCompiler = context.startFileMethod(null, staticScope, inspector);
+DynamicMethodBox newBox = new DynamicMethodBox();
+}
+if (!block.isGiven()) block = context.getCurrentFrame().getBlock();
+RubyArgsFile.initArgsFile(runtime);
+handleUselessWarn(node, "defined?"); return;
+int intDigits, intZeroes, intLength;
+if (scope == null) {
+compile(untilNode.getConditionNode(), context, false);
+if (buf == null || buf.length() == 0) return 0;
+case '\\':      /* $\: output record separator */
+private static final String RUBY_DARWIN = "darwin";
+compileOptimizedMultipleAsgn19(multipleAsgn19Node, context, expr);
+break;
+environmentVariableMap = new HashMap();
+break;
+defineGlobalEnvConstants(runtime);
+if (descriptor.getChannel() instanceof SelectableChannel) {
+}
+context.issueRedoEvent();
+state = SDIGIT;
+InstanceVariables getInstanceVariables();
+compileAssignment(argsNode, context, false);
+while (ASCII.isSpace(type)) {
+if (multipleAsgn19Node.getPreCount() > 0 && multipleAsgn19Node.getPostCount() == 0 && multipleAsgn19Node.getRest() == null) {
+result.append(lCurElemString);
+return runtime.newString(System.getProperty("user.name"));
+compileArguments(node, context);
+method.arrayload();
+RubyProc proc = (RubyProc)arg1;
+posix.getpwent();
+argParamCount = 1;
+compileAssignment(assignNode, context, false);
+return RubyFileTest.rowned_p(recv, args[1]);
+decDigits = nDigits - 1;
+break;
+compile(andNode.getFirstNode(), context, expr);
+JavaProxyClass.createJavaProxyModule(runtime);
+case SOPTDIGIT:
+method.go_to(currentLoopLabels[0]);
+compileRescueInternal(defnNode.getBodyNode(), context, true);
+} catch (JumpException.NextJump nj) {
+if (posix != null && perm != -1) {
+compile(ifNode.getElseBody(), context, expr);
+if (!staticScope.isArgumentScope()) {
+method.aload(argsIndex);
+public static void void_returning_method(IRubyObject obj) {}
+break;
+compile(actualCondition, context, false);
+if (self instanceof RubyArray) {
+posix.getgrent();
+break;
+return recv.getRuntime().getNil();
+selfFile.getMainStream().setSync(selfFile.getMainStream().isSync());
+None
+((ISourcePositionHolder) ((Node)yyVals[-1+yyTop])).setPosition(getPosition(((Token)yyVals[-2+yyTop])));
+public IRubyObject getConstantFrom(String name) {
+RubyClass singleton = clazz.getSingletonClass();
+if (this.argsNode == null && argsNode instanceof ArrayNode) {
+None
+List<IR_Instr> _instrs;   // List of IR instructions for this method
+} else {
+converters['N'] = new Converter(4) {
+if(c == -1 || c >= base) {
+private int rubyFrameDelta = 0;
+/** Read a line.
+} catch (StackOverflowError soe) {
+c = convertDigit(data[s]);
+None
+compileUnoptimizedMultipleAsgn19(multipleAsgn19Node, context, expr);
+frame.getLine() == previousFrame.getLine() &&
+break;
+break; // switch
+ASTInspector inspector = new ASTInspector();
+g = BigDecimal.ONE.subtract(TWO.multiply(x).multiply(v, nMC));
+None
+}
+return null;
+private void printToken(int token) {
+break;
+offset++;
+compile(constDeclNode.getValueNode(), context,true);
+try {
+Node elseNode = caseNode.getElseNode();
+Script script = CompiledScriptLoader.loadScriptFromFile(this, inputStream, filename);
+if (RubyInstanceConfig.FASTSEND_COMPILE_ENABLED) {
+s.addInstr(new PUT_FIELD_Instr(s.getSelf(), ((InstAsgnNode)node).getName(), v));
+RubyArray argvArray = runtime.newArray();
+public boolean hasNext() {
+try {
+List<Node> cases = caseNode.getCases().childNodes();
+break;
+None
+LocalAsgnNode localAsgnNode = (LocalAsgnNode) node;
+int slashCount = 0;
+addAccessor(context, args[i].asJavaString().intern(), visibility, true, true);
+return RubyFileTest.size_p(recv, args[1]);
+if (Double.isNaN(mod)) {
+FileChannel fileChannel = (FileChannel)descriptor.getChannel();
+len++; // first digit is always printed
+state = SOPTCALC;
+None
+SkinnyMethodAdapter method = new SkinnyMethodAdapter(getClassVisitor().visitMethod(ACC_PRIVATE | ACC_STATIC | ACC_SYNTHETIC, "setPosition", sig(Void.TYPE, params(ThreadContext.class, int.class)), null, null));
+if (Double.isNaN(mod)) {
+e = squarD.subtract(x.multiply(x, nMC), nMC);
+for (int i = offset; i < max; i++) {
+// MRI behavior: Be default, 2 digits
+mv.getstatic(p(Block.class), "NULL_BLOCK", ci(Block.class));
+if (onlyIfAvailable && !hasReadSomething) {
+for (Variable x: i.getUsedVariables()) {
+if (!callConfig.isNoop()) {
+setFlag(BACKREF);
+switchCases = new HashMap<CompilerCallback, int[]>();
+inspect(((DefinedNode)node).getExpressionNode());
+bytesRead += copyBufferedBytes(dst, number);
+if (scope.getNumberOfVariables() > 4) {
+runtime.getDefaultThreadGroup().addDirectly(rubyThread);
+Visibility visibility = context.getCurrentVisibility();
+final int SOPTDIGIT            =  3; // digits - lax rules
+len++;
+break;
+if (isSharp) {
+} catch (RaiseException je) {
+return CallConfiguration.FrameFullScopeFull;
+return handleNextJump(context, nj, type);
+build(andNode.getFirstNode(), m);
+if (hasClosure() || hasScopeAwareMethods()) {
+mv.getstatic(pathName, simpleName, ci(CacheEntry.class));
+break;
+disable();
+} catch (IOException ex) {
+precision = Math.max(0,precision - 1);
+Node body = bodyNode == null ? new NilNode(getPosition()) : bodyNode;
+else
+public static final Operand TOP    = new LatticeTop();
+}
+IRubyObject result = bodyNode.interpret(runtime, context, self, aBlock);
+break;
+if (elseNode != null) {
+for (int i = 1; i <= getClosureIndex(); i++) {
+this.segmentShift = 24 - sshift;
+if (!anotherExceptionRaised)
+RubyClass singletonClass = rubyObject.getSingletonClass();
+private StaticScope scope;
+public final static MethAddr DEFINE_ALIAS      = new MethAddr("defineAlias");
+public FCallNoArgNode(ISourcePosition position, String name) {
+GET_METHOD(OpType.dont_care),
+throw flow;
+classBody.method.aload(StandardASMCompiler.SELF_INDEX);
+y ^= (y >>> 11);
+checkArrayType(runtime, args[0]);
+digits = runtime.newString(getSignificantDigits());
+buf.append(digits,0,intDigits);
+IRubyObject.class, /*value*/
+int shift = 0;
+GeneratorAdapter ga = new GeneratorAdapter(Opcodes.ACC_PUBLIC, m, null,
+None
+eof = false;
+2,     0,     2,     4,     2,     1,     1,     3,     2,     0,
+return RubyFileTest.socket_p(recv, args[1]);
+if (ensureNode != null) {
+private RaiseException cannotRemoveError(String id) {
+method.visitTypeInsn(CHECKCAST, p(RubyModule.class));
+try {
+len += decDigits;
+result = eval("key = 'a'; hash = {key => 'one'}; hash.store('a', 'two'); puts hash[key]");
+return (byte)new DecimalFormatSymbols(locale).getDecimalSeparator();
+public FCallNoArgNode(ISourcePosition position, Node args, String name) {
+copyBufferedBytes(buf);
+1,   208,   201,   289,    61,   109,   546,   519,   110,   203,
+ByteBuffer tmp = buffer.duplicate();
+nDigits = n;
+break;
+len += precision;
+throw val.getRuntime().newRangeError("integer " + val + " out of range of fixnum");
+throw JumpException.REDO_JUMP;
+loadRuntime();
+private List<String> list;
+case '\"':      /* $": already loaded files */
+this.arity = ((ArrayNode)node).size();
+/** rb_flo_induced_from
+for (Node n : arrayNode.childNodes()) {
+rangeEach(context, new StepBlockCallBack(block, RubyFixnum.one(runtime), step));
+intDigits = Math.max(0,Math.min(nDigits + exponent,nDigits));
+Node realBody = rescueBodyNode.getBodyNode();
+buf.append(digits[0]);
+mv.aload(6);
+if (test == null) return whenNoTest(context, runtime, self, aBlock);
+for (int i = 0; i < separator.realSize; i++) {
+if (location == 0xFFFFFFFF) return runtime.getNil();
+Variable arg = new Variable(dasgnNode.getName());
+//       OPT: ret can be set to v1, but effectively v1 is false if we take the branch to L.
+for (Iterator keySetIterator = map.keySet().iterator(); keySetIterator.hasNext(); ) {
+if (!(value instanceof RubyArray)) {
+if (DEBUG && unsafe == null) System.err.println("No Unsafe implementation available");
+break;
+runtime.evalScriptlet("require 'somethingthatdoesnotexist'");
+break;
+protected static void initReadline(Ruby runtime, final ConsoleHolder holder) throws IOException {
+break;
+strValue = strValue.replaceFirst("[dD]", "E");
+break;
+currentLabel = defaultCase;
+RuntimeHelpers.preLoad(context, ((RootNode)scriptNode).getStaticScope().getVariables());
+context.preScopedBody(scope);
+return ChannelStream.fdopen(getRuntime(), existingDescriptor, modes);
+final RubyString digits;
+break;
+if (((Node)yyVals[-1+yyTop]) == null) {
+return CallConfiguration.FrameFullScopeDummy;
+if (depth > 0) capture(slot);
+private void writeObject(ObjectOutputStream out) throws IOException {
+bigval = BigInteger.valueOf(longval);
+public RubyArray newEmptyArray() {
+public synchronized Object dataGetStructChecked() {
+Set<SelectionKey> selected = new HashSet<SelectionKey>(selector.selectedKeys());
+return ((BlockStaticScope) topScope).addAssign(position, name, value);
+private int inSingleton;
+synchronized (connected.blockingLock()) {
+target = MethodHandles.foldArguments(target, GETMETHOD_0);
+if (topOfAST != null) newTopOfAST.add(topOfAST);
+CallSite callSite = selectCallSite(self, receiver);
+None
+}
+arg = RubyKernel.new_float(arg,arg);
+if (iter != null) {
+private static void addToJavaPackageModule(RubyModule proxyClass, JavaClass javaClass) {
+fileClass.fastSetConstant("LOCK_SH", runtime.newFixnum(RubyFile.LOCK_SH));
+if (args.length == 2 && !args[1].isNil()) {
+method.aload(argsIndex);
+for (int i = 0; i < rubyArgs.length; i++) {
+if (optional == null && rest == null && post == null && block == null) {
+public void setupInterfaceModule(final RubyModule module) {
+2,     0,     2,     4,     2,     1,     1,     3,     2,     0,
+f.setFileAndLine(file, line);
+return isCached(context, value) ? value : reCache(context, name);
+if (hasInlineScript) {
+int argIndex = 1;
+1,   218,   209,   300,    64,   113,   585,   553,   114,   211,
+s.addInstr(new LABEL_Instr(l));
+0,     0,   168,     0,     0,     0,     0,     0,   294,     0,
+flushWrite();
+None
+break;
+private String name;
+seek(0, Stream.SEEK_CUR);
+int[] i = new int[yyStates.length+yyMax];
+continue;	/* complete, according to Posix.2 */
+public Operand buildAnd(final AndNode andNode, IR_Scope m) {
+break;
+if (new JavaSecuredFile(cwd, newStringFromUTF8(bytes, begin, end - begin)).exists()) {
+break;
+if (StringSupport.scanOct(bytes, p - 1, end - (p - 1)) <= 0177) {
+break;
+long x = value;
+return "rw";
+public Variable getNewVariable(String prefix);
+break;
+String moduleName = method.getImplementationClass().getName();
+break;
+None
+break;
+int bytesToRead = Math.min(BULK_READ_SIZE, dst.remaining());
+break;
+RubyNil.createNilClass(this);
+result = RuntimeHelpers.breakJumpInWhile(bj, context);
+mv.aload(DISPATCHER_NAME_INDEX);
+break;
+Object valueViaValuesIterator = valuesIterator.next();
+break;
+target = MethodHandles.convertArguments(target, MethodType.make(IRubyObject.class, DynamicMethod.class, ThreadContext.class, IRubyObject.class, RubyClass.class, String.class, IRubyObject.class));
+break;
+for (SelectionKey k : selected) {
+break;
+seek(0, Stream.SEEK_CUR);
+break;
+if (clinitMethod == null) {
+match = RubyRegexp.updateBackRef(context, this, scope, matcher, pattern);
+break;
+public AssignableNode assign(ISourcePosition position, String name, Node value) {
+if(len < Long.SIZE-1) {
+if (multipleAsgn19Node.getValueNode() instanceof ArrayNode) {
+if (iterNode == null && !block.isGiven()) block = aBlock;
+}
+break;
+return unfinishedProxyModule;
+break;
+}
+break;
+for (long j = 0; j < times; j++) {
+break;
+//    beq(f, false, L)
+}
+IRubyObject var = ancestor.getInstanceVariables().fastGetInstanceVariable("@java_class");
+// MRI behavior: validate only the unnumbered arguments
+case '<':       /* $<: reading filename */
+} else {
+int j = 0;
+Node an = multipleAsgnNode.getArgsNode();
+if (!definedAlready && RubyInstanceConfig.REIFY_RUBY_CLASSES) {
+RubyString loadNameRubyString = RubyString.newString(runtime, state.loadName);
+DynamicScope flipScope = scope.getFlipScope();
+start.wait();
+public static void void_returning_method(IRubyObject obj) {}
+synchronized (selectors) {
+for (int i = 0; i < preLength && i < valueLength; i++) {
+public static void void_returning_method(IRubyObject obj) {}
+@JRubyMethod(name = {"readable?", "readable_real?"}, required = 1, module = true)
+try {
+len += 1 + precision;
+while ((ref = (EntryRef)queue.poll()) != null) {
+for (int i = 0; j < optArgs.size(); i++, j++) {
+iteration = 1;
+optArgs.get(j).assign(runtime, context, self, args[i], Block.NULL_BLOCK, true);
+None
+buf.append('%');
+break;
+ByteBuffer tmp = buf.duplicate();
+nameSet.add(javaPropertyName + '=');
+longval = ((RubyFixnum)arg).getLongValue();
+if (untilInspector.getFlag(CLOSURE) || untilInspector.getFlag(EVAL)) {
+if (containingClass.isSingleton()) {
+public static abstract class JavaMethodNBlock extends JavaMethod {
+(roundDown && bytes[next] == '5' && next == nDigits - 1)) {
+switch (args.getArity()) {
+state = SERR_NOT_STRICT;
+None
+/*
+if (anno.frame() || (anno.reads() != null && anno.reads().length >= 1) || (anno.writes() != null && anno.writes().length >= 1)) {
+for (long j = 0; j < times; j++) {
+for (int i = args.length - 1; i >= 0; i--) {
+trueBranch.branch(this);
+loadObject();
+None
+public CallNoArgBlockPassNode(ISourcePosition position, Node receiverNode, String name, Node args, BlockPassNode iter) {
+while (!done && bytesRead < number) {
+for (BigInteger minus = BIG_MINUS_64 ;
+public LiveVariablesProblem()              { super(DataFlowProblem.DF_Direction.BACKWARD); }
+BigInteger nPower32 = shift > 0 ? BIG_64.shiftLeft(32 * shift) : BIG_64;
+if (cls.isArray()) {
+RuntimeHelpers.invoke(context, receiver, name, value);
+while ((number - bytesRead) >= BUFSIZE) {
+result = eval("key = /a/; hash = {key => 'one'}; hash[/a/] = 'two'; puts hash[key]");
+private LexState lex_state;
+break;
+buf.append('%');
+public CFG getCFG();
+private static int MIXBITS(int u, int v) {
+try {
+case SSIGN:
+public static int preciseLength(Encoding enc, byte[]bytes, int p, int end) {
+break;
+frameOrScopeAwareMethods.addAll(Arrays.asList(anno.name()));
+private static int LMASK        = 0x7fffffff;  /* least significant r bits */
+state = SOPTCALC;
+method.dup();
+None
+searchFile = file.substring(0, matcher.start());
+scope.setValue(restArg, RubyArray.newArray(runtime), 0);
+break;
+Arity.checkArgumentCount(runtime, argsLength, requiredArgsCount, maxArgsCount);
+public Operand fetchCompileTimeArrayElement(int argIndex, boolean getSubArray) { return (argIndex == 0) ? this : Nil.NIL; }
+loadThreadContext();
+break;
+break;
+synchronized(pausyThread) {
+break;
+break;
+private Stack<IR_Loop> _loopStack;
+if (preCount > 0) scope.setArgValues(args, Math.min(args.length, preCount));
+public boolean isPreOrder();
+if (!startsWithDriveLetterOnWindows(dir)) {
+break;
+private boolean isArgumentScope = false;
+private static int UMASK        = 0x80000000;  /* most significant w-r bits */
+None
+1,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+break;
+i++;
+mv.invokevirtual(p(DynamicMethod.class), "call", sig(IRubyObject.class, ThreadContext.class, IRubyObject.class, RubyModule.class, String.class, IRubyObject[].class, Block.class));
+if (hasOptArgs || restArg != -1) prepareOptOrRestArgs(context, runtime, scope, self, args);
+if (selfDescriptor.getFileno() >=0 && selfDescriptor.getFileno() <= 2) {
+return new RubyBigDecimal(getRuntime(),
+if (SCOPE_CAPTURING_METHODS.contains(oldName)) {
+}
+SkinnyMethodAdapter setupMethod = new SkinnyMethodAdapter(cw.visitMethod(ACC_STATIC | ACC_PUBLIC | ACC_SYNTHETIC, "__setup__", sig(void.class, RubyClass.class), null, null));
+public Variable getSelf();
+Object maybeThrowable = ((JavaObject)args[0].dataGetStruct()).getValue();
+public static RubyRegexp newRegexp(Ruby runtime, String pattern, int options) {
+@JRubyMethod(name = "binmode")
+private void setupBlockArgs(ThreadContext context, IRubyObject value, IRubyObject self, Block block, Block.Type type, boolean alreadyArray) {
+if (runtime.getThreadService().getCritical()) {
+private static ByteList separator(Ruby runtime) {
+left = 1;
+private RubyModule unfinishedProxyModule;
+}
+mv.trycatch(catchBlock, afterMethodBody, catchRetry, p(JumpException.RetryJump.class));
+IRubyObject result = firstNode.interpret(runtime, context, self, aBlock);
+socket.soDomain = AddressFamily.AF_INET.value();
+return value != null ? value : runtime.getObject().fastGetConstantFromConstMissing(name);
+private void assignerFor(IterNode iter) {
+if (node == null || node == NilImplicitNode.NIL) {
+@Override
+protected void valueRemoved(Object value) {
+final int len = Math.min(buffer.remaining(), number - bytesRead);
+return new Convert2(runtime, str, base, badcheck).byteListToInum();
+return baseInputStream;
+context.setFile(position.getFile());
+if (incomplete) {
+}
+if (Double.isNaN(mod)) {
+if (Double.isNaN(mod)) {
+}
+None
+if (!Modifier.isPublic(method.getModifiers())) {
+for (FlowGraphNode fg: workList)
+for (RubyModule p = getSuperClass(); p != null; p = p.getSuperClass()) {
+private RubyRegexp initializeCommon19(RubyString str, int options) {
+method.invokevirtual(p(CallSite.class), callSiteMethod, signature);
+if (module == null) throw runtime.newTypeError("no class to make alias");
+runtime.evalScriptlet("require 'somethingthatdoesnotexist'");
+return sign;
+return result == null ? cref.fastGetConstant(internedName) : result;
+public CallNoArgNode(ISourcePosition position, Node receiverNode, String name) {
+if (i instanceof RECV_ARG_Instr)
+context.getRuntime().getGlobalVariables().set("$.", line);
+int hlen = end < p + 2 ? end - p : 2;
+mv.trycatch(beforeBody, afterMethodBody, catchRaised, p(RaiseException.class));
+break;
+if (insertAboveClass.getSuperClass() != null) {
+mv.athrow(); // rethrow it
+size = inheritedConstantCount;
+}
+flater = new Deflater(level, win_bits < 0);
+System.gc();
+for (int i = 0; i < sourceArray.length; i++) {
+None
+method.invokestatic(script.getClassname(), methodName, getSignature());
+private IRubyObject[] variableValues;
+}
+synchronized (module) {
+final int SCOMPLETE            =  0;
+buffer.clear();
+switch(base) {
+ClassCache classCache = instanceConfig.getClassCache();
+break;
+Constructor ctor = constructors[i];
+private final ByteList lastLine;
+if (!isStar) {
+static final List<Node> EMPTY_LIST = new ArrayList<Node>();
+StepBlockCallBack callback = new StepBlockCallBack(block, RubyFixnum.one(runtime), step);
+private static final int SHARE_LEVEL_BUFFER = 1;
+if(endPlace[0] < end && data[endPlace[0]] == '_') {
+method.pop();
+ioClass.fastSetConstant("SEEK_SET", runtime.newFixnum(Stream.SEEK_SET));
+module = runtime.getObject();
+switch(ival = bytes[i++]) {
+if (entry.charAt(0) == '/' || (entry.length() > 1 && entry.charAt(1) == ':')) continue;
+registerDescriptor(selfDescriptor);
+if (inNestedMethod) {
+if (profile.allowModule("Signal")) {
+if ((path.startsWith("/") && !(path.length()>2 && path.charAt(2) == ':')) || path.startsWith("\\")) {
+while (buf.hasRemaining()) {
+None
+return yyVal;
+public abstract void simplifyOperands(Map<Operand, Operand> valueMap);
+return null;
+*  Instance Methods
+if (existingDescriptor == null) {
+return defineNewMethod(node, s, false);
+public Map<String, JavaClass> getNameClassMap() {
+public CallNoArgBlockNode(ISourcePosition position, Node receiverNode, String name, IterNode iter) {
+_canModifyCode = true;
+}
+@Override
+Thread.yield();
+method.newobj(p(RubyInstanceConfig.class));
+if (methodIsPublic &&
+if (argsNode instanceof ArrayNode) {
+getSingletonClass().addMethod("call", createDynamicMethod(getSingletonClass()));
+break;
+None
+public Operand buildOpAsgnAnd(OpAsgnAndNode andNode, IR_Scope s) {
+int nDigits = 0;         // number of significant digits, updated as parsed
+if (names != null) {
+while (entry == null) {
+String qualifiedName;
+idx += 1;
+if (Double.isNaN(mod)) {
+while (entry == null) {
+IRubyObject restArg = getValue(staticScope.getRestArg(), 0);
+synchronized void createJavaMethods(Ruby runtime) {
+private void simplifyMultipleArgumentWhenNodes(WhenNode sourceWhen, ArrayNode cases) {
+static class SymbolEntry {
+None
+Converter tmp = new Converter(4) {
+if (refCounter.get() <= 0) {
+double x = value;
+if (descriptor.isSeekable()) {
+method.label(currentLabel);
+break;
+FastIntMethodFactory fastIntFactory = FastIntMethodFactory.getFactory();
+}
+if (td.getDeclaringType().getDeclaringType() != null) {
+assertEquals("[\"a\", \"a\", \"a\"]", result);
+public RubySymbol lookup(String name) {
+build(orNode.getFirstNode(), m);
+if ((0xd800 <= code && code <= 0xdfff) /* Surrogates */ || 0x10ffff < code) {
+@JRubyMethod(name = ">", required = 1)
+if (!qualifiedName.contains("org$jruby")) {
+if (blockAssignment != null) {
+-1,    99,     0,    34,    33,    35,    35,    35,    35,   102,
+while (pos < bytes.length()) {
+// Explicit reference to these vars as symbols...
+static class Entry<T> {
+hasVarArgs = parameters[parameters.length - 1] == IRubyObject[].class;
+if ( exponent >= -MAX_SMALL_10 ){
+context.setFile(scriptName);
+valueCallback.call(methodCompiler);
+out.println("/* THIS FILE IS GENERATED. DO NOT EDIT */");
+if (!prefix.startsWith("%"))
+public static void void_returning_method(IRubyObject obj) {}
+openFile.setPath(path);
+}
+hasVarArgs = parameters[parameters.length - 2] == IRubyObject[].class;
+boolean changed = applyTransferFunction();
+private static void appendOptions(ByteList to, int options) {
+tc.prepareTopLevel(objectClass, topSelf);
+void yyerrok() {}
+private boolean _isDead;
+assertEquals(value, valueViaValuesIterator);
+method.pop();
+RescueNode rescueNode = (RescueNode)node;
+static ByteList regexpDescription19(Ruby runtime, ByteList bytes, int options, Encoding enc) {
+return context.getRuntime().newFixnum(0);
+private RubyRegexp initializeCommon19(RubyString str, int options) {
+}
+p++;
+if (arg instanceof RubyFloat) {
+int currentArgElement = 0;
+return runtime.getTrue();
+int valueLen = value.getLength();
+return false;
+private void writeHeaderIfNeeded() throws IOException {
+return newRegexp(runtime, quote(context, recv, args).getByteList(), 0);
+buf.append(bytes, offset, buffer.remaining());
+break;
+}
+private static ByteList regexpDescription(Ruby runtime, ByteList bytes, Encoding enc, int options) {
+thread.raise(new IRubyObject[] {getRuntime().newIOError("stream closed").getException()}, Block.NULL_BLOCK);
+if (metaPrefix) raisePreprocessError(runtime, str, "duplicate meta escape", mode);
+method.aload(StandardASMCompiler.THREADCONTEXT_INDEX);
+byte[] bytes = val.toByteArray();
+assert false : "All nodes should be accounted for in AST inspector: " + node;
+if (!getMetaClass().respondsTo("release")) {
+if (seconds.isNil() || RuntimeHelpers.invoke(context, seconds, "zero?").isTrue()) {
+if (type == Integer.TYPE || type == Long.TYPE || type == Short.TYPE || type == Character.TYPE) {
+TARGET_0 = target;
+break;
+private VariableTableEntry[] rehash() {
+p = unescapeUnicodeBmp(runtime, to, bytes, p, end, encp, str, mode);
+/* string fragment (we optimistically take one off in*/
+break;
+runtime.getJavaSupport().setActive(true);
+securityRestricted = true;
+raisePreprocessError(runtime, str, "invalid Unicode range", mode);
+if (library == null) library = findBuiltinLibrary(state, baseName, SuffixType.Extension);
+break;
+method.aload(StandardASMCompiler.THREADCONTEXT_INDEX);
+String[] argArray = new String[3];
+if (superCallback != null) {
+String    moduleName = moduleNode.getCPath().getName();
+break;
+generatedClassName += "_DBG";
+private static final Collection<String> supportedAnnotations = unmodifiableCollection(Arrays.asList("org.jruby.anno.JRubyMethod", "org.jruby.anno.JRubyClass"));    // No supported options
+offset = mark;
+if (nTrailingZeroes > 0) {
+break;
+@JRubyMethod(optional = 2, frame = true, visibility = Visibility.PRIVATE)
+Set<Script> jittedMethods = context.getRuntime().getJittedMethods();
+session.addPostInvoke(new CallbackReaper(cb));
+}
+if (javaInvokee instanceof InternalJavaProxy &&
+break; // switch
+String[] last = all[all.length-1].split("_");
+break;
+private final IRubyObject[] encodingList;
+p = readEscapedByte(runtime, chBuf, chLen++, bytes, p, end, str, mode);
+RETRYJUMP = retryJump;
+proxyClass = createProxyClass(runtime,
+break;
+*  Instance Methods
+DynamicScope parent = getNextCapturedScope();
+private AtomicInteger symbolLastId = new AtomicInteger(128);
+target = MethodHandles.foldArguments(target, GETMETHOD_0);
+if (target != null) {
+singleton.addMethod("new", new org.jruby.internal.runtime.methods.JavaMethod(singleton, Visibility.PUBLIC) {
+case SO_RCVLOWAT:
+if (val >= Integer.MIN_VALUE && val <= Integer.MAX_VALUE) {
+}
+while ((number - bytesRead) >= BUFSIZE) {
+public static RubyString newStringNoCopy(Ruby runtime, ByteList bytes) {
+throw getRuntime().newTypeError("wrong argument class");
+private AtomicLong dynamicMethodSerial = new AtomicLong(0);
+break;
+if (p == end || bytes[p++] != (byte)'-') raisePreprocessError(runtime, str, "too short control escape", mode);
+public boolean hasSideEffects()
+if (Double.isNaN(mod)) {
+Ruby runtime = context.getRuntime();
+try {
+URL url = new URL(path);
+state = SOPTCALC;
+//            args.prepare(context, runtime, self, parameters, block);
+for (Node nextNode : dregexpNode.childNodes()) {
+String   className = cpathNode.getName();
+switch (scope.getRequiredArgs()) {
+Matcher tzMatcher = TZ_PATTERN.matcher(zone);
+if (scope.getNumberOfVariables() > 0) {
+if (fileSize > 0) {
+processMethodDeclarationMulti(list.get(0));
+method.dup(); // dup receiver
+if (thread.alive_p().isTrue()) {
+public static abstract class JavaMethodThreeOrNBlock extends JavaMethodNBlock {
+clazz.defineAlias("old_eqq", "===");
+floatc.defineConstant("MIN_EXP", RubyFixnum.newFixnum(runtime, MIN_EXP));
+private static boolean isIgnore(String encoding) {
+ret[3] = args[0];
+RubyModule packageModule;
+IRubyObject key = list.get(i++).interpret(runtime, context, self, aBlock);
+return newArrayLight(runtime, ARRAY_DEFAULT_SIZE);
+if (ctrlPrefix) raisePreprocessError(runtime, str, "duplicate control escape", mode);
+dt = dt.withMillisOfSecond((s & 0xFFFFF) / 1000);
+public static abstract class JavaMethodThreeOrNBlock extends JavaMethodNBlock {
+public boolean hasConstant(String name) {
+} else if (options.get("mime-encode") == QENCODE) {
+suite.addTest(new FailingTest("ScriptTestSuite",
+if (Double.isInfinite(result) && value < 0) {
+return evalBlockBody(context, self);
+case '0': case '1': case '2': case '3':
+RubyConverter converter = RUBY_CONVERTERS.get(javaClass);
+break;
+evalScope = new ManyVarsDynamicScope(new EvalStaticScope(getStaticScope()), this);
+private static final Pattern pattern = Pattern.compile("\\.?0+(e|$)");
+IOChannel ch;
+IRubyObject flags = args[5];
+entry.setValue(new Long(3));
+tempVariableIndex += scope.getNumberOfVariables();
+final protected StaticScope enclosingScope;
+final RubyFixnum sign;
+@Override
+return '\r';
+runtime = null;
+String methodName = "__file__";
+i++;
+static long pack(int result, int arg) {
+if (list != null && lineBuffer.length() > 0) list.add(sourceLine.toString());
+break;
+if ( i < buflen ) {
+int yyN;
+klass = PRIMITIVE_TO_CLASS.get(className);
+sourceLine = lineBuffer;
+if (i < buflen) {
+if (status == Status.ABORTING) return;
+this.str = str;
+return RubyFileTest.blockdev_p(recv, args[1]);
+if (isFrozen()) {
+public static RubyClass createThreadGroupClass(Ruby runtime) {
+break;
+None
+if (mantissa < 0) {
+static RubyRegexp newDummyRegexp(Ruby runtime, Regex regex) {
+break;
+} else {
+public static RubyString newStringShared(Ruby runtime, RubyString orig) {
+None
+None
+setFlag(CLASS);
+switch(ival = bytes[i++]) {
+for (; mantissa >= 1.0; mantissa *= 0.5, exponent +=1) { }
+entry = table[idx];
+Keyword keyword = getKeyword(tempVal);
+compile(andNode.getFirstNode(), context, false);
+for (Map.Entry<String, List<Method>> entry : simpleToAll.entrySet()) {
+private volatile RubyArray constructors;
+return RubyFileTest.zero_p(recv, args[1]);
+private static void checkDirIsTwoSlashesOnWindows(Ruby runtime, String path) {
+AnnotationVisitor annotation = method.visitAnnotation(ci(JRubyMethod.class), true);
+None
+if (args[size] instanceof RubyProc) {
+socket.initSocket(context.getRuntime(), new ChannelDescriptor(connected, RubyIO.getNewFileno(), new ModeFlags(ModeFlags.RDWR), new FileDescriptor()));
+for ( ; i < buflen && bytes[i] == '_' ; i++ ) ;
+if (bindingGiven) {
+return null;
+setArity(Arity.OPTIONAL);
+singleton.addMethod("implement", new JavaMethodOne(clazz, Visibility.PRIVATE) {
+int currentArgElement = 0;
+switch (other.getMetaClass().index) {
+assertEquals("[0, 1, 4, 9, 16]", result);
+long offsetCalculationInstant = dt.getMillis();
+if (framed || heapScoped) {
+break;
+floatc.defineConstant("ROUNDS", RubyFixnum.newFixnum(runtime, ROUNDS));
+case '+':       /* $+: string matches last paren. */
+if (runtime.getSafeLevel() == 0) {
+return MessageDigest.getInstance(providerName);
+if(state.library == null && oldLibrary != null) {
+if (value == Long.MIN_VALUE) {
+None
+if (methodN == null) methodN = nMethod;
+break;
+else if (i instanceof CASE_Instr) {
+index = element.getClassName().indexOf("$RUBYFRAMEDINVOKER$");
+Operand closureRetVal = forNode.getBodyNode() == null ? Nil.NIL : build(forNode.getBodyNode(), closure);
+if (Double.isNaN(mod)) {
+return super.op_num_equal(context, other);
+if (staticScope.getRestArg() < 0) {
+}
+JavaProxyMethods.createJavaProxyMethods(context);
+eval("$loadTest = nil");
+if ("File not open".equals(e.getMessage())) {
+context.pollThreadEvents();
+if (other.respondsTo("to_str") && other.respondsTo("<=>")) {
+}
+RuntimeHelpers.invoke(context, proxy, "__jcreate!", args, block);
+try {
+if (begin == '\0' && flags == 0) {
+runtime.getModule("Kernel").callMethod(runtime.getCurrentContext(),"require",runtime.newString("java"));
+int occurrences = 0;
+for (int i = 0; i < args.length; i++) {
+return RubyFileTest.grpowned_p(recv, args[1]);
+Class[] interfaces = new Class[javaClasses.length];
+boolean zero;
+symbolTable = table;
+if (ASTInspector.PRAGMAS.contains(localAsgnNode.getName())) {
+CallSite.class,
+Class[] params = new Class[methodSignature.length - 1];
+char hexValue = '\0';
+protected ObjectMarshal marshal;
+for (int j = 0; j < times; j++) {
+SkinnyMethodAdapter method = new SkinnyMethodAdapter(getClassVisitor().visitMethod(ACC_PUBLIC, "load", getMethodSignature(4), null, null));
+SkinnyMethodAdapter initMethod = new SkinnyMethodAdapter(cw.visitMethod(ACC_PUBLIC, "<init>", sig(void.class), null, null));
+break;
+target = MethodHandles.foldArguments(target, PGC_0);
+switch (methodEntry.getValue().getArity().getValue()) {
+if (lex_state == LexState.EXPR_CMDARG) {
+int i = 0;
+/** rb_obj_ivar_defined
+public Object invoke(Object receiver, Object... args) { throw fail(); }
+* called with "//foo//bar" it will return "//foo/bar". JRuby uses
+if (precision > 0) { // g fills trailing zeroes if #
+if (argsNode instanceof ArrayNode) {
+case '4' : case '5' : case '6' : case '7' :
+*  Instance Methods
+if (scale != 0) {
+MethodVisitor mv = cw.visitMethod(ACC_PUBLIC, "<init>", sig(void.class, Ruby.class, RubyClass.class), null, null);
+int dotRbIndex = newPath.indexOf("_dot_rb");
+None
+this.argsNode = argsNode;
+SortedMap<Integer, Label> optimizedLabels = new TreeMap<Integer, Label>();
+floatc.defineConstant("MIN_EXP", RubyFixnum.newFixnum(runtime, MIN_EXP));
+if (c == newline && buf.length() >= separator.length() &&
+private String getSignificantDigits() {
+if (str != null) {
+if (ioObj.getChannel() instanceof SelectableChannel) blocking.put(ioObj, ((SelectableChannel)ioObj.getChannel()).isBlocking());
+object's "to_s" method. */
+context.setCurrentVisibility(visibility);
+staticScope.setRestArg(-2);
+runtime.getGlobalVariables().defineReadonly("$$", new ValueAccessor(runtime.newFixnum(runtime.getPosix().getpid())));
+ungotc = c;
+public static abstract class JavaMethodZeroOrNBlock extends JavaMethodNBlock {
+method.go_to(currentLoopLabels[1]);
+} catch (IllegalArgumentException ex) {
+ReflectedJavaMethod nMethod = null;
+if (precision > 0) {
+int newSize = variables.length + ourVariables.length;
+break;
+method.aload(THIS);
+break;
+public static class Data extends RubyObject implements DataType {
+currentLine = getLine();
+tmp = new Converter(4) {
+}
+if (blockScope != null) {
+int precision = (-times + 4) * (getAllDigits().length() + 4);
+IRubyObject tmpname = callMethod(runtime.getCurrentContext(),
+public void seek(long offset, int whence) throws IOException, InvalidValueException, PipeException, BadDescriptorException {
+while (i > 0 && (n = t[--i]) == null) {
+if (this.superClass != null) this.superClass.removeSubclass(this);
+None
+}
+scope.setArities(argsNode.getRequiredArgsCount(), argsNode.getOptionalArgsCount(), argsNode.getRestArg());
+name = name.substring(0, index);
+* We check for zero millis here because Future appears to wait for zero if
+variableCompiler.beginFlatClosure(args, this.scope);
+}
+int len = buffer.position();
+} else {
+@JRubyMethod(required = 4)
+if (Ruby.isSecurityRestricted())
+return runtime.getNil();
+} else {
+if (((Node)yyVals[0+yyTop]) instanceof BlockNode) {
+mv.getstatic(p(Block.class), "NULL_BLOCK", ci(Block.class));
+if (oneNine) objectClass.setConstant("BasicObject", basicObjectClass);
+assertEquals("0", eval("load 'test/loadTest.rb'"));
+private static long num2quad(IRubyObject arg) {
+ClassCache classCache = JavaEmbedUtils.createClassCache(Thread.currentThread().getContextClassLoader());
+mv.getstatic(name, "$ruby", ci(Ruby.class));
+raisePreprocessError(runtime, str, "UTF-8 character in non UTF-8 regexp", mode);
+return ".....";
+public static RubyBinding newBinding(Ruby runtime, Binding binding) {
+return read(number);
+if (new File(reportedPath).isAbsolute()) {
+None
+RandomAccessFile file = new RandomAccessFile(theFile, flags.toJavaModeString());
+if (Modifier.isFinal(c.getModifiers())) {
+jrubyHome = System.getProperty("java.io.tmpdir");
+return getRuntime().getNil();
+BigDecimal normalized = value.movePointRight(scale);
+break;
+superClass.addSubclass(this);
+try { t3.interrupt(); } catch (SecurityException se) {}
+method.label(flowCatchBlock);
+if (Double.isNaN(mod)) {
+match = RubyRegexp.updateBackRef(context, this, scope, matcher, pattern);
+RubyHash(Ruby runtime, boolean objectSpace) {
+registerDescriptor(newFile.getMainStream().getDescriptor());
+if (singleByteOptimizable(enc)) {
+buf.append(expChar); // E or e
+flushWrite();
+private final ListNode post;
+IRubyObject checkIntegerType(Ruby runtime, IRubyObject obj, String method) {
+nTrailingZeroes++;
+public void addInstr(IR_Instr i);
+break;
+if (prec == 0) {
+obj = new RubyClass(runtime, superClass);
+private ParserSupport parserSupport = null;
+int BITS = 62;                              // 63-1 an even number of number bits
+ModeFlags modes;
+runtime.printError(re.getException());
+if (Double.isNaN(mod)) {
+}
+int addDataFlowVar(DataFlowVar v)
+cv.visitField(ACC_PRIVATE, realName, type, null, null).visitEnd();
+@JRubyMethod
+byte[] bytes = cw.toByteArray();
+{
+mv.aload(6);
+int size = multipleAsgnNode.getHeadNode().size();
+private boolean lightweight = false;
+if (i == 0) {
+installStaticMethods(staticCallbacks, javaClass, method, name + METHOD_MANGLE);
+} else {
+void addMethod(Method method, Class<?> javaClass) {
+public Label getNewLabel();
+if (!callConfig.isNoop()) {
+buf.append('0');
+@JRubyMethod(name = "!", compat = CompatVersion.RUBY1_9)
+synchronized (this) {
+None
+public RubyObject.Data newData(RubyClass objectClass, Object sval) {
+binding.setFile(args[2].convertToString().toString());
+Charset from = value.encoding.toString().startsWith("ASCII") ?
+return clazz;
+getRuntime().getJavaSupport().getObjectProxyCache().put(innerWrapper.getValue(), this);
+TARGET_0 = target;
+}
+public static RubyString stringValue(IRubyObject object) {
+x = new BigDecimal(root, nMC);
+method.loadThis();
+None
+if (!r.isConstant()) {
+IRubyObject.class /*receiver*/
+if (slot >= 0) {
+obj = new RubyClass(runtime);
+final RubyFixnum cvalue = f == OpenFlags.O_ACCMODE
+coerceArgumentsToRuby(mv, paramTypes, rubyIndex);
+public Label getNewLabel(String lblPrefix);
+None
+// FIXME: shouldn't need @__java_ovrd_methods, just query locally defined methods.
+binding.setLine(0);
+// Note: In Ruby 1.9 all of this logic can go away since they will require explicit
+RubyException rubyEx = re.getException();
+None
+} else if (c != end && !(begin != '\0' && c == begin)) {
+runtime.getJRubyClassLoader().loadClass(method.getDeclaringClass().getCanonicalName()) == method.getDeclaringClass()) {
+sign = ("-".equals(sign)? "+" : "-");
+target = MethodHandles.permuteArguments(
+}
+private ExecutorService executor;
+.append("  -X[option]      enable extended option (omit option to list)\n")
+if (name != name.intern()) return false;
+public final void use() {
+int length = symbolBytes.begin + symbolBytes.realSize;
+RubyModule proxy;
+public boolean hasSideEffects() { return _op.hasSideEffects(); }
+String[] names = new String[paramNames.size()];
+assertNull(fail[0]);
+stream = new FileInputStream("test/org/jruby/javasupport/test/" + fileName);
+case '@':       /* $@: error position */
+rest.assign(runtime, context, self,
+break;
+None
+compile(arrayNode, context,true);
+for (int m = prec + 1; m > nInit; m = m/2 + (m > 100 ? 1 : 2)) {
+for (int j = 0; j < times; j++) {
+for (int j = 0; j < times; j++) {
+doRewind();
+final String ivarName = ("@__pkg__" + name).intern();
+s = safeGet(encode);
+public static final int kCLASS = 257;
+if ((c = new StringTerm(flags, '\0', '\n').parseStringIntoBuffer(lexer, src, str)) == RubyYaccLexer.EOF) {
+return context.getRuntime().getNil();
+context.setLastCallStatusAndVisibility(CallType.FUNCTIONAL, Visibility.PUBLIC);
+superClazz.addSubclass(this);
+throw new RuntimeException("Invalid specific-arity number of arguments (" + desc.actualRequired + ") on method " + desc.declaringClassName + "." + desc.name);
+public Operand getConstantValue(String constRef);
+if (Double.isNaN(mod)) {
+StringBuffer scopeNames = new StringBuffer();
+if (preCount > 0) {
+super(position, varNode, null, bodyNode);
+zone = "GMT" + sign + hours;
+line = RubyString.newUnicodeString(recv.getRuntime(), v);
+for (String arg : argv) arglist.add(arg);
+* This tests toArray-functionality
+break;
+if (contents != null) {
+mv.getstatic(pathName, "$monitor", ci(Object.class));
+synchronized(start) {
+RubyString str = getRuntime().newString("#<" + cname + ":0x" + Integer.toHexString(System.identityHashCode(this)) + ">");
+break;
+method.method.invokevirtual(scriptCompiler.getClassname(), "getScope" + scopeCount, sig(StaticScope.class, ThreadContext.class, String.class));
+cache.putReference(this, mem);
+s = safeGet(encode);
+protected String classId;
+RubyClass anonEx = runtime.defineClassUnder("AnonymousException", runtime.getException(), runtime.getInterrupt().getAllocator(), timeout);
+// dynamic method handles.
+ClassLoader parent = JRubyThreadContextTest.class.getClassLoader();
+static private final String IGNORE = "//ignore";
+tmp = new Converter(8) {
+Object yaccValue;
+s = safeGet(encode);
+return RubyFixnum.zero(runtime);
+}
+return internalGetEntry(key).value;
+originalString.modify();
+if (start < 0) {
+return new IRubyObject[] {ruby.getNil()};
+break;
+}
+public void stop() {
+return str;
+if (value instanceof RubyModule) {
+* Returns true if object has any variables, defined as:
+}
+break;
+if (args[size] instanceof RubyProc) {
+if (scope.getNumberOfVariables() > 4) {
+final int bytesToRead = Math.min(BULK_READ_SIZE, number - bytesRead);
+}
+@Deprecated
+RubyModule rubyKernel = runtime.getKernel();
+this.superClass = superClass;
+method.aload(ARGS_INDEX + 1 + CLOSURE_OFFSET);
+context.getCurrentScope().setBackRef(runtime.getNil());
+/** nil_to_i
+manager.declareBean("frame", frame, JFrame.class);
+public class ManyVarsDynamicScope extends DynamicScope {
+@JRubyMethod(name = "eval", required=1, optional=2)
+if (c == '\r') {
+throw new NotCompilableException("Don't use createObjectArray(int) for more than 5 elements");
+*  Instance Methods
+try {
+if (wrapper.getMetaClass().isSingleton() && wrapper.getMetaClass().getRealClass() == runtime.getProc()) {
+pollThreadEvents();
+@JRubyMethod(name = {"writable?", "writable_real?"}, required = 1, module = true)
+*  Instance Methods
+if (cancelled && timeoutExecutor instanceof ScheduledThreadPoolExecutor && timeoutFuture instanceof Runnable) {
+public static abstract class JavaMethodTwoOrNBlock extends JavaMethodNBlock {
+classBody.loadRuntime();
+return RubyFileTest.writable_p(recv, args[1]);
+} else {
+JavaEmbedUtils.invokeMethod(runtime, wrappedThrower, "throwException", new Object[] { }, Object.class);
+// Let m be the exact digits precision in an earlier! loop
+for (Map.Entry<String, IRubyObject> c : builtinClass.getConstantMap().entrySet()) {
+setFlag(SCOPE_AWARE);
+ChannelDescriptor descriptor = socket.getDescriptorByFileno((int)((RubyFixnum)fd).getLongValue());
+setConfig(configHash, "arch", "universal-java" + System.getProperty("java.specification.version"));
+return RubyString.newEmptyString(getRuntime());
+try {child.getOutputStream().close();} catch (IOException ioe) {}
+currentArgs = ((RubyArray)currentArgs[0]).toJavaArrayMaybeUnsafe();
+callAdapter = MethodIndex.getCallSite(callAdapter.methodName);
+if (javaPropertyName != null) {
+rehash();
+for (int i = catches.length - 1 ; i >= 0 ; i--) {
+for (int i = 0; i < length; i++) {
+*     module Mod
+final int BULK_THRESHOLD = 128 * 1024;
+endOfArguments = true;
+Map systemProps = environment.getSystemPropertiesMap(runtime);
+return getRuntime().getNil();
+public static void void_returning_method(IRubyObject obj) {}
+buf.append(bytes, offset, i - offset);
+cwd = runtime.getCurrentDirectory();
+return RubyFixnum.newFixnum(getRuntime(), value.compareTo(otherValue));
+* Dummy method to avoid a cast, and to avoid polluting the
+Entry tab[] = table;
+for (int i = 0; i < commands.length; i++) {
+return addr.path().toString();
+for (SymbolEntry e = table[index = hash & (table.length - 1)]; e != null; e = e.next) {
+if(base <= 0) {
+public static RubySymbol newSymbol(Ruby runtime, String name) {
+* MRI equivalent: rb_cNameErrorMesg, class name: "message", construction method: "!",
+if (proc.isNil()) return Block.NULL_BLOCK;
+if(this.loader != loader) {
+mainStream = null;
+if (compatVersion == CompatVersion.RUBY1_9) compileMode = CompileMode.OFF;
+Ruby runtime = getRuntime();
+0,     0,  5308, 13396, 16717, 17086, 17671, 17563,  5308, 15241,
+0,   957,    -1,     0,    -4,   888,  -273,     0,    -3,    12,
+return '\010';
+if (Modifier.isStatic(desc.modifiers)) {
+@JRubyMethod
+jrubyHome = verifyHome(jrubyHome);
+state = SDIGIT;
+assertEquals("[\"a\", \"a\", \"a\"]", result);
+private List<String> loadPaths = new ArrayList<String>();
+if (reading) {
+}
+None
+public Operand getSimplifiedOperand(Map<Operand, Operand> valueMap) { return this; }
+int n = 10000;
+} else {
+runtime.getThreadService().associateThread(futureThread.getFuture(), this);
+nMC = new MathContext(nPrecs.get(i), (i%2 == 1) ? RoundingMode.HALF_UP :
+* @see org.jruby.runtime.builtin.IRubyObject#dataGetStruct()
+v = BigDecimal.ONE.divide(TWO.multiply(x), nMC);        // v0 = 1/(2*x)
+BigInteger bi = squarD.unscaledValue();     // bi and scale are a tandem
+if (((value.bitLength() + 7) / 8) * 4 * Math.abs(fixValue) > 1024 * 1024) {
+public static void removeWarningsFromEclipse() {
+List<Integer> nPrecs = new ArrayList<Integer>();
+}
+return new RubyBigDecimal(getRuntime(),
+int sign = squarD.signum();
+for (int i = 0; i < 10; i++) {
+if (currentThread == this) throwThreadKill();
+start.wait();
+private final String sourceName;
+int n = RubyNumeric.fix2int(arg);
+if (Double.isNaN(mod)) {
+public RubyIO(Ruby runtime, RubyClass type) {
+long longval;
+break;
+if(args.length == 1) {
+buffer.position(buffer.position() - 1);
+break;
+ClassLoader classLoader = runtime.getJRubyClassLoader();
+private void putMethod(String name, DynamicMethod method) {
+break;
+List<BasicBlock> frefs = forwardRefs.get(tgt);
+/** coerce_body
+return (RubyArray)newValue;
+break;
+method.athrow();
+private static final int DEFAULT_CAPACITY = 8; // MUST be power of 2!
+return delegate.constantTableRemove(name);
+break;
+private Map<Integer, ChannelDescriptor> retainedDescriptors = new ConcurrentHashMap<Integer, ChannelDescriptor>();
+0,     0,   108,     0,     0,     0,     0,     0,  1114,     0,
+Ruby runtime = setupInterpreter();
+String className = finName.toString().replaceAll("^\\.*","");
+pipeStream = null;
+None
+body.call(methodCompiler);
+if (!(backtrace instanceof RubyArray)) {
+if (cls.getEnclosingClass() != null && !Modifier.isPublic(cls.getModifiers())) {
+s.addInstr((s instanceof IR_Closure) ? new BREAK_Instr(rv) : new JUMP_Instr(s.getCurrentLoop()._loopEndLabel));
+if (isWritable() || isCreate() || isTruncate()) {
+for (long j = 0; j < times; j++) {
+RubyClass wrapper = new IncludedModuleWrapper(getRuntime(), insertAbove.getSuperClass(), moduleToInclude.getNonIncludedClass());
+}
+if (value instanceof CoreObjectType) {
+if (Double.isNaN(mod)) {
+default:
+IRubyObject msg = new RubyNameError.RubyNameErrorMessage(runtime,
+private Stack<RubyProc> atExitBlocks = new Stack<RubyProc>();
+private static final double[] SMALL_10_POWERS = {
+for (String testClass : testClassNames) {
+if(pName == null) {
+state = SERR_NOT_STRICT;
+}
+try {
+case '/':       /* $/: input record separator */
+unsafe = (Unsafe)Class.forName("org.jruby.util.unsafe.SunUnsafeWrapper").newInstance();
+// indices for temp values
+try {
+if (runtime.isInspecting(parent)) return join(context, recv, array).toString();
+return Java.getInstance(getRuntime(), javaClass().getAnnotations());
+break;
+rubyClass.getSingletonClass().addMethod(newNameStr, invoker);
+None
+if (!channel.isOpen()) {
+if (!openFile.isWritable() && (lockMode & LOCK_EX) > 0) {
+}
+if (file.endsWith(".so")) {
+loadThreadContext();
+None
+if (libPattern.matcher(libName).find()) {
+event.target.receiveMail(event);
+classBody.method.dup();
+method.aload(ARGS_INDEX);
+public LiveVariableNode(DataFlowProblem prob, BasicBlock n) { super(prob, n); }
+@Deprecated
+public static final int kCLASS = 257;
+inspector.setFlag(ASTInspector.CLOSURE);
+if (argsNode != null && (argsNode.getRequiredArgsCount() > 0 || argsNode.getOptionalArgsCount() > 0)) {
+Entry e = new Entry(hash, key, value, tab[index]);
+if (exceptionType.isNil()) {
+classBody.loadThreadContext();
+List<BasicBlock> dsts = new ArrayList<BasicBlock>();
+private static class LineNumberGlobalVariable extends GlobalVariable {
+String[] variables = scope.getVariables();
+}
+} else if (varLen < valueLen) {
+SymbolEntry[] table = symbolTable;
+state = SOPTCALC;
+if ((sr = (SoftReference)localContext.get()) == null) {
+method.pop();
+IRubyObject version = null;
+classPath = filename;
+break;
+result[resultIndex++] = (char)cx;
+if (0 == result.length() && -1 == ce) {
+StreamPumper t3 = new StreamPumper(in, pIn, true, Pumper.Slave.OUT, p);
+int t = (hi - lo) / 4;
+methodCompiler.loadThreadContext();
+public IRubyObject getConstantAt(String name) {
+//        assertSame(script1, script2);
+private volatile Map<String, IRubyObject> classVariables;
+InputStream childIn = unwrapBufferedStream(child.getInputStream());
+getLoadService().init(config.loadPaths());
+if ((((Node)yyVals[-1+yyTop]) instanceof DStrNode) && extraLength > 0) {
+nDigits = n;
+0,   504,   -23,     0,    -5,   177,  -240,     0,   -47,    20,
+args.add(retVal);
+private static void checkDirIsTwoSlashesOnWindows(Ruby runtime, String path) {
+} else {
+protected JRubyFile dir;
+mv.dup(); // dup method
+/**
+@Override
+File pwd = new File(runtime.getCurrentDirectory());
+private int javaRoundingModeFromRubyRoundingMode(IRubyObject arg) {
+return arg;
+return RubyBignum.newBignum(getRuntime(), BigInteger.valueOf(value).negate());
+/** Arity 0, no block */
+realPath = dir.getCanonicalPath();
+array[2] = runtime.newFixnum(10);
+try {
+if(!args[1].isNil()) {
+break;
+method.invokevirtual(p(RubyClass.class), "isMethodBound", sig(boolean.class, params(String.class, boolean.class)));
+None
+checkDir();
+if (!block.isGiven()) {
+break;
+return ret;
+instance.setMetaClass(klass);
+public static final String[] NAMES = {
+public static IRubyObject newException(ThreadContext context, RubyClass exceptionClass, IRubyObject message) {
+method.label(scopeStart);
+if (Double.isNaN(mod)) {
+RubyClass zstream = result.defineClassUnder("ZStream", runtime.getObject(), ObjectAllocator.NOT_ALLOCATABLE_ALLOCATOR);
+res.taint(recv.getRuntime());
+for(int i = 0; i < 4; i++) {
+method.label(rubyCatchBlock);
+}
+byte[] digits = new byte[shortLength * 2 + 1];
+return getRuntime().newFixnum((int)(((dt.getMillis() / 1000) ^ microseconds()) << 1) >> 1);
+mv.trycatch(catchBlock, afterMethodBody, catchRetry, p(JumpException.RetryJump.class));
+if (outputStream == null) {
+}
+if (klazz.getAllocator() != allocator) {
+dt = originalTime.dt;
+}
+try {
+output.write(0);
+len = args.length;
+if(dtz.isStandardOffset(dt.getMillis()))
+return bignorm(getRuntime(), value.or(fix2big((RubyFixnum)other)));
+if (args.length != 8 && !args[6].isNil()) {
+public static IRubyObject s_new(IRubyObject recv, IRubyObject[] args, Block block) {
+/** rb_big_norm
+receiver.getRuntime().getThreadService().setCritical(false);
+if (profile.allowClass("File")) {
+ByteList dest = new ByteList(blen);
+private volatile IRubyObject[] values;
+} else {
+private RubyArray(Ruby runtime, IRubyObject[] vals) {
+runtime.getLoadService().require("tmpdir");
+private RubyArray(Ruby runtime, long length) {
+private RubyArray(Ruby runtime, boolean objectSpace) {
+newargs[3] = n;
+private RubyArray(Ruby runtime, RubyClass klass, int length) {
+RubyGlobal.createGlobals(tc, this);
+public int size() {
+if (Platform.IS_WINDOWS) {
+if (len < 0) return this;
+arr.values = new IRubyObject[]{obj};
+return inspect();
+return this;
+None
+if (("00".equals(hours) || "0".equals(hours))
+contextVariables.put(this, context.getRuntime().getNil());
+GZIP_OS_TYPE_UNKNOWN
+} else {
+final byte header[] = { GZIP_MAGIC_ID_1, GZIP_MAGIC_ID_2,
+io.flush();
+static void resetBuffer(ByteList l) {
+topSelf = TopSelfFactory.createTopSelf(this);
+private int scannerFlags;
+-1,   117,     0,    35,    34,    36,    36,    36,    36,   120,
+}
+/* package-private */ void setObjectSpaceEnabled(boolean objectSpaceEnabled) {
+None
+if (this == other)  return getRuntime().getTrue();
+}
+return RubyFixnum.zero(getRuntime());
+@JRubyMethod(name = "initialize", required = 1, optional = 1, frame = true, visibility = Visibility.PRIVATE)
+break loop;
+RubyKernel.createKernelModule(this);
+return getNil();
+initRoot();
+loadService = config.createLoadService(this);
+dummyClass = new RubyClass(this, classClass);
+ThreadContext tc = getCurrentContext();
+bootstrap();
+None
+}
+ClassLoader loader = Ruby.class.getClassLoader();
+if (oneNine) {
+if (onceOnly) {
+int center = longestFirstPart
+public void addFinalizer(Finalizable finalizer) {
+public void setGlobalVariables(GlobalVariables globalVariables) {
+public void addInternalFinalizer(Finalizable finalizer) {
+private final Object finalizersMutex = new Object();
+private GlobalVariable recordSeparatorVar;
+private String currentDirectory;
+private IRubyObject topSelf;
+None
+securityRestricted = true;
+private JavaSupport javaSupport;
+private final JITCompiler jitCompiler;
+private ParserStats parserStats;
+private final Object internalFinalizersMutex = new Object();
+private Object hierarchyLock = new Object();
+break;
+path += "/";
+runtime.setPrivateMethodMissing(new MethodMissingMethod(module) {
+options.put("output", JIS);
+}
+private volatile static boolean securityRestricted = false;
+options.put("output", SJIS);
+{
+options.put("output", EUC);
+private static final int SHARE_LEVEL_BYTELIST = 2;
+private static final int SHARE_LEVEL_NONE = 0;
+public final boolean isAsciiOnly() {
+}
+final RubyString result = new RubyString(runtime, getMetaClass(), outBytes);
+final int scanForCodeRange() {
+value = value.makeShared(index, len);
+public final RubyString makeShared(Ruby runtime, int index, int len) {
+@JRubyMethod(name = "<=>", compat = CompatVersion.RUBY1_8)
+public final RubyString cat19(RubyString str) {
+return this;
+System.arraycopy(bytes, cp, dest.bytes, bp, len);
+replaceInternal(start, end - start, replStr); // TODO: rb_str_splice_0
+val = RubyRegexp.regsub19(repl, this, matcher, pattern);
+if (value.realSize < subLength) return -1;
+p++;
+val = objAsString(context, hash.op_aref(context, substr));
+value.insert(pos, (byte) n);
+RubyModule constants = fileClass.defineModuleUnder("Constants");
+public final IRubyObject substr(Ruby runtime, int beg, int len) {
+private IRubyObject replaceInternal(int beg, int len, RubyString repl) {
+p = e;
+ByteBuffer fromBytes = ByteBuffer.wrap(value.unsafeBytes(), value.begin(), value.length());
+break;
+Encoding encoding = RubyEncoding.getEncodingFromObject(context.getRuntime(), enc);
+int last = trRepl.now;
+IRubyObject one = RubyFixnum.one(runtime);
+}
+long start = System.currentTimeMillis();
+if (!required) return null;
+final RubyModule module = recv instanceof RubyModule ? (RubyModule) recv : runtime.getObject();
+RubyThread currentThread = context.getThread();
+binding.setFile("(eval)");
+throw new JumpException.ThrowJump(catches[i], args.length > 1 ? args[1] : runtime.getNil());
+throw recv.getRuntime().newArgumentError("invalid value for Float(): " + object.inspect());
+if (!rubyThread.sleep(milliseconds)) break;
+milliseconds = 0;
+return RubyIO.popen(context, runtime.getIO(), new IRubyObject[] {runtime.newString(command)}, block);
+throw scope.getRuntime().newTypeError("wrong argument type " + scope.getMetaClass() + " (expected Proc/Binding)");
+static String adjustRootPathOnWindows(Ruby runtime, String path, String dir) {
+return RubyFileTest.setgid_p(recv, args[1]);
+RubyString src = args[0].convertToString();
+} else {
+if (Double.isNaN(mod)) {
+// We expect that an EOFException will be thrown now in EOF
+if (Double.isNaN(mod)) {
+if (var.charAt(0) != '$') return context.getRuntime().getNil();
+return context.getRuntime().newFileStat(args[1].convertToString().toString(), false).ctime();
+return context.getRuntime().newFileStat(args[1].convertToString().toString(), false).atime();
+return RubyFileTest.chardev_p(recv, args[1]);
+return RubyFileTest.exist_p(recv, args[1]);
+return RubyFileTest.file_p(recv, args[1]);
+return RubyFileTest.sticky_p(recv, args[1]);
+return RubyFileTest.owned_p(recv, args[1]);
+return context.getRuntime().newFileStat(args[1].convertToString().toString(), false).mtime();
+return RubyFileTest.readable_p(recv, args[1]);
+context.getRuntime().getWarnings().warn("set_trace_func will not capture all events without --debug flag");
+return RubyFileTest.pipe_p(recv, args[1]);
+synchronized (this) {
+if (!enc.isAsciiCompatible()) {
+if (len > 0 && Integer.MAX_VALUE / len < value.realSize) {
+currentLoopLabels = oldLoopLabels;
+}
+return RubyFileTest.executable_real_p(recv, args[1]);
+return RubyFileTest.executable_p(recv, args[1]);
+return context.getRuntime().newFileStat(args[1].convertToString().toString(), false).mtimeEquals(args[2]);
+/** Create a new String which uses the same Ruby runtime and the same
+return context.getRuntime().newFileStat(args[1].convertToString().toString(), false).mtimeGreaterThan(args[2]);
+return context.getRuntime().newFileStat(args[1].convertToString().toString(), false).mtimeLessThan(args[2]);
+private IRubyObject errorInfo;
+this.interrupt();
+errorInfo = runtime.getNil();
+notify();
+runtime.getThreadService().associateThread(thread, this);
+rubyThread.initialize(recv.getRuntime().getCurrentContext(), args, block);
+break;
+@JRubyMethod(required = 1, optional = 1, meta = true)
+int slashCount = 0;
+final String name = f.name();
+return getRuntime().newBoolean(status == Status.SLEEP || status == Status.DEAD);
+return true;
+if (descriptor.isNull()) return RubyFixnum.zero(context.getRuntime());
+if (currentLock != null) {
+runtime.getIO().includeModule(constants);
+@Override
+pg = new PidGetter() {
+}
+break;
+return context.getRuntime().getFalse();
+BigDecimal rounded = normalized.setScale(0,mode);
+CacheEntry.class);
+} catch (java.nio.channels.OverlappingFileLockException ioe) {
+name = name.substring(2);
+if (Platform.IS_WINDOWS) {
+while (result.length() > minPathLength) {
+if (expandUser) {
+result = filename.substring(dotIndex);
+String padSlashes = "";
+if (Ruby.isSecurityRestricted() || new File(path).exists()) {
+BigDecimal[] divmod = value.divideAndRemainder(val.value);
+index++;
+if (expandUser) {
+userEnd = pathLength;
+private final RubyHashEntry head = new RubyHashEntry();
+result = jfilename.substring(0, 3);
+None
+new ChannelDescriptor(runtime.getIn(), 0, new ModeFlags(ModeFlags.RDONLY), FileDescriptor.in),
+path = RubyDir.getHomeDirectoryPath(context).toString() +
+if (canonicalPath != null && canonicalPath.length() == 0 && slash == -1) canonicalPath += "/";
+String user = path.substring(1, userEnd);
+if (slashCount > 0) {
+if (slash == -1) {
+} else {
+@Override
+private void checkReadable() {
+if (newFile.exists()) {
+@JRubyMethod(required = 2, meta = true)
+private static IRubyObject getLastModified(Ruby runtime, String path) {
+strValue = NUMBER_PATTERN.matcher(strValue).replaceFirst("$1");
+return RubyFixnum.zero(runtime);
+return internalDelete(hashValue(entry.key.hashCode()), MATCH_ENTRY, entry);
+private final RubyHashEntry internalDelete(final IRubyObject key) {
+private final IRubyObject internalGet(IRubyObject key) { // specialized for value
+private final void internalPut(final IRubyObject key, final IRubyObject value) {
+/** rb_flo_induced_from
+throw new Mismatch();
+int i = bucketIndex(entry.hash, newTable.length);
+path = RubyDir.getHomeDirectoryPath(context).toString();
+inChannel = process.getInput();
+if (entry == null) {
+}
+} else if (realCmd == Fcntl.F_SETFL.value() || realCmd == Fcntl.F_SETFD.value()) {
+originalDescriptor.dup2Into(selfDescriptor);
+int c = myOpenFile.getMainStream().fgetc();
+public static IRubyObject rowned_p(IRubyObject recv, IRubyObject filename) {
+if (selfDescriptor.getChannel() != originalDescriptor.getChannel()) {
+options.put("input", AUTO);
+registerDescriptor(selfFile.getMainStream().getDescriptor());
+// this seems unlikely to happen unless it's a totally bogus fileno
+modes = descriptor.getOriginalModes();
+@JRubyMethod(name = {"new", "for_fd"}, rest = true, frame = true, meta = true)
+return this;
+RubyNumeric.int2fix(runtime, myOpenFile.getLineNumber());
+setMetaClass(klass);
+if (Double.isNaN(mod)) {
+fileno = descriptor.getFileno();
+if (!myOpenFile.isSync()) {
+private void checkDescriptor(Ruby runtime, ChannelDescriptor descriptor) throws IOException {
+callMethod(context, "write", anObject);
+} catch (IOException ex) {
+}
+long pid = myOpenFile.getPid();
+ByteList newBuffer = myOpenFile.getMainStream().fread(length);
+openFile.cleanup(runtime, true);
+if (arg1.isNil()) {
+int length = RubyNumeric.fix2int(args[0]);
+// And why the hell does webrick pass this in as a first argument!!!!!
+throw runtime.newIOErrorFromException(ioe);
+context.getThread().beforeBlockingCall();
+if (superCallback != null) {
+IRubyObject stringArg = args.length > 1 ? args[1] : RubyString.newEmptyString(runtime);
+throw runtime.newNotImplementedError("readpartial only works with Nio based handlers");
+private void checkWritable() {
+buffer.length(0);
+readCheck(myOpenFile.getMainStream());
+RubyObject clone = (RubyObject)getMetaClass().getRealClass().allocate();
+/** rb_io_s_foreach
+selector.close(); // close unregisters all channels, so we can safely reset blocking modes
+blockingThreads.remove(i);
+if (fileCreated) {
+RubyIO file = newFile(context, recv, path);
+symbolTable = table;
+@JRubyMethod(name = "pipe", meta = true)
+@JRubyMethod(name = "read", meta = true, required = 1, optional = 3, compat = CompatVersion.RUBY1_9)
+break;
+if (cr1 == StringSupport.CR_7BIT) return enc2;
+/**
+protected transient RubyClass metaClass;
+return RubyString.newUsAsciiStringShared(context.getRuntime(), name);
+if (isImmediate()) return;
+synchronized(getMethods()) {
+if (getSuperClass() != null) {
+return context.getRuntime().newBoolean(fastIsConstantDefined(validateConstant(symbol.asJavaString()).intern()));
+for (int i = (name == null && !nilName) ? 0 : 1; i < args.length; i++) {
+private static final BigDecimal TWO = new BigDecimal(2);
+public static class StructMethods {
+JavaObject innerWrapper = (JavaObject)dataGetStruct();
+IRubyObject callMethod(IRubyObject receiver, String methodName);
+}
+protected RubyClass superClass;
+private static IRubyObject cycleCommon(ThreadContext context, IRubyObject self, long nv, final Block block) {
+if (DEBUG) System.out.println("trace mode, using default populator");
+public IRubyObject call(ThreadContext ctx, IRubyObject[] largs, Block blk) {
+if (usesEnv && options[i].startsWith("-")) {
+public RubyModule parent;
+for (int i = modules.length; --i >= 0; ) {
+checkForCyclicInclude(module);
+private transient List<ClassProvider> classProviders;
+break;
+/** rb_mod_const_defined
+}
+proc.getBlock().type = Block.Type.LAMBDA;
+Object token = getCacheToken();
+DynamicMethod moduleMethod = dynamicMethod.dup();
+scope.setRequiredArgs(arity.required());
+synchronized (getRuntime().getHierarchyLock()) {
+Ruby runtime = getRuntime();
+if (tmp != null) tmp = tmp.getRealClass();
+} else {
+} else if (visibility == MODULE_FUNCTION) {
+} else {
+scope.setArgumentScope(true);
+} else if (visibility == MODULE_FUNCTION) {
+block.getBinding().setVisibility(PUBLIC);
+} finally {
+if (insertAbove instanceof RubyClass) {
+List<RubyModule> modulesToInclude = new ArrayList<RubyModule>();
+for (RubyClass nextClass = this.getSuperClass(); nextClass != null; nextClass = nextClass.getSuperClass()) {
+throw getRuntime().newTypeError(module,getRuntime().getClassClass());
+/**
+// if we haven't encountered a real superclass, use the found module as the new inclusion point
+if (!superclassSeen) currentInclusionPoint = nextClass;
+break;
+ISourcePosition tmpPosition = getPosition();
+return new RubyBigDecimal(runtime, value.remainder(val.value)).setResult();
+* Set the named class variable to the given value, provided taint and freeze allow setting it.
+if (runtime.getInstanceConfig().isVerbose()) {
+public IRubyObject fetchConstant(String name) {
+break;
+if ((c = new StringTerm(flags, '\0', '\n').parseStringIntoBuffer(lexer, src, str)) == RubyYaccLexer.EOF) {
+private StringBuilder tokenBuffer = new StringBuilder(60);
+if (scale < 0) {
+break;
+public IRubyObject deleteConstant(String name) {
+/** rb_const_defined_at
+case '\r':
+dumpObject(runtime.newSymbol(type.getName()));
+break;
+bytes = bytelist.bytes;
+break;
+if (!success) {
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+isErrnoClass = true;
+Arity.checkArgumentCount(runtime, args, 0, 1);
+break;
+System.err.println(ThreadContext.createRawBacktraceStringFromThrowable(t));
+break;
+break;
+break;
+err = klass.fastGetConstant("Errno");
+break;
+break;
+break;
+break;
+}
+* Behaves similarly to {@link #getClassVar(String)}. Searches this
+} else if (config.isShouldCheckSyntax()) {
+BigDecimal modulo = value.remainder(val.value);
+break;
+break;
+}
+None
+if (i == 0 && options[i].endsWith("/env")) {
+return yyVal;
+break;
+if (usesEnv && options[i].indexOf('=') > 0) {
+break;
+break;
+} catch (InstantiationException ie) {
+break;
+/*case CONSTNODE:
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+for (; mantissa < 0.5; mantissa *= 2.0, exponent -=1) { }
+break;
+@JRubyMethod(name = "frexp", required = 1, module = true, visibility = Visibility.PRIVATE)
+break;
+break;
+break;
+private static final String SCRIPT = "require 'java'\n"
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+FileChannel fileChannel = (FileChannel) descriptor.getChannel();
+break;
+break;
+break;
+break;
+break;
+BigDecimal x = null, e = null;              // initial x:  x0 ~ sqrt()
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+resultSize = Math.min(bufferedBytesAvailable(), number);
+break;
+break;
+break;
+break;
+throw (ThreadKill) e.getTargetException();
+None
+RubyBigDecimal val = getVpValue(other, false);
+break;
+break;
+break;
+break;
+break;
+ByteList buf = new ByteList(20);
+}
+library = findBuiltinLibrary(state, baseName, suffixType);
+break;
+boolean period = (flags & FNM_DOTMATCH) == 0;
+break;
+tmp = new Converter(8) {
+break;
+lElem[index++] = (byte)((a << 2 | b >> 4) & 255);
+converters['Q'] = new Converter(8) {
+if (next == '_' || next == '!') {
+break;
+// an official rule, clarified: if the exponent
+int startIndex = command.endsWith(".rb") ? 0 : 1;
+currentByte |= (((currentChar & 15) + 9) & 15) << 4;
+break;
+break;
+break;
+boolean expForm = (exponent + nDigits - 1 < -4 ||
+break;
+break;
+break;
+if (Double.isNaN(mod)) {
+if (nDigits == 0) {
+result = eval("key = 'a'; hash = {key => 'one'}; hash.store('a', 'two'); puts hash[key]");
+break;
+return bufferedRead(Math.min(bufferedBytesAvailable(), number));
+assertTrue(map.keySet().contains(key));
+buffer.clear();
+protected void initRuby(Ruby runtime) {
+SimpleClassLoader simpleLoader = new SimpleClassLoader();
+if ((hi - lo) >= 200) {
+break;
+break;
+break;
+break;
+return runtime.newFixnum((longId - 1) / 2);
+break;
+argumentIndex++;
+e = oldTable[i];
+// Initial x - use double root - multiply by halfBack to unshift - set new scale
+break;
+for (int i = nPrecs.size() - 1; i > -1; i--) {
+}
+if (Double.isNaN(mod)) {
+classCache = new ClassCache<Script>(loader, jitMax);
+private String verifyHome(String home) {
+None
+strValue = strValue.replaceAll("_", "");
+private Boolean verbose = Boolean.FALSE;
+break;
+break;
+jrubyHome = getClass().getResource("/META-INF/jruby.home")
+if (!Ruby.isSecurityRestricted()) {
+File fullName = JRubyFile.create(currentDirectory, scriptName);
+break;
+} else {
+//        assert internedSymbol == internedSymbol.intern() : internedSymbol + " is not interned";
+static final int MAXIMUM_CAPACITY = 1 << 30;
+break;
+for (SymbolEntry p = e; p != lastRun; p = p.next) {
+if (next == null)
+None
+private boolean closedRead = false;
+}
+// FIXME: for some reason this dispatcher causes a VerifyError...
+if (!Readline.getHistory(Readline.getHolder(runtime)).previous()) return;
+SkinnyMethodAdapter m = new SkinnyMethodAdapter(cw.visitMethod(ACC_PUBLIC | ACC_STATIC, "clinit", sig(void.class, Ruby.class, RubyClass.class), null, null));
+break;
+cw.visitField(ACC_STATIC | ACC_PRIVATE, "ruby", ci(Ruby.class), null, null);
+synchronized (runtime.getHierarchyLock()) {
+}
+int ivarCount = in.readInt();
+List<String> names = getInstanceVariableNameList();
+@Override
+if (Platform.IS_GCJ) {
+processMethodDeclaration(list.get(0));
+}
+break;
+if (chLen > 1 || (chBuf[0] & 0x80) != 0) {
+return;
+if (encp[0] == null) hasProperty = true;
+break;
+private static void raiseRegexpError19(Ruby runtime, ByteList bytes, Encoding enc, int flags, String err) {
+private static void raiseRegexpError(Ruby runtime, ByteList bytes, Encoding enc, int flags, String err) {
+private static void appendRegexpString(Ruby runtime, ByteList to, byte[]bytes, int start, int len, Encoding enc) {
+if (setBackRef) scope.setBackRef(match);
+if (!frameOrScopeAwareMethods.isEmpty()) {
+if (methods != null) {
+dynamicMethod.setImplementationClass(singletonClass);
+MethodFactory methodFactory = MethodFactory.createFactory(clsmod.getRuntime().getJRubyClassLoader());
+((ArrayNode)exceptionNodes).setLightweight(true);
+return context.setConstantInObject(constNode.getName(), result);
+break;
+String internedName = validateClassVariable(name.asJavaString());
+backupFile.delete();
+if (fixnum != null) {
+}
+this.condition = condition;
+break;
+if(method.getImplementationClass() == type) {
+return
+Arity.checkArgumentCount(runtime, args, 1, 2);
+throw raiseJump;
+if (ASTInspector.PRAGMAS.contains(name)) {
+if (reason.asJavaString().equals("break")) {
+if (bj.getTarget() == context.getFrameJumpTarget()) {
+protected int index;
+return RubyArray.newArrayLight(runtime, value);
+}
+return CallConfiguration.FrameFullScopeNone;
+setFlag(FRAME_BLOCK);
+if (callNode.getName() == "new" &&
+private boolean noFrame;
+this.arity = 1;
+disable();
+while (node.getNodeType() == NodeType.NEWLINENODE) {
+return null;
+conditionals.add(new ArgumentsCallback() {
+conditionals.add(getArgsCallback(whenNode.getExpressionNodes()));
+compileGetDefinition(node, context);
+context.duplicateCurrentValue(); //[RubyClass, RubyClass]
+if (iterNode.getVarNode() != null) {
+None
+context.createNewClosure19(iterNode.getPosition().getStartLine(), iterNode.getScope(), Arity.procArityOf(iterNode.getVarNode()).getValue(),
+method.invokestatic(p(Ruby.class), "newInstance", sig(Ruby.class, RubyInstanceConfig.class));
+@JRubyMethod(name = "class_variable_defined?", required = 1)
+None
+if (profile.allowModule("Math")) {
+digits = runtime.newString(getSignificantDigits());
+Node actualCondition = ifNode.getCondition();
+ArgumentsCallback argsCallback = new ArgumentsCallback() {
+ArrayCallback preAssignCallback = new ArrayCallback() {
+ArrayCallback headAssignCallback = new ArrayCallback() {
+compile(orNode.getFirstNode(), context, false);
+method.swap();
+compile(((ArrayNode)node).get(0), context,true);
+BlockNode blockNode = (BlockNode) nextNode;
+compile(nextNode, methodCompiler,true);
+successCount.incrementAndGet();
+if (jitCallConfig == null) {
+long start = System.nanoTime();
+receiverCallback.call(methodCompiler);
+variableCompiler.declareLocals(scope, scopeStart, scopeEnd);
+int temp = methodCompiler.getVariableCompiler().grabTempLocal();
+IRubyObject.class, /*value*/
+if (restAssignment != null) {
+methodCompiler.getScriptCompiler().getCacheCompiler().cacheCallSite(methodCompiler, "[]", CallType.FUNCTIONAL);
+mv.label(methodMissing);
+argsCallback.call(methodCompiler);
+if (thisLine != lastLine) {
+method.dup();
+methodCompiler.getScriptCompiler().getCacheCompiler().cacheCallSite(methodCompiler, "[]=", CallType.FUNCTIONAL);
+// for visibility checking without requiring frame self
+methodCompiler.getScriptCompiler().getCacheCompiler().cacheCallSite(methodCompiler, "[]", CallType.FUNCTIONAL);
+if (iterator) callSiteMethod = "callIter";
+if (iterator) callSiteMethod = "callIter";
+signature = sig(IRubyObject.class, params(ThreadContext.class, IRubyObject.class, IRubyObject.class));
+switch (argsCallback.getArity()) {
+String descriptor =
+int size = callSiteList.size();
+size = inheritedRegexpCount;
+size = inheritedBlockBodyCount;
+size = inheritedMethodCount;
+condition.branch(this);
+method.pushInt(sourceArray.length);
+isTrue();
+method.pop();
+mv.trycatch(beforeBody, afterMethodBody, catchJumps, p(JumpException.class));
+method.invokevirtual(p(RubyClass.class), "isMethodBound", sig(boolean.class, params(String.class, boolean.class)));
+script.getCacheCompiler().cacheStaticScope(classBody, staticScope);
+method.aload(ARGS_INDEX);
+}
+for (int optArgElement = 0; optArgElement < optArgsCount; currentArgElement++, optArgElement++) {
+}
+method.aload(methodCompiler.getDynamicScopeIndex());
+methodCompiler.loadThreadContext();
+method.aload(StandardASMCompiler.THIS);
+bodyPrep.call(methodCompiler);
+public static class RubyFileNameCompletor extends FileNameCompletor {
+variableCompiler.beginClosure(args, scope);
+if (inspector == null || inspector.hasScopeAwareMethods()) {
+method.go_to(scopeStart);
+block.getBinding().setVisibility(Visibility.PUBLIC);
+final int index = (name == null && !nilName) ? i : i - 1;
+private Map<String, Integer> _nextVarIndex;
+}
+//    private int _lexicalNestingLevel;
+node = ruby.parse(ByteList.create(args[1]), "-e", null, 0, false);
+break;
+break;
+break;
+break;
+break;
+/** Create new Struct class.
+break;
+break;
+break;
+break;
+* Dummy method to avoid a cast, and to avoid polluting the
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+for (Map.Entry<Label, Node> entry : bodies.entrySet()) {
+public void buildBlockArgsAssignment(Node node, IR_Scope s, int argIndex, boolean isSplat) {
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+if (isShowVersion()) {
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+List<Operand> variables = new ArrayList<Operand>();
+break;
+break;
+break;
+break;
+yyVal = new MultipleAsgnNode(getPosition(((Node)yyVals[-1+yyTop])), ((ListNode)yyVals[-1+yyTop]).add(((Node)yyVals[0+yyTop])), null);
+} else {
+}
+break;
+Label endLabel = m.getNewLabel();
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+Operand value = build(caseNode.getCaseNode(), m);
+build(andNode.getFirstNode(), m);
+break;
+break;
+break;
+case ',':       /* $,: output field separator */
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+if (cpathNode instanceof Colon2Node) {
+break;
+rubySing.addMethod("[]", new JavaMethod.JavaMethodOneOrTwoOrThree(rubySing, Visibility.PUBLIC) {
+public void startLoop(IR_Loop l);
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+public GET_ARRAY_Instr(Variable dest, Operand array, int index, boolean getRestOfArray)
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+Operand module = build(iVisited.getLeftNode(), s);
+break;
+return defineNewMethod(node, s, true);
+break;
+if (defnNode.getBodyNode() != null) {
+break;
+for (Node expression : ((ListNode)whenNode.getExpressionNodes()).childNodes()) {
+None
+if (caseNode.getElseNode() != null) {
+Label l = s.getNewLabel();
+break;
+return retVal;
+if (opt > 0 || rest > -1) {
+ListNode preArgs  = argsNode.getPre();
+private static HashMap<Variable, DataFlowVar> _dfVarMap = new HashMap<Variable, DataFlowVar>();
+Variable blockVar = s.getNewVariable();
+break;
+public IR_Loop getCurrentLoop();
+break;
+NodeType argsNodeId = null;
+IR_Scope closure = new IR_Closure(s, s);
+if (cpathNode instanceof Colon2Node) {
+Operand container = null;
+break;
+break;
+if (moduleNode.getBodyNode() != null)
+s.addInstr((s instanceof IR_Closure) ? new CLOSURE_RETURN_Instr(rv) : new JUMP_Instr(s.getCurrentLoop()._iterEndLabel));
+Variable      setResult   = s.getNewVariable();
+Operand  v2 = build(opAsgnNode.getValueNode(), s);
+Operand  v1 = build(opAsgnNode.getReceiverNode(), s);
+build(conditionNode, s);
+build(orNode.getFirstNode(), m);
+} else {
+s.addInstr(new LABEL_Instr(l2));
+public CFG buildCFG();
+s.addInstr(new JUMP_Instr((s instanceof IR_Closure) ? ((IR_Closure)s)._startLabel : s.getCurrentLoop()._iterStartLabel));
+private IRubyWarnings warnings;
+IR_Script script = new IR_Script("__file__", node.getPosition().getFile());
+String n = ROOT_METHOD_PREFIX + _name;
+final private static String ROOT_METHOD_PREFIX = ":_ROOT_:";
+break;
+private void addRootMethod()
+NOP(OpType.dont_care),
+DEF_INST_METH(OpType.dont_care), DEF_CLASS_METH(OpType.dont_care),
+public Variable getNewVariable();
+EVAL_OP(OpType.eval_op), CLASS_EVAL(OpType.eval_op),
+COPY(OpType.dont_care), TYPE_CVT(OpType.dont_care), BOX_VAL(OpType.dont_care), UNBOX_OBJ(OpType.dont_care),
+break;
+YIELD(OpType.dont_care),
+ADD(OpType.alu_op), SUB(OpType.alu_op), MUL(OpType.alu_op), DIV(OpType.alu_op),
+GET_CONST(OpType.load_op), GET_GLOBAL_VAR(OpType.load_op), GET_FIELD(OpType.load_op), GET_CVAR(OpType.load_op), GET_ARRAY(OpType.load_op),
+THROW(OpType.dont_care), RESCUE(OpType.dont_care), RETRY(OpType.dont_care),
+ASSERT_METHOD_VERSION(OpType.guard_op);
+CASE(OpType.branch_op),
+PUT_CONST(OpType.store_op), PUT_GLOBAL_VAR(OpType.store_op), PUT_FIELD(OpType.store_op), PUT_ARRAY(OpType.store_op), PUT_CVAR(OpType.store_op),
+BREAK(OpType.branch_op), JUMP(OpType.branch_op), BEQ(OpType.branch_op), BNE(OpType.branch_op), BLE(OpType.branch_op), BLT(OpType.branch_op), BGE(OpType.branch_op), BGT(OpType.branch_op),
+LABEL(OpType.dont_care), THREAD_POLL(OpType.dont_care),
+public Operand getParent();
+public void addClass(IR_Class c);
+public void addModule(IR_Module m);
+break;
+public void run(IR_Scope s);
+public boolean hasSideEffects() { return true; }
+/** Are there are available data flow facts to run this problem? SSS FIXME: Silly optimization? */
+public void runCompilerPass(CompilerPass opt);
+public void endLoop(IR_Loop l);
+public abstract FlowGraphNode buildFlowGraphNode(BasicBlock bb);
+IR_Method rm = call.getTargetMethodWithReceiver(r);
+else if (iop.isCall()) {
+CFG c = s.getCFG();
+public enum DF_Direction { FORWARD, BACKWARD, BIDIRECTIONAL };
+if (val != null) {
+None
+None
+if (iop.endsBasicBlock() || (iop.isCall() && !i.isDead())) {
+protected DataFlowProblem _prob;   // Dataflow problem with which this node is associated
+/** Initialize this data flow node to compute the new solution
+break;
+if (_tmp.equals(_in)) {
+public void compute_MOP_Solution(CFG c)
+else {
+/** Initialize this data flow node for solving the current problem
+public String getDataFlowVarsForOutput() { return ""; }
+break;
+break;
+break;
+_nextDFVarId++;
+Variable v = i.getResult();
+private ArrayList<DataFlowVar> _dfVars;
+protected CFG                    _cfg;
+public DataFlowVar(DataFlowProblem prob) { _id = prob.addDataFlowVar(this); }
+break;
+MyRubyObjectSubclass.currentRuntime = runtime;
+RubyClass newClass = runtime.defineClass("TestSetClassAllocatorClass", runtime.getObject(), runtime.getObject().getAllocator());
+List<IR_Instr> instrs = _bb.getInstrs();
+_out = (BitSet)_tmp.clone();
+public final IR_Method _method;
+public final int _id;   // Unique ID assigned to this variable
+void markDeadInstructions()
+/* Array of all operands for this instruction */
+if ((_tmp.get(dv._id) == false) && !i.hasSideEffects()) {
+if (!i.isDead()) {
+break;
+break;
+private BitSet _in;         // Variables live at entry of this node
+private Attribute[] _attributes;
+break;
+break;
+break;
+1,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+IRubyObject.class, /*value*/
+break;
+break;
+public List<Variable> getUsedVariables()
+break;
+public abstract Operand[] getOperands();
+break;
+break;
+return null;
+break;
+public boolean canModifyCode()       { IR_Method m = getTargetMethod(); return (m == null) ? true : m.modifiesCode(); }
+break;
+break;
+break;
+}
+m.aload(0);
+}
+Operand v = valueMap.get(this);
+Map<Label, BasicBlock> bbMap = new HashMap<Label, BasicBlock>();
+pg = new PidGetter() {
+public Operand getSimplifiedOperand(Map<Operand, Operand> valueMap)
+public IR_Class getTargetClass() { return null; }
+public boolean isNonAtomicValue() { return false; }
+Operand p1 = _a1;
+None
+break;
+0,     0, 14227, 14474, 16811, 17180, 17888, 17780, 14227, 16442,
+break;
+Map<Label, List<BasicBlock>> forwardRefs = new HashMap<Label, List<BasicBlock>>();
+m.pushInt(i);
+break;
+_scope = s;
+return new CallNoArgBlockPassNode(position, receiver, name, args, blockPass);
+currBB = newBB;
+List<BasicBlock> readers = forwardRefs.get(l);
+None
+g.addEdge(currBB, newBB);
+if (method.getParameterTypes().length != 0) {
+pushmethod("__class__");
+mv.aload(RECEIVER_INDEX);
+yyVal = new DefnNode(getPosition(((Token)yyVals[-5+yyTop])), new ArgumentNode(((Token)yyVals[-4+yyTop]).getPosition(), (String) ((Token)yyVals[-4+yyTop]).getValue()), ((ArgsNode)yyVals[-2+yyTop]), support.getCurrentScope(), body);
+for (IR_Class cls2 : cls._classes) {
+break;
+receiverCallback.call(methodCompiler);
+m.invokevirtual(name, "invoke", sig(Object.class, params(Object.class, Object.class, paramTypes.length)));
+m.ldc(i);
+if (candidates.isEmpty())
+unboxAndCast(m, type);
+completePopup = new BasicComboPopup(completeCombo);
+setArgv(args);
+break;
+if (!cancelled) {
+if (last_state == LexState.EXPR_FNAME) {
+break;
+rb_mConstants.fastSetConstant("AI_PASSIVE", runtime.newFixnum(1));
+public static RubyModule getClassVariableBase(ThreadContext context, Ruby runtime) {
+break;
+context.setFile(savedFile);
+assert file != null;
+IRubyObject newSelf = binding.getSelf();
+break;
+RubyString source = src.convertToString();
+break;
+break;
+}
+@Deprecated
+break;
+throw re;
+break;
+holder.readline.addTriggeredAction(ESC_KEY_CODE, new ActionListener() {
+if (area.getDocument() instanceof AbstractDocument)
+if (newException instanceof NativeException) {
+mReadline.fastSetConstant("VERSION", runtime.newString("JLine wrapper"));
+}
+if (re.getException().getMetaClass() == exception) {
+break;
+public static class ProcCompletor implements Completor {
+// These are not really used by timeout, but exposed for compatibility
+break;
+runtime.getObject().defineConstant("TimeoutError", timeoutError);
+timeout.defineAnnotatedMethods(Timeout.class);
+timeout.defineConstant("THIS_FILE", RubyRegexp.newRegexp(runtime, "timeout\\.rb", 0));
+break;
+checkBounds(offset, len + 1);
+ARRAY,
+break;
+break;
+return !rbLength.isNil()
+private int token;
+return "c".equals(libName) || "libc.so".equals(libName)
+static final Struct newStruct(Ruby runtime, RubyClass klass, IRubyObject ptr) {
+int flag = RubyNumeric.fix2int(flags);
+setMemoryIO(new FreedMemoryIO(context.getRuntime()));
+String libpattern = null;
+result.fastSetConstant("NULL", new Pointer(runtime, result, new NullMemoryIO(runtime)));
+tokenBuffer.setLength(0);
+rb_mConstants.fastSetConstant("IP_MULTICAST_TTL", runtime.newFixnum(10));
+break;
+break;
+String convention = "default";
+return true;
+offset.append(name);
+this.fieldNames = Collections.unmodifiableList(new ArrayList<RubySymbol>(fieldNames));
+break;
+}
+final long address;
+break;
+break;
+break;
+break;
+None
+ret[3] = args[0];
+None
+@JRubyMethod(required = 2, optional = 4, meta = true)
+InetAddress[] addrs = null;
+break;
+break;
+IntResultConverter resultConverter = fastIntFactory.getIntResultConverter(returnType);
+synchronized (ffi) {
+public static abstract class sockaddr_un extends com.kenai.jaffl.struct.Struct {
+break;
+final SocketChannel channel = SocketChannel.open();
+None
+addr = new InetSocketAddress(RubyNumeric.fix2int(port));
+RubyString nameStr = args[2].convertToString();
+registerDescriptor(descriptor);
+None
+private boolean doNotReverseLookup = false;
+return context.getRuntime().getNil();
+openFile = new OpenFile();
+runtime.loadConstantSet(rb_mConstants, com.kenai.constantine.platform.Sock.class);
+rb_mConstants.fastSetConstant("MSG_OOB", runtime.newFixnum(MSG_OOB));
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+synchronized(rubyThreadMap) {
+}
+throw new ClassNotFoundException(e.getMessage(),e);
+event.sender.checkMail(getCurrentContext());
+break;
+break;
+port = hostname;
+break;
+break;
+break;
+throw context.getRuntime().newErrnoEAGAINError("Resource temporarily unavailable");
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+try {
+break;
+break;
+break;
+break;
+break;
+break;
+runtime.getThreadService().getMainThread().kill();
+try {
+break;
+break;
+ClassLoader oldContextClassLoader = null;
+break;
+if (f.isDone() || f.isCancelled()) continue;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+if (!t.isAlive()) continue;
+yyVal = yyLex.value();
+break;
+break;
+mv.aload(1);
+if (slave == Slave.OUT) {
+method.aload(ARGS_INDEX);
+switch (className.charAt(0)) {
+}
+mv.getstatic(p(Block.class), "NULL_BLOCK", ci(Block.class));
+mv.pop();
+if (heapScoped) {
+mv.label(catchRedoJump);
+mv.areturn();
+specificArity = desc.actualRequired;
+mv.athrow();
+if (desc.actualRequired <= 3) {
+if (!callConfig.isNoop()) {
+return getAnnotatedMethodClass(desc1);
+return;
+superClass = JavaMethod.JavaMethodN.class;
+None
+method.label(arityError);
+mv.visitVarInsn(ALOAD, BLOCK_INDEX);
+mv.visitVarInsn(ALOAD, BLOCK_INDEX + 1);
+m.addInstr(new LABEL_Instr(endLabel));
+mv.getstatic(p(Block.class), "NULL_BLOCK", ci(Block.class));
+mv.getstatic(p(Block.class), "NULL_BLOCK", ci(Block.class));
+mv.visitVarInsn(ALOAD, BLOCK_INDEX);
+switch (specificArity) {
+mv.visitVarInsn(ALOAD, BLOCK_INDEX + 2);
+}
+mv.visitVarInsn(ALOAD, BLOCK_INDEX);
+}
+}
+}
+method.invokestatic(typePath, javaMethodName, desc.signature);
+method.aload(THREADCONTEXT_INDEX);
+mv.aload(RECEIVER_INDEX);
+{
+method.invokevirtual(typePath, javaMethodName, desc.signature);
+public static abstract class JavaMethodOneOrNBlock extends JavaMethodNBlock {
+public static abstract class JavaMethodThreeBlock extends JavaMethodThreeOrNBlock {
+retryJump = MethodHandles.permuteArguments(
+if (cls.isSingleton()) cls = cls.getSuperClass();
+public void buildAssignment(Node node, IR_Scope s, Operand values, int argIndex, boolean isSplat) {
+break;
+return context.getRuntime().getNil();
+if (cls instanceof MetaClass) cls = ((MetaClass) cls).getRealClass();
+break;
+None
+public static abstract class JavaMethodNBlock extends JavaMethod {
+public static abstract class JavaMethodZeroOrNBlock extends JavaMethodNBlock {
+public static abstract class JavaMethodTwoBlock extends JavaMethodTwoOrNBlock {
+public static abstract class JavaMethodZeroBlock extends JavaMethodZeroOrNBlock {
+} else {
+public static abstract class JavaMethodOneOrNBlock extends JavaMethodNBlock {
+if (classNode.getBodyNode() != null)
+public static abstract class JavaMethodOneBlock extends JavaMethodOneOrNBlock {
+RubyModule rubyMod = RubyModule.newModule(ruby);
+cw.visit(V1_5, ACC_PUBLIC | ACC_SUPER, name, null, p(Object.class), superTypeNames);
+if (method.getParameterTypes().length != 0) {
+@Override
+method.aload(ARGS_INDEX);
+initMethod.aload(0);
+public static abstract class JavaMethodTwoBlock extends JavaMethodTwoOrNBlock {
+final public List<IR_Module> _modules = new ArrayList<IR_Module>();
+public static abstract class JavaMethodTwoOrNBlock extends JavaMethodNBlock {
+SkinnyMethodAdapter initMethod = new SkinnyMethodAdapter(cw.visitMethod(ACC_PUBLIC, "<init>", sig(void.class), null, null));
+public Operand getParent()
+public static abstract class JavaMethodOneBlock extends JavaMethodOneOrNBlock {
+cw.visitField(ACC_STATIC | ACC_PRIVATE, "$ruby", ci(Ruby.class), null, null).visitEnd();
+methodN = dynMethod;
+RubyModule javaObject = getMirrorForClass(runtime, Object.class);
+mv.aload(0);
+initMethod.voidreturn();
+cw.visitField(ACC_STATIC | ACC_PUBLIC | ACC_VOLATILE, simpleName, ci(DynamicMethod.class), null, null).visitEnd();
+setupMethod.aload(0);
+setupMethod.aload(0);
+Label dispatch = new Label();
+JavaProxy.createJavaProxy(context);
+public static abstract class JavaMethodThreeOrNBlock extends JavaMethodNBlock {
+method.pop();
+public static abstract class JavaMethodZeroBlock extends JavaMethodZeroOrNBlock {
+private Map<String, Operand> _constMap;
+public void addMethod(IR_Method m);
+return proxy;
+initMethod.aload(0);
+mv.putstatic(pathName, simpleName, ci(CacheEntry.class));
+final Map<String, Field> allFields = new HashMap<String, Field>();
+mv.getstatic(name, "$ruby", ci(Ruby.class));
+SkinnyMethodAdapter clinitMethod = new SkinnyMethodAdapter(cw.visitMethod(ACC_PUBLIC | ACC_STATIC, "<clinit>", sig(void.class), null, null));
+if (method.getReturnType() != void.class) {
+setupMethod.voidreturn();
+private CFG _cfg;
+cw.visitEnd();
+mv.aload(0);
+mv.line(6);
+mv.label(finallyStart);
+break;
+mv.label(tryEnd);
+Label tryStart = new Label();
+mv.line(11);
+try {
+mv.trycatch(tryStart, tryEnd, finallyStart, null);
+mv.label(recheckMethod);
+mv.invokestatic(p(JavaUtil.class), "convertJavaToRuby", sig(IRubyObject.class, Ruby.class, long.class));
+rubyMod.setBaseName(cls.getCanonicalName());
+IRubyObject newObject = Java.new_proxy_instance2(self, self, interfaces2, Block.NULL_BLOCK);
+Class<?>[] classes = getClasses(javaClass);
+break;
+None
+break;
+Class[] interfaces = cls.getInterfaces();
+Constructor[] constructors = cls.getConstructors();
+Method[] methods = cls.getDeclaredMethods();
+public final boolean _isInstanceMethod;
+Object[] convertedArgs = new Object[len + 1];
+public static JavaCallable matchingCallableArityN(IRubyObject recv, Map cache, JavaCallable[] methods, IRubyObject[] args, int argsLength) {
+target = rubyMod.getSingletonClass();
+if (Modifier.isStatic(field.getModifiers()) && Modifier.isPublic(field.getModifiers()) && IdUtil.isConstant(field.getName())) {
+rubySing.addMethod("java_class", new JavaMethod.JavaMethodZero(rubySing, Visibility.PUBLIC) {
+Field[] fields = cls.getDeclaredFields();
+cache = new ConcurrentHashMap();
+argClass == byte.class ||
+clazz.addMethod("java_class", new JavaMethodZero(clazz, Visibility.PUBLIC) {
+argClass == float.class ||
+method.areturn();
+return context.getRuntime().getNil();
+while (current != null) {
+private static void installField(ThreadContext context, Map<String, String> fieldMap,
+if (javaClass == null) continue;
+if (!fieldMap.isEmpty()) {
+// jcreate instantiates the proxy object which implements all interfaces
+if (javaClassObj == null) {
+IRubyObject javaClass = clazz.getInstanceVariables().fastGetInstanceVariable("@java_class");
+RubyClass rubyCls = RubyClass.newClass(ruby, (RubyClass) getMirrorForClass(ruby, cls.getSuperclass()));
+if (!clazz.isMethodBound("__jcreate!", false)) {
+if ((javaClass.isTrue() && !clazz.getSingletonClass().isMethodBound("java_proxy_class", false)) ||
+method = new SkinnyMethodAdapter(getClassVisitor().visitMethod(ACC_PUBLIC, "__file__", getMethodSignature(scope.getRequiredArgs()), null, null));
+singleton.addReadAttribute(context, "java_interfaces");
+DynamicMethod newMethod = singleton.searchMethod("new").dup();
+IRubyObject[] newArgs = new IRubyObject[args.length + 1];
+SkinnyMethodAdapter method = new SkinnyMethodAdapter(getClassVisitor().visitMethod(ACC_PUBLIC, "__file__", getMethodSignature(4), null, null));
+for (int i = 0; i < args.length; i++) {
+if (!(javaInterfaces.isFrozen() || ((RubyArray)javaInterfaces).includes(context, javaClassObj))) {
+clazz.addMethod("__jcreate!", new JavaMethodN(clazz, Visibility.PRIVATE) {
+singleton.addMethod("implement_all", new JavaMethodOne(clazz, Visibility.PRIVATE) {
+if (!clazz.isMethodBound("implement", false)) {
+if (module.getInstanceVariables().fastHasInstanceVariable("@java_class") &&
+RESERVED_NAMES.put("id", new AssignedName("id", Priority.WEAKLY_RESERVED));
+RubyClass arrayJavaProxyCreator = context.getRuntime().getClass("ArrayJavaProxyCreator");
+initMethod.aload(THIS);
+proxyClass.inherit(interfaceJavaProxy);
+return JavaUtilities.get_proxy_class(self,
+RubyArray javaInterfaceMods =(RubyArray)module.getInstanceVariables().fastGetInstanceVariable("@java_interface_mods");
+if (args.length == 0) {
+return RubyFileTest.symlink_p(recv, args[1]);
+// try cwd first
+proxyClass.includeModule(interfaceModule);
+if (proxyClass.fastGetConstantAt("Includable") == null) {
+switch(begin) {
+String signature = null;
+@JRubyMethod
+private volatile RubyModule proxyModule;
+private volatile RubyClass proxyClass;
+proxy.addMethod(name, new org.jruby.internal.runtime.methods.JavaMethod() {
+addUnassignedAlias(rubyPropertyName+'?',assignedNames,installer);
+@Override
+for (Map.Entry<String, NamedInstaller> entry : staticCallbacks.entrySet()) {
+break;
+} else {
+break;
+nameSet.add(javaName + '?');
+if (resultType == boolean.class) {
+SkinnyMethodAdapter method = new SkinnyMethodAdapter(getClassVisitor().visitMethod(ACC_PUBLIC | ACC_STATIC, "main", sig(Void.TYPE, params(String[].class)), null, null));
+if (string.getRuntime().is1_9()) {
+if (isDoubleFloatable(value)) {
+nameSet.add(javaPropertyName + '?');
+{
+for (Map.Entry<String, NamedInstaller> entry : staticCallbacks.entrySet()) {
+break;
+if (IdUtil.isConstant(simpleName) && proxy.getConstantAt(simpleName) == null) {
+method.go_to(normalLoopEnd);
+{
+JavaClass javaClass = runtime.getJavaSupport().getJavaClassFromCache(klass);
+return javaObject;
+return Java.getProxyClass(getRuntime(), this);
+private void setupInterfaceProxy(final RubyClass proxy) {
+socket.soDomain = AddressFamily.AF_INET.value();
+for (Class c = javaClass; c != null; c = c.getSuperclass()) {
+Class<?>[] classes = javaClass.getClasses();
+return Java.getInstance(getRuntime(), javaClass().getDeclaredAnnotations());
+return result;
+IRubyObject socktype = args[3];
+int length = (int) ((RubyInteger) lengthArgument).getLongValue();
+for (int i = 0; i < rubyArray.size(); i++) {
+List list = ((RubyArray)lengthArgument).getList();
+int i = 0;
+if (resultType == boolean.class) {
+myOpenfile.setLineNumber(0);
+Label tryBegin = new Label();
+if (numeric instanceof RubyFixnum) {
+None
+}
+return rubyObject;
+method.ldc(sourcename);
+return JavaObject.wrap(runtime, javaObject);
+return object;
+File pathfile = new File(destination, path);
+classWriter.visit(RubyInstanceConfig.JAVA_VERSION, ACC_PUBLIC + ACC_SUPER,getClassname(), null, p(AbstractScript.class), null);
+name != null ? newSymbol(name) : getNil(),
+break;
+}
+Class<?>[] interfaces = c.getInterfaces();
+proxyClass = createProxyClass(runtime,
+return (int) value;
+Class<?>[] extended = javaClass.javaClass().getInterfaces();
+runtime.getArray().defineAnnotatedMethods(ArrayJavaAddons.class);
+JavaInterfaceTemplate.createJavaInterfaceTemplateModule(context);
+if (argsCallback != null) {
+size = inheritedVariableReaderCount;
+if (superClazz != null) {
+addNameClassMappings(runtime, runtime.getJavaSupport().getNameClassMap());
+runtime.getJavaSupport().setObjectJavaClass(JavaClass.get(runtime, Object.class));
+if (fullName.indexOf('$') != -1 || !Character.isUpperCase(fullName.charAt(endPackage + 1))) {
+ga.returnValue();
+for (int i=0, newCapacity = MIN_CAPA; i < MRI_PRIMES.length; i++, newCapacity <<= 1) {
+RubyClass proxyClass = javaClass.getProxyClass();
+proxyClass.defineAnnotatedMethods(JavaProxyClassMethods.class);
+size = inheritedStringCount;
+return getProxyClass(runtime, JavaClass.forNameVerbose(runtime, fullName));
+size = inheritedSymbolCount;
+packageModule.addClassProvider(JAVA_PACKAGE_CLASS_PROVIDER);
+Class compiler =
+adj = buffer.remaining();
+method.loadThis();
+}
+case ';':       /* $;: field separator */
+GeneratorAdapter gpc = new GeneratorAdapter(Opcodes.ACC_PUBLIC,
+methodCompiler.loadThreadContext();
+// if we hit EOF or reached limit then we're done
+if (n == -1 || limitReached) break;
+registerDescriptor(selfDescriptor);
+method.aload(methodCompiler.getVarsArrayIndex());
+method.aload(argsIndex);
+{
+RubyException rubyEx = re.getException();
+for (IR_Method method : cls._methods) {
+if (scope.getNumberOfVariables() > 4) {
+Class[] interfaces = new Class[size];
+break;
+if (!SafePropertyAccessor.getBoolean("jruby.interfaces.useProxy")) {
+callSiteList.add(name);
+size = inheritedFixnumCount;
+interfacesHashCode = 31 * interfacesHashCode + wrapper.getMetaClass().hashCode();
+final JFrame frame = new JFrame("A sample BSF application");
+if (targetTypes.length == 0 && argumentTypes.length == 0) {
+break;
+CtorSearch: for (Constructor<?> ctor : javaClass.getConstructors()) {
+method.loadThis();
+byte[] bytecode = writer.toByteArray();
+methodCompiler.loadThreadContext();
+return null;
+static void resetBuffer(ByteList l) {
+cw.visit(Opcodes.V1_3, access, name, signature, supername,
+initUI();
+//
+return null;
+Handle tmpHandle = null;
+MethodSearch: for (Method method : javaClass.getDeclaredMethods()) {
+methodIsPublic &&
+classIsPublic &&
+new BSFExample(new BSFManager());
+BSFManager.registerScriptingEngine("ruby", "org.jruby.javasupport.bsf.JRubyEngine", new String[] { "rb" });
+private int flags;
+@JRubyMethod
+JavaProxyClass(Class proxyClass) {
+try {
+DynamicScope scope = context.getCurrentScope();
+manager.exec("ruby", "initUI", 1, 1, "$frame.setJMenuBar($menubar)");
+manager.exec("ruby", "initUI", 1, 1, input.getText());
+String expression = JOptionPane.showInputDialog(frame, "Please enter a Ruby expression:");
+List<Class<?>> interfaceList = new ArrayList<Class<?>>();
+public static RubyClass createJavaProxyClassClass(Ruby runtime, RubyModule javaModule) {
+if (!ancestor.getInstanceVariables().fastHasInstanceVariable("@java_proxy_class")) {
+clazzInit.returnValue();
+var = ancestor.getInstanceVariables().fastGetInstanceVariable("@java_interfaces");
+private static synchronized int nextId() {
+Map<String, DynamicMethod> methods;
+ga.getStatic(JAVA_PROXY_TYPE, "NO_ARGS", Type
+generateConstructor(selfType, constructor, cw);
+case '*':       /* $*: argv */
+if (md.isImplemented()) {
+while((c = src.read()) == '\n');
+private SimplePositionFactory positionFactory;
+ga.loadArgArray();
+Label rethrow = ga.mark();
+if (procObject != null && procObject == proc) {
+if (!(proc instanceof RubyProc)) {
+return (RubyClass)rubyClass;
+if (given < required) {
+if (given != required) {
+FieldVisitor fv = cw.visitField(Opcodes.ACC_PRIVATE
+if (given < required) {
+if (given < required) {
+int sshift = 0;
+case '\004': /* ^D */
+None
+Loader loader = new Loader();
+remove(table, hash, e);
+selector.select();
+}
+GeneratorAdapter gh = new GeneratorAdapter(Opcodes.ACC_PUBLIC,
+private static interface EntryRef<T> {
+e.printStackTrace();
+src.unreadMany(lastLine);
+} else {
+if (type == ReferenceType.WEAK) {
+private void expunge() {
+Entry(EntryRef<Object> objectRef, int hash, EntryRef<T> proxyRef, Entry<T> next) {
+private void expunge() {
+private int nest;
+buffer.append('\\');
+private StringBuilder lineBuffer;
+private final char begin;
+protected int offset = 0;
+// FIXME: Need to detect magic_comment in 1.9 here for encoding
+protected int line = 0;
+return RubyFileTest.identical_p(recv, args[1], args[2]);
+private final char end;
+private StringBuilder sourceLine;
+for (OpenFlags f : OpenFlags.values()) {
+try { readLineBytes(); } catch (IOException e) {}
+case '$':       /* $$: pid */
+case '4':
+case '0':
+break;
+private void escaped(LexerSource src, ByteList buffer) throws java.io.IOException {
+case ' ': case '\t': case '\f': case '\r':
+if (src.lastWasBeginOfLine() && src.matchMarker(marker, indent, true)) {
+public boolean isInState() {
+public void restart() {
+public long begin() {
+private final ByteList marker;
+inChannel = Channels.newChannel(process.getInputStream());
+block.yield(context, RubyArray.newArray(runtime, key, value), null, null, true);
+throw new NoSuchElementException();
+public int size() {
+static final int EOF = -1;
+return EOF;
+private LexerSource src;
+private int parenNest = 0;
+private boolean isOneEight;
+static final int STR_FUNC_INDENT=0x20;
+private int leftParenBegin = 0;
+private int yylex2() throws IOException {
+if (!Character.isLetterOrDigit(c)) {
+loadThreadContext();
+throw new SyntaxException(PID.STRING_UNKNOWN_TYPE, getPosition(), getCurrentLine(), "unknown type of %string");
+case '`':       /* $`: string before last match */
+c = src.read();
+if (c == '!' || c == '?') {
+break;
+done = true;
+break;
+src.unread(c);
+src.unread(c);
+private char buf[] = new char[INITIAL_PUSHBACK_SIZE];
+if (src.wasBeginOfLine()) {
+yaccValue = new Token("$" + (char) c, Tokens.tGVAR, getPosition());
+case '.':       /* $.: last read line number */
+case '=':       /* $=: ignorecase */
+case ':':       /* $:: load path */
+case '>':       /* $>: default output handle */
+case '\'':      /* $': string after last match */
+//Keyword keyword = Keyword.getKeyword(tempVal, tempVal.length());
+c = Tokens.tLBRACE_ARG;
+methodCompiler.getScriptCompiler().getCacheCompiler().cacheCallSite(methodCompiler, "===", CallType.NORMAL);
+return c;
+private final InputStream in;
+c = Tokens.tLCURLY;
+LexState state = lex_state;
+c = src.read();
+// lifecycle.
+c = readEscape();
+c = src.read();
+case '5': case '6': case '7': case '_':
+intDigits = Math.max(0,Math.min(nDigits + exponent,nDigits));
+c = src.read();
+return '\f';
+return index == 0 || bytes[index - 1] == '\n';
+return '\t';
+int start = index;
+StringBuffer buffer = new StringBuffer();
+return '\u000B';
+int i = 0;
+return '\u0007';
+}
+return '\u001B';
+break;
+}
+int captureTwoAgo = twoAgo;
+public void end() {
+private int oneAgo = '\n';
+private int bufLength = -1;
+return '\n';
+None
+public static final int FD_CLOEXEC = 1;
+break;
+RUBY_OS_NAMES.put("Windows NT (unknown)", RUBY_WIN32);
+libdir = new NormalizedFile(libdir).getCanonicalPath();
+None
+cflags += " -isysroot /Developer/SDKs/MacOSX10.4u.sdk -DTARGET_RT_MAC_CFM=0 ";
+newTable[idx] = e;
+Logger.getLogger(BeanManagerImpl.class.getName()).log(Level.FINE, null, e);
+Logger.getLogger(BeanManagerImpl.class.getName()).log(Level.FINE, null, e);
+break;
+if (yyToken < 0) {
+break;
+else
+}
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+method.pop();
+break;
+private boolean extraPositionInformation = false;
+yyVal = new DefnNode(getPosition(((Token)yyVals[-5+yyTop])), new ArgumentNode(((Token)yyVals[-4+yyTop]).getPosition(), (String) ((Token)yyVals[-4+yyTop]).getValue()), ((ArgsNode)yyVals[-2+yyTop]), support.getCurrentScope(), body);
+break;
+break;
+break;
+break;
+break;
+output = unwrapBufferedStream(child.getOutputStream());
+String classMethod = element.getClassName() + "." + element.getMethodName();
+break;
+yyVal = new DefsNode(getPosition(((Token)yyVals[-8+yyTop])), ((Node)yyVals[-7+yyTop]), new ArgumentNode(((Token)yyVals[-4+yyTop]).getPosition(), (String) ((Token)yyVals[-4+yyTop]).getValue()), ((ArgsNode)yyVals[-2+yyTop]), support.getCurrentScope(), body);
+IRubyObject group = context.getThread().group();
+return yyVal;
+private boolean isEvalParse = true;
+try { out.close(); } catch (IOException ioe) {}
+/** The parse method use an lexer stream and parse it to an AST node
+break;
+return yyVal;
+/* EvStrNode :"#{some expression}"*/
+for (; currentArgElement < postArgsCount; currentArgElement++) {
+/* StrNode: :"some text"*/
+None
+while (i < j && c.compare(a[i], a[i+1]) <= 0)
+return yyVal;
+private boolean inlineSource = false;
+yyparse(lexer, debugger);
+break;
+setArgumentScope(true);
+return RubyFileTest.setuid_p(recv, args[1]);
+private int lineNumber = 0;
+}
+if (((Node)yyVals[-1+yyTop]) instanceof MultipleAsgnNode) {
+return currentScope.assign(lhs.getPosition(), (String) lhs.getValue(), makeNullNil(value));
+handleUselessWarn(node, "::"); return;*/
+protected StaticScope currentScope;
+private int endOffset = -1;
+private boolean isDubyExtensionsEnabled = SafePropertyAccessor.getBoolean("jruby.duby.enabled", false);
+private boolean isDebug = false;
+((ListNode) head).addAll(tail);
+private boolean inDefinition;
+//
+//
+if (!configuration.hasExtraPositionInformation()) {
+public Node appendToBlock(Node head, Node tail) {
+return true;
+handleUselessWarn(node, "a constant"); return;*/
+if(((StrNode) head).getValue().length() == 0) {
+case LOCALASGNNODE:
+private Node getFlipConditionNode(Node node) {
+switch(node.getNodeType()) {
+handleUselessWarn(node, "self"); return;*/
+if (head instanceof StrNode) {
+return RubyFileTest.directory_p(recv, args[1]);
+for (int optArgElement = 0; optArgElement < optArgsCount; optArgElement++) {
+if (optArgsCount > 0) {
+method.ifeq((Label) gotoToken);
+break;
+break;
+method.label(optLabels[optArgElement]);
+break;
+break;
+method.pushInt(scope.getRequiredArgs());
+do {
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+if (restAssignment != null) {
+break;
+break;
+break;
+break;
+valueCallback.call(methodCompiler);
+break;
+break;
+break;
+break;
+method.aload(argsIndex);
+break;
+break;
+receiver.call(methodCompiler);
+break;
+break;
+break;
+Label doneWithOpt = new Label();
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+} else {
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+Label currentLabel = slowPath;
+currentLabel = new Label();
+break;
+break;
+break;
+getCaseValue.call(this);
+break;
+break;
+method.checkcast(p(RubyFixnum.class));
+IRubyObject.class, /*value*/
+break;
+break;
+break;
+inputValue.call(this);
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+private boolean eql19(Ruby runtime, IRubyObject other) {
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+receiveArgs(defnNode.getArgsNode(), m);
+receiverCallback.call(this);
+break;
+for (Node aCase : caseNode.getCases().childNodes()) {
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+/* ParserSupport.literal_concat).  Check token length*/
+rescueArgs.call(this);
+/* and subtract as neeeded.*/
+Label start = new Label();
+classBody.loadThreadContext();
+classBody.loadThreadContext();
+return variableNames.length - 1;
+/** The parse method use an lexer stream and parse it to an AST node
+String unmangledMethod = element.getClassName().substring(index + 13);
+yyVal = new DefinedNode(getPosition(((Token)yyVals[-2+yyTop])), ((Node)yyVals[0+yyTop]));
+private DynamicScope[] scopeStack = new DynamicScope[INITIAL_SIZE];
+if (((Node)yyVals[0+yyTop]) != null) {
+yyVal = support.new_args(getPosition(), null, null, null, null, null);
+method.invokevirtual(p(RaiseException.class), "getException", sig(RubyException.class));
+None
+private int restArg = -1;
+private StaticScope previousCRefScope = null;
+private int optionalArgs = 0;
+private transient RubyModule cref = null;
+return new DAsgnNode(position, name, slot, value);
+private String[] variableNames;
+private int requiredArgs = 0;
+public IRubyObject getConstantWithConstMissing(Ruby runtime, String internedName, RubyModule object) {
+for (String scriptName : config.requiredLibraries()) {
+private Frame[] frameStack = new Frame[INITIAL_SIZE];
+suffixType = SuffixType.Source;
+if (iter instanceof LambdaNode) {
+private IRubyObject getUndefConstant(Ruby runtime, String internedName, RubyModule object) {
+}
+SymbolEntry[] table = symbolTable;
+private RubyModule[] parentStack = new RubyModule[INITIAL_SIZE];
+initBuiltins();
+argsNodeId = iterNode.getVarNode().getNodeType();
+method.newobj(getClassname());
+break;
+private boolean isWithinTrace;
+private boolean isWithinDefined;
+break;
+break;
+break;
+addBackTraceElement(traceArray, backtraceFrames[rubyFrameIndex], backtraceFrames[rubyFrameIndex - 1], FrameType.METHOD);
+if (!(element.getMethodName().contains("__rescue__") || element.getMethodName().contains("__ensure__"))) {
+StaticScope topStaticScope = new LocalStaticScope(null);
+private String file = "";
+private int line = 0;
+private void expandCatchIfNecessary() {
+int index = element.getMethodName().indexOf("$RUBY$");
+/**
+private void pushFrameCopy() {
+traceFrames = new Frame[traceSize + 1];
+break;
+if (element.getMethodName().equals("__file__")) {
+index = element.getClassName().indexOf("$RUBYINVOKER$");
+break;
+VariableTableEntry newFirst = e.next;
+IRubyObject[] argValues = new IRubyObject[totalArgs];
+break;
+break;
+break;
+input = unwrapBufferedStream(child.getInputStream());
+if (rubyFrameIndex == 0) {
+break;
+debugLogTry("fileInClasspath", name);
+break;
+pushScope(emptyScope);
+if (debug) {
+assigner = new Pre0Rest0Post0Assigner();
+pushScope(DynamicScope.newDynamicScope(scope, binding.getDynamicScope()));
+if (args.length == 1 && args[0] instanceof RubyArray) {
+public abstract IRubyObject call(ThreadContext context, IRubyObject caller, IRubyObject self, long fixnum);
+public long idOf(IRubyObject rubyObject) {
+public IRubyObject call(ThreadContext context, IRubyObject[] args, Binding binding,
+if (isRest) {
+break;
+public abstract IRubyObject callIter(ThreadContext context, IRubyObject caller, IRubyObject self, Block block);
+Long longMaxId = new Long(maxId);
+public abstract IRubyObject call(ThreadContext context, IRubyObject caller, IRubyObject self);
+public abstract IRubyObject call(ThreadContext context, IRubyObject caller, IRubyObject self, Block block);
+int i = parameterTypes.length;
+protected final StaticScope staticScope;
+if (name.equals("respond_to?")) return new RespondToCallSite();
+@Deprecated
+if (evalScope == null) {
+protected final DynamicScope parent;
+private IRubyObject lastline;
+public String toString(StringBuffer buf, String indent) {
+}
+if (Ruby.isSecurityRestricted()) {
+return;
+public static CallbackFactory createFactory(Ruby runtime, Class type, ClassLoader classLoader) {
+break;
+private IRubyObject backref;
+// We only define one special dynamic scope per 'logical' binding.  So all bindings for
+public static int checkArgumentCount(Ruby runtime, IRubyObject[] args, int min, int max) {
+// No binding scope so we should create one
+break;
+break;
+packedVTable = new Object[MAX_PACKED * 2];
+if (valueLength < preLength) {
+break;
+protected RubyFloat toFloat() {
+public IRubyObject convertIfAlreadyArray(Ruby runtime, IRubyObject value) {
+break;
+public IRubyObject convertToArray(Ruby runtime, IRubyObject value) {
+mv.dup();
+mv.aload(DISPATCHER_THREADCONTEXT_INDEX);
+mv.label(okCall);
+mv.aload(DISPATCHER_RUBYMODULE_INDEX); // module
+mv.label(methodMissing);
+mv.aload(DISPATCHER_THREADCONTEXT_INDEX); // tc
+mv.invokevirtual(p(String.class), "equals", sig(boolean.class, params(Object.class)));
+if (!fast) {
+switch (arity.getValue()) {
+None
+mv.go_to(afterCall);
+switch (arity.getValue()) {
+TARGET_0 = target;
+dup.flags |= flags & UNTRUSTED_F;
+None
+if (len > length) RuntimeHelpers.fillNil(vals, length, len, getRuntime());
+mv.label(arityOk);
+private RubyEncoding[] encodingIndex = new RubyEncoding[4];
+target = MethodHandles.foldArguments(target, PGC_0);
+int index = enc.getIndex();
+break;
+//            } catch (IOException e) {
+target = MethodHandles.foldArguments(target, GETMETHOD_0);
+target = MethodHandles.foldArguments(target, PGC_0);
+break;
+break;
+break;
+break;
+break;
+break;
+break;
+return cMetaObj;
+runtime.getJRubyClassLoader().addURL(jarFile);
+BREAKJUMP = breakJump;
+if (runtime.is1_9()) {
+retryJump = MethodHandles.permuteArguments(
+breakJump = MethodHandles.permuteArguments(
+for (Iterator iter = additionalDirectories.iterator(); iter.hasNext();) {
+break;
+if (path == null || path.length() == 0) return;
+converters['n'] = new Converter(2) {
+RubyHash env = (RubyHash) runtime.getObject().fastGetConstant("ENV");
+addPath(rubyDir + "site_ruby" + sep + Constants.RUBY_MAJOR_VERSION);
+if (!Ruby.isSecurityRestricted()) {
+if (Script.class.isAssignableFrom(clazz)) {
+if (file.lastIndexOf('.') > file.lastIndexOf('/')) {
+break;
+String[] all = state.searchFile.split("/");
+if (file.lastIndexOf('.') > file.lastIndexOf('/')) {
+Script script;
+return false;
+if(state.library instanceof JarredScript) {
+Class theClass = runtime.getJavaSupport().loadJavaClassQuiet(className);
+Library oldLibrary = state.library;
+break;
+runtime.getJRubyClassLoader().addURL(((JarredScript)state.library).getResource().getURL());
+suffixType = SuffixType.Both;
+suffixType = SuffixType.Both;
+suffixType = SuffixType.Extension;
+suffixType = SuffixType.Neither;
+LoadServiceResource foundResource = null;
+suffixType = SuffixType.Neither;
+realIo.callMethod(getRuntime().getCurrentContext(), "seek", getRuntime().newFixnum(0));
+className = className.replaceFirst("^\\.\\/", "");
+this.position += buffer.length;
+throw mee;
+state.library.load(runtime, false);
+if (new File(baseName).isAbsolute() || baseName.startsWith("../")) {
+if (baseName.startsWith("./")) {
+if (name.charAt(0) == '/' || (name.length() > 1 && name.charAt(1) == ':')) return null;
+method.dup();
+if (entry.length() == 0) continue;
+actualPath = JRubyFile.create(loadPathEntry, RubyFile.expandUserPath(runtime.getCurrentContext(), namePlusSuffix));
+write(TYPE_IVAR);
+if (Ruby.isSecurityRestricted() && classLoader == null) {
+if (reportedPath.charAt(0) != '.') {
+break;
+break;
+debugLogTry("fileInClasspath", entry + "/" + name);
+break;
+if (isRequireable(loc)) {
+converters['s'] = new Converter(2) {
+RubyStruct.marshalTo((RubyStruct)value, this);
+return (IRubyObject) bj.getValue();
+}
+variables = value.getVariableList();
+protected boolean isRequireable(URL loc) {
+break;
+writeUserClass(value, type);
+open++;	/* brace to match it.  Bracket expressions must be */
+RuntimeHelpers.invoke(getRuntime().getCurrentContext(), proc, "call", rubyObj);
+if (type.getName().charAt(0) == '#') {
+RubyObject result = (RubyObject)unmarshalObject();
+throw type.getRuntime().newTypeError("singleton can't be dumped");
+None
+break;
+}
+if (Platform.BYTE_ORDER == Platform.BIG_ENDIAN)
+converters['S'] = new Converter(2) {
+break;
+tmp = new Converter(4) {
+None
+names.op_aset(context, runtime.newString("CLD"), runtime.newFixnum(20));
+None
+}
+private static int nextSlashIndex(byte[] bytes, int start, int end) {
+this.fieldMap = immutableMap(fields);
+List<IR_Instr> instrs = _bb.getInstrs();
+None
+mv.aload(RECEIVER_INDEX);
+break;
+StaticScope oldScope = block.getBody().getStaticScope();
+names.op_aset(context, runtime.newString("IOT"), runtime.newFixnum(6));
+break;
+rubyObj = RubyHash.unmarshalFrom(this, true);
+}
+if (ptmp != -1 && stmp != -1 && !(period && string[stmp] == '.')) {
+protected static String getPath19(ThreadContext context, IRubyObject arg) {
+break;
+return runtime.newString(runtime.getPosix().getpwnam(user).getHome());
+if (lbrace == -1 || rbrace == -1) return push_globs(cwd, result, pattern);
+return internalGet(key);
+break;
+String passwd = null;
+private static boolean isDoubleStarAndSlash(byte[] bytes, int pos) {
+index = leftTokenIndex + 1;
+converters['e'] = new Converter(4) {
+}
+None
+return null;
+}
+public static boolean isValidInstanceVariableName(String id) {
+break;
+for (int i = 0; i < 256; i++) {
+None
+private static List<ByteList> dirGlobs(String cwd, IRubyObject[] args, int flags) {
+public static boolean isValidInstanceVariableName(String id) {
+case ']':
+public int index() {
+converters['V'] = new Converter(4) {
+converters['G'] = new Converter(8) {
+s = safeGet(encode);
+converters['E'] = new Converter(8) {
+loadThreadContext();
+Converter tmp = new Converter(4) {
+converters['g'] = new Converter(4) {
+converters['C'] = new Converter(1) {
+converters['c'] = new Converter(1) {
+converters['v'] = new Converter(2) {
+converters['q'] = new Converter(8) {
+} else if (encode.hasRemaining()) {
+tmp = new Converter(4) {
+tmp = new Converter(4) {
+Converter converter = converters[type];
+case '!':       /* $!: error string */
+case '?':       /* $?: last status */
+switch (type) {
+if (lCurLineLength > 0) {
+}
+}
+}
+if (type == '#') {
+return context.getThread();
+while (t < occurrences) {
+int occurrences = 1;
+None
+if (type == 'Z') occurrences++;
+break;
+currentByte >>= 1; //shift the byte
+result.length(result.length() + padLength);
+currentByte >>= 1; //shift the byte
+if ((i & 7) == 0) {
+if (l >= 0) {
+PidGetter pg = new PidGetter() {
+config.processArguments(context.getArgs());
+}
+pg = new PidGetter() {
+String[] args = parseCommandLine(runtime.getCurrentContext(), runtime, strings);
+String[] argArray = new String[3];
+pg = new PidGetter() {
