@@ -2,972 +2,390 @@
 ーーーーーーーーSearch the target string1ーーーーーーーーーーーーーーー
  
 search_string:
- //TODO(@authorfdietz):shouldberemovedifweonlyuse//Streams!
+ "/*			ImplementString+=value;			AccordingtotheJLS,valuemaybeanything.			InBeanShell,we'lldisallowVOID(undefined)values.			(orshouldwemapthemtotheemptystring?)		*/"
  
 sub_line:
- //Streams! 
+ AccordingtotheJLS,valuemaybeanything. 
 
 frontremoved_sub_line:
- reams! 
+ rdingtotheJLS,valuemaybeanything. 
 
 sub_line:
- decryptedBodyPart=StreamUtils 
+ InBeanShell,we'lldisallowVOID(undefined)values. 
 
 frontremoved_sub_line:
- yptedBodyPart=StreamUtils 
+ anShell,we'lldisallowVOID(undefined)values. 
+
+sub_line:
+ (orshouldwemapthemtotheemptystring?) 
+
+frontremoved_sub_line:
+ houldwemapthemtotheemptystring?) 
+
+sub_line:
+ */ 
+
+frontremoved_sub_line:
+  
+
+sub_line:
+ if(lhsinstanceofString&&rhs!=Primitive.VOID){ 
+
+frontremoved_sub_line:
+ hsinstanceofString&&rhs!=Primitive.VOID){ 
 
 predict_string_new:
- //TODO(@authorfdietz):shouldberemovedifweonlyuse 
+ ImplementString+=value; 
 
 line_no || similarity 
 
-240 || 0.9056603773584906 
+151 || 0.24731182795698925 
 
 filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/gui/message/filter/PGPMessageFilter.java 
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/bsh/BSHAssignment.java 
 
 under_code:
-decryptedBodyPart = StreamUtils
+if ( lhs instanceof String && rhs != Primitive.VOID ) {
  
 
 ーーーーーーーーSearch the target string2ーーーーーーーーーーーーーーー
  
 search_string:
- //FIXME(@authorkarlpeder):Is3.2theproperversionofhtmltoreferto?
+ /*thisshouldbebeforedockablesareinitialized*/
  
 predict_string:
- //FIXME(@authorkarlpeder):Is3.2theproperversionofhtmltoreferto? 
+ /*thisshouldbebeforedockablesareinitialized*/ 
 
 line_no || similarity 
 
-281 || 1.0 
+873 || 1.0 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/composer/MessageComposer.java 
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/org/gjt/sp/jedit/PluginJAR.java 
 
 under_code:
-buf.append("<!DOCTYPE HTML PUBLIC "
+if(cache.cachedProperties != null)
  
 
 ーーーーーーーーSearch the target string3ーーーーーーーーーーーーーーー
  
 search_string:
- //thisisahackforthemultilinecolumn
+ //isthisright?
  
 predict_string:
- //thisisahackforthemultilinecolumn 
+ //isthisright? 
 
 line_no || similarity 
 
-220 || 1.0 
+98 || 1.0 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/gui/table/TableView.java 
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/bsh/BSHPrimaryExpression.java 
 
 under_code:
-if ( name.equals("MultiLine")) {
+throw new EvalError("Can't assign to prefix.",
  
 
 ーーーーーーーーSearch the target string4ーーーーーーーーーーーーーーー
  
 search_string:
- //TODO(@authortstich):dosomething
+ //shouldwedothisforbothcasesabove?
  
 predict_string:
- //TODO(@authortstich):dosomething 
+ //shouldwedothisforbothcasesabove? 
 
 line_no || similarity 
 
-92 || 1.0 
+296 || 1.0 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/parser/PassiveHeaderParserInputStream.java 
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/bsh/BshMethod.java 
 
 under_code:
-}
+localNameSpace.setNode( callerInfo );
  
 
 ーーーーーーーーSearch the target string5ーーーーーーーーーーーーーーー
  
 search_string:
- //TODO(@authorfdietz):i18n
+ //needtoloosenthistoanythrowable...doweneedtohandle//thatininterpretersomewhere?checkfirst...
  
-predict_string:
- //TODO(@authorfdietz):i18n 
+sub_line:
+ */ 
+
+frontremoved_sub_line:
+  
+
+sub_line:
+ publicObjecteval(CallStackcallstack,Interpreterinterpreter) 
+
+frontremoved_sub_line:
+ icObjecteval(CallStackcallstack,Interpreterinterpreter) 
+
+predict_string_new:
+ interpreter 
 
 line_no || similarity 
 
-97 || 1.0 
+53 || 0.21153846153846154 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/core/src/main/java/org/columba/core/gui/externaltools/ExternalToolsWizardLauncher.java 
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/bsh/BSHMethodInvocation.java 
 
 under_code:
-Wizard wizard = new Wizard(model, "External Tools Configuration",
+public Object eval( CallStack callstack, Interpreter interpreter )
  
 
 ーーーーーーーーSearch the target string6ーーーーーーーーーーーーーーー
  
 search_string:
- //FIXMEremovemethod//toolbarPane.add(c);
+ //fuckingGTKlookandfeel
  
-sub_line:
- //toolbarPane.add(c); 
-
-frontremoved_sub_line:
- olbarPane.add(c); 
-
-sub_line:
- } 
-
-frontremoved_sub_line:
-  
-
-sub_line:
-  
-
-frontremoved_sub_line:
-  
-
-sub_line:
- /** 
-
-frontremoved_sub_line:
-  
-
-sub_line:
- *@seeorg.columba.api.gui.frame.IContainer#setToolBar(org.columba.core.gui.toolbar.ToolBar) 
-
-frontremoved_sub_line:
- eorg.columba.api.gui.frame.IContainer#setToolBar(org.columba.core.gui.toolbar.ToolBar) 
-
-predict_string_new:
- //FIXMEremovemethod 
+predict_string:
+ //fuckingGTKlookandfeel 
 
 line_no || similarity 
 
-754 || 0.6440677966101694 
+604 || 1.0 
 
 filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/core/src/main/java/org/columba/core/gui/frame/DefaultContainer.java 
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/org/gjt/sp/jedit/gui/StatusBar.java 
 
 under_code:
-* @see org.columba.api.gui.frame.IContainer#setToolBar(org.columba.core.gui.toolbar.ToolBar)
+Font font = new JLabel().getFont();
  
 
 ーーーーーーーーSearch the target string7ーーーーーーーーーーーーーーー
  
 search_string:
- //TODO(@authorfdietz):i18n
+ "/*		Note:thisimplementationistemporary.Wecurrentlykeepaflat		namespaceofthebasenameofclasses.i.e.BeanShellcannotbeinthe		processofdefiningtwoclassesindifferentpackageswiththesame		basename.Toremovethislimitationrequiresthatweworkthrough		namespaceimportsinananalogous(orusingthesamepath)asregular		classimportresolution.Thisworkaroundshouldhandlemostcases		sowe'lltryitfornow.	*/"
  
-predict_string:
- //TODO(@authorfdietz):i18n 
+sub_line:
+ namespaceofthebasenameofclasses.i.e.BeanShellcannotbeinthe 
+
+frontremoved_sub_line:
+ spaceofthebasenameofclasses.i.e.BeanShellcannotbeinthe 
+
+sub_line:
+ processofdefiningtwoclassesindifferentpackageswiththesame 
+
+frontremoved_sub_line:
+ essofdefiningtwoclassesindifferentpackageswiththesame 
+
+sub_line:
+ basename.Toremovethislimitationrequiresthatweworkthrough 
+
+frontremoved_sub_line:
+ name.Toremovethislimitationrequiresthatweworkthrough 
+
+sub_line:
+ namespaceimportsinananalogous(orusingthesamepath)asregular 
+
+frontremoved_sub_line:
+ spaceimportsinananalogous(orusingthesamepath)asregular 
+
+sub_line:
+ classimportresolution.Thisworkaroundshouldhandlemostcases 
+
+frontremoved_sub_line:
+ simportresolution.Thisworkaroundshouldhandlemostcases 
+
+sub_line:
+ sowe'lltryitfornow. 
+
+frontremoved_sub_line:
+ 'lltryitfornow. 
+
+sub_line:
+ */ 
+
+frontremoved_sub_line:
+  
+
+sub_line:
+ protectedvoiddefiningClass(StringclassName){ 
+
+frontremoved_sub_line:
+ ectedvoiddefiningClass(StringclassName){ 
+
+predict_string_new:
+ Note:thisimplementationistemporary.Wecurrentlykeepaflat 
 
 line_no || similarity 
 
-97 || 1.0 
+468 || 0.25229357798165136 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/core/src/main/java/org/columba/core/gui/externaltools/ExternalToolsWizardLauncher.java 
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/bsh/BshClassManager.java 
 
 under_code:
-Wizard wizard = new Wizard(model, "External Tools Configuration",
+protected void definingClass( String className ) {
  
 
 ーーーーーーーーSearch the target string8ーーーーーーーーーーーーーーー
  
 search_string:
- //TODO@authorhubms:copiedfromfrederikssearchbuilder
+ //copyandpastefrombsh/classpath/ClassManagerImpl.java...
  
 predict_string:
- //TODO@authorhubms:copiedfromfrederikssearchbuilder 
+ //copyandpastefrombsh/classpath/ClassManagerImpl.java... 
 
 line_no || similarity 
 
-88 || 1.0 
+762 || 1.0 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/folder/command/TagMessageCommand.java 
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/org/gjt/sp/jedit/BeanShell.java 
 
 under_code:
-public static URI createURI(String folderId, Object messageId) {
+public synchronized void addListener( Listener l )
  
 
 ーーーーーーーーSearch the target string9ーーーーーーーーーーーーーーー
  
 search_string:
- //realstupidrecreationofwholelistmodel//->replacewithid-basedlistmodelupdate
+ //IwishIcouldmakethis"friendly"toonlyNameSpace
  
-sub_line:
- //->replacewithid-basedlistmodelupdate 
-
-frontremoved_sub_line:
- replacewithid-basedlistmodelupdate 
-
-sub_line:
- privatevoidupdateList(){ 
-
-frontremoved_sub_line:
- atevoidupdateList(){ 
-
-predict_string_new:
- //realstupidrecreationofwholelistmodel 
+predict_string:
+ //IwishIcouldmakethis"friendly"toonlyNameSpace 
 
 line_no || similarity 
 
-324 || 0.6666666666666666 
+154 || 1.0 
 
 filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/core/src/main/java/org/columba/core/gui/tagging/TagList.java 
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/bsh/Name.java 
 
 under_code:
-private void updateList() {
+Name( NameSpace namespace, String s )
  
 
 ーーーーーーーーSearch the target string10ーーーーーーーーーーーーーーー
  
 search_string:
- //TODO(@authorkarlpeder):ExtendhandlingofspecialentitiesasinrestoreSpecialCharacters
+ //undocumentedhacktoallowbrowseractionstowork.//XXX-cleanupin4.3
  
-predict_string:
- //TODO(@authorkarlpeder):ExtendhandlingofspecialentitiesasinrestoreSpecialCharacters 
+sub_line:
+ //XXX-cleanupin4.3 
+
+frontremoved_sub_line:
+ X-cleanupin4.3 
+
+sub_line:
+ global.setVariable("_comp",comp); 
+
+frontremoved_sub_line:
+ al.setVariable("_comp",comp); 
+
+predict_string_new:
+ //undocumentedhacktoallowbrowseractionstowork. 
 
 line_no || similarity 
 
-474 || 1.0 
+107 || 0.8363636363636363 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/parser/text/HtmlParser.java 
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/org/gjt/sp/jedit/BeanShellAction.java 
 
 under_code:
-/*
+global.setVariable("_comp",comp);
  
 
 ーーーーーーーーSearch the target string11ーーーーーーーーーーーーーーー
  
 search_string:
- "/***Transformsemail-addressesintoHTMLjustas*substituteEmailAddress(String),buttriestoignoreemail-addresses,*whicharealreadylinks,iftheignorelinksflagisset.*<br>*Thisextendedfunctionalityisnecessarywhenparsingatextwhich*isalready(partly)html.*<br>*FIXME:Canthisbedonesmarter,i.e.directlywithreg.expr.withoutmanualparsing??**@paramsinputtext*@paramignoreLinksiftruelinktagsareignored.Thisgivesa*wrongresultifsomee-mailadressesare*alreadylinks(butusesreg.expr.directly,*andisthereforefaster)*@returntextwithemail-adressestransformedtolinks*/"
+ //Lookforadefaultinvoke()handlermethodinthenamespace//Note:thiscodeduplicatesthatinNameSpacegetCommand()//isthatok?
  
 sub_line:
- *@returntextwithemail-adressestransformedtolinks 
+ //Note:thiscodeduplicatesthatinNameSpacegetCommand() 
 
 frontremoved_sub_line:
- turntextwithemail-adressestransformedtolinks 
+ te:thiscodeduplicatesthatinNameSpacegetCommand() 
 
 sub_line:
- *(nullonerror) 
+ //isthatok? 
 
 frontremoved_sub_line:
- llonerror) 
+ thatok? 
+
+sub_line:
+ try{ 
+
+frontremoved_sub_line:
+  
+
+sub_line:
+ bshMethod=namespace.getMethod( 
+
+frontremoved_sub_line:
+ ethod=namespace.getMethod( 
 
 predict_string_new:
- *@paramsinputtext 
+ //Lookforadefaultinvoke()handlermethodinthenamespace 
 
 line_no || similarity 
 
-607 || 0.06104129263913824 
+280 || 0.6227544910179641 
 
 filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/parser/text/HtmlParser.java 
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/bsh/This.java 
 
 under_code:
-*                         (null on error)
+bshMethod = namespace.getMethod(
  
 
 ーーーーーーーーSearch the target string12ーーーーーーーーーーーーーーー
  
 search_string:
- //TODO:Returncontentencodingaccordingtothemimepartinthemail
+ //Thisshouldbeperinstance
  
 predict_string:
- //TODO:Returncontentencodingaccordingtothemimepartinthemail 
+ //Thisshouldbeperinstance 
 
 line_no || similarity 
 
-41 || 1.0 
+109 || 1.0 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/url/cid/CidURLConnection.java 
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/bsh/Interpreter.java 
 
 under_code:
-return null;
+transient static PrintStream debug;
  
 
 ーーーーーーーーSearch the target string13ーーーーーーーーーーーーーーー
  
 search_string:
- //TODO:Returncontenttypeaccordingtothemimepartinthemail
+ //Canweusetheproxymechanismtocastabsh.Thisto//thecorrectinterface?
  
-predict_string:
- //TODO:Returncontenttypeaccordingtothemimepartinthemail 
+sub_line:
+ //thecorrectinterface? 
+
+frontremoved_sub_line:
+ ecorrectinterface? 
+
+sub_line:
+ if(toType.isInterface() 
+
+frontremoved_sub_line:
+ oType.isInterface() 
+
+predict_string_new:
+ //Canweusetheproxymechanismtocastabsh.Thisto 
 
 line_no || similarity 
 
-36 || 1.0 
+366 || 0.8 
 
 filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/url/cid/CidURLConnection.java 
+   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/bsh/Types.java 
 
 under_code:
-return null;
+if ( toType.isInterface()
  
 
 ーーーーーーーーSearch the target string14ーーーーーーーーーーーーーーー
  
 search_string:
- //hacktosupportdockableviewtitleupdate//TODOreplacewithlistenerpattern
- 
-sub_line:
- //TODOreplacewithlistenerpattern 
-
-frontremoved_sub_line:
- DOreplacewithlistenerpattern 
-
-sub_line:
- if(mediatorinstanceofThreePaneMailFrameController){ 
-
-frontremoved_sub_line:
- ediatorinstanceofThreePaneMailFrameController){ 
-
-predict_string_new:
- //hacktosupportdockableviewtitleupdate 
-
-line_no || similarity 
-
-303 || 0.7037037037037037 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/gui/message/viewer/HeaderViewer.java 
-
-under_code:
-if (mediator instanceof ThreePaneMailFrameController) {
- 
-
-ーーーーーーーーSearch the target string15ーーーーーーーーーーーーーーー
- 
-search_string:
- /*TODOstoppollingthread?!*/
- 
-predict_string:
- /*TODOstoppollingthread?!*/ 
-
-line_no || similarity 
-
-276 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/core/src/main/java/org/columba/core/scripting/FileObserverThread.java 
-
-under_code:
-}
- 
-
-ーーーーーーーーSearch the target string16ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODO@authorhubms:bad:ifthereisaiconitistaggedor//not
- 
-sub_line:
- //not 
-
-frontremoved_sub_line:
- t 
-
-sub_line:
-  
-
-frontremoved_sub_line:
-  
-
-sub_line:
- //passcommandtoscheduler 
-
-frontremoved_sub_line:
- sscommandtoscheduler 
-
-predict_string_new:
- //TODO@authorhubms:bad:ifthereisaiconitistaggedor 
-
-line_no || similarity 
-
-139 || 0.9514563106796117 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/gui/table/action/TagMessageMenu.java 
-
-under_code:
-// pass command to scheduler
- 
-
-ーーーーーーーーSearch the target string17ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODOcategoryEnumeration
- 
-predict_string:
- //TODOcategoryEnumeration 
-
-line_no || similarity 
-
-348 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/calendar/src/main/java/org/columba/calendar/parser/XCSDocumentParser.java 
-
-under_code:
-return null;
- 
-
-ーーーーーーーーSearch the target string18ーーーーーーーーーーーーーーー
- 
-search_string:
- //hack:ifstartandendtimeisat00:00:00:000itis//analldayevent
- 
-sub_line:
- //analldayevent 
-
-frontremoved_sub_line:
- alldayevent 
-
-sub_line:
- allDayEvent=startAtNullOClock&&endAtNullOClock; 
-
-frontremoved_sub_line:
- ayEvent=startAtNullOClock&&endAtNullOClock; 
-
-predict_string_new:
- //hack:ifstartandendtimeisat00:00:00:000itis 
-
-line_no || similarity 
-
-22 || 0.8543689320388349 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/calendar/src/main/java/org/columba/calendar/parser/ParserHelper.java 
-
-under_code:
-allDayEvent = startAtNullOClock && endAtNullOClock;
- 
-
-ーーーーーーーーSearch the target string19ーーーーーーーーーーーーーーー
- 
-search_string:
- //registerinterestonstorechanges//TODOthedependencyshouldbetheotherwayaround
- 
-sub_line:
- //TODOthedependencyshouldbetheotherwayaround 
-
-frontremoved_sub_line:
- DOthedependencyshouldbetheotherwayaround 
-
-sub_line:
- addStorageListener(StoreEventDelegator.getInstance()); 
-
-frontremoved_sub_line:
- torageListener(StoreEventDelegator.getInstance()); 
-
-predict_string_new:
- //registerinterestonstorechanges 
-
-line_no || similarity 
-
-35 || 0.5925925925925926 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/calendar/src/main/java/org/columba/calendar/store/AbstractCalendarStore.java 
-
-under_code:
-addStorageListener(StoreEventDelegator.getInstance());
- 
-
-ーーーーーーーーSearch the target string20ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODO:fixlayouttolookgood,evenifthere'snotenoughinformationprovided
- 
-predict_string:
- //TODO:fixlayouttolookgood,evenifthere'snotenoughinformationprovided 
-
-line_no || similarity 
-
-24 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/contact/src/main/java/org/columba/addressbook/gui/context/ContactDetailsContextualProvider.java 
-
-under_code:
-public class ContactDetailsContextualProvider implements IContextProvider {
- 
-
-ーーーーーーーーSearch the target string21ーーーーーーーーーーーーーーー
- 
-search_string:
- //FIXME:uglycasttoContactModel
- 
-predict_string:
- //FIXME:uglycasttoContactModel 
-
-line_no || similarity 
-
-68 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/contact/src/main/java/org/columba/addressbook/gui/table/TableMouseListener.java 
-
-under_code:
-IContactModel card = null;
- 
-
-ーーーーーーーーSearch the target string22ーーーーーーーーーーーーーーー
- 
-search_string:
- //@TODOdontusedeprecatedmethod
- 
-predict_string:
- //@TODOdontusedeprecatedmethod 
-
-line_no || similarity 
-
-174 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/folder/search/LuceneQueryEngine.java 
-
-under_code:
-if (IndexReader.getCurrentVersion(luceneIndexDir) != luceneLastModified) {
- 
-
-ーーーーーーーーSearch the target string23ーーーーーーーーーーーーーーー
- 
-search_string:
- /*TODOmustgetpollingintervalfromconfigfile*/
- 
-predict_string:
- /*TODOmustgetpollingintervalfromconfigfile*/ 
-
-line_no || similarity 
-
-38 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/core/src/main/java/org/columba/core/filemonitor/FileMonitorService.java 
-
-under_code:
-observerThread = new ObserverThread(
- 
-
-ーーーーーーーーSearch the target string24ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODO:reactivatewhenfeatureissupported
- 
-predict_string:
- //TODO:reactivatewhenfeatureissupported 
-
-line_no || similarity 
-
-132 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/gui/config/account/SecurityPanel.java 
-
-under_code:
-/*
- 
-
-ーーーーーーーーSearch the target string25ーーーーーーーーーーーーーーー
- 
-search_string:
- //Ifthisfolderhaschildrenaddthem//TODO:Inthefutureweshouldtrytofetchadditionalchildrenondemand//whenthetreeofthedialogisopened
- 
-sub_line:
- //TODO:Inthefutureweshouldtrytofetchadditionalchildrenondemand 
-
-frontremoved_sub_line:
- DO:Inthefutureweshouldtrytofetchadditionalchildrenondemand 
-
-sub_line:
- //whenthetreeofthedialogisopened 
-
-frontremoved_sub_line:
- enthetreeofthedialogisopened 
-
-sub_line:
- if(info.getParameter(ListInfo.HASCHILDREN)){ 
-
-frontremoved_sub_line:
- nfo.getParameter(ListInfo.HASCHILDREN)){ 
-
-predict_string_new:
- //Ifthisfolderhaschildrenaddthem 
-
-line_no || similarity 
-
-127 || 0.4050632911392405 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/gui/config/subscribe/SynchronizeFolderListCommand.java 
-
-under_code:
-if( info.getParameter(ListInfo.HASCHILDREN)) {
- 
-
-ーーーーーーーーSearch the target string26ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODO(@authorfdietz):Addmorespecialentities-e.g.accenturecharssuchas?
- 
-predict_string:
- //TODO(@authorfdietz):Addmorespecialentities-e.g.accenturecharssuchas? 
-
-line_no || similarity 
-
-108 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/parser/text/HtmlParser.java 
-
-under_code:
-/** Special entities recognized by restore special entities */
- 
-
-ーーーーーーーーSearch the target string27ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODO(@authorwaffel):encryptANDsigndosN#twork.Themessageis//alwaysonly//encrypted.Weneedafunctionthatknows,here//isanencryptedANDsignedMessage.Thusfirstencyrptandthen//verifySignthemessage//ifthismessageissigned/encryptedwehavetouse//GnuPGtoextractthedecryptedbodypart//-multipart/encrypted//-multipart/signed
- 
-sub_line:
- //alwaysonly 
-
-frontremoved_sub_line:
- waysonly 
-
-sub_line:
- //encrypted.Weneedafunctionthatknows,here 
-
-frontremoved_sub_line:
- crypted.Weneedafunctionthatknows,here 
-
-sub_line:
- //isanencryptedANDsignedMessage.Thusfirstencyrptandthen 
-
-frontremoved_sub_line:
- anencryptedANDsignedMessage.Thusfirstencyrptandthen 
-
-sub_line:
- //verifySignthemessage 
-
-frontremoved_sub_line:
- rifySignthemessage 
-
-sub_line:
- //ifthismessageissigned/encryptedwehavetouse 
-
-frontremoved_sub_line:
- thismessageissigned/encryptedwehavetouse 
-
-sub_line:
- //GnuPGtoextractthedecryptedbodypart 
-
-frontremoved_sub_line:
- uPGtoextractthedecryptedbodypart 
-
-sub_line:
- //-multipart/encrypted 
-
-frontremoved_sub_line:
- ultipart/encrypted 
-
-sub_line:
- //-multipart/signed 
-
-frontremoved_sub_line:
- ultipart/signed 
-
-sub_line:
- MimeTypefirstPartMimeType=mimePartTree.getRootMimeNode().getHeader() 
-
-frontremoved_sub_line:
- TypefirstPartMimeType=mimePartTree.getRootMimeNode().getHeader() 
-
-predict_string_new:
- //TODO(@authorwaffel):encryptANDsigndosN#twork.Themessageis 
-
-line_no || similarity 
-
-126 || 0.31978319783197834 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/gui/message/filter/PGPMessageFilter.java 
-
-under_code:
-MimeType firstPartMimeType = mimePartTree.getRootMimeNode().getHeader()
- 
-
-ーーーーーーーーSearch the target string28ーーーーーーーーーーーーーーー
- 
-search_string:
- "/***TransformsurlsintoHTMLjustassubstituteURL(String),*buttriestoignoreurls,whicharealreadylinks,iftheignore*linksflagisset.*<br>*Thisextendedfunctionalityisnecessarywhenparsingatextwhich*isalready(partly)html.*<br>*FIXME:Canthisbedonesmarter,i.e.directlywithreg.expr.withoutmanualparsing??**@paramsinputtext*@paramignoreLinksiftruelinktagsareignored.Thisgivesa*wrongresultifsomeurlsarealreadylinks*(butusesreg.expr.directly,andis*thereforefaster)*@returntextwithurls*/"
- 
-sub_line:
- *@returntextwithemail-adressestransformedtolinks 
-
-frontremoved_sub_line:
- turntextwithemail-adressestransformedtolinks 
-
-predict_string_new:
- *@paramsinputtext 
-
-line_no || similarity 
-
-607 || 0.06967213114754098 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/parser/text/HtmlParser.java 
-
-under_code:
-* @return        text with email-adresses transformed to links
- 
-
-ーーーーーーーーSearch the target string29ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODO@authorfdietz:ensurethatwedon'tfetchindividual//headers//toreduceclient/serverroundtrips
- 
-sub_line:
- //headers 
-
-frontremoved_sub_line:
- aders 
-
-sub_line:
- //toreduceclient/serverroundtrips 
-
-frontremoved_sub_line:
- reduceclient/serverroundtrips 
-
-sub_line:
-  
-
-frontremoved_sub_line:
-  
-
-sub_line:
- Stringtitle=(String)folder.getAttribute(messageId, 
-
-frontremoved_sub_line:
- ngtitle=(String)folder.getAttribute(messageId, 
-
-predict_string_new:
- //TODO@authorfdietz:ensurethatwedon'tfetchindividual 
-
-line_no || similarity 
-
-419 || 0.7123287671232876 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/search/MailSearchProvider.java 
-
-under_code:
-String title = (String) folder.getAttribute(messageId,
- 
-
-ーーーーーーーーSearch the target string30ーーーーーーーーーーーーーーー
- 
-search_string:
- //???badtohavereleasehardocodedhere.Fixlater...right.
- 
-predict_string:
- //???badtohavereleasehardocodedhere.Fixlater...right. 
-
-line_no || similarity 
-
-89 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/spellcheck/cswilly/ValidationDialog.java 
-
-under_code:
-private static Point _location = new Point(100, 100);
- 
-
-ーーーーーーーーSearch the target string31ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODO:OpenstreamfromthemimepartspecifiedbycontentIDofthe//currentlyviewedmail
- 
-sub_line:
- //currentlyviewedmail 
-
-frontremoved_sub_line:
- rrentlyviewedmail 
-
-sub_line:
- returnnull; 
-
-frontremoved_sub_line:
- rnnull; 
-
-predict_string_new:
- //TODO:OpenstreamfromthemimepartspecifiedbycontentIDofthe 
-
-line_no || similarity 
-
-46 || 0.8444444444444444 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/url/cid/CidURLConnection.java 
-
-under_code:
-return null;
- 
-
-ーーーーーーーーSearch the target string32ーーーーーーーーーーーーーーー
- 
-search_string:
- //somethingisverywronghere
- 
-predict_string:
- if(count==10){//somethingisverywronghere 
-
-line_no || similarity 
-
-145 || 0.7878787878787878 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/core/src/main/java/org/columba/core/main/ColumbaServer.java 
-
-under_code:
-JOptionPane.showMessageDialog(null,
- 
-
-ーーーーーーーーSearch the target string33ーーーーーーーーーーーーーーー
- 
-search_string:
- //itsmaybebettertoleavethisoptionoutofthedialog//->makeitconfigurableinthexmlfileanyway
- 
-sub_line:
- //->makeitconfigurableinthexmlfileanyway 
-
-frontremoved_sub_line:
- makeitconfigurableinthexmlfileanyway 
-
-sub_line:
- /* 
-
-frontremoved_sub_line:
-  
-
-sub_line:
- *builder.append(quotedColorCheckBox,quotedColorButton); 
-
-frontremoved_sub_line:
- lder.append(quotedColorCheckBox,quotedColorButton); 
-
-predict_string_new:
- //itsmaybebettertoleavethisoptionoutofthedialog 
-
-line_no || similarity 
-
-365 || 0.7014925373134329 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/gui/config/general/MailOptionsDialog.java 
-
-under_code:
-* builder.append(quotedColorCheckBox, quotedColorButton);
- 
-
-ーーーーーーーーSearch the target string34ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODO:Makethishackmorei18ncompatible
- 
-predict_string:
- //TODO:Makethishackmorei18ncompatible 
-
-line_no || similarity 
-
-355 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/core/src/main/java/org/columba/core/main/Bootstrap.java 
-
-under_code:
-if (commandLine.hasOption("version")) {
- 
-
-ーーーーーーーーSearch the target string35ーーーーーーーーーーーーーーー
- 
-search_string:
- /*TODOmoveresourcestoaresourcefile*/
- 
-predict_string:
- /*TODOmoveresourcestoaresourcefile*/ 
-
-line_no || similarity 
-
-66 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/core/src/main/java/org/columba/core/gui/scripting/ScriptManager.java 
-
-under_code:
-private static final String
- 
-
-ーーーーーーーーSearch the target string36ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODO:useUndoableEditEventtomakethisreallywork
- 
-predict_string:
- //TODO:useUndoableEditEventtomakethisreallywork 
-
-line_no || similarity 
-
-96 || 1.0 
-
-filepath:
- /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/core/src/main/java/org/columba/core/gui/util/CTextField.java 
-
-under_code:
-return true;
- 
-
-ーーーーーーーーSearch the target string37ーーーーーーーーーーーーーーー
- 
-search_string:
- //TODO:Shouldwetakesomeactiontoensuresignatureisvalid//html?
- 
-sub_line:
- //html? 
-
-frontremoved_sub_line:
- ml? 
-
-sub_line:
- buf.append(signature); 
-
-frontremoved_sub_line:
- append(signature); 
-
-predict_string_new:
- //TODO:Shouldwetakesomeactiontoensuresignatureisvalid 
-
-line_no || similarity 
-
-327 || 0.9380530973451328 
-
-filepath:
-   /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/mail/src/main/java/org/columba/mail/composer/MessageComposer.java 
-
-under_code:
-buf.append(signature);
- 
-
-ーーーーーーーーSearch the target string38ーーーーーーーーーーーーーーー
- 
-search_string:
- /*XXXshouldthisbefiredbyadifferentthread?*/
+ //redundantwithconstructor
  

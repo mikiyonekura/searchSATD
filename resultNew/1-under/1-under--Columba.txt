@@ -1,0 +1,4090 @@
+decryptedBodyPart = StreamUtils
+buf.append("<!DOCTYPE HTML PUBLIC "
+if ( name.equals("MultiLine")) {
+}
+Wizard wizard = new Wizard(model, "External Tools Configuration",
+* @see org.columba.api.gui.frame.IContainer#setToolBar(org.columba.core.gui.toolbar.ToolBar)
+Wizard wizard = new Wizard(model, "External Tools Configuration",
+public static URI createURI(String folderId, Object messageId) {
+private void updateList() {
+/*
+*                         (null on error)
+return null;
+return null;
+if (mediator instanceof ThreePaneMailFrameController) {
+}
+// pass command to scheduler
+return null;
+allDayEvent = startAtNullOClock && endAtNullOClock;
+addStorageListener(StoreEventDelegator.getInstance());
+public class ContactDetailsContextualProvider implements IContextProvider {
+IContactModel card = null;
+if (IndexReader.getCurrentVersion(luceneIndexDir) != luceneLastModified) {
+observerThread = new ObserverThread(
+/*
+if( info.getParameter(ListInfo.HASCHILDREN)) {
+/** Special entities recognized by restore special entities */
+MimeType firstPartMimeType = mimePartTree.getRootMimeNode().getHeader()
+* @return        text with email-adresses transformed to links
+String title = (String) folder.getAttribute(messageId,
+private static Point _location = new Point(100, 100);
+return null;
+JOptionPane.showMessageDialog(null,
+* builder.append(quotedColorCheckBox, quotedColorButton);
+if (commandLine.hasOption("version")) {
+private static final String
+return true;
+buf.append(signature);
+List listeners = getListeners(event.getEventId());
+private StreamCache cache;
+public interface IFolderItem extends IDefaultItem{
+for (Iterator it = interpreters.entrySet().iterator(); it.hasNext();)
+// create filterlist datastructure
+/**
+// set size of mPane according to the available width
+* classLoader = ClassLoader.getSystemClassLoader();
+// remember plugin metadata
+IEventInfo eventInfo = new EventInfo(model.getId(), "", model);
+public static boolean ENABLE_TAGS = false;
+SessionController.serializePortNumber(-1);
+path = commandLine.getArgList().toString();
+None
+/*
+JMenuItem item = new JMenuItem(GlobalResourceLoader.getString("org.columba.core.i18n.dialog",
+manager.executeSearch(searchTerm, providerName, criteriaName,
+private void updateMenu() {
+boolean foundMatch = false;
+buttonPanel.add(helpButton);
+if (child == e) {
+// This is a workaround. Generally, the contact dialog editor
+SearchBar searchBar = new SearchBar(mediator.getSearchPanel(), mediator);
+public class CloneStreamMaster {
+HashMap<String, String> map = new HashMap<String, String>();
+* enable/disable actions
+createSubMenu();
+addKeyListener( new KeyListener() {
+} else if( mimePart instanceof LocalMimePart && ((LocalMimePart)mimePart).getBody() instanceof FileSource){
+public static String[] items = {
+JMenuItem item = new JMenuItem(MailResourceLoader.getString("dialog",
+public void innerCopy(IMailbox destFolder, Object[] uids)
+RistrettoLogger.setLogStream(System.out);
+.getService(
+browser.setFocusable(false);
+while (tx.isActive())
+* [bug] fdietz: added "." and "-" as regular characters
+// fall-back to formatted name
+public class ContactContextualProvider implements
+this.list = new Vector<Runnable>();
+// every year?
+return new String("Columba File Filter"); //$NON-NLS-1$
+public class StructureValue implements IStructureValue {
+if (restartRequired) {
+label8.setText(NOT_AVAIL);
+if ((sizePolicy == VERTICAL) || (sizePolicy == BOTH)) {
+ShutdownManager.getInstance().shutdown(0);
+private static final String RES_MENU_ITEM = "Macros";
+}
+LOG.setUseParentHandlers(false);
+hb = hs.createHelpBroker();
+// This is a workaround. Generally, the contact dialog editor
+}
+// we simply append URLs to the existing global class loader
+if (OSInfo.isMac()) {
+try {
+// This is a workaround. Generally, the contact dialog editor
+// This is a workaround. Generally, the contact dialog editor
+* protected static ClassLoader loader = ClassLoader.getSystemClassLoader();
+key = "Content-Type"; // X-Attachments header is
+throw new RuntimeException("Could not retrieve default menu bar");
+}
+/*
+HeaderfieldFilter filter = new HeaderfieldFilter();
+int index = s.lastIndexOf('/');
+return null;
+}
+return true;
+void setHeader(Header header);
+return model.getDocument();
+return eventInfo;
+return null;
+}
+void setHeader(Header header);
+return false;
+* String lcase = bodyText.toLowerCase(); StringBuffer buf = new
+e.printStackTrace();
+e.printStackTrace();
+LOG.warning(arg0);
+pgpMessage = "wrong passphrase";
+sizeComboBox.setEnabled(false);
+JOptionPane
+String uuid = new UUIDGenerator().newUUID();
+Wizard wizard = new Wizard(model, "External Tools Configuration",
+InputStream messageSourceStream = folder.getMessageSourceStream(uid);
+comboMenu.addMenuItem(element, element);
+Wizard wizard = new Wizard(model, "External Tools Configuration",
+PluginManager.getInstance().setEnabled(id,
+}
+Wizard wizard = new Wizard(model, "External Tools Configuration",
+/*
+IContactStorage store = getTree().getSelectedFolder();
+FormLayout layout = new FormLayout(
+if ( active ) {
+filterListElement = new XmlElement(FilterList.XML_NAME);
+HelpManager.getInstance().enableHelpOnButton(helpButton,
+else if (comp instanceof JScrollPane) {
+try {
+IColumbaHeader header = getHeaderList().remove(uid);
+FolderTreeModel.getInstance().nodeStructureChanged(parent);
+telephoneTextField2.setColumns(20);
+criteriaList.updateComponents(b);
+File tmpFile = writeToFile(editController);
+* treeViewer.getFolderTree().addUserFolder( getSelectedFolder(),
+folder = (IMailbox) FolderTreeModel.getInstance()
+formattedNameButton.setText(bundle
+IFilterRule filterRule = filter.getFilterRule();
+MimePart mp;
+getConfiguration().getRoot().getParent().removeElement(
+if (firstNameTextField.getText() != null) {
+String userVisibleName = id;
+nameTextField.setText(filter.getName());
+JPanel buttonPanel = new JPanel();
+if (bodyPart.getHeader().getMimeType().getSubtype().equals("html")) {
+IFilterRule filterRule = destFolder.getFilter().getFilterRule();
+IMailFolderCommandReference ref2 = model.getSourceReference();
+String name = action.getAction();
+calendarLabel.setText(bundle
+private CheckableTooltipList checkableList;
+dateFound = true; // we got a date header (store this
+Enumeration e = handler.getExtensionEnumeration();
+new FileInputStream(fromFile), "ISO-8859-1"));
+DefaultMutableTreeNode nextNode = currNode.getNextNode();
+parent.addSubfolder(child);
+switch (header.getContentTransferEncoding()) {
+treeHandler.addSelectionListener(tableHandler);
+if (col == 2) {
+* @see org.columba.ristretto.message.Message#getHeader()
+destModel.setFamilyName(fullNameDialog.getLastNameTextField()
+ShutdownManager.getInstance();
+date = new Date();
+// dtStart1.getParameters().getParameter(
+DefaultFormBuilder builder = new DefaultFormBuilder(layout, p);
+IMailFolder parent = (IMailFolder) FolderTreeModel.getInstance().getRoot();
+throw new SyntaxException("Root element must be <vcard>!");
+IExtension extension2 = handler.getExtension("IMAPFolder");
+JPanel panel = new JPanel();
+private JCheckBox enableTextIndexingCheckBox;
+//		tagListDockable = registerDockable("addressbook_taglist",
+promptUserForFolder();
+if (model.getMessage().getHeader().getHeader().get("From") != null) {
+int rgb = getFilterAction().getIntegerWithDefault("rgb", Color.black.getRGB());
+treePathButton.addActionListener(this);
+if (variant == null) {
+IMailFolderCommandReference ref2 = model.getSourceReference();
+if (renameFolder) {
+String incomingServerPanelTitle = MailResourceLoader.getString(
+Object uid = addMessage();
+child.setInbox(inbox);
+builder.add(enableTextIndexingCheckBox, cc.xywh(2, 13, 4, 1));
+public AddressbookDNDListView() {
+IFolderItem item = parent.getConfiguration();
+int index = list.locationToIndex(p);
+FormLayout layout = new FormLayout(
+String[] split = createAttachmentListFromHeader(body,
+}
+File soundFile = new File("sound.wav");
+// get the "To" headerfield from the header
+/**
+for (int i = 0; i < uids.length; i++) {
+private String path = MailConfig.getInstance().getConfigDirectory()
+// "Not enough tokens in \""
+CopyMessageCommand command = new CopyMessageCommand(ref);
+if (acceptDrop == true) {
+if ( charset.equals(UTF8)) {
+IExtension extension = pluginHandler.getExtension((String) data
+if (e.getCause() instanceof IMAPException)
+private static final Pattern groupPattern = Pattern
+// for(int i=0;i<references.length;i++)
+pos = lcLine.indexOf('=', pos);
+Toolkit.getDefaultToolkit().getScreenSize().width / 3, 50));
+Iterator it = c.getEmailIterator();
+// "Not enough tokens in \""
+* buffer.append("."); buffer.append(record.getSourceMethodName());
+newVisRange = rollWithYears(newVisRange,
+overwriteLabel = new MultiLineLabel(MailResourceLoader.getString(
+bottom.add(buttonPanel, BorderLayout.EAST);
+MailFolderCommandReference r = new MailFolderCommandReference(
+byte[] ciphertext = blowCipher.doFinal(cleartext);
+builder.setDefaultDialogBorder();
+None
+charset = line.substring(pos, end);
+GroupModelPartial item = (GroupModelPartial) headerItem;
+builder.appendSeparator(GlobalResourceLoader.getString(RESOURCE_PATH,
+if (!contentTypeFound) {
+centerPanel = new JPanel();
+public void testConstructorStrStr() {
+None
+// layout.setVisualDateRangeRounder(new BoundaryRounder(DateRangeI.RANGE_TYPE_DAY, true, false, false));
+cancelButton.addActionListener(this);
+public void searchAll(String searchTerm, boolean searchInside) {
+c.weighty = 1.0;
+public void testSubstract() {
+if (getSearchEngine() == null)
+command.execute(NullWorkerStatusController.getInstance());
+String attribute = text.getAttribute("value");
+Boolean[] b = new Boolean[CachedHeaderfields.INTERNAL_COMPRESSED_HEADERFIELDS.length];
+/**
+if (header.length() > 0) {
+bgShape.setAttribute(AShape.A_REPORT_HIT_AREA, Boolean.TRUE);
+if (folder instanceof AbstractLocalFolder) {
+mainConstraints.gridwidth = GridBagConstraints.RELATIVE;
+JButton closeButton = new JButton("Close");
+String unique = getUniqueBoundary(body);
+CheckableItemImpl column = (CheckableItemImpl) model
+if (worker.cancelled()) {
+worker.setDisplayText("Applying filter to " + srcFolder.getName()
+GroupModelPartial item = (GroupModelPartial) headerItem;
+int pos = s.indexOf("boundary=");
+cancelButton.addActionListener(this);
+if (strbuf.length() > 0) {
+streams.add(header.getHeader().getInputStream());
+LOG.severe("Not enough tokens in \"" + dateStr
+optionsItem.notifyObservers(OptionsItem.MARKASREAD);
+String[] split = createAttachmentListFromAttachmentConverted(body);
+Object[] uids = getUids();
+} else {
+LOG.info("removing uid=" + uid);
+String from = presence.getFrom();
+}
+fonts.addObserver(this);
+IColumbaHeader header = headerList.get(uid);
+protected JButton okButton;
+class MyTagListener implements ITagListener {
+}
+fireTagAddedEvent(tag.getId());
+* @see org.columba.ristretto.message.Message#getHeader()
+// @see org.columba.mail.gui.composer.text.TextEditorController
+setDisabledIcon(ImageUtil.createTransparentIcon((ImageIcon) icon));
+String normalizedFrom = from.replaceAll("\\/.*", "");
+setCellRenderer(new MyListCellRenderer());
+fireTagAddedEvent(tag.getId());
+IAttributeType attr = type.addAttribute("name", "ns");
+public static String getPlatformDefaultTheme() {
+builder.setLeadingColumnOffset(1);
+IBuddyStatus buddy = (IBuddyStatus) ((IChatFrameMediator) frameMediator)
+return this;
+CheckableItemListTableModel model = new CheckableItemListTableModel();
+if (notAdded == true)
+List recipientList = model.getRCPTVector();
+JLabel iconLabel = new JLabel();
+if (OSInfo.isLinux() || OSInfo.isSolaris()) {
+savemsg = new XmlElement("savemsg");
+Iterator it = roster.getGroups();
+property.addElement(optionsItem.getElement());
+buddy.setPresenceMode(p.getMode());
+property.removeAllElements();
+StringBuffer buf = new StringBuffer();
+setChanged(true);
+this.pattern = pattern;
+MailFolderCommandReference r = new MailFolderCommandReference(
+mediator.getTree().setSelectedFolder(folder);
+fireFolderPropertyChanged();
+initHeader(folder, uids);
+//
+None
+builder.append(languageLabel);
+/*
+IStructureType recipients = message.addChild("recipients",
+Color newColor = JColorChooser.showDialog(this, MailResourceLoader
+frameMediator.fireStatusMessageChanged("");
+GroupFolder folder = (GroupFolder) mediator.getTree()
+condition = f.getCriteria();
+if (mediator.getConversationController().exists(jabberId) == false) {
+public PGPPassphraseDialog() {
+ICommand c = null;
+// PlaceRect bgAbsRect = new AbsRect(new AtStart(0), new AtStart(0), new
+destModel.setNickName(nicknameTextField.getText());
+selectedFolder.modify(selected.getId(), dialog.getDestModel());
+CellConstraints cc = new CellConstraints();
+protected DefaultSearchEngine searchEngine;
+if (tok.hasNext() == false) {
+nicknameTextField.setText(sourceModel.getNickName());
+public void testCreateStringListFromItemList() {
+public AbstractMessageFolder(FolderItem item) {
+String replacementDate = null; // date fetched from "From ???@??? ..."
+.getIcon(IconKeys.PREFERENCES)),
+InputStream messageSourceStream = ((IMailbox)folder).getMessageSourceStream(uid);
+BasicHeader rfcHeader = new BasicHeader(folder.getHeaderFields(
+// -> check if <Subject> <contains> pattern <test>
+group1 = new GroupItem("0", "groupname1", "description1");
+if (f == null) {
+String[] uids = mediator.getTable().getUids();
+JPanel topPanel = new JPanel();
+if ((selection != null) && (!selection.equals("Default"))) {
+JPanel centerPanel = new JPanel(new BorderLayout());
+((TestCommand) ((OperationItem) processor.operationQueue.get(0))
+ByteArrayInputStream inputStream = FolderTstHelper
+JPanel topBorderPanel = new JPanel();
+command.execute(NullWorkerStatusController.getInstance());
+else {
+((TestCommand) ((OperationItem) processor.operationQueue.get(0))
+for (int i = selectedRows.length - 1; i >= 0; i--) {
+None
+* @see org.columba.ristretto.message.Message#getHeader()
+c.insets = new Insets(0, 0, 0, 11);
+try {
+* ImageLoader.getImageIcon("contact_small","Add16").getImage(), new
+IStructureType type = factory.createStructure("userlist", "ns");
+pattern = filterCriteria.get("pattern");
+return suite;
+if (headerItem == null)
+* @see org.columba.ristretto.message.Message#getHeader()
+builder.append(languageLabel);
+IExtensionHandler handler = PluginManager
+Iterator it2 = c.getAddressIterator();
+if (Logging.DEBUG)
+List subscribedFolders = new ArrayList(Arrays.asList(lsub));
+List<Object> list1 = new ArrayList<Object>();
+boolean result = match(headerItem, condition, pattern);
+if (mediator instanceof IDock) {
+headerItem = EncodedWord.decode(headerItem).toString();
+.getService(
+condition = f.getCriteria();
+assertEquals( 0, cache.getActSize());
+srcFolder.innerCopy(destFolder, uids);
+if (namespaces.getPersonalNamespaceSize() > 0) {
+CompoundCommand command = new FilterCompoundCommand(filter, srcFolder, result);
+((VirtualFolder) destFolder).deactivate();
+new GridLineRepetition(0, 1, new AtStart(0f),
+Collections.sort(messageAddedList[swap], FolderEventComparator
+None
+namespaces = new NamespaceCollection();
+if (!str.startsWith("From ") || (str.length() == 0)) {
+synchronizeHeaderlist();
+CheckableItemImpl rootNode = new CheckableItemImpl(root.getName());
+Header header = ((IMailbox)folder).getHeaderFields(uid,
+MouseHandler handler = new MouseHandler();
+bottom.add(buttonPanel, BorderLayout.EAST);
+.getService(
+subscribedFolders.add(new ListInfo("INBOX", null, 0));
+public void formatChanged(FormatChangedEvent event) {
+.getService(
+"12px, right:default, 6px, default:grow", ""); //$NON-NLS-1$ //$NON-NLS-2$
+} catch (BadLocationException e) {
+IStructureValue identity = it.next();
+int index = getIndex(selectedItem);
+IFilterActionList list = filter.getFilterActionList();
+Object uid = getSourceFolder().addMessage(inputStream);
+}
+HtmlEditorController2 editorController = (HtmlEditorController2) ((ComposerController) frameMediator)
+MailFolderCommandReference r = new MailFolderCommandReference(
+IFilterAction action = list.get(i);
+for (;i.hasNext();) {
+int size = Math.max(source.length() / 1024, 1);
+return currentEditorController;
+String name = action.getAction();
+* Method is called when configuration changes.
+JSCFConnection con = JSCFDriverManager.getConnection("jscf:gpg:"+pgpItem.get("path"));
+builder.append(languageLabel);
+}
+File[] scripts = getNewScripts();
+insertLink = true;
+int selectedIndex = getIndex(selectedItem);
+fonts.addObserver(this);
+p.showAllResults(mediator, emailAddress,
+.getIcon(IconKeys.PREFERENCES)),
+MailFolderCommandReference ref = new MailFolderCommandReference(
+String css = getDefaultStyleSheet();
+InputStream outputStream = sourceFolder.getMessageSourceStream(uid);
+new ViewHeaderListAction(this).actionPerformed(null);
+HeaderfieldFilter filter = new HeaderfieldFilter();
+c.setEndField(java.util.Calendar.MINUTE, 59);
+private static final String HEADERFIELD = "headerfield";
+//if (headerKeys[i].equalsIgnoreCase("date")) {
+if (selectedItem.equals("custom_search")) {
+MessageFrameController c = new MessageFrameController(
+((TestCommand) ((OperationItem) processor.operationQueue.get(0))
+VirtualFolder searchFolder = prepareSearchFolder(c, sourceFolder);
+searchFolder.getConfiguration()
+final Object obj = getObject(theName, theNamespace);
+SyncHeaderList.sync((AbstractMessageFolder) srcFolder,
+searchFolder.addSearchToHistory();
+* @see org.columba.ristretto.message.Message#getHeader()
+VirtualFolder tagFolder = new VirtualFolder("Tag Folder", folder);
+TreeSelectionChangedEvent event = (TreeSelectionChangedEvent) e;
+ComposerController controller = new ComposerController();
+TableSelectionHandler tableHandler = new TableSelectionHandler(
+* @see org.columba.core.gui.focus.FocusOwner#isCutActionEnabled()
+executeSearch();
+contents.reset();
+IMailFolderCommandReference ref = frameMediator.getTreeSelection();
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+IMailFolderCommandReference newRefs = filterMessage(folder, uid);
+command.execute(NullWorkerStatusController.getInstance());
+class HeaderSeparatorBorder extends AbstractBorder {
+} catch (ParserException e) {
+None
+MoveUpAction moveUpAction = new MoveUpAction(this);
+treeController.getView().getActionMap().put("F2", renameFolderAction);
+MoveUpAction moveUpAction = new MoveUpAction(this);
+oldFlags.setSeen(false);
+if (folder instanceof IMailbox)
+new GridLineRepetition(1, 1,
+if (currentFolder instanceof IMailbox) {
+CommandProcessor.getInstance().addOp(
+private JButton removeButton;
+new ViewMessageAction(this).actionPerformed(null);
+updateTreeDockableTitle();
+FrameManager.getInstance().close(null);
+TreeNode[] nodes = childFolder.getPath();
+boolean markedAsDraft = node.getHeader().getFlags().getDraft();
+c.add(bottomPanel, BorderLayout.SOUTH);
+int selectedRow = tableController.getView().getSelectedRow();
+return this;
+new OpenMessageWithComposerAction(
+IMailbox inboxFolder = server.getFolder();
+new OpenMessageWithMessageFrameAction(
+searchFolders.put(searchRequestId, folder);
+JScrollPane treeScrollPane = new JScrollPane(treeController.getView());
+private Map map;
+JPanel p = new JPanel();
+if (newMessages > 0) {
+splitPane.setOrientation(JSplitPane.VERTICAL_SPLIT);
+putValue(SHORT_DESCRIPTION, AddressbookResourceLoader.getString("menu",
+}
+splitPane.setOrientation(JSplitPane.VERTICAL_SPLIT);
+putValue(SMALL_ICON, ImageLoader.getSmallIcon(IconKeys.EDIT_PASTE));
+String input = FolderTstHelper.getString(0);
+MimePart bodyPart = null;
+setSize(splashimg.getIconWidth(), splashimg.getIconHeight());
+saveContact(card);
+putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_V,
+protocol.userPass(popItem.get("user"), password);
+new GridLineRepetition(0, 2,
+}
+IMailFolder newFolder = ((TableSelectionChangedEvent) e).getFolder();
+l_date = new JLabel("Date");
+return parentController.getTableController();
+fireMessageSelectionChangedEvent(folder, uid.toString());
+.getIcon(IconKeys.PREFERENCES)),
+int lastName = -1;
+for (int i = 0; i < files.length; i++) {
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(
+if (previouslySelectedFolder != null) {
+address = Address.parse(url.getSender());
+IMailFolderCommandReference r = ((MailFrameMediator) getFrameMediator())
+if (newRefs != null) {
+IStructureValue value = getSemanticContext().createValue();
+// Check if all local uids have been deleted
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+totalMessageCount = server.getMessageCount();
+putValue(SMALL_ICON, ContactImageLoader
+new com.miginfocom.calendar.header.CellDecorationRow(
+((StatusObservableImpl) srcFolder.getObservable()).setWorker(worker);
+b.append("&Resource:", resourceTextField);
+// Which Bodypart shall be shown? (html/plain)
+table.setSelected(new Object[] { previousNode.getUid() });
+centerPanel = new JPanel();
+DefaultMutableTreeNode currNode = (DefaultMutableTreeNode) tableController
+setResizeWeight(0.25);
+if (node_ok) {
+if (updateGui) {
+while (found != deletedMessages && localPointer >= 0
+FileObserverThread.getInstance().setScriptList(beanshellScripts);
+CommandProcessor.getInstance().addOp(
+organizationalIdentity.getOrganization().setName(c.getOrganisation());
+savemsg = new XmlElement("savemsg");
+Object fromObj = srcFolder.getAttribute(uid, "columba.from");
+CreateFilterOnMessageCommand c = new CreateFilterOnMessageCommand(getFrameMediator(), r,
+String message = createMessage(to, accountUid);
+prepareContextData();
+recentLabel2 = new JLabel("0"); //$NON-NLS-1$
+messageController.updateGUI();
+sizeLabel2 = new JLabel(); //$NON-NLS-1$
+IMessageController messageController = ((MessageViewOwner) mediator)
+mediator.getSemanticContext().setValue(value);
+totalLabel2 = new JLabel("0"); //$NON-NLS-1$
+Flags oldFlags = getSourceFolder().getFlags(uid);
+setShowToolBarText(false);
+IMailFolderCommandReference r = mediator.getSelectedReference();
+if (mimePartTree == null)
+if (!attachmentHandlerExecuted) {
+public void testEqualsObject() {
+saveContact(card);
+if (!success) {
+if (folder == null)
+// <,>,&,\t,\n,"
+if (comp instanceof FilterListTable) {
+if (fileName != null) {
+this.mediator.removeListener(this);
+String output = FolderTstHelper.getStringFromInputStream(outputStream);
+}
+worker.setProgressBarValue(0);
+getPopupMenu().show(e.getComponent(), p.x, p.y);
+if (messageFolderInfo.getRecent() < 0) {
+tempFile.renameTo(destFile);
+XmlElement root = getRoot();
+XmlElement emptyAccount = root.getElement("/template/" + type
+XmlElement tableElement = MailConfig.getInstance().get("options")
+IMailFolderCommandReference ref = new MailFolderCommandReference(srcFolder,
+if (decryptedBodyPart.length() == 0) {
+}
+decryptedStream = encryptedPart;
+MailFilterCriteria criteria = MailFilterFactory
+public void createChildren(IWorkerStatusController c) {
+return filter(folder, uid, message);
+filter.setUp(criteria);
+message = new ColumbaMessage(folder.getAllHeaderFields(uid));
+String s = location.toString();
+else {
+InputStream signedPart = folder.getMimePartSourceStream(uid,
+buf.append(body.substring(bodyEnd));
+Object[] uids = ((MailFolderCommandReference) getReference()).getUids();
+InputStream signature = folder.getMimePartBodyStream(uid,
+stateChanged(null);
+StringTokenizer st = new StringTokenizer(nameInputStr, ", ");
+if ( defaultAccount == null ) {
+// -> check if <Subject> <contains> pattern <test>
+private String name;
+* @see org.columba.ristretto.message.Message#getHeader()
+body = HtmlParser.substituteEmailAddress(body);
+assertNotSame("item and item2 refers to the same object", item, item2);
+HeaderfieldFilter filter = new HeaderfieldFilter();
+if (list.getSelectedIndices().length <= 1) {
+fonts.addObserver(this);
+streams.add(new ByteArrayInputStream(endBoundary));
+AtNumber leftEdgeX = new AShapeLinkNumber(root, AtStart.START0,
+final List<ISearchResult> resultList = p.query(searchTerm,
+TableSelectionHandler h1 = ((TableSelectionHandler) mediator
+if (lcase.indexOf("<!doctype") == -1) {
+if (from != null) {
+os.write(new String("From \r\n").getBytes());
+((MailFrameMediator) mediator).setTreeSelection(null);
+AbstractLocalFolder localFolder = (AbstractLocalFolder) folder;
+assertFalse("item and item3 are equal", item.equals(item3));
+if (sizeInKB > 1000)
+if( charsetName.equalsIgnoreCase("us-ascii")){
+int bodyEnd = lcase.indexOf("</body");
+private LocalCalendarStore storage;
+builder.append(languageLabel);
+builder.append(languageLabel);
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+if (enableSmilies == true) {
+connected = true;
+* @see org.columba.ristretto.message.Message#getHeader()
+if (store.isSupported("NAMESPACE")) {
+// suggestionsJScrollPane.setMaximumSize( new Dimension(
+body = DocumentParser.markQuotings(body);
+worker.clearDisplayTextWithDelay();
+if (namespaces.getOtherUserNamespaceSize() > 0) {
++ " --no-rebuild --spam --single");
+String delayString = markasread.getAttribute("delay", "2");
+if ( count > from.length()/3) return MAX_PROBABILITY;
+g2d.drawLine(w - 1, 1, w - 1, h);
+if (info.getName().equalsIgnoreCase("INBOX") && info.getDelimiter() == null) {
+outboxFolder = (OutboxFolder) r.getSourceFolder();
+if (header.getFileName() != null) {
+if (result) {
+String[] hierarchy = listInfo.getName().split(
+public void waitForThreads() throws Exception {
+} else if (tokens.size() == 1) {
+* @see org.columba.ristretto.message.Message#getHeader()
+searchFolder.getFilter().getFilterRule().add(c);
+Integer largestDestUid = new Integer(-1);
+public FindReplace(){  // constructor for the class
+tableController.getView().addMouseListener(new TableMouseListener());
+assertFalse("The hashcodes of item and a new object are the same",
+for (int i = 0; i < displayedMimeParts.size(); i++) {
+* sourceFolder = new CachedMHFolder("test", "CachedMHFolder",
+setDoubleClickAction(new OpenAttachmentAction(mediator, this));
+tableController.getView().getActionMap().put("F2", renameFolderAction);
+* @see org.columba.ristretto.message.Message#getHeader()
+initHtmlConfiguration(optionsElement);
+StringBuffer tooltip = new StringBuffer();
+cancelButton.addActionListener(this);
+new DialogHeaderPanel(
+xmlIo.load(url);
+titleTextField.setColumns(20);
+MessageNode node = (MessageNode) ((HeaderTableModel) tableController
+* @see org.columba.ristretto.message.Message#getHeader()
+private static MarkAsReadTimer myInstance = new MarkAsReadTimer();
+cancelButton.addActionListener(this);
+return item;
+private static final int ONE_SECOND = 1000;
+private int delay;
+nameTextField = new JTextField();
+add(viewerPlugin.getContainer(), BorderLayout.CENTER);
+return null;
+XmlElement headerviewerElement = MailConfig.getInstance()
+MacchiatoLogger.setParentLogger(Logger
+private XmlElement smilies;
+message.setSourceStream(in);
+None
+composerController = r.getComposerController();
+super(folderItem);
+(["+punc+"]*)"  any Punctuation
+ProbabilityMap map = RuleList.getInstance().getProbabilities(mailbox,
+htmlMessage = bodyPart.getHeader().getMimeType().getSubtype()
+if (!htmlMessage) {
+if (db.MD5SumExists(md5sum)) {
+header = folder.getHeaderFields(uid, headers);
+private boolean validArguments(ComposerCommandReference reference) {
+StringBuffer text = StreamUtils.readCharacterStream(bodyStream);
+body = text.toString();
+boolean result = filter.process(getSourceFolder(), uid);
+text = new StringBuffer(HtmlParser.stripHtmlTags(text.toString(),
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.mail.gui.message.viewer.IMimePartViewer#view(org.columba.mail.folder.IMailbox,
+initHTMLViewerPlugin();
+}
+* @see org.columba.ristretto.message.Message#getHeader()
+controller.setComposerModel(model);
+smtpServer = new SMTPServer(accountItem);
+int index = str.indexOf(':');
+* @see org.columba.ristretto.message.Message#getHeader()
+body = MessageParser.transformTextToHTML(text.toString(), css,
+protocol.data(new ProgressObservedInputStream(
+final Object obj = getObject(theName, theNamespace);
+}
+viewItem = mediator.getViewItem();
+final ColumbaURL mailto = extractMailToURL(ev);
+.getIcon(IconKeys.PREFERENCES)),
+int result = JOptionPane
+if (this.findChildWithUID(specialUid, true) == null) {
+putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_V,
+return getDefaultAccount().getSpamItem();
+* @see org.columba.ristretto.message.Message#getHeader()
+private JPopupMenu attachmentViewerPopup = new JPopupMenu();
+} else {
+* @see org.columba.ristretto.message.Message#getHeader()
+setLayout(new FormLayout(new ColumnSpec[] {
+SwingUtilities.invokeLater(new Runnable() {
+* @see org.columba.ristretto.message.Message#getHeader()
+image = new ImageIcon(image.getImage().getScaledInstance(16, 16,
+List newMessagesUidList = synchronize();
+private Identity identity;
+* @see org.columba.ristretto.message.Message#getHeader()
+"<table style=\"background-color: #dddddd;\" cellspacing=\"0\">");
+* @see org.columba.ristretto.message.Message#getHeader()
+SpecialFoldersItem item = MailConfig.getInstance().getAccountList()
+* @see org.columba.ristretto.message.Message#getHeader()
+replacementDate = "";
+return (JComponent[]) vector.toArray(new JComponent[0]);
+* @see org.columba.ristretto.message.Message#getHeader()
+if (mimeParts.size() > 1) {
+String meta = "<meta " + "http-equiv=\"Content-Type\" "
+"fill:default:grow");
+while ((str = in.readLine()) != null) {
+String list = headerviewerElement.getAttribute("headerfields");
+* @see org.columba.ristretto.message.Message#getHeader()
+result = ((Integer) supported.get(0)).intValue();
+removeBodyParts(model, displayedMimeParts);
+public void cut();
+item.setString("id", model.getAccountItem().getIdentity()
+((AddressbookFrameMediator) newMediator).getTree().setSelectedFolder(
+for (int i = 0; i < 10; i++) {
+JButton helpButton = new JButton("Help");
+if (sourceModel == null)
+if (sendMessageDialog != null) {
+Object[] uids = r.getUids();
+None
+body = composeHtmlMimePart(appendSignature);
+VirtualFolder searchFolder = createVirtualFolder(folder);
+* @see org.columba.ristretto.message.Message#getHeader()
+body = composeTextMimePart(appendSignature);
+* @see org.columba.ristretto.message.Message#getHeader()
+f.setUp(filterCriteria);
+worker.addWorkerStatusChangeListener(listener);
+pos = lcase.indexOf("<html") + 6;
+* @see org.columba.ristretto.message.Message#getHeader()
+bodyPart.getHeader().putContentParameter("charset", charsetName);
+if (header.get(key) == null) {
+StreamableMimePart bodyPart = (StreamableMimePart) model
+* @see org.columba.ristretto.message.Message#getHeader()
+int x = viewItem.getIntegerWithDefault(ViewItem.WINDOW,
+if (size > maxSize) {
+return button;
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+if (body.length() == 0) {
+FilterCriteria criteria = createFilterCriteria(searchTerm,
+* @see org.columba.ristretto.message.Message#getHeader()
+LocalMimePart bodyPart = new LocalMimePart(new MimeHeader("text",
+if ( filter.getEnabled() == false) continue;
+if (model.isHtml()) {
+pos = lcase.indexOf('>', pos) + 1;
+File configPath = config.getPath();
+view.resetRowHeight();
+.getIcon(IconKeys.PREFERENCES)),
+AccountItem item = model.getAccountItem();
+* @see org.columba.ristretto.message.Message#getHeader()
+FolderTreeModel.getInstance().nodeChanged(newFolder);
+* @see org.columba.ristretto.message.Message#getHeader()
+IColumbaMessage message = getMessage(uid);
+int counter = -1;
+String charsetName = model.getCharset().name();
+AccountItem item = CommandHelper
+XmlElement expected = new XmlElement("big_name");
+int result = JOptionPane
+body = HtmlParser.substituteURL(body, false);
+card.setSortString(token.toString());
+// insert document type decl.
+ContentType conType = new ContentType(header); // parse
+ListTools.substract(testList, new LinkedList());
+Object[] resultUids = null;
+List<ISearchResult> l = retrieveResultData(indizes, startIndex,
+if (((String) header.get(key)).length() == 0) {
+filter.correctMessageAsSpam(message);
+dateAreaBean.getDateArea().setGridLineSpecProvider(
+IWorkerStatusChangeListener listener = new IWorkerStatusChangeListener() {
+LocalMimePart bodyPart = new LocalMimePart(new MimeHeader("text",
+* @see org.columba.ristretto.message.Message#getHeader()
+StreamableMimePart textPart = composeTextMimePart(appendSignature);
+ensureSelectedState(folder);
+String[] split = createAttachmentListFromHeader(body,
+if (!first || password.length == 0) {
+StreamableMimePart htmlPart = composeHtmlMimePart(appendSignature);
+{
+header.setFlags(model.getMessage().getHeader().getFlags());
+str = HtmlParser.substituteSpecialCharactersInHeaderfields(str);
+if (e.getCause() instanceof IMAPException)
+Object[] srcUids = new Object[virtualHeader.size()];
+if (loginMethod == AuthenticationManager.LOGIN) {
+tc.setCellRenderer(new BasicRenderer("columba.subject"));
+header.getAttributes().put("columba.attachment",
+Header header = srcFolder.getHeaderFields(uid, new String[] {
+List displayedMimeParts = collection.getAllLeafs();
+int s1 = noLinkMatcher.start();
+if (vColIndex >= 0) {
+if(controller.getSelectedFolder() != null && controller.getSelectedFolder().equals(r.getSourceFolder()) && controller.getSelectedMessageId() != null && controller.getSelectedMessageId().equals(r.getUids()[0])) {
+int tagStartClose = lowerCaseContent.indexOf(">", tagStart) + 1;
+public void setToolTip(TableColumn col, String tooltip) {
+return button;
+if (firstNameTextField.getText().indexOf(",") != -1) {
+FormLayout layout = new FormLayout(
+int length = s.length();
+int s1 = noLinkMatcher.start();
+}
+IMAPFlags[] result = new IMAPFlags[pos];
+private Map tips = new HashMap();
+JButton button = createAttachmentItem(mp);
+private TableColumn curCol;
+if (closeLink.end() >= s1) {
+if (accountItem == null) {
+if (uids.length == 0) {
+IMailFolderCommandReference r = ((MailFrameMediator) frameController)
+try {
+javax.swing.SwingUtilities.invokeLater(new Runnable() {
+String messageID = (String) header.get("Message-Id");
+if (model.getToList() != null) {
+if (filterRule.getConditionInt() == FilterRule.MATCH_ALL) {
+scriptList.remove(scripts[i].getPath());
+LOG.info("removing uid=" + uid);
+return new SearchKey(SearchKey.NOT, new SearchKey(
+String quotedBodyText;
+prot + "://  protocol and ://
+Enumeration e = handler.getExtensionEnumeration();
+if (mailaddress.charAt(0) == '<') {
+quotedBodyText = bodyText.toString().replaceAll("(?m)^(.*)$",
+logger.append("Executing bsh: " + script.getPath());
+DialogFacade.showExceptionDialog(e);
+* @see org.columba.ristretto.message.Message#getHeader()
+try {
+IMailFolderCommandReference result = transferable.getFolderReferences();
+String sender = (String) header.get("X-BeenThere");
+if (htmlElement == null) {
+JSCFDriverManager.registerJSCFDriver(new GPGDriver());
+putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_V,
+None
+super.selectAll();
+//MessageNode getMessageNodeAtRow(int index);
+attributes.put("columba.cc", cc[0]);
+for (int i = 0; i < getRowCount(); i++) {
+* @see org.columba.ristretto.message.Message#getHeader()
+changeSelection(0, 0, true, false);
+for (int i = 0; i < list.size(); i++) {
+try {
+if (ConnectionStateImpl.getInstance().isOnline())
+if (getRowCount() > 0) {
+ListTools.substract(testList, listPart1);
+setSize(splashimg.getIconWidth(), splashimg.getIconHeight());
+MessageNode selectedNode = (MessageNode) getValueAt(0, 0);
+if (uids.length > 1) {
+if (!isAlreadyReply(subject, "fwd:")) {
+IFolder folder = event.getSrcFolder();
+if ((path != null) && (treeNode instanceof IGroupFolder)) {
+scrollRectToVisible(getCellRect(0, 0, false));
+mediator.getTree().setSelectedFolder(
+setSize(splashimg.getIconWidth(), splashimg.getIconHeight());
+return GlobalResourceLoader.getString(null, resourceBundleName,
+}
+str = str.trim();
+tableModelThreadedView = new TableModelThreadedView();
+// dtStart1.getParameters().getParameter(
+view.getColumnModel().removeColumnModelListener(getHeaderTableModel());
+headerTableModel.setTree((Tree) view.getTree());
+g2d.setComposite(AlphaComposite.getInstance(
+tableModelSorter = new TableModelSorter();
+formattedNameTextField.setText(fn);
+if (!isAlreadyReply(subject, "re:")) {
+observable.setSortingState(columnName, order);
+int comma = addrSB.indexOf(",");
+String s = MailResourceLoader.getString("header", "header", lookup);
+StreamableMimePart body;
+view = new TableView(headerTableModel, tableModelSorter);
+searchRequest = new SearchKey[] { getSearchKey(filterRule.get(0)) };
+String lookup = ((String) col.getIdentifier()).toLowerCase();
+Event event = new Event(new UUIDGenerator().newUUID());
+for (int c = 0; c < view.getColumnCount(); c++) {
+if (currentFolder != null) {
+listModel.clear();
+ListTools.substract(headerUids, store.getUIDList());
+FolderEventDelegator.getInstance().addTableListener(this);
+if (uid != null)
+return selectedStatus;
+if (row == -1)
+IFolderCommandReference r = (IFolderCommandReference) ((MailFrameMediator) frameController).getTableSelection();
+InputStream istream = CommandHelper.getBodyPart(mailbox, uid);
+if (str.startsWith(pattern) == true) {
+if (value == null)
+public void testNotEqualsObject() {
+* @see org.columba.ristretto.message.Message#getHeader()
+XmlElement root = Config.getInstance().get("external_tools").getElement("tools");
+} else if (action.equals("CANCEL")) {
+//int getRow(MessageNode node);
+* @see org.columba.ristretto.message.Message#getHeader()
+MessageNode[] nodes = view.getSelectedNodes();
+bool = true;
+if (event.getEventType() == TableModelChangedEvent.MARK)
+* @see org.columba.ristretto.message.Message#getHeader()
+* if (getFrameController() instanceof MailFrameMediator) { if (srcFolder != null) { ((ThreePaneMailFrameController)
+* @see org.columba.ristretto.message.Message#getHeader()
+if (previouslySelectedRows != null) {
+* @see org.columba.ristretto.message.Message#getHeader()
+if ((previouslySelectedRows.length == 1) && (previouslySelectedNodes.length > 0)) {
+* @see org.columba.ristretto.message.Message#getHeader()
+.getService(
+* @see org.columba.ristretto.message.Message#getHeader()
+((MailFrameMediator) getFrameController()).getFolderOptionsController().load(folder, FolderOptionsController.STATE_BEFORE);
+javax.swing.SwingUtilities.invokeLater(new Runnable() {
+view.selectRow(row);
+* @see org.columba.ristretto.message.Message#getHeader()
+previouslySelectedFolder = folder;
+* @see org.columba.ristretto.message.Message#getHeader()
+initTooltips();
+private static final String[] CHARSET_STRINGS = {
+private GeneralPath _pathArrow = new GeneralPath();
+getHeaderTableModel().clearColumns();
+* @see org.columba.ristretto.message.Message#getHeader()
+MessageNode[] nodes = getView().getSelectedNodes();
+* @see org.columba.ristretto.message.Message#getHeader()
+* getView().getRowCount(); i++) { System.out.println("i=" + i + " count=" + getView().getRowCount()); TreePath path =
+* @see org.columba.ristretto.message.Message#getHeader()
+public void testHashcode() {
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+//MessageNode getMessageNode(Object uid);
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+map.clear();
+con = JSCFDriverManager.getConnection("jscf:gpg:");
+SwingUtilities.invokeLater(new Runnable() {
+* @see org.columba.ristretto.message.Message#getHeader()
+boolean order = false;
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+/**
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+charsetChanged(new CharsetEvent(this,
+//		 register interest on tree selection changes
+* @see org.columba.ristretto.message.Message#getHeader()
+/**
+if (column != -1) {
+for (int i = 0; i < columnModel.getColumnCount(); i++) {
+* @see org.columba.ristretto.message.Message#getHeader()
+CommandProcessor.getInstance().addOp(
+* @see org.columba.ristretto.message.Message#getHeader()
+Object[] nextUids = new Object[1];
+* @see org.columba.ristretto.message.Message#getHeader()
+IStructureType user = userList.addChild("user", "ns");
+((TreeViewOwner) frameMediator).getTreeController().setSelected(folder);
+String lowerCaseContent = html.toLowerCase();
+if (classLoader == null) {
+public void testGetAllTags() {
+* @see org.columba.ristretto.message.Message#getHeader()
+ListTools.substract(testList, listFull);
+None
+* @see org.columba.ristretto.message.Message#getHeader()
+if (parent == null) {
+* @see org.columba.ristretto.message.Message#getHeader()
+public void testHashCode() {
+* @see org.columba.ristretto.message.Message#getHeader()
+tableController.setSelected(nextUids);
+/*
+XmlElement optionsElement = MailConfig.getInstance().get(
+fail("NormalTag not found");
+IMessageNode[] nodes = new MessageNode[nextUids.length];
+Properties props = con.getProperties();
+r.setUids(nextUids);
+* @see org.columba.ristretto.message.Message#getHeader()
+public void testAddTag() {
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+file = new File("test_config");
+* @see org.columba.ristretto.message.Message#getHeader()
+* (non-Javadoc)
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+DiskIO.deleteDirectory(file);
+* @see org.columba.ristretto.message.Message#getHeader()
+((IMailbox) r.getSourceFolder()).setLastSelection(nextUids[0]);
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+IStructureType core = type.addChild("core", "org.columba.core");
+* @see org.columba.ristretto.message.Message#getHeader()
+attachmentSplitPane.setDividerLocation(200);
+.getIcon(IconKeys.PREFERENCES)),
+public void testGetColor() {
+* @see org.columba.ristretto.message.Message#getHeader()
+putValue(TOOLBAR_NAME,
+* @see org.columba.ristretto.message.Message#getHeader()
+ProfileManager.getInstance().addProfile(p);
+putValue(LARGE_ICON, ImageLoader.getIcon(IconKeys.CONTACT_NEW));
+* @see org.columba.ristretto.message.Message#getHeader()
+File[] pluginFolders = PluginFinder.searchPlugins();
+int n = JOptionPane.showConfirmDialog(null, MailResourceLoader
+c.clearSelection();
+* @see org.columba.ristretto.message.Message#getHeader()
+new ClearHeaderlistAction(getFrameMediator()).actionPerformed(evt);
+r.setUids(new Object[] { previousNode.getUid() });
+//		putValue(SMALL_ICON, ImageLoader
+officeTextField.setColumns(10);
+public void testClone() {
+IMessageController m = ((MessageViewOwner) getFrameMediator())
+IMailFolderCommandReference r = ((MailFrameMediator) getFrameMediator()).getTableSelection();
+putValue(TOOLBAR_NAME,
+String type = item.get("type");
+return currentEditorController;
+if (view.isInDndAction()) {
+message.addChild(attachmentList);
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_V,
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+message.addAttribute("bodyText", "org.columba.core");
+addMouseListener(new DoubleClickListener() {
+DefaultMutableTreeNode prevNode = currNode.getPreviousNode();
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+IStructureValue dateRangeValue = eventValue.addChild(
+* @see org.columba.ristretto.message.Message#getHeader()
+searchManager.addResultListener(resultPanel);
+IAttributeType emailAddress = identity.addAttribute("emailAddress",
+* @see org.columba.ristretto.message.Message#getHeader()
+putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_V,
+* @see org.columba.ristretto.message.Message#getHeader()
+List v = rootNode.getVector();
+* @see org.columba.ristretto.message.Message#getHeader()
+IHeaderList headerList = folder.getHeaderList();
+* @see org.columba.ristretto.message.Message#getHeader()
+IStructureType dateTime = core.addChild("dateTime", "org.columba.core");
+Iterator it = hashtable.keySet().iterator();
+* @see org.columba.ristretto.message.Message#getHeader()
+if (isPromptOnDialogClosing() == false)
+putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_V,
+* @see org.columba.ristretto.message.Message#getHeader()
+putValue(TOOLBAR_NAME,
+putValue(SHORT_DESCRIPTION, AddressbookResourceLoader.getString("menu",
+String propertyPath = System.getProperty("java.library.path");
+.getIcon(IconKeys.PREFERENCES)),
+* @see org.columba.ristretto.message.Message#getHeader()
+CommandProcessor.getInstance().addOp(
+* @see org.columba.ristretto.message.Message#getHeader()
+//If FROM value was set, take this as From, else take Identity
+* pageheight here, therefore an "educated guess" is made:
+IStructureType identity = core.addChild("identity", "org.columba.core");
+* @see org.columba.ristretto.message.Message#getHeader()
+updateTable(enableThreadedView);
+* @see org.columba.ristretto.message.Message#getHeader()
+private boolean useLocalSelection;
+* @see org.columba.ristretto.message.Message#getHeader()
+} catch (IOException e) {
+* @see org.columba.ristretto.message.Message#getHeader()
+getObservable().clearMessageWithDelay();
+View rootView = mPane.getUI().getRootView(mPane);
+if (folder.getId() != newFolder.getId())
+setEnabled(false);
+* (non-Javadoc)
+File dir = MailConfig.getInstance().getConfigDirectory();
+putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_V,
+/*
+.getIcon(IconKeys.PREFERENCES)),
+ViewItem view = loadDefaultView(id);
+putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_V,
+FormLayout layout = new FormLayout("fill:pref", // columns
+IMailbox destFolder = trash;
+TableViewOwner table = (TableViewOwner) getFrameMediator();
+r.setColorValue(0);
+} else {
+// String column = xmlElement.getAttribute("column");
+putValue(TOOLBAR_NAME,
+getFrameMediator().fireClosed();
+public class ComposerItem extends DefaultItem {
+IAttributeType attr2 = type.addAttribute("description", "ns");
+IMailFolderCommandReference ref = new MailFolderCommandReference(imapFolder, uids);
+.getIcon(IconKeys.PREFERENCES)),
+path = "org/columba/addressbook/plugin/plugin.xml";
+.getIcon(IconKeys.PREFERENCES)),
+r.setColorValue(colors[result].getRGB());
+VirtualFolder vfolder;
+try {
+mails.put(((VirtualHeader) hl.get(uid)).getSrcUid(),
+/*
+boolean result = true;
+.getIcon(IconKeys.PREFERENCES)),
+view.setIntercellSpacing(new Dimension(0, 0));
+CommandProcessor.getInstance().addOp(new ExpungeFolderCommand(r));
+public void selectionChanged(SelectionChangedEvent e) {
+if (getFrameMediator() instanceof MessageFrameController) {
+headerTableModel = new HeaderTableModel();
+item.setBoolean("enable_ssl", false);
+// row = new MarkActionRow(this,action);
+key = "Content-Type"; // X-Attachments header is
+for (int i = 0; i < c.length; i++) {
+} else {
+CommandProcessor.getInstance().addOp(
+if (!flags.getSeen()) {
+* currentElement = null;
+centerPanel = new JPanel();
+XmlElement locale = Config.getInstance().get("options").getElement(
+Collections.sort(result, new MyComparator());
+if (size > cachedSize) {
+// //showComposer = true;
+//filterList = new Vector();
+otherPOBoxLabel.setText(bundle
+KeyStroke.getKeyStroke(KeyEvent.VK_Q, Toolkit.getDefaultToolkit().getMenuShortcutKeyMask()));
+DynamicItemListPanel p = new DynamicItemListPanel(2, null, true);
+if (!folder.equals(srcFolder)) {
+nameTextField = new JTextField();
+model.setRecurrenceRule(r);
+public void write(OutputStream out) throws IOException {
+try {
+stringReplaceAll(buffer, '\'', "&apos;");
+fonts.addObserver(this);
+protocol.openPort();
+body = HtmlParser.substituteURL(body);
+new ClearHeaderlistAction(getFrameMediator()).actionPerformed(evt);
+// TODO check if we have to manually set the folder/uid in
+putValue(LARGE_ICON, ImageLoader.getIcon(IconKeys.EDIT_PASTE));
+if (pgpActive) {
+if (!updateGui)
+None
+ICloseableIterator it;
+if (item.isPopAccount()) {
+File tempFile = new File(destFile.getAbsoluteFile() + ".part");
+stringReplaceAll(buffer, '&', "&amp;");
+((DefaultTreeModel) getTree().getModel()).nodeStructureChanged(parent);
+node.removeFromParent();
+if (component.getName().equals(Component.VEVENT)) {
+createHashmap(rootNode);
+map.put(uid, child);
+JPanel bottomPanel = new JPanel(new BorderLayout(0, 0));
+MessageNode child = new MessageNode(header, uid);
+Object uid = it.next();
+dtStart = Calendar.getInstance();
+if (id == null) {
+protected void thread(MessageNode rootNode) {
+.getIcon(IconKeys.PREFERENCES)),
+Header h = mailbox.getHeaderFields(uid, Message.HEADERFIELDS);
+// show context menu
+Collections.sort(v, new MessageHeaderComparator(getSortingColumn(),
+try {
+MessageNode parent = (MessageNode) hashtable
+for (Enumeration enumeration = rootNode.children(); enumeration
+protocol.mail(identity.getAddress());
+getTreeModel().nodeStructureChanged(getRootNode());
+if (event.getValueIsAdjusting()) {
+for (int i = 0; i < uids.length; i++) {
+// we just open a message box, telling the user to restart
+boolean contains = containsRecentChildren(child);
+List v = child.getVector();
+sortingStateObservable = new SortingStateObservable();
+LOG.info("found recent message");
+ButtonWithMnemonic cancelButton = new ButtonWithMnemonic(
+}
+sort(realModel.getColumnNumber("Date"), realModel.getRootNode());
+IMailboxInfo info = folder.getMessageFolderInfo();
+result = 1;
+LOG
+locationLabel2 = new JLabel(""); //$NON-NLS-1$
+/**
+PluginNode node = (PluginNode) path.getLastPathComponent();
+DateFormat dfCommon = DateFormat.getDateInstance();
+public Component getListCellRendererComponent(JList list, Object value,
+None
+for (iter.next(); iter.current() != null; iter.next()) {
+SAXParserFactory factory = SAXParserFactory.newInstance();
+boolean bool;
+if (columns != null) {
+SAXParser saxParser = factory.newSAXParser();
+if (command != null) {
+} else if (i == 3) {
+Collection<String> messageList = AssociationStore.getInstance()
+private int maxOneLineData = 20;
+//setText("!!");
+* // setup and load constructor public XmlIO(String FilePath) {
+srcFolder.setLastSelection(uids[0]);
+IMailFolderCommandReference r = mediator.getTreeSelection();
+} catch (Exception ex) {
+mousehover = false;
+return new JFrame();
+private XmlElement rootElement;
+// Color titleBgPaint = null;//new Color(200, 50, 50, 255);
+setIcon(image3);
+String userVisibleName = id;
+row = new MarkActionRow(mediator, this, action);
+private XmlElement currentElement;
+return getElement(pathToElement, true);
+return false;
+public static URI createURI(String folderId, Object contactId) {
+int index = currentPath.lastIndexOf("/");
+if (e.getValueIsAdjusting() == true) {
+private IFilterList filterList;
+vector.add(id);
+MailCheckingManager.getInstance().add(account);
+if (Logging.DEBUG == false)
+if (comp.equals(at.getSource())) {
+return Boolean.class;
+setIcon(image1);
+setIcon(image1);
+MailCheckingManager.getInstance().update();
+return super.getTableCellRendererComponent(table, "", isSelected,
+} else {
+LOG.info("profiler info:"); //$NON-NLS-1$
+Object root = ((TreeViewOwner) frameMediator).getTreeController()
+long currentTime = System.currentTimeMillis();
+currentPath = currentPath + "/" + id;
+Collection<String> messageList = AssociationStore.getInstance()
+if (metadata == null) {
+if (result == null) {
+if (col == 2) {
+CommandProcessor.getInstance().addOp(
+return pluginMetadata;
+IFrameMediator newMediator = null;
+* try { // Get the subject from the cached Header AbstractMessageFolder
+return false;
+ExtendableMenu menu = new ExtendableMenu(menuId, menuName);
+.getService(
+salutation = findSalutation(nameInputStr);
+nameInputStr = nameInputStr.substring(0, nameInputStr.length() - title.length());
+maxOccurrences.setEnabled(false);
+nameInputStr = nameInputStr.substring(salutation.length());
+if (fifo == null) {
+centerPanel = new JPanel();
+List<String> titles = new ArrayList<String>();
+/* (non-Javadoc)
+None
+searchFolder.getConfiguration().setString("property",
+//		tagListDockable = registerDockable("addressbook_taglist",
+if (headerItem == null) {
+Object[] uids = ((MailFolderCommandReference) getReference()).getUids();
+saveExpandedState(treeNode, e.getPath());
+return retVal;
+String fullName;
+setBorder(UIManager.getBorder("TableHeader.cellBorder"));
+if (list.size() > 0) {
+} else if (tokens.size() == 1) {
+XmlElement root = Config.getInstance().get("external_tools").getElement("tools");
+for (int i = 0; i < parent.getChildCount(); i++) {
+int row = getRowForPath(new TreePath(parent.getPath()));
+JOptionPane.showMessageDialog(FrameManager.getInstance()
+return true;
+fireFolderSelectionChangedEvent((IMailFolder)node);
+centerPanel.add(topPanel, BorderLayout.NORTH);
+}
+if (rootFolder == null) {
+x = Math.max(x, 0);
+tempFolder = new TempFolder(DefaultConfigDirectory.getInstance().getCurrentPath()
+if (isPopAccount()) {
+if (contactItem.getFirstName().indexOf(",") != -1)
+Header header = folder.getHeaderFields(uids[0],
+* dialog.getName(); } else { // cancel pressed return; }
+.getIcon(IconKeys.PREFERENCES)),
+if (!getView().isExpanded(path)) {
+c.add(bottomPanel, BorderLayout.SOUTH);
+setHighlighters(new HighlighterPipeline(
+CommandProcessor.getInstance().addOp(new MailboxSizeCommand(r, dialog));
+boolean providerSearch = (providerName != null) ? true : false;
+// -> this will save all configuration data, when closing Columba
+map.put(c.getComponent(), c);
+.getIcon(IconKeys.PREFERENCES)),
+vfolder.getConfiguration().setString("property", "source_uid",
+FolderOptionsDialog dialog = new FolderOptionsDialog((IMailbox) folder,
+model = new ComposerModel();
+centerPanel.add(panel, BorderLayout.NORTH);
+IMailFolder folder = (IMailFolder) r.getSourceFolder();
+FrameManager.getInstance().close(this);
+if( match.matches(".*<\\w+$") && s.length() > m.end() && s.charAt(m.end()) == '>') {
+panel1.add(homepageButton, cc.xy(3, 1));
+/* (non-Javadoc)
+MailFolderCommandReference r = (MailFolderCommandReference) ((AbstractMailFrameController) frameMediator)
+emailTextField1.setColumns(20);
+is.close();
+* treeViewer.getFolderTree().addUserFolder( getSelectedFolder(),
+dropTarget = new DropTarget(this, this);
+frameMediatorCache.put(((DefaultContainer) c).getViewItem().get("id"),
+if (selected != null) {
+accountItem.getSpecialFoldersItem().get("sent"));
+TreeNode[] nodes = childFolder.getPath();
+addCompleter();
+JOptionPane.showMessageDialog(FrameManager.getInstance()
+}
+// bug #999969 (fdietz): classcast exception
+if (e.getPath() == null) {
+SortedTreeModelDecorator treemodel = (SortedTreeModelDecorator) t;
+Integer button = new Integer(MouseEvent.BUTTON1);
+FormLayout layout = new FormLayout(
+if (type.equals("VirtualFolder")) {
+SortedTreeModelDecorator m = (SortedTreeModelDecorator) tree
+try {
+tree = new SortedJTree(FolderTreeModel.getInstance());
+authenticated = true;
+result.append("<A HREF=\"mailto:");
+return new FolderItem(defaultElement);
+model.setSubject(MessageBuilderHelper
+if (t instanceof SortedTreeModelDecorator) {
+setToolTipText(createTooltipText(info));
+private void begin() {
+dockingPort.clear();
+ensureLoginState();
+if (MailConfig.getInstance().getAccountList().count() == 0) {
+builder.appendSeparator(GlobalResourceLoader.getString(RESOURCE_PATH,
+if (!(o1 instanceof IMailbox)) {
+if (!dateFound) {
+IMailFolder treeNode = (IMailFolder) value;
+setText(createLabelText(info, item));
+if (activeFrameCtrls.contains(c)) {
+begin();
+String name = item.getString("property", "name");
+IContactModel model = store.get(id);
+* @see org.columba.ristretto.message.Message#getHeader()
+((MailFrameMediator) mediator).registerTableSelectionListener(this);
+Message message = getChat().createMessage();
+replaceWith = new StringBuffer(replaceWith).reverse().toString();
+tree.addTreeSelectionListener(this);
+if(backwards) {
+/* If this is windows, check the default installation location for the
+selectedFolder = FolderTreeModel.getInstance().getFolder("101");
+glue = Box.createVerticalGlue();
+public DataFlavor[] getTransferDataFlavors() {
+// selectInParagraphComboBox(HTML.Tag.P);
+public static final int ARROW_UP = 0;
+bool = true;
+Map map = new HashMap();
+try {
+g2.setRenderingHints(hints);
+ignoreFormatAction = true;
+InputStream is = new ByteArrayInputStream(message.getBytes("UTF-8"));
+replaceWith = new StringBuffer(replaceWith).reverse().toString();
+if (child == null)
+if (worker.getTimeStamp() == ts) {
+unreadLabel2 = new JLabel("0"); //$NON-NLS-1$
+if(matchwholeword) {
+result.append(createAddressHTMLString(addresses[i]));
+buf.append("<font color='blue'> (");
+HtmlParser.getHtmlBody(StreamUtils.readCharacterStream(bodyStream)
+}
+buf.append("<b>");
+* @see org.columba.ristretto.message.Message#getHeader()
+if (not_selectable)
+tree.getView().addTreeSelectionListener(table);
+supportedMechanisms.add(new Integer(AuthenticationManager.LOGIN));
+worker.cancel();
+ctrl.getModel().addModelChangedListener(this);
+private String pattern; // text which we are looking for, or want to replace
+if (protocol.getState() == IMAPProtocol.SELECTED
+cancelButton = new ButtonWithMnemonic(MailResourceLoader.getString(
+((AddressbookFrameMediator) frameMediator)
+folder.setReadOnly(!messageFolderInfo.isWriteAccess());
+paragraphComboBox = new JComboBox(ParagraphMenu.STYLE_TAGS);
+if (model.isHtml()) {
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+private JCheckBox checkbox;
+save = checkbox.isSelected();
+uid = selectedNode.getUid();
+* Creates a new instance. This method is private because it should only get
+JLabel hostLabel = new JLabel(MessageFormat.format(MailResourceLoader
+Element prefixchild = new Element(model.getTypeString());
+bottom.setBorder(BorderFactory.createEmptyBorder(17, 12, 11, 11));
+Address[] to = rfcHeader.getReplyTo();
+cancelButton = new ButtonWithMnemonic(MailResourceLoader.getString(
+protocol = new IMAPProtocol(item.get("host"), item.getInteger("port"));
+}
+}
+int result = showErrorDialog(MailResourceLoader.getString(
+if (isSupported("STLS") || isSupported("STARTTLS") || (capabilities.length == 0)) {
+if (!usingSSL && sslEnabled && sslType == IncomingItem.TLS) {
+manager.clearSearch(searchTerm);
+ensureLoginState();
+None
+int firstRow = 0;
+private boolean updatesEnabled = true;
+if (serverSaslMechansims != null) {
+capabilities = new String[0];
+destinationFolder.add(cards);
+StringBuffer oneLine = new StringBuffer("AUTH");
+MessageBuilderHelper.createMailingListHeaderItems(header, model);
+while (!authenticated) {
+((AddressbookFrameMediator) frameMediator)
+if (serverSaslMechansims != null) {
+public void testRemoveTag() {
+if( result.getUnseen() == -1) result.setUnseen(0);
+password = dialog.getPassword();
+throw new CommandCancelledException();
+ensureSelectedState(folder);
+selectedStatus = new MailboxStatus(messageFolderInfo);
+item.setBoolean("save_password", dialog.getSave());
+IMAPResponse response = ex.getResponse();
+messageFolderInfo = protocol.select(path);
+if (protocol.list("", fullName).length == 0) {
+return suite;
+throw ex;
+int size = message.getHeader().count();
+model.setHeader(header);
+StringBuffer buf = new StringBuffer();
+load();
+// update the progress
+// @see org.columba.mail.gui.composer.text.TextEditorController
+protocol.create(fullName);
+for (int i = 0; i < packs.length; i++) {
+bottomPanel.setLayout(new BorderLayout());
+if (firstLogin) {
+protocol.subscribe(fullName);
+if (index == 0) {
+Object[] sizes = new String[12];
+if (decomposed.length - pos > 0) {
+while (decomposed.length - pos > UID_FETCH_STEPS) {
+int copied = (int) (statusAfter.getUidNext() - statusBefore
+destModel.setFamilyName(fullNameDialog.getLastNameTextField()
+if (observable != null) {
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+s = STRIP_TAGS_PATTERN.matcher(s).replaceAll("");
+* @see org.columba.ristretto.message.Message#getHeader()
+String[] headerFields = CachedHeaderfields.getDefaultHeaderfields();
+if (argumentSize == 1) {
+ColumbaHeader header = new ColumbaHeader(headers[i].getHeader());
+str = str.trim();
+} catch (IMAPDisconnectedException e) {
+.createEmptyBorder(8,8,8,8));
+String result = buf.toString();
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+throw e;
+} else {
+if (aktMimeTree == null || !aktMessageUid.equals(uid)) {
+lastCommunication = System.currentTimeMillis();
+view.clear();
+return new SearchKey(SearchKey.NOT, new SearchKey(
+new EmailNameAutoCompleter(toComboBox, Arrays
+searchRequest = new SearchKey[argumentSize];
+int index = text.indexOf("&");
+* @see org.columba.ristretto.message.Message#getHeader()
+if (lsub.length > 0) {
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+SearchKey orKey;
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+mediator.getTree().setSelectedFolder(folder);
+htmlToolbar = new HtmlToolbar(this);
+removeAll();
+if (currentEditorController.getViewText().length() == 0) {
+int index = s.indexOf('=');
+container.setCloseOperation(false);
+setLayout(new BorderLayout());
+if ((x < 0) || (x > maxw) || (y < 0) || (y > maxh)) {
+* @see org.columba.ristretto.message.Message#getHeader()
+if (last.equals(act) || (accountAddress != null && accountAddress.equals(act)) ) {
+JScrollPane attachmentScrollPane = new JScrollPane(
+"columba.accountuid",
+MailCheckingManager.getInstance()
+.getIcon(IconKeys.PREFERENCES)),
+MailCheckingManager.getInstance().addObserver(this);
+* @see org.columba.ristretto.message.Message#getHeader()
+model.setAccountItem(accountItem);
+updateComponents(true);
+MnemonicSetter.setTextWithMnemonic(this, textWithMnemonic);
+AccountList accountList = MailConfig.getInstance().getAccountList();
+private void _refresh() {
+if (map.containsKey(uuid))
+dp = ((firstDay - selectedDate.getFirstDayOfWeek() + 7) % 7);
+secRandBuf16[10] |= 0x80; /* multicast bit */
+getRoot().removeElement(getRoot().count() - 1);
+public FetchMessageSubMenu(IFrameMediator controller) {
+Object[] options = {
+if (!searchFolder.equals(this)) {
+ConnectionStateImpl.getInstance().setOnline(true);
+char mnemonic = text.charAt(index + 1);
+for (int i = 0; i < accountList.count(); i++) {
+if ((!remember) || (folder.getLastSelection() == null)) {
+if ((name == null) || (name.trim().length() == 0))
+// should we re-use the last remembered selection?
+loadModel(document);
+Object[] resultUids = sourceFolder.searchMessages(filter,
+Toolkit kit = Toolkit.getDefaultToolkit();
+virtualHeader.add(h);
+for (int i = 0; i < accountList.count(); i++) {
+if( vFolder.getSourceFolder() instanceof AbstractRemoteFolder && !ConnectionStateImpl.getInstance().isOnline()) {
+address = address.trim();
+if (tagsElement == null) {
+mediator.getTree().setSelectedFolder(folder);
+return item;
+height += layout.getAscent() + layout.getDescent() +
+if (action != null) {
+AddressbookTreeModel.getInstance()
+filter.trainMessageAsSpam(message);
+if (ConnectionStateImpl.getInstance().isOnline() == false) {
+header = HeaderParser.parse(new CharSequenceSource(buffer));
+* @see org.columba.ristretto.message.Message#getHeader()
+if (bodyParent != null && bodyParent.getHeader().getMimeType().getSubtype().equals(
+timer = new Timer(2 * 1000, this);
+attributes.put("columba.color", ColorFactory.getColor(0));
+if (destHeader != null) {
+}
+if (command.indexOf(file.getPath()) == -1) {
+if (commandLine.getOptionValue("mail") != null) {
+if (MailConfig.getInstance().getAccountList().count() > 0) {
+SystemDefaultMailClientHandler defaultClientHandler = new SystemDefaultMailClientHandler();
+JPanel topPanel = new JPanel();
+* @see org.columba.ristretto.message.Message#getHeader()
+selectionHandler = new Hashtable();
+/**
+ActivateVirtualFolderCommand.activateAll((IMailFolder) FolderTreeModel
+private boolean checkAssocation(String folderId, String contactId, ITag tag) {
+bracket = !bracket;
+new_address = "<" + strToken.nextToken();
+* @see org.columba.ristretto.message.Message#getHeader()
+item = MailConfig.getInstance().getAccountList()
+RegistryKey classesMailto = RegistryKey.CLASSES_ROOT.openSubKey("mailto").openSubKey("shell").openSubKey("open").openSubKey("command",true);
+* @see org.columba.ristretto.message.Message#getHeader()
+LOG.fine("Quoted body text:\n" + quotedBodyText);
+* @see org.columba.ristretto.message.Message#getHeader()
+header = new Header();
+* @see org.columba.ristretto.message.Message#getHeader()
+buf.append(s.substring(pos));
+* @see org.columba.ristretto.message.Message#getHeader()
+strToken.nextToken();
+return folder;
+// Create a emtpy header an back off
+String s = id.toString();
+IGroupItem groupItem = retrieveGroupItem(str);
+* @see org.columba.ristretto.message.Message#getHeader()
+result.add(contactItem.getEmailAddress());
+}
+int s2 = withLinkMatcher.start();
+if (ConnectionStateImpl.getInstance().isOnline()) {
+Matcher noLinkMatcher = EMAIL_PATTERN.matcher(s);
+Address[] addresses = header.getTo();
+s = P_TO_DOUBLE_NL_PATTERN.matcher(s).replaceAll("\n\n");
+.showMessageDialog(this, AddressbookResourceLoader
+s = BREAK_TO_NL_PATTERN.matcher(s).replaceAll("\n");
+if (success && (strbuf.length() > 0)) {
+return substituteEmailAddress(s, false);
+private static final String[] SPECIAL_ENTITIES = {
+if (s == null) {
+private FolderComboBox chooseComboBox;
+* @see org.columba.ristretto.message.Message#getHeader()
+s = BREAK_TO_NL_PATTERN.matcher(s).replaceAll("\n");
+s = HEADER_REMOVAL_PATTERN.matcher(s).replaceAll("");
+* @see org.columba.ristretto.message.Message#getHeader()
+if (filterCache.containsKey(type) == true) {
+if (ss.substring(i).startsWith("    ")) {
+* @see org.columba.ristretto.message.Message#getHeader()
+return result.toString().replaceAll("    ","\t");
+for( int i=0; i<SPECIAL_ENTITIES.length; i++) {
+* @see org.columba.ristretto.message.Message#getHeader()
+index = lowerCaseInput.indexOf("</html>");
+* @see org.columba.ristretto.message.Message#getHeader()
+StringBuffer buf = new StringBuffer();
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+Charset charset = getHtmlCharset(html);
+centerPanel = new JPanel();
+if (lowerCaseInput.indexOf("</html>") == -1) {
+* @see org.columba.ristretto.message.Message#getHeader()
+}
+* @see org.columba.ristretto.message.Message#getHeader()
+if (lowerCaseInput.indexOf("<html>") == -1) {
+* @see org.columba.ristretto.message.Message#getHeader()
+if (insertLink) {
+* @see org.columba.ristretto.message.Message#getHeader()
+return substituteEmailAddress(s);
+if (LOG.isLoggable(Level.FINE)) {
+textFontButton.setEnabled(overwrite);
+* @see org.columba.ristretto.message.Message#getHeader()
+final String message = readFromFile(tmpFile);
+if (closeLink.find(savedLinkPos)) {
+} else {
+* @see org.columba.ristretto.message.Message#getHeader()
+int s2 = withLinkMatcher.start();
+insertLink = true;
+* @see org.columba.ristretto.message.Message#getHeader()
+None
+if (savedLinkPos > -1) {
+insertLink = true;
+* @see org.columba.ristretto.message.Message#getHeader()
+// //showComposer = true;
+* @see org.columba.ristretto.message.Message#getHeader()
+getConfiguration().getRoot().removeFromParent();
+v.addAll(groupList);
+commandMap = Collections.synchronizedMap(commandMap);
+doExecute(ref.getSearchTerm(), p,
+return html.substring(tagStartClose, tagEnd);
+// -> remove it
+buf.append(s.substring(pos, e2));
+streams.add(new ByteArrayInputStream(startBoundary));
+* @see org.columba.ristretto.message.Message#getHeader()
+header.putContentParameter("protocol", "application/pgp-encrypted");
+* @see org.columba.ristretto.message.Message#getHeader()
+streams.add(new ByteArrayInputStream(startBoundary));
+fireSelectionChanged(new IActivity[] { selectedActivity });
+streams.add(header.getHeader().getInputStream());
+String boundary = createUniqueBoundary().toString();
+* @see org.columba.ristretto.message.Message#getHeader()
+IStructureType locale = core.addChild("locale", "org.columba.core");
+if( type != null && !type.equals(child.getClass()) ) continue;
+* @see org.columba.ristretto.message.Message#getHeader()
+server.deleteMessage(serverUID);
+EntityTransaction tx = manager.getTransaction();
+* @see org.columba.ristretto.message.Message#getHeader()
+fireSelectionChanged(new IActivity[] { selectedActivity });
+* @see org.columba.ristretto.message.Message#getHeader()
+streams.add(new ByteArrayInputStream(startBoundary));
+if (save) {
+header.putContentParameter("protocol", "application/pgp-encrypted");
+IExtensionHandler handler = null;
+public POP3Server uidGet(int uid) {
+streams.add(new ByteArrayInputStream(startBoundary));
+JSCFStatement stmt = con.createStatement();
+observable = new StatusObservableImpl();
+* @see org.columba.ristretto.message.Message#getHeader()
+public int getIndex(int uid) {
+Iterator<ISearchCriteria> it2 = p.getAllCriteria(
+setCacheChanged(true);
+int hashCode = 23;
+JComboBox cb = (JComboBox) e.getSource();
+public boolean isValid();
+Source source = TempSourceFactory.createTempSource(messageStream, -1);
+* @see org.columba.ristretto.message.Message#getHeader()
+ListTools.substract(newUids, headerUids);
+hasChanged = true;
+while (it.hasNext()) {
+IStructureValue message = it.next();
+return newUids;
+if (event.getClickCount() == 2) {
+getHeaderList().remove(uid);
+if (!searchInside) {
+Element child = getParentElement().getChild(VCARD.EMAIL);
+* @see org.columba.ristretto.message.Message#getHeader()
+IStructureType sender = message.addChild("sender", "org.columba.core");
+private Color unselectedForeground;
+if (sslEnabled && sslType == IncomingItem.IMAPS_POP3S) {
+SearchKey unseenKey = new SearchKey(SearchKey.UNSEEN);
+public void addAll(List<IContactModelPartial> list) {
+if (protocol.isApopSupported()) {
+AddressbookTreeNode parent = (AddressbookTreeNode) folder
+event.setCalendar(calendar.getId());
+* @see org.columba.ristretto.message.Message#getHeader()
+Map<String, Vector<ISearchRequest>> map = new Hashtable<String, Vector<ISearchRequest>>();
+* @see org.columba.ristretto.message.Message#getHeader()
+protected void log(String message) {
+calendarDirectory = new File(file, "calendar");
+for (int nextIndex = sizeList.size() - 1; nextIndex < sizes[i]
+* @see org.columba.ristretto.message.Message#getHeader()
+supportedMechanisms.add(new Integer(AuthenticationManager.USER));
+* @see org.columba.ristretto.message.Message#getHeader()
+sizeList.set(sizes[i].getIndex(), new Integer(sizes[i]
+if ( model.getSortString() == null) {
+* @see org.columba.ristretto.message.Message#getHeader()
+downloadNewMessages(newMessagesUidList, worker);
+* @see org.columba.ristretto.message.Message#getHeader()
+Iterator<String> it2 = map.keySet().iterator();
+if (contactModel.getCategory() != null)
+}
+worker.setProgressBarMaximum(uids.length);
+label = new JLabel(text);
+IEmailModel model = (IEmailModel) it.next();
+it = contactModel.getAddressIterator();
+logout();
+if (newMessageCount == 0) {
+super(folderItem);
+* @see org.columba.ristretto.message.Message#getHeader()
+it = contactModel.getInstantMessagingIterator();
+public IStatusObservable getObservable() {
+* @see org.columba.ristretto.message.Message#getHeader()
+ColumbaMessage message;
+String subchild = name.substring(0, name.indexOf(server
+CommandProcessor.getInstance().addOp(command);
+if (((Boolean) attributes.get("columba.spam")).booleanValue()) {
+while (!authenticated) {
+// normal cases
+if ( hashtable.containsKey(r.getLocation().toString()))
+* @see org.columba.ristretto.message.Message#getHeader()
+if (d == selectedDay) {
+if (componentId.equals("org.columba.contact")) {
+* @see org.columba.ristretto.message.Message#getHeader()
+if (viewerPlugin == null || !viewerPlugin.initialized()) {
+saveAddressbookFolder(rootFolder);
+LOG.info("removing uid=" + uid);
+boolean spam = ((Boolean) inboxFolder.getAttribute(uid, "columba.spam"))
+boolean result = scoreMessage(j);
+* @see org.columba.ristretto.message.Message#getHeader()
+List newMessagesUIDList = server.synchronize();
+* @see org.columba.ristretto.message.Message#getHeader()
+public boolean removeEldestEntry(Map.Entry eldest) {
+// </email>
+applyFilters(uid);
+* @see org.columba.ristretto.message.Message#getHeader()
+srcFolder.markMessage(uids, markVariant);
+/* if so, remove it */
+* @see org.columba.ristretto.message.Message#getHeader()
+LOG.log(Level.SEVERE, "Exception caught in script:" + script.getPath(), ex);
+* @see org.columba.ristretto.message.Message#getHeader()
+boolean numberFormat = false;
+* @see org.columba.ristretto.message.Message#getHeader()
+String searchRequestId = searchCriteriaTechnicalName;
+parser.set(VCARD.X_COLUMBA_OFFICE, contactModel.getOffice());
+showComposer = true;
+* @see org.columba.ristretto.message.Message#getHeader()
+if (password.length == 0) {
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+return (ExtendableToolBar) getFirstContainer().getToolBar();
+VirtualFolder vFolder = lastSearchFolder;
+* @see org.columba.ristretto.message.Message#getHeader()
+((TreeViewOwner) newMediator).getTreeController().setSelected(vFolder);
+if (r.getRepetitionCount() != null)
+VirtualFolder vfolder;
+movedFolder.moveTo(destParentFolder);
+if (criteria == null)
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+optionsFile = new File(config.getConfigDirectory(), OPTIONS_FILE);
+notDefaultEngine.add(actCriteria);
+try {
+if (contactModel.getHomePage() != null)
+* @see org.columba.ristretto.message.Message#getHeader()
+static final String POLLING_INTERVAL_KEY = "poll_interval", POLLING_ENABLED_KEY = "polling_enabled";
+int position = localUids.size() - 1;
+* @see org.columba.ristretto.message.Message#getHeader()
+OutboxFolder folder = (OutboxFolder) FolderTreeModel.getInstance()
+fromAddress = identity.getAddress().getMailAddress();
+// show context menu
+totalResultCount = indizes.size();
+long mostSig = 0;
+protocol.openPort();
+Paint bgPaint = new Color(245, 245, 245);
+if (!searchInside) {
+Category category = retrieveTagCategory(result.getId());
+int count = (startIndex + resultCount <= indizes.size()) ? resultCount
+* @see org.columba.ristretto.message.Message#getHeader()
+message = new MessageComposer(model).compose(worker, r
+* @see org.columba.ristretto.message.Message#getHeader()
+try {
+String calendarId = activity.getCalendarId();
+return AuthenticationManager.NONE;
+if (accountItem.isPopAccount()) {
+mutex.lock();
+* @see org.columba.ristretto.message.Message#getHeader()
+smtpItem.setString("login_method", Integer
+* @see org.columba.ristretto.message.Message#getHeader()
+if( errorCode == 504 ) {
+new DefaultGridLineProvider(
+}
+* @see org.columba.ristretto.message.Message#getHeader()
+if( protocol.getState() < SMTPProtocol.PLAIN ) {
+smtpItem.setString("user", username);
+supportedMechanisms.add(new Integer(AuthenticationManager.SASL_PLAIN));
+SendableMessage message = null;
+return container;
+sentFolder = (IMailbox) FolderTreeModel
+currentDateAreaBean = dateAreaBean;
+putValue(SMALL_ICON, ContactImageLoader
+columnNames = CachedHeaderfields.getDefaultHeaderfields();
+// Sent folder
+new Insets(-2, -2, 2, 2));
+SendAllMessagesCommand c = new SendAllMessagesCommand(this, r);
+bgAShape.addSubShape(titleText);
+accountItem = MailConfig.getInstance().getAccountList()
+Object[] uids = outboxFolder.getUids();
+* @see org.columba.ristretto.message.Message#getHeader()
+while (sendListManager.hasMoreMessages()) {
+/*
+if (sentList.size() > 0) {
+Integer[] actUids = getServer().fetchUids(set, this);
+MoveMessageCommand c = new MoveMessageCommand(r);
+IMailbox sentFolder = (IMailbox) FolderTreeModel.getInstance()
+if (deletedMessages > 0) {
+// VALIDATION DISABLE ! Sebastian Witt 25.07.04,
+srcFolder.markMessage(uids, markVariant);
+* @see org.columba.ristretto.message.Message#getHeader()
+if (composerController.getView().getFrame() != null) {
+.addMouseListener(new MyMouseListener());
+dateAreaBean.setSelectionType(DateArea.SELECTION_TYPE_NORMAL);
+smtpServer = new SMTPServer(accountItem);
+* @see org.columba.ristretto.message.Message#getHeader()
+sBundlePath = generateBundlePath(sPath, sName);
+List collectedUids = new ArrayList();
+* @see org.columba.ristretto.message.Message#getHeader()
+if (!DiskIO.ensureDirectory(config.getPath())) return false;
+* @see org.columba.ristretto.message.Message#getHeader()
+} else {
+while (found < deletedMessages && localPointer >= 0) {
+if (success && (strbuf.length() > 0)) {
+clearAllTagCategories();
+getChat().sendMessage(message);
+((DefaultTreeModel) getTree().getModel()).nodeStructureChanged(parent);
+if (contactModel.getFormattedName() != null)
+Flags flags = new Flags();
+public static final String[] INTERNAL_HEADERFIELDS = {
+}
+tree.getView().addTreeSelectionListener(this);
+ColumbaScript script = null;
+FileObserverThread.getInstance().start();
+logger.append("Starting " + getClass().getName());
+continue;
+htBundles.put(bundlePath, bundle);
+value = "00:000";
+public CheckableList() {
+if (classLoader == null) {
+value = "235:9";
+//		File[] list = file.listFiles();
+File configDirectory = DefaultConfigDirectory.getInstance().getCurrentPath();
+sendMessageDialog.setVisible(false);
+composerController.fireClosed();
+composerController.showAttachmentPanel();
+composerController.setPromptOnDialogClosing(false);
+Collections.sort(localUids);
+nonspamList.add(uids[j]);
+// normal cases
+return null;
+private AccountItem accountItem;
+Header h = mailbox.getHeaderFields(uid, Message.HEADERFIELDS);
+public void testRollWithYearsLastDayCaseForwardFour() {
+private IFolder selectedFolder;
+// we can't use SystemClassLoader here, because that
+* @see org.columba.ristretto.message.Message#getHeader()
+item = MailConfig.getInstance().getAccountList()
+* @see org.columba.ristretto.message.Message#getHeader()
+istream = master.getClone();
+db.cleanupDB(THRESHOLD);
+throw new RuntimeException(e);
+Enumeration e = h.getKeys();
+* @see org.columba.ristretto.message.Message#getHeader()
+inputStream = master.getClone();
+label2.setText(bundle.getString("streetLabel.text"));
+}
+IContactItem item = (IContactItem) sortDecorator.getContactItem(row);
+if (alreadyLoaded && hasChanged) {
+private JTree tree;
+filter.correctMessageAsSpam(message);
+// --> correct token data
+public FolderItem(XmlElement root) {
+// -> only add if this is not the case
+* getPageNr method
+public static String ADR_LOCALITY = "locality";
+char last = ' ';
+trainMessage(j, result);
+* @see org.columba.ristretto.message.Message#getHeader()
+}
+protected void tearDown() throws Exception {
+Header header = folder.getHeaderFields(uid, new String[] { "To" });
+IMailbox srcFolder = (IMailbox) r.getSourceFolder();
+addFolderListener(FolderEventDelegator.getInstance());
+success = true;
+* @see org.columba.ristretto.message.Message#getHeader()
+worker.setProgressBarMaximum(uids.length);
+if (t.startsWith("\n")) {
+* @see org.columba.ristretto.message.Message#getHeader()
+}
+* @see org.columba.ristretto.message.Message#getHeader()
+SpamController.getInstance().trainMessageAsHam(srcFolder,
+if (folder.findByEmailAddress(card.getPreferredEmail()) == null)
+Object[] uids = r.getUids();
+* @see org.columba.ristretto.message.Message#getHeader()
+body = HtmlParser.htmlToText(decodedBody);
+try {
+drawingOrigin.setX(drawingOrigin.getX().add(leftMargin));
+* @see org.columba.ristretto.message.Message#getHeader()
+if ((sizePolicy == HORIZONTAL) || (sizePolicy == BOTH)) {
+if ((orientation == SOUTHWEST) || (orientation == WEST)
+String[][] headers = getHeadersToSave(inclAllHeaders);
+if (nonspamList.size() != 0) {
+String s = location.toString();
+if (spamList.size() != 0) {
+* @see org.columba.ristretto.message.Message#getHeader()
+subject = subject.toLowerCase();
+Iterator<IGroupItem> it2 = groupList.iterator();
+} else {
+setIntercellSpacing(new Dimension(0, 0));
+* @see org.columba.ristretto.message.Message#getHeader()
+_location = getLocation();
+for (int i = 0; i < f.getChildCount(); i++) {
+if ( whitespace ) count++;
+if (DiskIO.ensureDirectory(dir)) {
+// --
+* @see org.columba.ristretto.message.Message#getHeader()
+trainMessage(j, result);
+* @see org.columba.ristretto.message.Message#getHeader()
+breakHeight = calcBreakHeightFromView(childView,
+* @see org.columba.ristretto.message.Message#getHeader()
+}
+return true;
+List<IContactModelPartial> list = new ArrayList<IContactModelPartial>(
+* @see org.columba.ristretto.message.Message#getHeader()
+/*
+* @see org.columba.ristretto.message.Message#getHeader()
+remove(members[i]);
+boolean isInAddressbook = new AddressbookFilter().process(
+if (nextNode == null) {
+if (ids[i] == null)
+/*
+int counter = -1;
+if (allocY < actBreakHeight) {
+* @see org.columba.ristretto.message.Message#getHeader()
+int a = 1;
+public static final int SASL = 10;
+* @see org.columba.ristretto.message.Message#getHeader()
+private ContactItemTableModel realModel;
+JFileChooser fc = new JFileChooser();
+// -- Overall Dialog box
+String[] uids = mediator.getTable().getUids();
+// --
+builder.appendSeparator(GlobalResourceLoader.getString(RESOURCE_PATH,
+* @see org.columba.ristretto.message.Message#getHeader()
+.getService(
+// --
+* @see org.columba.ristretto.message.Message#getHeader()
+_suggestionsJList.setPreferredSize(new Dimension(200, 300));
+public static final int POP_BEFORE_SMTP = 4;
+// --
+if (path != null) {
+}
+if (returnVal == JFileChooser.APPROVE_OPTION) {
+public static final int USER = 1;
+* @see org.columba.ristretto.message.Message#getHeader()
+AShapeUtil.addMouseFireEvent(outlineAShape, trigger,
+Object[] uids = ((AddressbookFrameMediator) frameMediator)
+_originalWord = st.nextToken();
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+Element labelElement = new Element(VCARD.LABEL);
+setBorder(BorderFactory.createEmptyBorder(2, 2, 2, 2));
+Element child = getParentElement().getChild(VCARD.ADR);
+assertTrue("Self equality failed for item", item.equals(item));
+* @see org.columba.ristretto.message.Message#getHeader()
+XmlElement xml = new XmlElement("account");
+// if already detected before
+* @see org.columba.ristretto.message.Message#getHeader()
+// create a form builder
+* @see org.columba.ristretto.message.Message#getHeader()
+return suite;
+IContactModel[] cards = VCardParser.read(new SourceInputStream(
+assertFalse("The hashcodes of item and item3 are the same",
+XmlElement xml2 = new XmlElement("account");
+BufferedReader in = new BufferedReader(new FileReader(
+Component glue = Box.createVerticalGlue();
+XmlElement xml3 = new XmlElement("account");
+assertTrue("The hashcodes of item and item2 are not the same",
+mediator.getTable().getAddressbookModel().update();
+* @see org.columba.ristretto.message.Message#getHeader()
+assertTrue("item and item2 are not equal", item.equals(item2));
+* @see org.columba.ristretto.message.Message#getHeader()
+workCityTextField.setColumns(5);
+departmentLabel.setText(bundle
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+IMAPRootFolder imapRoot = (IMAPRootFolder) FolderTreeModel.getInstance().getImapFolder(account.getUid());
+for (int i = 0; i < uids.length; i++) {
+folder.removeFromParent();
+Attributes attributes = getSourceFolder().getAttributes(uid);
+* @see org.columba.ristretto.message.Message#getHeader()
+addMouseListener(this);
+managerTextField.setColumns(20);
+// -> check if <Subject> <contains> pattern <test>
+companyTextField.setColumns(20);
+departmentTextField.setColumns(20);
+{
+officeLabel.setText(bundle
+if (options != null) {
+assertFalse("item is equal to a newly created AccountItem",
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+{
+privateCountryLabel.setText(bundle
+notesTextArea.setRows(5);
+None
+privateCityLabel.setText(bundle
+putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_V,
+workAddressLabel.setText(bundle
+* tag to find is on ITS OWN LINE, i.e. " <meta" can be found at the
+double viewStartY = allocation.getBounds().getY();
+workPOBoxLabel.setText(bundle
+{
+// maybe remove this folder
+imTextField4.setColumns(20);
+workCountryLabel.setText(bundle
+otherCityLabel.setText(bundle
+Toolkit kit = Toolkit.getDefaultToolkit();
+String incomingServerPanelTitle = MailResourceLoader.getString(
+group.removeAllMembers();
+last = current;
+String incomingServerPanelTitle = MailResourceLoader.getString(
+* @see org.columba.ristretto.message.Message#getHeader()
+for (int i = 0; i < members.getSize(); i++) {
+GridBagConstraints c = new GridBagConstraints();
+Header header = folder.getHeaderFields(uids[i], new String[] {
+public boolean isCutActionEnabled();
+if (!exists(uids[i])) {
+InputStream is = getSourceFolder().getMessageSourceStream(uid);
+double width = maxWidth.sub(leftMargin).sub(rightMargin).getPoints();
+updateActions();
+((StatusObservableImpl) srcFolder.getObservable()).setWorker(worker);
+None
+public HTMLEditorKit.ParserCallback getReader(int pos) {
+String[] members = group.getMembers();
+{
+JPanel middlePanel = new JPanel();
+MimeTree mimePartTree = srcFolder.getMimePartTree(uid);
+view.paint(g, allocation);
+cHTMLPart remainder = new cHTMLPart(mScaleAllowed);
+.getService(
+* @see org.columba.ristretto.message.Message#getHeader()
+newStartY = mStartY.add(contentSize.getHeight());
+cUnit newStartY = new cCmUnit();
+* @see org.columba.ristretto.message.Message#getHeader()
+} else {
+body = HtmlParser.substituteSpecialCharacters(decodedBody);
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+XmlElement html = MailConfig.getInstance().getMainFrameOptionsConfig()
+if (!mScaleAllowed) {
+TableColumn tc = getColumnModel().getColumn(0);
+prefix + " (" + suffix + ")");
+InputStream outputStream = sourceFolder.getMimePartSourceStream(uid,
+}
+double width = maxWidth.sub(leftMargin).sub(rightMargin).getPoints();
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+assertEquals("message source should be equal", input, output);
+cutAction.setEnabled(false);
+return 101;
+* @see org.columba.ristretto.message.Message#getHeader()
+FocusManager.getInstance().registerComponent(this);
+//  <view id="0">
+* @see org.columba.ristretto.message.Message#getHeader()
+.getService(
+if (sortString == null || sortString.length() == 0)
+double scale = scaleFactor(new cPointUnit(width));
+if (sortString == null || sortString.length() == 0)
+None
+Flags oldFlags = getSourceFolder().getFlags(uid);
+Iterator it = contactModel.getEmailIterator();
+is.close();
+transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
+cUnit h = new cCmUnit();
+parser.set(VCARD.ORG, contactModel.getOrganisation());
+if (contactModel.getFamilyName() != null)
+printView(g, childView, childAllocation, maxHeight);
+* @see org.columba.ristretto.message.Message#getHeader()
+is.close();
+double scale = scaleFactor(new cPointUnit(width));
+/*
+getSourceFolder().markMessage(new Object[] {uid}, MarkMessageCommand.MARK_AS_READ);
+if (model == null)
+Flags oldFlags = getSourceFolder().getFlags(uid);
+if( type.equals("x400")) {
+super.setUp();
+Point2D.Double trans = new Point2D.Double(g.getClipBounds().getX(),
+* @see org.columba.ristretto.message.Message#getHeader()
+updateButtonState();
+public Date getBirthday() {
+MailFolderCommandReference ref = new MailFolderCommandReference(
+MailFolderCommandReference ref = new MailFolderCommandReference(
+Source source = getDataStorageInstance().getMessageSource(newUid);
+g.translate(-trans.getX(), -trans.getY());
+MailFolderCommandReference ref = new MailFolderCommandReference(
+return Base64.encode(ByteBuffer.wrap(ciphertext)).toString();
+namebase = Integer.toString((int)(System.currentTimeMillis() % 1000));
+Shape childAllocation;
+if (conn == null) {
+if (folderTreeNode instanceof AbstractMessageFolder) {
+t.setPriority(Thread.MIN_PRIORITY);
+f.delete();
+return defaultValue;
+mPane.setSize((int) width, Integer.MAX_VALUE);
+computePositionAndSize();
+String from = presence.getFrom();
+cPoint origin = getDrawingOrigin();
+public class ViewItem extends DefaultItem {
+}
+}
+type = MainInterface.contextFactory.createStructure("context",
+final IShutdownManager shutdownManager = ShutdownManager.getInstance();
+okButton.setText(bundle.getString("okButton.text"));
+String input = FolderTstHelper.getString(0);
+None
+/* (non-Javadoc)
+members.addElement((IContactModelPartial) o);
+int fd = date.getFirstDayOfWeek();
+label3.setText(bundle.getString("streetLabel.text"));
+otherAddressLabel.setLabelFor(otherAddressTextArea);
+editScriptButton,
+private void _computeFirstDay() {
+if (success && (strbuf.length() > 0)) {
+g.drawLine(1, y, width - 2, y);
+for (int i = 0; i < uids.length; i++) {
+for( int i=1; i<=10; i++) {
+if (aktMessage != null) {
+otherCountryLabel.setText(bundle
+AShapeUtil.addMouseEventBlock(outlineAShape, false, new Integer(
+TagManager.getInstance().addTagListener(new MyTagListener());
+if (item.getSpamItem().isEnabled() == false)
+for( int i=1; i<=100; i++) {
+protected static File defaultWin = new File("C:\\GnuPG\\gpg.exe");
+String input = FolderTstHelper.getString(0);
+item = MailConfig.getInstance().getAccountList().uidGet(
+.getService(
+privatePOBoxLabel.setText(bundle
+ComposerModel model = command.getModel();
+AShapeUtil.DEFAULT_TITLE_TEXT_SHAPE_NAME, AShape.A_TEXT,
+assertEquals(110, testList.count());
+String parentGroup = getGroup(parentType);
+property.addAttribute("recent", new Integer(info.getRecent())
+for (int k = 0; k < items.length; k++) {
+action.setAction("Mark Message");
+XmlElement r = getConfiguration(toolID);
+DefaultFolderCommandReference r =
+MailFolderCommandReference ref = new MailFolderCommandReference(
+public void actionPerformed(ActionEvent evt) {
+privateAddressLabel.setText(bundle
+if (status == null)
+setChanged(true);
+private static int nextUid = 0;
+viewList.removeAllElements();
+File configDirectory = DefaultConfigDirectory.getInstance().getCurrentPath();
+"$startTime$ $summary$",
+.getService(
+iconBounds = new Rectangle(0, 0, icon.getIconWidth(), icon
+label1.setText(bundle.getString("streetLabel.text"));
+command.execute(NullWorkerStatusController.getInstance());
+{
+* @see org.columba.ristretto.message.Message#getHeader()
+.getService(
+public AbstractMessageFolder(String name, String type) {
+assertEquals(2, model.getTree().getRowCount());
+birthdayLabel.setText(bundle
+assertEquals(2, model.getRowCount());
+* @see org.columba.ristretto.message.Message#getHeader()
+Date date = transformDate(pattern);
+assertEquals(3, model.getColumnCount());
+List sortedUids = Arrays.asList(uids);
+.getIcon(IconKeys.PREFERENCES)),
+* @see org.columba.ristretto.message.Message#getHeader()
+{
+IHeaderList list = createHeaderList();
+fireTagAddedEvent(tag.getId());
+assertEquals(2, model.getRootNode().getChildCount());
+notesLabel.setText(bundle.getString("notesLabel.text"));
+public void testNormalizeRCPTVectorEmptyList() {
+getSourceFolder().setAttribute(uid, "columba.size", new Integer(33));
+urlList.add(f.toURL());
+managerLabel.setText(bundle
+model.remove(new Object[] { new Integer(0)});
+ExtendableMenu menu = menubar.getMenu(menuId);
+ExternalClassLoader loader = new ExternalClassLoader(urls,
+STATUS status = object.getStatus();
+IExtensionHandler pluginHandler =  PluginManager
+String jarFilename = Extension.FILE_PLUGIN_JAR;
+return super.equals(obj);
+try {
+ClassLoader loader = Main.mainClassLoader;
+File destination = new File(DefaultConfigDirectory.getInstance().getCurrentPath(),
+workCityLabel.setText(bundle
+property.removeAllElements();
+table.removePluginNode(selectedNode);
+if ( count > 10 ) return MAX_PROBABILITY;
+group2 = new GroupItem("1", "groupname2", "description2");
+model.setElementAt(inputValue, model.indexOf(selection));
+public void testNormalizeRCPTVectorNull() {
+* @see org.columba.ristretto.message.Message#getHeader()
+else {
+if (e.getButton()==MouseEvent.BUTTON1 &&
+String firstStep = HtmlParser.substituteURL(input);
+enabled = false;
+* @see org.columba.ristretto.message.Message#getHeader()
+assertEquals("name1@mail.org", result.get(0));
+* @see org.columba.ristretto.message.Message#getHeader()
+plugin = instanciateJavaClass(className, arguments);
+if (b) {
+public void testNormalizeRCPTVector() {
+* @see org.columba.ristretto.message.Message#getHeader()
+Connection.XMPPConnection.getRoster().createEntry(jabberId,
+new DialogHeaderPanel(
+if (presence.getType().equals(Presence.Type.SUBSCRIBE)) {
+class Folder implements IFolder {
+e.printStackTrace();
+/**
+FocusManager.getInstance().registerComponent(this);
+/**
+class MyFolderFacade implements IFolderFacade {
+uncategorizedNode.add(new DefaultMutableTreeNode(buddy));
+* @see org.columba.ristretto.message.Message#getHeader()
+Hashtable hashtable = new Hashtable();
+* @see org.columba.ristretto.message.Message#getHeader()
+message.setBody(getSending().getText());
+AttachmentModel attMod = new AttachmentModel();
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+ContactModelPartial item = (ContactModelPartial) headerItem;
+it = roster.getEntries();
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+ShutdownManager.getInstance().register(new Runnable() {
+addWorkerTimer = new Timer(ADDWORKER_TIMER_INTERVAL, this);
+* @see org.columba.ristretto.message.Message#getHeader()
+BuddyList.getInstance().add(entry.getUser(), buddy);
+* @see org.columba.ristretto.message.Message#getHeader()
+root.add(uncategorizedNode);
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+buddy = BuddyList.getInstance().getBuddy(entry.getUser());
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+Presence p = roster.getPresence(entry.getUser());
+* @see org.columba.ristretto.message.Message#getHeader()
+BuddyStatus buddy;
+* @see org.columba.ristretto.message.Message#getHeader()
+parent.add(new DefaultMutableTreeNode(buddy));
+*/IColumbaHeader getHeader();
+buddy = new BuddyStatus(entry.getUser());
+InputStream is = new BufferedInputStream(new FileInputStream(file));
+jabberId = buddy.getJabberId();
+properties.load(is);
+account = new Account(properties.getProperty("id"));
+properties = new Properties();
+* @see org.columba.ristretto.message.Message#getHeader()
+pluginDirectory = pluginMetadata.getDirectory();
+* @see org.columba.ristretto.message.Message#getHeader()
+OutputStream os = new FileOutputStream(file);
+properties.store(os, "account");
+put("host", account.getHost());
+folder.add(dialog.getDestModel());
+protected JCheckBox overwriteCheckBox;
+jabberId = JOptionPane.showInputDialog(FrameManager.getInstance()
+((AddressbookFrameMediator) frameMediator)
+if (child.getName().equals("handler") == false)
+* @see org.columba.ristretto.message.Message#getHeader()
+if (extensionXmlElement.getName().equals(XML_ELEMENT_EXTENSION) == false)
+searchFolder.getConfiguration().setString("property",
+((AddressbookFrameMediator) frameMediator)
+if (jabberId == null)
+FolderFactory.createGroupFolder(folder, group);
+comboBox.setRenderer(new ItemRenderer());
+AddressbookFolder sourceFolder = (AddressbookFolder) mediator.getTree()
+if (constructor == null) {
+* @see org.columba.ristretto.message.Message#getHeader()
+}
+protected int counter;
+Iterator groups = entry.getGroups();
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+if (handler.exists(extensionId) == false)
+counter++;
+continue;
+if (pluginFolders == null || pluginFolders.length == 0) {
+protected void setUp() throws Exception {
+getSending().setText("");
+// Pack size is min 10, max 200 else mailboxsize / 10
+try {
+headerFile.delete();
+append("<font color='#348756'>" + from + "</font>: " + body);
+Message message = getChat().createMessage();
+super.removeFromParent();
+// green color
+getNode().removeFromParent();
+wakeUp();
+ColumbaClient client = new ColumbaClient();
+private JButton sendButton;
+public boolean enableSSL() {
+//List mimeParts = model.getAttachments();
+resourceTextField = new JTextField(10);
+b.append("&Server:", serverTextField);
+* @see org.columba.ristretto.message.Message#getHeader()
+private void registerDockables() {
+* @see org.columba.ristretto.message.Message#getHeader()
+/** {@inheritDoc} */
+parseExtensions(hashtable, pluginMetadata, false);
+* @see org.columba.ristretto.message.Message#getHeader()
+private JTextField resourceTextField;
+if (triggerNotification && (newTotal != total) ) {
+STATUS status = object.getStatus();
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+/*
+* @see org.columba.ristretto.message.Message#getHeader()
+BufferedInputStream buf;
+collectedUids.clear();
+if (line != null) {
+private File addressbookOptionsFile;
+ContactModel card = new ContactModel();
+list[0] = new JLabel();
+Shape oldClip = g.getClip();
+scriptsList,
+* @see org.columba.ristretto.message.Message#getHeader()
+String path = "org/columba/core/plugin/plugin.xml";
+updateGui();
+* @see org.columba.ristretto.message.Message#getHeader()
+actPos = crlfPos + 1;
+public Class getDefaultChild() {
+"");
+tidy.setQuiet(false);
+}
+* @see org.columba.ristretto.message.Message#getHeader()
+/** {@inheritDoc} */
+for (int i = 0; i < DEFAULT_HEADERFIELDS.length; i++) {
+LogRecordList.getInstance();
+* @see org.columba.ristretto.message.Message#getHeader()
+XmlElement text = parent.getElement("/config/text");
+* @see org.columba.ristretto.message.Message#getHeader()
+File file = Facade.getPluginConfigFile("org.columba.example.ConfigExample");
+* @see org.columba.ristretto.message.Message#getHeader()
+saveMessage(strbuf.toString(), worker,
+public static String ADR_REGION = "region";
+e.printStackTrace();
+ShutdownManager.getInstance();
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+if (!str.startsWith("From ") || (str.length() == 0)) {
+destModel.setNickName(nicknameTextField.getText());
+void insert(IMailFolder newFolder, int newIndex);
+* @see org.columba.ristretto.message.Message#getHeader()
+new SelfClosingPopupMenu(menu);
+nicknameTextField.setText(sourceModel.getNickName());
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+String key = line.substring(0, line.indexOf(':'));
+}
+if (IndexReader.isLocked(luceneIndexDir)) {
+ucp.set(sysloader,
+* @see org.columba.ristretto.message.Message#getHeader()
+int end = lcLine.length();
+HelpFormatter formatter = new HelpFormatter();
+/** Creates new instance and sets content type from a string (header minus "Content-Type: " */
+if (str.length() >= 13)
+{
+public void testRollWithYearsFirstDayCaseDayNegative() {
+String[] divided = divideMessage(msg);
+/**
+* @see org.columba.ristretto.message.Message#getHeader()
+/**
+// Logging.log.severe(
+treeScrollPane.getViewport().setBackground(
+None
+path = "org/columba/calendar/plugin/plugin.xml";
+List<URL> urlList = new ArrayList<URL>();
+String propertyPath = System.getProperty("java.library.path");
+if (conType.getSubType()
+* @see org.columba.ristretto.message.Message#getHeader()
+if ((conType.getType().equalsIgnoreCase("multipart"))
+if (key.equalsIgnoreCase("Date")) {
+if ((conType.getType().equalsIgnoreCase("multipart"))
+String[] split = createAttachmentListFromHeader(body,
+return false;
+header = guessBodyContentType(body);
+header = guessBodyContentType(body);
+key = "Content-Type"; // X-Attachments header is
+SessionController.serializePortNumber(port);
+.addSelectionChangedListener(new IDateRangeChangedListener() {
+count++;
+DateHeaderBean monthlyNorthDateHeaderBean = new DateHeaderBean();
+// "Not enough tokens in \""
+addElement( filterParent, child );
+/**
+worker.setProgressBarValue(j);
+body = createBodyFromParts(split, unique);
+return saveMessage(headerBuf.toString(), body, worker, destFolder);
+* @see org.columba.ristretto.message.Message#getHeader()
+/*
+// "Not enough tokens in \""
+value.setString("name2", "ns", "Description");
+if (ENABLE_TAGS) {
+/**
+return boundary;
+public int replace(){
+buf.append(headers);
+public CalendarPicker() {
+saveMessage(buf.toString(), worker, destFolder);
+if (!str.startsWith("From ???@???") || (str.length() == 0)) {
+try {
+Color outlinePaint = new Color(128, 0, 0);
+/**
+g.drawLine(x+1, h, x+w, h );
+AbstractFolder subFolder = (AbstractFolder) childClass.getConstructor(
+int i = 0;
+tempFile.deleteOnExit();
+StringBuffer newBody = new StringBuffer();
+None
+if (frame != null) {
+String name = tok.nextToken().trim();
+if (ColumbaCmdLineParser.getInstance().getRestoreLastSession()) {
+if (name.equals("")) {
+CloneStreamMaster master = new CloneStreamMaster(istream);
+if (searchFolder.getChildCount() >= 3) {
+FontProperties.setFont();
+int pos = lcLine.indexOf("charset");
+UIManager.put("Label.font", mainFont);
+ComponentManager.getInstance().init();
+VirtualHeader virtualHeader = new VirtualHeader((ColumbaHeader) header,
+folders = new HashSet();
+None
+private void end(){
+String host = client.getLocalAddress().getHostAddress();
+}
+}
+initPlatformServices();
+* @see org.columba.ristretto.message.Message#getHeader()
+}
+try {
+boolean isHTML = false;
+boolean html = false;
+HeaderTokenizer tokenizer = new HeaderTokenizer(headers);
+*/IColumbaHeader getHeader();
+/**
+if ((charset != null) && (charset.length() > 0))
+String[] retVal = new String[1];
+StartUpFrame frame = null;
+attachmentController = new AttachmentController(this);
+System.setProperty("java.protocol.handler.pkgs",
+Action sendAllAction;
+URLClassLoader sysloader = (URLClassLoader) ClassLoader
+JPopupMenu.setDefaultLightWeightPopupEnabled(false);
+if ( tableController.getColumnModel().getColumnCount() == 0)
+frame.setJMenuBar(menuBar);
+ActiveWindowTracker.class.getClass();
+Matcher openLink = Pattern.compile("<a", Pattern.CASE_INSENSITIVE).matcher(s);
+if (Logging.DEBUG)
+startTimePicker.setEnabled(true);
+DefaultConfigDirectory.getInstance().setCurrentPath(profile.getLocation());
+if (!flags.getSeen() && !srcFolder.isReadOnly()) {
+freqComboBox.setSelectedItem(RECURRENCE_DAILY);
+for (int i = 0; i < currentURLs.length; i++) {
+StringBuffer firstSB = new StringBuffer();
+/* (non-Javadoc)
+gc.setColor(Color.gray);
+Bootstrap startup = (Bootstrap) mainClassLoader.loadClass(
+// text/plain or text/html
+ImageIcon image = contactModel.getPhoto();
+StringBuffer bodyBuf = new StringBuffer();
+ShutdownManager.getInstance();
+currentProfile = promptForProfile();
+mainClassLoader = new MainClassLoader(Main.class.getClassLoader());
+public void update(Observable arg0, Object arg1) {
+String charset;
+* @see org.columba.ristretto.message.Message#getHeader()
+port = random.nextInt(65536 - LOWEST_PORT) + LOWEST_PORT;
+private static Date TODAY = new Date();
+return result;
+* @see org.columba.ristretto.message.Message#getHeader()
+ServiceManager.getInstance().startServices();
+private IViewableText text;
+String charset = bodyHeader.getContentParameter("charset");
+bodyBuf.append(line + "\n");
+AShapeUtil.setStateOverride(outlineAShape, GenericStates.SELECTED,
+attachBuf
+path = path.substring(1, path.length() - 1);
+System.gc();
+public void finished() {
+/**
+* @see org.columba.ristretto.message.Message#getHeader()
+}
+System.runFinalization();
+parentPath = path;
+mainClassLoader = null;
+public String nextLine()
+okButton = new ButtonWithMnemonic(GlobalResourceLoader.getString(
+dateAreaBean.getDateArea().setGridLineSpecProvider(
+new DefaultGridLineProvider(
+* @see org.columba.ristretto.message.Message#getHeader()
+SendAllMessagesCommand c = new SendAllMessagesCommand(this, r);
+IFolderItem item = folder.getConfiguration();
+private String killComments( String commented )
+public XmlIO(URL url) {
+public boolean isSelectedSearchInside() {
+new GridLineRepetition(0, 2, new AtStart(0f),
+CellDecorationRow northCellDecorationRow = new CellDecorationRow(
+None
+AtFixed forcedSize = new AtFixed(17);
+new CellDecorationRow(
+* @see org.columba.ristretto.message.Message#getHeader()
+} // ** End of class EudoraMailImportFilter
+return (true);
+// define activity layout
+title = findTitle(nameInputStr);
+bodyStream = new ProgressObservedInputStream(bodyStream, worker);
+result = match(to, condition, pattern);
+String cc = (String) header.get("Cc");
+* @see org.columba.ristretto.message.Message#getHeader()
+Header header = folder
+double breakHeight = maxHeight.getPoints() / scale; // in points, without scale
+String to = (String) header.get("To");
+sizeList.add(null);
+result |= match(cc, condition, pattern);
+* @see org.columba.ristretto.message.Message#getHeader()
+String[] retVal = new String[2];
+LOG.fine("Removing script: " + scripts[i].getPath());
+// insert surrounding html tags
+* @see org.columba.ristretto.message.Message#getHeader()
+// This is a workaround. Generally, the contact dialog editor
+} else {
+System.exit(1);
+IMailbox destFolder = (IMailbox) ((MailFrameMediator) frameController)
+String cmd = ExternalToolsHelper.getSpamc() + " -c";
+height = height - mStartY.getPoints();
+public static final String FIFO_FILE = ".fifo";
+TempFolder tempFolder = FolderTreeModel.getInstance().getTempFolder();
+}
+File file = DefaultConfigDirectory.getDefaultPath();
+try {
+// create a form builder
+if (measurer.getPosition() == lineBreaks[i]) {
+if ((arguments == null) || (arguments.length == 0)) {
+try {
+* @see org.columba.ristretto.message.Message#getHeader()
+if (Connection.XMPPConnection.getRoster().contains(jabberId))
+* @see org.columba.ristretto.message.Message#getHeader()
+new FontProperties();
+Iterator it = pluginElement.getChildren().listIterator();
+setBorder(UIManager.getBorder("TableHeader.cellBorder"));
+None
+* @see org.columba.ristretto.message.Message#getHeader()
+class MyContactFacade implements IContactFacade {
+/**
+consoleHandler = new ConsoleHandler();
+Rectangle allocation = new Rectangle(0, -startY, width, height
+if (!str.startsWith("From ") || (str.length() == 0)) {
+if (frameMediator instanceof AbstractMailFrameController) {
+}
+}
+}
+* @see org.columba.ristretto.message.Message#getHeader()
+/** {@inheritDoc} */
+try {
+* @return TableView
+aktMimeTree = null;
+for( int i=1; i<=10; i++) {
+while (processor.getWorker(Command.NORMAL_PRIORITY) != null)
+if (list[0] != null) {
+"com.apple.mrj.application.apple.menu.about.name",
+public static String getResourceRoot() {
+Iterator it = pluginElement.getChildren().listIterator();
+try {
+* @see org.columba.ristretto.message.Message#getHeader()
+public static boolean ensureDirectory(String path) {
+if (model.getType() == IComponent.TYPE.EVENT) {
+public void handleCommandLineParameters(CommandLine commandLine);
+* @see org.columba.ristretto.message.Message#getHeader()
+url = DiskIO.class.getResource("/" + path);
+/**
+return builder.getPanel();
+body = downloadCIDParts(body, mimePartTree);
+IMailFolderCommandReference ref2 = model.getSourceReference();
+* @see org.columba.ristretto.message.Message#getHeader()
+//		tagListDockable = registerDockable("addressbook_taglist",
+g.setColor(rect);
+* @see org.columba.ristretto.message.Message#getHeader()
+if (entry.isDirectory()) {
+if (folder.getId() != newFolder.getId())
+out.close();
+private String css = "";
+}
+int encoding = MimeHeader.PLAIN;
+int position = finder.findnext();
+in = new ZipInputStream(new FileInputStream(file));
+} else {
+byte[] buf = new byte[1024];
+Command updateFolderCommand = new CheckForNewMessagesCommand(
+mPane = new JTextPane();
+ZipEntry entry = null;
+* @see org.columba.ristretto.message.Message#getHeader()
+charsetName = System.getProperty("file.encoding");
+if (folder.getObservable() != null) {
+final static String helpsetName = "jhelpset";
+previouslySelectedRows = view.getSelectedRows();
+mark(position,position + findTextField.getText().length());
+lookup = lookup + "_tooltip";
+boolean isBordered = true;
+JOptionPane.showMessageDialog(FrameManager.getInstance()
+}
+isHtmlMessage = html;
+String enabledString = markasread.getAttribute("enabled", "true");
+if (arg0.getValueIsAdjusting())
+mark(0, 0);
+vcalendarElement = new Element(ICALENDAR.VCALENDAR);
+} catch (Exception e) {
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+else if (action.equals("REPLACEALL")){
+private CategoryList categoryList = new CategoryList();
+* @see org.columba.ristretto.message.Message#getHeader()
+mark(position,position + findTextField.getText().length());
+* @see org.columba.ristretto.message.Message#getHeader()
+FormLayout layout = new FormLayout("3dlu, left:pref, 30dlu, right:pref, 3dlu", // columns
+* @see org.columba.ristretto.message.Message#getHeader()
+{
+return false;
+if (isHTMLStrippingEnabled()) {
+if (dialog != null)
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+protected JLabel lfLabel;
+Rectangle allocation = new Rectangle(0, (int) -mStartY.getPoints(),
+* @see org.columba.ristretto.message.Message#getHeader()
+XmlElement textFont = Config.getInstance().get("options").getElement("/options/gui/textfont");
+* @see org.columba.ristretto.message.Message#getHeader()
+// enable/disable search bar during search
+* @see org.columba.ristretto.message.Message#getHeader()
+JPanel middlePanel = new JPanel();
+* @see org.columba.ristretto.message.Message#getHeader()
+.getIcon(IconKeys.PREFERENCES)),
+* @see org.columba.ristretto.message.Message#getHeader()
+class MyComboBoxRenderer extends DefaultListCellRenderer {
+* @see org.columba.ristretto.message.Message#getHeader()
+String input = FolderTstHelper.getString(1);
+* @see org.columba.ristretto.message.Message#getHeader()
+None
+Hashtable<String, String> hashtable = new Hashtable<String, String>();
+super.getTreeCellRendererComponent(tree, value, isSelected, expanded,
+public void startElement(String namespaceURI, String localName,
+JOptionPane.showMessageDialog(this, MailResourceLoader
+else if (action.equals("REPLACE")){
+public static final DataFlavor TREEPATH_FLAVOR = new DataFlavor(DataFlavor.javaJVMLocalObjectMimeType,
+* @see org.columba.ristretto.message.Message#getHeader()
+// -> go find the correct constructor based
+// dateAreaBean.getDateArea().addDecorator(
+dataWasImported = true;
+IColumbaHeader header = getHeaderList().get(uid);
+* @see org.columba.ristretto.message.Message#getHeader()
+if (action.equals("FIND")) {
+List newUids = store.getUIDList();
+HtmlParser.getHtmlBody(StreamUtils.readCharacterStream(bodyStream)
+private boolean overwrite;
+private boolean restoreLastSession = true;
+hKey = new cParagraph();
+IExtension extension = getExtension(id);
+public String getSummary() {
+emailTextField2.setColumns(20);
+login = true;
+* @see org.columba.ristretto.message.Message#getHeader()
+DefaultSearchEngine engine = parentFolder.getSearchEngine();
+ServiceManager.getInstance().initServices();
+List<String> list = new LinkedList<String>();
+professionLabel.setText(bundle
+ComponentManager.getInstance().handleCommandLineParameters(
+String decodedBody = getDecodedMessageBody();
+new ClearMessageViewerAction(getFrameMediator()).actionPerformed(evt);
+layout.setVisualDateRangeRounder(new DateRangeRounder() {
+GlobalResourceLoader.loadLanguage();
+// --
+ArrayList uidsToRemove = new ArrayList(Arrays.asList(headerlistUids));
+rruleString += ";UNTIL="+dateString(r.getUntilDate());
+// use default Java classlodaer
+String html = HtmlParser.substituteSpecialCharacters(text);
+String name = vfolderType + " contains [" + headerValue + "]";
+c.setStartField(java.util.Calendar.MINUTE, 0);
+URLClassLoader sysloader = (URLClassLoader) ClassLoader
+if ((arg0.getEnd().get(java.util.Calendar.HOUR_OF_DAY) == 0)
+if (c instanceof JXCollapsiblePane) {
+Font font = UIManager.getFont("Label.font");
+defaultEngine.add(actCriteria);
+setAddress(url.getFile());
+.getIcon(IconKeys.NEW_APPOINTMENT));
+CommandProcessor.getInstance().addOp(
+IMailFolderCommandReference ref2 = model.getSourceReference();
+/*PluginManager.getInstance().addHandlers(
+Color shadowPaint = null;
+* @see org.columba.ristretto.message.Message#getHeader()
+if (actionId == null)
+* @see org.columba.ristretto.message.Message#getHeader()
+* @see org.columba.ristretto.message.Message#getHeader()
+}
+.getService(
+private void mark(int start, int end) {
+button.setIcon(ImageLoader.getIcon(IconKeys.IMAGE_MISSING));
+if (taskManager.count() > 0) {
+ActivityInteractor.setStaticOverride(
+composerController.getView().getFrame().setVisible(true);
+boolean result = SpamController.getInstance().scoreMessage(srcFolder,
+System.exit(1);
+if (commandMap.containsKey(searchTerm))
+for (int i = selectedRows.length - 1; i >= 0; i--) {
+cSize contentSize = this.getSize(w); // scaled size
+continue;
+public ImageIcon getIcon() {
+.getIcon(IconKeys.PREFERENCES)),
+public Interval(int theA, int theB) {
+bottom.setBorder(BorderFactory.createEmptyBorder(17, 12, 11, 11));
+UIManager.setLookAndFeel("apple.laf.AquaLookAndFeel");
+theme = (AbstractThemePlugin) extension.instanciateExtension(null);
+List<ISearchRequest> list = new Vector<ISearchRequest>();
+server.closeConnection();
+IExtensionHandler handler =  PluginManager
+for (Iterator<ITag> iter = TagManager.getInstance().getAllTags(); iter
+POP3Store store = new POP3Store((PopItem) serverItem/* accountItem.getPopItem() */);
+removeAllTags();
+token = tokenStream.next();
+treeHandler.addSelectionListener(this);
+if (charset == null) {
+// IDefaultItem item = new DefaultItem(xmlElement);
+JButton moreButton = createAttachmentMoreButton();
+getTreeModel().nodeStructureChanged(getRootNode());
+listModel = new DefaultListModel();
+protected JLabel proxyLabel;
+return ret;
+if (message.getAccountUid() != actAccountUid) {
+// This is a workaround. Generally, the contact dialog editor
+addMouseListener(new MyMouseListener());
+* (non-Javadoc)
+boolean not_selectable = item.getBooleanWithDefault("selectable", true) == false;
+private int MIN_IDLE = 30 * 1000; // in ms
+ActivityDepository.getInstance().removeBrokedActivityById(
+String item = items[k].toString().toLowerCase();
+super(columns);
+if (item.startsWith(s.toLowerCase())) {
+if (path != null) {
+jpanel1.add(actionList, cc.xywh(1, 3, 2, 1));
+smtpItem = accountItem.getSmtpItem();
+lastMessage = e.getWorker().getDisplayText();
+updateTimer.restart();
+if (!isReady())
+int lastName = -1;
+if (!oldLookAndFeelName.equals((String) lfComboBox
+wrapped.setProperty(PropertyKey.getKey(propertyKey), propertyValue,
+Object[] categories = wrapped.getCategoryIDs();
+secRandBuf16[8] &= 0x3f;
+updateTimer = new Timer(UPDATE_TIMER_INTERVAL, this);
+store.modify(eventItem.getId(), event);
+model.getEvent().setDtStart(start);
+store.modify(selected.getId(), updatedModel);
+boolean success = persistence.load();
+ShutdownManager.getInstance().register(new Runnable() {
+String subject = message.getString(
+this.id = new VCalendarUIDGenerator().newUID();
+event.setDtStart(getDtStart());
+setLocationRelativeTo(null);
+String summary = event.getSummary();
+Recurrence columbaRecurrence = new Recurrence(Recurrence.fromFrequency(r.getFrequency()));
+toggleButtonStates(true);
+if (r == null) {
+layoutComponents(true);
+editScriptButton,
+uid = correctUid(value);
+String freqString = null;
+if (searchCriteriaTechnicalName == null) {
+for (int i = startIndex; i < count; i++) {
+* @see org.columba.ristretto.message.Message#getHeader()
+new TableHeaderMouseListener(getTableModelSorter());
+marshaller.marshallContact(out, exportContact);
+if (uid == null || dtStart == null || dtEnd == null)
+Random r = new Random();
+c.setSortString(identity.getSortString());
+child.removeContent(e);
+for (int i = 0; i < list.size(); i++) {
+String irrule = rrule.toLowerCase();
+if (id == null)
+dataStorage.remove(id);
+Document document = null;
+dataStorage.save(id, document);
+while (files[nextIndex].getName().indexOf(".") == -1) {
+String uid = filename.substring(0, filename.indexOf("."));
+for (int i = 0, size = activityList.size(); i < size; i++) {
+Activity act = CalendarHelper
+ICalendarStore store = CalendarStoreFactory.getInstance()
+Enumeration<JMenuItem> e = table.elements();
+IActivity activity = event.getSelection()[0];
+JMenuItem menuItem = table.get(calendarId);
+throw new RuntimeException("Account templates missing!");
+ICalendarItem calendar = list.getSelected();
+ICalendarItem calendar = list.getSelected();
+// Map<String, ISearchProvider> historyMap = SearchHistoryList
+Activity act = new DefaultActivity(dr, new Integer(1111));
+act.setCategoryIDs(new Object[] { calendar });
+// createMenuBar();
+westDateHeaderBean.setBackgroundPaint(new ShapeGradientPaint(new Color(
+public void insertUpdate(DocumentEvent event) {
+g2d.drawLine(w - 2, 2, w - 2, h - 1);
+List<ISearchCriteria> v = p.getAllCriteria(searchTerm);
+JRadioButtonMenuItem item = (JRadioButtonMenuItem) getComponent(0);
+private static final Color darkGrayColor = new Color(220, 220, 220);
+DateHeaderBean northDateHeaderBean = new DateHeaderBean();
+verticalGridDimensionLayout.setRowSizeNormal(new SizeSpec(new AtFixed(
+westDateHeaderBean
+new CellDecorationRow(DateRangeI.RANGE_TYPE_HOUR,
+northDateHeaderBean
+northCellDecorationRow });
+updatePopupMenu(textField.getPopupMenu(), textField.getText());
+new GridLineRepetition(1, 2,
+new GridLineRepetition(1, 1,
+int row = table
+AShapeUtil.setStateOverride(outlineAShape, GenericStates.SELECTED,
+g2d.drawRoundRect(0, 0, w + 30, h - 1, 20, 20);
+// Color selectedTitlePaint = new Color(200, 100, 100);
+// Color bulletPaint = new Color(100, 100, 100);
+Font titleFont = new Font("SansSerif", Font.BOLD, 11);
+// Edges of the poly shape
+PolygonShape leftTabShape = new PolygonShape();
+PolygonShape rightTabShape = new PolygonShape();
+AShape smallFill = new FillAShape("smallFill",
+Integer button = new Integer(MouseEvent.BUTTON1);
+void insert(IMailFolder newFolder, int newIndex);
+MouseKeyInteractor.MOUSE_PRESS,
+return root;
+DrawAShape outlineAShape = new DrawAShape(DEFAULT_OUTLINE_SHAPE_NAME,
+FeatherAShape shadowShape = new FeatherAShape(
+// AShape textShape = new TextAShape("text", "$" + GridRow.NAME + "$",
+String after = value.substring(value.indexOf(":") + 1);
+AShapeUtil.setResizeBoxes(root, SwingConstants.VERTICAL, 4);
+for (int i = 1; i < 5; i++) {
+Container c2 = getParent().getParent();
+PlaceRect titleDockRect = new AbsRect(SwingConstants.TOP, new Integer(
+FillAShape textBackground = new FillAShape("dbackground",
+DrawAShape outline = new DrawAShape("doutline", new Rectangle(0, 0, 1,
+containerAShape.addSubShape(shadow);
+Color textPaint = new Color(50, 50, 50);
+public static final String PROP_FILTERED = "filterRow";
+private static final int DAYS_PER_YEAR = 365; // FIXME this is not correct
+private IActivity selectedActivity;
+r.setEndMaxOccurrences(1);
+h = new ColumbaHeader(header, (Attributes) attributes.clone(),
+os.write(new String("From \r\n").getBytes());
+DEFAULT_SHADOW_SHAPE_SHAPE_NAME, new RoundRectangle(0, 0, 1, 1,
+GfxUtil.AA_HINT_OFF);
+// SizeConstraint sConstr2 = new SizeConstraint(new AtFixed(0), new
+// SizeConstraint sConstr3 = new SizeConstraint(new AtFixed(0), new
+IFilterRule rule = vfolder.getFilter().getFilterRule();
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+for (int j = 0; j < uids.length; j++) {
+// Drag, resize interactions
+srcFolder.setLastSelection(null);
+int markVariant = r.getMarkVariant();
+worker.setProgressBarValue(j);
+* selectedInternalActivitiy = ((ActivityView) o).getModel(); //
+worker.setProgressBarValue(0);
+for (int j = 0; j < uids.length; j++) {
+return saveMessage(headerBuf.toString(), body, worker, destFolder);
+search(searchDialog.getAllCriteriaRenderer(), searchDialog
+System.out.println("---> event in calendar");
+}
+category = CategoryDepository.getRoot().addSubCategory(
+// paint outer border
+body = HtmlParser.substituteURL(body);
+String msg = buf.toString() + body;
+if (value instanceof ISearchProvider) {
+if (srcFolder != null) {
+} else if (key.startsWith("Content-")) {
+keyList.add(key);
+keyList.add(MailResourceLoader.getString("header", "from"));
+destFolder = (IMailbox) r.getDestinationFolder();
+g2d.clip(r2d);
+* @see org.columba.ristretto.message.Message#getHeader()
+if ( srcFolder.getId() == destFolder.getId() ) return;
+Object[] uids = r.getUids();
+srcFolder.markMessage(uids, MarkMessageCommand.MARK_AS_EXPUNGED);
+searchPanel.getContextSearchManager().addResultListener(
+rolledMiddle.setSize(DateRange.RANGE_TYPE_DAY, 1,
+IFilterList list = srcFolder.getFilterList();
+fireTableEvent(new TableModelChangedEvent(
+mediator.fireActivityMoved(selectedActivity);
+lastFolder.add(child);
+}
+db = environment.openDatabase(null, name , databaseConfig);
+moreButton.addActionListener(new ActionListener() {
+"columba.attachment",
+textField.addKeyListener(new MyKeyListener());
+header.getAttributes().put("columba.spam",
+IMAPFlags flags = new IMAPFlags(destHeader.getFlags()
+if (identity.getNicknameCount() > 0)
+ImapItem item = getServer().getItem();
+specialFolder = this.findChildWithName(
+startTimePicker.setEnabled(false);
+if (info.getParameter(ListInfo.NOSELECT)) {
+for (int i = 0; i < parent.getChildCount(); i++) {
+((IDock) frameMediator).showDockable(IDock.DOCKING_VIEW_SEARCH);
+// execute background search
+IFilter filter = (Filter) getFilter().clone();
+IMailbox srcFolder = (IMailbox) r.getSourceFolder();
+recurrenceButton.setEnabled(false);
+JRadioButton rNoEnd = new JRadioButton();
+int row = tableController.getRowCount();
+if (tableController.getMessageNode(uid) == null) {
+endDatePicker.setEnabled(false);
+endDatePicker.setEnabled(true);
+JScrollPane treeScrollPane = new JScrollPane(listController.getView());
+if (child.getAttribute("overwrite").equals("true")) {
+eventValue.setString(
+eventValue.setString(
+IStructureValue dateRangeValue = eventValue.addChild(
+if (n == 2) {
+contextSearchManager.search();
+new SaveAsDraftAction(ComposerController.this)
+private ImageIcon image4 = MailImageLoader.getSmallIcon(
+setBodyText(body);
+addressCollector.clear();
+if (s.length() == 0)
+ICommand c = null;
+setShowToolBarText(false);
+category.setPropertyDeep(Category.PROP_IS_HIDDEN, Boolean
+InputStream messageSourceStream = folder
+initMimeHeader(bodyPart);
+return columns.length;
+for (int i = 0; i < composerController.getModel().getAttachments()
+controller = new ComposerController();
+nicknameTextField.setText(sourceModel.getNickName());
+ISearchProvider p = manager.getProvider(providerName);
+SearchResultBox resultBox = new SearchResultBox(frameMediator, p, null,
+model.setSourceReference(new MailFolderCommandReference(folder, new Object[] {uid}));
+searchBox.add(resultBox);
+p.clear();
+act.addCategoryID("tag_" + result.getId(), MigUtil.BIG_INT);
+controller.getCurrentEditor().getViewUIComponent().requestFocus();
+private void showSearchDockingView() {
+16 + getIconTextGap(), 0, 0));
+}
+setEnabled(false);
+((ComposerController) getFrameMediator()).setHtmlState(getState());
+((CalendarFrameMediator) frameMediator).getCalendarView()
+public boolean startExternalEditor(
+Font font = FontProperties.getTextFont();
+editController.setViewFont(OldFont);
+final AbstractEditorController editController) throws IOException {
+}
+Iterator<ISearchProvider> it = manager.getAllProviders();
+String incomingServerPanelTitle = MailResourceLoader.getString(
+defaultRadioButton.setEnabled(false);
+identity.setSignature(signature);
+validate();
+builder.append(languageLabel);
+builder.append(panel, 5);
+if (authMethods != null) {
+serverItem.setString(IncomingItem.LOGIN_METHOD,
+return;
+public void testRollWithYearsNormalCaseDay() {
+builder.append(languageLabel);
+ISearchProvider p = manager.getProvider(providerName);
+add(topPanel, BorderLayout.NORTH);
+ICommand c = null;
+getMediator().getFolderOptionsController().load(
+if (namespaces.getSharedNamespaceSize() > 0) {
+SwingUtilities.invokeLater(new Runnable() {
+* Boolean stating whetever the dialog was cancelled or not. Default value
+private Charset charset;
+IStructureValue identity = value.addChild(
+new ClearMessageViewerAction(getFrameMediator()).actionPerformed(evt);
+uid = tempFolder.addMessage(message);
+InputStream encryptedPart = folder.getMimePartBodyStream(uid,
+public static String markQuotings(String input) throws Exception {
+public void searchComplex(List<ISearchRequest> list, boolean matchAll,
+return visible;
+r.setMarkVariant(MarkMessageCommand.MARK_AS_NOTSPAM);
+private static String transformToHTML(StringBuffer buf, String css) {
+Main.mainClassLoader.addURLs(urls);
+for (int i = 0; i < headers.length; i++) {
+if (value.length > 0)
+public void searchInCriteria(String searchTerm, String providerName,
+tc.setCellRenderer(null);
+c.setHeaderValue(name);
+tc.setPreferredWidth(size);
+int result = -1;
+String i18n = MailResourceLoader.getString("header", item
+public void searchInCriteria(String searchTerm, String providerName,
+CommandProcessor.getInstance().addOp(new MarkMessageCommand(r));
+table.setSelected(new Object[] { nextNode.getUid() });
+Charset charset = ((CharsetOwnerInterface) getFrameMediator())
+//private StackedBox box;
+group.removeAllMembers();
+root.add(child);
+if (!uri.startsWith("columba://org.columba.mail"))
+String name = null;
+new SearchFrame((AbstractMailFrameController) frameMediator,
+textField = new JTextField(name, 15);
+private JPanel defaultBox;
+name = name + " (" + info.getUnseen() + ")";
+// -> lightgray font color and italic
+defaultBox = new JPanel();
+bottom.setBorder(BorderFactory.createEmptyBorder(17, 12, 11, 11));
+protocol.addIMAPListener(this);
+delimiter = fetchDelimiter();
+dialog.showDialog(MessageFormat.format(MailResourceLoader
+if (item.get("password").length() != 0) {
+ensureLoginState();
+if (protocol.getState() != IMAPProtocol.SELECTED
+public Component getListCellRendererComponent(JList list, Object value,
+if (!isReady())
+Handler[] handlers = Logger.getLogger("").getHandlers();
+return false;
+if (factory == null)
+charset = null;
+createMenu();
+if ((index + sizeOfPieces) > uids.length) {
+check();
+addMailCheckingListener(new SystemPeepMailCheckingListener());
+String name = accountItem.getName();
+createName();
+// only do checking if we are in online state
+setMargin(new Insets(1, 1, 1, 1));
+public TestCommand(DefaultProcessorTest test, int id, int priority) {
+iconBounds = new Rectangle(0, 0, icon.getIconWidth(), icon
+checkDefaultClient();
+attributes.put("columba.to", to[0]);
+StringBuffer addrSB = new StringBuffer(address);
+try {
+if (conn != null) {
+if (location.listFiles().length == 0)
+s = WHITE_SPACE_REMOVAL_PATTERN.matcher(s).replaceAll(" ");
+s = TRIM_SPACE_PATTERN.matcher(s).replaceAll("\n").trim();
+String theme = (String) lfComboBox.getSelectedItem();
+private static final int SLEEP_TIME = ONE_SECOND * 60 * 5;
+//body = parser.stripHTMLTags(decodedBody, true);
+Matcher matcher = SPECIAL_PATTERN.matcher(s);
+EventQueue queue = Toolkit.getDefaultToolkit().getSystemEventQueue();
+buf.append(s.substring(pos, e2));
+result.append(newPattern);
+if (tagStartClose < 0) {
+return COMMENTS_REMOVAL_PATTERN.matcher(html).replaceAll("");
+LinkedList headerUids = new LinkedList(getHeaderList().keySet());
+MimeTreeRenderer renderer = MimeTreeRenderer.getInstance();
+((StatusObservableImpl) server.getObservable()).setWorker(worker);
+server.cleanUpServer();
+None
+if (ConnectionStateImpl.getInstance().isOnline() == false) {
+Object serverUID = newMessagesUIDList.get(i);
+int maxSize = server.getAccountItem().getPopItem().getInteger(
+downloadMessage(serverUID, worker);
+startIdx = idxOld + oldPattern.length();
+boolean messageWasMoved = applySpamFilter(uid, worker);
+MouseHandler handler = new MouseHandler();
+* @see org.columba.ristretto.message.Message#getHeader()
+if ((this.locker == theLocker) && (theLocker != null)) {
+if (locked) {
+notifyAll();
+fireExceptionOccured(e);
+e.setNewValue(new Integer(delay));
+it = sourceModel.getPhoneIterator();
+Cipher blowCipher = Cipher.getInstance("Blowfish"); //$NON-NLS-1$
+Iterator it = sourceModel.getEmailIterator();
+if (strbuf.length() != 0) {
+if (dontAsk) {
+* Notify all table listeners.
+private JLabel titleLabel = new JLabel();
+/** {@inheritDoc} */
+}
+p = new Profile("Default", location);
+{
+it = sourceModel.getInstantMessagingIterator();
+{
+for (int i = 0; i < folders.length; i++) {
+while (p != -1) {
+fillPhoneModel(telephoneTextField1, telephoneComboBox1, destModel);
+break;
+if (location.exists()) {
+configPlugin.load();
+final Map<String, DefaultXmlConfig> map = pluginList.get(key);
+final XmlElement defaultView = new XmlElement(ViewItem.VIEW);
+defaultView.addElement(window);
+* @see org.columba.ristretto.message.Message#getHeader()
+XmlElement profileElement = new XmlElement("profile");
+selection = (String) list.getSelectedValue();
+// try name first
+editScriptButton,
+JOptionPane.showMessageDialog(this, GlobalResourceLoader
+DiskIO.copyFile(tmpFile, xmlFile);
+currentProfile = getProfileForLocation(location);
+* @see org.columba.ristretto.message.Message#getHeader()
+IStructureType document = core.addChild("document", "org.columba.core");
+if ((selection != null) && (!selection.equals("Default"))) {
+DiskIO.ensureDirectory(location);
+XmlElement profileElement = new XmlElement("profile");
+attachment.addAttribute("name", "org.columba.core");
+for (int i = 0; i < files.length; i++) {
+return DefaultMimeTypeTable.lookup(file);
+{
+model.addElement(p.getName());
+if ( OSInfo.isWin32Platform() ) {
+{
+None
+panel7.add(pictureButton, cc.xywh(1, 1, 1, 5));
+public FilterRule(XmlElement root) {
+* @return Returns the group.
+}
+if (childFolder == null) {
+nicknameLabel.setText(bundle
+c.add(bottomPanel, BorderLayout.SOUTH);
+public enum Location {
+ProfileManager.getInstance().renameProfile(selection, inputValue);
+fileunderLabel.setText(bundle
+private JLabel l_date;
+DateFormatSymbols sym = new DateFormatSymbols();
+c.insets = new Insets(0, 0, 0, 11);
+this.contextSearchManager
+_refresh();
+if (y == y1) {
+calendarPane.repaint();
+categoriesButton.setText(bundle
+gc.setColor(Color.black);
+int month = DateChooser.this.selectedDate.get(Calendar.MONTH);
+if ((clipMin && (d < minDay)) || (clipMax && (d > maxDay))
+private DefaultListModel model;
+JPanel middlePanel = new JPanel();
+JPanel topPanel = new JPanel();
+MnemonicSetter.setTextWithMnemonic(this, textWithMnemonic);
+JPanel topBorderPanel = new JPanel();
+component.setText(text);
+drawSquare(g, firstColumn, thirdRow);
+addItem(new ColorItem(Color.black, "None"));
+void insert(IMailFolder newFolder, int newIndex);
+public CArrowImage(int nArrowDirection) {
+File directory = PluginManager.getInstance().getPluginMetadata(
+ZipFileIO.extract(file, destination);
+return insets;
+Insets insets = getInsets();
+String id = selectedNode.getId();
+i = 0;
+pluginDirectory = new File(destination, pluginDirectory.getName());
+protected JLabel toolbarLabel;
+protected JLabel languageLabel;
+cutAction.setEnabled(false);
+handler = PluginManager.getInstance().getExtensionHandler(
+Locale l = (Locale) languageComboBox.getSelectedItem();
+"");
+pluginDirectory = new File(pluginDirectory, "plugin.xml");
+toggleAction.putValue(JXCollapsiblePane.COLLAPSE_ICON, UIManager
+c.weighty = 6.0;
+category = "Uncategorized";
+currentProfile = getProfileForName(location);
+jpanel1.add(executeActionLabel, cc.xy(3, 1));
+p.setBorder(BorderFactory.createEmptyBorder(0, 4, 4, 4));
+searchButton.addActionListener(new ActionListener() {
+if (col == 0) {
+emailTextField3.setColumns(20);
+super((JFrame) null, GlobalResourceLoader.getString(RESOURCE_PATH,
+((DefaultTreeModel) getTree().getModel()).nodeStructureChanged(node);
+getTree().expandPath(new TreePath(childNode));
+category = "Uncategorized";
+TableColumn tc = getColumn(columns[1]);
+public Object getCellEditorValue() {
+tc = getColumn(columns[2]);
+initTree();
+IStructureType message = core.addChild("message", "org.columba.core");
+if ((bounds.x == 0) && (bounds.y == 0)) {
+nicknameTextField.setText(sourceModel.getNickName());
+super((JFrame) null, true);
+emailTextField4.setColumns(20);
+try {
+c.close();
+node.setEnabled(((Boolean) value).booleanValue());
+if (image == null)
+return component;
+ViewItem view = null;
+ViewItem oldView = loadDefaultView(id);
+frameMediatorCache.put(v.get("id"), c.getFrameMediator());
+viewList.removeAllElements();
+if (Toolkit.getDefaultToolkit().isFrameStateSupported(
+public Component getTableCellEditorComponent(JTable table, Object value,
+statusBar = new StatusBar(TaskManager.getInstance());
+setContentPane(m.getContentPane());
+mediator.addListener(this);
+toolbar = new ExtendableToolBar();
+item.setInteger(ViewItem.WINDOW, ViewItem.POSITION_X_INT, loc.x);
+final Object obj = getObject(theName, theNamespace);
+contentPane.add(view, BorderLayout.CENTER);
+setVisible(false);
+preferHtmlCheckBox.setText(bundle
+String extensionId = metadata.getId();
+textPane.setCaretPosition(0);
+// load window position
+* create the PopupMenu
+final Object obj = getObject(theName, theNamespace);
+if (c == 0) {
+controller.addListener(new MyListener());
+telephoneTextField1.setColumns(20);
+public void actionPerformed(ActionEvent evt) {
+putValue(SMALL_ICON, ImageLoader.getSmallIcon(IconKeys.CANCEL));
+setEnabled(TaskManager.getInstance().count() > 0);
+telephoneTextField3.setColumns(20);
+telephoneTextField4.setColumns(20);
+imTextField3.setColumns(20);
+{
+String[] ids = getAllItems(newItemHandler);
+String[] managedFrames = getManagedFrames(frameHandler);
+iconBounds = new Rectangle(0, 0, icon.getIconWidth(), icon
+weblogLabel.setText(bundle
+homepageTextField.setColumns(20);
+{
+textPane.setEditable(false);
+URL baseUrl = DiskIO.getResourceURL("org/columba/core/icons/MISC/");
+panel5.add(weblogButton, cc.xy(3, 1));
+weblogTextField.setColumns(20);
+super.add(menu, getMenuCount()-2);
+if (index > 0 && (index - 1 < getComponentCount())) {
+((JCheckBox) component).setSelected(currentNode.isEnabled());
+freebusyTextField.setColumns(20);
+panel8.add(freebusyButton, cc.xy(3, 1));
+{
+professionTextField.setColumns(20);
+node.add(childNode);
+freebusyLabel.setText(bundle
+cancelButton.setText(bundle.getString("cancelButton.text"));
+panel6.add(calendarButton, cc.xy(3, 1));
+titleLabel.setText(bundle.getString("titleLabel.text"));
+companyLabel.setText(bundle
+DirectoryIO.delete(directory);
+calendarTextField.setColumns(20);
+public void actionPerformed(ActionEvent evt) {
+private DefaultListModel model;
+DiskIO.deleteDirectory(new File(location, folders[i]));
+boolean isManagedFrame = false;
+ProfileChooserDialog d = new ProfileChooserDialog();
+removeProfileXmlElement(profile);
+add(centerPanel, BorderLayout.CENTER);
+// g2.fillRect(0,0,w,h);
+createSubMenu();
+private void createSearchStackedBox(String searchTerm, String providerName,
+addWindowListener(this);
+super.paintComponent(g);
+searchPanel.getSearchManager()
+putValue(LARGE_ICON, ImageLoader.getIcon(IconKeys.CANCEL));
+if (taskManager.getWorkers().length == 0) {
+updateTimer.stop();
+group.setName(nameTextField.getText()); //$NON-NLS-1$
+clearTextTimer.restart();
+label.setText("");
+clearTextTimer.stop();
+/*
+if (sortString == null || sortString.length() == 0)
+DefaultListModel m = ((DefaultListModel) list.getModel());
+TagManager.getInstance().addTagListener(new MyTagListener());
+boolean tags = false;
+final boolean tagged = isTagged(tag);
+if (pluginName == null) {
+theme.setLookAndFeel();
+try {
+setText("");
+* @see org.columba.ristretto.message.Message#getHeader()
+String topicID = (String) action
+setDisabledIcon(ImageUtil.createTransparentIcon((ImageIcon) icon));
+if (actionId == null)
+}
+None
+String action = e.getActionCommand();
+finder.setPattern(findTextField.getText());
+//text.grabFocus();
+Policy.setPolicy(new Policy() {
+} else {
+finder.setPattern(findTextField.getText());
+int position = finder.find();
+if ( FrameManager.getInstance().isManaged(getFrameMediator().getId() ) ) {
+public static String readFileInString(File fromFile) throws IOException {
+if (getOpenFrames().length == 0) {
+/**
+/**
+URL url;
+public static void setResourceRoot(String path) {
+/**
+public static String readStringFromResource(String resource)
+try {
+c.file.deleteOnExit();
+}
+streamList.add(new FileInputStream(tempFile));
+tempFile.delete();
+File file = new File(configDirectory, "log");
+if (Logging.DEBUG) {
+private JPopupMenu getPopupMenu() {
+EffectsManager.setPreview(new GhostPreview());
+ShutdownManager.getInstance().register(new Runnable() {
+ShutdownManager.getInstance().register(AssociationStore.getInstance());
+DefaultFormBuilder b = new DefaultFormBuilder(layout, panel);
+// load core extension handlers
+PluginManager.getInstance().addExtensionHandlers(
+PluginManager.getInstance().addExtensionHandlers(
+PluginManager.getInstance().addExtensionHandlers(
+path = "org/columba/mail/plugin/plugin.xml";
+PluginManager.getInstance().initExternalPlugins();
+File[] nativeJars = nativeDir.listFiles(new FilenameFilter() {
+for (int i = 0; i < currentURLs.length; i++) {
+ColumbaDesktop.getInstance().initActiveDesktop();
+return filterDirectories(result);
+ClassLoader loader;
+try {
+for (int i = 0; i < pluginFolders.length; i++) {
+File infoFile = new File(pluginDirectory, "readme.html");
+InputStream is;
+// register all extensions
+for (int i = 0; i < pluginFolders.length; i++) {
+if (parameterTypes.length == args.length) {
+if (extensionListXmlElement.getName().equals(
+private static Document retrieveDocument(InputStream is) {
+if ((metadata.isSingleton()) && (cachedInstance != null)) {
+if (success) {
+// just in case that someone who developers on a plugin
+plugin = instanciateExternalJavaClass(arguments,
+if (metadata.isSingleton())
+Main.mainClassLoader.addURLs(urls);
+String path = file.getPath();
+savePositions();
+enableToolBar(IContainer.MAIN_TOOLBAR,
+MenuThrobber.setThrobber(menubar);
+ExtensionMetadata metadata = extension.getMetadata();
+//  <action uid="122" type="Move Message"></action>
+menubar = new MenuXMLDecoder(mediator).createMenuBar(is);
+removedScripts.add(script);
+if(Utilities.JAVA_1_5) {
+path = new File(config.getConfigDirectory(), COLUMBA_SCRIPT_DIRECTORY);
+/*XXX this is not thread-safe, though luck. It isn't supposed to be. */
+IColumbaService service = getServiceInstance(extension);
+toolbar = new ExtendableToolBar();
+hashtable.put(r.getLocation().toString(), r.getLocation().toString());
+List newViewList = new LinkedList();
+final Runnable run = new Runnable() {
+Runnable run = new Runnable() {
+final int totalResultCount = p.getTotalResultCount();
+// add toolbar
+this.setIconImage(ImageLoader.getMiscIcon("icon16.png").getImage());
+String uuid = UUID.randomUUID().toString();
+it = sourceModel.getInstantMessagingIterator();
+break;
+xmlConfig = new MyXmlConfig(tagFile);
+map.put(tag.getId(), tag);
+private Color color;
+setFrameMediator(mediator);
+pattern = new String();
+pattern = "\\b" + pattern + "\\b";
+mediator = new DefaultFrameController(viewItem);
+public int findnext() {
+public void replaceAll(){
+new DialogHeaderPanel(
+/**
+RES_MESSAGE_COLUMN = "Message";
+RES_MESSAGE_COLUMN = "Message";
+List<String> salutations = new ArrayList<String>();
+while (activeFrameCtrls.size() > 0) {
+if (nameInputStr == null)
+lastName = tokens.get(0);
+hashtable.put(id, new ProfileData(id, currentPath,
+private int writeIndent = 2;
+return load(url);
+Frame frame = (Frame) obj;
+if (aName.equals("")) {
+contents.write(ch, start, length);
+}
+protected TooltipMouseHandler tooltipMouseHandler;
+selectionManager = new SelectionManager();
+if (getOpenFrames().length == 0) {
+defaultViews.addElement(view.getRoot());
+DockingManager.setFloatingEnabled(true);
+IStructureValue value = factory.createValue("userlist", "ns", userList);
+RoundRectangle2D.Float r2d = new RoundRectangle2D.Float(0, 0,
+public void testGetTag() {
+if (defaultViews == null) {
+}
+IFrameMediator controller = createFrameMediator(view);
+String getColumnName(int column);
+int index = str.indexOf(pattern);
+frame = (IFrameMediator) frameMediatorCache.remove(id);
+if ( c.getFrameMediator().getId().equals(id)) return c.getFrameMediator();
+// view = null => defaults specified by frame controller is used
+IExtension extension = handler.getExtension(id);
+if (replyTo == null) {
+String enableHtml = htmlElement.getAttribute("enable", "false");
+XmlElement view = viewList.getElement(i);
+if (OSInfo.isWin32Platform() && defaultWin.exists()) {
+File sourceFile = (File) data.getData("Location.source");
+Address replyAddress = identity.getReplyToAddress();
+LocalMimePart bodyPart = new LocalMimePart(new MimeHeader("multipart",
+continue;
+if (needQPEncoding(body)) {
+getComponent();
+List attachments = model.getAttachments();
+XmlElement composerOptions = MailConfig.getInstance()
+body = composeMultipartAlternativeMimePart(appendSignature);
+for (int i = 0; i < viewList.count(); i++) {
+if ((idStr == null) || (idStr.length() == 0)) {
+if (newViewList.size() > 0) {
+// -> @see org.columba.mail.folder.cache.CachedHeaderfields for a
+public static final int POP3_ACCOUNT = 0,
+if ( parent == null) parent = getRoot().addSubElement("spam");
+return MailConfig.getInstance().getAccountList().getDefaultAccount()
+* structure found as getRoot(). Therefore super.equals()
+newViewList.add(v.getRoot());
+public SecurityItem getPGPItem(String to) {
+String hstr = "org/columba/mail/config/account_template.xml";
+mailFrameMediator = mediator;
+String id = (String) data.getData("id");
+if (OSInfo.isLinux() || OSInfo.isSolaris()) {
+XmlElement root = getRoot().getElement(0);
+} else if ((c == ' ') && (replSpaces)) {
+break;
+child.addAttribute("first_time", "false");
+showErrorDialog(e.getMessage(), e);
+Date d = (Date) ((IMailbox)folder).getAttribute(uid, "columba.date");
+XmlElement root = getConfiguration(toolID);
+IMailFolderCommandReference ref = new MailFolderCommandReference(imapFolder, uids);
+XmlElement parent = Config.getInstance().get("external_tools")
+None
+if (!info.isSane()) {
+if (!exists(uid)) {
+removeMessage(uid);
+ExternalToolsWizardLauncher launcher = new ExternalToolsWizardLauncher();
+if( mailboxInfo.getExists() < 0) return false;
+handler = PluginManager.getInstance().getExtensionHandler(
+return null;
+protected IFolderItem node;
+private IMailFolder rootFolder;
+* ******************************** locking mechanism
+newParent.getConfiguration().getRoot().addElement(
+if (OSInfo.isWin32Platform() && defaultWin.exists()) {
+f.delete();
+LocalMimePart mimepart = (LocalMimePart) message.getMimePartTree()
+// destFolder.fireMessageAdded(uids[i]);
+private void layoutComponents() {
+new ExceptionHandler().processException(e);
+StringWriter error = new StringWriter();
+addMouseListener(this);
+((DefaultTreeModel) getTree().getModel()).nodeStructureChanged(node);
+TreePath path = tree.getPathForRow(row);
+if (OSInfo.isLinux() || OSInfo.isSolaris()) {
+// JPanel p = new JPanel();
+None
+c.gridheight = 1;
+// builder2.addGlue();
+for (int i = 0; i < leftButtonVector.size(); i++) {
+// Color color = UIManager.getColor("controlDkShadow");
+c.weightx = w1;
+String[] envfonts = gEnv.getAvailableFontFamilyNames(Locale
+it = sourceModel.getAddressIterator();
+c.weightx = 1.0;
+c.weighty = 1.0;
+c.insets = new Insets(1, 3, 1, 3);
+// ======== this ========
+centerPanel.add(detailsButton, cc.xywh(1, 3, 1, 1));
+ThemeSwitcher.setTheme();
+FontProperties.setFont();
+IContainer[] m = FrameManager.getInstance().getOpenFrames();
+for (int i = 0; i < available.length; i++) {
+configHandler = PluginManager.getInstance().getExtensionHandler(
+protected String configID;
+pen.y += layout.getAscent();
+List temp = new LinkedList();
+public void paint(Graphics g) {
+if( MenuSelectionManager.defaultManager().getSelectedPath().length==1 ) {
+void insert(IMailFolder newFolder, int newIndex);
+private static final Color THREE_D_EFFECT_COLOR = new Color(255, 255, 255);
+g.drawLine(0, y + 1, 0, y2 - 1);
+String topicID = (String) action.getValue(AbstractColumbaAction.TOPIC_ID);
+private static final int WIDTH = 12;
+draw3dSquare(g, firstColumn+1, thirdRow+1);
+component.setMnemonic(mnemonic);
+}
+public Dimension getMinimumSize() {
+MnemonicSetter.setTextWithMnemonic(this, name);
+public static final String EXTENSION_POINT_ID = "main_toolbar";
+private int getDay(MouseEvent evt) {
+private class _MouseListener2 extends MouseAdapter {
+public Dimension getPreferredSize() {
+for (int d = 1; d <= dmax; d++) {
+if (++x == 7) {
+paintBorder(gc);
+for (int i = 0, ii = selectedDate.getFirstDayOfWeek() - 1; i < 7; i++) {
+private Calendar copyDate(Calendar source, Calendar dest) {
+if (y == y0) {
+if (minDate != null) {
+g2d.fillRect(0, 0, w, h);
+* Determine what day of week the first day of the month falls on. It's too
+g2d.drawRoundRect(1, 1, w + 30, h - 3, 18, 18);
+MnemonicSetter.setTextWithMnemonic(this, textWithMnemonic);
+highlightColor = UIManager.getColor("List.selectionBackground");
+/*
+setLayout(new BorderLayout(5, 5));
+//
+public void highlightInitialText(int length) {
+/** <i>Date changed</i> event command. */
+IStructureType type = factory.createStructure("userlist", "ns");
+if (location == Location.LOWER_LEFT || location == Location.LOWER_RIGHT) {
+originalIcon.paintIcon(owner, g, x, y);
+if (location == Location.UPPER_RIGHT
+// path.append(new Line2D.Float(0, h - 1, w - 1, h - 1), true);
+// leftMainPanel.setLayout(new BorderLayout());
+int ovalHeight = 3;
+javax.swing.SwingUtilities.invokeLater(new Runnable() {
+setForeground(Color.blue);
+public void waitForThreads() throws Exception {
+loadProfilesConfiguration();
+if (serviceInstance == null) {
+// load all internal addressbook plugins
+getView().getSelectionModel().addListSelectionListener(this);
+setString("uid", "101");
+public class FilterAction extends DefaultItem implements IFilterAction {
+/* (non-Javadoc)
+if (map.containsKey(serviceInterface)) {
+private static final String ELEMENT = "criteria";
+if (service != null)
+serviceInstance = loadInstance(implementationName);
+child.waitFor();
+if (identity.listAdditionalNames().length > 0)
+command = TextUtil.replaceAll(command, "%1", file.getPath());
+titleBar.addButton(new CloseIcon(), new CloseAction(this
+initComponents();
+IStructureType attachmentList = core.addChild("attachmentList",
+fireSelectionChanged(new IActivity[] { selectedActivity });
+.getIcon(IconKeys.PREFERENCES)),
+* fireSelectionChanged(new IActivity[] { selectedActivity }); }
+BufferedInputStream buf;
+private void initContext() {
+fireSelectionChanged(new IActivity[] { selectedActivity });
+final List<IStructureValue> list = new Vector<IStructureValue>();
+list = new Vector<IStructureValue>();
+final IAttributeType t = getType().getAttribute(theName,
+ActivityDepository.getInstance().removeBrokedActivityById(
+throw new IllegalArgumentException(
+try {
+document = new Document();
+transformModelToDocument(document);
+public class GuiItem extends DefaultItem {
+component.setText(buf.toString());
+final IPluginManager pm = PluginManager.getInstance();
+currentPath = DefaultConfigDirectory.getDefaultPath();
+return getElement(pathToElement, true);
+return other;
+imTextField1.setColumns(20);
+operationQueue.remove(nextOp);
+for (int i = 0; i < MAX_WORKERS; i++) {
+centerPanel.add(editorPanel, BorderLayout.CENTER);
+return Base64.encode(ByteBuffer.wrap(ciphertext)).toString();
+} else {
+byte[] cleartext = new String(source).getBytes("UTF-8"); //$NON-NLS-1$
+public static JButton createButton(AbstractColumbaAction action) {
+fireWorkerStatusChanged(e);
+ShutdownManager.getInstance().register(new Runnable() {
+}
+WorkerStatusChangedEvent e = new WorkerStatusChangedEvent(this,
+blowCipher.init(Cipher.ENCRYPT_MODE, KEY);
+byte[] cleartext = new String(source).getBytes("UTF-8"); //$NON-NLS-1$
+MailFolderCommandReference r = model.getSourceReference();
+* @see org.columba.ristretto.message.Message#getHeader()
+int startIdx = 0;
+}
+taskManager = TaskManager.getInstance();
+if (identity.listSuffixes().length > 0)
+c.setFormattedName(identity.getFormattedName());
+Date birthday = importContact.getPersonalIdentity().getBirthDate();
+MimeTree mptree = message.getMimePartTree();
+result.append(inputString.substring(startIdx));
+/**
+}
+}
+.info("RemoveAssociation: Got more than one association, that is strange! We try to remove all!");
+result.append(inputString.substring(startIdx, idxOld));
+* @see org.columba.ristretto.message.Message#getHeader()
+// start JPA entity manager
+private static final int ONE_SECOND = 1000;
+if (manager != null)
+} catch (Exception ex) {
+if (attributes != null) {
+if (name.length() == 0)
+boolean overwrite = Boolean.valueOf(fonts.getAttribute("overwrite",
+if (consolehandler != null)
+try {
+if (handlers[index] instanceof ConsoleHandler) {
+for (Enumeration enumeration = node.getAttributes().keys(); enumeration
+s = ParserUtil.getArrayOfString(c.getNameSuffix(), ",");
+public Association() {
+File file = new File("test_config");
+String headerItem,
+imTextField2.setColumns(20);
+}
+PluginManager.getInstance().initExternalPlugins();
+File[] list = f.listFiles();
+Logging.DEBUG = true;
+while (it.hasNext()) {
+public void testGetHeaderItemList() throws Exception {
+public void testAddContact() throws Exception {
+virtualFolder.add(f, id);
+return false;
+f.delete();
+mark(position,position + findTextField.getText().length());
+String value = "11:20";
+Category rootCategory = CategoryDepository.getRoot();
+boolean criteriaSearch = (criteriaName != null && providerName != null) ? true
+db.close();
+// set all tags/categories to be *not* selected
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+boolean result = scoreMessage(j);
+if (result) {
+Collection<String> messageList = AssociationStore.getInstance()
+c.setHomePage(importContact.getURL());
+if ( importContact.listAddresses().length > 0 ) {
+Address[] addresses = importContact.listAddresses();
+category = CategoryDepository.getRoot().addSubCategory(
+return;
+category.setProperty(Category.PROP_IS_HIDDEN, Boolean
+} else if ("NormalEvent".equals(entry.getEvent().getSummary())) {
+} else if ("AllDayEvent".equals(entry.getEvent().getSummary())) {
+if ("Anniversary".equals(entry.getEvent().getSummary())) {
+private boolean checkAssocation(String folderId, String eventId, ITag tag) {
+item.setSelected(true);
+Activity act = ActivityDepository.getInstance()
+if (componentId.equals("org.columba.calendar")) {
+new CellDecorationRow(
+setShowGrid(false);
+// setRowMargin(5);
+setTableHeader(null);
+getView().makeRowVisible(row);
+start(args);
+ShutdownManager.getInstance().register(new Runnable() {
+String path = file.getPath();
+if ( organisationalIdentity != null) {
+if (!c.getEmailIterator().hasNext())
+eventValue.setString(ISemanticContext.CONTEXT_ATTR_SUMMARY,
+JComboBox freqComboBox = new JComboBox();
+endDatePicker.setEnabled(false);
+endDatePicker.setEnabled(false);
+JRadioButton rMaxOccurrences = new JRadioButton();
+rNoEnd.setEnabled(true);
+return;
+JRadioButton rUntilDate = new JRadioButton();
+recurrenceButton.setEnabled(true);
+None
+{
+if ( minutes == 0)
+List<AddressbookFolder> v = SearchUtility.createContactFolderList();
+charset = Charset.forName(System.getProperty("file.encoding"));
+JButton recurrenceButton = new JButton();
+net.wimpi.pim.contact.model.Contact exportContact = new ContactImpl();
+if (iBefore < 10)
+return defaultValue;
+try {
+setRenderer(new MyListCellRenderer());
+iBefore = testBefore;
+String before = value.substring(0, value.indexOf(":"));
+ThemeSwitcher.setTheme();
+boolean valid = value.matches("[0-2][0-9]:[0-5][0-9]");
+// trigged if activity is moved or daterange is modified
+* selectedInternalActivitiy = null;
+homepageLabel.setText(bundle
+if (handleCoreCommandLineParameters(args)) {
+model.getEvent().setDtStamp(Calendar.getInstance());
+.getService(
+return ((arg.get(java.util.Calendar.DAY_OF_YEAR) - 1) / 7) + 1;
+com.miginfocom.calendar.activity.Activity activity = ((ActivityView) e
+if (DefaultDateArea.AE_POPUP_TRIGGER.equals(commandValue)) {
+selectedActivity = new Activity(selectedInternalActivitiy);
+FillAShape fillShape1A = new FillAShape("dockFill1", new Rectangle(0,
+Paint titlePaint = new Color(120, 120, 120);
+ComponentManager.getInstance().postStartup();
+// SizeConstraint sConstr4 = new SizeConstraint(new AtFixed(0), new
+if (getObservable() != null) {
+Object newUid = generateNextMessageUid();
+if (item == null)
+if (aktMessage != null) {
+MailCheckingManager.getInstance().remove(item.getUid());
+j--;
+return aktMessage;
+try {
+IColumbaHeader h = getHeaderList().get(uid);
+os = new BufferedOutputStream(new FileOutputStream(r.getDestFile()));
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+if (h == null) {
+return getHeaderList().get(uid);
+if (oldFlags.get(Flags.RECENT) && !flags.get(Flags.RECENT)) {
+removeMessage(uid);
+super.removeMessage(uid);
+SyncHeaderList.sync(this, headerList);
+List cachedList = Arrays.asList(CachedHeaderfields
+if (messageFolderInfo.getExists() != storedCount) {
+System.err.println("Parsing failed.  Reason: " + e.getMessage());
+File headercacheDirectory = new File(getDirectoryFile(),"headerlist");
+while ((read = in.read(buffer, 0, buffer.length)) > 0) {
+for (int i = 0; i < uids.length; i++) {
+in = new BufferedInputStream(srcFolder
+JCheckBox inclHeaders = new JCheckBox(MailResourceLoader.getString(
+if (os != null) {
+os.write(new String("\r\n").getBytes());
+for (int i = 0; i < uids.length; i++) {
+worker.setProgressBarValue(j);
+if (list2.size() > 0) {
+if (list1.size() > 0) {
+if (locale == null) {
+if ((markVariant == MarkMessageCommand.MARK_AS_SPAM)
+new ConfigFrame(mediator, vfolder);
+if (worker.cancelled()) {
+if (item.getSpamItem().isMoveMessageWhenMarkingEnabled() == false)
+// nothing
+srcFolder.setAttribute(uids[j], "columba.color", color);
+IMailFolder destFolder = FolderTreeModel.getInstance()
+locale = new XmlElement("locale");
+int rgbValue = r.getColorValue();
+Attributes attributes = srcFolder.getAttributes(uids[j]);
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+MailFilterCriteria c = new MailFilterCriteria(rule.get(0));
+}
+if (uids.length == 0) {
+classLoader = null;
+String parentUid = "101"; // default is inbox if parent is null
+String sender = (String) header.get("From");
+folderToBeRead = (IMailbox) ((IMailFolderCommandReference) getReference()).getSourceFolder();
+((StatusObservableImpl) srcFolder.getObservable()).setWorker(worker);
+destParentFolder = (IMailFolder) ((IFolderCommandReference) getReference())
+folder.save();
+Iterator<String> it = addresses.listIterator();
+if ((getReference() != null) || (getReference() == null)) {
+}
+int res = fileChooser.showSaveDialog(null);
+String subject = (String) srcFolder.getHeaderFields(uid, new String[] { "Subject" }).get("Subject");
+if (success && (strbuf.length() > 0)) {
+confirm = JOptionPane.showConfirmDialog(FrameManager.getInstance()
+childFolder.removeFolder();
+charset = Charset.forName(bodyHeader.getContentParameter("charset"));
+String name = ((IMailFolderCommandReference) getReference()).getFolderName();
+ExtensionFileFilter txtFilter = new ExtensionFileFilter("txt",
+getSourceFolder().markMessage(new Object[] {uid}, MarkMessageCommand.MARK_AS_READ);
+srcFolder.setLastSelection(uids[0]);
+((IMailFolder) selectedFolder).setName(name);
+boolean ishtml = false;
+IMailFolderCommandReference r = (IMailFolderCommandReference) getReference();
+srcFolder.expungeFolder();
+boolean incl = inclHeaders.isSelected();
+if (ExtensionFileFilter.getFileExtension(f) == null) {
+body = HtmlParser.validateHTMLString(decodedBody);
+if (identity.listPrefixes().length > 0)
+XmlElement options = Config.getInstance().get("options").getElement("/options");
+if (charset == null) {
+body = DocumentParser.markQuotings(body);
+String ext = getFileExtension(f);
+XmlElement textFont = Config.getInstance().get("options").getElement("/options/gui/textfont");
+StringBuffer buf = new StringBuffer();
+String css = "<style type=\"text/css\"><!-- .bodytext {font-family:\""
+String[][] headerArray = new String[2][];
+Enumeration keys = header.getKeys();
+String val = headers[1][i];
+getToolBar().add(action);
+for (int j = 0; j < uids.length; j++) {
+String decodedBody = getDecodedMessageBody();
+if (srcFolder instanceof VirtualFolder) {
+IMailbox srcFolder = (IMailbox) r.getSourceFolder();
+for (int i = 0; i < uids.length; i++) {
+IMailbox folder = (IMailbox) r.getSourceFolder();
+Object[] uids = r.getUids();
+cParagraph columbaParagraph = new cParagraph();
+private String attHeaderKey = "attachment";
+cPrintVariable footer = new cPrintVariable();
+cDocument messageDoc = new cDocument();
+ParsePosition pos = new ParsePosition(dateStr.indexOf(',') + 1);
+SimpleDateFormat formatter = new SimpleDateFormat(
+hKey.setText(MailResourceLoader.getString("header",
+for (int i = 0; i < Array.getLength(headerKeys); i++) {
+cParagraph printBody = new cParagraph();
+String mimesubtype = bodyHeader.getMimeType().getSubtype();
+}
+hValue.setText((String) value);
+messageDoc.print();
+LOG.info("printer config node not found - creating new");
+String validated = HtmlParser.validateHTMLString(decodedBody);
+File tempFile = TempFileStore.createTempFileWithSuffix("html");
+if (result.length != 0) {
+htmlBody.setTopMargin(new cCmUnit(1.0));
+public void testRemoveObject() throws Exception {
+Object[] result = srcFolder.searchMessages(filter);
+BackgroundTaskManager.getInstance().stop();
+if (strbuf.length() != 0) {
+srcFolder.setLastSelection(null);
+for (int i = 0; i < list.count(); i++) {
+worker.clearDisplayTextWithDelay();
+tagsElement.removeContent();
+worker.setProgressBarMaximum(uids.length);
+IFilterList list = srcFolder.getFilterList();
+getServer().fetchHeaderList(getHeaderList(), newUids, this);
+if (child.getParent() != null) {
+}
+if (applyFilter) {
+try {
+}
+command.execute(worker);
+IColumbaHeader header = null;
+"columba.size",
+if (getObservable() != null) {
+"columba.spam" };
+messageList.clear();
+"columba.priority",
+"columba.alreadyfetched" };
+"columba.flags.seen", "columba.flags.recent",
+"columba.host",
+"columba.subject",
+"columba.from",
+"columba.color",
+"columba.pop3uid",
+public static final String[] DEFAULT_HEADERFIELDS = { "Subject", "From",
+IColumbaHeader strippedHeader = new ColumbaHeader();
+newUids.add(newFlags[i].getUid());
+columnNames = CachedHeaderfields.getDefaultHeaderfields();
+String[] columnNames = CachedHeaderfields.INTERNAL_HEADERFIELDS;
+public static final String[] INTERNAL_COMPRESSED_HEADERFIELDS = {
+int compressedFlags = 0;
+if (b[i] == null) {
+String[] columnNames = CachedHeaderfields.INTERNAL_HEADERFIELDS;
+if (localUids.size() > 0) {
+CommandProcessor.getInstance().addOp(
+public IMAPFolder(String name, String type, String path) throws Exception {
+localPointer--;
+super.setName(name);
+getMessageFolderInfo().setExists(localUids.size());
+MailboxStatus status = getServer().getStatus(this);
+if (firstSync) {
+for (int i = actUids.length - 1; i >= 0
+if (largestLocalUidIndex == -1) {
+if (largestLocalUidIndex == -1) {
+} else {
+* status.getMessages(); // Set the index of the largest Uid to 0 // ->
+while (upper >= 1 && found != deletedMessages) {
+findRemovedMessages(status, localUids);
+destHeader = (IColumbaHeader) destHeader.clone();
+setFlags(newFlags);
+while (localUids.size() > 0
+for (int i = 0; i < newFlags.length; i++) {
+findRemovedMessages(status, localUids);
+int packSize = Math.min(Math.max(deletedMessages, status
+for (int i = 0; i < newFlags.length; i++) {
+* @see org.columba.ristretto.message.Message#getHeader()
+IMailFolder root = getRootFolder();
+IMAPFolder srcFolder = (IMAPFolder) r.getSourceFolder();
+remove(members[i]);
+if (destUids.length == 0)
+public int find() {
+ICloseableIterator headerIterator = getHeaderList().headerIterator();
+ColumbaHeader header = (ColumbaHeader) getHeaderList().get(uid);
+IColumbaHeader cHeader = new ColumbaHeader(header,
+Header header = withHeaderInputStream.getHeader();
+mailboxSyncEnabled = true;
+protected Lock myLock = new Lock();
+while (it.hasNext()) {
+XmlElement element = findColumn(columns, column.toString());
+if (subFolder == null) {
+File commitLock = new File(indexDir, "commit.lock");
+if (subFolder == null) {
+syncFolder(subFolder, name.substring(name.indexOf(server
+ListInfo[] listInfo = getServer().fetchSubscribedFolders();
+if (parent instanceof IMAPFolder) {
+private boolean bool = false;
+if (info.getParameter(ListInfo.NOINFERIORS)
+private CharArrayWriter contents = new CharArrayWriter();
+String specialUid = folders.get(SPECIAL_FOLDER_NAMES[i]);
+markAllSubfoldersAsExistOnServer(this, false);
+AbstractFolder specialFolder = this.findChildWithName(
+inbox.getConfiguration().setString("selectable", "true");
+Command updateFlagCommand = new UpdateFlagCommand(
+imapFolder.fetchDone();
+if( action != null) action.setEnabled(true);
+if (ret == null) {
+int total = imapFolder.getMessageFolderInfo().getExists();
+IMailFolderCommandReference ref = new MailFolderCommandReference(imapFolder, uids);
+int newTotal = imapFolder.getMessageFolderInfo().getExists();
+counter++;
+if (strbuf.length() != 0) {
+try {
+if (match == FilterRule.MATCH_ALL) {
+if (strbuf.length() != 0) {
+fillAddressModel(AddressModel.TYPE_WORK, destModel);
+boolean enableLucene = getConfiguration().getBooleanWithDefault("property",
+Enumeration uids = messages.keys();
+LOG.warning("Could not delete " + file.getAbsolutePath()
+if (!file.delete()) {
+resultList.addAll(Arrays.asList(virtualUids));
+tableController.setSelected(new Object[] { uid });
+return folder.getServer().search(filter, folder);
+return new Object[] {};
+file.deleteOnExit();
+List result = new ArrayList(list.length); //new Object[list.length];
+None
+Object[] uids = new Object[0];
+return result;
+folders.setString(SPECIAL_FOLDER_NAMES[i], specialFolder
+else {
+getObservable().clearMessageWithDelay();
+Object[] result = searchMessages(filter, null);
+private static final String[] CAPABILITY_LIST = {
+FolderChildrenIterator it = new FolderChildrenIterator(root);
+* Generate new unique message ID
+result = search(query);
+account.getSmtpItem().setString("user",
+identity.setSortString(c.getSortString());
+}
+try {
+if ((resultUids != null) && (resultUids.length > 0)) {
+if (rule.count() == 0) {
+public VirtualFolder(FolderItem item, String path) {
+int uid = getConfiguration().getInteger("property", "source_uid");
+child = plugin.createDefaultElement(global);
+ICloseableIterator it = headerList.headerIterator();
+if (newFolder == null) {
+StringBuffer buf = new StringBuffer();
+String name = "search result";
+FolderTreeModel.getInstance().nodeStructureChanged(searchFolder);
+for (int j = 0; j < virtualHeader.size(); j++) {
+for (Object uid : uids) {
+srcFolder = h.getSrcFolder();
+fireMessageFlagChanged(virtualUid, e.getOldFlags(), e
+headerList.remove(uid);
+sourceFolder.removeMessage(sourceUid);
+return null;
+IMailFolder folder = getSourceFolder();
+// GeneralPath path = generatePath(h, w);
+boolean success = super.tryToGetLock(locker);
+getHeaderList().update(uid, header);
+deactivate();
+srcFolder.innerCopy(destFolder, folderUids.toArray());
+VirtualHeader h = (VirtualHeader) headerList.get(virtualUid);
+parent = FolderItem.getGlobalOptions();
+if (folder == null) {
+return null;
+public final String getAccountTypeDescription()
+TableColumn tc = tableController.createTableColumn(name, size);
+if (child == null) {
+XmlElement parent = folder.getConfiguration().getFolderOptions();
+for (int i = 0; i < columns.count(); i++) {
+if (!global) {
+parent = FolderItem.getGlobalOptions();
+return child;
+int size = tc.getWidth();
+columns.removeAllElements();
+boolean remember = item.getBooleanWithDefault(
+columns.addElement(createColumn("Status", "23"));
+tc.setPreferredWidth(size);
+if (uid == null) {
+Object uid = null;
+boolean ascending = tableController.getSortingOrder();
+if (row == 0) {
+Object[] lastSelUids = { folder.getLastSelection() };
+maxOccurrences.setEnabled(true);
+if (getFrameMediator() instanceof ThreePaneMailFrameController) {
+// default value is 200 pixel
+String[] ids = handler.getPluginIdList();
+getSubjectController().getView().getDocument().addDocumentListener(
+if (!column.isSelected()) {
+MailCheckingManager.getInstance().checkAll();
+MessageController msg = (MessageController) controller
+XmlElement columns = ((MailFrameMediator) getFrameMediator()).getFolderOptionsController()
+composerModel = model;
+"UTF-8", "UTF-16", "US-ASCII",
+if ( MailConfig.getInstance().getAccountList().count() == 0 ) {
+ComposerText text = new ComposerText(
+"ISO-8859-4", "ISO-8859-13", "windows-1257", "ISO-8859-2",
+"windows-1252", "ISO-8859-1", "ISO-8859-15", "ISO-8859-7",
+CMenu subsubMenu;
+initHtmlConfiguration(optionsElement);
+if (getAttachmentController().getView().count() > 0) {
+"GB2312", "GBK", "GB18030", "Big5", "Big5-HKSCS", "EUC-TW",
+XmlElement charsetElement = optionsElement.getElement("charset");
+centerPanel.add(attachmentSplitPane, BorderLayout.CENTER);
+if (getModel().isHtml())
+if (enableHtml.equals("true")) {
+if (htmlElement == null) {
+}
+centerPanel.removeAll();
+"TIS620", "ISO-8859-9", "windows-1254", "windows-1258" };
+editorScrollPane.getContentPane().add(signatureView,
+if (importContact.hasCommunications()) {
+attachmentSplitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT,
+identity.setFirstname(c.getGivenName());
+composerController.showAttachmentPanel();
+editorScrollPane.getContentPane().removeAll();
+SwingUtilities.invokeLater(new Runnable() {
+if (enableHtml) {
+updateComponents(false);
+return true;
+}
+ComposerAttachmentTransferHandler dndTransferHandler = new ComposerAttachmentTransferHandler(
+String oldBody = composerModel.getBodyText();
+updateComponents(false);
+ICommand command = instance.getCommand(action,
+if (enableHtml)
+layoutEditorContainer();
+updateComponents(true);
+XmlElement optionsElement = MailConfig.getInstance().get(
+if (composerController.getView().getFrame() != null) {
+editorScrollPane.getContentPane().remove(signatureView);
+XmlElement htmlElement = optionsElement.getElement("html");
+return text;
+private static final Pattern emailPattern = Pattern.compile(emailRegExp);
+* @see org.columba.ristretto.message.Message#getHeader()
+value = value.trim();
+toList = new Vector();
+message.setBody(getSending().getText());
+removeAll();
+}
+addFileAttachment(new File(s));
+try {
+String selectedStr = selected.toString();
+destModel.setOrganisation(companyTextField.getText());
+super.removeSelected();
+StringBuffer tooltip = new StringBuffer();
+}
+int[] indices = getSelectedIndices();
+setCellRenderer(new MyListCellRenderer());
+private XmlElement textFontElement;
+for (int i = 0; i < view.count(); i++) {
+/*
+identity.setFormattedName(c.getFormattedName());
+composerController.getModel().getAttachments().clear();
+for (int i = 0; i < composerController.getModel().getAttachments()
+return false;
+private Font font;
+}
+private String size;
+}
+private String name;
+item.getIdentity().addObserver(this);
+composerController.showAttachmentPanel();
+/**
+controller.getAccountController().getView().addItemListener(this);
+fonts.addObserver(this);
+name = "Default";
+SubjectDialog dialog = new SubjectDialog();
+if (model.getMessage().getHeader().getFlags().getDraft()) {
+item.getIdentity().removeObserver(this);
+SpecialFoldersItem folderItem = item.getSpecialFoldersItem();
+composerController.updateComponents(false);
+AccountItem item = model.getAccountItem();
+// delete source message
+IColumbaMessage message = getMessage(uid);
+if (row == 0) {
+MimeTree mimePartTree = folder.getMimePartTree(uids[0]);
+while (it.hasNext()) {
+putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_V,
+IColumbaMessage message = getMessage(uid);
+Flags flags = new Flags();
+hc.updateComponents(true);
+.getIcon(IconKeys.PREFERENCES)),
+private boolean bool = false;
+}
+MimeHeader mimeHeader = new MimeHeader();
+int count = model.getRowCount();
+MimeTree mt = folder.getMimePartTree(uids[0]);
+MimeTree mt = folder.getMimePartTree(uids[0]);
+StringBuffer buf = new StringBuffer();
+if (Arrays.equals(address, bodyPartAddress))
+headerBuf.append(key + ": " + header + "\n");
+StringBuffer buf = StreamUtils.readCharacterStream(
+MessageBuilderHelper.addAddressesToAddressbook(to);
+String templateBody = getTemplateBody();
+ChooseTemplateDialog d = new ChooseTemplateDialog(mediator.getView()
+IHeaderList list = templateFolder.getHeaderList();
+IMailbox templateFolder = (IMailbox) FolderTreeModel
+List recipients = message.getRecipients();
+uid = d.getUid();
+MimeTree tree = templateFolder.getMimePartTree(uid);
+Collections.sort(toList);
+Integer accountUid = (Integer) folder.getAttribute(uids[0], "columba.accountuid");
+model.setSubject(MessageBuilderHelper
+String incomingServerPanelTitle = MailResourceLoader.getString(
+{
+buf.append(signature);
+uid = uids[0];
+}
+Flags flags = folder.getFlags(uid);
+Object[] uids = ((MailFolderCommandReference) getReference()).getUids();
+model.setHeaderField("From", rfcHeader.getFrom().toString()
+quotedBody = StreamUtils.readCharacterStream(bodyStream).toString();
+// get necessary headerfields
+private JButton toButton;
+if (markVariant == MarkMessageCommand.MARK_AS_NOTSPAM)
+String quotedBody;
+private ContactDNDListView addressbookList;
+private ContactDNDListView toList;
+private ContactListModel[] dialogAddressbookListModel;
+private JLabel toLabel;
+builder.setLeadingColumnOffset(1);
+private JPanel createButtonPanel() {
+//			for (int i = 0; i < 3; i++) {
+Color color = ColorFactory.getColor(rgbValue);
+spamList.add(uids[j]);
+// ======== this ========
+controller.getModel().addModelChangedListener(this);
+MouseHandler handler = new MouseHandler();
+String name = vfolderType + " contains [" + headerValue + "]";
+add(paragraphComboBox);
+setView(editor.getView());
+//	name of font
+if (!ignoreFormatAction) {
+ignoreFormatAction = false;
+HtmlEditorController2 ctrl = (HtmlEditorController2) getFrameController()
+public void htmlModeChanged(ComposerModelChangedEvent event) {
+// TODO (@author fdietz):: implement action for font size combo box!
+if ((text == null) || (text.equals(""))) {
+int selectedIndex = paragraphComboBox.getSelectedIndex();
+* Returns the label's text.
+LOG.severe("Error setting view content: " + e.getMessage());
+doc.remove(0, doc.getLength());
+Document doc = getView().getDocument();
+if (ignoreCharset) {
+FormatInfo info = event.getInfo();
+List list = new LinkedList();
+ParagraphFormatMenuItem source = (ParagraphFormatMenuItem) e
+HtmlEditorController2 c = (HtmlEditorController2) ctrl
+ButtonGroup group = new ButtonGroup();
+new DialogHeaderPanel(
+public ExternalEditor(String EditorCommand) {
+IFrameMediator newMediator = null;
+final Font OldFont = editController.getViewFont();
+identity.setLastname(c.getFamilyName());
+String[] s = ParserUtil.getArrayOfString(c.getAdditionalNames(), ",");
+None
+editController.setViewText(message);
+ColumbaDesktop.getInstance().openAndWait(tmpFile);
+centerPanel.add(panel, BorderLayout.NORTH);
+for (int k = 0; k < items.length; k++) {
+FormLayout layout = new FormLayout(
+mode = QUOTE;
+if (result == '\n') {
+DefaultFormBuilder builder = new DefaultFormBuilder(layout, this);
+None
+// This is a workaround. Generally, the contact dialog editor
+int uid = accountItem.getUid();
+server.updateConfig();
+for (int j = 0; (j < uids.length) && !worker.cancelled(); j++) {
+signature = new File(System.getProperty("user.home"),".signature");
+MailFilterCriteria criteria = MailFilterFactory
+String subject = EncodedWord.decode( header.get("Subject")).toString();
+s = ParserUtil.getArrayOfString(c.getNickName(), ",");
+s = ParserUtil.getArrayOfString(c.getNamePrefix(), ",");
+if (selection != null) {
+new ExceptionHandler().processException(e);
+openEditContactDialog(selected);
+secureCheckBox.addActionListener(this);
+public IdentityPanel(AccountItem account) {
+secureCheckBox.removeActionListener(this);
+if (sslComboBox.getSelectedIndex() == IncomingItem.TLS) {
+if (isPopAccount()) {
+int pos = body.toLowerCase().indexOf("<body");
+// get theme plugin-handler
+public IdentityPanel(AccountItem account) {
+if (isPopAccount()) {
+exportContact.setURL(c.getHomePage());
+pathButton.setActionCommand("PATH");
+typeComboBox.insertItemAt("GnuPG", 0);
+// green color

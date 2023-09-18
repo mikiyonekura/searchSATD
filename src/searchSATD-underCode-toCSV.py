@@ -7,7 +7,7 @@ import concurrent.futures
 
 
 clone_dir = '/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone'
-repo_url = 'https://github.com/JavaQualitasCorpus/columba-1.0.git'
+# repo_url = 'https://github.com/apache/ant.git'
 
 global_count = 0
 binary_extensions = [".java"]
@@ -100,11 +100,11 @@ if __name__ == '__main__':
     #     git.Repo.clone_from(repo_url, clone_dir)
 
     # repo = git.Repo(clone_dir)
-    # repo.git.checkout('0.2.2.4-SNAPSHOT')
+    # repo.git.checkout('rel/1.7.0')
 
     ans = []
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/datasetNew/data--Columba.txt', 'r') as f:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/datasetNew/data--JEdit.txt', 'r') as f:
         count = 0
 
         for line in f:
@@ -151,12 +151,12 @@ if __name__ == '__main__':
 
     print(f"----------結果{global_count}件ヒットしました--------------------------\n")
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/resultNew/1-under/1-under--Columba.txt', 'w') as a:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/resultNew/1-under/1-under--JEdit.txt', 'w') as a:
         for idx, (origin_search_string, item, line_no, similarity, filepath) in enumerate(ans):
             print(f"ans_lists{idx+1}:", item, "\n")
             a.write(str(item) + "\n")
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/resultNew/1-under/csv/1-under--Columba.csv', 'w') as b:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/resultNew/1-under/csv/1-under--JEdit.csv', 'w') as b:
         b.write("search_string,predict_under_code,line_no,similarity,filepath\n")
         for idx, (origin_search_string, item, line_no, similarity, filepath) in enumerate(ans):
             #ダブルクォートで囲む
