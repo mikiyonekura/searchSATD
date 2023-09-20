@@ -1,0 +1,4644 @@
+if ( lhs instanceof String && rhs != Primitive.VOID ) {
+if(cache.cachedProperties != null)
+throw new EvalError("Can't assign to prefix.",
+localNameSpace.setNode( callerInfo );
+public Object eval( CallStack callstack, Interpreter interpreter )
+Font font = new JLabel().getFont();
+protected void definingClass( String className ) {
+public synchronized void addListener( Listener l )
+Name( NameSpace namespace, String s )
+global.setVariable("_comp",comp);
+bshMethod = namespace.getMethod(
+transient static PrintStream debug;
+if ( toType.isInterface()
+setOut( console.getOut() );
+public Class defineClass( String name, byte [] code )
+private void validateForMethod()
+class BlockNameSpace extends NameSpace
+private static final String[] clickActionKeys = new String[] {
+static boolean isSignatureAssignable( Class[] from, Class[] to )
+if(item.toLowerCase().startsWith("<html>"))
+// Note: this code duplicates that in NameSpace getCommand()
+if(lastScreenLine >= lineInfo.length)
+public Object eval( CallStack callstack, Interpreter interpreter )
+if(!fromCanonPath.equalsIgnoreCase(toCanonPath))
+if ( args != null )
+None
+Object obj = Reflect.getObjectField(evalBaseObject, field);
+thisNameSpace.getParent() != null
+protected This( NameSpace namespace, Interpreter declaringInterpreter ) {
+if ( Name.isCompound( fullname ) )
+public Object eval(
+// Moved to Variable
+private static String descriptorToClassName( String s )
+continue;
+callstack.push( instanceNameSpace );
+// first label
+interpreter.getClassManager().addListener(this);
+String definingClass = bcm.getClassBeingDefined( clasName );
+NameSpace declaringNameSpace;
+/*try
+Capabilities.setAccessibility( true );
+public void setInstanceNameSpaceParent(
+public class NameSpace
+void setAttribute (String elName, String name, int type, String enumeration,
+if ( Primitive.isWrapperType( baseType ) )
+boolean isClass;
+c == '%' &&
+Return value is the evaluated object (or corresponding primitive
+public class ClassGeneratorUtil implements Constants
+buffer.insert(caret,end);
+glyphVector = new JCheckBox(jEdit.getProperty(
+SwingUtilities.invokeLater(new Runnable()
+int caret = textArea.getCaretPosition();
+public static boolean isCompound(String value)
+public class Modifiers implements java.io.Serializable
+setBackground(jEdit.getColorProperty(
+// ... but if HyperSearch results window is floating,
+names = null;
+path = fileset.getNextFile(view,path);
+selectAllFlag = true;
+/* else if(bmsg.getWhat() == BufferUpdate.SAVED)
+if ( Interpreter.DEBUG )
+if ( instanceNameSpace != null
+if(buffer != null)
+if ((start[i] == -1) ^ (end[i] == -1)) {
+// index tracks the position in the char array
+protected static Method resolveJavaMethod(
+TargetError target = null;
+if ( this.classManager == null )
+private Object invokeLocalMethod(
+try {
+return null;
+Can't this be combined with run() ?
+public Object eval( CallStack callstack, Interpreter interpreter )
+throws IOException
+if ( specialFieldsVisible )
+reset();
+public class BshClassManager
+public void importObject( Object obj )
+if ( fullname != null )
+Look ahead and short circuit evaluation of the rhs if:
+protected static Method resolveJavaMethod(
+UnixWorkaround(Window win, String name, Rectangle desired,
+textArea.setTransferHandler(new TextAreaTransferHandler());
+public void handleMessage(EBMessage message)
+if(!line.startsWith("!"))
+JScrollPane scroller = new JScrollPane(list,
+if(inputHandler.isPrefixActive())
+FoldHandler oldFoldHandler = foldHandler;
+if(maybeReloadRequestRunning)
+evt.consume();
+Key trans = (Key)transMap.get(returnValue);
+expandFold(line,false);
+public static final RESyntax RE_SYNTAX_JEDIT
+char[] foo = new char[textArea.maxLineLen];
+focusedComponent = this;
+int oldFirstInvalidLine = firstInvalidLine;
+Math.max(0,size.width - vertical.getWidth()
+if ( instanceThis == null )
+// work through to class 'this'
+if(valueStr.toLowerCase().startsWith("<html>"))
+Font font = new JLabel().getFont();
+private boolean selectAllInProgress;
+int start = s.getStart();
+view.getStatus().setMessage(null);
+int index = fvmget(startLine);
+JScrollPane scrollPane = new JScrollPane(errors,
+setClassManager(
+class Reflect
+List returnValue = new LinkedList();
+File[] volumes = new File("/Volumes").listFiles();
+}
+setUI(new BasicButtonUI());
+if(path.length() != 1 && (path.endsWith("/")
+if(row == -1 && getModel().getRowCount() != 0)
+} //}}}
+switch(keyStroke.key)
+Font font = new JLabel().getFont();
+SimpleNode label = ((SimpleNode)jjtGetChild(0));
+if(currLine >= buffer.getLineCount())
+backupDirectory = MiscUtilities.concatPath(
+jEdit.setTemporaryProperty("vfs.browser.path.tmp",path);
+menuOutOfDate = true;
+for (int i=0; i < gd.length; i++)
+//{{{ _getLineManager() method
+static class UnixWorkaround
+SwingUtilities.invokeLater(new Runnable()
+return GUIUtilities.getView(comp);
+GUIUtilities.getView(textArea).getStatus().setMessageAndClear(
+this.entrySize = (int) this.currEntry.getSize();
+if(OperatingSystem.isUnix() && !OperatingSystem.isMacOS())
+/* On Windows, paths of the form X: list the last *working
+url = "file:" + url;
+if ( object == Primitive.NULL )
+boolean match(CharIndexed input, REMatch mymatch) {
+protected Class loadSourceClass( String name )
+Descriptor key = new Descriptor(clazz,name);
+getClassManager().cacheClassInfo( fullname, clas );
+return -1;
+private int[] generateSuffixArray(boolean reverse)
+method  = findAccessibleMethod( clas, name, types );
+String otherPath;
+int si = len.toString().indexOf(" ");
+retval = ("`~!@#$%^&*()-_=+[]{}\\|;:'\"/?,.<>".indexOf(ch)!=-1);
+int fieldlen = 8;
+if ( this.assemLen > 0 )
+if (jEdit.getBooleanProperty("server.brokenToFront"))
+private static Field findAccessibleField( Class clas, String fieldName )
+if(evt.isShiftDown() && evt.getKeyChar() == '\n')
+ReflectManager.RMSetAccessible( field );
+static Method findAccessibleMethod(
+resolver could return a set of "hints" for the signature key caching?
+Component comp = getFocusOwner();
+if(modifiers == InputEvent.ALT_MASK)
+instance = this;
+This ths = thisNameSpace.getThis( interpreter );
+//{{{ ResultVisitor interface
+SwingUtilities.invokeLater(new Runnable()
+lastDelegateSet = new ParserRuleSet(
+buttonGroup.add(nullButton = new JToggleButton());
+abstract void getText(Buffer buffer, StringBuffer buf);
+protected static Field resolveJavaField(
+public Object eval( CallStack callstack, Interpreter interpreter )
+if ( evalBaseObject instanceof ClassIdentifier )
+if(!firstTime && _start == 0 && _end == 0)
+if ( classOfStaticMethod != null )
+return "Ljava/lang/Object;";  // Object type
+else if(last == LAST_ALT)
+buffer.addBufferChangeListener(bufferChangeHandler,
+buf.setLength(0);
+path = fileset.getNextFile(view,path);
+if(matchedChars == 0)
+if(OperatingSystem.isWindows())
+if(OperatingSystem.isUnix())
+Log.log(Log.WARNING,this,"Action set not up "
+if(line.endsWith("\0"))
+findMostSpecficMethod() needs to be rewritten to eliminate
+g.setColor(Color.white);
+else if ((unit.ch == '{') && syntax.get(RESyntax.RE_INTERVALS) && (syntax.get(RESyntax.RE_NO_BK_BRACES) ^ unit.bk)) {
+SearchFileSet fileset = SearchAndReplace.getSearchFileSet();
+// Hypothetical question: can you have a RE that matches 1 times,
+protected static Field resolveExpectedJavaField(
+List consl = new ArrayList();
+if ( node instanceof BSHBlock)
+* @author <a href="mailto:keiron@aftexsw.com">Keiron Liddle</a>
+public XmlParser ()
+if ( parent != null )
+try {
+cv.visitMaxs( 20, 20 );
+if (((mymatch.eflags & RE.REG_ANCHORINDEX) != RE.REG_ANCHORINDEX)
+in.read();
+public Object eval( CallStack callstack, Interpreter interpreter )
+void parseElements ()
+return 0;
+int readAttType ()
+public PluginManagerProgress(PluginManager dialog, Roster roster)
+public int getRate()
+private void writeMarkers(Buffer buffer, OutputStream out)
+private int activeReaders;
+private FileFilter ffilter;
+public void addNotify()
+public void foldLevelChanged(Buffer buffer, int start, int end)
+return new StringReader("<!-- -->");
+public void startElement(String tag)
+private void createTOC()
+class SelectionHandler implements ListSelectionListener
+if(view == jEdit.getActiveView()
+class MemoryStatus extends JComponent implements ActionListener
+private void writeStringArray(DataOutputStream dout,
+private void nextTip()
+Box buttons = new Box(BoxLayout.X_AXIS);
+public void contentRemoved(Buffer buffer, int startLine,
+class InstallButton extends JButton implements ActionListener, TableModelListener
+/**
+if(start == 0)
+attlist = getElementAttributes(elName);
+/**
+public LineElement(Buffer buffer, int line)
+public void _save()
+if ( bcm.hasSuperImport() )
+public final void clear()
+public static final String VERSION = "2.0b1.1-jedit-1";
+BSHReturnStatement jjtn000 = new BSHReturnStatement(JJTRETURNSTATEMENT);
+if ( got != null )
+int retVal = 0;
+if (j > 0)
+/**
+/**
+Variable existing = getVariableImpl( name, false/*recurse*/ );
+void bufferOpened(Buffer buffer)
+public void _contentInserted(IntegerArray endOffsets)
+/**
+/**
+private final void setLineEndOffset(int line, int end)
+try {
+private int m_origPtr;
+public void updateModel()
+class MyJRadioButton extends JRadioButton
+public int hashCode()
+encoding = "UTF-8";
+public int getFirstInvalidLineContext()
+setElement(elName,CONTENT_UNDECLARED, null, attlist);
+public void invalidateScreenLineCounts()
+if(overwrite || indent)
+class HideLibrariesButton extends JCheckBox implements ActionListener
+/**
+/**
+/**
+// Get imported first.
+/**
+void physDown(int amount, int screenAmount)
+if(o == null)
+if ( rhs == null )
+/**
+local.importStatic( type );
+/**
+ids = readExternalIds(true);
+public static void stop()
+SimpleNode node = callerInfo;
+/**
+public DockingOptionPane()
+public void setExpansion(String expansion)
+private EditPane createEditPane(Buffer buffer)
+public void start()
+updateGutterBorders();
+public void invoke(View view)
+if(point)
+//{{{ Register interface
+joinNonWordChars = new JCheckBox(jEdit.getProperty(
+return new LHS(object, f);
+for(int i=startChild; i<numChildren; i++)
+class ActionHandler implements ActionListener
+/**
+loop:		for(int i = 0; i < keyword.length; i++)
+public void setName( String name ) {
+structureHighlight = new JCheckBox(jEdit.getProperty("options.textarea"
+/**
+fvmreset();
+static
+Collections.sort(vfsUpdates,
+public String getExpansion()
+public StatusBarOptionPane()
+/**
+this.temp = temp;
+QuickNotepadPlugin.OPTION_PREFIX + "file"),
+protected FoldHandler(String name)
+tmpArgs = Primitive.unwrap( tmpArgs );
+//Object r = checkOnly ? VALID_CAST :
+/**
+/**
+class ButtonLayout implements LayoutManager
+public StyleRenderer()
+public Component getTableCellRendererComponent(
+}
+public void setValueAt(Object value, int row, int col)
+static class ButtonCellRenderer extends DefaultListCellRenderer
+public JTextField getAbbrevField()
+public void foldHandlerChanged(Buffer buffer)
+/**
+public HistoryTextField getField()
+/**
+/**
+public ToolBarOptionPane.Button getSelection()
+TreeNode[] nodes = { root, null };
+if ( hasObjectPropertyGetter( object.getClass(), fieldName ) )
+boolean after = false;  // is current character a letter or digit?
+public void processKeyEvent(KeyEvent evt)
+for(int i = 1; i < styles.length; i++)
+if ( hasObjectPropertySetter( object.getClass(), fieldName ) )
+if(isDrive != null)
+fireTableDataChanged();
+for(int i=0; i<numArgs; i++)
+if(screenAmount < 0)
+hdr.size = file.length();
+public JTextArea getBeforeCaretTextArea()
+return checkOnly ? VALID_CAST :
+static final int TITLE_OCCUR = 10;
+public void setRate(int rate)
+public String getColumnName(int index)
+public void setIcon(Image icon)
+private String[] getCompletions(String str)
+private void updateEnabled()
+public ActionBar(final View view, boolean temp)
+class ModeProperties
+public void goToActionBar()
+socket = new ServerSocket(0, 2,
+public Image[] getFrames()
+private int getAppropriateCursor()
+if ( operation == Types.ASSIGNMENT
+private void complete(boolean insertLongestPrefix)
+void removePosition()
+class CompletionPopup extends JWindow
+/**
+public boolean isHorizontalLayout()
+// bsh.help
+Dimension prefSize = pathField.getPreferredSize();
+if (reader != null) {
+/**
+if (pluginsGroup.getMemberCount() == 0)
+else
+public String getCode()
+setu( "bsh.system", sharedObject );
+public EnhancedMenu(String name)
+/**
+final public boolean Line() throws ParseException {
+if(viewCount <= 1 && buffersFirst != null
+if(line != 0
+String siteSettingsDirectory = MiscUtilities.constructPath(
+VFS vfs = VFSManager.getVFSForPath(path);
+extAttrs.add(new ExtendedAttribute(attrs[i]));
+public void update(JMenu menu)
+Object lock = new Object();
+int returnValue = -1;
+None
+BshMethod equalsMethod = null;
+rename = false;
+/**
+static class EditBusStub implements EBComponent
+public TipOfTheDay(View view)
+ActionMap map = getActionMap();
+public void ok()
+/**
+CallStack callstack = new CallStack( globalNameSpace );
+try {
+case '&':
+public void actionPerformed(ActionEvent evt)
+return null;
+private WorkThreadPool pool;
+if (currentBlock != null) {
+if(finallyBlock != null)
+new Class [] { String [].class }, true/*onlyStatic*/ );
+Object obj = nameNode.toObject(
+setu( "bsh.cwd", "." );
+/**
+setu( "bsh.interactive", new Primitive(interactive) );
+int[] newIndexes = new int[allIndexes.length + 1];
+boolean showDialogSetting = getBooleanProperty(
+public void cancel()
+chunk.initialized = false;
+public void changedUpdate(DocumentEvent evt) {}
+// This is not good...
+if ( interactive )
+for( iter = 0; iter < N_ITERS; iter++ )
+class KeyHandler extends KeyAdapter
+private final static int INPUT_NONE = 0;
+System.out.flush();
+if ( constructors[i].hasModifier("private") )
+/**
+case SYMBOL:
+class DocumentHandler implements DocumentListener
+public HelpIndex()
+class ActionTextField extends HistoryTextField
+if (type == ATTRIBUTE_CDATA || type == ATTRIBUTE_UNDECLARED) {
+public void insertUpdate(DocumentEvent evt)
+// so you the avid code reader should use MODES as the
+/**
+Component comp = SearchDialog.getSearchDialog(view);
+/**
+/**
+public Point getToolTipLocation(MouseEvent event)
+return null;
+public CompleteWord(View view, String word, Completion[] completions,
+case ParserRule.MARK_FOLLOWING:
+public CloseDialog(View view)
+String nonProxyHosts = jEdit.getProperty("firewall.nonProxyHosts");
+// 0x00 0x00 0x00 0x3c: UCS-4, big-endian (1234)
+String[] lineLengths = { "0", "72", "76", "80" };
+public SelectLineRange(View view)
+None
+This helpText = new NameSpace(
+public FontSelectorDialog(Frame parent, Font font)
+lineMgr.setFirstInvalidFoldLevel(0);
+/**
+void loadSystemProps(InputStream in)
+if(newView == viewsFirst)
+void loadUserProps(InputStream in)
+setu("bsh", new NameSpace( bcm, "Bsh Object" ).getThis( this ) );
+// TODO: the '\n' literal here should be a test against REToken.newline,
+// begin ActionListener implementation
+char c = desc.charAt(0);
+class ListHandler implements ListSelectionListener
+if ( debug )
+public Dimension minimumLayoutSize(Container parent)
+/**
+Class cls;
+public int getIconHeight()
+{
+Entry newEntry = new Entry(entry.factory,FLOATING);
+if(view != null)
+// new filename which requires re-sorting
+public static void completeWord(View view)
+for( j = 0; j <= 255; j++ )
+if ( importedPackages != null )
+private void dispose()
+"Attempt to use .class suffix on non class.",
+if(last == LAST_NUMKEYPAD)
+//{{{ closeBuffer() method
+/**
+KeywordMap keywordMap = buffer.getKeywordMapAtOffset(caret);
+for (Enumeration e = intersects.elements(); e.hasMoreElements();)
+/**
+public ThreadProgress(int index)
+String openBrackets = getStringProperty("indentOpenBrackets");
+int wordEnd = TextUtilities.findWordEnd(line,offset + 1,noWordSep);
+public void updateMiscStatus()
+String longestPrefix = MiscUtilities.getLongestPrefix(
+doTypeSelect(str,0,start,dirsOnly);
+Set completions = new TreeSet(new MiscUtilities
+/**
+private static String getNonAlphaNumericWordChars(Buffer buffer,
+public void addNotify()
+else if(completions.length == 1)
+/**
+if(line.startsWith(word) && caret != start + word.length())
+private final static int READ_BUFFER_MAX = 16384;
+* The stack size at the beginning of this basic block.
+for(int i = 0; i < buffer.getLineCount(); i++)
+case WORD_CHAR:
+if(keywordMap != null)
+/**
+if ( callstack.depth() > 1 ) {
+Log.log(Log.NOTICE,jEdit.class,"An error occurred"
+static class Completion
+private void insertSelected()
+String prefix = Name.prefix(value);
+throws EvalError
+None
+public static class RotatedTextIcon implements Icon
+private JPanel createFieldPanel()
+public void statusUpdate(final WorkThreadPool threadPool,
+if(lastWasCR)
+/**
+int total_height = 0;
+else if((context.inRule.action & ParserRule.MARK_FOLLOWING) != 0)
+throw new EvalError("'continue' or 'break' in method body",
+private void contentInserted(int offset, int length,
+int [] dima = new int [dimensions]; // description of the array
+if(propName.startsWith("buffer."))
+view.getStatus().setMessage(null);
+None
+if (value <= 0x0000ffff) {
+for(int i = 0; i < resultTreeRoot.getChildCount(); i++)
+return null;
+if (numRepeats < min) return false;
+if ( evalBaseObject == null ) {
+* Get the declared attributes for an element type.
+instanceInitBlock.evalBlock(
+if(numLines > 0)
+getConstructorArgs() method which inspects the scripted constructor to
+if (doables == null) {
+private REToken firstToken, lastToken;
+Node popNode() {
+/**
+int size = stackSize + SIZE[opcode];
+default:
+pf.setOrientation(PageFormat.PORTRAIT);
+setFirstLine(getFirstLine() + delta);
+return;
+Vector branches = null;
+public String[] getFiles(View view)
+XmlHandler handler;
+if(!new File(settingsDirectory,"nosplash").exists())
+generateConstructorSwitch( index, argsVar, consArgsVar, cv );
+/**
+/**
+/**
+/**
+public Dimension preferredLayoutSize(Container parent)
+public TextAreaDialog(Frame frame, String title, String caption,
+VFS.DirectoryEntry[] selected = getSelectedFiles();
+SearchAndReplace.setSearchFileSet(new CurrentBufferSet());
+Buffer buffer = jEdit.openFiles(null,parent,args);
+cv.visitVarInsn( ASTORE, argsVar );
+if (opcode == Constants.GOTO) {
+file2.delete();
+setDefaultRenderer(VFSDirectoryEntryTableModel.Entry.class,
+// if(foo)
+void saveUserProps(OutputStream out)
+false/*checkOnly*/, operation );
+public void setFrames(Image[] frames)
+Properties loadPluginProps(InputStream in)
+char[] pos = new char[ N_GROUPS ];
+int len;
+class WindowTableModel extends AbstractTableModel
+public void setMessageComponent(Component comp)
+public void removeUpdate(DocumentEvent evt)
+public void updateCaretStatus()
+//{{{ statusUpdate() method
+if ( toType == Object.class
+else if (tag == "TERMINATE")
+/**
+if(message != null && !"".equals(message.getText().trim())
+if(prefixFocusOwner != null)
+if(isShowing())
+boolean ret = Types.isJavaAssignable( rhs, lhs.getClass() );
+/**
+buffer != view.getTextArea().getBuffer())
+if(!(name instanceof String))
+/**
+public Object eval( CallStack callstack, Interpreter interpreter )
+public String	getMessage() {
+int n;
+/**
+resize |= label.resolve(this, code.length, code.data);
+}
+private Timer tempTimer;
+/**
+/**
+public void componentResized(ComponentEvent evt)
+public Object eval( CallStack callstack, Interpreter interpreter )
+public static final int ACTION_HINTS = 0x0000FF00;
+/**
+if (i == -1) {
+/**
+/**
+static void addPluginProps(Properties map)
+static void removePluginProps(Properties map)
+end = index;
+public void ancestorAdded(AncestorEvent e) { event("ancestorAdded", e); }
+/**
+Reader stream = null;
+else if(rotate == RotatedTextIcon.CCW)
+if ( callstack.depth() > 1 )
+/**
+public void removeNotify()
+else if (unit.bk && (unit.ch == 'S') && syntax.get(RESyntax.RE_CHAR_CLASS_ESCAPES)) {
+/**
+/**
+/**
+public void paintComponent(Graphics g)
+void bufferClosed()
+if (blockMax > max) {
+public void removeLayoutComponent(Component comp)
+code.put1(opcode);
+class ToolTipLabel extends JLabel
+readBuffer[j++] =
+if ( this == Primitive.NULL )
+class MouseHandler extends MouseAdapter
+int ILOAD = 21;             // visitVarInsn
+/**
+int start = textArea.getLineStartOffset(currLine);
+int[] allIndexes = new int[len]; // copy of indexes
+node.setSourceFile( sourceFileInfo );
+None
+throw new InternalError();
+buffer.setMode();
+jEditHome = System.getProperty("jedit.home");
+JPanel content = new JPanel(new GridLayout(0,1,0,6))
+if ( kind == BOOL_AND || kind == BOOL_ANDX ) {
+* The back end needs a place to store the MTF values
+/**
+/**
+/**
+None
+/**
+None
+if (attlist.get(name) != null) {
+private void readFile()
+// Set the new status
+/**
+public void charData(char[] c, int off, int len)
+int nNodes;
+VFS.DirectoryEntry[] selected = getSelectedFiles();
+public PanelWindowContainer getBottomDockingArea()
+case KeyEvent.KEY_TYPED:
+private String getTime()
+/**
+MemoryStatus.this.setFont(font);
+else if (unit.bk && (unit.ch == 'W') && syntax.get(RESyntax.RE_CHAR_CLASS_ESCAPES)) {
+for( i = 0; i <= 255; i++ )
+final int groupCount = bsR( 3 );
+public Clock()
+/**
+class Clock extends JLabel implements ActionListener
+e = new Entry(factory,FLOATING);
+static Object doubleBinaryOperation(Double D1, Double D2, int kind)
+Vector selection;
+public QuickNotepad(View view, String position)
+for(int i = 0; i < osTasks.length; i++)
+/**
+class TreeHandler implements TreeSelectionListener
+static class DockableWindowCompare implements Comparator
+requireWhitespace();
+for( i = 0; i <= m_last; i++ )
+//   if (verbosity >= 4) fprintf ( stderr, "        sort initialise ...\n" );
+/**
+classStaticNameSpace.getThis( interpreter ), false/*strict*/ );
+if (!handler.pushed) {
+Token tok = currentToken.next;
+@param callstack is the callstack.  If callstack is null a new one
+None
+/** Must always be called with the lock held. */
+/**
+unset("bsh.foo");
+private boolean sawCR;
+e.setErrorSourceFile( sourceFileInfo );
+boolean seenVisibleLine = false;
+return Primitive.binaryOperation(lhs, rhs, kind);
+globalNameSpace.setVariable( name, value, false );
+/**
+public boolean isVisible(DockableWindowManager.Entry entry)
+if(count != oldCount)
+/**
+// Is this a class?
+/**
+// Add the new typed var
+public JTextArea getAfterCaretTextArea()
+private void removeExtendedAttributes(VFS vfs)
+class ScrollLineCount extends Anchor
+System.getProperty("user.home") + File.separator + ".bshrc";
+public MemoryStatus()
+( "[" "]" { jjtThis.addUndefinedDimension(); } )*
+/**
+if ( kind == INCR || kind == DECR ) {
+code.put1(opcode);
+/**
+for( t = 0; t < nGroups; t++ )
+/**
+public final class Primitive implements ParserConstants, java.io.Serializable
+if(jEdit.getBuffer(file.path) != null)
+/**
+/**
+public void doTypeSelect(String str, boolean dirsOnly)
+/**
+/**
+/**
+if(path == null)
+Dimension dim = ok.getPreferredSize();
+if (tryEncoding(signature, (byte)0x00, (byte)0x00,
+/**
+sourceType = INPUT_EXTERNAL;
+None
+public void mousePressed(MouseEvent evt)
+Vector positions = new Vector();
+private void doBackwardSearch()
+invalidateSelectedLines();
+/**
+/* fireTableRowsUpdated(startIndex,startIndex); */
+/**
+int eflags; // execution flags this match was made using
+/**
+// TODO: the '\n' literal here should be a test against REToken.newline,
+/**
+public VFS.DirectoryEntry[] getSelectedFiles()
+protected void processMouseEvent(MouseEvent evt)
+class FocusHandler extends FocusAdapter
+public void mouseReleased(MouseEvent evt)
+public void rename(String from)
+public PanelWindowContainer(DockableWindowManager wm, String position,
+- Added sourceFile attribute
+SimpleNode condExp, body = null;
+// if(foo)
+static class DockBorder implements Border
+currentElement = gi;
+/**
+CompletionPopup(String[] actions)
+/**
+case LSHIFT:
+private void historyPrevious()
+class MarkerHighlight extends TextAreaExtension
+Object fromValue = expression.eval(callstack, interpreter);
+if ( !file.isAbsolute() ) {
+encoding = ENCODING_UCS_4_1234;
+if ( console != null ) {
+if ( checkOnly && fromValue != null )
+public boolean equals(Object o)
+opcode = opcode < 218 ? opcode - 49 : opcode - 20;
+continue;
+is.mark(4);
+setFlag(UNTITLED,newFile);
+public void mouseDragged(MouseEvent evt)
+// for now, since all browser actions are
+if (tryRead("<?xml")) {
+}
+public Color getSelectedColor()
+if(buffer.isClosed())
+private void doForwardSearch()
+return new Rectangle(x,y,w,h);
+synchronized (SIZE) {
+int w2 = WIDTH/2;
+}
+int newIndex = index + 1;
+static class HistoryBorder extends AbstractBorder
+void reset() {
+new File(script).delete();
+}
+public ColorWellButton(Color color)
+private void historyNext()
+properties.put(name,new PropValue(buf.toString(),false));
+return invokeMethod(
+if(OperatingSystem.isMacOSLF())
+resizeInstructions(new int[0], new int[0], 0);
+tryEncodingDecl(ignoreEncoding);
+for (index = 0; index < bucket.length; index += 2) {
+byte idOfBracket = getTokenAtOffset(tokenHandler.getTokens(),offset).id;
+if("CATALOG".equals(name) || "MODES".equals(name))
+if(Character.isWhitespace(ch))
+if (encoding == null && externalEntity != null) {
+/**
+fireTableStructureChanged();
+b.stackSize = stackSize;
+public class AbstractOptionPane extends JPanel implements OptionPane
+if(settingsDirectory != null && getBooleanProperty("firstTime"))
+if (child instanceof BSHArrayInitializer)
+/**
+public void doctypeDecl(String name, String publicId,
+void loadSiteProps(InputStream in)
+if((modifiers & InputEvent.ALT_MASK) != 0)
+default:
+try
+/**
+/**
+/**
+case KeyEvent.KEY_PRESSED:
+public void maybeReloadDirectory(String path)
+None
+static class ColorWell implements Icon
+private void showClipText()
+returnType = OBJECT;
+static void initTextArea(JEditTextArea textArea)
+public void handleMessage(EBMessage message)
+private void updateButtons()
+/**
+case KeyEvent.VK_SUBTRACT:
+public StatusBar(View view)
+if((ch < 0x20 || ch == 0x7f || ch == 0xff)
+public PasteFromListDialog(String name, View view, ListModel model)
+SwingUtilities.invokeLater(new Runnable()
+private String getSelectedClipText()
+popup.addPopupMenuListener(new PopupMenuListener()
+/**
+Object[] invokeArgs = new Object[args.length + 2];
+/**
+int ref;
+/**
+public BeanShellErrorDialog(View view, Throwable t)
+if(node == null)
+if(label != null)
+if ( (evalBaseObject == null && !isCompound(evalName) )
+newOffset = getNewOffset(allIndexes, allSizes, 0, u);
+/**
+if(spacedShortcut.startsWith(spacedKbShortcut))
+- Added sourceFile attribute
+Class [] types = Types.getTypes( args );
+return;
+synchronized(pluginErrorLock)
+if ( methodName.equals("equals" ) ) {
+if(jEdit.getPlugin(cache.pluginClass) != null)
+if(path == null)
+if (handler != null) {
+while (readBufferPos >= readBufferLength)
+if(path != null)
+/**
+/**
+/**
+public FileRootsVFS()
+//{{{ startRequest() method
+public FilesChangedDialog(View view, int[] states,
+if ( (typeNode != null)
+static class Renderer extends DefaultTableCellRenderer
+sourceType = INPUT_READER;
+if(ch == '\n')
+ttm.setInitialDelay(0);
+if(view == null)
+cv.visitInsn(ICONST_1);
+this.path = this.deletePath = this.symlinkPath
+public void valueChanged(ListSelectionEvent evt)
+FavoritesMenuButton()
+showLineSeperator = new JCheckBox(jEdit.getProperty(
+if (c == '\n')
+/**
+if(prefixFocusOwner != null)
+static void showSplashScreen()
+/**
+public GutterOptionPane()
+if(path.getPathCount() == 2)
+toolBarManager = null;
+pushInput(ename);
+if(!insert)
+if (systemId != null && externalEntity != null) {
+if((VFSManager.getVFSForPath(path).getCapabilities()
+readBuffer = new char[READ_BUFFER_MAX+4];
+if(terminateChar >= 0 && pos - line.offset >= terminateChar
+dataBufferFlush();
+isSelected,false /* hasFocus */,row,column);
+private Edit redosFirst;
+* Get declared notations.
+// Constructors.
+public static void runScript(String path)
+ChunkCache.LineInfo lineInfo = textArea.chunkCache
+/**
+public int getStartOffset()
+/**
+/**
+/**
+public Object resolveEntity(String publicId, String systemId)
+StreamTokenizer st = new StreamTokenizer(new StringReader(
+private final static int CONTEXT_NONE = 0;
+/**
+return;
+/**
+/**
+skipWhitespace();
+/**
+private void construct()
+/**
+if (!l.pushed) {
+/**
+None
+public LineManager()
+String expand = null;
+RETokenOneOf(int subIndex, String optionsStr, boolean negative, boolean insens) {
+static class RecentHandler extends HandlerBase
+if (last == null) {
+/**
+if ( evalBaseObject == null ) {
+if ( !(obj instanceof ClassIdentifier) ) {
+if ( Interpreter.DEBUG )
+public static final byte END = 127;
+/**
+if(!(name instanceof String))
+public void transactionComplete(Buffer buffer)
+public int getElementCount()
+public Color background;
+//{{{ goToStartOfWhiteSpace() method
+cv.visitIntInsn( BIPUSH, consIndex );
+methodBody, declaringNameSpace, modifiers );
+existing.setValue( value, Variable.DECLARATION );
+if (handleRule(rule,false))
+if(action.noRepeat() || _repeatCount == 1)
+int source = newCode.length;
+Buffer buffer = view.getBuffer();
+WindowTableModel()
+* Return the current line number.
+modes.addElement(mode);
+public static void initBufferSwitcher(final EditPane pane,
+// push ConstructorArgs
+private int m_last;
+if(_repeatCount != 1)
+/**
+/**
+cv.visitVarInsn( ALOAD, 0 ); // push this before args
+String s = new String(ch, start, length);
+static class MyFocusManager extends DefaultKeyboardFocusManager
+}
+throw new InternalError();
+else if (unit.bk && (unit.ch == 'd') && syntax.get(RESyntax.RE_CHAR_CLASS_ESCAPES)) {
+static class MyFocusTraversalPolicy extends LayoutFocusTraversalPolicy
+bufferTree.setSelectionRow(row + 1);
+static void doSwitchBranch(
+readBuffer[j++] = (char)b1;
+boolean selectAllFlag;
+stackSize += SIZE[opcode];
+if(readNextChar != null)
+static class MouseWheelHandler implements MouseWheelListener
+statement = ((SimpleNode)jjtGetChild(i));
+if(!action.noRememberLast())
+/**
+"meta-information" about the arguments in the various invoke() methods
+protected void invokeReadNextChar(char ch)
+/**
+if(_repeatCount > REPEAT_COUNT_THRESHOLD)
+public Entry[] getValues()
+static class TextAreaTransferHandler extends TransferHandler
+/** Remaining text to evaluate */
+public Class [] getParameterTypes() { return cparamTypes; }
+/**
+/**
+require("encoding");
+int lastIndex = 0;
+if(s != null)
+public void actionPerformed(ActionEvent evt)
+if(lineText.charAt(pos-1) == '#')
+// Fields for the control flow graph analysis algorithm (used to compute the
+if(reload || !getFlag(NEW_FILE))
+boolean isOK()
+public void progressUpdate(WorkThreadPool threadPool, int threadIndex)
+firePreContentRemoved(0,0,getLineCount()
+if(!reload && autosaveFile != null && autosaveFile.exists())
+isSurrogate = true;
+Runnable runnable = new Runnable()
+if(reload)
+if (opcode == Constants.GOTO) {
+public void invokeLastAction()
+Selection s = (Selection)selection.elementAt(i);
+Object ret = methodBody.eval(
+textArea.setSelectedText(s,str);
+public Object getSelectedValue()
+Get the specified variable in this namespace or a parent namespace.
+private TokenHandler tokenHandler;
+//classStaticNameSpace.importClass( fqClassName.replace('$','.') );
+public AboutDialog(View view)
+if(started && inAWT && requestCount == 0 && awtRequestCount == 0)
+private class LabelRenderer extends DefaultTableCellRenderer
+synchronized(LOCK)
+if ( Interpreter.DEBUG )
+public Object eval( CallStack callstack, Interpreter interpreter )
+public Dimension maximumLayoutSize(Container parent)
+/**
+protected void finalize()
+insert = 2;
+insert = 5;
+}
+public UndoManager(Buffer buffer)
+public static void registerDockableWindow(PluginJAR plugin,
+/**
+paneTree.getSelectionModel().addTreeSelectionListener(this);
+private String pushElement(String name)
+if ( clas != null ) {
+// Special instructions
+opcode = opcode < 218 ? opcode - 49 : opcode - 20;
+static class AboutPanel extends JComponent
+switch(keyCode)
+public void startDocument()
+DockableListHandler(PluginJAR plugin, URL uri)
+Iterator iter = positions.tailMap(new PosBottomHalf(offset))
+/**
+String host = jEdit.getProperty("firewall.host");
+return buffersFirst;
+/**
+private String peekElement()
+public TableCellRenderer getCellRenderer(int row, int column)
+if ( operation == CLASS )
+synchronized (SIZE) {
+private String popElement()
+static class DockableListHandler extends HandlerBase
+/**
+public String[] getCachedDockableNames()
+public int getColumnCount()
+public static long scanCount, scannedLines;
+int _width = size.width;
+private void createPopupMenu()
+public static String[] getRegisteredDockableWindows()
+Label stack = blockStack;
+/**
+if(other.isPrefix)
+elementInfo.put(name,element);
+private boolean canClose()
+JPanel buttons = new JPanel();
+element = (Object[])elementInfo.get(name);
+if (contentModel != null) {
+name = readNmtoken(true);
+if (element == null) {
+if((modifiers & ~InputEvent.SHIFT_MASK) == 0)
+if(!getFlag(TEMPORARY))
+public void searchDone(final DefaultMutableTreeNode searchNode)
+static class Factory
+contentMgr._setContent(seg.array,seg.count);
+// put forNameSpace it on the top of the stack
+OpenAction(String name)
+if(wrap)
+Factory(PluginJAR plugin, String name, String code,
+public Dimension getMinimumSize()
+//{{{ quicksort() method
+/**
+//{{{ DockableWindowManager constructor
+--stackSize;
+else it was mixed (wrapper/primitive) return the wrapper type.
+FloatAction(String name)
+public Object eval( CallStack callstack, Interpreter interpreter )
+} //}}}
+if (systemId != null && handler != null) {
+actions = true;
+}
+for(int i = 0; i < toolbars.size(); i++)
+/**
+if ( retControl.kind == retControl.RETURN )
+)
+error( e.getMessage(DEBUG) );
+private static final int getSkipIndex(char ch)
+if ( value == null )
+boolean recurse = Interpreter.LOCALSCOPING ? strictJava : true;
+private JJTParserState get_jjtree() {
+encoding = ENCODING_UCS_2_12;
+/**
+static class FloatAction extends EditAction
+static class ToggleAction extends EditAction
+Label l = stack;
+static class StyleRenderer extends JLabel
+/**
+ToggleAction(String name)
+private static String literalBeanShellReplace(String found)
+if ( Interpreter.DEBUG ) debug("Could not find rc file: "+e);
+saveSettings();
+/**
+int max = displayManager.getScrollLineCount() - visibleLines
+if(currentBindings != bindings)
+body =(SimpleNode)jjtGetChild(1);
+for(int i = 0; i < components.size(); i++)
+/**
+/**
+NameSpace consArgsNameSpace =
+BSHBlock instanceInitBlock;
+if(mode == null)
+/* private */ static void addEntry(Entry entry)
+instanceThis = instanceNameSpace.getThis( interpreter );
+/**
+//{{{ removeTrailingWhiteSpace() method
+/**
+/**
+if (tail == 0) continue;
+/**
+/**
+/**
+/**
+*                           | (Char - (']' | [<'"]))
+/**
+super( message, null, null );
+public void removeLayoutComponent(Component comp)
+/**
+/**
+if (seg.count == 0) continue;
+l.beginStackSize = start + b.stackSize;
+/**
+/**
+public Object getValueAt(int row, int col)
+/**
+if(wrapMargin != 0.0f)
+/**
+SEARCH:
+String canonPath;
+/**
+/**
+finally
+/**
+* Lexical error occured.
+/**
+/**
+char ch = 0;
+int pos;
+/**
+/**
+newOffset = getNewOffset(allIndexes, allSizes, 0, u);
+int ACC_PUBLIC = 1;
+m_szptr = new short[ 2 * n ];
+public void addLayoutComponent(String name, Component comp)
+public final int getScreenLineCount(int line)
+/**
+public PluginOptions(Frame frame)
+request.run();
+if(!path.equals(buffer.getPath()))
+/**
+public PanelWindowContainer getLeftDockingArea()
+long lastStatusTime = 0;
+public PanelWindowContainer getTopDockingArea()
+void close()
+do {
+}
+private int[] generateSkipArray(boolean reverse)
+void finishResizing()
+class SettingsActionHandler implements ActionListener
+void setResizePos(int resizePos, PanelWindowContainer resizing)
+continue;
+/**
+else
+final class Item {
+public PanelWindowContainer getRightDockingArea()
+if (attributes != null) {
+throw new ClassNotFoundException(clazz);
+String settings = jEdit.getSettingsDirectory();
+boolean returnValue = false;
+public QuickNotepad(View view, String position)
+public String getFilename()
+final int groupCount = bsR( 3 );
+public void paintChildren(Graphics g)
+public void actionPerformed(ActionEvent evt)
+static class DropHandler extends DropTargetAdapter
+/**
+Entry(Factory factory)
+else if (!started && message instanceof ViewUpdate)
+int answer = GUIUtilities.confirm(GrabKeyDialog.this,
+String[] chmodArgs = { "chmod", "755", script };
+matcher = null;
+return preferredLayoutSize(parent);
+public void layoutContainer(Container parent)
+public OptionsDialog(Frame frame, String name, String pane)
+ModeProperties()
+boolean CRLF = false;
+Dimension parent_size = parent.getSize();
+for ( ; numToWrite > 0 ; )
+top.setBounds(
+VFSManager.runInAWTThread(new Runnable()
+// Constructors.
+if((vfs.getCapabilities() & VFS.WRITE_CAP) == 0)
+public QuickNotepad(View view, String position)
+if(textArea.getDisplayManager() == DisplayManager.this
+leftButtonWidth = DockableWindowManager.this.
+if(index == 0)
+None
+/**
+int[] skip, suffix;
+if ( ( evalBaseObject == null || evalBaseObject instanceof This  )
+if(topToolbars != null)
+if(jEdit.getBufferCount() == 0)
+AbstractButton btn;
+wait();
+hyperSearch.setSelected(jEdit.getBooleanProperty(
+public Class [] getParameterTypes() { return cparamTypes; }
+if ( interpreter.getStrictJava() )
+JComponent win;
+else if (unit.bk && (unit.ch == '>')) {
+private int[] adjustDockingAreasToFit(
+// Fields for the control flow graph analysis algorithm (used to compute the
+public void invalidateLayout(Container target) {}
+None
+public float getLayoutAlignmentX(Container target)
+dmgr = new DisplayManager(buffer,textArea);
+static class TextAreaSelection extends StringSelection
+/**
+public int match(CharIndexed text, boolean reverse)
+for(int i=0; i<methods.length; i++)
+public float getLayoutAlignmentY(Container target)
+if (lastToken.chain(next)) {
+/**
+/**
+StyleTableModel()
+public void saveFile()
+if ( obj == null )
+};
+else if (unit.bk && (unit.ch == 'b') && syntax.get(RESyntax.RE_STRING_ANCHORS)) {
+boolean load = false;
+// Constructors.
+maxRank = Math.max(result.rank,maxRank);
+thread.start();
+EditBus.send(new BufferUpdate(buffer,null,BufferUpdate.CREATED));
+private int m_blockSize100k;
+// Fields for the control flow graph analysis algorithm (used to compute the
+if ( forceClass )
+if(center != null)
+int lineNumberDigits = (int)Math.ceil(Math.log(buffer.getLineCount() + 1)
+private String getDefaultProperty(String name)
+ByteVector newCode = new ByteVector(code.length);
+private void loadProps(Properties into, InputStream in)
+public void moveDown(int index)
+if ( ns.classInstance != null
+GUIUtilities.error(GrabKeyDialog.this,
+/**
+return null;
+boolean allWhitespace = true;
+if( gs >= m_nMTF )
+/**
+private FileFilter ffilter;
+if(isClosed())
+propertiesChanged();
+if ( evalBaseObject == null )
+{
+++firstThrowsClause;
+if ( namespace.getParent() != null && namespace.getParent().isClass
+setInternalEntity(intern("amp"), "&#38;");
+if( m_nMTF <= 0 )
+sourceType = INPUT_NONE;
+// Fields for the control flow graph analysis algorithm (used to compute the
+public Primitive( Object value )
+/**
+int nPart;
+if (comment) index = nextIndex;
+public boolean isCellEditable(int row, int col)
+File executable = new File(installDir,"jedit.exe");
+VFS vfs = VFSManager.getVFSForPath(file);
+Object lhsValue = null;
+nameSpaceChanged();
+/**
+"view.status.incomplete-abbrev",
+if ( fromType == null )
+offset += sizes[i];
+public void addRuleSet(ParserRuleSet rules)
+None
+cbNameSpace.setBlockVariable( fp.name, thrown );
+else if(rotate == RotatedTextIcon.CW)
+b.next = currentBlock.successors;
+uninit(false);
+if (minimumLength == 0) {
+String script = directory + File.separatorChar
+code = newCode;
+int endIndex = index;
+if ( callstack != null )
+public void updateUI()
+/**
+public Component getTreeCellRendererComponent(JTree tree,
+firstToken = lastToken = null;
+if (tail != null) {
+for( t = 0; t < nGroups; t++ )
+private String basePublicId;
+pool = pool.poolNext;
+View _view = viewsFirst;
+if (tail == null) {
+return indexes;
+mainThread = Thread.currentThread();
+/**
+buffer.remove(lineStart + wordStart,
+if(OperatingSystem.hasJava14())
+gzipped = new JCheckBox(jEdit.getProperty(
+public final void setFoldLevel(int line, int level)
+else if(position.equals(DockableWindowManager.BOTTOM))
+continue;
+public Object eval( CallStack callstack, Interpreter interpreter )
+int nRead = 0;
+public class DockableLayout implements LayoutManager2
+title = getDockableTitle(factory.name);
+The result is a class
+for( i = gs; i <= ge; i++ )
+public Object[] getCheckedValues()
+private class DummyRenderer extends DefaultTableCellRenderer
+if(dir != null
+offset -= sizes[i];
+public void endElement(String name)
+JComponent createDockableWindow(View view, String position)
+if(charIndexed != null && checkRule.end != null)
+/**
+doablesLast.next = recurrent;
+public boolean isManagingFocus()
+private static final String VERSION = "1.1.5-dev";
+KeyBinding other = getKeyBinding(shortcutString);
+int _repeatCount = repeatCount;
+private String getSymbolicName(int keyCode)
+private char[] lookBehind = new char[] { OUT_OF_BOUNDS, OUT_OF_BOUNDS };
+Class genClass = bcm.defineClass( fqClassName, code );
+while (end > j && isWhitespace(dataBuffer[end - 1])) {
+if ( Modifier.isPublic( c.getModifiers() )
+None
+/* they're too troublesome */
+if(!getFlag(IO) && !getFlag(LOADING) && file != null
+String canonPath = _canonPath(session,file.path,comp);
+int max = 0;
+NameSpace classStaticNameSpace =
+int tipToShow = currentTip;
+/* --- Instance data --- */
+boolean insens = ((cflags & REG_ICASE) > 0);
+private void handleNoWordBreak()
+// size variation always negative in this case)
+Object[] oa = ((BSHArguments)jjtGetChild(0)).getArguments(
+Request getNextRequest()
+enabled = true;
+selCtr = 0;
+lineSeparator = jEdit.getProperty(
+/** Must always be called with the lock held. */
+if(length == 0)
+ss = runningOrder[ i ];
+for( i = 0; i <= 255; i++ )
+parentList.insertElementAt(new VFS.DirectoryEntry(
+if(getProperty(ENCODING) == null)
+This instanceThis = getClassInstanceThis( instance, className );
+SearchMatcher.Match match = matcher.nextMatch(new CharIndexedSegment(text,reverse),
+if(b1 != UTF8_MAGIC_1 || b2 != UTF8_MAGIC_2
+ok();
+dockablePanel.setBorder(new DockBorder(position));
+final public Modifiers Modifiers(int context, boolean lookahead) throws ParseException {
+class WorkThreadHandler implements WorkThreadProgressListener
+undoMgr.bufferSaved();
+bsPutUChar( 0x17 );
+} else if (index >= 256) {
+boolean[] inUse16 = new boolean[ 16 ];
+String varName = prefix(evalName, 1);
+private void updateAssignedTo(String shortcut)
+currentBlock = label;
+client.setSoTimeout(1000);
+int anchor;
+remove = new JButton(jEdit.getProperty("grab-key.remove"));
+Class.forName("sun.tools.javac.Main");
+public boolean getFocusTraversalKeysEnabled()
+NSWorkspace.sharedWorkspace().selectFile(path,path);
+// Constructors.
+NA, //JSR_W,           // -
+i.intVal = argSize;
+int len = line.length() - word.length();
+/**
+Class clas = Class.forName( "bsh.classpath.ClassManagerImpl" );
+}
+argSize = getArgumentsAndReturnSizes(desc);
+private Reader reader;	// current reader
+if (catchTable != null) {
+if (currentBlock != null) {
+int T_BOOLEAN = 4;
+Edge b = l.successors;
+currentBlock.maxStackSize = maxStackSize;
+/**
+BufferedReader in = new BufferedReader(
+cv.visitLdcInsn( methodName );
+return;
+default:
+//    szptr = zptr;
+String macroName = (path + fileName).replace(' ','_');
+char[] chars = new char[lineNumberDigits];
+// Fields for the control flow graph analysis algorithm (used to compute the
+if(macroHash.get(newMacro.getName()) != null)
+char c = desc.charAt(0);
+single = (REMatch) current.clone();
+int opcode = data[reference - 1] & 0xFF;
+public void handleMessage(EBMessage message)
+}
+int answer = GUIUtilities.confirm(
+if(buffer.isPerformingIO())
+/**
+insert = u & 3;
+// for toolbar display
+private static final int QSORT_STACK_SIZE = 1000;
+static public Font makeFont()
+}
+if(!hyperSearch.isSelected())
+if(!(name instanceof String))
+// Fields for the control flow graph analysis algorithm (used to compute the
+if(Debug.CHUNK_PAINT_DEBUG)
+// Fields for the control flow graph analysis algorithm (used to compute the
+private void ensureCapacity(int capacity)
+else if(structureHighlight)
+private void synchronizeMultiFileSettings()
+if ( fp.type != null )
+if (USE_CHEATS) {
+skipWhitespace();
+public void append(char ch)
+ByteVector out = new ByteVector(size);
+int size = 24 + 2*interfaceCount;
+"Translated: "
+// Fields for the control flow graph analysis algorithm (used to compute the
+/**
+REMatch longest = mymatch;
+VFSManager.runInAWTThread(new SendVFSUpdatesSafely());
+/**
+/**
+public static final int M_OPEN = 0;
+/**
+/**
+/**
+default:
+if(other.name == binding.name)
+buffer.insert(caret,selectedText);
+invalidateLine(caretLine);
+current.remove(keyStroke);
+/**
+/**
+for(int i = resultTreeRoot.getChildCount() - 1; i >= 0; i--)
+if(backupDirectory == null || backupDirectory.length() == 0)
+boolean localVar = !lastEvalName.equals("super");
+public void setSortType(int type)
+setAbortable(true);
+/**
+addComponent(jEdit.getProperty("options.firewall.http.port"),
+v = u;
+//{{{ applicationDockMenu() method
+/**
+if(textArea.getDisplayManager() == this)
+int NOP = 0;                // visitInsn
+/**
+return true;
+if(develBuild.compareTo(stableBuild) < 0)
+recentBuffer = null;
+((EBComponent)plugin).handleMessage(
+String settingsDirectory = jEdit.getSettingsDirectory();
+NameSpace varScope = this;
+//{{{ getPhysicalLineOfScreenLine() method
+}
+skipWhitespace();
+if((rule.action & ParserRule.NO_ESCAPE) == 0)
+}
+lineMgr.setScreenLineCount(line,count);
+interpreter = instanceThis.declaringInterpreter;
+String savePath;
+if (!new File(buffs[i].getPath()).exists())
+c = readCh();
+while (true) {
+//{{{ read() method
+if ( existing.getType() != type )
+for(int i = 0; i < toLoad.size(); i++)
+class InputPane extends JTextField
+GUIUtilities.error(GrabKeyDialog.this,
+private Object eval( boolean toLHS,
+/**
+callstack.swap( forNameSpace );
+// Fields for the control flow graph analysis algorithm (used to compute the
+public void addOptionGroup(OptionGroup group)
+/**
+class FontSelectorDialog extends EnhancedDialog
+/**
+if(frc == null)
+// 0x00 0x3c 0x00 0x3f: UCS-2, big-endian, no byte-order mark
+return autodetect(in);
+public void run()
+private void _setScreenLineCount(int line, int oldCount, int count)
+if(UIManager.getLookAndFeel() instanceof MetalLookAndFeel)
+Object obj = null;
+"args["+i+"] = "+args[i]
+if(lineIndex != 0)
+if ( prefix.equals("super") && Name.countParts(value) == 2 )
+if(index % 2 != 0)
+private static final int FOLD_LEVEL_MASK         = 0x0000ffff;
+if ( varName.equals("super") )
+u = u + 4 - (u & 3);
+if(lastScreenLine < firstInvalidLine)
+public Object doSuffix(
+Marker(Buffer buffer, char shortcut, int position)
+l.pushed = true;
+} else {
+public void _setContent(char[] text, int length)
+/**
+if ( toType.isAssignableFrom( fromType ) )
+System.arraycopy(text,start,seg.array,0,gapStart - start);
+int index = url.indexOf(":");
+if ( argValues[i] == Primitive.VOID)
+if(lastWasCR)
+int[] dims = new int[arrayDims]; // int array default zeros
+return (String)bucket[index+1];
+private Edit undosFirst;
+private boolean selectPane(OptionGroup node, String name)
+Font font = getFontProperty("view.font");
+undoMgr.bufferSaved();
+static void save()
+if ( existing != null )
+for(int i = firstLine + 1; i <= lastLine; i++)
+Object lock;
+/**
+int lastInvalid = (clipRect.y + clipRect.height - 1) / height;
+/**
+int start = l.beginStackSize;
+// getAssignable would catch this for typed param
+public void paintValidLine(Graphics2D gfx, int screenLine,
+FileWriter out = new FileWriter(script);
+/**
+/**
+throw new InterpreterError("err in cast check: "+e);
+Remove(String plugin)
+throw te.getTarget();
+/**
+if(text.length() == 0)
+public void preContentRemoved(Buffer buffer, int startLine,
+jp.doExec(cmdLine);
+None
+BSHCastExpression jjtn000 = new BSHCastExpression(JJTCASTEXPRESSION);
+if ( obj instanceof SimpleNode )
+bsPutUChar( 0x31 );
+input[0] = new Integer(sourceType);
+System.exit(0);
+void addInstall(String installed, String url, String installDirectory,
+public void write(DataOutputStream dout) throws IOException
+private void startPlugin()
+void uninit(boolean exit)
+public void menuDeselected(MenuEvent e)
+class ShowFileAction
+private byte rawReadBuffer[];
+classOfStaticMethod = clas;
+void performOperationsInAWTThread(Component comp)
+class RemoveAllTreeNodesAction extends AbstractAction
+cv.visitMethodInsn(
+Box replaceModeBox = new Box(BoxLayout.X_AXIS);
+return fvm[index] - 1;
+private void paintLine(Graphics2D gfx, int line, int y)
+for( t = 0; t < nGroups; t++ )
+Descriptor(String clazz, String name, String code,
+EBComponent[] comps = getComponents();
+for (int r = 0, y = insets.top, i = 0; r < nrows; y += row_heights[r] + vgap, r++) {
+updateSize();
+- Added sourceFile attribute
+NSMenuItem miMac = new NSMenuItem(jEdit.getProperty("MacOSPlugin.menu.macros.label"),null,"");
+jEdit.propertiesChanged();
+if ( Interpreter.DEBUG )
+Class clas = null;
+private void updateSize()
+public class OptionTreeModel implements TreeModel
+throw new UtilTargetError( new NullPointerException(
+noTabs = new JCheckBox(jEdit.getProperty(
+/**
+// Do we have to grow the bucket?
+}
+(italics.isSelected() ? Font.ITALIC : 0)
+if ( evalBaseObject == Primitive.NULL) // previous round produced null
+String[] lineSeps = { jEdit.getProperty("lineSep.unix"),
+if(!selectPane(rootNode,pane))
+indentSize = new JComboBox(tabSizes);
+&& thisNameSpace.getParent().isClass
+throw new UtilEvalError(
+String[] foldModes = FoldHandler.getFoldModes();
+bucket =
+/**
+String[] wrapModes = {
+NameSpace ns = namespace;
+if ( field.equals("this") )
+if (ch[start+i] != chFound[i]) {
+/**
+/**
+if (chFound == null) {
+if (chFound.length == length) {
+InputEvent.ALT_MASK,   /* == M+ */
+private void updateText()
+/**
+private JPanel createTextFieldAndListPanel(String label,
+Object bucket[] = (Object[])symbolTable[hash];
+private void updatePreview()
+/**
+private String[] getFontList()
+public Font getSelectedFont()
+fonts = new String[] { "Broken Java implementation!" };
+/**
+/**
+if ( callstack == null )
+if ( obj == null ) {
+/**
+/**
+try {
+if ( field.equals("length") && evalBaseObject.getClass().isArray() )
+// XXXX re-evaluate this
+"- is in classpath. Fine.");
+throw new UtilEvalError(
+// if we get here we have failed
+return obj;
+public Insets getBorderInsets(Component c)
+public void show(final DockableWindowManager.Entry entry)
+dockablePanel.setBorder(null);
+class ResizeMouseHandler extends MouseAdapter implements MouseMotionListener
+public void register(DockableWindowManager.Entry entry)
+/**
+JPanel buttons = new JPanel();
+public static class Key
+public void showMostRecent()
+void setDimension(int dimension)
+ClassLoader parentLoader = getClass().getClassLoader();
+public void unregister(DockableWindowManager.Entry entry)
+buttonPanel = new JPanel(new ButtonLayout());
+/**
+if (kind == INSTANCEOF)
+public void paintBorder(Component c, Graphics g,
+void sortDockables()
+public String[] getDockables()
+class MenuMouseHandler extends MouseAdapter
+private String mostRecent;
+private void paintVertBorder(Graphics g, int x, int y, int height)
+if(recorder != null)
+class DockablePanel extends JPanel
+Class clas = namespace.getClass( evalName );
+private void paintHorizBorder(Graphics g, int x, int y, int width)
+public boolean isBorderOpaque()
+if ( evalName.equals("var") )
+DockBorder(String position)
+PanelWindowContainer getWindowContainer()
+public InputStream getResourceAsStream(String name)
+private void updateColors()
+public Object eval( CallStack callstack, Interpreter interpreter )
+if ( !isCompound(evalName) )
+if ( obj instanceof ClassIdentifier )
+public void addLayoutComponent(String name, Component comp)
+public int getIconWidth()
+}
+public void paintIcon(Component c, Graphics g, int x, int y)
+Object obj = null;
+if(lineHeight == 0)
+DockablePanel()
+return new Dimension(0,0);
+if(rotate == RotatedTextIcon.NONE)
+else if(position.equals(DockableWindowManager.LEFT))
+public URL getResource(String name)
+if ((c == 'u') && ((backSlashCnt & 1) == 1))
+if ( interactive )
+if ( lhs instanceof Primitive )
+if(position.equals(DockableWindowManager.TOP))
+/**
+// Fields for the control flow graph analysis algorithm (used to compute the
+/**
+public String getResourceAsPath(String name)
+/**
+return;
+if (
+else if(position.equals(DockableWindowManager.RIGHT))
+if ( obj instanceof This )
+if ( evalName == null && obj instanceof ClassIdentifier )
+throw new InternalError();
+/**
+private boolean isWrapper( Object obj ) {
+// TODO: the '\n' literal here should be a test against REToken.newline,
+private static void removeBufferFromList(Buffer buffer)
+// stores the list of it successors in the graph, as a linked list of Edge
+/**
+while (j < end) {
+// Note: it's ok to cache class resolution here because when the class
+{
+/**
+public void ok()
+public void setBorderPainted(boolean b)
+f = clas.getField(fieldName);
+//
+void closeNodeScope(Node n, int num) {
+String fullname = null;
+NEW_BUFFER_ICON = loadIcon("new.gif");
+/**
+if(value == null)
+public LogViewer()
+abbrev = (String)pp.elementAt(0);
+public void setEnabled(boolean b)
+else if ((unit.ch == '(') && (syntax.get(RESyntax.RE_NO_BK_PARENS) ^ unit.bk)) {
+/**
+// Fields for the control flow graph analysis algorithm (used to compute the
+class LogList extends JList
+private boolean checkForExistingAbbrev()
+public void paint(Graphics g)
+static class ResultIcon implements Icon
+if ( Interpreter.DEBUG )
+/**
+public boolean isOpaque()
+if (isWhitespace(c)) {
+/**
+wordStart = TextUtilities.findWordStart(lineText,pos - 1,
+if(expand == null)
+if ( Capabilities.classExists("java.lang.ref.WeakReference")
+/**
+boolean recurse = false;
+addToken(currentToken);
+/**
+public final int getSize()
+/**
+/**
+repeatCount = 1;
+public static void saveHistory()
+private String tagAttributes[];
+}
+for (int i = start; i < start + length; i++) {
+else if (!syntax.get(RESyntax.RE_UNMATCHED_RIGHT_PAREN_ORD) && ((unit.ch == ')') && (syntax.get(RESyntax.RE_NO_BK_PARENS) ^ unit.bk))) {
+toolbars.add(entry);
+String filenameGlob = (String)this.props.get("filenameGlob");
+/**
+public static void loadHistory()
+private void setCurrentBindings(Hashtable bindings)
+private static Object PREFIX_STR = "PREFIX_STR";
+public ToolBarManager(Container top, Container bottom)
+if(shortURL != null)
+/**
+public HelpSearchPanel(HelpViewer helpViewer)
+char c = readCh();
+String username = jEdit.getProperty("firewall.user");
+dataBuffer =
+} else if ((flags & LIT_ENTITY_REF) > 0) {
+else if ((unit.ch == '.') && !unit.bk) {
+/**
+if(namespace == global)
+while (j < end && isWhitespace(dataBuffer[j])) {
+public boolean accept(File pathname)
+}
+private String baseURL;
+return dataBufferToString();
+static class ResultCompare implements Comparator
+int maxRank = 0;
+// private members
+/**
+String getShortURL()
+/**
+if (inNotation) {
+class ResultRenderer extends DefaultListCellRenderer
+public void queueTOCReload()
+public String getBaseURL()
+case '\n':
+private void loadTOC(DefaultMutableTreeNode root, String path)
+static class HelpFile
+loop: while (true) {
+/**
+/**
+/**
+class LinkHandler implements HyperlinkListener
+viewer.setCursor(Cursor.getDefaultCursor());
+}
+/**
+public HelpIndex()
+String shortURL;
+public boolean applicationShouldHandleReopen(NSApplication theApplication, boolean flag)
+Method method = (Method)resolvedStaticMethods.get( sk );
+else if ((unit.ch == '*') && !unit.bk) {
+Object obj = classHash.get(clazz);
+/**
+Class [] intfs = c.getInterfaces();
+delim = readCh();
+public void hyperlinkUpdate(HyperlinkEvent evt)
+try {
+/**
+class PropertyChangeHandler implements PropertyChangeListener
+private DefaultMutableTreeNode createNode(String href, String title)
+private void ignoreWord(String word)
+{
+pluginTree = null;
+else if (unit.bk && (unit.ch == '<')) {
+private static final Object NO_CLASS = new Object();
+if(namespace)
+// Fields for the control flow graph analysis algorithm (used to compute the
+String word;
+if ( commandObject == null )
+private void addWord(String word, int file, boolean title)
+/**
+void selectNode(String shortURL)
+static class Word
+Object commandObject;
+int occurCount = 0;
+if ( meth != null )
+HelpTOCPanel(HelpViewer helpViewer)
+default:
+HelpNode(String href, String title)
+public void attribute(String aname, String value, boolean isSpecified)
+class TOCHandler extends HandlerBase
+public static final Primitive NULL = new Primitive(Special.NULL_VALUE);
+// Constructors.
+static class CustomClassManager extends BshClassManager
+/**
+TOCHandler(DefaultMutableTreeNode root, String dir)
+class TOCCellRenderer extends DefaultTreeCellRenderer
+toolTipInitialDelay = ttm.getInitialDelay();
+private boolean cellRectIsVisible(Rectangle cellRect)
+//{{{ canonPath() method
+TOCTree()
+static class SendVFSUpdatesSafely implements Runnable
+class TOCTree extends JTree
+/**
+/**
+//{{{ getFileVFS() method
+static class PluginCompare implements Comparator
+/**
+/**
+private static String jEditHome;
+if(SwingUtilities.isEventDispatchThread())
+public void runInAWTThread(Component comp)
+/**
+public void runInWorkThread(PluginManagerProgress progress)
+/**
+/**
+/**
+VFS vfs = (VFS)ServiceManager.getService(SERVICE,name);
+static
+/**
+/**
+/**
+/**
+return;
+else {  // not a special character
+/**
+/**
+/**
+/**
+/**
+//{{{ getIOThreadPool() method
+public static DateFormat DATE_FORMAT
+/**
+/**
+/**
+private static void loadColors()
+/**
+public Word lookupWord(String word)
+/**
+static class HelpNode
+public Element getParentElement()
+setNotation(nname, ids[0], ids[1]);
+/**
+public UrlVFS()
+iter.remove();
+/**
+public Object getInterface( Class clas )
+} catch ( Exception e ) {
+boolean chain(REToken next) {
+clearCaches();
+/**
+/**
+if(!file.exists())
+/**
+public FileVFS()
+/**
+public String toString() { return value; }
+public static class LocalDirectoryEntry extends VFS.DirectoryEntry
+File parent = new File(_to.getParent());
+/**
+/**
+case KeyEvent.KEY_RELEASED:
+if ( callstack == null )
+case PLUS:
+if ( print )
+private REMatch[] getAllMatchesImpl(CharIndexed input, int index, int eflags) {
+if(OperatingSystem.isDOSDerived())
+// Fields for the control flow graph analysis algorithm (used to compute the
+//{{{ Groups
+/**
+/**
+/**
+public static void addToFavorites(String path, int type)
+class TableMouseHandler extends MouseAdapter
+/** Code borrowed from j text editor (http://www.armedbear.org) */
+/**
+/**
+/**
+/**
+if ( toType == null || toType == fromType )
+/**
+/**
+// Common layers
+public FavoritesVFS()
+public static void saveFavorites()
+static class FavoritesEntry extends VFS.DirectoryEntry
+public static VFS.DirectoryEntry[] getFavorites()
+public static void loadFavorites()
+private static File[] listRoots()
+if (volumes[i].isDirectory())
+/**
+if(!loaded)
+if(System.currentTimeMillis() - modTime
+/**
+private static int countNewlines(String s, int end)
+/**
+/**
+public void	setVariable(
+/**
+/**
+//{{{ goToMarker() method
+int backups = jEdit.getIntegerProperty("backups",1);
+/**
+static class RootsEntry extends VFS.DirectoryEntry
+/**
+if(isFloppyDrive != null)
+None
+this();
+final public void ReturnType() throws ParseException {
+this.extAttrs = new String[] { EA_SIZE, EA_TYPE };
+}
+/**
+/**
+/**
+index = path.lastIndexOf(':');
+if ( fromType == Void.TYPE || fromType == null
+if(index == -1 || index == path.length() - 1)
+if ( checkOnly )
+/**
+else
+/**
+//{{{ _canonPath() method
+/**
+/**
+int count = Math.max(0,path.length() - 2);
+/**
+public boolean updateEveryTime()
+public AppearanceOptionPane()
+iter.remove();
+if ( returnType == Void.TYPE )
+else {
+final public void Expression() throws ParseException {
+int i;
+return checkOnly ? VALID_CAST :
+/**
+defaultValueFlag = true;
+/**
+/**
+count = 0;
+/**
+super.setVariable( name, value, strictJava, false );
+stream = null;
+try {
+getParent().setVariable( name, value, strictJava, recurse );
+dataBufferFlush();
+/**
+}
+defaultMode = new JComboBox(modes);
+public static final int FILE = 0;
+BSHMethodInvocation jjtn000 = new BSHMethodInvocation(JJTMETHODINVOCATION);
+if (buf.length() == 0) {
+/**
+if(jEdit.getFirstView() == null)
+}
+String backupPrefix = jEdit.getProperty("backup.prefix");
+//{{{ goToMarker() method
+ActionListener fileListener = new ActionListener()
+/**
+throw e2.toEvalError( this, callstack );
+public Color getColor()
+if(name.endsWith(".marks"))
+{
+if((backupPrefix.length() != 0
+if(count <= maxItems)
+if ( isStatic )
+BSHArguments jjtn000 = new BSHArguments(JJTARGUMENTS);
+if (input instanceof String)
+for(int i = 0; i < letters.length; i++)
+Buffer buffer = jEdit.openFiles(null,parent,args);
+public void keyPressed(KeyEvent evt)
+private void addToLetterMap(List[] letters, JMenuItem item)
+static class Expansion
+Enumeration e = VFSManager.getFilesystems();
+int count = 0;
+private static void loadAbbrevs(Reader _in) throws Exception
+/**
+BSHBlock jjtn000 = new BSHBlock(JJTBLOCK);
+/**
+if(selected == words.getModel().getSize() - 1)
+private static void saveAbbrevs(Writer _out) throws Exception
+cv.visitVarInsn( ALOAD, 0 );
+out.write("[global]");
+public int getFirstInvalidFoldLevel()
+Enumeration keys = modes.keys();
+skipWhitespace();
+static class CompoundEdit extends Edit
+skipWhitespace();
+/**
+public final boolean isScreenLineCountValid(int line)
+* Constant: an element has not been declared.
+public DirectoryProvider(String dir)
+public void add(int num)
+class Model extends DefaultButtonModel
+public void menuSelected(MenuEvent e)
+if ( Primitive.isWrapperType( toType )
+/*
+try {
+skipWhitespace();
+MouseListener mouseListener = new MouseAdapter()
+/**
+BSHIfStatement jjtn000 = new BSHIfStatement(JJTIFSTATEMENT);
+private int[] m_unzftab = new int[ 256 ];
+/**
+/**
+System.exit(0);
+ActionListener actionListener = new ActionListener()
+private void createMacrosMenu(JMenu menu, Vector vector, int start)
+/* EnhancedMenu has a reference to EditBusStub, but not the other
+/**
+/**
+protected EBPlugin() {}
+private void setSelectedRow(int row)
+skipWhitespace();
+public void _init()
+ids = readExternalIds(false);
+/**
+/**
+/**
+/**
+/**
+/**
+public int getRowCount()
+skipWhitespace();
+Object[] args = new Object[jjtGetNumChildren()];
+dataBufferAppend((char)value);
+public void mouseClicked(MouseEvent evt)
+BrowserColorsModel()
+requireWhitespace();
+Node rootNode() {
+class BrowserColorsModel extends AbstractTableModel
+public void moveUp(int index)
+public ColorRenderer()
+static class ColorRenderer extends JLabel
+requireWhitespace();
+boolean nodeCreated() {
+error("character reference " + value + " is too large for UTF-16",
+/**
+/**
+/**
+//{{{ runScript() method
+addComponent(jEdit.getProperty("options.status.background"),
+requireWhitespace();
+/**
+font = new FontSelector(jEdit.getFontProperty("print.font"));
+public TextAreaOptionPane()
+return classExists( "javax.swing.JButton" );
+private void saveMode()
+addComponent(jEdit.getProperty("options.textarea.selection"),
+wrapGuide = new JCheckBox(jEdit.getProperty("options.textarea"
+lineHighlight = new JCheckBox(jEdit.getProperty("options.textarea"
+private void selectMode()
+public EditingOptionPane()
+eolMarkers = new JCheckBox(jEdit.getProperty("options.textarea"
+Node peekNode() {
+boolean nodeCreated() {
+/**
+private static void setupDefaultVariables(NameSpace namespace, View view)
+private static void resetDefaultVariables(NameSpace namespace)
+/**
+private static void handleException(View view, String path, Throwable t)
+private static Interpreter createInterpreter(NameSpace nameSpace)
+showToolbar = new JCheckBox(jEdit.getProperty(
+private void moveGapEnd(int newEnd)
+public DummyFoldHandler()
+if(!edited)
+static class NoPluginsPane extends AbstractOptionPane
+iconList = new DefaultComboBoxModel();
+String oldFilenameGlob = (String)mode.getProperty("filenameGlob");
+public ExplicitFoldHandler()
+pluginsGroup = new OptionGroup("plugins");
+EditPlugin[] plugins = jEdit.getPlugins();
+private void moveGapStart(int newStart)
+public ToolBarOptionPane()
+protected OptionGroup getDefaultGroup()
+protected OptionTreeModel createOptionTreeModel()
+JPanel buttons = new JPanel();
+path = path.replace('/','\\');
+iter.remove();
+int trim = path.length();
+c = readCh();
+dataBufferFlush();
+while (true) {
+path = path.replace(':','/');
+* Constant: the entity has not been declared.
+// private members
+c = readCh();
+RE_SYNTAX_ED = new RESyntax(RE_SYNTAX_POSIX_BASIC)
+if ( clas == null )
+class ToolBarEditDialog extends EnhancedDialog
+int posParamCount;
+case '|':
+static class IconListEntry
+Expansion(String text, int softTabSize, Vector pp)
+static class ButtonCompare implements MiscUtilities.Compare
+JPanel iconPanel = new JPanel(new BorderLayout(0,3));
+static class Button
+if(backslash)
+parseContentspec(name);
+public ToolBarEditDialog(Component comp,
+if(pos <= pp.size())
+buf.append('$');
+skipWhitespace();
+private void updateList()
+dataBufferFlush();
+c = readCh();
+require("CDATA[");
+require('-');
+Reference deadref;
+/**
+private StyleTableModel createStyleTableModel()
+private JScrollPane createStyleTableScroller()
+/**
+class StyleTableModel extends AbstractTableModel
+return externalClassLoader.getResource( path.substring(1) );
+StyleEditor(Component comp, SyntaxStyle style)
+None
+c = readCh();
+/**
+c = readCh();
+/**
+public SyntaxStyle getStyle()
+secondaryFont = new FontSelector(jEdit.getFontProperty(
+private void addStyleChoice(String label, String property)
+lastNoWordSep = "_";
+if (handler != null) {
+currentElement = oldElement;
+aname = readNmtoken(true).intern();
+tagAttributePos = 0;
+/* String[] alignments = new String[] {
+for (int i = 0; i < tagAttributePos; i++) {
+public String toString()
+skipWhitespace();
+/* gutterBorderWidth = new JTextField(jEdit.getProperty(
+addComponent(jEdit.getProperty("options.gutter.foldColor"),
+gutterHighlightInterval = new JTextField(jEdit.getProperty(
+static class PropValue
+showOverwrite = new JCheckBox(jEdit.getProperty(
+_out.write(UTF8_MAGIC_1);
+/**
+* Constant: the attribute has not been declared for this element type.
+if (ids[1] != null) {
+showMemory = new JCheckBox(jEdit.getProperty(
+addComponent(jEdit.getProperty("options.status.foreground"),
+statusVisible = new JCheckBox(jEdit.getProperty(
+showCaretStatus = new JCheckBox(jEdit.getProperty(
+showFoldMode = new JCheckBox(jEdit.getProperty(
+while (true) {
+public FirewallOptionPane()
+gi = readNmtoken(true);
+addComponent(jEdit.getProperty("options.status.memory.background"),
+addComponent(jEdit.getProperty("options.firewall.http.password"),
+addComponent(jEdit.getProperty("options.firewall.http.host"),
+addComponent(jEdit.getProperty("options.firewall.http.nonProxy"),
+skipWhitespace();
+insureNo("native", "Class");
+public Class getColumnClass(int col)
+class DockPositionCellRenderer extends JComboBox
+} else {
+requireWhitespace();
+case ENCODING_UTF_8:
+private final static int ENCODING_UTF_8 = 1;
+skipWhitespace();
+new Primitive( code.length )/*len*/
+//{{{ reloadModes() method
+case ENCODING_UCS_2_12:
+},
+void sort(int col)
+/**
+case ENCODING_UCS_4_1234:
+if(path.length() > 0 && path.charAt(0) == '/')
+public MacOSOptionPane()
+autosave = new JTextField(jEdit.getProperty("autosave"));
+skipWhitespace();
+* Constant: the attribute is not declared.
+/**
+backupEverySave = new JCheckBox(jEdit.getProperty(
+if (tryRead("version")) {
+public GlobalOptions(Frame frame)
+require("version");
+/**
+"illegal argument type in method invocation: "+e );
+}
+backups = new JTextField(jEdit.getProperty("backups"));
+return clas;
+backupDirectory = new JTextField(jEdit.getProperty(
+skipWhitespace();
+downloadSource = new JCheckBox(jEdit.getProperty(
+public FloatingWindowContainer(DockableWindowManager dockableWindowManager,
+if ( obj1 == NULL || obj2 == NULL )
+public BrowserOptionPane()
+class Abbrev
+private synchronized void writeObject(java.io.ObjectOutputStream s)
+class Remove extends Operation
+if (method != null)
+for( int i = 0; i <= 255; i++ )
+/**
+/**
+if ( unqualifiedName )
+NameSpace global = BeanShell.getNameSpace();
+class AbbrevCompare implements MiscUtilities.Compare
+AbbrevsModel(Hashtable abbrevHash)
+public Hashtable toHashtable()
+private void edit()
+class HeaderMouseHandler extends MouseAdapter
+return hashCode;
+//{{{ ToolBar-related constants
+/**
+/**
+int firstLine = getLineOfOffset(offset);
+if ((flags & LIT_NORMALIZE) > 0) {
+}
+DelayedEvalBshMethod(
+if ( recurse && (var == null) && (parent != null) )
+/**
+final char[] pos = new char[ N_GROUPS ];
+/**
+/**
+showTips = new JCheckBox(jEdit.getProperty(
+case LSHIFT:
+static Object longBinaryOperation(Long L1, Long L2, int kind)
+showToolbar = new JCheckBox(jEdit.getProperty(
+Class lhsOrgType = obj1.getClass();
+variables.put( name, new Variable( name, type, value, modifiers ) );
+static Object intBinaryOperation(Integer I1, Integer I2, int kind)
+if ( methods[i].hasModifier("private") /*|| returnType == null*/ )
+/**
+cv.visitMethodInsn( INVOKEVIRTUAL, type, meth, "()" + desc );
+history = new JTextField(jEdit.getProperty("history"));
+showHiddenFiles = new JCheckBox(jEdit.getProperty("options.browser"
+layoutIcon1 = GUIUtilities.loadIcon("dock_layout1.png");
+showIcons = new JCheckBox(jEdit.getProperty("options.browser"
+beepOnSearchAutoWrap = new JCheckBox(jEdit.getProperty(
+showFullPath = new JCheckBox(jEdit.getProperty(
+menuSpillover = new JTextField(jEdit.getProperty("menu.spillover"));
+ActionListHandler(String path, ActionSet actionSet)
+showSearchbar = new JCheckBox(jEdit.getProperty(
+showBufferSwitcher = new JCheckBox(jEdit.getProperty(
+/**
+primaryFont = new FontSelector(jEdit.getFontProperty(
+public static Entry getEntry(String path)
+showSplash = new JCheckBox(jEdit.getProperty(
+public PrintOptionPane()
+public BufferOptions(View view, Buffer buffer)
+}
+None
+int numRepeats = 0;
+if(buffersFirst == null && buffersLast == null)
+//{{{ getMode() method
+/**
+if (obj == Primitive.VOID)
+case LSHIFT:
+int[] dims = new int[arrayDims]; // int array default zeros
+if(kind == INCR || kind == DECR)
+if (value instanceof Character)
+Log.flushStream();
+if(jEdit.getViewCount() != 0
+/**
+try {
+try {
+sortBuffers = new JCheckBox(jEdit.getProperty(
+if ( importedObjects != null )
+return Reflect.invokeObjectMethod(
+String altConstructor = null;
+if (stingy && (numRepeats >= min)) {
+// try each one that matched
+/**
+Enumeration e = props.keys();
+confirmSaveAll = new JCheckBox(jEdit.getProperty(
+/**
+/**
+block.evalBlock(
+if (obj instanceof Primitive)
+/**
+if (contentType != CONTENT_UNDECLARED) {
+if ( importedStatic!= null )
+BshMethod meth = null;
+int selector = i+superCons.length;
+writeLock();
+buffer = buffersFirst;
+/**
+throw new ReflectError("No such field: " + fieldName );
+false/*checkOnly*/, operation );
+Interpreter.debug("arraystore"+e);
+Enumeration atts = declaredAttributes(gi);
+// Get the static This reference from the proto-instance
+while (doablesLast.next != null) {
+m_allowableBlockSize = BASE_BLOCK_SIZE * m_blockSize100k - 20;
+/**
+private static CharIndexed makeCharIndexed(Object input, int index) {
+if ( baseType.isPrimitive() )
+if ( fromType == Boolean.TYPE )
+if ( fromType == null )
+public void addOptionPane(OptionPane pane)
+restore = new JCheckBox(jEdit.getProperty(
+public GeneralOptionPane()
+class ShowRecentMenuItem extends JMenuItem
+Object value;
+public class ParseException extends EvalError {
+for (int i = 0; i < numInitializers; i++)
+if ( value instanceof Character )
+// Only allow legal Java assignment unless we're a CAST operation
+// 0x00 0x00 0x00 0x3c: UCS-4, big-endian (1234)
+}
+REMatch allResults = null;
+printFooter = new JCheckBox(jEdit.getProperty("options.print"
+bsPutUChar( 'h' );
+boolean autoReloadSetting = getBooleanProperty(
+printHeader = new JCheckBox(jEdit.getProperty("options.print"
+sortByName = new JCheckBox(jEdit.getProperty(
+// 0x00 0x00 0x00 0x3c: UCS-4, big-endian (1234)
+for (current = newMatch; current != null; current = current.next) {
+MiscUtilities.saveBackup(file,5,null,"~",backupDir);
+class ParentMouseHandler extends MouseAdapter
+saveCaret = new JCheckBox(jEdit.getProperty(
+/**
+String sourceFile = "<unknown>";
+// Begin BeanShell Modification - sourceFile
+specialConstructor = true;
+specialConstructor = false;
+recentFiles = new JTextField(jEdit.getProperty(
+force13 = new JCheckBox(jEdit.getProperty(
+String[] modCheckOptions = {
+String[] encodings = MiscUtilities.getEncodings();
+encodingAutodetect = new JCheckBox(jEdit.getProperty(
+if(mode == CHOOSE_DIRECTORY_DIALOG)
+if ( (rhs == Byte.TYPE) &&
+callstack.pop();
+for( j = 0; j <= 255; j++ )
+twoStageSave = new JCheckBox(jEdit.getProperty(
+class HelpButton extends JButton implements ListSelectionListener, ActionListener
+int length = (wrap ? ring.length : count);
+// in any case, this is only needed for the
+color = new JCheckBox(jEdit.getProperty("options.print"
+public void focusOnDefaultComponent()
+public void mouseMoved(MouseEvent evt)
+/**
+/**
+/**
+return retval;
+public String getMessage( boolean debug ) {
+/**
+doReversibleTransformation();
+/**
+private int showListConfirm(String name, String[] args,
+String retval = "In file: "+ sourceFile +" Encountered \"";
+public ManagePanel(PluginManager window)
+if (!specialConstructor) {
+public int getErrorLineNumber()
+if ( definedDimensions.length != numUndefinedDims )
+encoding = ENCODING_UTF_8;
+Object result = dimensionsNode.eval( type, callstack, interpreter );
+private int index = -1;
+bc = 999999999;
+view = viewsFirst;
+for( int i=0; i<methods.length; i++)
+/**
+public static void main( String [] args ) throws Exception {
+while ( child < numchild )
+if (ename != null) {
+transient Parser parser;
+return Primitive.castPrimitive(
+}
+if (!stream.isValid()) return -1;
+if(server != null)
+public EnhancedButton(Icon icon, String toolTip, String action,
+public static class Mirror
+int	maxSize	= 0;
+boolean hasConstructor = false;
+int classMods = getASMModifiers( classModifiers ) | ACC_PUBLIC;
+for( int i=0; i< bshmethods.length; i++ )
+generateField(
+for( int i=0; i<vars.length; i++)
+generateField(
+/**
+class PluginTableModel extends AbstractTableModel
+class CaretHandler implements CaretListener
+class RemoveButton extends JButton implements ListSelectionListener, ActionListener
+class TextRenderer extends DefaultTableCellRenderer
+/**
+public MirrorList() throws Exception
+class MirrorCompare implements Comparator
+Object value = null;
+PluginList() throws Exception
+/**
+CodeVisitor cv = cw.visitMethod(
+/**
+void finished()
+None
+void addPluginSet(PluginSet set)
+void addPlugin(Plugin plugin)
+if(installed != null)
+None
+/**
+if(started && requestCount == 0)
+/**
+private PluginManager()
+/**
+path = path.substring(0,
+private boolean isDownloadingList()
+/**
+/**
+stripTrailingEOL = new JCheckBox(jEdit.getProperty(
+cv.visitFieldInsn(
+/**
+// caching is not correct and doesn't seem to help...
+// Constructors.
+}
+protected Object unwrapVariable( Variable var )
+StringBuffer output = new StringBuffer();
+if(classpath.equalsIgnoreCase("jedit.jar"))
+public static void showPluginManager(Frame frame)
+/**
+void checkIfInstalled()
+static public class Plugin
+static class Dependency
+static class PluginSet
+for(int i = 0; i < plugins.size(); i++)
+if (message instanceof PropertiesChanged)
+boolean match(CharIndexed input, REMatch mymatch) {
+public PluginList getPluginList()
+static class Branch
+String pluginName;
+count = is.read(rawReadBuffer, 0, READ_BUFFER_MAX);
+private void updatePluginList()
+if ( sharedObject == null )
+public void setSelectAll(boolean b)
+class SelectallButton extends JCheckBox implements ActionListener, TableModelListener
+/**
+return true;
+/**
+else
+int index = 0;
+JPanel content = new JPanel(new BorderLayout(12,12));
+private JCheckBox menuBox;
+if(installed != null)
+Class clas = instance.getClass();
+private Component restoreSplitConfig(Buffer buffer, String splitConfig)
+void activate()
+private String download(PluginManagerProgress progress,
+class SizeLabel extends JLabel implements TableModelListener
+generateParameterReifierCode( paramTypes, isStatic, cv );
+} catch ( Exception e ) {
+switch (encoding)
+setu( "bsh.evalOnly", new Primitive(evalOnly) );
+table = new JTable(pluginModel = new PluginTableModel());
+void deactivate()
+JScrollPane infoPane = new JScrollPane(
+Box buttons = new Box(BoxLayout.X_AXIS);
+class ListUpdater implements ChangeListener
+class PluginInfoBox extends JTextArea implements ListSelectionListener
+Cursor cursor = Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR);
+initPLAF();
+public float nextTabStop(float x, int tabOffset)
+private void writeMap(DataOutputStream dout, Map map)
+Roster()
+/**
+String[] tabSizes = { "2", "4", "8" };
+/**
+/**
+if ( clas == null )
+/**
+minimumLength = 0;
+addToken(currentToken);
+/**
+InstallPanel(PluginManager window, boolean updates)
+CodeVisitor cv =
+private String formatSize(int size)
+generateReturnCode( returnType, cv );
+cv.visitMethodInsn(
+// push 'this'
+cv.visitVarInsn( ALOAD, 0 );
+class WindowHandler extends WindowAdapter
+/**
+PluginJAR jar = jEdit.getPluginJAR(plugin);
+if (path.startsWith(File.separator))
+/**
+/**
+else if (unit.bk && (unit.ch == 'w') && syntax.get(RESyntax.RE_CHAR_CLASS_ESCAPES)) {
+/**
+//{{{ getKeyEventInterceptor() method
+/**
+/**
+/**
+displayManager._notifyScreenLineChanges();
+int tabSize = jEdit.getIntegerProperty("print.tabSize",8);
+class RosterThread extends Thread
+private int valueSoFar;
+class TextRenderer extends DefaultTableCellRenderer
+Broken(String clazz)
+public void done()
+/**
+public void setValue(final int value)
+public void endDocument()
+for(int i = 0; i < styles.length; i++)
+cv.visitMethodInsn(
+cv.visitLdcInsn( className );
+cv.visitVarInsn( ALOAD, argsVar );
+if(offset < 0 || offset > getLength())
+public int getFileCount(View view)
+//{{{ Debugging code
+Rectangle currentPageBounds = new Rectangle();
+class ParentDirectoryRenderer extends DefaultListCellRenderer
+public void print()
+private void printPage(Graphics _gfx, PageFormat pageFormat, int pageIndex,
+} //}}}
+/**
+/**
+final public void Type() throws ParseException {
+if(lineNumbers)
+public static void pageSetup(View view)
+format.add(new JobName(jobName, null));
+// move JAR first
+CodeVisitor cv = cw.visitMethod(
+cv.visitLdcInsn( superClass.getName() ); // use superClassName var?
+/**
+cv.visitFieldInsn(
+private int activeReaders;
+private double paintHeader(Graphics2D gfx, double pageX, double pageY,
+return null;
+int index = 0;
+decorateFrames = new JCheckBox(jEdit.getProperty(
+BufferPrintable(PrinterJob job, Object format,
+// generate switch body
+cv.visitTableSwitchInsn(
+cv.visitVarInsn( ALOAD, consArgsVar );
+returnType = OBJECT;
+cv.visitVarInsn( ALOAD, consArgsVar ); // push the ConstructorArgs
+for (int i=0; i<paramTypes.length; i++)
+cv.visitLabel( endLabel );
+static void generateSuperDelegateMethod(
+cv.visitVarInsn( ALOAD, 0 );
+String descriptor = getMethodDescriptor( "V", paramTypes );
+if ( method.equals("getObject") )
+public int getMaximum()
+private double paintFooter(Graphics2D gfx, double pageX, double pageY,
+if(url == null)
+File jarFile = new File(plugin);
+private static PrinterJob getPrintJob(String jobName)
+static class PrintTabExpander implements TabExpander
+public PrintTabExpander(double tabWidth)
+static class EntryCompare implements Comparator
+public static PageFormat getPageFormat()
+class Install extends Operation
+opcode = LRETURN;
+Install(String installed, String url, String installDirectory,
+void addRemove(String plugin)
+public Occur occur;
+/**
+int localVarIndex = 1;
+Occur(int start, int end)
+static abstract class Operation
+private void addOperation(Operation op)
+/**
+private static String getDownloadDir()
+private static void savePrintSpec()
+/**
+PrinterJob prnJob=getPrintJob(" ");
+/**
+/**
+/**
+printLineNumbers = new JCheckBox(jEdit.getProperty("options.print"
+timer = new Timer(0,new ActionListener()
+public void goTo(final View view)
+BSHFormalParameters jjtn000 = new BSHFormalParameters(JJTFORMALPARAMETERS);
+public void init()
+else if(hyperSearch.isSelected())
+view.getStatus().setMessageAndClear(
+void addOccur(int start, int end)
+Vector mv = new Vector();
+} //}}}
+/**
+public String getNextFile(View view, String file)
+public class Occur
+public String getFirstFile(View view)
+/**
+public void setHyperSearch(boolean hyperSearch)
+public synchronized void invalidateCachedList()
+else if (unit.bk && (unit.ch == 's') && syntax.get(RESyntax.RE_CHAR_CLASS_ESCAPES)) {
+else if (unit.bk && (unit.ch == 'r')) {
+boolean isEmpty()
+else if (unit.bk && (unit.ch == 'B') && syntax.get(RESyntax.RE_STRING_ANCHORS)) {
+void performOperationsInWorkThread(PluginManagerProgress progress)
+for(int i = 0; i < toLoad.size(); i++)
+public void bufferSaved()
+private RolloverButton close;
+int getOperationCount()
+private void timerIncrementalSearch(int start, boolean reverse)
+/**
+private boolean incrementalSearch(int start, boolean reverse)
+public Operation getOperation(int i)
+if(jEdit.getBooleanProperty("search.beepOnSearchAutoWrap"))
+if(!incrementalSearch(reverse
+if(reverse && SearchAndReplace.getRegexp())
+if(!hyperSearch.isSelected())
+view.getStatus().setMessageAndClear(
+int start;
+//{{{ splitHorizontally() method
+/**
+DelayedEvalBshMethod constructor = constructors[index];
+else if(hyperSearch.isSelected())
+if(regexp.isSelected())
+timerIncrementalSearch(0,false);
+if(ring[i].str.equals(rem.str))
+{
+/**
+// turns out under some circumstances this
+private void visitBuffers(ResultVisitor visitor, Buffer buffer)
+/**
+/**
+Component comp = editPane;
+public HyperSearchResults(View view)
+public String getFileFilter()
+public DefaultTreeModel getTreeModel()
+/**
+return false;
+protected String[] _getFiles(final Component comp)
+public boolean isRecursive()
+return false;
+public Modifiers modifiers;
+if ( method != null && bcm != null )
+/**
+if ( ( Modifier.isPublic( meth.getModifiers() )
+break;
+public void searchFailed()
+JEditTextArea textArea;
+inaccessibleVersion = meth;
+}
+if ( !c.isInterface() ) {
+BSHType jjtn000 = new BSHType(JJTTYPE);
+CallStack callstack = new CallStack();
+return false;
+This classStaticThis =
+private void goToSelectedNode()
+this.javaMethod = method;
+//{{{ setSearchString() method
+if ( altConstructor.equals("super") )
+if ( selector == ourSelector )
+Class [][] candidates = new Class [ constructors.length ] [];
+public static class Match
+interface ResultVisitor
+/**
+/**
+class BufferLoadedVisitor implements ResultVisitor
+protected void addToken(Token token, TokenMarker.LineContext context)
+private String[] readStringArray(DataInputStream din)
+Constructor[] constructors = clas.getDeclaredConstructors();
+EditPane[] editPanes = getEditPanes();
+private Properties readMap(DataInputStream din)
+/**
+private JPanel createSearchSettingsPanel()
+BshMethod constructor = instanceNameSpace.getMethod(
+if(buffer.isPerformingIO())
+private void writeBooleanArray(DataOutputStream dout,
+else if (tag == "IMPORT")
+bsPutint( m_blockCRC );
+/**
+private URL readURI(DataInputStream din)
+public Document getDocument()
+String constructorName = getBaseName( className );
+private boolean[] readBooleanArray(DataInputStream din)
+/**
+//{{{ hyperSearch() method
+instanceNameSpace.setClassInstance( instance );
+// save the callstack including the called method, just for error mess
+/**
+/**
+instanceNameSpace =
+Vector sigs = new Vector();
+if ( methods[i].getName().equals( name ) )
+static Constructor findMostSpecificConstructor(
+/**
+public boolean read(DataInputStream din) throws IOException
+} catch ( Exception e ) {
+if ( constructor != null )
+if ( args.length > 0 && constructor == null )
+/**
+/**
+path = fileset.getFirstFile(view);
+/**
+/**
+textArea.scrollTo(start + match.start,false);
+/**
+if(!buffer.isLoaded())
+/**
+/**
+/**
+/**
+&& ep.getTextArea().getVisibleLines() > 1)
+private static int replaceInSelection(JEditTextArea textArea,
+private JCheckBox keepDialog, ignoreCase, regexp, hyperSearch,
+public String openFile(NSPasteboard pboard, String userData)
+public void record(String code)
+}
+/**
+} catch ( Exception e ) {
+return;
+public Class type;
+BSHReturnType returnTypeNode;
+/**
+recorder.record("SearchAndReplace.setAutoWrapAround("
+/**
+/**
+private static String regexpBeanShellReplace(SearchMatcher.Match occur)
+static void handleError(Component comp, Exception e)
+/**
+/**
+BSHFormalParameter jjtn000 = new BSHFormalParameter(JJTFORMALPARAMETER);
+if(backups == 1)
+/**
+int firstThrowsClause;
+searchCurrentBuffer.setSelected(true);
+public static SearchDialog getSearchDialog(View view)
+/*
+} catch ( Exception e ) {
+case Buffer.FILE_DELETED:
+private void closeOrKeepDialog()
+return className.toString();
+}
+protected JJTParserState jjtree = new JJTParserState();boolean retainComments = false;
+/*
+Class returnType;  // null (none), Void.TYPE, or a Class
+protected Token createToken(byte id, int offset, int length,
+{
+while(endPos < i + 2)
+for(int i=firstThrowsClause; i<numThrows+firstThrowsClause; i++)
+closeBtn;
+addComponent(jEdit.getProperty("options.gutter.focusBorderColor"),
+private JPanel createMultiFilePanel()
+} //}}}
+ch = str.charAt(1);
+saving = true;
+/**
+class ReplaceActionHandler implements ActionListener
+SimpleNode args = (SimpleNode)jjtGetChild(1);
+SimpleNode type = (SimpleNode)jjtGetChild(0);
+private Box createButtonsPanel()
+obj = nameNode.toObject(
+isSelected = null;
+// Try regular class
+class ButtonActionHandler implements ActionListener
+// used for the stringReplace and beanShell replace radio buttons,
+/**
+public HyperSearchRequest(View view, SearchMatcher matcher,
+private void breakPlugin()
+BSHClassDeclaration jjtn000 = new BSHClassDeclaration(JJTCLASSDECLARATION);
+BSHMethodDeclaration jjtn000 = new BSHMethodDeclaration(JJTMETHODDECLARATION);
+BSHPackageDeclaration jjtn000 = new BSHPackageDeclaration(JJTPACKAGEDECLARATION);
+BSHImportDeclaration jjtn000 = new BSHImportDeclaration(JJTIMPORTDECLARATION);
+jEdit.addPluginProps(properties);
+BSHVariableDeclarator jjtn000 = new BSHVariableDeclarator(JJTVARIABLEDECLARATOR);
+private int searchInSelection(Buffer buffer) throws Exception
+/**
+persistentMarkers = new JCheckBox(jEdit.getProperty(
+sortRecent = new JCheckBox(jEdit.getProperty(
+return "04.02.99.00";
+table = new JTable(pluginModel = new PluginTableModel());
+Box buttons = new Box(BoxLayout.X_AXIS);
+// initially zero, so that we always show the first message
+/**
+String javaVersion = System.getProperty("java.version");
+good_suffix = suffix[pos];
+private int doHyperSearch(Buffer buffer)
+Interpreter.debug("The constructor threw an exception:\n\t" +
+return null;
+BSHReturnType jjtn000 = new BSHReturnType(JJTRETURNTYPE);
+if (currentToken instanceof RETokenRepeated) {
+BSHPrimitiveType jjtn000 = new BSHPrimitiveType(JJTPRIMITIVETYPE);
+BSHAmbiguousName jjtn000 = new BSHAmbiguousName(JJTAMBIGUOUSNAME);
+BSHAssignment jjtn000 = new BSHAssignment(JJTASSIGNMENT);
+final public void CastLookahead() throws ParseException {
+BSHPrimaryExpression jjtn000 = new BSHPrimaryExpression(JJTPRIMARYEXPRESSION);
+BSHPrimarySuffix jjtn000 = new BSHPrimarySuffix(JJTPRIMARYSUFFIX);
+BSHLiteral jjtn000 = new BSHLiteral(JJTLITERAL);
+/**
+else if (unit.bk && Character.isDigit(unit.ch) && !syntax.get(RESyntax.RE_NO_BK_REFS)) {
+// Try regular class
+boolean hasBody = jjtGetNumChildren() > 2;
+if ((reverse ? ch != pattern[pattern_end - pos]
+int anchor = 0;
+if(!start)
+if ( className.indexOf("$") == -1 )
+/**
+//{{{ generateSkipArray() method
+This ths = callstack.top().getThis( null );
+//{{{ isMainThread() method
+return -1;
+public static final String[] TOKEN_TYPES = new String[] {
+/**
+/**
+int skip_index = (bad_char > good_suffix) ? bad_char : good_suffix;
+/**
+// heuristic #1
+bad_char = pos - skip[getSkipIndex(ch)];
+background = OperatingSystem.isMacOS();
+continue SEARCH;
+/**
+transient CallStack callstack;
+/**
+/**
+/*
+private int[] fwd_skip;
+return anchor;
+None
+if(!end || (checkRule.action & ParserRule.MARK_FOLLOWING) == 0)
+void ref()
+if(!end)
+/**
+/**
+/**
+public void addRule(ParserRule r)
+/**
+/**
+Point returnValue;
+final public void ArgumentList() throws ParseException {
+BSHAllocationExpression jjtn000 = new BSHAllocationExpression(JJTALLOCATIONEXPRESSION);
+/**
+protected ParserRuleSet getParserRuleSet(TokenMarker.LineContext context)
+public TokenMarker()
+/**
+public ParserRuleSet getRuleSet(String setName)
+private void startPluginLater()
+class Keyword
+protected int getSegmentMapKey(Segment s, int off, int len)
+private int getStringMapKey(char[] s)
+public ParserRuleSet getMainRuleSet()
+// handler unloading is this...
+if(buffer.getFoldHandler() != null
+this.tokenHandler = tokenHandler;
+private void actionsPresentButNotCoreClass()
+block, false/*isInterface*/, callstack, interpreter );
+private void loadCache(PluginCacheEntry cache)
+BSHArrayDimensions jjtn000 = new BSHArrayDimensions(JJTARRAYDIMENSIONS);
+final public void Statement() throws ParseException {
+private PluginCacheEntry generateCache() throws IOException
+BSHFormalComment jjtn000 = new BSHFormalComment(JJTFORMALCOMMENT);
+BSHSwitchStatement jjtn000 = new BSHSwitchStatement(JJTSWITCHSTATEMENT);
+BSHSwitchLabel jjtn000 = new BSHSwitchLabel(JJTSWITCHLABEL);
+block, false/*isInterface*/, callstack, interpreter );
+} catch ( UtilEvalError e ) {
+if(Character.isWhitespace(ch))
+pos += (pattern.count - 1);
+char ch = line.array[pos];
+pos = lineLength;
+/**
+if(context.parent != null)
+try {
+/**
+if((checkRule.action & ParserRule.REGEXP) == 0 || end)
+case ParserRule.SEQ:
+if(!end)
+ActionBar actionBar = view
+unwind:		while(context.parent != null)
+if((checkRule.action & ParserRule.IS_ESCAPE) == ParserRule.IS_ESCAPE)
+BSHWhileStatement jjtn000 = new BSHWhileStatement(JJTWHILESTATEMENT);
+final public void DoStatement() throws ParseException {
+BSHForStatement jjtn000 = new BSHForStatement(JJTFORSTATEMENT);
+BSHEnhancedForStatement jjtn000 = new BSHEnhancedForStatement(JJTENHANCEDFORSTATEMENT);
+BSHTypedVariableDeclaration jjtn000 = new BSHTypedVariableDeclaration(JJTTYPEDVARIABLEDECLARATION);
+BSHStatementExpressionList jjtn000 = new BSHStatementExpressionList(JJTSTATEMENTEXPRESSIONLIST);
+BSHThrowStatement jjtn000 = new BSHThrowStatement(JJTTHROWSTATEMENT);
+BSHTryStatement jjtn000 = new BSHTryStatement(JJTTRYSTATEMENT);
+ActionListener, AdjustmentListener, ComponentListener,
+AncestorListener, CaretListener, CellEditorListener, ChangeListener,
+try {
+public static ListModel getListModel()
+}
+st.wordChars('#','~');
+SimpleNode exp = ((SimpleNode)jjtGetChild(0));
+if(checkRule.delegate != null)
+methodBody, declaringNameSpace, modifiers );
+try {
+private void setEditPane(EditPane editPane)
+private void loadToolBars()
+private void handleBufferUpdate(BufferUpdate msg)
+int matchStart = pos - line.offset;
+return ((Map)map).get(key);
+try {
+public boolean setAccessible( Object obj )
+/**
+String[] getClasses()
+public LineContext(ParserRuleSet rs, LineContext lc)
+if(context.rules.getHighlightDigits())
+PluginJAR(File file)
+if(keywords != null)
+private void handleTokenWithSpaces(TokenHandler tokenHandler,
+public char[] spanEndSubst;
+// generate switch body
+boolean match(CharIndexed input, REMatch mymatch) {
+/**
+public Object clone()
+if(addRemaining)
+if(digit)
+public LineContext intern()
+private boolean charArraysEqual(char[] c1, char[] c2)
+public XModeHandler (String modeName)
+synchronized( syncValue )
+case ParserRule.MARK_PREVIOUS:
+REMatch newMatch = mymatch;
+REMatch doables;
+for (current = newMatch; current != null; current = current.next) {
+if (doables == null) break;
+newMatch = doables;
+++numRepeats;
+int posIndex = positions.size();
+}
+return true;
+return false;
+private char[] substitute(REMatch match, char[] end)
+if ( !overrideNamespace )
+if ( nodeFilter != null && !nodeFilter.isVisible( node ) )
+type = proto.getClass();
+if ( ret instanceof ReturnControl )
+static class BrowserActionContext extends ActionContext
+Log.log(Log.NOTICE,this,io);
+if ( toLHS )
+if ( obj instanceof SimpleNode )
+Object value = dec.eval( typeNode, callstack, interpreter);
+/**
+if ( obj instanceof LHS )
+namespace.importPackage( name.text );
+if(name.startsWith("#") && name.endsWith("#"))
+/**
+else if (tag == "SPAN_REGEXP")
+public void setEscapeRule(ParserRule escapeRule)
+public int getEndOffset()
+public static final int MAJOR_ACTIONS = 0x000000FF;
+if (doneIndex == null) {
+while (doneIndexLast.next != null) {
+RETokenStart(int subIndex, String newline) {
+cv.visitVarInsn( ASTORE, consArgsVar );
+byte token = Token.stringToToken(tag);
+None
+class SelectionHandler implements ListSelectionListener
+else if (tag == "EOL_SPAN")
+private void addKeyword(String k, byte id)
+getConstructorArgs() method which inspects the scripted constructor to
+/**
+char ch = input.charAt(mymatch.index - len);
+if ((mymatch.eflags & RE.REG_NOTBOL) > 0) return false;
+private final BufferedReader br;
+try {
+try {
+//{{{ openFiles() method
+boolean endOpts = false;
+boolean loadPlugins = true;
+boolean retval = true;
+String scriptFile = null;
+if ((buffer != null) && (bufpos < buffer.length())) {
+if (buffer.length() > 0) {
+if(settingsDirectory != null)
+public String getModeName()
+if(portFile != null && new File(portFile).exists())
+/**
+cv.visitVarInsn( ALOAD, argsVar );
+try
+public static final ParserRule createEOLSpanRule(
+int newsize = ch.length + cnext.ch.length;
+boolean chain(REToken next) {
+static PluginCacheEntry getPluginCache(PluginJAR plugin)
+static void setPluginCache(PluginJAR plugin, PluginCacheEntry cache)
+public static final ParserRule createRegexpSpanRule(
+None
+public static final ParserRule createSequenceRule(
+public Chunk(float width, int offset, ParserRuleSet rules)
+public SyntaxStyle style;
+public static final ParserRule createSpanRule(
+String activate = jEdit.getProperty("plugin."
+retval = Character.isLetterOrDigit(ch) || (ch == '_');
+if ( jjtGetNumChildren() == 0 )
+private Object doName(
+//{{{ getPluginCache() method
+if ( field.equals("length") && obj.getClass().isArray() )
+cached = (char) i;
+REMatchEnumeration(RE expr, CharIndexed input, int index, int eflags) {
+CollectionManager cm = CollectionManager.getCollectionManager();
+}
+if (negative)
+}
+next = other.next;
+}
+/**
+/**
+public static final ParserRule createRegexpEOLSpanRule(
+int offset;
+int index; // used while matching to mark current match position in input
+do {
+static int intValue(String key) {
+static final String[] s_nameTable =  {
+/**
+private int numSubs;
+private static ResourceBundle messages = PropertyResourceBundle.getBundle("gnu/regexp/MessagesBundle", Locale.getDefault());
+static final String getLocalizedMessage(String key) {
+private RE(REToken first, REToken last,int subs, int subIndex, int minLength) {
+initialize(patternObj, cflags, syntax, myIndex, nextSub);
+protected RE() { super(0); }
+protected void initialize(Object patternObj, int cflags, RESyntax syntax, int myIndex, int nextSub) throws REException {
+if (buf.length() == 0) max = Integer.MAX_VALUE;
+int starti = fvmget(start);
+public ParserRuleSet(String modeName, String setName)
+public RE getDigitRegexp()
+public void setHighlightDigits(boolean highlightDigits)
+public byte getDefault()
+public void setNoWordSep(String noWordSep)
+public void setDigitRegexp(RE digitRE)
+public ParserRule getEscapeRule()
+protected void initChunk(Chunk chunk, Segment seg)
+IntPair minMax = new IntPair();
+public static long scanCount, scannedLines;
+/**
+static void textAreaDisposed(JEditTextArea textArea)
+public static final int MAX_CHUNK_LEN = 100;
+/**
+static void releaseDisplayManager(DisplayManager dmgr)
+/**
+/**
+REToken currentToken = null;
+index = getCharUnit(pattern,index,unit);
+addToken(currentToken);
+else if ((unit.ch == '[') && !unit.bk) {
+if(index == -1)
+/**
+/**
+public void dump(String prefix)
+else if(line == fvm[index + 1] - 1)
+public void jjtAddChild(Node n, int i)
+return ( val == null ?  val = Primitive.NULL : val );
+/**
+return;
+@param localVar if true the variable is set directly in the This
+Class superClass = null;
+else if(line == fvm[index])
+// if at least one property listed here is true,
+else
+start = line + 1;
+if(line != lineCount - 1
+if ( child < jjtGetNumChildren() )
+public final int getScrollLineCount()
+Class [] interfaces = new Class[numInterfaces];
+/**
+if(fully)
+buffer.getFoldLevel(i) <= initialFoldLevel)
+/**
+initialFoldLevel = buffer.getFoldLevel(start);
+if ((ch = pattern[index]) == '^') {
+if (ch == ']') {
+addToken(currentToken);
+if(start != buffer.getLineCount() - 1
+if ( localVar )
+/**
+void updateWrapSettings()
+/**
+/**
+/**
+public void changed()
+startPluginLater();
+ToolTipManager.sharedInstance().setEnabled(
+public void reset()
+/**
+// <Esc> closes a floating window
+private void showLineRange(int start, int end)
+class FirstLine extends Anchor
+} //}}}
+Broken(String clazz)
+if( m_blockRandomised )
+void physUp(int amount, int screenAmount)
+private class KeyHandler extends KeyAdapter {
+// when painting the last line of
+else if(starti != -1 && fvm[starti] == startLine)
+fvmreset();
+void scrollUp(int amount)
+/**
+void scrollDown(int amount)
+None
+private void ensurePhysicalLineIsVisible()
+int visibleLines = textArea.getVisibleLines();
+else if ((unit.ch == '^') && !unit.bk) {
+else if ((unit.ch == '$') && !unit.bk) {
+// very subtle... if we leave this for
+_notifyScreenLineChanges();
+int _firstLine = textArea.getFirstPhysicalLine();
+private void doDelayedUpdate()
+String manpage = installer.getProperty("ostask.unix-man.manpage");
+buffer.getFoldLevel(delayedUpdateEnd);
+public void toggleExpanded(final int row)
+throw e1;
+/**
+/**
+Writer stream;
+String lineSep = System.getProperty("line.separator");
+initMisc();
+/**
+/**
+MouseActions(String name)
+Rectangle clip = gfx.getClipBounds();
+/**
+public Gutter(View view, JEditTextArea textArea)
+public Color getFoldColor()
+while ( (b = in.read()) == '\r' );
+public void setBorder(Border border)
+public Dimension getPreferredSize()
+/**
+/**
+/**
+moveToFrontCodeAndSend();
+public void setCurrentLineForeground(Color highlight)
+// Generate the delegate methods
+public Color getCurrentLineForeground()
+public void setHighlightedForeground(Color highlight)
+public void mouseEntered(MouseEvent e)
+if ( !isInterface && !hasConstructor )
+/**
+public boolean isCurrentLineHighlightEnabled()
+/**
+public void setCurrentLineHighlightEnabled(boolean enabled)
+/**
+/**
+do {
+public void mouseExited(MouseEvent evt)
+if ( (isLhsWrapper && isRhsWrapper && kind == EQ))
+/**
+/**
+if(info.firstSubregion && buffer.isFoldStart(physicalLine))
+else if(line == caretScreenLine)
+isSelected,false /* hasFocus */,row,column);
+/**
+/**
+/**
+/**
+fonts.clear();
+boolean isLhsWrapper = isWrapper( lhs );
+/**
+/**
+/**
+else if (unit.bk && (unit.ch == 'A') && syntax.get(RESyntax.RE_STRING_ANCHORS)) {
+/**
+if(jEditHome == null)
+private void unloadPluginJARWithDialog(PluginJAR jar)
+selectNone();
+/**
+/**
+FileWriter out = null;
+/**
+/**
+private void updateRenderingHints()
+/**
+modes = new Vector(50);
+FontMetrics fm;
+boolean collapsedFold =
+class PaintLineBackground extends TextAreaExtension
+JEditTextArea textArea = TextAreaPainter.this.textArea;
+/**
+static DisplayManager getDisplayManager(Buffer buffer,
+/**
+/**
+class PaintSelection extends TextAreaExtension
+vertical.addAdjustmentListener(new AdjustHandler());
+class PaintText extends TextAreaExtension
+setLayout(new ScrollLayout());
+class PaintCaret extends TextAreaExtension
+/**
+else if (unit.bk && (unit.ch == 'D') && syntax.get(RESyntax.RE_CHAR_CLASS_ESCAPES)) {
+else if (unit.bk && (unit.ch == 'n')) {
+/**
+/**
+/**
+verticalBox = new Box(BoxLayout.X_AXIS);
+/**
+/**
+/**
+/**
+/**
+Dimension buttonSize = cancelButton.getPreferredSize();
+prevButton.setBounds(
+int extraEndVirt;
+/**
+/**
+/**
+/**
+/**
+cancelButton.setBounds(
+Class [] paramTypes;
+/**
+/**
+/**
+else if (unit.bk && (unit.ch == 'Z') && syntax.get(RESyntax.RE_STRING_ANCHORS)) {
+addToken(currentToken);
+// Add final buffered token and an EndSub marker
+/**
+return (input.charAt(0) == CharIndexed.OUT_OF_BOUNDS);
+void setUncle(REToken uncle) {
+}
+/**
+int screenLine = chunkCache.getScreenLineOfOffset(line,offset);
+//{{{ getBufferLength() method
+/**
+if(portFile != null)
+/**
+sortBuffers = getBooleanProperty("sortBuffers");
+if(OperatingSystem.hasJava14())
+classStaticNameSpace.setClassStatic( genClass );
+/**
+/**
+invalidateLine(caretLine);
+/**
+index++;
+mymatch.start[subIndex] = mymatch.index;
+/**
+this.javaMethod = method;
+/**
+PluginJAR[] plugins = getPluginJARs();
+if (c == delim) {
+Class unboxedFromType = Primitive.unboxType( fromType );
+None
+return generateClassImpl( name, modifiers, interfaces, superClass,
+c = classForName( name );
+/**
+/**
+if(openBracket == '\0')
+/**
+Selection[] selection = getSelection();
+if (buffer != null && input.charAt(0) != CharIndexed.OUT_OF_BOUNDS) {
+private void addToken(REToken next) {
+/**
+/**
+}
+/**
+boolean mustMatch = !syntax.get(RESyntax.RE_NO_BK_BRACES);
+public boolean isMultipleSelectionEnabled()
+/**
+/**
+/**
+/**
+/**
+// 0xfe 0xff: UCS-2, big-endian (12)
+reallyExit |= !background;
+public Class getTargetClass() {
+/**
+/**
+/**
+minMax.first = min;
+/**
+/**
+/**
+//{{{ goToMarker() method
+/**
+return index;
+try {
+/**
+else
+}
+if (negative) return false;
+private BshMethod loadScriptedCommand(
+/**
+} catch ( UtilEvalError e ) {
+String indentOpenBrackets = (String)buffer
+/**
+String bshStaticFieldName = ClassGeneratorUtil.BSHSTATIC+className;
+/**
+/**
+/**
+/**
+/**
+/**
+public BrowserColorsOptionPane()
+dataBufferPos = i;
+mymatch.assignFrom(newMatch);
+buffer.addOrRemoveMarker('\0',caret);
+enclosingNameSpace.importClass( fqClassName.replace('$','.') );
+/**
+// Constructors.
+Variable [] variables =
+/**
+/**
+// import the unq name into parent
+/**
+String dir = System.getProperty("debugClasses");
+/**
+public void insertTabAndIndent()
+//{{{ isRightClickPopupEnabled() method
+/**
+View(Buffer buffer, ViewConfig config)
+/**
+public Object eval( CallStack callstack, Interpreter interpreter )
+/* private */ static void removeEntry(String path)
+return lhs;
+if (USE_CHEATS) {
+block.evalBlock(
+if(displayManager != null && buffer != null && buffer.isLoaded())
+/**
+static void doSwitchBranch(
+while (true) {
+/**
+{
+stream = null;
+/**
+}
+private boolean isFinal = false;
+else
+/**
+RE_SYNTAX_EMACS = new RESyntax().makeFinal();
+new File(backupDirectory,
+RE_SYNTAX_POSIX_MINIMAL_EXTENDED = new RESyntax(RE_SYNTAX_POSIX_COMMON)
+RE_SYNTAX_PERL4 = new RESyntax()
+.set(RE_INTERVALS)
+while ( child < numchild && returnControl == null )
+/**
+/**
+/**
+{
+if ( label.isDefault
+while ( child < numchild )
+//{{{ getProperties() method
+cv.visitLabel( defaultLabel );
+Object value =
+if ( child >= numchild )
+BSHSwitchLabel label;
+{
+/**
+else if(ch == '$')
+/**
+.makeFinal();
+if (type == ATTRIBUTE_ENUMERATED || type == ATTRIBUTE_NOTATION) {
+// Call script "invoke( String methodName, Object [] args );
+int hash = 21;
+Object arraySlice = initValue;
+return ( accessibility
+c = Class.forName( name );
+throw new EvalError("'continue' or 'break' in method body",
+// Constructors.
+|| name.equals("wait")
+BSHArrayInitializer jjtn000 = new BSHArrayInitializer(JJTARRAYINITIALIZER);
+if (minimumLength == 0 || input.charAt(minimumLength-1) != CharIndexed.OUT_OF_BOUNDS) {
+if ( methodName.equals("hashCode" ) )
+if ( fromType == Void.TYPE )
+REMatch mymatch = new REMatch(numSubs, anchor, eflags);
+private final static int LIT_CHAR_REF = 1;
+return new File( file.getCanonicalPath() );
+for(int i = 0; i < jars.size(); i++)
+if(scriptFile != null)
+finishStartup(gui,restore,userDir,args);
+if ( Types.isSignatureAssignable(idealMatch, targetMatch ) &&
+else if (unit.bk && (unit.ch == 't')) {
+else if(OperatingSystem.isUnix()
+/**
+ActionBar actionBar = view
+void loadRCFiles() {
+if ( method == null && types.length > 0 )
+/**
+/**
+showCurrItem = new NSMenuItem(jEdit.getProperty("MacOSPlugin.menu.showCurrent"),actionSel,"");
+private static int DATA_BUFFER_INITIAL = 4096;
+private static int NAME_BUFFER_INITIAL = 1024;
+parser.reInitTokenInput( in );
+try {
+Buffer buffer = jEdit.getFirstBuffer();
+if (lastChar != 0) options.addElement(new RETokenChar(subIndex,lastChar,insens));
+String activate = jEdit.getProperty("plugin."
+return (SimpleNode)jjtree.popNode();
+throw new TargetError( (Exception)obj, this, callstack );
+String jars = jEdit.getProperty("plugin."
+private int errorCount;
+CharUnit unit = new CharUnit();
+buffer.next = null;
+if(waitSocket != null)
+NSMenuItem miBuff = new NSMenuItem(jEdit.getProperty("MacOSPlugin.menu.buffers.label"),null,"");
+NSMenuItem miRec = new NSMenuItem(jEdit.getProperty("MacOSPlugin.menu.recent.label"),null,"");
+NSMenuItem miDir = new NSMenuItem(jEdit.getProperty("MacOSPlugin.menu.recentDir.label"),null,"");
+class BufferMenu extends NSMenu
+class ShowRecentDirMenuItem extends JMenuItem
+} else {
+private String [] paramNames;
+method.getParameterTypes(), null/*method.block*/,
+if ( !overrideNameSpace )
+returnValue="1";
+for(int i = modes.length - 1; i >= 0; i--)
+if ( Interpreter.DEBUG )
+BSHBlock finallyBlock = null;
+if ( target != null )
+BSHBlock cb = (BSHBlock)(catchBlocks.elementAt(i));
+/**
+//Interpreter.debug("No class manager namespace:" +this);
+"args["+i+"] = "+args[i]
+pp.removeAllElements();
+if ( existing != null )
+tmpArgs = Primitive.unwrap( tmpArgs );
+Class [][] candidates = new Class[ ma.length ][];
+}
+if (classCache != null) {
+public NameSpace namespace;
+if((VFSManager.getVFSForPath(path).getCapabilities()
+//
+private void reset() {
+String field = prefix(evalName, 1);
+This ths = thisNameSpace.getSuper( interpreter );
+Name targetName = namespace.getNameResolver( prefix );
+// try static method
+NSData data = pboard.dataForType("NSFilenamesPboardType");
+/**
+/**
+/**
+This method recurses to find the nearest non-BlockNameSpace parent.
+void pushNode(Node n) {
+if ( obj1 instanceof Primitive )
+/**
+continue;
+if ( value instanceof ReturnControl ) {
+/**
+// if(foo)
+!buffer.getPath().equals(oldPath))
+public BrowserCommandsMenu(VFSBrowser browser, VFS.DirectoryEntry[] files)
+class BrowserHandler implements BrowserListener
+if(files.length != 0)
+/**
+path = userHome;
+/**
+/**
+boolean trackProgress = (!buffer.isTemporary() && length != 0);
+CROnly = false;
+lastLine = i + 1;
+/**
+int bufferLength = seg.count;
+private void readMarkers(Buffer buffer, InputStream _in)
+return seg;
+return;
+public void setLimit(int limit)
+else if(compoundEdit.first == compoundEdit.last)
+private Edit getMergeEdit()
+level = 0xffff;
+/**
+private final void moveGap(int newGapLine, int newGapWidth, String method)
+class CompletionList extends JList
+class ContainerHandler extends ContainerAdapter
+//{{{ eval() method
+String noWordSep = buffer.getStringProperty("noWordSep");
+/**
+/**
+public void setSelectedColor(Color color)
+for(int j = 0; j < root.getChildCount(); j++)
+int index;
+}
+/**
+public boolean[] getCachedDockableActionFlags()
+static class OpenAction extends EditAction
+else if(e.position.equals(TOP))
+/**
+if(spacedKbShortcut.startsWith(spacedShortcut))
+saveSettings();
+if(dispose)
+class PaneNameRenderer extends DefaultTreeCellRenderer
+String[] encodings = MiscUtilities.getEncodings();
+String[] tabSizes = { "2", "4", "8" };
+ignoreMods = (InputEvent.SHIFT_MASK
+"Recursion in _listDirectory(): "
+public RotatedTextIcon(int rotate, Font font, String text)
+void showDockable(String name)
+/**
+public BeanShellAction(String name, String code, String isSelected,
+viewer.setPage(_url);
+static class Result
+return;
+/**
+fracFontMetrics = new JCheckBox(jEdit.getProperty("options.textarea"
+blinkCaret = new JCheckBox(jEdit.getProperty("options.textarea"
+electricBorders = new JCheckBox(jEdit.getProperty("options.textarea"
+try
+static class IconCellRenderer extends DefaultListCellRenderer
+public SyntaxHiliteOptionPane()
+class StyleEditor extends EnhancedDialog implements ActionListener
+addComponent(jEdit.getProperty("options.textarea.foreground"),
+gutterFont = new FontSelector(
+gutterMarkerHighlightEnabled = new JCheckBox(jEdit.getProperty(
+gutterCurrentLineHighlightEnabled = new JCheckBox(jEdit.getProperty(
+showEditMode = new JCheckBox(jEdit.getProperty(
+showWrap = new JCheckBox(jEdit.getProperty(
+showRectSelect = new JCheckBox(jEdit.getProperty(
+addComponent(jEdit.getProperty("options.status.memory.foreground"),
+middleMousePaste = new JCheckBox(jEdit.getProperty("options.mouse"
+int c = clickActionKeys.length;
+addComponent(httpEnabled = new JCheckBox(jEdit.getProperty(
+addComponent(jEdit.getProperty("options.firewall.http.user"),
+private JScrollPane createWindowTableScroller()
+private WindowTableModel createWindowModel()
+class WindowCompare implements MiscUtilities.Compare
+jEditGroup = new OptionGroup("jedit");
+add(BorderLayout.NORTH,mirrorLabel);
+class DownloadMirrorsThread extends WorkRequest
+JButton updateMirrors = new JButton(jEdit.getProperty(
+public AbbrevsOptionPane()
+class SingleSelectionModel extends DefaultListSelectionModel
+sortIgnoreCase = new JCheckBox(jEdit.getProperty("options.browser"
+String[] dirs = {
+doubleClickClose = new JCheckBox(jEdit.getProperty("options.browser"
+addComponent(new JLabel(jEdit.getProperty("options.appearance.lf.note")));
+textColors = new JCheckBox(jEdit.getProperty(
+decorateDialogs = new JCheckBox(jEdit.getProperty(
+/**
+String[] lineSeps = { jEdit.getProperty("lineSep.unix"),
+private void updateMultiStatus()
+} //}}}
+class RemoveTreeNodeAction extends AbstractAction
+ResultCellRenderer()
+class ResultCellRenderer extends DefaultTreeCellRenderer
+/**
+/**
+/**
+/**
+if(!BeanShell.isScriptRunning())
+void updateMaxHorizontalScrollWidth()
+/**
+finally
+/**
+private JButton findBtn, /* replaceBtn, */ replaceAndFindBtn, replaceAllBtn,
+public Element getElement(int line)
+/**
+/*
+/**
+return true;
+case ParserRule.SPAN:
+client.setSoTimeout(0);
+None
+if (tag == "PROPERTY")
+if(x + _x + chunks.width > clipRect.x
+Color bgColor = chunks.background;
+/**
+public final float[] getPositions()
+public static final int AT_LINE_START = 1 << 1;
+default:
+private boolean isPrimitiveValue( Object obj ) {
+public String getSetName()
+public boolean getHighlightDigits()
+public String getNoWordSep()
+/**
+private boolean canMerge(Chunk c1, Chunk c2, Segment seg)
+private Chunk createChunk(byte id, int offset, int length,
+private Chunk merge(Chunk first, Segment seg)
+/* static void _notifyScreenLineChanges(Buffer buffer)
+private int getCharWidth(Font font)
+/**
+if(fvmcount == index + 1)
+if(fvmcount == index + 2)
+else
+for(int i = line - 1; i >= 0; i--)
+hideLineRange(start,end);
+private void fvmreset()
+int screenLines = getScreenLineCount(i);
+if(Debug.SCROLL_DEBUG)
+for(int i = 0; i < textArea.selection.size(); i++)
+if(Math.abs(starti % 2) == Math.abs(endi % 2))
+else
+for(int i = starti; i < fvmcount; i++)
+/**
+/**
+String getActionForEvent(MouseEvent evt, String variant)
+if (!textArea.getBuffer().isLoaded())
+/**
+/**
+public void setFont(Font font)
+public boolean isMarkerHighlightEnabled()
+StructureMatcher.Match match = textArea
+if(info.firstSubregion && expanded)
+String defaultAction;
+{
+/**
+/**
+else if(line == structScreenLine)
+/**
+/**
+/**
+/**
+/**
+/**
+private void paintSelection(Graphics2D gfx, int screenLine,
+class PaintWrapGuide extends TextAreaExtension
+/**
+if(physicalLine == -1)
+/**
+/**
+/**
+/* public void scrollTest(boolean paint)
+/**
+public Exception trace;
+/**
+/**
+/**
+/**
+/**
+/**
+public void selectNone()
+int count = 1;
+/**
+/**
+/**
+/**
+caretLine = caret = caretScreenLine = 0;
+/**
+/**
+/**
+/**
+/**
+/**
+/**
+/**
+/**
+if(plugin.equals("EditBuddy.jar")
+/**
+/**
+if(end > buffer.getLength())
+/**
+private static void formatParagraph(String text, int maxLineLength,
+void stopServer()
+/**
+/**
+/**
+//{{{ addLeftOfScrollBar() method
+/**
+/**
+/**
+/**
+void foldStructureChanged()
+/**
+/**
+if(!word)
+private void fireCaretEvent()
+private void showStructureStatusMessage(boolean backward)
+//{{{ selectAll() method
+private void doDoubleDrag(MouseEvent evt)
+/**
+public Range()
+/**
+void progressUpdate(WorkThreadPool threadPool, int threadIndex);
+/**
+private static PrintStream createPrintStream(final int urgency,
+public char charAt(int index)
+private static void _logException(final int urgency,
+public boolean isValid()
+doAWTRequests();
+void fireStatusChanged(WorkThread thread)
+/**
+public synchronized void writeLock()
+void requestDone()
+/**
+if ( node instanceof BSHClassDeclaration )
+/**
+//{{{ getActionContext() method
+/**
+props.put(Buffer.SELECTION,entry.getSelection());
+instance = BeanShell.eval(null,
+/**
+/**
+/**
+public Rect()
+/**
+/**
+/**
+Object result = Primitive.binaryOperation(
+if(settingsDirectory != null)
+Macros.loadMacros();
+//{{{ reloadModes() method
+/**
+public int getPort()
+if(!jEdit.isMainThread())
+/**
+/**
+/* called by DisplayManager.BufferChangeHandler.transactionComplete() */
+/**
+/**
+/**
+/**
+static void advanceSplashProgress()
+void recalculateVisibleLines()
+/**
+/**
+private void fireScrollEvent(boolean vertical)
+/**
+Buffer(String path, boolean newFile, boolean temp, Hashtable props)
+/**
+/**
+/**
+private void updateBracketHighlightWithDelay()
+private boolean queuedCaretUpdate;
+void _finishCaretUpdate()
+} //}}}
+private Box verticalBox;
+private void doWordCount(View view, String text)
+} //}}}
+private void insertTab()
+/**
+/**
+public void menuCanceled(MenuEvent e)
+private void updateStructureHighlight()
+static class RectParams
+None
+static class TextAreaBorder extends AbstractBorder
+private void updateChunksUpTo(int lastScreenLine)
+/**
+static class RingListModel implements ListModel
+/**
+text = text.replace('\t',' ');
+buffer.indentLine(caretLine,true);
+class ScrollLayout implements LayoutManager
+parseEq();
+void recalculateLastPhysicalLine()
+public void focusGained(FocusEvent evt)
+private void tallCaretDelete(Selection.Rect s, boolean forward)
+if (tagAttributePos == tagAttributes.length) {
+dataBufferAppend((char)(0xd8 | ((value & 0x000ffc00) >> 10)));
+context = CONTEXT_ENTITYVALUE;
+class MutableCaretEvent extends CaretEvent
+resizeSelection(getMarkPosition(),dragStart,extraEndVirt,
+/**
+/**
+static class CaretBlinker implements ActionListener
+/**
+/**
+public void adjustmentValueChanged(final AdjustmentEvent evt)
+public int getDot()
+public void focusLost(FocusEvent evt)
+scrollTo(dotLine,dot - buffer.getLineStartOffset(dotLine),false);
+view.getInputHandler().resetLastActionCount();
+/**
+/**
+public ServiceManager.Descriptor[] getCachedServices()
+if(getLineLength(dragStartLine) == 0)
+/**
+int untitledCount = 0;
+private void doDoubleClick()
+dragStartLine = getMarkLine();
+private void doSingleDrag(MouseEvent evt)
+private void doTripleDrag(MouseEvent evt)
+if (!is.markSupported()) {
+int getLineSubregionCount(int physicalLine)
+dragged = true;
+/**
+ChunkCache(JEditTextArea textArea)
+//System.out.println("binary op arbitrary obj: {"+lhs+"}, {"+rhs+"}");
+/**
+public void windowOpened(WindowEvent evt)
+void invalidateChunksFrom(int screenLine)
+}
+class ComponentHandler extends ComponentAdapter
+/**
+//{{{ loadGeometry() method
+Buffer buffer = buffersFirst;
+public void componentMoved(ComponentEvent evt)
+void invalidateChunksFromPhys(int physicalLine)
+view,BufferUpdate.LOADED));
+Rectangle osbounds = OperatingSystem.getScreenBounds(desired);
+int getMaxHorizontalScrollWidth()
+/**
+void invalidateAll()
+for(int i = 0; i < textArea.getVisibleLines(); i++)
+/**
+return i - 1;
+// scroll down by screen line amount
+public void keyTyped(KeyEvent evt)
+/**
+/**
+/**
+static class LogListModel implements ListModel
+LineInfo[] getLineInfosForPhysicalLine(int physicalLine)
+/**
+/**
+if(prevPhysLine == -1)
+if(firstScreenLine == 0)
+String whitespace = MiscUtilities
+else
+int firstScreenLine = 0;
+if(tokenHandler.getLineContext() !=
+// scroll up by screen line amount
+if(physicalLine != -1 && i != firstScreenLine)
+else if(out.size() != 0)
+if(physicalLine == -1)
+if(out.size() == 0)
+if(out.size() == 0)
+lineToChunkList(physicalLine,out);
+/**
+/**
+/**
+/**
+return vfs.insert(view,this,path);
+public static final int FILE_NOT_CHANGED = 0;
+if ( lhs == Primitive.NULL )
+else
+static class LineInfo
+private void lineToChunkList(int physicalLine, List out)
+/**
+/**
+/**
+int endOffset = 0;
+/**
+/**
+//{{{ message() method
+if(text == null || text.length() == 0)
+//{{{ parseColor() method
+public int getStartColumn(Buffer buffer)
+/**
+public int getEndColumn(Buffer buffer)
+/**
+/**
+/**
+Log.log(Log.DEBUG,this,"Java heap: " + usedMemory + "Kb / "
+/**
+try
+/**
+/**
+pool.waitForAllLock.notifyAll();
+if(files == null)
+VFSManager.runInAWTThread(new Runnable()
+/**
+/**
+/**
+/**
+log(MESSAGE,Log.class,"When reporting bugs, please"
+/**
+/**
+/**
+/**
+//{{{ setIconPath() method
+private static void _log(int urgency, String source, String message)
+synchronized(lock)
+private void handleEditPaneUpdate(EditPaneUpdate msg)
+setPriority(Thread.MIN_PRIORITY);
+/**
+/**
+//{{{ loadMenuBar() method
+void statusUpdate(WorkThreadPool threadPool, int threadIndex);
+/**
+Icon icon = (Icon)icons.get(iconName);
+/**
+if(MiscUtilities.isURL(iconName))
+for(int j = 0; j < vector.size(); j++)
+++lockCount;
+/**
+public boolean move(int index)
+if(inAWT)
+/**
+View view = jEdit.getActiveView();
+private final boolean allowWrite()
+Log.log(Log.ERROR,this,e);
+void fireProgressChanged(WorkThread thread)
+public synchronized void readLock()
+/** Must always be called with the lock held. */
+public synchronized void writeUnlock()
+if(firstRequest == null && lastRequest == null)
+private boolean awtRunnerQueued;
+private Request firstRequest;
+class RunRequestsInAWTThread implements Runnable
+"Translated: "
+private Request getNextAWTRequest()
+public SegmentBuffer(int capacity)
+/**
+data[reference - 1] = (byte)(opcode + 20);
+sanitizedName = name.replace('.','_').replace('-','_');
+public static final void setDoubleProperty(String name, double value)
+if (Thread.currentThread() == writerThread)
+public synchronized boolean isWriteLocked()
+private void claimWriteLock()
+in.reset();
+data[reference - 1] = (byte)(opcode + 49);
+public IntegerArray()
+public int[] getArray()
+code.put11(opcode, operand);
+* Visits a LDC instruction.
+// Special instructions
+public final int get(int index)
+public QuickNotepad(View view, String position)
+int size = getArgumentsAndReturnSizes(desc) >> 2;
+/**
+default:      buf.append(this.buf, off, len);
+default:
+// Fields for the control flow graph analysis algorithm (used to compute the
+int size = stackSize + SIZE[opcode];
+// Fields for the control flow graph analysis algorithm (used to compute the
+/**
+if(ch != '\b' && ch != '\t')
+if(!Character.isLetterOrDigit(ch) && noWordSep.indexOf(ch) == -1)
+/**
+int n;
+/**
+int size = stackSize + SIZE[opcode];
+if (currentBlock != null) {
+}
+if ((opcode >= Constants.IRETURN && opcode <= Constants.RETURN) ||
+} else {
+public void runMacro(View view, Macros.Macro macro)
+macroName = macroName.substring(0, macroName.length() - 4);
+static class BeanShellHandler extends Handler
+BeanShellHandler()
+public Macros.Macro createMacro(String macroName, String path)
+int size = stackSize + SIZE[opcode];
+/**
+currentBlock = new Label();
+private static void addMacro(File file, String path, Vector vector)
+public synchronized void readUnlock()
+public AppleScriptHandler()
+private KeyEvent _preprocessKeyEvent(KeyEvent evt)
+public boolean isFocusTraversable()
+/**
+/**
+/**
+/**
+view.getStatus().setMessage(null);
+/**
+/**
+//{{{ getLastModified() method
+/**
+/**
+/**
+"Translated: "
+/**
+public ParserRule getRules(char ch)
+public int getRuleCount()
+/**
+public void setTerminateChar(int atChar)
+/**
+public Recorder(View view, Buffer buffer, boolean temporary)
+public void setFirstInvalidLineContext(int firstInvalidLineContext)
+class CaretHandler implements CaretListener
+/**
+public boolean isLeaf()
+// Try to make the full imported name
+public String getAbbrev()
+encoding = ENCODING_UCS_2_12;
+/**
+/**
+if(buffer.insideCompoundEdit())
+/**
+/**
+/**
+/**
+/**
+/**
+public static void saveRegisters()
+private static void loadRegisters()
+/**
+/**
+private void doSingleClick(MouseEvent evt)
+//{{{ getLeadingWhiteSpace() method
+public static String macroNameToLabel(String macroName)
+/**
+class AdjustHandler implements AdjustmentListener
+public int getMark()
+static class KillRingHandler extends HandlerBase
+/**
+public final void setSize(int len)
+/**
+private void startDragAndDrop(InputEvent evt, boolean copy)
+VFSBrowser.this.path = path;
+/**
+if(!trailingEOL && buf.length() != 0)
+/**
+/**
+static class RegistersHandler extends HandlerBase
+/**
+//{{{ lineComment() method
+public AttributeSet getAttributes()
+if(lastWasCR)
+public Macro(Handler handler, String name, String label, String path)
+/**
+/**
+/**
+/**
+/**
+boolean lastWasCR = false;
+/**
+/**
+/**
+/**
+/**
+/**
+private final boolean allowRead()
+static class Request
+/**
+/**
+if ((b1 & 0x80) == 0) {
+//{{{ userInput() method
+IntegerArray endOffsets = new IntegerArray(
+boolean CROnly = false;
+/**
+public static void setEntry(String path, int caret, Selection[] selection,
+/**
+/**
+/**
+/**
+/**
+/**
+//{{{ isFoldStart() method
+if(ignoreUnknown)
+/**
+void unref()
+PosTopHalf(PosBottomHalf bh)
+class PosBottomHalf implements Comparable
+/**
+return new KeyBinding(kb.name,kb.label,
+cons.fill = GridBagConstraints.BOTH;
+/**
+dockableWindowManager.close();
+/**
+/**
+/**
+static class PerspectiveHandler extends HandlerBase
+/**
+public int getElementIndex(int offset)
+String text = buffer.getLineText(caretLine);
+if(jEdit.getBufferCount() == 0)
+System.arraycopy(text,gapEnd,seg.array,gapStart - start,
+class PosTopHalf implements Position
+/**
+public static View loadPerspective(boolean restoreFiles)
+/**
+/**
+/**
+/**
+/**
+public void updateBufferStatus()
+if(dot < 0)
+iter.remove();
+class ThreadProgress extends JPanel
+private void updateCaption()
+private static String getWordToComplete(Buffer buffer, int caretLine,
+/**
+else
+/**
+count = 1;
+int lineCount = 0;
+None
+/**
+switch(buf[i])
+if(argv.length > 0)
+if(text != null)
+}
+public void setFirstInvalidFoldLevel(int firstInvalidFoldLevel)
+/**
+/**
+/**
+/**
+info.width = 0;
+out.clear();
+else if(info.physicalLine != physicalLine
+LineInfo getLineInfo(int screenLine)
+/**
+buffersFirst = buffersLast = null;
+Selection sel = getSelectionAtOffset(dragStart);
+for(int i = caretPos; i < len; i++)
+private void doTripleClick()
+MutableCaretEvent()
+private void shiftTallCaretLeft(Selection.Rect s)
+private boolean maybeDragAndDrop;
+blink = true;
+private void _addToSelection(Selection addMe)
+return returnValue;
+String javaVersion = System.getProperty("jedit.force.java.version");
+/**
+/**
+private boolean dndEnabled;
+private Edit getLastEdit()
+/**
+View _view = viewsFirst;
+/**
+/**
+/**
+endOffsets.add(seg.count + 1);
+/**
+getAndMoveToFrontDecode();
+/**
+PosBottomHalf(int offset)
+abstract static class Edit
+public void insertEnterAndIndent()
+/**
+/**
+/**
+//{{{ xyToOffset() method
+/**
+public static final DecimalFormat KB_FORMAT = new DecimalFormat("#.# KB");
+/**
+int lastLine = 0;
+//{{{ invalidateScreenLineRange() method
+if(!displayManager.isLineVisible(line))
+for( int i = 0; i < groupCount; i++ )
+/**
+private int[] m_incs = new int[]
+/**
+/**
+/**
+/**
+if(evt.getID() == KeyEvent.KEY_PRESSED)
+for( int k = 0; k < groupCount; k++ )
+for( int i = 0; i < 16; i++ )
+if( m_storedBlockCRC != m_computedBlockCRC )
+/**
+/**
+/**
+selection = new Vector();
+public static class ViewConfig
+/**
+buffer.setProperty(Buffer.ENCODING,
+Component comp = (Component)evt.getSource();
+/**
+Descriptor(String clazz, String name)
+public String top, left, bottom, right;
+/**
+/**
+/**
+/**
+/**
+if( m_blockRandomised )
+}
+void updatePopupMenu()
+/**
+/**
+for (int i = 0; i < ch.length; i++)
+static class Descriptor
+lastWasCR = true;
+c = readCh();
+/**
+/**
+/**
+return null;
+/**
+/**
+/**
+/**
+while ( clas != null )
+instanceIsNull = true;
+try {
+/**
+String Win32Prefix = "windows";
+/**
+/**
+} catch(NoSuchFieldException e) { }
+/**
+/**
+classHash.put(clazz,NO_CLASS);
+EditServer(String portFile)
+else
+/**
+private static JEditTextArea dragSource;
+if(label == null)
+if (inputStack.isEmpty()) {
+else if(line == caretScreenLine)
+/**
+public void setMarkerHighlightColor(Color markerHighlightColor)
+public void setFoldColor(Color foldColor)
+public static double getDoubleProperty(String name, double def)
+public Color getMarkerHighlightColor()
+/**
+public IOProgressMonitor()
+/**
+inputStack.push(input);
+/**
+static class BracketMatcher implements StructureMatcher
+if (sourceType == INPUT_NONE) {
+/**
+if (readBufferOverflow > -1)
+}
+private void delayedUpdate(int startLine, int endLine)
+if (sourceType == INPUT_READER)
+/**
+class ScrollHandler implements ScrollListener
+public Enumeration getMembers()
+public Object getMember(int index)
+public int getMemberCount()
+/**
+private void insertionSort(String newLabel, Object newObj)
+if (sawCR)
+readBufferPos = 0;
+static abstract class Anchor
+private DisplayManager(Buffer buffer, JEditTextArea textArea)
+private void fvmdump()
+locGrp = new ButtonGroup();
+backupPrefix = new JTextField(jEdit.getProperty("backup.prefix"));
+backupSuffix = new JTextField(jEdit.getProperty(
+private void hideLineRange(int start, int end)
+/**
+class MirrorModel extends AbstractListModel
+if(line != lineCount - 1
+public RootElement(Buffer buffer)
+readBuffer[j++] =
+/**
+lastLine = i + 1;
+seg.append(buf,lastLine,i -
+/**
+else
+readBufferLength = j;
+encodingError("bad start for UTF-8 multi-byte sequence", b1, i);
+if(!getFlag(UNDO_IN_PROGRESS))
+if ((val & 0xc0) != 0x80) {
+currentElement = null;
+if (pos < count) {
+elementInfo = new Hashtable();
+return (val & 0x3f);
+errorCount = 0;
+dataBufferPos = 0;
+/**
+/**
+/**
+class AbbrevsModel extends AbstractTableModel
+/**
+/**
+/**
+/**
+/**
+private EditBus() {}
+/**
+sortMixFilesAndDirs = new JCheckBox(jEdit.getProperty("options.browser"
+/**
+//{{{ getInputHandler() method
+/**
+/**
+//{{{ readLock() method
+//{{{ getLength() method
+public void setDefault(byte def)
+public int getTerminateChar()
+return contentMgr.getLength();
+/**
+public void setKeywords(KeywordMap km)
+public static final ParserRule createEscapeRule(String seq)
+/**
+public static final ParserRule createMarkPreviousRule(
+public static final ParserRule createMarkFollowingRule(
+public static final ParserRule createRegexpSequenceRule(
+else if (tag == "SEQ_REGEXP")
+private String currentElement;
+private Hashtable elementInfo;
+/**
+/**
+//{{{ getNotLoadedPluginJARs() method
+ServiceListHandler(PluginJAR plugin, URL uri)
+private Stack entityStack;
+private Object symbolTable[];
+private int context;
+private boolean checkDelegateEnd(ParserRule rule)
+encoding = ENCODING_UTF_8;
+/**
+digit = false;
+if (message instanceof BufferUpdate)
+else if (tag == "EOL_SPAN")
+private boolean osok()
+public static void showInFinder(String path)
+/**
+Log.log(Log.ERROR,this,jEdit.getProperty("MacOSPlugin.dialog.osname.message"));
+//{{{ getLineText() method
+public String openSelection(NSPasteboard pboard, String userData)
+static class ScriptRunner extends Thread
+private void markKeyword(boolean addRemaining)
+else if(!end)
+/**
+/**
+/*
+// note that we don't use setDirty(),
+ParserRule rule;
+if(loadAutosave)
+int[] skip = new int[256];
+if (pattern.length == 0)
+if(!getFlag(UNDO_IN_PROGRESS) && !insideCompoundEdit())
+class MultiFileActionHandler implements ActionListener
+private HistoryTextField find, replace;
+private HistoryTextField filter, directory;
+private static String regexpReplace(SearchMatcher.Match occur,
+//{{{ ScriptRunner class
+public void getSettings()
+//{{{ undo() method
+/**
+//{{{ handleAbout() method
+textArea.moveCaretPosition(caret);
+Object [] tmpArgs = new Object [ args.length ];
+if(!getFlag(TEMPORARY))
+textArea.scrollTo(start - match.start,false);
+/**
+/**
+/**
+public void handleOpenFile(ApplicationEvent event)
+public SearchBar(final View view, boolean temp)
+class BufferClosedVisitor implements ResultVisitor
+/**
+public void handleFileCodes(BufferUpdate msg)
+public void handleAbout(ApplicationEvent event)
+}
+else if (msg.getWhat() == BufferUpdate.CREATED)
+/**
+int major = Integer.parseInt(build.substring(0,2));
+if (!buffer.isDirty() && msg.getWhat() == BufferUpdate.DIRTY_CHANGED)
+int minor = Integer.parseInt(build.substring(3,5));
+private void showPopupMenu(MouseEvent evt)
+int beta = Integer.parseInt(build.substring(6,8));
+/**
+public static final int NORMAL_PRIORITY = 0;
+public void searchStarted()
+int bugfix = Integer.parseInt(build.substring(9,11));
+/**
+public DirectoryListSet(String directory, String glob, boolean recurse)
+if(savePath.endsWith(".gz"))
+public ViewOptionPane()
+public NSMenu applicationDockMenu(NSApplication sender)
+public void handlePreferences(ApplicationEvent event)
+currentBufferFilter = new JCheckBox(jEdit.getProperty("options.browser"
+/**
+showMenubar = new JCheckBox(jEdit.getProperty("options.browser"
+paths.addElement("System classpath: "
+Class clas=classForName(fullname);
+public void applicationOpenFiles(NSApplication sender, NSArray filenames)
+class NewViewAction
+//{{{ openFile() method
+public boolean applicationShouldTerminate(NSApplication sender)
+public String insertSelection(NSPasteboard pboard, String userData)
+class MacroAction
+deleteDownloads = new JCheckBox(jEdit.getProperty(
+class RecentMenu extends NSMenu
+//{{{ BufferMenu class
+class RecentDirMenu extends NSMenu
+class MacrosMenu extends NSMenu
+return viewsFirst;
+/**
+/**
+/**
+/**
+public AutosaveBackupOptionPane()
+/**
+/**
+/**
+EditPlugin[] plugins = jEdit.getPlugins();
+if(position != null)
+class ShowBufferMenuItem extends JMenuItem
+class ShowDirAction implements ActionListener
+addComponent(jEdit.getProperty("options.gutter.noFocusBorderColor"),
+String port = jEdit.getProperty("firewall.port");
+/**
+view.setState(java.awt.Frame.NORMAL);
+dragAndDrop = new JCheckBox(jEdit.getProperty(
+showClock = new JCheckBox(jEdit.getProperty(
+public static void savePerspective(boolean autosave)
+public class Token implements java.io.Serializable {
+if(view == null)
+public Component getListCellRendererComponent(JList list, Object value,
+EditBus.send(new EditorExitRequested(view));
+ErrorListCellRenderer()
+if(!closeAllBuffers(view,reallyExit))
+if(!reallyExit)
+public MouseOptionPane()
+showEncoding = new JCheckBox(jEdit.getProperty(
+Object ret = statement.eval( callstack, interpreter );
+if ( hasForInit )
+/**
+if(view != null)
+return manager;
+Autosave.stop();
+showMultiSelect = new JCheckBox(jEdit.getProperty(
+return returnControl;
+private static Selection[] stringToSelection(String s)
+null/*declaringNameSpace*/, null/*modifiers*/ );
+EditBus.send(new EditorExiting(null));
+// jEdit process
+Log.closeStream();
+System.exit(0);
+BshMethod(
+private Method javaMethod;
+Modifiers modifiers;
+BSHBlock methodBody;
+}
+if ( modifiers != null && modifiers.hasModifier("synchronized") )
+String settingsDir = jEdit.getSettingsDirectory();
+return true;
+String jEditDir = jEdit.getJEditHome();
+/**
+if(view.getEditPane() == EditPane.this
+Runnable runnable = new Runnable()
+if(buffer == getBuffer())
+/**
+/**
+/**
+static class StyleChoice
+/**
+/**
+if ( argValues.length != numArgs )
+NameSpace localNameSpace;
+public ErrorListDialog(Frame frame, String title, String caption,
+public static class ErrorEntry
+/**
+static void pluginError(String path, String messageProp,
+static void setActiveView(View view)
+private static boolean sortBuffers;
+if ( paramTypes[i] != null )
+private static Object bufferListLock = new Object();
+private static int viewCount;
+private static void usage()
+private static void version()
+/**
+if ( !overrideNameSpace )
+CallStack returnStack = callstack.copy();
+/**
+/**
+pushInput(ename);
+System.getProperties().put("java.protocol.handler.pkgs",
+antiAlias = new JCheckBox(jEdit.getProperty("options.textarea"
+public static void setInterval(int interval)
+Class superClass = clas.getSuperclass();
+public int getOffset()
+String userAgent = "jEdit/" + getVersion()
+// Constructors.
+/**
+addComponent(jEdit.getProperty("options.textarea.multipleSelection"),
+String toolsPath = System.getProperty("java.home");
+PluginJAR jar = jEdit.getPluginJAR(toolsPath);
+class DirectoryLoadedAWTRequest implements Runnable
+//{{{ setFlag() method
+/* if(jEdit.class.getResource("/modes/catalog") != null)
+jEditHome = System.getProperty("user.dir");
+if(direction)
+EditBus.addToBus(new SettingsReloader());
+/**
+/**
+}
+/**
+private static void initResources()
+/**
+/**
+static class ColorEntry
+Object value = null;
+/**
+/**
+public String name;
+EditPane(View view, Buffer buffer)
+if(target instanceof InvocationTargetException)
+/**
+JPopupMenu popup = GUIUtilities.loadPopupMenu("view.context");
+if (window.intersects(gc.getBounds()))
+textArea.setQuickCopyEnabled(jEdit.getBooleanProperty(
+private void loadBufferSwitcher()
+/**
+/**
+/**
+/**
+int screenX = (int)choice.getBounds().x;
+if(jEdit.getBooleanProperty("textColors"))
+}
+/**
+/**
+/**
+/**
+int prevLineIndex = getPriorNonEmptyLine(lineIndex);
+if(prevLineBrackets > 0)
+Insert(UndoManager mgr, int offset, int length, String str)
+if ( classManager != null )
+if(password == null)
+static class FirewallAuthenticator extends Authenticator
+/* Runtime runtime = Runtime.getRuntime();
+private static void finishStartup(final boolean gui, final boolean restore,
+EditBus.send(new EditorStarted(null));
+if(server != null)
+/**
+String line = getLineText(lineIndex);
+private boolean checkFileForLoad(View view, VFS vfs, String path)
+/**
+/**
+int rc = urlcon.getResponseCode();
+if(lineBrackets >= 0)
+for(int i = 0; i < line.length(); i++)
+/**
+/**
+/**
+if(getBooleanProperty("deepIndent"))
+if((lineBrackets == 0 || doubleBracketIndent)
+/**
+/**
+/**
+/**
+//{{{ createPosition() method
+/**
+if(!getFlag(LOADING))
+//{{{ isFoldStart() method
+/**
+/**
+//{{{ getMarkers() method
+SimpleNode node = getTypeNode();
+PluginJAR jar = new EditPlugin.JAR(new File(path));
+} catch (IOException e2) {
+}
+if(autosaveFile != null)
+if(pluginErrors != null)
+setPath(path);
+private static void showPluginErrorDialog()
+/**
+/**
+if ( descriptor != null )
+/**
+public static final int BRACKET_MATCH_LIMIT = 10000;
+private boolean getFlag(int flag)
+void resetCachedProperties()
+if((vfs.getCapabilities() & VFS.DELETE_CAP) != 0)
+/**
+private void setPath(String path)
+Toolkit.getDefaultToolkit();
+private void setFlag(int flag, boolean value)
+private void finishSaving(View view, String oldPath,
+private boolean textMode;
+if ( object instanceof This && !This.isExposedThisMethod( methodName) )
+BSHFormalParameter fp =
+private boolean recoverAutosave(final View view)
+/**
+private static final int CLOSED = 0;
+trace = ": <at unknown location>";
+private void finishLoading()
+public TokenMgrError() {
+for(int i = 0; i < markers.size(); i++)
+private void fireTransactionComplete()
+GUIUtilities.hideSplashScreen();
+callstack.swap( cbNameSpace );
+if (thrown != null)
+private boolean checkFileForSave(View view, VFS vfs, String path)
+cbNameSpace.setTypedVariable(
+break;
+String message;
+if(target != null)
+int count = 1;
+Iterator iter = properties.values().iterator();
+if ( hasModifier("final") && this.value != null )
+int firstLine = Math.max(lastLine + 1, getLineCount() - 10);
+private This thisReference;
+if(buffer != null && /* can't happen? */
+this( parent, null, name );
+VFSManager.runInAWTThread(new Runnable()
+private void parseBufferLocalProperties()
+if(buffer != null && /* can't happen? */
+EditBus.send(new BufferUpdate(Buffer.this,
+if(rename)
+/**
+private BufferChangeListener getListener(int index)
+// Begin constructors
+if(oldTokenMarker != null && tokenMarker != oldTokenMarker)
+//{{{ getListener() method
+return returnValue;
+String newMode = getStringProperty("mode");
+private static void addBufferToList(Buffer buffer)
+private void fireContentRemoved(int startLine, int offset,
+NameSpace enclosingNameSpace = callstack.top();
+return;
+private void fireFoldLevelChanged(int start, int end)
+private void fireContentInserted(int startLine, int offset,
+private void fireFoldHandlerChanged()
+private void firePreContentRemoved(int startLine, int offset,
+The name of this namespace.  If the namespace is a method body
+/**
+/**
+Variable existing = getVariableImpl( name, recurse );
+buffer.readLock();
+if ( value == null ) {
+{
+return -1;
+offset--;
+None
+line++;
+line--;
+int type;
+case WHITESPACE:
+private static void gotoMarker(final View view, final Buffer buffer,
+class Animator implements ActionListener
+if(marker.startsWith("+line:"))
+else if(marker.startsWith("+marker:"))
+if ( parent == null )
+public AbbrevEditor()
+if(Character.isLetterOrDigit(ch) ||
+else
+else if(Character.isWhitespace(ch)
+public Variable [] getDeclaredVariables()
+else if(key.length() == 0)
+if ( var == null && isClass )
+public void setAbbrev(String abbrev)
+seg.count--;
+for(int i = 0; i < resultModel.size(); i++)
+int leadingWhitespaceCount = MiscUtilities.getLeadingWhiteSpace(text);
+/**
+if(Character.isWhitespace(ch))
+else
+private JMenu createEncodingMenu()
+public static final int MIXED = 0;
+/**
+class FavoritesMenuButton extends JButton
+if ( existing.getType() != null )
+type = -1;
+public FileCellRenderer()
+private JMenuItem createMenuItem(String name)
+int getEntryWidth(VFSDirectoryEntryTableModel.Entry entry,
+private void addEdit(Edit edit)
+static class ExpansionToggleBorder implements Border
+public ExpansionToggleBorder(int state, int level)
+public VFSDirectoryEntryTable(BrowserView browserView)
+public static boolean isExpansionToggle(int level, int x)
+public boolean selectFile(String path)
+public void getExpandedDirectories(Set set)
+/**
+/**
+public void scrollRectToVisible(Rectangle rect)
+rect.width = 0;
+/**
+seg.append(buf,lastLine,len - lastLine);
+}
+/** should this be public? */
+public int expand(VFS vfs, Entry entry, ArrayList list)
+if ( m != null )
+((Vector)m).addElement( method );
+class ClearTypeSelect implements ActionListener
+private void resizeColumnsAppropriately()
+/**
+if ( methods == null )
+public int getMemberIndex(Object member)
+/**
+private void addExtendedAttributes(VFS vfs)
+// Get imported first.
+private void listDirectory()
+VFSManager.error(browser,path1,
+/**
+public void mkdir()
+public void collapse(VFS vfs, int index)
+public VFSDirectoryEntryTableModel()
+public void setRoot(VFS vfs, ArrayList list)
+static class ExtendedAttribute
+iter.remove();
+// in the list. add it to the end with a ref count
+private void showFilePopup(VFS.DirectoryEntry[] files, Component comp,
+public void clearExpansionState()
+public int compareTo(Object o)
+public BrowserView(final VFSBrowser browser)
+int level;
+public void focusOnFileView()
+public void directoryLoaded(Object node, String path, ArrayList directory)
+public void saveExpansionState()
+public void updateFileView()
+/**
+public void loadDirectory(Object node, String path)
+/**
+public VFSDirectoryEntryTable getTable()
+public JList getParentDirectoryList()
+SwingUtilities.invokeLater(new Runnable()
+class WorkThreadHandler implements WorkThreadProgressListener
+if(buffer.getProperty(Buffer.BACKED_UP) == null
+else if(sortBuffers)
+VFSFileNameField(VFSBrowser browser, String model)
+private void doComplete(String currentText)
+else if(evt.isShiftDown())
+void filesSelected()
+view.getTable().doTypeSelect(path,
+public VFSFileChooserDialog(View view, String path,
+private boolean doFileExistsWarning(String filename)
+private void goToParent()
+/**
+.processKeyEvent(evt);
+ok();
+// canDoubleClickClose set to false when ENTER pressed
+type[0] = VFS.DirectoryEntry.FILE;
+public void setFilenameFilter(String filter)
+private static void removeViewFromList(View view)
+/**
+/**
+private void maybeReload(String path)
+//{{{ reload() method
+/**
+private static void addViewToList(View view)
+class GetFileTypeRequest implements Runnable
+return;
+/**
+/**
+/**
+public void setShowHiddenFiles(boolean showHiddenFiles)
+/**
+VFSManager.getVFSForPath(path).reloadDirectory(path);
+public boolean getShowHiddenFiles()
+public void addBrowserListener(BrowserListener l)
+static class Insert extends Edit
+/**
+newDirectory = MiscUtilities.constructPath(parent,newDirectory);
+public HistoryTextField getDirectoryField()
+public void removeBrowserListener(BrowserListener l)
+/**
+/**
+public BrowserView getBrowserView()
+void endRequest()
+/**
+void updateFilenameFilter()
+/**
+if ( c == null )
+PluginsMenuButton()
+if(files == null)
+boolean unqualifiedName = !Name.isCompound(name);
+}
+/**
+BshMethod meth = getMethod( name, argTypes );
+EditPane[] editPanes = view.getEditPanes();
+if ( unqualifiedName )
+String value = jEdit.getProperty("buffer." + name);
+private static void initProxy()
+if(!(name instanceof String))
+PropValue o = (PropValue)properties.get(name);
+if(mode != null)
+Object retVal;
+private JPanel createMenuBar()
+Log.log(Log.DEBUG,this,new Throwable("For debugging purposes"));
+private boolean startRequest()
+class CommandsMenuButton extends JButton
+private Box createToolBar()
+if ( c != null ) {
+class PluginsMenuButton extends JButton
+private void updateFilterEnabled()
+CommandsMenuButton()
+ArrayList vec = new ArrayList();

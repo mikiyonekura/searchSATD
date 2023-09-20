@@ -1,0 +1,2585 @@
+None
+result = getFeature(object, prefix, name);
+protected static IContainer findOrCreateContainer
+None
+((ASTFacadeHelper.ASTRewriteWithRemove)rewriter).remove(bodyDeclaration, bodyDeclaration.getModifiersProperty(), (ASTNode)modifier);
+None
+BasicEList<Entry<String, String>> [] result = newEntryData(2 * size + 1);
+final MapDiff diff = Diffs.createMapDiffSingleChange(notification.getNotifier(), notification.getOldValue(), notification.getNewValue());
+CodeGenEcorePlugin.INSTANCE.log(exception);
+for (GenFeature feature : getLabelFeatureCandidates())
+CodeGenEcorePlugin.INSTANCE.log(exception);
+newContents =
+throw e instanceof RuntimeException ? (RuntimeException)e : new WrappedException(e);
+if (useRenameTo)
+Generator.EMF_MODEL_PROJECT_STYLE | Generator.EMF_PLUGIN_PROJECT_STYLE);
+EAttribute eAttribute = EcoreFactory.eINSTANCE.createEAttribute();
+return eSuperTypes;
+return node.toString();
+genModel.emitSortedImports();
+stringBuffer.append(TEXT_146);
+EReference eOpposite = (EReference)eClass.getEStructuralFeature(oppositeName);
+Runnable runnable =
+org.eclipse.swt.widgets.TableItem item = new org.eclipse.swt.widgets.TableItem(table, SWT.NULL);
+String factoryNamespace = extendedMetaData.getNamespace(factory.getEPackage());
+return (ListIterator<Element>)(ListIterator<?>)new SegmentIterator();
+return result;
+((ASTFacadeHelper.ASTRewriteWithRemove)rewriter).remove(node, property, oldValue);
+public String getEditPluginClassName()
+performSplit();
+return name;
+/** for (int i = 0; i < portStr.length(); i++) {
+super("");
+if (IS_MOTIF) return null;
+eType = getBasicType("EString");
+new ProgressMonitorDialog(activeEditorPart.getSite().getShell()).run(true, true, operation);
+String typeName = extendedMetaData.getName(eClass);
+if (object instanceof EObject && ((EObject)object).eClass() == null)
+protected String crop(String text)
+if (isEObject())
+None
+if (marker.exists() && marker.getType().equals(EValidator.MARKER))
+return super.getResourceLocator();
+return responseCode == HttpURLConnection.HTTP_OK;
+URI result =
+genPackage.generateSchema();
+if (eReference == EcorePackage.Literals.ETYPED_ELEMENT__EGENERIC_TYPE)
+else if (isValidRegistryBasedAuthority(p_uriSpec)) {
+AttributesImpl attrs = new AttributesImpl();
+String encoding = null;
+if (oldValue instanceof Collection)
+/** for (int i = 0; i < portStr.length(); i++) {
+private static class CharArrayThreadLocal extends ThreadLocal<char[]>
+StringBuffer buffer = new StringBuffer(50);
+for (int i = this.ranges.length-4;  i >= 0;  i -= 2) {
+/*initialValue = collapseWhiteSpace(initialValue);
+int i = 0;
+None
+performSplit();
+int style = 0;
+diagnostic.add(BasicDiagnostic.toDiagnostic(exception));
+return genFeature.isProperty();
+Runnable runnable =
+currentNode.appendChild(document.createProcessingInstruction(target, data));
+currentNode.appendChild(document.createComment(stringValue));
+}
+}
+return result;
+if (commaPosition >=0 && charContent[commaPosition] == ',')
+throw new IllegalArgumentException("Invalid XMI namespace: '"+namespace+"'");
+Class<?> valueClass = value.getClass();
+new ProgressMonitorDialog(getSite().getShell()).run(true, false, operation);
+if (commaPosition >=0 && charContent[commaPosition] == ',')
+if (false)
+return equalTypeArguments(eGenericType.getETypeArguments(), eBound.getETypeArguments(), substitutions);
+javaCoreOptions.put("org.eclipse.jdt.core.incompleteClasspath", "warning");
+SourceRange range = computeDefaultSourceRange(previousNode);
+name = "@" + ASTFacadeHelper.toString(getASTNode().getTypeName());
+ITableItemLabelProvider tableItemLabelProvider = (ITableItemLabelProvider)adapterFactory.adapt(object, ITableItemLabelProvider.class);
+}
+@Override
+sourceRange = extendRangeForward(includeTrailingCommentMapper.get(node), sourceRange);
+validateEdit(targetFile, createMonitor(monitor, 1));
+EStructuralFeature feature = featureMap1.getEStructuralFeature(i);
+PropertyMerger propertyMerger = new PropertyMerger();
+None
+List<GenFeature> delegated = new ArrayList<GenFeature>();
+int arrayDepth = 0;
+private static final long SEGMENT_CHAR_HI = UNRESERVED_HI | highBitmask(";:@&=+$,");  // | ucschar | escaped
+public class FeatureMapEntryItemProvider
+if (isReadOnly(targetFile) && validateEdit(targetFile, createMonitor(monitor, 1)))
+None
+toggleDetailsArea();
+contentOutlineViewer.setContentProvider(new AdapterFactoryContentProvider(adapterFactory));
+for (UnitTreeNode subNode : node.getNodes())
+Object codeFormatter = getGenerator().getOptions().codeFormatting ?
+boolean primitive = false;
+Class<? extends DelegatingResourceLocator> theClass = getClass();
+return null;
+createContextMenuFor(contentOutlineViewer);
+replaceNode(type, astjEnum);
+Set<String> noDupSet = new HashSet<String>();
+Map<GenClass, List<GenFeature>> classToFeatureMap = new LinkedHashMap<GenClass, List<GenFeature>>();
+new ProgressMonitorDialog(getSite().getShell()).run(true, false, operation);
+newAbsolutePath = false;
+contentOutlineViewer.setSelection(new StructuredSelection(editingDomain.getResourceSet().getResources().get(0)), true);
+}
+contentOutlinePage.addSelectionChangedListener
+if (eAllStructuralFeatures == null)
+public void selectionChanged(SelectionChangedEvent event)
+adapterFactory = new ComposedAdapterFactory(ComposedAdapterFactory.Descriptor.Registry.INSTANCE);
+long currentTime = System.currentTimeMillis() + EPOCH_ADJUSTMENT;
+Object selectedElement = selectedElements.next();
+String[] newSegments = new String[segments.length - i];
+if (ASTFacadeHelper.DEBUG)
+boolean newAbsolutePath = !hasRelativePath();
+for (int i = 0; i < 5; ++i)
+Composite composite = new Composite(parent, SWT.NONE);
+else
+if (ecoreGenPackage != null && ecoreGenPackage.getGenModel().getImportManager() != importManager)
+public class FeatureMapEntryItemProvider
+ViewerPane viewerPane =
+private final String query;
+((BasicCommandStack)editingDomain.getCommandStack()).saveIsDone();
+if (feature == null)
+if (eTypeParameter != null)
+if (isUpdateClasspath() && EMFPlugin.IS_ECLIPSE_RUNNING)
+@Override
+protected static PageHelper pageHelper;
+return getGenModel().getEditorPluginClassName();
+None
+if (target instanceof JAbstractType)
+}
+writer.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+}
+boolean first = true;
+selectionViewer.setSelection(new StructuredSelection(selectionList));
+None
+final Map<Object, Object> saveOptions = new HashMap<Object, Object>();
+@Override
+@Override
+}
+CHARS[907] = 33;
+if (node.getNodeType() == ASTNode.ENUM_CONSTANT_DECLARATION)
+None
+InternalEList<?> holderContents = (InternalEList<?>)proxyHolder.eGet(oppositeEReference);
+None
+public boolean canFinish()
+createResource(eNS_URI);
+EcoreEditorPlugin.INSTANCE.log(exception);
+theEcorePackage.createPackageContents();
+None
+getObjectsToDetachGen().retainAll(objectsAfterChange);
+if (fSavedLine != null)
+EcorePackageImpl theEcorePackage = (EcorePackageImpl)(EPackage.Registry.INSTANCE.getEPackage(eNS_URI) instanceof EcorePackageImpl ? EPackage.Registry.INSTANCE.getEPackage(eNS_URI) : new EcorePackageImpl());
+removeNodeFromListProperty(getASTNode(), astNodeToBeRemoved, property);
+XMLTypePackage.eINSTANCE.eClass();
+Arrays.fill(CHARS, 1488, 1515, (byte) -19 ); // Fill 27 of value (byte) -19
+XMLTypePackage theXMLTypePackage = (XMLTypePackage)EPackage.Registry.INSTANCE.getEPackage(XMLTypePackage.eNS_URI);
+if (mappedObjects.isEmpty())
+eAttributeEClass = createEClass(EATTRIBUTE);
+}
+theEcorePackage.initializePackageContents();
+mappings.prune();
+// Add supertypes to classes
+Collection<?> mappedObjects = mapping.getMappedObjects();
+initEEnum(spaceTypeEEnum, SpaceType.class, "SpaceType");
+eAttributeEClass.getESuperTypes().add(this.getEStructuralFeature());
+for (Object parent = domain.getParent(object); parent instanceof EObject; parent = domain.getParent(parent))
+None
+WorkspaceModifyOperation operation =
+None
+objectsAfterChange.removeAll(objectsBeforeChange);
+None
+if (parserFeatures != null)
+return changedList;
+ViewerPane viewerPane =
+int firstLine = addLineBreakBeforeNode(existingEdits, nodePosition, node);
+None
+None
+{
+return getTestsDirectory() == null ? false : getModelProjectDirectory().equals(getTestsProjectDirectory());
+for (List<FeatureChange> featureChanges : changeDescription.getObjectChanges().values())
+if (namespaceAware)
+None
+BasicCommandStack commandStack = new BasicCommandStack();
+if (currentViewer != null)
+}
+setSelection(currentViewer == null ? StructuredSelection.EMPTY : currentViewer.getSelection());
+None
+useCurrentOption(javaCoreOptions, "org.eclipse.jdt.core.compiler.compliance");
+referencedGenModelsTreeViewer.setSorter(new ViewerSorter()
+if (namespace != null)
+EValidator.Registry.INSTANCE.put
+if (result.length() == name.length() && extendedMetaData.getFeatureKind(feature) == ExtendedMetaData.ATTRIBUTE_FEATURE)
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+{
+for (int i = namespaceSize; i > context[currentContext]; i -= 2)
+initEClass(eAttributeEClass, EAttribute.class, "EAttribute", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+}
+setName(eNAME);
+while (eClassifier != null)
+None
+Command mostRecentCommand = ((CommandStack)event.getSource()).getMostRecentCommand();
+}
+if (oldCollection != null)
+Object oldValue = notification.getOldValue();
+Object oldValue = notification.getOldValue();
+EClass eClass = extendedMetaData.getDocumentRoot(eClassifier.getEPackage());
+eBigDecimalEDataType = createEDataType(EBIG_DECIMAL);
+None
+@Override
+protected void writeTopAttributes(EObject top)
+prototypeFeatureMapEntry = new ContainmentUpdatingFeatureMapEntry(this, null);
+}
+initEDataType(eBigDecimalEDataType, BigDecimal.class, "EBigDecimal", IS_SERIALIZABLE, !IS_GENERATED_INSTANCE_CLASS);
+clear();
+None
+protected boolean canContinue(Diagnostic diagnostic)
+systemBar = new ToolBar(control, SWT.FLAT | SWT.WRAP);
+}
+outputPos = replaceChars(outputPos, ("&#x" + Integer.toHexString(XMLChar.supplemental(high, ch)) + ";").toCharArray(), inputLength);
+}
+finally
+None
+Set<Object> objects = new HashSet<Object>();
+}
+List<GeneratorData> result = new ArrayList<GeneratorData>(parentsData.size() + childrenData.size());
+None
+outputPos = replaceChars(outputPos, ("&#x" + Integer.toHexString(ch) + ";").toCharArray(), inputLength);
+}
+xmlMap.add(EcorePackage.eINSTANCE.getETypedElement_EType(), createXMLInfo("type"));
+public class FeatureMapEntryItemProvider
+None
+private static final String SCHEME_FILE = "file";
+if (key instanceof EClassifier)
+None
+Object svalue = s.getValue();
+String instanceTypeName = eClassifier.getInstanceTypeName();
+theXMLNamespacePackage.freeze();
+if (infoURI == null && (name.equals(infoName) || infoName == null && name.length() == 0))
+None
+InsertEdit lineBreakEdit = lineBreakInserter.createLineBreakBeforeNode(nodePosition, node);
+None
+this.optimize = false;
+None
+int preIndex = 0;
+for (Iterator i = referencedProjects.iterator(); i.hasNext(); )
+for (ASTNode oldValue : oldValues)
+}
+int count = 1;
+}
+if (URI.isArchiveScheme(uri.scheme()))
+pbeIV = randomBytes(PBE_IV_LENGTH);
+diagnosticComposite = createDiagnosticComposite((Composite)getContents());
+None
+for (EClass eSuperType : eClass.getESuperTypes())
+for (Map.Entry<ASTNode, ITrackedNodePosition> entry : commentedOutPositions.entrySet())
+Notifier oldValue = (Notifier)notification.getOldValue();
+String otherName = otherEStructuralFeature.getName();
+if (selectionProvider != null)
+EList<EGenericType> eGenericSuperTypes = eClass.getEGenericSuperTypes();
+}
+if (otherEOperation == eOperation)
+if (selectionProvider.getSelection() != null)
+EObject scope = eTypeParameter.eContainer();
+return super.getChildFeature(object, child);
+return false;
+for (int i = 0; i < getASTNode().getExtraDimensions(); i++)
+EClassifier eBoundEClassifier = eBound.getEClassifier();
+String lastSegment = uri.lastSegment();
+if (diagnostics == null)
+if (count != listSize)
+return matchingTypeArguments(eGenericType.getETypeArguments(), eBound.getETypeArguments(), substitutions);
+if (baseURL == null)
+if (eClassifier == null && eTypeParameter == null)
+InputStream inputStream = new URL(uri.toString()).openStream();
+if (baseURL == null)
+EClassifier eClassifier1 = eGenericType1.getEClassifier();
+mappingDomain = createMappingDomain();
+class MyContentOutlinePage extends ContentOutlinePage
+if (data == null)
+EClassifier eClassifier = eGenericType.getEClassifier();
+nextPruneIterator = getChildren(object);
+if (instanceTypeName1 == null || !instanceTypeName2.equals(instanceTypeName2))
+String instanceTypeName1 = eClassifier.getInstanceTypeName();
+@SuppressWarnings("unchecked") Iterator<? extends E> currentIterator = (Iterator<? extends E>)data[size - 1];
+Iterator<? extends E> iterator = getChildren(result);
+nextPruneIterator = iterator;
+return eObject2MappedValue == eObject1;
+nextPruneIterator = null;
+while (!currentIterator.hasNext())
+if (ASTJEnum.class.isAssignableFrom(cls) && abstractType instanceof ASTJType)
+if (!laxFeatureProcessing && eStructuralFeature != null &&
+data[--size] = null;
+if (isEmpty())
+data[--size] = null;
+byte[] nodeAddress = new byte [6];
+@SuppressWarnings("unchecked") Iterator<? extends E> nextIterator = (Iterator<? extends E>)data[size - 1];
+if (nextPruneIterator != null)
+public V removeKey(Object key)
+nextPruneIterator = null;
+if (values == null)
+if (data == null)
+}
+static final String[] ACCESSOR_KEYS =
+if (!isEmpty() && data[size - 1] == nextPruneIterator)
+return equals((EObject)value1, (EObject)value2);
+data = newData(size + size / 8 + 1);
+Object eObject2MappedValue = get(eObject2);
+while (!isEmpty() && !((Iterator<?>)data[size - 1]).hasNext())
+FeatureMap featureMap1 = (FeatureMap)value1;
+if (size > 0)
+if (data[index] == oldCursor)
+grow(size + 1);
+eGenericType = EcoreFactory.eINSTANCE.createEGenericType();
+uuid[9] = (byte)(clockSequence & 0xFF);
+if (size > 0)
+++clockSequence;
+//   private EcoreUtil()
+grow(size + 1);
+String namespaceURI = helper.getURI(prefix);
+public Object getValue(Node node)
+String arrayIndices = null;
+uriHandler = (XMLResource.URIHandler)options.get(XMLResource.OPTION_URI_HANDLER);
+newFileCreationPage = new DynamicModelWizardNewFileCreationPage("Whatever", selection);
+None
+createSiblingMenuManager = new MenuManager(EcoreEditorPlugin.getPlugin().getString("_UI_CreateSibling_menu_item"));
+CHARS[1470] = 33;
+if (!objectsWithGenericTypeList.contains(object))
+String getNSName();
+String getPropertyImageName();
+public boolean implementsAny(Collection<GenFeature> genFeatures);
+if (rule.getSelector().isInstance(node))
+plugin = this;
+ENotificationImpl note =
+}}.run();
+subcommands.appendAndExecute(new RemoveCommand(domain, parentMapping, MappingPackage.eINSTANCE.getMapping_Nested(), mapping));
+else if (!isPathCharacter(testChar)) {
+None
+if (recordUnknownFeature || processAnyXML)
+if (isImplementation && !genModel.isReflectiveDelegation() && genClass.implementsAny(genClass.getEInverseAddGenFeatures())) {
+@SuppressWarnings("unchecked") EList<Object> result = (EList<Object>)originalObject.eGet(internalFeature);
+None
+if (oppositeEReference.isMany())
+None
+@Override
+if (usedNullNamespacePackage)
+InsertEdit existingEdit = addedInsertEdits.get(lineBreakEdit.getOffset());
+None
+EcoreUtil.remove(peekObject = objects.get(0));
+data[--size] = null;
+if (processSchemaLocations)
+data = null;
+return null;
+objectOutputStream.writeInt(entryData.length);
+if (peekObject == null)
+None
+if (element.hasAttributes())
+None
+if (objects.size() > 1)
+protected String change(String in, String oldPat, String newPat)
+if (currentViewer != viewer)
+if (proxyURI.trimFragment().equals(resourceURI))
+@SuppressWarnings("null")
+con.match = match;
+if (!getEditingDomain().getResourceSet().getResources().isEmpty() &&
+selectionChangedListener =
+if (this.fixedString != null) {
+}
+}
+CopyCommand.Helper copyHelper = new CopyCommand.Helper();
+if (this.fixedStringOnly) {
+None
+}
+if ("EDate".equals(eDataType.getName()))
+int newCapacity = oldCapacity + oldCapacity / 2 + 4;
+public String convert(String input)
+ASTParser astParser = ASTParser.newParser(AST.JLS3);
+None
+int oldModCount = modCount;
+private static final long URIC_LO = RESERVED_LO | UNRESERVED_LO;
+int getData() {                             // CharOp  for CHAR, BACKREFERENCE, CAPTURE, ANCHOR,
+Arrays.fill(CHARS, 706, 720, (byte) 33 ); // Fill 14 of value (byte) 33
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+for (EReference eReference : roseUtil.refTable.keySet())
+throw new RuntimeException("Internal Error: type="+this.type);
+None
+EClass eContainingClass = eStructuralFeature.getEContainingClass();
+}
+String match = null;
+}
+String name = extendedMetaData.getName(eClass);
+@Override
+if (elementFeatures == null)
+return true;
+for (int i = 0; i < entryData.length; ++i)
+Arrays.fill(CHARS, 502, 506, (byte) 33 ); // Fill 4 of value (byte) 33
+if (subbegin <= srcbegin && srcend <= subend) {
+int capacity = objectInputStream.readInt();
+for (int i = 0; i < size; ++i)
+return;
+private static URI parseIntoURI(String uri)
+Tree tree = new Tree(getContainer(), SWT.MULTI);
+ColorInformation info1 = ColorInformation.getColor(code(key1));
+}
+None
+// http:///org/eclipse/emf/ecore/util/ExtendedMetaData
+src1 += 2;
+None
+ret = next;
+boolean _INTERNAL_BOOTSTRAP = Literals.EATTRIBUTE != null && org.eclipse.emf.ecore.impl.EcorePackageImpl.internalBootstrap();
+}
+page.openEditor
+for (; index < end; ++index) {
+None
+Map<String, String> attrs = reader.parseTagAttributes();
+return tok;
+setFieldInitializer(field, enumConstant);
+int id = op.getData();
+tok = Token.createNGClosure(tok);
+if (!scheme.equalsIgnoreCase(base.scheme())) return this;
+for (Map.Entry<EObject,EList<FeatureChange>> entry : getObjectChanges())
+else {
+getObjectsToAttach().clear();
+static
+for (Map.Entry<EObject, EList<FeatureChange>> entry : getObjectChanges())
+IJavaProject javaProject = JavaCore.create(project);
+this.hierarchical = hierarchical;
+else if (type == T_POSIX_CHARCLASS_START) {
+RegularExpression re = null;
+for (IClasspathEntry classpathEntry :  javaProject.getResolvedClasspath(true))
+/*
+theClassLoader =
+None
+theClassLoader =
+* A class to represent a Uniform Resource Identifier (URI). This class
+String className = (packageName.length() == 0 ? "" : packageName + ".") + jetCompiler.getSkeleton().getClassName();
+currentTime *= 10000;
+Class<?> theOtherClass = null;
+/**
+@Override
+None
+if (!isInBuild())
+// sub:  o----o
+progressMonitor.subTask
+CompoundCommand subcommands = new CompoundCommand();
+return tok;
+this.map = new int[asize];
+List<URL> urls = new ArrayList<URL>();
+// src2:  o------------o
+entry = entry.createEntry(entryValue);
+@SuppressWarnings("unchecked")
+final Set<Bundle> bundles = new HashSet<Bundle>();
+IStatus status = ResourcesPlugin.getWorkspace().validateEdit(new IFile [] { outputFile }, null);
+@Override
+getObjectsToAttach().clear();
+int add = 0, mask = 0, ch = -1;
+for (Map.Entry<EObject, EList<FeatureChange>> entry : getObjectChanges())
+EList<Object> applyToList = new BasicEList<Object>((EList<?>)objectToChange.eGet(internalFeature));
+if (bundle == null)
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+if (this.offset >= this.regexlen
+throw new RuntimeException("Internal Error: type="+this.type);
+return getGenModel().getImportedName("org.eclipse.emf.ecore.EEnumLiteral");
+return null;
+String exception = stringTokenizer.nextToken().trim();
+return 0;
+List<ASTJNode<?>> convertedEnumConstants = new ArrayList<ASTJNode<?>>(enumChildren.size());
+case 'x':
+addToFrontOfBuildSpec(CodeGenPlugin.INSTANCE.getSymbolicName() + "." + BUILDER);
+None
+includeStack = new Stack<IncludeState>();
+int ret2 = FC_CONTINUE;
+createDefaultJETSettingsFile(getTemplateContainers(), getJavaSourceContainer());
+if (isElement)
+includeStack.push(new IncludeState(cursor, line, col, fileid, baseDir, encoding, stream) );
+if (list.isEmpty())
+Token.setAlias("xdigit", "IsXDigit", true);
+templateContainerField = new Text(containerGroup, SWT.BORDER);
+int position = notification.getPosition();
+cursor = 0;
+IProject project = workspace.getRoot().getProject(templateURI.segment(1));
+EClassifier newERawType = getErasure(eTypeParameter);
+if (i == 0x00BB || i == 0x2019 || i == 0x201D || i == 0x203A ) {
+return
+private Literals()
+IncludeState state = includeStack.pop( );
+super.firePropertyChange(type);
+case RANGE:
+if (includeStack.size() <= 0)
+RoseNode stereoTypeNode = roseNode.findNodeWithKey(RoseStrings.STEREOTYPE);
+int fileid    = registerSourceFile(locationURI);
+++timeAdjustment;
+if (current == null)
+if (redirect)
+return tableItemLabelProvider.getColumnText(object, columnIndex);
+EOperation eOperation = EcoreFactory.eINSTANCE.createEOperation();
+}
+ch = nextChar();
+None
+size--;
+if (!javaEGenericSuperTypes.isEmpty() &&
+skipSpaces();
+None
+skipSpaces();
+if (i < endOfLine)
+}
+return;
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+List<IClasspathEntry> classpath = new UniqueEList<IClasspathEntry>(Arrays.asList(javaProject.getRawClasspath()));
+static final int CHAR_INIT_QUOTE  = 29;     // Pi - initial quote
+return !hierarchical;
+return values;
+if (++counter[0] > 8) {
+boolean hasEditorSupport();
+if (nextChar() == endTagFinalChar)
+parseAttributeValue(values);
+@Override
+boolean hasTestSupport();
+throw new JETException(CodeGenPlugin.getPlugin().getString("jet.error.tag.attr.unterminated", new Object [] { mark().toString() }));
+if (p_base != null) {
+((EcorePackageImpl)EcorePackage.eINSTANCE).createExtendedMetaDataAnnotations();
+EClass eClass = EcoreFactory.eINSTANCE.createEClass();
+if (encoding == null)
+{
+if (ch == -1)
+return absolutePath;
+skipSpaces();
+/*0A80..0AFF;*/ "Gujarati",
+if (index > startPos) {
+if (contributionItem instanceof ActionContributionItem)
+int slashIdx = uriSpec.lastIndexOf('/', searchFrom);
+InternalEObject internalEObject = i.next();
+/*0D80..0DFF;*/ "Sinhala",
+else {
+EStructuralFeature eStructuralFeature = (EStructuralFeature)data[i];
+if ("alternative".equals(attributes.get("fail")))
+if (m_host == null && m_regAuthority == null) {
+if (!eReference.isDerived() ||
+if (path.endsWith("/..")) {
+if (resolveProxy(result) == eClass)
+if (addrLength > 255) {
+eGenericType.getERawType();
+int index = address.lastIndexOf('.');
+eGenericType.setEClassifier(eClass);
+if (getScheme() == null || p_uriSpec.charAt(start) == '/') {
+/*1100..11FF;*/ "Hangul Jamo",
+EClass eClass = EcoreFactory.eINSTANCE.createEClass();
+if (ch == '-')
+return (index == end) ||
+SkipSection skipSection = skipSections.isEmpty() ? null : (SkipSection)skipSections.peek();
+public static String encode(String anyURI){
+// which ASCII characters need to be escaped
+if (chars.length > 500)
+if (fSavedLine != null)
+None
+String failType = attributes.get("fail");
+None
+defaultValue = null;
+if (skipSections.pop().skip)
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+/*1780..17FF;*/ "Khmer",
+if (address.startsWith(".") ||
+String skeletonURI = attributes.get("skeleton");
+if (entry.getKey().equals("skeleton"))
+PropertyMerger propertyMerger = new PropertyMerger();
+JETParser.Directive directive = new JETParser.Directive();
+ImportManager importManager = new ImportManager(packageName);
+if (++count > 1)
+String[] arguments = (String[])object;
+public static char parseChar(String c)
+None
+protected Map<Entry, Object> map = new HashMap<Entry, Object>();
+None
+/*3000..303F;*/ "CJK Symbols and Punctuation",
+None
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+None
+public EStructuralFeature getContainingFeature(InternalEObject eObject)
+CHARS[215] = 33;
+throw new UnsupportedOperationException();
+None
+None
+if (testChar == '%') {
+if (!result && operation != DROP_LINK && (operations & DROP_LINK) != 0)
+String[] result = new String[sp];
+Object image = itemLabelProvider.getImage(mappedObject);
+None
+None
+/*A490..A4CF;*/ "Yi Radicals",
+None
+* replaced by getETypedElement_Unique()
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+/*FE20..FE2F;*/ "Combining Half Marks",
+None
+@Override
+None
+if (resource != null)
+Arrays.fill(CHARS, 1611, 1619, (byte) -87 ); // Fill 8 of value (byte) -87
+if (currentViewer != null)
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+selection = contents;
+// http:///org/eclipse/emf/ecore/util/ExtendedMetaData
+//missing Specials add manually
+String[] tailSegments = getTailSegments(oldPrefix);
+/*20000..2A6D6;*/ "CJK Unified Ideographs Extension B",
+fIANA2JavaMap.put("ISO-IR-138",      "ISO8859_8");
+None
+//return value != null && value.length() != 0 &&
+if (viewer != null)
+for (int i = 'A'; i <= 'F'; ++i) {
+sourceProperties = createPropertiesForURI(arguments[0]);
+public class FeatureMapEntryItemProvider
+static final String blockRanges =
+if (colonIdx == uriSpecLen - 1 || uriSpec.charAt(colonIdx+1) == '#') {
+sourcePatternDictionary = new JPatternDictionary(sourceCompilationUnit, getControlModel());
+return new URI(true, scheme, authority, device, absolutePath,
+int offset = eDerivedStructuralFeatureID >>> 5;
+if (m_path.length() == 0 && m_scheme == null &&
+if (EMFPlugin.IS_ECLIPSE_RUNNING)
+// (i.e. skip trailing separator and anything following it), and of
+int bitIndex = eDerivedStructuralFeatureID & 31;
+initEClass(eAttributeEClass, EAttribute.class, "EAttribute", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+return bit - 1;
+return -1;
+}
+* Returns <code>true</code> if the specified <code>value</code> would be
+public void selectionChanged(SelectionChangedEvent event)
+return new URI(true, base.scheme(), newAuthority, newDevice,
+EPackage result = getEPackageGen();
+if (m_host != null) {
+else if (!isPathCharacter(testChar)) {
+this.owner = owner;
+if (port < -1 || port > 65535) {
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+if (numDigits > 0 && ++counter[0] > 8) {
+private static class EclipseHelper
+}
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+int result = eVirtualBitCount(bitIndex == 0 ? 0 : bits << 32 - bitIndex);
+else if (!isHex(testChar)) {
+int index = eVirtualIndex(eDerivedStructuralFeatureID, EVIRTUAL_GET);
+None
+return eVirtualIndex(eDerivedStructuralFeatureID, EVIRTUAL_IS_SET) >= 0;
+int index = eVirtualIndex(eDerivedStructuralFeatureID, EVIRTUAL_SET);
+public class FeatureMapEntryItemProvider
+eAddVirtualValue(~index, value);
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+if (type == T_CHAR && this.chardata == ']' && !firstloop)
+CHARS[9] = 35;
+basicSetInstanceTypeName(instanceClassName);
+Command addCommand = AddCommand.create(domain, owner, feature, domain.getClipboard());
+int index = newInstanceTypeName.indexOf('<');
+if (prefix.length() > 0 && !XMLChar.isValidNCName(prefix))
+String newInstanceClassName = newInstanceTypeName.substring(0, index);
+None
+if (newInstanceTypeName.indexOf('.') == -1 &&
+CHARS[8486] = -19;
+newInstanceClassName += newInstanceTypeName.substring(end + 1);
+InputStream inputStream =  new URL(getBaseURL().toString() + "plugin.properties").openStream();
+char firstCharacter = uriFragmentSegment.charAt(0);
+String newAuthority = authority;
+private static String firstInvalidSegment(String[] value)
+None
+if (firstCharacter == '%')
+if (editingDomain.getResourceToReadOnlyMap() != null)
+}
+setSelection(getSelection());
+for (GenClass genClass : getGenClasses())
+None
+}
+None
+return absolutePath || (authority == null && device == null);
+None
+if (firstLine == lastLine && getAllTrackedContentsMap().containsKey(node))
+None
+int index = uriFragmentSegment.lastIndexOf("%");
+String OPTION_EXTENDED_META_DATA = "EXTENDED_META_DATA";
+}
+None
+String source = URI.decode(uriFragmentSegment.substring(1, index));
+String className = theClass.getName();
+None
+int count = 0;
+int index = uriFragmentSegment.lastIndexOf(".");
+for (Object object : eContents())
+@Override
+ClassLoader result = getContextClassLoader();
+None
+classNameToClassMap.put(className, JControlModel.class);
+None
+return delegateRegistry(result).put(key, value);
+None
+URI uri;
+int kind = ExtendedMetaData.INSTANCE.getFeatureKind(eReference);
+String location = element.getAttribute(attributeName);
+if (selection != null && !selection.isEmpty())
+final IFile modelFile = getModelFile();
+WorkspaceModifyOperation operation =
+newAuthority = base.authority();
+ResourceSet resourceSet = new ResourceSetImpl();
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+URI fileURI = URI.createPlatformResourceURI(modelFile.getFullPath().toString(), true);
+return value != null && archiveSchemes.contains(value.toLowerCase());
+@Override
+EObject rootObject = createInitialModel();
+if (sibling != null)
+Map<Object, Object> options = new HashMap<Object, Object>();
+}
+String requiredExt = EcoreEditorPlugin.INSTANCE.getString("_UI_DynamicInstanceFilenameExtension");
+{
+newFileCreationPage = new DynamicModelWizardNewFileCreationPage("Whatever", selection);
+@Override
+Object selectedElement = selection.iterator().next();
+if (selectedResource instanceof IFolder || selectedResource instanceof IProject)
+newFileCreationPage.setContainerFullPath(selectedResource.getFullPath());
+if (sp > 0 &&  (segmentCount == 0 ||
+None
+EList<?> list = (EList<?>)((EObject)owner).eGet(eReference);
+throw new UnsupportedOperationException();
+if (ownerList == null ||
+throw new UnsupportedOperationException();
+RoseNode loadingNode = tree.findNodeWithKey(RoseStrings.IS_LOADED);
+newDevice = base.device();
+commandStack.addCommandStackListener
+if (index >= 0 && index < ownerList.size() && eType.isInstance(value) &&
+if (!isHierarchical()) return this;
+if (theSelection != null && !theSelection.isEmpty())
+if (oldValue instanceof Collection)
+index = encodedPath.indexOf("/org.");
+addETypeParameter(eeListEDataType, "E");
+b1 = base64Alphabet[d1];
+URI genModelLocation = entry.getValue();
+documentRoot = ExtendedMetaData.INSTANCE.getDocumentRoot(eClass.getEPackage()) == eClass;
+// always keep fragment, even if null, and use scheme from base;
+List<Object> addedValues = new BasicEList.FastCompare<Object>(values);
+if (authority == null)
+IPath targetFragmentRoot = project.getFullPath();
+private List<String> getBaseTemplatePath()
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+currentViewer = viewer;
+structuredItemContentProvider != null ?
+if (tableItemFontProvider  != null)
+}
+resourceSet.getURIConverter().getURIMap().remove(URI.createPlatformResourceURI(getModelProjectName() + "/", false));
+if (result.length() == 0)
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+None
+if (n1.getElement() == null && n1.isLabelUpdate())
+None
+// release, when we can expect users to do a regen.
+Color startColor = display.getSystemColor(SWT.COLOR_LIST_BACKGROUND);
+None
+Collection<Object> childrenOfThisFeature = new ArrayList<Object>();
+None
+event.detail = DND.DROP_NONE;
+boolean isReferenceType();
+commandCreationRecord.encode(createEncoder());
+Object target = extractDropTarget(event.item);
+ListRewrite newListRewrite = rewriter.getListRewrite(newDeclaration, FieldDeclaration.FRAGMENTS_PROPERTY);
+boolean valid = false;
+resource = editingDomain.getResourceSet().getResource(resourceURI, true);
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+public class FeatureMapEntryItemProvider
+source = extractDragSource(event.data);
+* This keeps track of the factory used to generate the adapters.
+public class FeatureMapEntryItemProvider
+None
+newAbsolutePath = false;
+Object oldValue = sourceGetMethod.invoke(targetNode, NO_ARGUMENTS);
+if (name.length() == 0)
+for (ListIterator<Object> i = result.listIterator(); i.hasNext(); )
+None
+copyList.clear();
+newAuthority = null;
+return new URI(true, base.scheme(), newAuthority, newDevice,
+containment |= feature instanceof EReference && ((EReference)feature).isContainment();
+(new AddCommand(domain, mapping, MappingPackage.eINSTANCE.getMapping_Nested(), siblingsToReparent));
+static {
+stringBuffer.append(TEXT_1);
+None
+if (!result && operation != DROP_COPY && operation != DROP_LINK && (operations & DROP_COPY) != 0)
+topToBottomTypeTable.put(topType, bottomType);
+boolean result = false;
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+reset();
+IItemColorProvider itemColorProvider = (IItemColorProvider)adapterFactory.adapt(object, IItemColorProvider.class);
+if (tableItemColorProvider  != null)
+if (commandClass == SetCommand.class &&
+None
+operation = DROP_COPY;
+IWorkbenchWindow workbenchWindow = workbench.getActiveWorkbenchWindow();
+if (includeCast ? !isObjectType() : isPrimitiveType())
+for (int i = 0; i < baseSegmentCount - 1; i++)
+List<Object> siblings = new ArrayList<Object>();
+None
+Object parent = getParent(object);
+if ((type.getFlags() & Flags.AccInterface) != 0 || "class".equals(kind))
+String getImportedMetaType();
+}
+if (opposite != null)
+if (editingDomain != null && command != null)
+if (parent instanceof EOperation)
+astCompilationUnit.setProperty(ASTJCompilationUnit.NAME_PROPERTY, name);
+int i1 = 0;
+CommandCreationRecord commandCreationRecord = new CommandCreationRecord(commandClass, commandParameter);
+for (i = indices.length - 1; i >= 0; i--)
+None
+if (collection.contains(owner))
+fIANA2JavaMap.put("BIG5",            "Big5");
+//
+feedback = FEEDBACK_SELECT;
+IResource selectedResource = (IResource)selectedElement;
+affectedObjects = collection;
+while (o1 != null && o2 != null)
+for (Object child : delegateChildren)
+}
+ownerList.remove(value);
+String defaultModelBaseFilename = eClass.getName();
+createChildMenuManager = new MenuManager(EcoreEditorPlugin.getPlugin().getString("_UI_CreateChild_menu_item"));
+Collection<Mapping> siblingsToReparent = new ArrayList<Mapping>();
+Object result = eType.getInstanceClass();
+return getASTNode().isConstructor();
+if (original.size() == copy.size())
+superInterfaces = combineArrayAndList(superInterfaces, addedSuperInterfaces);
+if (EcorePackage.eNS_URI.equals(ePackage.getNsURI()))
+}
+revertPrepareSplit();
+result = true;
+splitPerformed = true;
+CompoundCommand removeCommand = new CompoundCommand(CompoundCommand.MERGE_COMMAND_ALL);
+}
+public EditingDomain getEditingDomain()
+setNodeProperty(getASTNode(), false, ImportDeclaration.ON_DEMAND_PROPERTY);
+None
+String contents = execute(new BasicMonitor(), (String[])object);
+if (isListType(type) && (dataType == null || modelType != null && !isListType(modelType)))
+if (ecoreEGenericType == null || ecoreEGenericType.getEClassifier() == null)
+if (eOpposite.isContainment() && !transientEReferenceWithOpposite.contains(eReference))
+for (URI uri : allPluginsWithGenModels.get(pluginID))
+createSiblingMenuManager = new MenuManager(EcoreEditorPlugin.getPlugin().getString("_UI_CreateSibling_menu_item"));
+Image extraImage = null;
+submenuManager.addMenuListener
+if (notification instanceof IViewerNotification)
+if (createChildMenuManager != null)
+if (commandClass == SetCommand.class)
+Collection<?> newChildDescriptors = null;
+createChildActions = generateCreateChildActions(newChildDescriptors, selection);
+else if (hasLaunched)
+}
+int position,
+for (int i = 0; i < allReferencedPluginIDs.size(); ++i)
+IContributionItem contributionItem = items[i];
+}
+return eObject.eContainingFeature();
+dragAndDropCommandInformation = new DragAndDropCommandInformation(domain, target, location, event.operations, originalOperation, source);
+case EcorePackage.EOPERATION__EGENERIC_TYPE:
+private boolean hasCollapsableSegments(boolean preserveRootParents)
+private static EMFAntPlugin plugin;
+if (feature.isMany())
+return wrapCommand(result, object, commandClass, commandParameter, oldCommandParameter);
+String redirection = getGenModel().getRedirection();
+if (tableItemLabelProvider != null)
+if (!childrenOfThisFeature.isEmpty())
+switchHelper = new SwitchHelper();
+None
+okButton = createButton(parent, IDialogConstants.OK_ID,
+setErrorMessage(errorMessage);
+boolean hasEnumLiteral = false;
+int diff = 0;
+None
+controlModel =  new JControlModel();
+int startCount = startPath.length > 0 ? startPath.length - 1 : 0;
+String[] startPath = base.collapseSegments(preserveRootParents);
+spaceTypeEEnum = createEEnum(SPACE_TYPE);
+editorActionDelegate.selectionChanged(this, selection);
+if (primitiveAsObject && isPrimitiveType(eType))
+None
+URI manifestURI = URI.createURI(referencedProject.getFullPath() + "/META-INF/MANIFEST.MF");
+if (currentColumn == 0)
+}
+}
+if (image != null) drawImage(event.gc, image, imageBounds);
+modelFile = (IFileEditorInput)getEditorInput();
+newDevice = null;
+setImportManager(null);
+List<GenPackage> orderedGenPackages = genPackages;
+this.viewer = viewer;
+None
+text = createText(composite);
+@Override
+String[] rel = findRelativePath(base, preserveRootParents);
+public boolean isCreateChild()
+handleCreation();
+protected void printExportData(ExportData exportData)
+for (GenClass genClass : getGenClasses())
+@Override
+fIANA2JavaMap.put("IBM-1047",    "Cp1047");
+new AdapterFactoryEditingDomain(adapterFactory, commandStack)
+List<GenFeature> result = new UniqueEList<GenFeature>(childrenFeatures.size());
+return;
+None
+if (genFeature.isUnique())
+}
+if (eTypedElement == null)
+if (!genClass.isEObject() && add(genClass))
+if (command != null)
+case EcorePackage.EPARAMETER__ETYPE:
+if ("reference".equals(stereoTypeValue))
+String num = Integer.toHexString(c);
+//
+Collection<Object> result = new ArrayList<Object>(super.getChoiceOfValues(object));
+if (commandClass == DragAndDropCommand.class)
+mappingDomain.getCommandStack().execute(RestoreInitialStateCommand.create(mappingDomain));
+List<EGenericType> ecoreEGenericSuperTypes = null;
+boolean declaredEOperation =
+if (index == Notification.NO_INDEX) index = 0;
+String baseName = typeName;
+for (EGenericType eGenericSuperType : ((EClass)container).getEGenericSuperTypes())
+}
+boolean hasEditSupport();
+EPackage otherEPackage = packageNameToEPackageMap.get(packageName);
+if (eGenericType.eContainmentFeature() == EcorePackage.Literals.EOPERATION__EGENERIC_EXCEPTIONS)
+if (eGenericType == null &&
+int typeParameterCount = value == null ? 0 : ((EClassifier)value).getETypeParameters().size();
+Collection<? extends IWrapperItemProvider> oldWrappers;
+return null;
+for (Object v  : (Collection<?>)eObject.eGet(childFeature))
+//
+return null;
+for (EObject eObject = (EObject)object; eObject != null; eObject = eObject.eContainer())
+None
+//
+if (feature.isMany())
+None
+/**
+for (EReference eReference : getChildrenReferences(object))
+}
+subcommands.appendAndExecute(new RemoveCommand(domain, mapping, MappingPackage.eINSTANCE.getMapping_Nested(), nestedMappings));
+* <!-- begin-user-doc -->
+None
+IItemLabelProvider itemLabelProvider = (IItemLabelProvider)adapterFactory.adapt(object, IItemLabelProvider.class);
+processValueToTheEnd(currentLine, lineCounter);
+None
+newAbsolutePath = false;
+for (JNode node : type.getChildren())
+IConfigurationElement bottomLabelCaseAll[] = d.getChildren("bottom-label-case");
+None
+None
+None
+@Override
+if (collection.contains(ownedObject) && !contains(identityIndices, index))
+int index = 0;
+None
+Collection<?> result = super.getChoiceOfValues(object);
+None
+None
+if (ownerList == null || !ownerList.contains(value) || collection == null || collection.isEmpty())
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+None
+for (Command command : new ArrayList<Command>(commandList))
+if (!getContents().isEmpty())
+MappedObjectState mappedObjectState = mappingRoot.getMappedObjectState(copy);
+if (key == null)
+colorMap.put(CLR_GRAD_START, clr4);
+outputStream.write(pbeIV);
+affectedObjects = collection;
+Collection<?> children = getChildren(parent);
+for (Iterator<InternalEObject> i = sameDocumentProxies.iterator(); i.hasNext(); )
+private String[] mergePath(URI base, boolean preserveRootParents)
+String defaultModelBaseFilename = eClass.getName();
+mappingRoot.isTopToBottom() ?
+if (collection.contains(owner))
+outputStream = new FilterOutputStream(outputStream)
+return getGenModel().getQualifiedEditPluginClassName();
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+if (!isRelative()) return this;
+for (int i = 0; i < baseSegmentCount - 1; i++)
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+if (index == CommandParameter.NO_INDEX)
+return device != null;
+//return value == null || validate(value, URIC_HI, URIC_LO, true, true);
+private String[] getTemplatePath()
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+}
+return query != null;
+}
+public class FeatureMapEntryItemProvider
+if (genFeature.isUnique())
+public class FeatureMapEntryItemProvider
+public class FeatureMapEntryItemProvider
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+for (EClass eSuperType : eClass.getEAllSuperTypes())
+createModel();
+public class FeatureMapEntryItemProvider
+private static boolean validate(String value, long highBitmask, long lowBitmask,
+if (this.workbenchPart != workbenchPart)
+eSettingDelegate(eFeature).dynamicGet(this, eSettings(), dynamicFeatureID, resolve, coreType);
+compound.append(SetCommand.create(domain, value, eOtherEnd, null));
+for (ASTJNode<?> nodeToInsert : convertedEnumConstants)
+protected CharArrayWriter writer;
+for (int count = startCount < endCount ? startCount : endCount - 1;
+}
+}
+}
+List<EOperation> eOperations = eAllOperations;
+if (validator != null)
+while (++current.cursor < len && (ch = current.stream[current.cursor]) != startTagInitialChar)
+reader.skipSpaces();
+if (ch == '\\')
+stack[sp++] = segment;
+Object oldValue = ((EObject)owner).eGet(eReference);
+try
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+super.visit(target);
+List<?> list = ((IStructuredSelection)selection).toList();
+StringBuilder sb = new StringBuilder(text.length() + text.length() / 10);
+}
+//
+try
+//
+/**
+final Map<URI, URI> uriMap = new HashMap<URI, URI>();
+if (value instanceof EObject && ((EObject)value).eGet(eOtherEnd) != null)
+class Information
+public static final boolean isDigit(char ch) {
+class Information
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+class Information
+for (GenPackage genPackage : getModelImporter().getReferencedGenPackages())
+if (getGenModel().isCreationCommands() && getGenModel().isCreationIcons())
+if (resource == null)
+if (getSourcePatternDictionary().isMarkedUp(sourceMarkup, node)
+ManifestElement element = elements[j];
+return getControlModel() == null ?
+class Information
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+class Information
+ETypedElement eTypedElement = null;
+do
+if (parameterNames.length == 0 &&
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+targetPatternDictionary.start(target);
+target = newTarget;
+JCompilationUnit compilationUnit = getJCompilationUnit(eModelElement);
+String encoding = getEncoding(targetFile);
+}
+class Information
+urls.add(new URL("platform:/resource" + jetEmitterClasspathEntry.getPath() + "/"));
+String mapModelInfo = getMapModelInfo(qualified, (!qualified || isSuppressedGetVisibility()) && !isContainer());
+None
+}
+else
+boolean markedUp = true;
+// by default nodes are marked up
+None
+None
+Arrays.fill(CHARS, 722, 768, (byte) 33 ); // Fill 46 of value (byte) 33
+None
+ZipEntry outputZipEntry;
+private static final char ESCAPE = '%';
+if (base == null || base.getGenPackage() == getGenPackage() ||
+private URI(boolean hierarchical, String scheme, String authority,
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+if (!NODE_TYPES_WITH_SPECIAL_RANGE.contains(node.getNodeType()))
+}
+if (originalFieldDeclaration.fragments().size() > 1)
+private static URI createPlatformURI(String unrootedBase, String rootedBase, String pathName, boolean encode)
+}
+/*
+if (matcher.find())
+private static long highBitmask(char c)
+while (i <= endOfLine && Character.isWhitespace(charContent[i]))
+{
+AbstractRewriter contentsReplacer = null;
+if (headerString != null)
+AbstractRewriter commenter = null;
+None
+private static long lowBitmask(char c)
+return doc.getLineOfOffset(nodePosition.getStartPosition());
+None
+for (TextEdit edit : textEditsToRevert)
+return doc.getLineOfOffset(lineBreakEdit.getOffset()) + 1;
+Mapping parentMapping = domain.getMappingRoot().getParentMapping(mapping.getMappedObjects());
+addLineBreakAfterNode(existingEdits, nodePosition, node);
+private static final char SCHEME_SEPARATOR = ':';
+int lastLine = doc.getLineOfOffset(nodePosition.getStartPosition() + nodePosition.getLength());
+if (originatingInput == null)
+currentPos = ++i;
+if (eContainerFeatureID == GenModelPackage.GEN_PACKAGE__GEN_MODEL)
+TextEdit causeEdit = e.getChild();
+if (currentViewerPane.getViewer() == selectionViewer)
+else if (!isWhitespace(endPos, lineInfo.getOffset() + lineInfo.getLength()))
+i = doc.getLineOfOffset(newReplaceEdit.getOffset() + newReplaceEdit.getLength());
+throw e;
+try
+sb.append(textContent, lastPos, currentPos - lastPos + 1);
+if (childCreationData.delegatedFeature != null && childCreationData.delegatedFeature.getGenPackage() == this ||
+lastPos = ++currentPos;
+if (!isWhitespace(lineInfo.getOffset(), startPos))
+if (currentPos < textContent.length)
+for (Iterator i = set.getResources().iterator(); i.hasNext(); )
+int line = getDocument().getLineOfOffset(commaPosition);
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+ASTJNode<?> astjNode = (ASTJNode<?>)getFacadeHelper().convertToNode(enumConstant);
+Set<String> noDupSet = new HashSet<String>();
+if (!commentedOutPositions.containsKey(previousNode) && commentedOutPositions.keySet().containsAll(followingConstants))
+if (INSTANCE.validateEClass_NoCircularSuperTypes(eClass, null, null))
+None
+removeNodeFromListProperty(originalFieldDeclaration, variableDeclarationFragment, FieldDeclaration.FRAGMENTS_PROPERTY);
+String quid = modelTree.getRoseId();
+if (i >= start)
+if (genFeature.isResolveProxies() && !genFeature.isListType()) {
+// call workaround
+* This method was included in the public API by mistake.
+None
+newChildDescriptors.add
+NODE_TYPES_WITH_SPECIAL_RANGE.add(ASTNode.BLOCK);
+String instanceClassName = eClassifier.getInstanceClassName();
+int rangeStartPos = compilationUnit.getExtendedStartPosition(node) + compilationUnit.getExtendedLength(node);
+editingDomain = null;
+archiveSeparator = urlString.indexOf("!/", archiveSeparator + 2);
+int index = 0;
+@Override
+if (originalFieldDeclaration.getJavadoc() != null)
+fJava2IANAMap.put("ISO8859_1",    "ISO-8859-1");
+private static int valueOf(char hexDigit)
+}
+for (int i = start, end = specification.indexOf('/', start) - 1; (i = specification.indexOf(':', i)) < end; ++i)
+None
+}
+node.setRemovedASTNode(astNodeToBeRemoved);
+MappingPackage ePackage = MappingPackage.eINSTANCE;
+List<?> typeParameters = (List<?>)scope.eGet(eTypeParameter.eContainmentFeature());
+@SuppressWarnings("unchecked")
+for (int i = 0; i < parameter.getExtraDimensions(); i++)
+@SuppressWarnings("unchecked")
+else if (hasNavigableInverse() && !hasManyInverse())
+public class FeatureMapEntryItemProvider
+InternalEObject proxy =
+private final String authority;
+if (object instanceof ENamedElement)
+return getErrorImage();
+ArrayList<EClassifier> superTypes = new ArrayList<EClassifier>();
+break;
+None
+None
+if (parameter.isVarargs())
+None
+None
+None
+Object result = null;
+private final String device;
+String redirection = getGenerator().getOptions().redirectionPattern;
+{
+javaCoreOptions.put(DefaultCodeFormatterConstants.FORMATTER_ALIGNMENT_FOR_ENUM_CONSTANTS, DefaultCodeFormatterConstants.createAlignmentValue(true, DefaultCodeFormatterConstants.WRAP_ONE_PER_LINE, DefaultCodeFormatterConstants.INDENT_DEFAULT));
+{
+newField.setComment(originalField.getComment());
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+Iterator<JNode> originalChildrenIterator = originalField.getChildren().iterator();
+else if (authority.length() < 1 ||
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+if (parent.remove(astjNode))
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+do
+SimpleAnyType simpleAnyType = (SimpleAnyType)EcoreUtil.create(anySimpleType);
+ASTRewrite rewriter = null;
+if (start < end) {
+listRewrite = rewriter.getListRewrite(originalFieldDeclaration.getParent(), (ChildListPropertyDescriptor)originalFieldDeclaration.getLocationInParent());
+if (commentIndex > 0)
+private String[] getDefaultTemplatePath(GenModel genModel)
+int extendedStartPosition = computeStartOfPrecedingComments(node);
+private static final boolean ENCODE_PLATFORM_RESOURCE_URIS =
+for (JNode child : typeChildren)
+tempOutputStream = new FileOutputStream(tempFile);
+if (hierarchical)
+// if there is nothing between the position and the comment
+else
+if (node instanceof ASTJField)
+commentIndex--;
+return null;
+else
+{
+int extendedEndPosition = computeEndOfTrailingComments(node);
+}
+extendedEndPosition = addWhitespaceAfterPosition(extendedEndPosition);
+char[] contentAsCharArray = contents.toCharArray();
+Composite dialogComposite = (Composite)dialogArea;
+* This adds a listener.
+ASTNode removedASTNode = newNode.getRemovedASTNode();
+if (isCommentedOut)
+if (initializeNeeded)
+int [] counter = new int[1];
+if (isCommentedOut)
+Map<String, List<URI>> allPluginsWithGenModels = new HashMap<String, List<URI>>();
+private static final URICache uriCache = new URICache();
+nodeToBeRemoved(astNodeToBeRemoved);
+}
+if (astNodeToBeRemoved.getParent() != null && astNodeToBeRemoved.getLocationInParent() != null)
+protected boolean validateAsValue = true;
+{
+public boolean isIRI()
+for (String value : values)
+ASTJNode<?> parent = field.getParent();
+for (JNode child : typeChildren)
+field.setNodeProperty(
+int extendedLength = extendedEndPos - extendedStartPos;
+moveChildren(field, enumConstant);
+setEnumConstantArgumentsAndBody(enumConstant, field);
+if (parent.remove(astjNode))
+return;
+if (isWhitespace(position, commentStartPos))
+VariableDeclarationFragment variableDeclarationFragment = ast.newVariableDeclarationFragment();
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+this.workbenchPart = workbenchPart;
+replaceNode(astjEnum, type);
+type.insertSibling(lastFinalFieldUsed, nodeToInsert, false);
+if (originalNode instanceof ASTJEnumConstant)
+astjEnum.remove(originalNode);
+if (variableDeclarationFragment.getInitializer() != null)
+setEnumConstantArgumentsAndBody(enumConstant, field);
+field.setNodeProperty(field.getVariableDeclarationFragment(), classInstanceCreation, VariableDeclarationFragment.INITIALIZER_PROPERTY);
+if (body != null && body.length() > 0)
+if (lastFinalFieldUsed != null)
+field.setListNodeProperty(classInstanceCreation, arguments, ClassInstanceCreation.ARGUMENTS_PROPERTY, ASTNode.SIMPLE_NAME);
+if (fragments.size() > 1)
+return getFacadeHelper().toString(originalFieldDeclaration);
+setASTNode(originalFieldDeclaration);
+// Reuse sub
+ListRewrite listRewrite = rewriter.getListRewrite(originalFieldDeclaration, FieldDeclaration.FRAGMENTS_PROPERTY);
+public static final class  Base64 {
+FieldDeclaration newDeclaration = (FieldDeclaration)ASTNode.copySubtree(originalFieldDeclaration.getAST(), originalFieldDeclaration);
+@SuppressWarnings("unchecked")
+final File tempFile = File.createTempFile("Archive", "zip");
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+++depth;
+Label templateContainerLabel = new Label(containerGroup, SWT.CHECK);
+Composite containerGroup = new Composite(parent, SWT.NONE);
+None
+seenEmptyStringMapping = true;
+public String convertText(String input)
+for (j = i + 1; j < len && j - i < 4; j++)
+public XMLProcessor(URI schemaURI) throws SAXException
+}
+}
+titleLabel = new CLabel(control, SWT.SHADOW_NONE);
+}
+}
+}
+if (!isWhitespace(i + 1, endOfLine))
+}
+if (contentOutlineViewer != null && contentOutlineViewer.getInput() == null)
+if (URI.isArchiveScheme(uri.scheme()))
+}
+if (Boolean.TRUE.equals(options.get(XMLResource.OPTION_USE_LEXICAL_HANDLER)))
+if (manifestURL == null)
+}
+EClass eClass = eObject1.eClass();
+if (object instanceof FeatureMap.Entry)
+}
+getSystemColor(SWT.COLOR_WIDGET_FOREGROUND);
+}
+// Action bar.
+None
+ZipInputStream zipInputStream = inputStream == null ? null : new ZipInputStream(inputStream);
+return getGenModel().getEditPluginClassName();
+None
+if (eGenericType.getEClassifier() == null && eGenericType.getETypeParameter() == null)
+encryptedKeyBytes = transformWithPassword(key.getEncoded(), pbeIV, password, Cipher.ENCRYPT_MODE);
+public String getItemProviderAdapterFactoryClassName()
+List<EEnumLiteral> eLiterals = eEnum.getELiterals();
+None
+outputZipEntry = new ZipEntry(entry);
+}
+protected EClass eStaticClass()
+throw new UnsupportedOperationException();
+return minimumCapacity + (minimumCapacity >> 3) + 2;
+throw new UnsupportedOperationException();
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+}
+None
+}
+None
+ePackage = null;
+None
+None
+if (owner.eIsSet(feature))
+getEExceptions();
+}
+None
+else if (oldResource == null)
+None
+None
+ViewerPane viewerPane =
+for (Iterator<List<?>> treePaths = allTreePaths.iterator(); treePaths.hasNext(); )
+PBEKeySpec pbeKeySpec = new PBEKeySpec(password.toCharArray());
+OutputStream outputStream = tempOutputStream;
+String manifestURI = uri.appendSegments(relativePath).toString();
+}
+public class FeatureMapEntryItemProvider
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+byte[] decryptedKeyBytes = transformWithPassword(encryptedKeyBytes, pbeIV, password, Cipher.DECRYPT_MODE);
+Cipher cipher = Cipher.getInstance(ENCRYPTION_ALGORITHM);
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+byte[] pbeIV = readBytes(PBE_IV_LENGTH, in);
+public class FeatureMapEntryItemProvider
+ASTNode keyNode = getPreviousNode(node);
+if (uriSpecLen == 0) {
+encryptionIV = randomBytes(ENCRYPTION_IV_LENGTH);
+@Override
+key = generateKey(getKeysize());
+public class FeatureMapEntryItemProvider
+createTitleBar();
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+Cipher cipher = Cipher.getInstance(ENCRYPTION_ALGORITHM);
+if (titleLabel == null)
+if (this.key == null)
+if (workspaceRoot != null)
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+}
+{
+* @generated
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+for (int i = 0; i < data.length && canContinue(result); i++)
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+EClassifier eClassifier = eGenericSuperType.getEClassifier();
+}.validate(eDataType, value, diagnostics, context);
+if (((index+1) < uriSpecLen) &&
+keys.add(null);
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+None
+if (eIDAttribute != null && !ExtendedMetaData.INSTANCE.isDocumentRoot(eClass))
+int start = 0;
+actionBar = new ToolBar(control, SWT.FLAT | SWT.WRAP);
+FieldDeclaration newFieldDeclaration =
+private static boolean segmentsRemain(String uri, int i)
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+String path = "";
+Key key = new SecretKeySpec(decryptedKeyBytes, ENCRYPTION_KEY_ALGORITHM);
+public class FeatureMapEntryItemProvider
+public EStructuralFeature.Setting setting(EStructuralFeature feature)
+int i = 0;
+{
+None
+private String[] getTailSegments(URI prefix)
+private static String encodeURI(String uri, boolean ignoreEscaped, int fragmentLocationStyle)
+private static char unescape(char highHexDigit, char lowHexDigit)
+if (m_scheme == null) {
+else if (!isURICharacter(testChar)) {
+private String[] findRelativePath(URI base, boolean preserveRootParents)
+private static void validateURI(boolean hierarchical, String scheme,
+if (eType != otherEType)
+name = uriFragmentSegment;
+int i = 0;
+if (!(eGenericType.getEClassifier() instanceof EClass))
+String name = eEnumLiteral.getName();
+* <TABLE BORDER="0" WIDTH="100%">
+if (diagnostics == null)
+fgLookupTable[';'] |= USERINFO_CHARACTERS;
+if (diagnostics == null)
+}
+if (diagnostics == null)
+if (diagnostics == null)
+if (eLowerBound != null && eUpperBound != null)
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+if (eClassifier == null && eTypeParameter == null)
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+if (diagnostics == null)
+if (eGenericType.getEClassifier() != null || eGenericType.getETypeParameter() != null)
+if (diagnostics == null)
+if (newCount < 1)
+if (msg.getFeature() == ePackage.getComplexTypeConverter_In2out() || msg.getFeature() == ePackage.getComplexTypeConverter_Out2in())
+if (eBoundEClassifier instanceof EClass && eClassifier instanceof EClass)
+control.addListener(SWT.Activate, this);
+if (eBoundEClassifier != eClassifier)
+public void setAnySimpleType(EClass type)
+itemPropertyDescriptors.add
+return
+Map<? extends ETypeParameter, ? extends EGenericType> localSubstitutions = substitutions;
+}
+for (EGenericType eGenericSuperType : eClass.getEGenericSuperTypes())
+EGenericType eUpperBound = eGenericType.getEUpperBound();
+result = new String [unsortedList.size()];
+EList<ETypeParameter> eTypeParameters = eClass.getETypeParameters();
+newDeclaration.fragments().clear();
+boolean result = false;
+ASTNode prevNode = getPreviousNode(node);
+if (eGenericType.getETypeParameter() == null && eGenericType.getEClassifier() == null)
+EGenericType eLowerBound = eGenericType.getELowerBound();
+return isBounded(eBoundELowerBound, eGenericType, substitutions);
+unitTreeBuilder.traverse(qualifier, modelTree, unitTree);
+else if (eClassifier1 != null || eClassifier2 != null)
+if (eClassifier1 != null && eClassifier2 != null)
+createButton(parent, IDialogConstants.OK_ID, IDialogConstants.OK_LABEL, true);
+if (eClassifier != eBoundEClassifier)
+else if (eGenericType1 == null || eGenericType2 == null)
+if (eGenericType1 == eGenericType2)
+ListIterator<Command> commands = commandList.listIterator();
+for (int i = 0; i < size; ++i)
+URLClassLoader theClassLoader =
+None
+for (String key : tree.values())
+@SuppressWarnings("unchecked")
+ExtendedMetaData.INSTANCE.getName(eStructuralFeature);
+return isMatching(eBoundELowerBound, eGenericType, substitutions);
+OuterLoop: for (TreeIterator<Mapping> mappings = treeIterator(); mappings.hasNext(); )
+default:
+return new BasicValidator(containingClass, eStructuralFeature);
+public class FeatureMapEntryItemProvider
+textEditsToRevert.clear();
+if (isGenerated)
+inverseEReference.getEContainingClass().getFeatureCount();
+public static String parseString(String s)
+return (kind & (IS_EOBJECT | IS_ENUM)) == 0;
+if (colonIdx == 0 || (p_base == null && fragmentIdx != 0)) {
+EGenericTypeImpl.eJavaObject = EcorePackage.Literals.EJAVA_OBJECT;
+for (int i = 0; i < arguments.length; i++)
+/**
+}
+throw new RuntimeException(ex);
+if (node.getNodeType() == ASTNode.ENUM_CONSTANT_DECLARATION)
+None
+int commaPosition = nodePosition.getStartPosition() - 1;
+if (node.getNodeType() == ASTNode.ENUM_CONSTANT_DECLARATION)
+for (int i = 0; i < addrLength; i++) {
+int i = 0;
+String fragment = uri.fragment();
+if (testChar == '?') {
+if (commentIndex < commentArray.length)
+createChildMenuManager = new MenuManager(EcoreEditorPlugin.getPlugin().getString("_UI_CreateChild_menu_item"));
+List<Object> identity = new ArrayList<Object>(collection.size());
+objectsBeforeApply.removeAll(objectsAfterApply);
+diagnosticComposite.dispose();
+Color clr1 = disp.getSystemColor(SWT.COLOR_TITLE_BACKGROUND);
+return false;
+None
+editingDomain = new AdapterFactoryEditingDomain(adapterFactory, commandStack, new HashMap<Resource, Boolean>());
+++modCount;
+for (ListIterator<E> i = delegateListIterator(); i.hasNext(); )
+if (declaration instanceof FieldDeclaration)
+int flags = field.getFlags();
+Class<?> containerClass = ExtendedMetaData.INSTANCE.getDocumentRoot(this) == eClass ? null : eClass.getInstanceClass();
+uri = URI.createURI(uri.authority()).trimSegments(1);
+if (data == null)
+int originalMapSize = nameToClassifierMap.size();
+ENotificationImpl notification =
+menuManager.insertBefore("edit", new Separator("open-actions"));
+* This adds a listener.
+if (values == null)
+}
+static Hashtable<String, String> nonxs = null;
+buffer[21] = BASE64_DIGITS[(uuid[15] >> 2) & 0x3F];
+ASTJCompilationUnit compilationUnit = (ASTJCompilationUnit)convertToNode(astCompilationUnit);
+if (eObject1 == null)
+* Returns the specified notifier's existing adapter of the specified type.
+public Wrapper getWrapper()
+private int getStartIndex(String string)
+}
+if (bit == action)
+next();
+if (iterator == resourceSetIterator && !resourceSetIterator.reallyHasNext())
+private static int find(String s, int i, long highBitmask, long lowBitmask)
+return eObject1MappedValue == eObject2;
+CompoundCommand compoundCommand = new CompoundCommand();
+if (eObject2 == null)
+private static final long ALPHA_HI = highBitmask('a', 'z') | highBitmask('A', 'Z');
+if (eObject1 == eObject2)
+None
+for (int i = 0, size = eClass.getFeatureCount(); i < size; ++i)
+put(eObject1, eObject2);
+put(eObject1, eObject2);
+int size = featureMap1.size();
+static final String TRUE = "true";
+return value1.equals(value2);
+if (FeatureMapUtil.isFeatureMap(attribute))
+if (value1 == null)
+// If eObject1 and eObject2 are the same instance...
+if (value2 == null)
+Resource resource = eObject.eResource();
+return true;
+for (int i = 0; i < size; i++)
+return value1 == null ? value2 == null : value1.equals(value2);
+/**
+uuid[8] = (byte)(((clockSequence >> 8) & 0x3F) | 0x80);
+for (int i = 0; i < 6; ++i)
+nodeAddress[0] |= (byte)0x80;
+URI proxyURI = ((InternalEObject)eObject).eProxyURI();
+}
+try
+None
+None
+}
+int counter = 0;
+{
+if (cursor.size < segmentCapacity)
+case Node.ATTRIBUTE_NODE:
+if (temporaryFile != null)
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+Map<String, String> result = new LinkedHashMap<String, String>();
+public String getID(EObject eObject)
+externalURIToLocations = null;
+}
+None
+}
+if (objectsWithGenericTypeList.add(object))
+}
+EObject resolvedEObject = xmlResource.getEObject(proxy.eProxyURI().fragment());
+if (isPessimistic)
+EReference oppositeEReference = eReference.getEOpposite();
+@Override
+public void startDTD(String name, String publicId, String systemId)
+@Override
+if (eReference.isMany() ?
+if (!isEndDocument)
+EObject proxyHolder = (EObject)(eReference.isMany() ? ((List<?>)proxy.eGet(eReference)).get(0) : proxy.eGet(eReference));
+int proxyIndex = holderContents.basicIndexOf(proxy);
+Collection<EPackage> demandedPackages = EcoreUtil.copyAll(extendedMetaData.demandedPackages());
+if (oppositeEReference.isMany())
+public void startEntity(java.lang.String name)
+setFeatureValues(ref);
+//
+List<EObject> oldDeferredExtent = deferredExtent;
+result = extendedMetaData.demandFeature(uri, name, isElement);
+if (extendedMetaData != null && newObject != null)
+EObject peekObject = objects.peek();
+objects.remove(0);
+try
+for (int i = 0; i < 4; ++i)
+None
+if (command != null)
+newObject = peekObject;
+int index = attrib.indexOf(':', 0);
+/*if (extendedMetaData != null && !((EReference)feature).isContainment())
+if (entry.getEStructuralFeature() !=  XMLTypePackage.Literals.XML_TYPE_DOCUMENT_ROOT__TEXT ||
+if (xmlMap != null && (feature = getFeature(peekObject, null, "", true)) != null)
+if (xmlMap != null)
+if (eFactory == null)
+String prefix = null;
+for (Map.Entry<String, Object> entry : packageRegistry.entrySet())
+}
+if (currentContext + 1 == context.length)
+finally
+public EObject create(EClass eClass)
+None
+} // XMLLoad
+parser = pool.get(parserFeatures, parserProperties, Boolean.TRUE.equals(options.get(XMLResource.OPTION_USE_LEXICAL_HANDLER)));
+String namespaceURI = element.getNamespaceURI();
+addNSDeclaration(prefix, uri);
+if (pool != null)
+for (Node parent = element.getParentNode();  parent != null && parent.getNodeType() != Node.DOCUMENT_NODE;  parent = parent.getParentNode())
+try
+SimpleAnyType simpleAnyType = (SimpleAnyType)EcoreUtil.create(anySimpleType);
+protected boolean seenEmptyStringMapping;
+return null;
+None
+None
+EClassifier eType = feature.getEType();
+if (isElement && namespaceURI == null)
+EPackage ePackage;
+nsPrefix = namespaceSupport.getPrefix(nsURI);
+for (EPackage ePackage : packages.keySet())
+prefixesToURIs.put(prefix, uri);
+if (list.isEmpty())
+addNSDeclaration(prefix, uri);
+prefixesToURIs.removeKey(prefix);
+context[++currentContext] = namespaceSize;
+if (namespaceSize == namespace.length)
+for (int i = namespaceSize; i > 0; i -= 2)
+namespace[namespaceSize++] = prefix;
+return null;
+if (features != null)
+return null;
+if (lookup.isEmpty())
+if (handler instanceof DefaultDOMHandlerImpl)
+if (ePackages != null)
+result = getSubstitutionGroup(extendedMetaData, eClassifier.getEPackage(), eContainingClass, eStructuralFeature, eClassifier);
+if (!toDOM)
+None
+if (ePackages != null)
+if (considerSubtypes)
+}
+}
+switch (ch)
+LOOP:
+if (++count > 100000)
+currentNode = document.createElementNS(nameInfo.getNamespaceURI(), nameInfo.getQualifiedName());
+if (!toDOM)
+for (int i = 0; i < elementCount; i++ )
+value[outputPos++] = high;
+if (ch <= mappableLimit)
+return info;
+xmlMap.add(EcorePackage.eINSTANCE.getEClass_EOperations(), createXMLInfo("ownedOperation"));
+Field field = ePackage.getClass().getField("eINSTANCE");
+doc.resetToMark(mark);
+if (note.getFeature() == MappingPackage.eINSTANCE.getMapping_Inputs() ||
+currentNode = document.createElementNS(XMIResource.XMI_URI, XMI_TAG_NS);
+if (lineWidth != Integer.MAX_VALUE)
+if (saveDoctype)
+*  \r should be escaped to &xD;
+}
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+xmlMap.add(EcorePackage.eINSTANCE.getEStructuralFeature_DefaultValueLiteral(), createXMLInfo("default"));
+loadOptions.put(XMLResource.OPTION_EXTENDED_META_DATA, extendedMetaData);
+None
+None
+None
+if (child.getMinLength() == 0)
+None
+if (sourceAbstractType != null && !areCompatible(sourceAbstractType, targetAbstractType))
+None
+None
+break;
+}
+None
+return createName(initialValue);
+None
+buffer.append('\\');
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+None
+None
+if (ch == '\t' || ch == '\n' || ch == '\f' || ch == '\r' || ch == ' ')
+op = op.next;
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+if (!(offset == con.start
+else if (this.firstChar != null) {
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+default:
+throw new RuntimeException("Internal Error: type="+this.type);
+this.fixedString = REUtil.decomposeToSurrogates(this.operations.getData());
+public static String unicodeEscapeEncode(String unicode)
++"/"+REUtil.createOptionString(this.fixedStringOptions));
+if (this.fixedString != null) {
+int getData() {                             // CharOp  for CHAR, BACKREFERENCE, CAPTURE, ANCHOR,
+public ParseException(String mes, int location) {
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+if (ch == '_')  return true;
+throw new RuntimeException("Internal Error: type="+this.type);
+result[wp++] = this.ranges[src++];
+/*0C00..0C7F;*/ "Telugu",
+ViewerPane viewerPane =
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+if (src2begin <= src2begin && src1end <= src2end) {
+// Reuse sub
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+result[wp++] = this.ranges[src++];
+// src:          o-----o
+throw new RuntimeException("Internal Error: type="+this.type);
+// src2:  o------------o
+src1 += 2;
+// sub:         o-----o
+} else {
+return 0;
+for (int i = offset; --i >= 0;)
+switch (ch) {
+resource = editingDomain.getResourceSet().getResource(resourceURI, true);
+boolean positive = c == 'p';
+}
+tok = Token.token_dot;
+default:
+if (resource.getContents().isEmpty())
+None
+this.offset --;
+}
+this.next();
+if (this.offset+1 >= this.regexlen)  throw ex("parser.factor.4", this.offset);
+int refno = -1;
+None
+this.offset ++;
+while (off < this.regexlen
+javaCoreOptions.put(DefaultCodeFormatterConstants.FORMATTER_BLANK_LINES_BEFORE_FIELD, "1");
+int min = 0, max = -1;
+Resource r = mappingRoot.eResource();
+return eSetVirtualValue(index, value);
+/*0B80..0BFF;*/ "Tamil",
+if (ePackage != null)
+default:
+if (uri != null && eClassifiers != null)
+None
+}
+file.refreshLocal(1, monitor);
+/*2100..214F;*/ "Letterlike Symbols",
+} else {
+ret = -1;
+return this.getMax() * this.getChild(0).getMaxLength();
+private static final String[] blockNames = {
+ViewerPane viewerPane =
+if (pullRule.getEqualityFeature() != null)
+None
+/*0300..036F;*/ "Combining Diacritical Marks",
+for (Object object : eContents())
+break;
+None
+Resource resource = resourceSet.createResource(fileURI);
+public void selectionChanged(SelectionChangedEvent selectionChangedEvent)
+/*0D00..0D7F;*/ "Malayalam",
+/*0C80..0CFF;*/ "Kannada",
+getContainer().addControlListener
+/*0F00..0FFF;*/ "Tibetan",
+/*0E00..0E7F;*/ "Thai",
+/*0E80..0EFF;*/ "Lao",
+/*1000..109F;*/ "Myanmar",
+/*1400..167F;*/ "Unified Canadian Aboriginal Syllabics",
+/*20D0..20FF;*/ "Combining Marks for Symbols",
+/*2000..206F;*/ "General Punctuation",
+/*1F00..1FFF;*/ "Greek Extended",
+/*2F00..2FDF;*/ "Kangxi Radicals",
+LOOP:
+sourceCompilationUnit = createCompilationUnitForURI(sourceURI);
+editingDomain.getCommandStack().execute
+/*2600..26FF;*/ "Miscellaneous Symbols",
+return
+eGenericType.getELowerBound() != null ?
+edits.apply(targetDoc);
+@Override
+None
+None
+None
+TextEdit additionalEdits = null;
+/*2FF0..2FFF;*/ "Ideographic Description Characters",
+ArrayList<String> keys = new ArrayList<String>();
+if (deferredExtent != null)
+/*3200..32FF;*/ "Enclosed CJK Letters and Months",
+InsertEdit existingEdit = addedInsertEdits.get(lineBreakEdit.getOffset());
+/*3100..312F;*/ "Bopomofo",
+/*FF00..FFEF;*/ "Halfwidth and Fullwidth Forms",
+/*E000..F8FF;*/ "Private Use",
+Object mark;
+/*FE70..FEFE;*/ "Arabic Presentation Forms-B",
+/*AC00..D7A3;*/ "Hangul Syllables",
+/*A000..A48F;*/ "Yi Syllables",
+/*FE50..FE6F;*/ "Small Form Variants",
+ReplaceEdit dummyEdit = new ReplaceEdit(nodePosition.getStartPosition() + 1, 0, "");
+/*FB00..FB4F;*/ "Alphabetic Presentation Forms",
+/*F900..FAFF;*/ "CJK Compatibility Ideographs",
+/*FE30..FE4F;*/ "CJK Compatibility Forms",
+/*FB50..FDFF;*/ "Arabic Presentation Forms-A",
+/*E0000..E007F;*/ "Tags",
+/*1D400..1D7FF;*/ "Mathematical Alphanumeric Symbols",
+/*1D100..1D1FF;*/ "Musical Symbols",
+//missing 2 private use add manually
+ranges[Character.UNASSIGNED].addRange(0x10000, Token.UTF16_MAX);
+if (this.selection.size() == 1)
+};
+}
+base_char.mergeRanges(Token.getRange("ASSIGNED", true));
+childrenOfThisFeature.add(o);
+if (currentViewerPane != null)
+CommandParameter oldCommandParameter = commandParameter;
+None
+if (base != null)
+None
+if (tok.type == CONCAT)
+left.addChild(base_char);
+buffer = new StringBuffer(2 + nextMaxLength);
+(">   " + eStructuralFeature.getEContainingClass().getName() + "." + eStructuralFeature.getName() +
+case 't':  c = '\t';  break; // HORIZONTAL TABULATION U+0009
+None
+case 'r':  c = '\r';  break; // CRRIAGE RETURN U+000D
+if (this.read() != T_CHAR || this.chardata != '-') { // Here is no '-'.
+tok.addRange(c, c);
+tok.addRange(c, c);
+if (type == T_CHAR && this.chardata == ']')
+default:
+//case 'v':  c = 0x0b;  break; // VERTICAL TABULATION U+000B
+return;
+this.next(); // Skips '-'
+into.put(name, value);
+EClass metaObject = owner.eClass();
+if (!initializeAuthority(uriSpec.substring(startPos, index))) {
+if (eGenericType.getETypeParameter() == null)
+result.append(getTypeArgument(context, eGenericType, isImported, isErased));
+ranges[i].addRange(0x10000, Token.UTF16_MAX);
+if (arrayIndices != null)
+b3 = base64Alphabet[ d3 ];
+result.append(isImported ? getGenModel().getImportedName(instanceTypeName) : instanceTypeName);
+if (i == 0x00AB || i == 0x2018 || i == 0x201B || i == 0x201C ||
+/*FEFF..FEFF;*/ "Specials",
+if (address.startsWith("[")) {
+/*0B00..0B7F;*/ "Oriya",
+Resource resource = resourceSet.getResource(uri, true);
+None
+titleLabel.update();
+if (source == null)
+fIANA2JavaMap.put("IBM-37",    "CP037");
+if (fewerThan24bits == EIGHTBIT) {
+if (binaryData == null)
+}
+int len = removeWhiteSpace(base64Data);
+fIANA2JavaMap.put("WINDOWS-1250",   "Cp1250");
+int x = paddingWidth == 0 ? 3 : paddingWidth;
+int newSize = 0;
+b3 = base64Alphabet[ d3 ];
+fJava2IANAMap.put("CP1047",    "IBM1047");
+* @author Sandy Gao
+if (command == null || command == UnexecutableCommand.INSTANCE)
+titleLabel.addMouseListener
+for (int i = 'A'; i <= 'F'; ++i) {
+return (m_host != null);
+for (int i = '0'; i <= '9'; ++i) {
+private static final int RESERVED_CHARACTERS = 0x01;
+// add Java to IANA encoding mappings
+/**********************************************************************
+* Adds an IANA to Java encoding name mapping.
+newASTJNode.setRewriter(contextNode.getRewriter());
+fgLookupTable[';'] |= PATH_CHARACTERS;
+fgLookupTable['+'] |= SCHEME_CHARACTERS;
+fgLookupTable[';'] |= RESERVED_CHARACTERS;
+fgLookupTable['-'] |= MARK_CHARACTERS;
+}
+char testChar = '\0';
+commentIndex = -(commentIndex) - 1;
+if (basePath != null && basePath.length() > 0) {
+if (m_path.length() > 0 &&
+max = -1;
+if (p_uriSpec.indexOf('@', start) != -1) {
+index = -1;
+}
+path = path.concat(m_path);
+if (hasPort) {
+if (path.endsWith("/.")) {
+String host = null;
+int index = 0;
+if (!isWellFormedAddress(host)) {
+if (userinfo != null) {
+this.next();
+if (((index+1) < uriSpecLen) &&
+while (index < end) {
+if (testChar == '#') {
+else if (++numDigits > 3) {
+// RFC 2396 states that hostnames take the form described in
+/** Character flags. */
+else if (++labelCharCount > 63) {
+char testChar;
+else {
+if (!(addrLength > 2 && address.charAt(0) == '['
+CHARS[38] = 1;
+else if (numDigits == 3) {
+else if (index == end) {
+CHARS[1743] = 33;
+index = scanHexSequence(address, index, end, counter);
+return;
+if (index == end) {
+int prevCount = counter[0];
+if (numDigits == 0 || ((index+1 < end) && address.charAt(index+1) == ':')) {
+private static boolean gNeedEscaping[] = new boolean[128];
+else if (++numDigits > 4) {
+if (buffer.length() != len)
+if (!isGTK())
+int i = 0;
+None
+None
+CHARS[383] = 33;
+None
+None
+return;
+MappingPackage ePackage = MappingPackage.eINSTANCE;
+CHARS[930] = 33;
+CHARS[58] = 61;
+CHARS[975] = 33;
+List<GenClass> result =
+None
+None
+if (extendsClass != null && !rootImplementsInterface.equals(extendsClass.getGenModel().getRootImplementsInterface()))
+CHARS[1037] = 33;
+if (start > limit || specification.charAt(start) == '/')
+CHARS[1104] = 33;
+CHARS[247] = 33;
+Arrays.fill(CHARS, 497, 500, (byte) 33 ); // Fill 3 of value (byte) 33
+return new InsertEdit(i, createLineBreakString(lineInfo.getOffset(), false));
+CHARS[1466] = 33;
+case Resource.RESOURCE__CONTENTS:
+None
+return node.getNodeType() != ASTNode.ENUM_CONSTANT_DECLARATION && !nodesWithDefaultRange.contains(node);
+CHARS[1748] = 33;
+None
+return;
+return;
+fixForGC(itemBounds);
+if (shouldHaveExtendedRange(node))
+None
+}
+None
+Arrays.fill(CHARS, 1619, 1632, (byte) 33 ); // Fill 13 of value (byte) 33
+None
+None
+None
+CHARS[2473] = 33;
+None
+None
+None
+None
+None
+CHARS[329] = 33;
+final ZipFile zipFile = new ZipFile(nestedURL.substring(5));
+None
+for (Object owner : getOwners())
+//
+None
+}
+ZipEntry zipEntry = zipInputStream.getNextEntry();
+None
+List<EClass> superTypes = getEcoreClass().getESuperTypes();
+CHARS[93] = 1;
+int i = allBases.indexOf(baseGenClass) + 1;
+itemPropertyDescriptors.add
+if (ch == '\\' && offset < len) {
+InputStream inputStream = null;
+final GenFeature mixed = getMixedGenFeature();
+None
+result.addAll(collectGenFeatures(getProviderImplementedGenClasses(), null,
+None
+Command command = commands.next();
+Arrays.fill(CHARS, 192, 215, (byte) -19 ); // Fill 23 of value (byte) -19
+/**
+Arrays.fill(CHARS, 506, 536, (byte) -19 ); // Fill 30 of value (byte) -19
+CHARS[4510] = -19;
+None
+Arrays.fill(CHARS, 461, 497, (byte) -19 ); // Fill 36 of value (byte) -19
+commands.previous();
+itemPropertyDescriptors.add
+/**
+return isExecutable ? feedback : FEEDBACK_SELECT;
+/**
+if (saveIndex >= top)
+None
+/**
+None
+/**
+boolean result =
+/**
+@SuppressWarnings("unchecked")
+/**
+/**
+* Check to see if a string is a valid Name according to [5]
+/*
+* Check to see if a string is a valid Nmtoken according to [7]
+* Check to see if a string is a valid NCName according to [4]
+if (location <= 0.50)
+public static final short LESS_THAN     = -1;
+public static class TypeValidator {
+}
+if (getGenParameters().isEmpty() &&
+this.initializer = initializer;
+for (int i = 0; i < count; ++i)
+rewriter.setTargetSourceRangeComputer(new CommentAwareSourceRangeComputer(astCompilationUnit, contents));
+if (eGenericType.getETypeParameter() != null)
+return;
+commandParameter.collection = (Collection<?>)substituteMappedObject((Mapping)object, commandParameter.getCollection());
+public static final int getDigit(char ch) {
+None
+if (eReference.getEOpposite() != null)
+index = 1;
+result.append(HEX_DIGITS[(b >> 4) & 0x0F]);
+Composite buttonComposite = new Composite(composite, SWT.NONE);
+String modelDirectory = genModel.getModelDirectory();
+if (mappingDomain.getMappingRoot().isInputObject(selectedElement) ||
+Object [] selectedElementChildren = mappingDomain.getChildren(selectedElement).toArray();
+None
+private final int hashCode;
+for (Iterator<IClasspathEntry> i = classpathEntries.iterator(); i.hasNext(); )
+if (ch == '=' || ch == endTagFinalChar || ch == '"' || ch == '\'' || ch == '/')
+None
+TableColumn objectColumn = new TableColumn(table, SWT.NONE);
+private static final Set<String> archiveSchemes;
+private static final String SEGMENT_EMPTY = "";
+@SuppressWarnings("deprecation")
+String contents = compilationUnit.getContents();
+if (current != 0 && (begin <= current || string.charAt(begin - 1) == ';'))
+for (int i = begin - 1; i >= current; --i)
+private static long highBitmask(String chars)
+result = false;
+uri = URI.createURI(uri.authority()).trimSegments(1);
+uriWithoutFragmentToString = URI.decode(uriWithoutFragmentToString);
+int archiveSeparator = specification.indexOf("!/", start);
+archiveSeparator = specification.indexOf("!/", archiveSeparator + 2);
+for (int i = start, end = urlString.indexOf("/") - 1; (i = urlString.indexOf(":", i)) < end; )
+start = ++i;
+String nestedURL = getNestedURL();
+int archiveSeparator = urlString.indexOf(nestedURL) + nestedURL.length();
+/*10300..1032F;*/ "Old Italic",   // 84
+InputStream inputStream;
+inputStream =  createInputStream(nestedURL);
+String entry =
+archiveSeparator = nextArchiveSeparator;
+LOOP:
+String entry =
+ZipInputStream zipInputStream = new ZipInputStream(inputStream);
+archiveSeparator = nextArchiveSeparator;
+final String nestedURL = getNestedURL();
+InputStream sourceInputStream =  null;
+ZipOutputStream zipOutputStream;
+final byte [] bytes = new byte [4096];
+String entry =
+zipOutputStream = null;
+while (zipInputStream != null && zipInputStream.available() >= 0)
+if (timeStamp != -1 && match && nextArchiveSeparator < 0)
+archiveSeparator = nextArchiveSeparator;
+if (value == null) return "null";
+outputZipEntry = null;
+tempOutputStream = null;
+ecoreToXMLInfo.put(element, result);
+final boolean deleteRequired = sourceInputStream != null;
+if (!isClosed)
+super.close();
+if (inputStream != null)
+if (tempOutputStream != null)
+if (sourceInputStream != null)
+if (commands.hasNext())
+for (;;)
+if (literal == null) return "null";
+// sub:  o------------o
+if (location >= 0.5)
+isUndoable = command.canUndo();
+result = false;
+commands.previous();
+while (commands.hasPrevious())
+while (commands.hasPrevious())
+for (Iterator<Command> commands = commandList.listIterator(top + 1); commands.hasNext(); commands.remove())
+if (containsExact(collection, ownedObject))
+}
+None
+int firstTrailingCommentIndex = findFirstCommentInRangeIndex(position, Integer.MAX_VALUE);
+ASTNode newASTNode = rewriter.createStringPlaceholder(contents, originalASTNode.getNodeType());
+saveIndex = -2;
+if (saveIndex < -1)
+for (Iterator<Command> commands = commandList.listIterator(); commands.hasNext(); commands.remove())
+}
+saveIndex = top;
+boolean result = false;
+//return value == null || validate(value, URIC_HI, URIC_LO, true, true);
+List<GeneratorData> childrenData = getGeneratorData(object, projectType, forGenerate, true, false, objects);
+String result = getBasePackageGen();
+None
+MappingPackage ePackage = MappingPackage.eINSTANCE;
+None
+if (nameToClassifierMap == null)
+while (commands.hasNext())
+isPrepared = true;
+BasicEList<Object> list = new BasicEList<Object>(collection);
+for (int i = 0; i < preIndex; i++)
+EStructuralFeature feature = eClass.getEStructuralFeature(i);
+else if (eReference.getEOpposite() != null)
+if (!removedValues.equals(oldValues))
+List<Object> remainingValues = new BasicEList.FastCompare<Object>(oldValues);
+if (!removedValues.isEmpty())
+LOOP:
+if (eMetaObject.getEAllStructuralFeatures().contains(feature))
+else if (feature == EcorePackage.Literals.ETYPED_ELEMENT__ETYPE)
+Command addCommand =
+dropCommand = AddCommand.create(domain, parent, null, collection, index);
+EClass eMetaObject = owner.eClass();
+Command removeCommand = RemoveCommand.create(domain, oldValue, eOtherEnd, Collections.singleton(owner));
+if (diagnostics == null)
+return domain.createCommand(SetCommand.class, new CommandParameter(owner, eReference, value));
+((ASTJNode<?>)annotation).setParent(this);
+if (owner != null)
+CompoundCommand compound = new CompoundCommand(CompoundCommand.LAST_COMMAND_ALL, LABEL, DESCRIPTION);
+return addCommand;
+return
+compound.append(domain.createCommand(SetCommand.class, new CommandParameter(value, eOtherEnd, null)));
+if (result && feature instanceof EReference && ((EReference)feature).isContainment())
+reset();
+newAbsolutePath = base.hasAbsolutePath();
+EClassifier eType = feature.getEType();
+List<GenFeature> getAllGenFeatures(); // Includes features in other packages that delegate to those in this one.
+if (value instanceof Collection)
+if (count > 0)
+None
+if (ownerList != null)
+copy.eSet(reference, null);
+if (location <= 0.20)
+@Override
+if (ownerList != null)
+affectedObjects = owner == null ? Collections.EMPTY_SET : Collections.singleton(owner);
+if (feature.isUnique() && ownerList.contains(object))
+if (!feature.getEType().isInstance(object))
+for (Object object : collection)
+int i = index != CommandParameter.NO_INDEX ? index : ownerList.size() - collection.size();
+result = prepareDropInsert();
+if (reverseReference != null)
+protected Notifier notifier;
+if (location <= 0.20 || location >= 0.80)
+String getModelProjectDirectory();
+if (owner != null && collection != null && operations != DROP_NONE && operation != DROP_NONE)
+boolean result = false;
+for (EObject child : object.eContents())
+switch (operation)
+feedback = location < 0.5 ? FEEDBACK_INSERT_BEFORE : FEEDBACK_INSERT_AFTER;
+lowerLocationBound = 0.0F;
+// If we can do a drop on operation.
+reset();
+result = prepareDropOn();
+switch (operation)
+if (child == owner)
+Object parent = getParent(owner);
+else if (children.containsAll(collection))
+String genModelName = arguments[index++];
+dropCommand = AddCommand.create(domain, parent, null, dragCommand.getResult(), index);
+dragCommand = CopyCommand.create(domain, collection);
+if (collection.contains(owner))
+dropCommand = AddCommand.create(domain, parent, null, collection, index);
+None
+boolean result =
+if (!dropCommand.canExecute() && collection.size() == 1)
+ownerList.add(index, value);
+return canExecute();
+reset();
+lowerLocationBound = 0.2F;
+if (owner != this.owner ||
+isPrepared = false;
+}
+ownerList.removeAll(collection);
+return isExecutable ? operation : DROP_NONE;
+return isExecutable;
+ownerList.addAll(index, collection);
+for (Object replacement : collection)
+return true;
+None
+if (location <= 0.20)
+affectedObjects = Collections.singleton(value);
+this.owner = owner;
+command = new StrictCompoundCommand();
+if (command.canExecute())
+result = command.canExecute();
+final Command copyCommand = CopyCommand.create(domain, domain.getClipboard());
+result = optimizedCanExecute();
+command.append
+identityIndices[i++] = ownedObjects.previousIndex();
+collection.remove(ownedObject);
+return new URI(true, base.scheme(), newAuthority, newDevice,
+removeExact(collection, ownedObject);
+if (objects2.isEmpty())
+affectedObjects = owner == null ? Collections.EMPTY_SET : Collections.singleton(owner);
+merge(identity, identityIndices, equality, equalityIndices);
+Iterator<Object> iter1 = objects1.iterator();
+int size = objects1.size() + objects2.size();
+List<Object> equality = new ArrayList<Object>(collection.size());
+control = new ViewForm(parent, SWT.NONE);
+boolean result = super.prepare();
+CompoundCommand createCommand = new CompoundCommand(0);
+if (!this.appendIfCanExecute(initializeCopyCommand))
+if (copyHelper.decrementDeferredInitializationCount() == 0)
+else if (object != null)
+result = super.canExecute();
+Command createCopyCommand = CreateCopyCommand.create(domain, object, copyHelper);
+if (commandClass == RemoveCommand.class)
+Object owner = commandParameter.getOwner();
+IEditingDomainItemProvider editingDomainItemProvider =
+if (workbenchPart instanceof IEditingDomainProvider)
+None
+if (!oldDelegateChildren.isEmpty())
+None
+Bundle xsd2ecorePlugin = Platform.getBundle("org.eclipse.emf.mapping.xsd2ecore");
+ListIterator<Object> remainingObjects = objects.listIterator();
+None
+None
+Object object = remainingObjects.next();
+Object otherObject = remainingObjects.next();
+None
+removeCommand.append(createCommand(RemoveCommand.class, new CommandParameter(parent, null, siblings)));
+remainingObjects.remove();
+/**
+if (object == null)
+return null;
+if (changed)
+XMLResource.URIHandler uriHandler =
+Class<?> objectClass = object.getClass();
+if (super.canExecute())
+if (useAdditionalWrappers && additionalWrappers != null)
+private static void appendEscaped(StringBuffer result, byte b)
+if (list != null && list.size() > 0)
+None
+Object result = null;
+Object result = null;
+IItemFontProvider itemFontProvider = (IItemFontProvider)adapterFactory.adapt(object, IItemFontProvider.class);
+* @return whether <code>eObject1</code> and <code>eObject2</code> are equal.
+/**
+for (EStructuralFeature eStructuralFeature : getSetFeatures(object))
+if (getEntryFeature().getEType().isInstance(value))
+None
+//return value;
+MappingPackage ePackage = MappingPackage.eINSTANCE;
+List<?> list = (List<?>)result;
+for (int i = 0, size = list.size(); i < size; ++i)
+return resourceSet.getResources();
+EStructuralFeature oldFeature = getChildReference(object, child);
+if (feature instanceof EReference)
+if (isValidValue(object, child, eReference))
+int index = ((Integer)super.doGetValue()).intValue();
+Collection<? extends EStructuralFeature> childrenFeatures = getAnyChildrenFeatures(object);
+MappingPackage ePackage = MappingPackage.eINSTANCE;
+None
+if (adapterFactory instanceof IChildCreationExtender)
+int index = list.indexOf(value);
+Collection<Object> newChildDescriptors = new ArrayList<Object>();
+InputStream inputStream =  new URL(uri.appendSegment("plugin.properties").toString()).openStream();
+DESCRIPTORS_LOOP:
+if ((style & ~(SWT.MULTI | SWT.SINGLE | SWT.OPEN | SWT.SAVE)) != 0)
+None
+if ((style & SWT.MULTI) == 0 && (style & SWT.SINGLE) == 0)
+None
+// commentIndex is the index of the first element with end position > rangeEndPos
+if (siblingFeatureIndex != -1)
+for (EStructuralFeature feature : getAnyChildrenFeatures(eObject))
+if (i > siblingFeatureIndex)
+public boolean canFinish()
+String markup = dictionaryPattern.getName();
+if (getChildFeature(eObject, child) == childFeature)
+Display display = tableItem.getDisplay();
+if (value.contains(o))
+Object getHelpContextIds(Object object);
+for (Iterator i = set.getResources().iterator(); i.hasNext(); )
+if (list.isEmpty())
+Command setCommand = createSetCommand(domain, eObject, feature, null);
+final Object value = getFeatureValue(eObject, feature);
+while (children.hasNext())
+None
+if (index != CommandParameter.NO_INDEX)
+addCommand.append(createAddCommand(domain, eObject, childFeature, childrenOfThisFeature, index));
+for (EStructuralFeature feature : getAnyChildrenFeatures(eObject))
+addCommand.append(createAddCommand(domain, eObject, childFeature, childrenOfThisFeature, index));
+}
+if (wrappers != null)
+if (this.target != null)
+None
+((Action)action).setEnabled(command.canExecute());
+if (eClassifier instanceof EClass && eStructuralFeature instanceof EAttribute)
+implements
+Object oldValue = commandParameter.getValue();
+AdapterFactory af = adapterFactory instanceof ComposeableAdapterFactory ?
+if (newCollection != null)
+ASTRewrite rewriter = new ASTRewriteWithRemove(astCompilationUnit.getAST());
+None
+command = createActionCommand(editingDomain, collection);
+Rectangle sourceBounds = image.getBounds();
+if (firstTableTreeItem != null && isIndenting())
+// Applicable only to a hierarchical URI.
+boolean label = feature == getLabelFeature(eClass);
+case Resource.RESOURCE__ERRORS:
+boolean child =
+gatherAllMetaData((EObject)object);
+child |=
+for (Object o : resource.getContents())
+List<EObject> contents = ((Resource)object).getContents();
+return childrenFeatures;
+None
+None
+None
+if (editingDomain != null)
+None
+if (editingDomain != null && command != null)
+if (selection instanceof IStructuredSelection)
+if (workbenchPart != null)
+newChildDescriptors.add
+editingDomain.getCommandStack().execute(command);
+None
+command = null;
+((Action)action).setEnabled(false);
+event.gc.setBackground(display.getSystemColor(SWT.COLOR_LIST_BACKGROUND));
+if (!(selection instanceof IStructuredSelection))
+menuManager.add(new ActionContributionItem(undoAction));
+if (workbenchPart instanceof IEditingDomainProvider)
+if (getDefaultImageDescriptor() != null)
+if (editingDomain != null)
+IStructuredSelection sselection = (IStructuredSelection) selection;
+newCollection = new ArrayList<Object>(oldCollection.size());
+if (editingDomain == null)
+if ((style & ADDITIONS_LAST_STYLE) == 0)
+if (newValue != oldValue && newCollection == null)
+editingDomain.getCommandStack().execute(command);
+MappingPackage ePackage = MappingPackage.eINSTANCE;
+int style = multiLine ?
+originalOperation = event.detail;
+if (!delegated.isEmpty())
+minimumWidth = Math.max(50, treeItem.getBounds().width);
+MappingPackage ePackage = MappingPackage.eINSTANCE;
+menuManager.add(new Separator("additions-end"));
+source = null;
+EcoreUtil.resolveAll(domain.getResourceSet());
+final Collection<List<?>> allTreePaths = new ArrayList<List<?>>();
+dropDown.addListener(SWT.Deactivate, dropDownListener);
+// supportedTypes.add(IUpdateableItemText.class);
+}
+@Override
+@Override
+int x = paddingWidth == 0 ? 3 : paddingWidth;
+if (hasLaunched || hasDropDown)
+event.gc.setForeground(display.getSystemColor(SWT.COLOR_DARK_GRAY));
+if (hasDropDown)
+int boxX = itemBounds.width - itemBounds.height;
+* @see org.eclipse.emf.mapping.action.AddRootTopAction#getTopsToAdd()
+if (mapping.getEffectiveHelper() != null)
+domain.getCommandStack().execute(command);
+valid = ((DragAndDropFeedback)command).validate(target, location, event.operations, originalOperation, source);
+if (text != null)
+if (command.canExecute())
+if (dragAndDropCommandInformation != null)
+event.feedback = DND.FEEDBACK_SELECT | getAutoFeedback();
+if (mapping.getTypeMapping() != null)
+command = null;
+event.detail = DND.DROP_NONE;
+None
+command = dragAndDropCommandInformation.createCommand();
+if (target == commandTarget && command instanceof DragAndDropFeedback)
+Notification.SET,
+Composite composite = (Composite) super.createDialogArea(parent);
+commandTarget = target;
+dragAndDropCommandInformation = new DragAndDropCommandInformation(domain, target, location, event.operations, originalOperation, source);
+if (outputFilePath.endsWith("/META-INF/MANIFEST.MF") && exists(targetFile.trimSegments(2).appendSegment("plugin.xml")))
+if (command == null)
+if (command instanceof DragAndDropFeedback)
+None
+dragAndDropCommandInformation = new DragAndDropCommandInformation(domain, target, location, event.operations, originalOperation, source);
+DragAndDropFeedback dragAndDropFeedback = (DragAndDropFeedback)command;
+None
+if (object instanceof IStructuredSelection)
+LocalTransfer localTransfer = LocalTransfer.getInstance();
+Object object = localTransfer.nativeToJava(event.currentDataType);
+TransferData [] dataTypes = event.dataTypes;
+this.viewer = viewer;
+IJavaProject javaProject = JavaCore.create(project);
+default:
+if (currentViewerPane.getViewer().getInput() != selectedElement)
+{
+if (compatibility && notification.getEventType() == Notification.RESOLVE) return;
+break;
+return bit != 0 ? result : ~result;
+if (referencedEPackages != null && !referencedEPackages.isEmpty())
+for (int index = result.indexOf("*/"); index != -1; index = result.indexOf("*/", index))
+basicSetInstanceClassName(newInstanceClassName);
+for (GenPackage genPackage : getUsedGenPackages())
+private static final long MAJOR_SEPARATOR_HI = highBitmask(":/?#");
+List<IProject> referencedProjects = new ArrayList<IProject>(referencedModelProjects);
+List<IProject> referencedModelProjects = new ArrayList<IProject>();
+None
+createResource(eNS_URI);
+}
+public static final String GENANNOTATION_SOURCE_SELECTED_EPACKAGES = "selectedPackages";
+if (genModelFullPath == null)
+}
+for (GenPackage genPackage : getGenModel().getUsedGenPackages())
+createResource(eNS_URI);
+getGenModel().initialize(ePackages);
+for (Map.Entry<EPackage, Map<Object, Integer>> entry : ePackageToOrderingMap.entrySet())
+for (Iterator<EObject> j = ePackage.eAllContents(); j.hasNext();)
+int i = baseName.indexOf('[');
+EReference eReference = (EReference)element;
+for (EPackage ePackage : packageNameToEPackageMap.values())
+for (Map.Entry<EReference, String> entry : eReferenceToOppositeNameMap.entrySet())
+getGenModel().reconcile(getOriginalGenModel());
+for (Map.Entry<EReference, List<String>> entry : eReferenceToKeyNamesMap.entrySet())
+Collection<Object> copyChildren = new ArrayList<Object>();
+allReferencedPluginIDs.retainAll(allPluginsWithGenModels.keySet());
+List<String> allReferencedPluginIDs = new UniqueEList<String>();
+ManifestElement element = elements[j];
+ePackage = EcoreFactory.eINSTANCE.createEPackage();
+// If not, it might be a package interface, for backwards compatibility.
+match(eClass.getEGenericSuperTypes(), javaEGenericSuperTypes, ecoreEGenericSuperTypes);
+}
+List<EGenericType> javaEGenericSuperTypes = new ArrayList<EGenericType>();
+break;
+String modelAnnotation = getModelAnnotation(type.getComment());
+EPackage ePackage = getEPackage(type);
+if ("package".equals(kind))
+String features = getModelAnnotationAttribute(modelAnnotation, "features");
+for (JMethod method : facadeHelper.getChildren(type, JMethod.class))
+}
+else
+EEnum eEnum = EcoreFactory.eINSTANCE.createEEnum();
+@Override
+StringTokenizer stringTokenizer = new StringTokenizer(parameters == null ? "" : parameters);
+featureName = CodeGenUtil.uncapName(methodName.substring(2));
+processToTheEnd(currentLine, lineCounter);
+featureName = CodeGenUtil.uncapName(methodName.substring(3));
+EEnum eEnum = EcoreFactory.eINSTANCE.createEEnum();
+String key = name.replace("_", "").toLowerCase();
+eAttribute.setUnsettable("true".equals(getModelAnnotationAttribute(modelAnnotation, "unsettable")));
+List<EGenericType> ecoreEGenericExceptions = new ArrayList<EGenericType>();
+EStructuralFeature eStructuralFeature = null;
+eReference.setContainment
+String opposite = getModelAnnotationAttribute(modelAnnotation, "opposite");
+EcoreUtil.setSuppressedVisibility
+eTypedElement.getEAnnotations().addAll(extractEAnnotations(modelAnnotation));
+eStructuralFeature.setChangeable(!"false".equals(getModelAnnotationAttribute(modelAnnotation, "changeable")));
+for (EObject eObject = eModelElement; eObject != null; eObject = eObject.eContainer())
+String literal = getModelAnnotationAttribute(modelAnnotation, "literal");
+if (modelType != null)
+}
+String value = getModelAnnotationAttribute(modelAnnotation, "value");
+EGenericType eGenericType = null;
+private static long lowBitmask(char from, char to)
+if (name == null || !CodeGenUtil.format(name, '_', null, false, true).toUpperCase().equals(fieldName))
+private static long lowBitmask(char from, char to)
+String name = getModelAnnotationAttribute(modelAnnotation, "name");
+private static long lowBitmask(String chars)
+if (eGenericType == null && "".equals(packageName))
+protected Map<EModelElement, RoseNode> eModelElementToRoseNodeMap = new HashMap<EModelElement, RoseNode>();
+boolean firstWildcard = true;
+featureTable = new Lookup(map, extendedMetaData, elementHandler);
+if (eGenericType == null)
+packageName = baseName.substring(0, index);
+ResourceSet resourceSet = new ResourceSetImpl();
+String qualifiedName = objName;
+String modifiedName = typeName.replace('$', '.');
+RoseNode fileNameNode = tree.findNodeWithKey(RoseStrings.FILE_NAME);
+finally
+private static boolean matches(char c, long highBitmask, long lowBitmask)
+if (eGenericType == null)
+if (eGenericType == null &&
+private static String[] fix(String[] segments)
+for (Diagnostic child : diagnostic.getChildren())
+String quid = unitNode.getQUID();
+for (int j = 1; ePackage.getEClassifier(name) != null; ++j)
+while (name.endsWith("[]"))
+RoseNode currentNode = roseNode;
+String name = baseName;
+((EPackage)parent).getESubpackages().add(ePackage);
+if (roseNode.isLoaded())
+markedUp = false;
+EDataType eDataType = EcoreFactory.eINSTANCE.createEDataType();
+if (parent instanceof EEnum)
+EParameter eParameter = EcoreFactory.eINSTANCE.createEParameter();
+((EClass)parent).getEOperations().add(eOperation);
+EOperation eOperation = EcoreFactory.eINSTANCE.createEOperation();
+result.append(isImported ? getGenModel().getImportedName("java.lang.Object") : "java.lang.Object");
+* Returns <code>true</code> if the specified <code>value</code> would be
+if (roseNode.getContainment() != null)
+//if (value == null) return true;
+processToTheEnd(currentLine, lineCounter);
+ResourceSet resourceSet = editingDomain.getResourceSet();
+if (null == type || type.length() == 0 || "void".equals(type))
+if (qualifiedType.indexOf('.') == -1 && eModelElement != null)
+stringBuffer.append(st.nextToken().replace('"', ' ').replace('[', ' ').replace(']', ' ').trim());
+if (qualifiedType.indexOf("::") != -1)
+if (topNode == null)
+EClass c1 = (EClass)(o1 instanceof EGenericType ? ((EGenericType)o1).getEClassifier() : o1);
+for (TreeIterator<?> mappings = mappingRoot.treeIterator(); mappings.hasNext(); )
+String initv = roseNode.getInitV();
+EReference eReverseFeature = isReferenceType() ?
+None
+if (buf[0] == '\uFEFF')
+eReference.setTransient(true);
+if (unsettablePrimitive)
+eType = getBasicType(type);
+for (EObject element : roseUtil.typeTable.keySet())
+eType = (EClassifier)tableObj.getObject();
+RoseLoader loader = new RoseLoader(fileName, uriConverter);
+int ind_1 = fileName.lastIndexOf(System.getProperty("file.separator"));
+UnitTreeNode unitTree = null;
+List<RoseNode> subSubNodes = subNode.getNodes();
+public RoseParser(RoseLexer lexer)
+{
+RoseNode subNode = subNodes.get(j);
+Resource resource = resourceSet.createResource(fileURI);
+idStack.push(new Integer(++top));
+} // TypeConverter
+Collection<CommandCreationRecord> commandCreationRecordList = new ArrayList<CommandCreationRecord>();
+EReference ref = EcoreFactory.eINSTANCE.createEReference();
+for (EObject eObject : node.getExtent())
+genPackages.addAll(genPackagesToAdd);
+if (containingNode != null)
+String roseFile = node.getRoseFileName();
+String currentLine = roseLoader.readLine();
+RoseWalker roseWalker = new RoseWalker(modelTree);
+None
+IPath targetRootDirectory = new Path(arguments[index]);
+MappingPackage ePackage = MappingPackage.eINSTANCE;
+} // MappingStrategy
+None
+None
+if (sourceObjects.size() > 0)
+for (Object object : collection)
+None
+copyCommand = new IdentityCommand(inputObjects);
+domain.getMappingRoot().deregister(mapping);
+//return value == null || validate(value, SEGMENT_CHAR_HI, SEGMENT_CHAR_LO, true, true);
+String ownerName = mappingDomain.getName(owner);
+while (o1 != null)
+String href = EcoreUtil.getURI(refObject).toString();
+//return value != null && validate(value, SEGMENT_CHAR_HI, SEGMENT_CHAR_LO, true, true);
+@Override
+private static boolean contains(String s, long highBitmask, long lowBitmask)
+}
+subcommands.appendAndExecute
+for (Object object : collection)
+return absolutePath || (authority == null && device == null);
+}
+if (!siblingsToReparent.isEmpty())
+(new RemoveCommand(domain, parentMapping, MappingPackage.eINSTANCE.getMapping_Nested(), siblingsToReparent));
+subcommands.appendAndExecute
+}
+for (int i = namespaceSize; i > 0; i -= 2)
+(RemoveCommand.create(mappingDomain, mapping, MappingPackage.eINSTANCE.getMapping_Outputs(), object)));
+}
+commandList.add(RemoveCommand.create(mappingDomain, mapping, MappingPackage.eINSTANCE.getMapping_Outputs(), object));
+EClass outputType = (EClass)mappingDomain.getOutputMetaObject(owner.eClass());
+}
+EClass metaObject = owner.eClass();
+MappingRoot mappingRoot = domain.getMappingRoot();
+boolean result = super.prepare();
+Object ownerType = mappingDomain.getTypeClassifier(owner);
+if ((type = this.read()) == T_EOF)  throw this.ex("parser.cc.2", this.offset);
+PersistentCommandStack commandStack = (PersistentCommandStack)domain.getCommandStack();
+if (object instanceof ENamedElement)
+IConfigurationElement topLabelSeparatorAll[] = d.getChildren("top-label-separator");
+private boolean segmentsEqual(URI uri)
+if (!isSameEditingDomainAdapterFactory)
+IItemLabelProvider itemLabelProvider = (IItemLabelProvider)adapterFactory.adapt(object, IItemLabelProvider.class);
+Collection<?> collection = commandParameter.getCollection();
+StringBuffer newString = new StringBuffer();
+private static boolean equals(Object o1, Object o2)
+IConfigurationElement typeMappings[] = d.getChildren("type-mappings");
+StringBuffer newString = new StringBuffer();
+private static boolean equals(String s1, String s2, boolean ignoreCase)
+if (sourceCase == LABEL_MIXED)
+IConfigurationElement topLabelForms[] = d.getChildren("top-label-forms");
+newAbsolutePath = base.hasAbsolutePath() || !hasEmptyPath();
+IConfigurationElement topLabelCaseAll[] = d.getChildren("top-label-case");
+None
+IConfigurationElement bottomLabelForms[] = d.getChildren("bottom-label-forms");
+None
+None
+Cipher keyCipher = Cipher.getInstance(PBE_ALGORITHM);
+if (node.getNodeType() == ASTNode.IMPORT_DECLARATION)
+* @see org.eclipse.emf.ecore.xmi.DOMHelper#getValue(org.w3c.dom.Node)
+None
+return getEcoreClass().isAbstract() || getEcoreClass().isInterface();
+None
+private static int accumulate(String[] stack, int sp, String segment,
+Collection<?> sel = commandParameter.getCollection();
+if (preserveRootParents) stack[sp++] = segment;
+if (SEGMENT_PARENT.equals(stack[sp - 1])) stack[sp++] = segment;
+GenClass baseGenClass = getBaseGenClass();
+if (eTypeParameters != null)
+None
+None
+}
+String quid = modelTree.getRoseId();
+None
+}
+None
+None
+if (nextRemoveIterator == null)
+setSelection(currentViewer.getSelection());
+public boolean isVoid()
+String mapModelInfo = getMapModelInfo(false, true);
+for (EGenericType eTypeArgument : eGenericType.getETypeArguments())
+result = !isBuiltinEDataType(eDataType);
+Class<?> eBoundClass = eBoundEClassifier.getInstanceClass();
+String name = eDataType.getName();
+List<IItemPropertyDescriptor> list = itemDelegator.getPropertyDescriptors(nestedPropertySource);
+EDataType base = getBasicType();
+if (!project.exists())
+None
+return false;
+GenPackage staticGenPackage = null;
+if (staticGenPackage == null)
+setDynamicTemplates(oldGenModelVersion.isDynamicTemplates());
+List<GenFeature> delegated = new ArrayList<GenFeature>();
+if (!delegated.isEmpty())
+if (downCount == 1 && SEGMENT_EMPTY.equals(endPath[endCount - 1]))
+if (upCount + downCount == 0)
+String[] collapseSegments(boolean preserveRootParents)
+if (sp > 0 && (SEGMENT_EMPTY.equals(segments[segmentCount - 1]) ||
+None
+String toString(boolean includeSimpleForm)
+String[] mergedSegments = tailSegments;
+isFeatureMap = isFeatureMap(eStructuralFeature);
+for (GenClass genClass : getGenClasses())
+if (!hierarchical ||
+if (prefix.segmentCount() == 0) return segments;
+Mapping result = this;
+if (i == segments.length - 1 && SEGMENT_EMPTY.equals(segments[i]))
+if (!EcorePackage.eNS_URI.equals(ePackage.getNsURI()) && !GenModelPackage.eNS_URI.equals(ePackage.getNsURI()))
+newField.setRewriter(contextNode.getRewriter());
+if (!copyFeatureMap.add(feature, copyReferencedEObject))
+Object eObject1MappedValue = get(eObject1);
+private static String encode(String value, long highBitmask, long lowBitmask, boolean ignoreEscaped)
+private static boolean isEscaped(String s, int i)
+}
+return true;
+return
