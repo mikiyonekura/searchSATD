@@ -1,0 +1,5 @@
+for (int i = 0; i < attrs.getLength(); i++) {
+String name = test.toString();
+throw new SAXParseException("Unexpected attribute \"" + attrs.getQName(i) + "\"", context.locator);
+private String getFileString(String filename) throws IOException {
+String antFileProp = "ant.file." + context.getCurrentProjectName();

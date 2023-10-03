@@ -1,0 +1,1 @@
+/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/app/src/net/sourceforge/squirrel_sql/client/plugin/IPluginDatabaseObject.java
