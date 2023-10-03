@@ -25,29 +25,46 @@ def process_file(filepath, search_string, sim):
             similarity = difflib.SequenceMatcher(None, search_string, line).ratio()
             if search_string == line or search_string in line:
 
-                for sub_line in lines[line_no:]:
+                # for sub_line in lines[line_no:]:
+                #2行下を抽出するように変更
+                for sub_line_no, sub_line in enumerate(lines[line_no:]):
+
+                    # 次の行が存在するか確認
+                    next_line_index = line_no + sub_line_no + 1
+                    if next_line_index < len(lines):
+                        next_line = lines[next_line_index]
+                    else:
+                        next_line = ""
+
                     if sub_line.strip():
                         local_count += 1
                         result_dict = {
                             "count": local_count,
-                            "result": sub_line.strip(),
+                            "result": sub_line.strip() + " " + next_line.strip(),
                             "line_no": line_no,
                             "similarity": similarity,
                             "filepath": filepath
                         }
-
                         
                         print("predict_string:\n", line, "\n")
                         print("line_no || similarity \n")
                         print(line_no, "||", similarity, "\n")
                         print("filepath:\n", filepath, "\n")
 
-
                         return result_dict
+                    
             elif (line in search_string) and len(line) > 10:
         
-                for sub_line in lines[line_no:]:
-                    #文字列の先頭付近を少し削除(//などの除去に対応するため)
+                # for sub_line in lines[line_no:]:
+                #2行下を抽出するように変更
+                for sub_line_no, sub_line in enumerate(lines[line_no:]):
+
+                    # 次の行が存在するか確認
+                    next_line_index = line_no + sub_line_no + 1
+                    if next_line_index < len(lines):
+                        next_line = lines[next_line_index]
+                    else:
+                        next_line = ""
                     
                     origin_sub_line = sub_line.strip()
                     sub_line = sub_line.strip()
@@ -58,13 +75,12 @@ def process_file(filepath, search_string, sim):
                     sub_line = sub_line[4:]
                     print("frontremoved_sub_line:\n", sub_line, "\n")
 
-
                     if sub_line.strip() and not(sub_line in search_string):
 
                         local_count += 1
                         result_dict = {
                             "count": local_count,
-                            "result": origin_sub_line,
+                            "result": origin_sub_line + " " + next_line.strip(),
                             "line_no": line_no,
                             "similarity": similarity,
                             "filepath": filepath
@@ -122,8 +138,8 @@ if __name__ == '__main__':
             # if count <= 1000:
             #     continue
 
-            if count > 5:
-                break
+            # if count > 5:
+            #     break
 
             print(f"\nーーーーーーーーSearch the target string{count}ーーーーーーーーーーーーーーー\n ")
             print(f"search_string:\n {search_string}\n ")

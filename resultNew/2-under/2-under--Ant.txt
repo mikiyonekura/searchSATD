@@ -1,5 +1,5 @@
-for (int i = 0; i < attrs.getLength(); i++) {
-String name = test.toString();
-throw new SAXParseException("Unexpected attribute \"" + attrs.getQName(i) + "\"", context.locator);
-private String getFileString(String filename) throws IOException {
-String antFileProp = "ant.file." + context.getCurrentProjectName();
+for (int i = 0; i < attrs.getLength(); i++) { String attrUri = attrs.getURI(i);
+String name = test.toString(); int paren = name.lastIndexOf('(');
+throw new SAXParseException("Unexpected attribute \"" + attrs.getQName(i) + "\"", context.locator); }
+private String getFileString(String filename) throws IOException { String result = null;
+String antFileProp = "ant.file." + context.getCurrentProjectName(); String dup = project.getProperty(antFileProp);

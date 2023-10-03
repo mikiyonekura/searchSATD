@@ -81,7 +81,7 @@ filepath:
    /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/main/org/apache/tools/ant/helper/ProjectHelper2.java 
 
 under_code:
-for (int i = 0; i < attrs.getLength(); i++) {
+for (int i = 0; i < attrs.getLength(); i++) { String attrUri = attrs.getURI(i);
  
 
 ーーーーーーーーSearch the target string2ーーーーーーーーーーーーーーー
@@ -112,7 +112,7 @@ filepath:
    /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java 
 
 under_code:
-String name = test.toString();
+String name = test.toString(); int paren = name.lastIndexOf('(');
  
 
 ーーーーーーーーSearch the target string3ーーーーーーーーーーーーーーー
@@ -131,7 +131,7 @@ filepath:
  /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/proposal/embed/src/java/org/apache/tools/ant/helper/ProjectHelperImpl2.java 
 
 under_code:
-throw new SAXParseException("Unexpected attribute \"" + attrs.getQName(i) + "\"", context.locator);
+throw new SAXParseException("Unexpected attribute \"" + attrs.getQName(i) + "\"", context.locator); }
  
 
 ーーーーーーーーSearch the target string4ーーーーーーーーーーーーーーー
@@ -150,7 +150,7 @@ filepath:
  /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/tests/junit/org/apache/tools/ant/taskdefs/ExecTaskTest.java 
 
 under_code:
-private String getFileString(String filename) throws IOException {
+private String getFileString(String filename) throws IOException { String result = null;
  
 
 ーーーーーーーーSearch the target string5ーーーーーーーーーーーーーーー
@@ -169,17 +169,30 @@ filepath:
  /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/main/org/apache/tools/ant/helper/ProjectHelper2.java 
 
 under_code:
-String antFileProp = "ant.file." + context.getCurrentProjectName();
+String antFileProp = "ant.file." + context.getCurrentProjectName(); String dup = project.getProperty(antFileProp);
  
-----------結果5件ヒットしました--------------------------
 
-ans_lists1: for (int i = 0; i < attrs.getLength(); i++) { 
+ーーーーーーーーSearch the target string6ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //Whatisthepropertysupposedtobe?
+ 
+predict_string:
+ //Whatisthepropertysupposedtobe? 
 
-ans_lists2: String name = test.toString(); 
+line_no || similarity 
 
-ans_lists3: throw new SAXParseException("Unexpected attribute \"" + attrs.getQName(i) + "\"", context.locator); 
+220 || 1.0 
 
-ans_lists4: private String getFileString(String filename) throws IOException { 
+filepath:
+ /Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone/src/tests/junit/org/apache/tools/ant/taskdefs/XmlPropertyTest.java 
 
-ans_lists5: String antFileProp = "ant.file." + context.getCurrentProjectName(); 
+under_code:
+propertyValue = propertyValue.substring(3, propertyValue.length());
+ 
 
+ーーーーーーーーSearch the target string7ーーーーーーーーーーーーーーー
+ 
+search_string:
+ //PR:Hackforant-typevalue//anant-typeisacomponentnamewhichcan//benamespaced,needtoextractthename//andconvertfromqualifiednametouri/name
+ 
