@@ -5,7 +5,7 @@ clone_dir = '/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone_rele
 
 # リポジトリをクローンする
 #repo = git.Repo.clone_from('https://github.com/mikiyonekura/chervil-hp.git', clone_dir)
-repo = git.Repo.clone_from('https://github.com/apache/ant.git', clone_dir)
+repo = git.Repo.clone_from('https://github.com/argouml-tigris-org/argouml.git', clone_dir)
 
 tags = repo.tags
 for tag in tags:
