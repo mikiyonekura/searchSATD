@@ -7,9 +7,10 @@ import concurrent.futures
 
 
 clone_dir = '/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone'
-repo_url = 'https://github.com/apache/ant.git'
+repo_url = 'https://github.com/argouml-tigris-org/argouml.git'
 
 #ANT https://github.com/apache/ant.git
+#ArgoUML https://github.com/argouml-tigris-org/argouml.git
 
 global_count = 0
 binary_extensions = [".java"]
@@ -118,15 +119,15 @@ if __name__ == '__main__':
         git.Repo.clone_from(repo_url, clone_dir)
 
     repo = git.Repo(clone_dir)
-    repo.git.checkout('rel/1.7.0')
+    repo.git.checkout('VERSION_0_34')
 
     #ANT rel/1.7.0
-
+    #ArgoUML VERSION_0_34
     #EFM build_200802052000
 
     ans = []
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/datasetNew/data--Ant.txt', 'r') as f:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/datasetNew/data--ArgoUML.txt', 'r') as f:
         count = 0
 
         for line in f:
@@ -157,12 +158,12 @@ if __name__ == '__main__':
 
     print(f"----------結果{global_count}件ヒットしました--------------------------\n")
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/resultNew/2-under/2-under--Ant.txt', 'w') as a:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/resultNew/2-under/2-under--ArgoUML.txt', 'w') as a:
         for idx, (origin_search_string, item, line_no, similarity, filepath) in enumerate(ans):
             print(f"ans_lists{idx+1}:", item, "\n")
             a.write(str(item) + "\n")
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/resultNew/2-under/csv/2-under--Ant.csv', 'w') as b:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/resultNew/2-under/csv/2-under--ArgoUML.csv', 'w') as b:
         b.write("search_string,predict_under_code,line_no,similarity,filepath\n")
         for idx, (origin_search_string, item, line_no, similarity, filepath) in enumerate(ans):
             #ダブルクォートで囲む
