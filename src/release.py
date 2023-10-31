@@ -1,7 +1,7 @@
 import git
 
 # クローンするディレクトリのパス
-clone_dir = '/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone_release'
+clone_dir = '/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/clone-release'
 
 # リポジトリをクローンする
 #repo = git.Repo.clone_from('https://github.com/mikiyonekura/chervil-hp.git', clone_dir)

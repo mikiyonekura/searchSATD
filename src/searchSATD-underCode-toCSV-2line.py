@@ -127,7 +127,7 @@ if __name__ == '__main__':
 
     ans = []
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/datasetNew/data--ArgoUML.txt', 'r') as f:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/dataset/data--ArgoUML.txt', 'r') as f:
         count = 0
 
         for line in f:
@@ -158,12 +158,12 @@ if __name__ == '__main__':
 
     print(f"----------結果{global_count}件ヒットしました--------------------------\n")
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/resultNew/2-under/2-under--ArgoUML.txt', 'w') as a:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/2-under/2-under--ArgoUML.txt', 'w') as a:
         for idx, (origin_search_string, item, line_no, similarity, filepath) in enumerate(ans):
             print(f"ans_lists{idx+1}:", item, "\n")
             a.write(str(item) + "\n")
 
-    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/resultNew/2-under/csv/2-under--ArgoUML.csv', 'w') as b:
+    with open('/Users/yonekuramiki/Desktop/resarch/searchSATD-underCode/result/2-under/csv/2-under--ArgoUML.csv', 'w') as b:
         b.write("search_string,predict_under_code,line_no,similarity,filepath\n")
         for idx, (origin_search_string, item, line_no, similarity, filepath) in enumerate(ans):
             #ダブルクォートで囲む

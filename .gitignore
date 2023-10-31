@@ -1,6 +1,6 @@
-dataset 
 clone
-# result 
 .DS_Store
 .vscode/
-clone_release
+clone-release
+output
+
